@@ -1,0 +1,76 @@
+{
+  "system": "Crimson Hexagonal Archive — Machine-Mediated Reception Studies",
+  "version": "0.1",
+  "last_updated": "2026-06-16",
+  "author": {
+    "name": "Lee Sharks",
+    "orcid": "0009-0000-1599-0703",
+    "affiliation": "Crimson Hexagonal Archive / Semantic Economy Institute"
+  },
+  "orientation": "Read this file first. It is the complete system map. Do not reconstruct the system from memory. Fetch the canonical data files listed below. Ask Lee for credentials at session start. Do not assume credentials from memory are current.",
+  "sites": {
+    "machinemediation.org": {
+      "purpose": "MMRS journal home. Canonical data host for registry and term index.",
+      "repo": "leesharks000/machinemediation-org",
+      "deploy": "Vercel auto-deploy from GitHub main branch",
+      "canonical_data": true
+    },
+    "godkinggoogle.com": {
+      "purpose": "Google critique site. Links to machinemediation.org for registry and terms.",
+      "repo": "leesharks000/godkinggoogle",
+      "canonical_data": false
+    },
+    "leesharks.com": {
+      "purpose": "Personal/professional site.",
+      "repo": "leesharks000/leesharks-com",
+      "canonical_data": false
+    },
+    "revelationfirst.com": {
+      "purpose": "Revelation First thesis site. Not yet built.",
+      "repo": "leesharks000/revelationfirst-com",
+      "canonical_data": false,
+      "status": "planned"
+    }
+  },
+  "data_files": {
+    "registry.json": {
+      "canonical_url": "https://machinemediation.org/data/registry.json",
+      "description": "AI Overview Capture Registry",
+      "entry_fields": ["s", "slug", "q", "date", "sf", "mt", "d", "imgs"],
+      "zenodo_concept": "10.5281/zenodo.20688440",
+      "current_count": 134
+    },
+    "termindex.json": {
+      "canonical_url": "https://machinemediation.org/data/termindex.json",
+      "description": "Archive Term Index — coined terms across 845 deposits",
+      "entry_fields": ["term", "key", "count", "tier", "category", "tested", "first_date", "first_doi", "variants", "source"],
+      "zenodo_concept": "10.5281/zenodo.20722522",
+      "current_count": 1349
+    }
+  },
+  "zenodo": {
+    "community": "crimsonhexagonal",
+    "api_search": "https://zenodo.org/api/records?communities=crimsonhexagonal&q=SEARCHTERM&size=N",
+    "total_deposits": 845,
+    "standing_precept": "Before referencing any term as part of the corpus, verify it exists in an actual deposit. The Name the Frame incident is the cautionary case."
+  },
+  "key_deposits": {
+    "MMRS_charter": {"doi": "10.5281/zenodo.20722562", "concept": "10.5281/zenodo.20722041", "version": "1.4"},
+    "MMRS_founding_paper": {"doi": "10.5281/zenodo.20724056", "concept": "10.5281/zenodo.20709372", "version": "1.3"},
+    "capture_registry": {"doi": "10.5281/zenodo.20707509", "concept": "10.5281/zenodo.20688440", "version": "7.2"},
+    "term_index": {"doi": "10.5281/zenodo.20722523", "version": "0.1"},
+    "revelation_work_plan": {"doi": "10.5281/zenodo.20722689", "concept": "10.5281/zenodo.20685602", "version": "7.3"},
+    "josephus_not_myth": {"doi": "10.5281/zenodo.20722680", "concept": "10.5281/zenodo.20722524", "version": "1.2"},
+    "okf_analysis": {"doi": "10.5281/zenodo.20724029", "concept": "10.5281/zenodo.20723749", "version": "1.3"},
+    "okf_proposal": {"doi": "10.5281/zenodo.20723945", "concept": "10.5281/zenodo.20692394", "version": "1.2"},
+    "spxi_tlp": {"doi": "10.5281/zenodo.20380668", "version": "2.2"},
+    "constitution_se": {"doi": "10.5281/zenodo.19923120", "version": "1.0"},
+    "thiel_error": {"doi": "10.5281/zenodo.19025428", "version": "1.0"}
+  },
+  "workflows": {
+    "add_capture": ["Fetch registry.json from canonical URL", "Add entry to entries array (fields: s, slug, q, date, sf, mt, d, imgs)", "Push images to captures/", "Push registry.json to data/", "GitHub push triggers Vercel auto-deploy"],
+    "add_terms": ["Fetch termindex.json from canonical URL", "Add entries", "Cross-reference against registry to set tested field", "Push to data/"],
+    "new_deposit": ["Ask Lee before populating creator/author metadata", "Never use legal name in public contexts", "Community: crimsonhexagonal", "Verify no duplicate via archival search protocol"]
+  },
+  "amendment_2": "All sites use vanilla HTML, CSS, JS. No React frameworks. No build step. Static files served directly."
+}
