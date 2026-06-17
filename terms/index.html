@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Term Index — Machine-Mediated Reception Studies</title>
+<style>
+:root { --bg: #0a0a0a; --fg: #e0ddd5; --accent: #c23b22; --accent2: #d4a537; --dim: #666; --border: #222; --hover: #151515; --tested: #2a7a3a; --untested: #555; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'IBM Plex Mono', 'Courier New', monospace; background: var(--bg); color: var(--fg); line-height: 1.5; }
+.c { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.nav { margin-bottom: 20px; font-size: 0.8em; }
+.nav a { color: var(--accent2); text-decoration: none; margin-right: 15px; }
+h1 { font-size: 1.3em; color: var(--accent); margin-bottom: 4px; letter-spacing: 0.05em; }
+.sub { color: var(--dim); font-size: 0.82em; margin-bottom: 20px; }
+.stats { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 15px; font-size: 0.78em; }
+.stat { border: 1px solid var(--border); padding: 6px 12px; }
+.stat-l { color: var(--dim); font-size: 0.72em; text-transform: uppercase; }
+.stat-v { font-size: 1.2em; color: var(--accent2); }
+.ctl { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+.ctl input, .ctl select { background: #111; color: var(--fg); border: 1px solid var(--border); padding: 5px 8px; font-family: inherit; font-size: 0.78em; }
+.ctl input { flex: 1; min-width: 180px; }
+.fc { color: var(--dim); font-size: 0.72em; }
+table { width: 100%; border-collapse: collapse; font-size: 0.76em; }
+th { text-align: left; padding: 7px 5px; border-bottom: 2px solid var(--accent); color: var(--accent); cursor: pointer; white-space: nowrap; }
+td { padding: 5px; border-bottom: 1px solid var(--border); }
+tr:hover td { background: var(--hover); }
+.tb { display: inline-block; width: 17px; height: 17px; text-align: center; line-height: 17px; font-size: 0.68em; font-weight: bold; border-radius: 2px; }
+.t1 { background: var(--accent); color: white; } .t2 { background: var(--accent2); color: black; }
+.t3 { background: #4a8bc2; color: white; } .t4,.t5 { background: #777; color: white; }
+.ty { color: var(--tested); } .tn { color: var(--untested); }
+.tn-name { font-weight: bold; }
+.cat { font-size: 0.68em; color: var(--dim); border: 1px solid var(--border); padding: 1px 4px; border-radius: 2px; }
+a { color: var(--accent2); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="c">
+<div class="nav"><a href="/">← machinemediation.org</a> <a href="/captures/">Captures</a> <a href="/terms/">Terms</a></div>
+<h1>TERM INDEX</h1>
+<div class="sub">EA-REGISTRY-TERMINDEX-01 · 845 deposits · Lee Sharks · ORCID 0009-0000-1599-0703</div>
+<div class="stats" id="stats"></div>
+<div class="ctl">
+<input type="text" id="search" placeholder="Search terms...">
+<select id="tierF"><option value="">All tiers</option><option value="1">Tier 1</option><option value="2">Tier 2</option><option value="3">Tier 3</option><option value="4">Tier 4+</option></select>
+<select id="catF"><option value="">All categories</option><option value="concept">concept</option><option value="operator">operator</option><option value="metric">metric</option><option value="heteronym">heteronym</option><option value="institution">institution</option><option value="journal">journal</option><option value="work">work</option><option value="uncategorized">uncategorized</option></select>
+<select id="testF"><option value="">All</option><option value="y">✓ Tested</option><option value="n">◯ Untested</option></select>
+<span class="fc" id="fc"></span>
+</div>
+<table><thead><tr><th data-s="tier">T</th><th data-s="term">Term</th><th data-s="count">#</th><th data-s="category">Cat</th><th data-s="tested">Test</th><th data-s="first_date">First</th></tr></thead><tbody id="tb"></tbody></table>
+</div>
+<script>
+let D,sc='tier',sa=true;
+async function init(){const r=await fetch('/data/termindex.json');D=await r.json();
+document.getElementById('stats').innerHTML=`<div class="stat"><div class="stat-l">Terms</div><div class="stat-v">${D.total_terms}</div></div><div class="stat"><div class="stat-l">Tested</div><div class="stat-v">${D.tested_count}</div></div><div class="stat"><div class="stat-l">Untested</div><div class="stat-v">${D.untested_count}</div></div><div class="stat"><div class="stat-l">Tier 1</div><div class="stat-v">${D.tiers['1']}</div></div>`;
+ren();['search','tierF','catF','testF'].forEach(id=>document.getElementById(id).addEventListener(id==='search'?'input':'change',ren));
+document.querySelectorAll('th[data-s]').forEach(th=>th.onclick=()=>{const c=th.dataset.s;if(sc===c)sa=!sa;else{sc=c;sa=true;}ren();});}
+function ren(){const s=document.getElementById('search').value.toLowerCase(),tf=document.getElementById('tierF').value,cf=document.getElementById('catF').value,xf=document.getElementById('testF').value;
+let e=D.entries.filter(e=>{if(s&&!e.term.toLowerCase().includes(s)&&!e.key.includes(s))return false;if(tf){if(tf==='4'&&e.tier<4)return false;if(tf!=='4'&&e.tier!==parseInt(tf))return false;}if(cf&&e.category!==cf)return false;if(xf==='y'&&!e.tested)return false;if(xf==='n'&&e.tested)return false;return true;});
+e.sort((a,b)=>{let va=a[sc],vb=b[sc];if(typeof va==='string')va=va.toLowerCase();if(typeof vb==='string')vb=vb.toLowerCase();return va<vb?(sa?-1:1):va>vb?(sa?1:-1):0;});
+document.getElementById('fc').textContent=`${e.length} of ${D.total_terms}`;
+document.getElementById('tb').innerHTML=e.slice(0,500).map(e=>`<tr><td><span class="tb t${e.tier}">${e.tier}</span></td><td class="tn-name">${esc(e.term)}</td><td>${e.count}</td><td><span class="cat">${e.category}</span></td><td class="${e.tested?'ty':'tn'}">${e.tested?'✓':'◯'}</td><td style="color:var(--dim);font-size:0.85em">${e.first_date?e.first_date.slice(0,10):''}</td></tr>`).join('');}
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+init();
+</script>
+</body>
+</html>
