@@ -54,7 +54,7 @@ a { color: var(--accent2); text-decoration: none; }
 </div>
 <div class="modal" id="modal" onclick="this.classList.remove('active')"><img id="modalImg"></div>
 <script>
-const IMG_BASE = 'https://godkinggoogle.com/captures/';
+const IMG_BASE = 'https://godkinggoogle.vercel.app/captures/';
 let D;
 async function init() {
   const r = await fetch('/data/registry.json');
@@ -86,7 +86,7 @@ function ren() {
       </div>
       <div><span class="card-cat">${e.s}</span>${e.mt ? `<span class="card-mt">${e.mt}</span>` : ''} <span style="color:var(--dim);font-size:0.68em">${e.sf || ''}</span></div>
       <div class="card-desc">${esc(e.d || '')}</div>
-      ${(e.imgs || []).length ? `<div class="card-imgs">${e.imgs.map(img => `<img src="${IMG_BASE}${img}" alt="${img}" onclick="event.stopPropagation();document.getElementById('modalImg').src=this.src;document.getElementById('modal').classList.add('active');" loading="lazy">`).join('')}</div>` : ''}
+      ${(e.imgs || []).length ? `<div class="card-imgs">${e.imgs.map(img => { const s = typeof img === "string" ? img : img.src; const a = typeof img === "string" ? img : (img.label||img.src); return `<img src="${IMG_BASE}${s}" alt="${a}" title="${a}" onclick="event.stopPropagation();document.getElementById('modalImg').src=this.src;document.getElementById('modal').classList.add('active');" loading="lazy" onerror="this.style.display='none'">`; }).join('')}</div>` : ''}
     </div>
   `).join('');
 }
