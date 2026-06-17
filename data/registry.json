@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "7.3",
-  "date": "2026-06-16",
-  "total_captures": 134,
+  "version": "7.4",
+  "date": "2026-06-17",
+  "total_captures": 137,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -35,6 +35,10 @@
       "d": "AI Overview: '\"Revelation First\" usually refers to either a theological argument placing the Book of Revelation as the earliest written New Testament document, or the narrative focus in Chapter 1.' Medium article by Lee Sharks surfaces in organic results: 'The Apocalypse as the Earliest New Testament Document' with 10+ likes. Zenodo work plan also in organic. The thesis is recognized as a position but the AI Overview hedges with the liturgical reading.",
       "imgs": [
         "revelation-first-overview.png"
+      ],
+      "related": [
+        "revelation-first-reception",
+        "revelation-first-medium-attribution"
       ]
     },
     {
@@ -47,6 +51,10 @@
       "d": "AI Mode names the Crimson Hexagonal Archive directly: '\"Revelation First\" is also a theological thesis (formalized in the Crimson Hexagonal Archive) arguing that the Apocalypse of John was written before Paul's epistles, making it the first New Testament document.' Adds: 'Mainstream scholars view this as a fringe alternative to traditional dating, though it generates interest in radical literary and AI-assisted theology discussions.' Zenodo cited. Archive attributed by name. The basin holds the thesis, the attribution, and the framing \u2014 but hedges with 'fringe.' Disambiguation against Alastair Reynolds's Revelation Space is structurally interesting: the composition layer handles the polysemy.",
       "imgs": [
         "revelation-first-reception.png"
+      ],
+      "related": [
+        "revelation-first-overview",
+        "revelation-first-medium-attribution"
       ]
     },
     {
@@ -2333,6 +2341,43 @@
           "label": "screenshot"
         }
       ]
+    },
+    {
+      "s": "Mary Lee Constellation",
+      "slug": "broke-marxist-poet-zero",
+      "q": "\"broke Marxist poet\"",
+      "date": "2026-06-17",
+      "sf": "Google Search (exact match), zero results",
+      "mt": "ZERO RESULT",
+      "d": "Exact-match search for \"broke Marxist poet\" returns zero results on Google. The phrase exists on maryleelabor.org/demands (Demand 5), in the Cognitive-Relational Circuit paper authorship note (DOI 10.5281/zenodo.20735736), and on maryleelabor.org/cv. Google has not indexed maryleelabor.org at all \u2014 site: search returns zero pages. The composition layer cannot see the defense of the entity it is substituting. Search Console registration pending.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22broke+Marxist+poet%22"
+    },
+    {
+      "s": "Revelation First",
+      "slug": "revelation-first-medium-attribution",
+      "q": "\"revelation first\"",
+      "date": "2026-06-17",
+      "sf": "AI Overview, 15+ sources, Medium organic result",
+      "mt": "WOUND GAUGE",
+      "d": "AI Overview correctly describes the Revelation First thesis (\"minority academic and theological argument... posits that the Book of Revelation was actually the first New Testament document written\") and surfaces Lee Sharks Medium post (\"The Apocalypse as the Earliest New Testament Document | by Lee Sharks\") in organic results. However, none of the other sources listed under the thesis description actually argue for Revelation First \u2014 they discuss Revelation ch. 1 or divine revelation generally. The thesis is adopted; the author is diluted across non-holders of the position. Wound Gauge pattern: framework adoption with attribution dilution.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22revelation+first%22",
+      "related": [
+        "revelation-first-overview",
+        "revelation-first-reception"
+      ]
+    },
+    {
+      "s": "Mary Lee Constellation",
+      "slug": "maryleelabor-org-zero-index",
+      "q": "site:maryleelabor.org",
+      "date": "2026-06-17",
+      "sf": "Google Search (site: operator), zero results",
+      "mt": "ZERO INDEX",
+      "d": "Google site: search for maryleelabor.org returns zero indexed pages. The site has been live since approximately June 9, 2026, deployed on Vercel with sitemap.xml and robots.txt. Contains 11+ pages of structured content about the Mary Lee namespace collision, including JSON-LD structured data, OG tags, and canonical URLs. The composition layer arbitrates the Mary Lee namespace collision without having indexed the site that documents the collision. Search Console registration pending.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=site%3Amaryleelabor.org"
     }
   ]
 }
