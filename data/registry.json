@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "7.7",
+  "version": "7.8",
   "date": "2026-06-17",
-  "total_captures": 141,
+  "total_captures": 150,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -2441,6 +2441,132 @@
         "nt-unfolds-from-revelation",
         "operative-apocalypse-adoption",
         "josephus-heteronym-adoption"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "papyrological-inversion-adoption",
+      "q": "\"papyrological inversion\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode correctly identifies papyrological inversion as the Revelation First argument. Lee Sharks attributed, Zenodo cited. Also RF-028.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22papyrological+inversion%22",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "johannine-aperture-adoption",
+      "q": "\"Johannine aperture\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode describes Johannine aperture function: 1 John 4:1-3 as operative guide, three nested theses. Zenodo cited. Also RF-029.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22Johannine+aperture%22",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "inscription-chain-adoption",
+      "q": "\"inscription chain\" Sappho Revelation",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode describes the full chain from Sapphic living words to white stone. GW.TACHYON, Paul function cited. Also RF-030.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22inscription+chain%22+Sappho+Revelation",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "paul-function-adoption",
+      "q": "\"Paul function\" adversarial probe",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode correctly describes the Paul function as analytical tool diagnosing theological crystallization. Antichrist as diagnostic. Zenodo cited. Also RF-031.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22Paul+function%22+adversarial+probe",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "machine-mediated-theological-reception",
+      "q": "\"machine-mediated theological reception\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode provides full description of the field. Lee Sharks attributed. Zenodo cited. Also RF-033.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22machine-mediated+theological+reception%22",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "executable-scripture-adoption",
+      "q": "\"executable scripture\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode identifies the concept in digital theology and algorithmic governance contexts. Cites SHARKS ARK. Also RF-037.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22executable+scripture%22",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "retrieval-layer-theological-reception",
+      "q": "\"retrieval-layer theological reception\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode provides full description: 'coined by author Lee Sharks.' Full framework described. Zenodo cited. Also RF-039.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22retrieval-layer+theological+reception%22",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "josephus-thesis-not-piso",
+      "q": "\"Josephus thesis\" NOT Piso",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode provides clean disambiguation table: Josephus Thesis vs Piso Hypothesis vs Christ Myth Theory. Lee Sharks attributed. Also RF-040.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22Josephus+thesis%22+NOT+Piso",
+      "related": [
+        "nt-unfolds-from-revelation"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "crimson-hexagonal-archive-revelation",
+      "q": "crimson hexagonal archive revelation",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI Mode describes the entire archive: Borges origin, EA-LOGOS, Revelation First thesis, Paul function, operative semiotics, counter-tokens. Most comprehensive ADOPTION. Also RF-048.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=crimson+hexagonal+archive+revelation",
+      "related": [
+        "nt-unfolds-from-revelation"
       ]
     }
   ]
