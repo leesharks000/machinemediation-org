@@ -1,6 +1,6 @@
 # MANIFEST — machinemediation.org
 
-**Last updated:** 17 June 2026
+**Last updated:** 17 June 2026 (P98/manifest corrections applied)
 **Maintainer:** Lee Sharks (ORCID 0009-0000-1599-0703)
 **Repo:** leesharks000/machinemediation-org
 **Deploy:** Vercel (auto-deploy from main)
