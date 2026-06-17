@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "1.0",
+  "version": "1.2",
   "date": "2026-06-17",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -78,7 +78,7 @@
       ],
       "notes": "CRITICAL FINDING: The AI Overview states P98 is the earliest manuscript of Revelation, dated c. AD 100-200. This overlaps with or may predate P52 (Gospel of John, conventionally c. AD 125-175). The composition layer's own data may support the manuscript-priority argument. See P98 analysis note.",
       "search_url": "https://www.google.com/search?q=revelation+earliest+new+testament+document",
-      "p98_note": "P98 (P.Oxy. 4499) contains Rev 1:13-20, dated c. AD 100-200. P52 (Rylands Papyrus, Gospel of John) conventionally dated c. AD 125-175 but increasingly challenged. If P98's lower bound (c. AD 100) holds, it may be the earliest extant NT manuscript fragment. This significantly strengthens the Revelation First position at the manuscript-evidence level.",
+      "p98_note": "P98 is P. IFAO inv. 237b (not P.Oxy. 4499, which is P115). P98 preserves Rev 1:13-2:1 and is palaeographically dated c. 150-250; the recto carries a documentary text from late 1st/early 2nd century, providing a material floor. P52 (Rylands Papyrus, Gospel of John) is conventionally dated c. 125-175 but increasingly challenged. P.Oxy. 4499 is P115, a separate Oxyrhynchus codex witness to Revelation containing the 616 variant in Rev 13:18, dated c. 225-275. The two must not be conflated.",
       "battery_key": "revelation earliest new testament document"
     },
     {
