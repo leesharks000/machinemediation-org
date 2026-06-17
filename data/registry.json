@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "7.6",
+  "version": "7.7",
   "date": "2026-06-17",
-  "total_captures": 140,
+  "total_captures": 141,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -2425,6 +2425,22 @@
       "related": [
         "nt-unfolds-from-revelation",
         "revelation-first-medium-attribution"
+      ]
+    },
+    {
+      "s": "Revelation First",
+      "slug": "white-stone-heteronym-adoption",
+      "q": "\"white stone\" heteronym Revelation",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo deposits cited (Inscription That Survives, Revelation First work plan)",
+      "mt": "ADOPTION",
+      "d": "AI Mode connects Pessoa's heteronyms to the white stone of Revelation 2:17 via the archive's deposits. Describes the white stone as a 'heteronymic identity token' and 'inscribed credential.' Cites Zenodo records directly. The inscription chain (Sappho \u2192 Orphic \u2192 PGM \u2192 Chaldean \u2192 Revelation) has entered the composition layer's structural understanding. Also in Revelation Reception Registry (RF-027).",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22white+stone%22+heteronym+Revelation",
+      "related": [
+        "nt-unfolds-from-revelation",
+        "operative-apocalypse-adoption",
+        "josephus-heteronym-adoption"
       ]
     }
   ]
