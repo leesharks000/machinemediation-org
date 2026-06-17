@@ -59,7 +59,7 @@ function ren(){const s=document.getElementById('search').value.toLowerCase(),tf=
 let e=D.entries.filter(e=>{if(s&&!e.term.toLowerCase().includes(s)&&!e.key.includes(s))return false;if(tf){if(tf==='4'&&e.tier<4)return false;if(tf!=='4'&&e.tier!==parseInt(tf))return false;}if(cf&&e.category!==cf)return false;if(xf==='y'&&!e.tested)return false;if(xf==='n'&&e.tested)return false;return true;});
 e.sort((a,b)=>{let va=a[sc],vb=b[sc];if(typeof va==='string')va=va.toLowerCase();if(typeof vb==='string')vb=vb.toLowerCase();return va<vb?(sa?-1:1):va>vb?(sa?1:-1):0;});
 document.getElementById('fc').textContent=`${e.length} of ${D.total_terms}`;
-document.getElementById('tb').innerHTML=e.slice(0,500).map(e=>`<tr><td><span class="tb t${e.tier}">${e.tier}</span></td><td class="tn-name">${esc(e.term)}</td><td>${e.count}</td><td><span class="cat">${e.category}</span></td><td class="${e.tested?'ty':'tn'}">${e.tested?'✓':'◯'}</td><td style="color:var(--dim);font-size:0.85em">${e.first_date?e.first_date.slice(0,10):''}</td></tr>`).join('');}
+document.getElementById('tb').innerHTML=e.slice(0,500).map(e=>`<tr><td><span class="tb t${e.tier}">${e.tier}</span></td><td class="tn-name"><a href="https://www.google.com/search?q=%22${encodeURIComponent(e.term)}%22" target="_blank" rel="noopener" title="Search Google">${esc(e.term)}</a></td><td>${e.count}</td><td><span class="cat">${e.category}</span></td><td class="${e.tested?'ty':'tn'}">${e.tested?'✓':'◯'}</td><td style="color:var(--dim);font-size:0.85em">${e.first_date?e.first_date.slice(0,10):''}</td></tr>`).join('');}
 function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
 init();
 </script>
