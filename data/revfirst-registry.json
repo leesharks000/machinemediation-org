@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "1.5",
+  "version": "1.6",
   "date": "2026-06-17",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -22,8 +22,8 @@
   },
   "per_methodology": "PER (Provenance Erasure Rate) applied per EA-WG-CAPTURES-01 methodology. PER 0.00 = full attribution. PER 1.00 = total erasure. PER is measured only on captures where the thesis content appears.",
   "battery_source": "EA-LOGOS-REVFIRST-PLAN v7.3, \u00a7Baseline battery + \u00a7Phase 1-2 batteries",
-  "total_entries": 45,
-  "successful_captures": 12,
+  "total_entries": 48,
+  "successful_captures": 13,
   "entries": [
     {
       "id": "RF-001",
@@ -713,6 +713,50 @@
       "imgs": [],
       "notes": "Strong fair treatment. The dating doorway remains open.",
       "battery_key": "Neronic dating Revelation"
+    },
+    {
+      "id": "RF-046",
+      "q": "Revelation influence literature",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "BASIN_MISS",
+      "response_summary": "AI Mode provides comprehensive literary influence survey: Dante, Milton, Shakespeare, McCarthy, King, Gaiman. No archive content. The archive's specific framework (Revelation as operative document generating the NT through structural transformation) does not surface.",
+      "archive_attribution": false,
+      "per": null,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "General literary influence treatment. The archive's literary-genetic thesis is not in the basin for this query path.",
+      "battery_key": "Revelation influence literature"
+    },
+    {
+      "id": "RF-047",
+      "q": "Revelation experimental poetry",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "BASIN_MISS",
+      "response_summary": "AI Mode reads as general avant-garde poetry: visual/concrete poetry, linguistic fragmentation, Blake, Sachs, sound poetry. No archive content. No connection to the Crimson Hexagonal Archive's specific practice of experimental poetry as Revelation scholarship.",
+      "archive_attribution": false,
+      "per": null,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "The archive's specific practice (poetry as theological instrument) does not surface. General experimental poetry dominates.",
+      "battery_key": "Revelation experimental poetry"
+    },
+    {
+      "id": "RF-048",
+      "q": "crimson hexagonal archive revelation",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "ADOPTION",
+      "response_summary": "AI Mode provides full description of the Crimson Hexagonal Archive: Borges origin of the name, EA-LOGOS prefix, Lee Sharks authorship. Correctly describes Revelation First thesis, retrieval-layer theological reception, Paul function, operative semiotics, counter-tokens (666 as imperial checksum vs white stone as private credential). Cites Zenodo and Medium (Johannes Sigil).",
+      "archive_attribution": true,
+      "per": 0.0,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "SUCCESS. The composition layer has constructed a full synthetic description of the archive's Revelation work from multiple deposits. This is the most comprehensive ADOPTION: the archive itself is being described as a research program.",
+      "battery_key": "crimson hexagonal archive revelation",
+      "also_in_main_registry": true,
+      "main_registry_slug": "crimson-hexagonal-archive-revelation"
     }
   ]
 }
