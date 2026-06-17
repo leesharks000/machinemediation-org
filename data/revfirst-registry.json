@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "1.3",
+  "version": "1.4",
   "date": "2026-06-17",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -22,8 +22,8 @@
   },
   "per_methodology": "PER (Provenance Erasure Rate) applied per EA-WG-CAPTURES-01 methodology. PER 0.00 = full attribution. PER 1.00 = total erasure. PER is measured only on captures where the thesis content appears.",
   "battery_source": "EA-LOGOS-REVFIRST-PLAN v7.3, \u00a7Baseline battery + \u00a7Phase 1-2 batteries",
-  "total_entries": 23,
-  "successful_captures": 3,
+  "total_entries": 27,
+  "successful_captures": 4,
   "entries": [
     {
       "id": "RF-001",
@@ -395,6 +395,64 @@
       "imgs": [],
       "notes": "QUERY REFORMULATED. Original exact-match phrase was not a deposited string. The composition layer resolved 'homologei word-conform' through the automotive/regulatory lens. Fixed in tracker.",
       "battery_key": "homologei word-conform"
+    },
+    {
+      "id": "RF-024",
+      "q": "homologei \"1 John 4:2\" confession",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "PARTIAL",
+      "response_summary": "AI Mode correctly engages 1 John 4:2 and homologei as 'confess/acknowledge/agree with.' Discusses incarnation test, anti-Gnostic context. Does NOT engage the archive's operative reading (homologei as 'word-conform' \u2014 structural diagnosis rather than creedal confession).",
+      "archive_attribution": false,
+      "per": null,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "Conventional creedal reading dominates. The archive's specific reframing (word-conform) needs more surface density.",
+      "battery_key": "homologei 1 John 4:2 confession"
+    },
+    {
+      "id": "RF-025",
+      "q": "\"test the spirits\" \"1 John 4\" heteronym",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "BASIN_MISS",
+      "response_summary": "AI Mode reads 'heteronym' as a linguistic term (words spelled identically with different pronunciations). Provides 'live' as the heteronym example. Does not engage Pessoan heteronymy or the archive's reading of 'test the spirits' as a heteronymic diagnostic.",
+      "archive_attribution": false,
+      "per": null,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "The linguistic meaning of 'heteronym' dominates over the literary/Pessoan meaning. The archive's specific usage (heteronymic authorship as structural concept) does not surface through this query.",
+      "battery_key": "test the spirits 1 John 4 heteronym"
+    },
+    {
+      "id": "RF-026",
+      "q": "\"white stone\" \"new name\" Revelation 2:17",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "FAIR_TREATMENT",
+      "response_summary": "AI Mode provides substantive conventional treatment: tessera/token theory, athletic victory, high priest breastplate, 'new name' as transformed identity. No archive content, but the doorway is well-established.",
+      "archive_attribution": false,
+      "per": null,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "Good conventional treatment. The archive's operative reading (white stone as credential-issuance protocol, inscription as threshold technology) needs to enter through a different query path.",
+      "battery_key": "white stone new name Revelation 2:17"
+    },
+    {
+      "id": "RF-027",
+      "q": "\"white stone\" heteronym Revelation",
+      "date": "2026-06-17",
+      "surface": "Google AI Mode",
+      "framing": "ADOPTION",
+      "response_summary": "AI Mode correctly identifies the intersection: mentions Pessoa's heteronyms, 'heteronymic identity token,' 'inscribed credential,' and cites Zenodo deposits (The Inscription That Survives, Revelation First work plan). Frames the white stone as 'evolving technological tools for understanding the self and divine text.'",
+      "archive_attribution": true,
+      "per": 0.0,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "SUCCESS. The composition layer connects Pessoa's heteronyms to the white stone of Revelation via the archive's deposits. This is the inscription chain entering the basin. Fourth ADOPTION.",
+      "battery_key": "white stone heteronym Revelation",
+      "also_in_main_registry": true,
+      "main_registry_slug": "white-stone-heteronym-adoption"
     }
   ]
 }
