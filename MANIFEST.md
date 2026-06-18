@@ -1,6 +1,6 @@
 # MANIFEST — machinemediation.org
 
-**Last updated:** 17 June 2026 (full architecture overhaul — dynamic sites, two registries, 79-term battery, transcript recording)
+**Last updated:** 18 June 2026 (full architecture overhaul — dynamic sites, two registries, 79-term battery, transcript recording)
 **Maintainer:** Lee Sharks (ORCID 0009-0000-1599-0703)
 **Repo:** leesharks000/machinemediation-org
 **Deploy:** Vercel (auto-deploy from main)
@@ -13,8 +13,9 @@ machinemediation.org is the web surface for **Machine-Mediated Reception Studies
 
 ### Pages
 - `/` — Index. Links to founding documents, instruments, articles, workstreams. Displays capture count dynamically.
-- `/captures/` — AI Overview Capture Registry gallery. **Dynamic page (5.9K)** fetching from `/data/registry.json`. Images hosted on godkinggoogle.vercel.app/captures/.
-- `/terms/` — Term Index (1,349 coined terms, all clickable as Google exact-match searches).
+- `/captures/` — AI Overview Capture Registry gallery.
+- `/pillars/` — Interactive scholarly graph (vanilla JS + SVG). Fetches from `/data/scholarly-graph.json`. Six corpora, filterable by pillar. **Dynamic page (5.9K)** fetching from `/data/registry.json`. Images hosted on godkinggoogle.vercel.app/captures/.
+- `/terms/` — Term Index (1,387 coined terms, all clickable as Google exact-match searches).
 - `/articles/` — Published papers.
 
 ### Data Files (`/data/`)
@@ -44,7 +45,7 @@ When a Revelation battery query produces an ADOPTION with archive attribution:
 3. Both entries cross-reference each other.
 
 ### Other Data Files
-- `termindex.json` — Term Index (1,349 terms with tier, category, test status).
+- `termindex.json` — Term Index (1,387 terms with tier, category, test status).
 
 ## The Three-Site Architecture
 
