@@ -80,6 +80,32 @@ Terms that exist independently in other literatures (e.g., "generative monocultu
 
 ## Recording Protocol for Future Instances
 
+### CRITICAL: When Lee pastes capture transcripts, LOG THE FULL TEXT IMMEDIATELY
+
+**THIS IS THE #1 PRIORITY. DO NOT SUMMARIZE FIRST. RECORD FIRST.**
+
+When Lee pastes a transcript from a composition-layer search result, the FIRST action — before classification, before analysis, before any response — is to record the FULL VERBATIM TEXT in the registry entry's `transcript` field. Not a summary. Not a classification. The exact text Lee pasted.
+
+**The order of operations is:**
+1. **RECORD** the full transcript text in the `transcript` field of the registry entry
+2. **THEN** classify the framing (CORRECTION, ADOPTION, etc.)
+3. **THEN** write a short `response_summary`
+4. **THEN** push to the registry
+5. **THEN** respond to Lee
+
+**Why this matters:** On 17 June 2026, an entire session's worth of transcripts (59 out of 71 captures) were lost because Claude wrote summaries instead of recording the verbatim text. Lee pasted them specifically so they would be recorded. They were classified and summarized but the actual text — the forensic evidence — was not stored. The summaries contained at least one error (generative monoculture false ADOPTION). The transcripts would have caught it. Do not repeat this mistake.
+
+**What gets recorded per capture (in this exact order of priority):**
+1. `transcript` — FULL VERBATIM TEXT of the composition layer's response, exactly as Lee pasted it. This is the primary data. Everything else is derived from it.
+2. `sources_cited` — extract the URLs and source names from the transcript
+3. `framing` — classification (CORRECTION / ADOPTION / FAIR_TREATMENT / BASIN_MISS / PARTIAL)
+4. `archive_attribution` — boolean: did the response cite Zenodo, Medium/Lee Sharks, or other archive sources?
+5. `response_summary` — short summary (SECONDARY — derived from the transcript, not a substitute for it)
+6. `imgs` — screenshot filenames if available
+7. `date`, `surface`, `battery_key` — metadata
+
+**If context window is a concern:** Store transcripts in batches. Push after every 5-10 captures. Do not wait until the end of the session. Data that isn't pushed is data that can be lost to compaction.
+
 ### When Lee brings capture transcripts:
 1. **Record the full verbatim transcript** — not just a summary. The transcript is the forensic evidence. Claude's summaries can be wrong (see: generative monoculture false ADOPTION, corrected 17 June 2026).
 2. Classify the framing: CORRECTION, ADOPTION, FAIR_TREATMENT, BASIN_MISS, PARTIAL.
