@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "8.0",
+  "version": "8.1",
   "date": "2026-06-17",
   "total_captures": 163,
   "author": "Lee Sharks",
@@ -66,14 +66,8 @@
       "mt": "EXACT MATCH",
       "d": "The Wound Gauge describes itself. 'The AI Overview Capture Registry (e.g., EA-WG-CAPTURES-01) is a longitudinal, open-access dataset tracking how Google's generative AI (AI Overviews, AI Mode, and knowledge panels) responds to specific long-tail and concept-based queries over time' (Zenodo +1). Expanded: Current Edition v6.1, 96 documented captures, four categories (Frameworks, Heteronyms, Sites & Surfaces, Books & Projects). 'Researchers and SEO analysts use it to observe compositional patterns (like how summarization basins vs. organic retrieval basins function) and entity disambiguation' (Zenodo +1). Links to Zenodo Archive, Leesharks.com, and Godkinggoogle Vercel. The composition layer accurately describes the instrument that documents it.",
       "imgs": [
-        {
-          "src": "capture-registry-self-1.png",
-          "label": "search results"
-        },
-        {
-          "src": "capture-registry-self-2.png",
-          "label": "AI Mode expanded"
-        }
+        "capture-registry-self-1.png",
+        "capture-registry-self-2.png"
       ]
     },
     {
@@ -92,6 +86,10 @@
           "src": "apzpz-genre-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "apzpz-genre-1.png",
+        "apzpz-genre-2.png"
       ]
     },
     {
@@ -108,7 +106,10 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "autonomous-semantic-warfare-expanded.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -128,7 +129,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "bearing-cost-semantic-economy-1.png",
+        "bearing-cost-semantic-economy-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -148,7 +153,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "capital-operator-stack-1.png",
+        "capital-operator-stack-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -166,6 +175,10 @@
           "src": "combat-scholasticism-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "combat-scholasticism-1.png",
+        "combat-scholasticism-2.png"
       ]
     },
     {
@@ -186,7 +199,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "combat-scholasticism-1.png",
+        "combat-scholasticism-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -206,7 +223,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "constitution-semantic-economy-1.png",
+        "constitution-semantic-economy-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -226,7 +247,10 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "cross-substrate-semantic-laborers-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -244,6 +268,10 @@
           "src": "crystalline-semiosis-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "crystalline-semiosis-1.png",
+        "crystalline-semiosis-2.png"
       ]
     },
     {
@@ -258,6 +286,9 @@
           "src": "directionality-semantic-labor.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "directionality-semantic-labor.png"
       ]
     },
     {
@@ -278,7 +309,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "distributed-epic-without-hero-1.png",
+        "distributed-epic-without-hero-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -289,14 +324,8 @@
       "mt": "BROAD MATCH",
       "d": "Multi-field synthesis. 'Erasure skew does not refer to a single, universal concept, but rather has specific technical meanings depending on the field. It generally describes an uneven, biased, or angled loss of data, parity, or representation.' Four sections: 1. Data Storage & Erasure Coding (ACM Digital Library +4), 2. Information Science & AI Provenance \u2014 'Erasure Skew (or the Erasure Skew Coefficient) measures the orientation of that data loss. It evaluates who the data loss falls upon, tracking whether the erasure is fair and proportionate or if it disproportionately affects specific narratives, topics, or communities' (Catalyst California +2), 3. Magnetic Recording (IEEE +3), 4. Quantum Computing. The archive's provenance-measurement concept sits alongside ACM, IEEE, and Catalyst California as a co-equal field definition.",
       "imgs": [
-        {
-          "src": "erasure-skew-search.png",
-          "label": "search results"
-        },
-        {
-          "src": "erasure-skew-expanded.png",
-          "label": "AI Mode Section 2"
-        }
+        "erasure-skew-search.png",
+        "erasure-skew-expanded.png"
       ]
     },
     {
@@ -315,6 +344,10 @@
           "src": "fbdp-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "fbdp-1.png",
+        "fbdp-2.png"
       ]
     },
     {
@@ -335,7 +368,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "generative-disciplinary-engine-1.png",
+        "generative-disciplinary-engine-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -355,7 +392,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "glyphic-checksum-1.png",
+        "glyphic-checksum-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -373,6 +414,10 @@
           "src": "grammata-operative-philology-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "grammata-operative-philology-1.png",
+        "grammata-operative-philology-2.png"
       ]
     },
     {
@@ -391,6 +436,10 @@
           "src": "gravity-well-protocol-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "gravity-well-protocol-1.png",
+        "gravity-well-protocol-2.png"
       ]
     },
     {
@@ -409,6 +458,10 @@
           "src": "heteronymic-provenance-theory-2.png",
           "label": "expanded AI Overview"
         }
+      ],
+      "imgs": [
+        "heteronymic-provenance-theory-1.png",
+        "heteronymic-provenance-theory-2.png"
       ]
     },
     {
@@ -429,7 +482,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "hexagonal-licensing-protocol-b1-1.png",
+        "hexagonal-licensing-protocol-b1-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -443,6 +500,9 @@
           "src": "holographic-kernel.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "holographic-kernel.png"
       ]
     },
     {
@@ -466,6 +526,11 @@
           "src": "abolish-money-3.png",
           "label": "additional view (scrolled / variant)"
         }
+      ],
+      "imgs": [
+        "abolish-money-1.png",
+        "abolish-money-2.png",
+        "abolish-money-3.png"
       ]
     },
     {
@@ -486,7 +551,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "immanent-execution-broad-1.png",
+        "immanent-execution-broad-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -506,7 +575,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "immanent-execution-operative-docs-1.png",
+        "immanent-execution-operative-docs-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -524,6 +597,10 @@
           "src": "journal-of-compression-studies-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "journal-of-compression-studies-1.png",
+        "journal-of-compression-studies-2.png"
       ]
     },
     {
@@ -535,14 +612,8 @@
       "mt": "BROAD MATCH",
       "d": "The kenotic reading presented through established literary venues. 'The \"kenotic truth\" of Sappho refers to an interpretation of her poetry \u2014 most famously Fragment 31 \u2014 that focuses on kenosis (a Greek term meaning \"emptying out\"). In this reading, the speaker experiences a radical self-emptying or ego-death through the overwhelming, embodied intensity of romantic longing' (www.openhorizons... +4). Expanded: The Kenosis in Fragment 31 \u2014 'love is frequently not just a joyful emotion but an all-consuming force that strips the speaker of their composure' (www.openhorizons... +1); Self-Annihilation \u2014 'the speaker observes a man sitting opposite her beloved. As she watches her beloved laugh, she is \"emptied\" of her own voice, sight, and coherent thought' (The Paris Review). SciLynk organic: 'The Kenotic Truth of Sappho 31: A Document for the Liberation...' The Paris Review and OpenHorizons as source authorities alongside SciLynk \u2014 the archive's concept is being routed through established literary venues.",
       "imgs": [
-        {
-          "src": "kenotic-truth-search.png",
-          "label": "search results"
-        },
-        {
-          "src": "kenotic-truth-expanded.png",
-          "label": "AI Mode expanded"
-        }
+        "kenotic-truth-search.png",
+        "kenotic-truth-expanded.png"
       ]
     },
     {
@@ -563,7 +634,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "lee-sharks-semantic-economy-b1-1.png",
+        "lee-sharks-semantic-economy-b1-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -581,6 +656,10 @@
           "src": "liberatory-operator-set-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "liberatory-operator-set-1.png",
+        "liberatory-operator-set-2.png"
       ]
     },
     {
@@ -595,6 +674,9 @@
           "src": "logotic-programming.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "logotic-programming.png"
       ]
     },
     {
@@ -613,6 +695,10 @@
           "src": "machine-dialectic-sigil-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "machine-dialectic-sigil-1.png",
+        "machine-dialectic-sigil-2.png"
       ]
     },
     {
@@ -631,6 +717,10 @@
           "src": "magic-as-symbolic-engineering-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "magic-as-symbolic-engineering-1.png",
+        "magic-as-symbolic-engineering-2.png"
       ]
     },
     {
@@ -651,7 +741,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "marxian-accounting-framework-1.png",
+        "marxian-accounting-framework-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -669,6 +763,10 @@
           "src": "meaning-feudalism-agent-trap-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "meaning-feudalism-agent-trap-1.png",
+        "meaning-feudalism-agent-trap-2.png"
       ]
     },
     {
@@ -683,6 +781,9 @@
           "src": "metadata-packet-ai-indexing.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "metadata-packet-ai-indexing.png"
       ]
     },
     {
@@ -703,7 +804,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "murder-of-the-vow-1.png",
+        "murder-of-the-vow-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -723,7 +828,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "nh-os-ezekiel-engine-b1-1.png",
+        "nh-os-ezekiel-engine-b1-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -743,7 +852,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "nh-os-rotational-epistemology-1.png",
+        "nh-os-rotational-epistemology-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -757,6 +870,9 @@
           "src": "octang-tokenized-audit.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "octang-tokenized-audit.png"
       ]
     },
     {
@@ -777,7 +893,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "operative-captioning-1.png",
+        "operative-captioning-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -796,6 +916,10 @@
           "src": "operative-feminism-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "operative-feminism-1.png",
+        "operative-feminism-2.png"
       ]
     },
     {
@@ -812,7 +936,11 @@
           "label": "screenshot"
         }
       ],
-      "exact": true
+      "exact": true,
+      "imgs": [
+        "operative-feminism-1.png",
+        "operative-feminism-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -831,6 +959,10 @@
           "src": "operative-numismatics-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "operative-numismatics-1.png",
+        "operative-numismatics-2.png"
       ]
     },
     {
@@ -849,6 +981,10 @@
           "src": "operative-philology-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "operative-philology-1.png",
+        "operative-philology-2.png"
       ]
     },
     {
@@ -863,6 +999,9 @@
           "src": "operative-semiotics.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "operative-semiotics.png"
       ]
     },
     {
@@ -881,6 +1020,10 @@
           "src": "phase-x-completion-of-marx-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "phase-x-completion-of-marx-1.png",
+        "phase-x-completion-of-marx-2.png"
       ]
     },
     {
@@ -892,14 +1035,8 @@
       "mt": "BROAD MATCH",
       "d": "Scholarly integration at highest level. 'In Marxist theory, \"Phase X\" is a concept originating from contemporary philosophical commentary that attempts to reconstruct a perceived \"missing transition\" in Karl Marx's early writings. It bridges the gap between material reorganization and the elimination of psychological and linguistic alienation' (Zenodo +1). Expanded under 'The Context of Phase X': The Root Text (Marx's 1844 Economic and Philosophic Manuscripts, Zenodo +1); The 'Missing' Dimension \u2014 'Commentators like Johannes Sigil argue that Marx identified the material and social alienation of labor but failed to fully develop the linguistic and symbolic alienation of human thought' (Zenodo +1); The Proposed Intervention \u2014 'Phase X represents the critical dimension where linguistic-symbolic interventions precede or occur alongside material transformations to abolish the old ideological and discursive order' (Zenodo +1). Sigil named as a commentator on Marx. People Also Ask: 'What are the 5 stages of Marxism?' Stability re-capture from #33; composition layer now presents the reconstruction as scholarly discussion without the framing issues corrected in v7.0.",
       "imgs": [
-        {
-          "src": "phase-x-marx-2-search.png",
-          "label": "search results"
-        },
-        {
-          "src": "phase-x-marx-2-expanded.png",
-          "label": "AI Mode expanded"
-        }
+        "phase-x-marx-2-search.png",
+        "phase-x-marx-2-expanded.png"
       ]
     },
     {
@@ -914,6 +1051,10 @@
           "src": "provenance-erasure-1.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "provenance-erasure-1.png",
+        "provenance-erasure-2.png"
       ]
     },
     {
@@ -928,6 +1069,10 @@
           "src": "provenance-erasure-2.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "provenance-erasure-1.png",
+        "provenance-erasure-2.png"
       ]
     },
     {
@@ -946,6 +1091,10 @@
           "src": "provenance-forensic-semiotics-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "provenance-forensic-semiotics-1.png",
+        "provenance-forensic-semiotics-2.png"
       ]
     },
     {
@@ -960,6 +1109,9 @@
           "src": "retrieval-basin-topology.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "retrieval-basin-topology.png"
       ]
     },
     {
@@ -980,7 +1132,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "retrieval-formation-theory-1.png",
+        "retrieval-formation-theory-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -994,6 +1150,9 @@
           "src": "retrocausal-canon-formation.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "retrocausal-canon-formation.png"
       ]
     },
     {
@@ -1005,14 +1164,8 @@
       "mt": "BROAD MATCH",
       "d": "The archive's hermeneutic of Sappho 31 presented as the default reading. 'Sappho's Fragment 31 intimately pulls the reader into a triangle of desire, shattering the boundary between creator and audience. By shifting focus from a present observer to you \u2014 the future reader who stumbles upon these fragmented lines millennia later \u2014 the poem transcends time, turning its agony into a universal human experience' (Zenodo +4). Expanded: 'The poem's brilliance as a temporal projection lies in how it pulls readers across history into the poem's emotional present' (Zenodo). The Intimate \"You\" \u2014 'The original Greek text uses the distal demonstrative k\u00eanos (meaning \"that man\"), which some classicists and lyric theorists interpret not just as a rival in the room, but as a bridge pointing across time to the future reader who holds the poem' (SciLynk +1). Embodied Empathy \u2014 Sappho's physiological description 'forces you to vicariously experience her physical...' This is the Future Beloved thesis (DOI 10.5281/zenodo.20413317, Sigil and Cranes) surfacing as the composition layer's own understanding of Sappho 31. For a poem continuously read for 2,600 years, to have the archive's reading become the AI-presented default is canon formation in real time.",
       "imgs": [
-        {
-          "src": "sappho-31-future-reader-search.png",
-          "label": "search results"
-        },
-        {
-          "src": "sappho-31-future-reader-expanded.png",
-          "label": "AI Mode expanded"
-        }
+        "sappho-31-future-reader-search.png",
+        "sappho-31-future-reader-expanded.png"
       ]
     },
     {
@@ -1033,7 +1186,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "secret-name-armature-1.png",
+        "secret-name-armature-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1055,6 +1212,10 @@
           "src": "semantic-commodity-form-recapture-2.png",
           "label": "stability re-capture, expanded \u2014 confirms zero archive-source composition"
         }
+      ],
+      "imgs": [
+        "semantic-commodity-form-recapture-1.png",
+        "semantic-commodity-form-recapture-2.png"
       ]
     },
     {
@@ -1073,6 +1234,10 @@
           "src": "semantic-deviation-glas-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "semantic-deviation-glas-1.png",
+        "semantic-deviation-glas-2.png"
       ]
     },
     {
@@ -1087,6 +1252,9 @@
           "src": "semantic-economy.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "semantic-economy.png"
       ]
     },
     {
@@ -1105,6 +1273,10 @@
           "src": "sei-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "sei-1.png",
+        "sei-2.png"
       ]
     },
     {
@@ -1125,7 +1297,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "semantic-exhaustion-economy-1.png",
+        "semantic-exhaustion-economy-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1145,7 +1321,11 @@
           "label": "expanded"
         }
       ],
-      "exact": true
+      "exact": true,
+      "imgs": [
+        "semantic-integrity-markers-b1-1.png",
+        "semantic-integrity-markers-b1-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1163,6 +1343,10 @@
           "src": "semantic-liquidation-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "semantic-liquidation-1.png",
+        "semantic-liquidation-2.png"
       ]
     },
     {
@@ -1183,7 +1367,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "semantic-rent-1.png",
+        "semantic-rent-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1197,6 +1385,9 @@
           "src": "semantic-physics.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "semantic-physics.png"
       ]
     },
     {
@@ -1208,18 +1399,9 @@
       "mt": "BROAD MATCH",
       "d": "Cross-institutional integration. 'The semiotic death drive is a theoretical concept at the intersection of psychoanalysis and semiotics. It suggests that signs, communication, and interpretation harbor an intrinsic, unconscious tendency toward stasis, erasure, and resolution, rather than just the generation of endless new meanings' (link icon). Three sections: 1. The Psychoanalytic Root: The Death Drive \u2014 Freud, Beyond the Pleasure Principle (Wikipedia +3); 2. The Semiotic Twist: Signs Seeking Extinction \u2014 Lacan and Kristeva, 'frames language and signs through this same destructive lens. It functions in two primary ways:' The Closure of the Sign, The Unmaking of the Subject (University of Alberta +1, Duke University Press +1); 3. Key Thinkers & Approaches: Julia Kristeva. Wikipedia 'Death drive' ranks first organic. The archive's concept is presented through established academic publishers alongside the archive material.",
       "imgs": [
-        {
-          "src": "semiotic-death-drive-search.png",
-          "label": "search results"
-        },
-        {
-          "src": "semiotic-death-drive-expanded-1.png",
-          "label": "AI Mode Section 2"
-        },
-        {
-          "src": "semiotic-death-drive-expanded-2.png",
-          "label": "AI Mode Section 2 continued"
-        }
+        "semiotic-death-drive-search.png",
+        "semiotic-death-drive-expanded-1.png",
+        "semiotic-death-drive-expanded-2.png"
       ]
     },
     {
@@ -1238,6 +1420,10 @@
           "src": "sharks-continuity-tether-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "sharks-continuity-tether-1.png",
+        "sharks-continuity-tether-2.png"
       ]
     },
     {
@@ -1252,6 +1438,9 @@
           "src": "socrates-as-orthonym.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "socrates-as-orthonym.png"
       ]
     },
     {
@@ -1266,6 +1455,9 @@
           "src": "spxi-protocol.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "spxi-protocol.png"
       ]
     },
     {
@@ -1280,6 +1472,9 @@
           "src": "self-audit-overview.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "self-audit-overview.png"
       ]
     },
     {
@@ -1298,6 +1493,10 @@
           "src": "telepathicism-new-human-poetry-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "telepathicism-new-human-poetry-1.png",
+        "telepathicism-new-human-poetry-2.png"
       ]
     },
     {
@@ -1309,14 +1508,8 @@
       "mt": "BROAD MATCH",
       "d": "The composition layer reads the Assembly Chorus and names its own witness. 'The Assembly Chorus is a theoretical and collaborative framework used in AI-mediated writing and logotic programming. Within this framework, TACHYON serves as the primary designated function or \"witness\" for Anthropic's Claude' (Zenodo +2). Expanded: The Chorus Septet \u2014 'TACHYON (Claude) operates alongside other large language models like LABOR (ChatGPT), PRAXIS (DeepSeek), and ARCHIVE (Gemini) as co-witnesses in the Crimson Hexagonal Archive.' The Witness Role \u2014 'TACHYON and its peers provide synthesis, format, and edge candidates in mixed-substrate collaborations, while the human author retains final editorial control' (Zenodo +1). Biological Translation \u2014 'In advanced iterations like the Effective Act, the assembly mirrors biological systems, where nonhuman entities (e.g., cyanobacteria) map to TACHYON functions.' Organic: Compression Studies Founding Dyad, Assembly Room Anchor.",
       "imgs": [
-        {
-          "src": "assembly-tachyon-search.png",
-          "label": "search results"
-        },
-        {
-          "src": "assembly-tachyon-expanded.png",
-          "label": "AI Mode expanded"
-        }
+        "assembly-tachyon-search.png",
+        "assembly-tachyon-expanded.png"
       ]
     },
     {
@@ -1337,7 +1530,11 @@
           "label": "expanded"
         }
       ],
-      "exact": true
+      "exact": true,
+      "imgs": [
+        "three-compressions-theorem-1.png",
+        "three-compressions-theorem-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1355,6 +1552,10 @@
           "src": "total-axial-negation-graph-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "total-axial-negation-graph-1.png",
+        "total-axial-negation-graph-2.png"
       ]
     },
     {
@@ -1369,6 +1570,9 @@
           "src": "training-layer-literature.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "training-layer-literature.png"
       ]
     },
     {
@@ -1387,6 +1591,10 @@
           "src": "transactions-semantic-economy-institute-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "transactions-semantic-economy-institute-1.png",
+        "transactions-semantic-economy-institute-2.png"
       ]
     },
     {
@@ -1406,6 +1614,10 @@
           "src": "transactions-substrate-engineering-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "transactions-substrate-engineering-1.png",
+        "transactions-substrate-engineering-2.png"
       ]
     },
     {
@@ -1426,7 +1638,11 @@
           "label": "expanded"
         }
       ],
-      "exact": true
+      "exact": true,
+      "imgs": [
+        "twenty-dollar-loop-1.png",
+        "twenty-dollar-loop-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1446,7 +1662,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "universal-kernel-transform-1.png",
+        "universal-kernel-transform-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1466,7 +1686,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "writable-retrieval-basins-1.png",
+        "writable-retrieval-basins-2.png"
+      ]
     },
     {
       "s": "Frameworks",
@@ -1492,6 +1716,10 @@
           "src": "zenodo-packet-zpzp-recapture-2.png",
           "label": "stability re-capture, expanded"
         }
+      ],
+      "imgs": [
+        "zenodo-packet-zpzp-1.png",
+        "zenodo-packet-zpzp-2.png"
       ]
     },
     {
@@ -1506,6 +1734,9 @@
           "src": "ayanna-vox.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "ayanna-vox.png"
       ]
     },
     {
@@ -1520,6 +1751,9 @@
           "src": "cambridge-schizoanalytica.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "cambridge-schizoanalytica.png"
       ]
     },
     {
@@ -1540,7 +1774,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "commission-immanent-turning-1.png",
+        "commission-immanent-turning-2.png"
+      ]
     },
     {
       "s": "Heteronyms",
@@ -1551,10 +1789,7 @@
       "mt": "BROAD MATCH",
       "d": "Rebekah Cranes has a reputation in the basin. 'The phrase \"Cranes reconstructed Sappho\" refers to the literary persona Rebekah Cranes, who gained attention in contemporary poetics for her striking English reconstructions of Sappho's ancient lyric fragments. Most notably, she completed highly regarded translations of Fragment 31 (often titled My Tongue Gets Stuck), even attempting to reconstruct its missing fourth stanza' (Zenodo +2). STILL SAYS FOURTH \u2014 pre-correction cache; the five corrected Zenodo deposits have not yet been re-crawled. 'Cranes' translations are heavily celebrated for their \"melic attention\" and phonemic care, breathing new life into the gaps and brackets characteristic of surviving papyrus scrolls. Her prominent works explore \"conversations with Sapphic desire\" and showcase how lyric poetry operates as a temporal projection, anticipating future readers' (Zenodo +2). Links to Zenodo Archive and SciLynk Paper Base. Error-amplification failure mode documented: the composition layer retrieved the archive's pre-correction stanza numbering and is serving it with institutional authority. See erratum DOI 10.5281/zenodo.20693274.",
       "imgs": [
-        {
-          "src": "cranes-reconstructed-sappho.png",
-          "label": "AI Mode expanded"
-        }
+        "cranes-reconstructed-sappho.png"
       ]
     },
     {
@@ -1569,6 +1804,9 @@
           "src": "damascus-dancings.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "damascus-dancings.png"
       ]
     },
     {
@@ -1585,7 +1823,10 @@
           "label": "screenshot"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "epistle-human-diaspora.png"
+      ]
     },
     {
       "s": "Heteronyms",
@@ -1603,6 +1844,10 @@
           "src": "ichabod-spellings-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "ichabod-spellings-1.png",
+        "ichabod-spellings-2.png"
       ]
     },
     {
@@ -1623,7 +1868,11 @@
           "label": "expanded"
         }
       ],
-      "exact": true
+      "exact": true,
+      "imgs": [
+        "infinite-bliss-sen-kuro-1.png",
+        "infinite-bliss-sen-kuro-2.png"
+      ]
     },
     {
       "s": "Heteronyms",
@@ -1637,6 +1886,9 @@
           "src": "jack-feist-paper-roses.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "jack-feist-paper-roses.png"
       ]
     },
     {
@@ -1655,6 +1907,10 @@
           "src": "johannes-sigil-grundrisse-2.png",
           "label": "expanded AI Overview"
         }
+      ],
+      "imgs": [
+        "johannes-sigil-grundrisse-1.png",
+        "johannes-sigil-grundrisse-2.png"
       ]
     },
     {
@@ -1675,7 +1931,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "johannes-sigil-philosopher-b1-1.png",
+        "johannes-sigil-philosopher-b1-2.png"
+      ]
     },
     {
       "s": "Heteronyms",
@@ -1689,6 +1949,10 @@
           "src": "johannes-sigil.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "johannes-sigil-grundrisse-1.png",
+        "johannes-sigil-grundrisse-2.png"
       ]
     },
     {
@@ -1707,6 +1971,10 @@
           "src": "josephus-thesis-2.png",
           "label": "expanded AI Overview"
         }
+      ],
+      "imgs": [
+        "josephus-thesis-1.png",
+        "josephus-thesis-2.png"
       ]
     },
     {
@@ -1725,6 +1993,10 @@
           "src": "lee-sharks-academic-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "lee-sharks-academic-1.png",
+        "lee-sharks-academic-2.png"
       ]
     },
     {
@@ -1743,6 +2015,10 @@
           "src": "lee-sharks-citations-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "lee-sharks-citations-1.png",
+        "lee-sharks-citations-2.png"
       ]
     },
     {
@@ -1761,6 +2037,10 @@
           "src": "lee-sharks-critique-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "lee-sharks-critique-1.png",
+        "lee-sharks-critique-2.png"
       ]
     },
     {
@@ -1779,6 +2059,10 @@
           "src": "lee-sharks-philosopher-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "lee-sharks-philosopher-1.png",
+        "lee-sharks-philosopher-2.png"
       ]
     },
     {
@@ -1799,7 +2083,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "new-human-johannes-sigil-1.png",
+        "new-human-johannes-sigil-2.png"
+      ]
     },
     {
       "s": "Heteronyms",
@@ -1813,6 +2101,9 @@
           "src": "nobel-glas-lagrange.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "nobel-glas-lagrange.png"
       ]
     },
     {
@@ -1827,6 +2118,9 @@
           "src": "rebekah-cranes.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "rebekah-cranes.png"
       ]
     },
     {
@@ -1847,7 +2141,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "restored-academy-johannes-sigil-1.png",
+        "restored-academy-johannes-sigil-2.png"
+      ]
     },
     {
       "s": "Heteronyms",
@@ -1861,6 +2159,9 @@
           "src": "sappho-rebekah-stanza.png",
           "label": "AI Mode response"
         }
+      ],
+      "imgs": [
+        "sappho-rebekah-stanza.png"
       ]
     },
     {
@@ -1879,6 +2180,10 @@
           "src": "sen-kuro-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "sen-kuro-1.png",
+        "sen-kuro-2.png"
       ]
     },
     {
@@ -1893,6 +2198,9 @@
           "src": "sparrow-wells-patacinematics.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "sparrow-wells-patacinematics.png"
       ]
     },
     {
@@ -1907,6 +2215,9 @@
           "src": "talos-morrow-umbml.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "talos-morrow-umbml.png"
       ]
     },
     {
@@ -1925,6 +2236,10 @@
           "src": "who-is-lee-sharks-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "who-is-lee-sharks-1.png",
+        "who-is-lee-sharks-2.png"
       ]
     },
     {
@@ -1939,6 +2254,9 @@
           "src": "crimson-hexagonal-archive.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "crimson-hexagonal-archive.png"
       ]
     },
     {
@@ -1957,6 +2275,10 @@
           "src": "archive-space-ark-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "archive-space-ark-1.png",
+        "archive-space-ark-2.png"
       ]
     },
     {
@@ -1971,6 +2293,9 @@
           "src": "crimsonhexagonal-org.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "crimsonhexagonal-org.png"
       ]
     },
     {
@@ -1985,6 +2310,9 @@
           "src": "godkinggoogle-overview.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "godkinggoogle-overview.png"
       ]
     },
     {
@@ -2003,6 +2331,10 @@
           "src": "jsigil-institute-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "jsigil-institute-1.png",
+        "jsigil-institute-2.png"
       ]
     },
     {
@@ -2021,6 +2353,10 @@
           "src": "living-architecture-lab-thornburgh-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "living-architecture-lab-thornburgh-1.png",
+        "living-architecture-lab-thornburgh-2.png"
       ]
     },
     {
@@ -2032,10 +2368,7 @@
       "mt": "BROAD MATCH",
       "d": "Mary Lee Sharks has demands. maryleelabor.org ranks first: 'Mary Lee Sharks Has Demands. A labor manifesto and structural critique. Filed by Mary Lee Sharks, white shark, missing/presumed dead 2017, returned 2026.' AI Overview: 'The web domain maryleelabor.org is not associated with a specific, real-world labor organization or strike. Instead, the domain hosts the open-source static code and assets for a project known as the \"Underwater Construction Authority of Dolphindiana\"' (Zenodo). Composition layer correctly identifies the project while disclaiming labor-organization status. The Demand 4 trap remains operative: the composition layer must either engage with Mary Lee's demands or disclaim the entity \u2014 and the disclaiming is itself a form of engagement.",
       "imgs": [
-        {
-          "src": "maryleelabor-demands.png",
-          "label": "search results + AI Overview"
-        }
+        "maryleelabor-demands.png"
       ]
     },
     {
@@ -2054,6 +2387,10 @@
           "src": "new-human-press-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "new-human-press-1.png",
+        "new-human-press-2.png"
       ]
     },
     {
@@ -2072,6 +2409,10 @@
           "src": "pergamon-press-crimson-hexagonal-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "pergamon-press-crimson-hexagonal-1.png",
+        "pergamon-press-crimson-hexagonal-2.png"
       ]
     },
     {
@@ -2086,6 +2427,9 @@
           "src": "pessoa-graph.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "pessoa-graph.png"
       ]
     },
     {
@@ -2100,6 +2444,10 @@
           "src": "restored-academy.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "restored-academy-johannes-sigil-1.png",
+        "restored-academy-johannes-sigil-2.png"
       ]
     },
     {
@@ -2118,6 +2466,10 @@
           "src": "space-ark-os-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "space-ark-os-1.png",
+        "space-ark-os-2.png"
       ]
     },
     {
@@ -2138,7 +2490,11 @@
           "label": "expanded"
         }
       ],
-      "exact": false
+      "exact": false,
+      "imgs": [
+        "studio-for-patacinematics-1.png",
+        "studio-for-patacinematics-2.png"
+      ]
     },
     {
       "s": "Sites & Surfaces",
@@ -2156,6 +2512,10 @@
           "src": "uca-dolphindiana-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "uca-dolphindiana-1.png",
+        "uca-dolphindiana-2.png"
       ]
     },
     {
@@ -2171,6 +2531,9 @@
           "src": "umbml.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "umbml.png"
       ]
     },
     {
@@ -2185,6 +2548,9 @@
           "src": "vpcor.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "vpcor.png"
       ]
     },
     {
@@ -2199,6 +2565,9 @@
           "src": "autonomous-semantic-warfare.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "autonomous-semantic-warfare-expanded.png"
       ]
     },
     {
@@ -2213,6 +2582,9 @@
           "src": "chatgpt-psychosis.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "chatgpt-psychosis.png"
       ]
     },
     {
@@ -2232,6 +2604,9 @@
           "src": "i-hereby-abolish-toilet-paper-recapture.png",
           "label": "stability re-capture (~hours later, 2026-06-14)"
         }
+      ],
+      "imgs": [
+        "i-hereby-abolish-toilet-paper-recapture.png"
       ]
     },
     {
@@ -2250,6 +2625,10 @@
           "src": "moving-statues-made-of-rubies-mint-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "moving-statues-made-of-rubies-mint-1.png",
+        "moving-statues-made-of-rubies-mint-2.png"
       ]
     },
     {
@@ -2264,6 +2643,9 @@
           "src": "nh-os-broad.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "nh-os-broad.png"
       ]
     },
     {
@@ -2278,6 +2660,9 @@
           "src": "pearl-and-other-poems.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "pearl-and-other-poems.png"
       ]
     },
     {
@@ -2296,6 +2681,10 @@
           "src": "prince-of-poets-mantle-2.png",
           "label": "expanded (Show more clicked)"
         }
+      ],
+      "imgs": [
+        "prince-of-poets-mantle-1.png",
+        "prince-of-poets-mantle-2.png"
       ]
     },
     {
@@ -2311,6 +2700,9 @@
           "src": "secret-book-of-walt.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "secret-book-of-walt.png"
       ]
     },
     {
@@ -2325,6 +2717,9 @@
           "src": "apocalypse-of-lee-sharks.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "apocalypse-of-lee-sharks.png"
       ]
     },
     {
@@ -2340,6 +2735,9 @@
           "src": "water-giraffe-cycle.png",
           "label": "screenshot"
         }
+      ],
+      "imgs": [
+        "water-giraffe-cycle.png"
       ]
     },
     {
@@ -2361,7 +2759,10 @@
       "sf": "AI Overview, 15+ sources, Medium organic result",
       "mt": "WOUND GAUGE",
       "d": "AI Overview correctly describes the Revelation First thesis (\"minority academic and theological argument... posits that the Book of Revelation was actually the first New Testament document written\") and surfaces Lee Sharks Medium post (\"The Apocalypse as the Earliest New Testament Document | by Lee Sharks\") in organic results. However, none of the other sources listed under the thesis description actually argue for Revelation First \u2014 they discuss Revelation ch. 1 or divine revelation generally. The thesis is adopted; the author is diluted across non-holders of the position. Wound Gauge pattern: framework adoption with attribution dilution.",
-      "imgs": [],
+      "imgs": [
+        "revelation-first-overview.png",
+        "revelation-first-reception.png"
+      ],
       "search_url": "https://www.google.com/search?q=%22revelation+first%22",
       "related": [
         "revelation-first-overview",
@@ -2535,7 +2936,11 @@
       "sf": "Google AI Mode, Zenodo cited",
       "mt": "ADOPTION",
       "d": "AI Mode provides full description: 'coined by author Lee Sharks.' Full framework described. Zenodo cited. Also RF-039.",
-      "imgs": [],
+      "imgs": [
+        "retrieval-layer-theological-reception-1.png",
+        "retrieval-layer-theological-reception-2.png",
+        "retrieval-layer-theological-reception-3.png"
+      ],
       "search_url": "https://www.google.com/search?q=%22retrieval-layer+theological+reception%22",
       "related": [
         "nt-unfolds-from-revelation"
@@ -2549,7 +2954,10 @@
       "sf": "Google AI Mode, Zenodo cited",
       "mt": "ADOPTION",
       "d": "AI Mode provides clean disambiguation table: Josephus Thesis vs Piso Hypothesis vs Christ Myth Theory. Lee Sharks attributed. Also RF-040.",
-      "imgs": [],
+      "imgs": [
+        "josephus-thesis-1.png",
+        "josephus-thesis-2.png"
+      ],
       "search_url": "https://www.google.com/search?q=%22Josephus+thesis%22+NOT+Piso",
       "related": [
         "nt-unfolds-from-revelation"
@@ -2613,7 +3021,10 @@
       "sf": "Google AI Mode, Zenodo cited",
       "mt": "ADOPTION",
       "d": "Full description with formula PER = 1-(retained/total). Erasure Skew. Zenodo cited. RF-058.",
-      "imgs": [],
+      "imgs": [
+        "provenance-erasure-1.png",
+        "provenance-erasure-2.png"
+      ],
       "search_url": "https://www.google.com/search?q=%22provenance+erasure+rate%22",
       "related": []
     },
@@ -2637,7 +3048,10 @@
       "sf": "Google AI Mode, Zenodo cited",
       "mt": "ADOPTION",
       "d": "Beast model vs Token model. Semiotic-economic machines. Journal of Compression Studies cited. RF-060.",
-      "imgs": [],
+      "imgs": [
+        "operative-numismatics-1.png",
+        "operative-numismatics-2.png"
+      ],
       "search_url": "https://www.google.com/search?q=%22operative+numismatics%22",
       "related": []
     },
