@@ -1,5 +1,5 @@
 {
-  "system": "Crimson Hexagonal Archive \u2014 Machine-Mediated Reception Studies",
+  "system": "Crimson Hexagonal Archive — Machine-Mediated Reception Studies",
   "version": "0.1",
   "last_updated": "2026-06-18",
   "author": {
@@ -17,7 +17,7 @@
       "pages": {
         "captures": "/captures/",
         "terms": "/terms/",
-        "pillars": "/pillars/ \u2014 interactive scholarly graph (D3 force-directed)"
+        "pillars": "/pillars/ — interactive scholarly graph (D3 force-directed)"
       }
     },
     "godkinggoogle.com": {
@@ -56,7 +56,7 @@
     },
     "termindex.json": {
       "canonical_url": "https://machinemediation.org/data/termindex.json",
-      "description": "Archive Term Index \u2014 coined terms across 845 deposits",
+      "description": "Archive Term Index — coined terms across 845 deposits",
       "entry_fields": [
         "term",
         "key",
@@ -70,11 +70,11 @@
         "source"
       ],
       "zenodo_concept": "10.5281/zenodo.20722522",
-      "current_count": 1387
+      "current_count": 1400
     },
     "scholarly-graph.json": {
       "canonical_url": "https://machinemediation.org/data/scholarly-graph.json",
-      "description": "Conceptual-citational strategic assessment \u2014 corpora, claims, connections across defended texts",
+      "description": "Conceptual-citational strategic assessment — corpora, claims, connections across defended texts",
       "entry_types": [
         "corpora",
         "claims",
@@ -146,7 +146,7 @@
     "sp_release3": {
       "doi": "10.5281/zenodo.20743560",
       "version": "1.0",
-      "title": "S\u00e9mantique Potentielle \u2014 Release 3: Three Pillars"
+      "title": "Sémantique Potentielle — Release 3: Three Pillars"
     },
     "sp_legwork_pillars": {
       "doi": "10.5281/zenodo.20743562",
@@ -167,6 +167,11 @@
       "doi": "10.5281/zenodo.20751354",
       "version": "1.0",
       "title": "The Wolf Boy and the Language Model"
+    },
+    "sp_release4": {
+      "doi": "10.5281/zenodo.20751389",
+      "version": "1.0",
+      "title": "Sémantique Potentielle — Release 4: Triptych Block"
     }
   },
   "workflows": {
