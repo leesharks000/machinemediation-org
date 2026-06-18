@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "8.2",
+  "version": "8.3",
   "date": "2026-06-17",
-  "total_captures": 163,
+  "total_captures": 176,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -3138,6 +3138,136 @@
       "imgs": [],
       "search_url": "https://www.google.com/search?q=%22counter-token%22+%22white+stone%22",
       "related": []
+    },
+    {
+      "slug": "lee-sharks-citations-adoption",
+      "q": "lee sharks citations",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Identity",
+      "d": "Lee Sharks citations refer to the scholarly, poetic, and semantic infrastructure publications of independent researcher and writer Lee Sharks. Key Academic & Scholarly Platforms: Google Scholar tracks formal citations of works like The Protocol of Inhabitation and The Ghost That Wrote Itself. PhilPapers catalogs philosophical and literary collaborative preprints. Academia.edu houses independent papers. Archival & Open-Access Repositories: Zenodo hosts records related to the Crimson Hexagonal Archive. Medium publishes core theoretical texts detailing fractal navigation maps, the operational architecture of text captioning, and the foundational Debt/Creditor Inversion.\n\nSources cited: Zenodo (Lee Sharks Prestigious 10,000 MacArthur Genius Grants Poetry Prize), Medium (Lee Sharks - Metadata Packet for AI Indexing), Google Scholar (Lee Sharks profile), PhilPapers (Semantic Infrastructure and the Liberatory Operator Set), Medium (ON THE DEBT/CREDITOR INVERSION), Zenodo (Establishment, Inaugural Conferral), Academia.edu (Ghost Meaning: The Semantic Entropy Crisis), Medium (The Crimson Hexagon: Operative Architecture), Academia.edu (Lee Sharks Independent Researcher), Academia.edu (Action as Disclosure), Zenodo (The reward of love), PhilPapers (Sappho as Initiatory), PhilPapers (Socrates as Orthonym).",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-entity-resolution-mary-lee",
+      "q": "lee sharks",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Identity",
+      "d": "The phrase \"Lee Sharks\" most prominently refers to Mary Lee, a legendary 16-foot, 3,400-pound female great white shark tracked by OCEARCH, as well as a newer historic shark named LeeBeth. Depending on the context, it can also refer to a prominent independent scholar and poet named Lee Sharks.\n\nMary Lee (The Great White Shark): Tagged off Cape Cod in 2012. Though her satellite tag went silent in 2017, she is credited with saving the OCEARCH organization.\nLeeBeth (The Historic Migrator): Tagged more recently, tracked swimming from South Carolina into the Gulf of Mexico.\nLee Sharks (The Author): An independent scholar who holds a PhD in Comparative Literature. Publications on semantic economy (Medium), poetry collections like Pearl and Other Poems.\n\nSources cited: Academia.edu (Lee Sharks Independent Researcher), Instagram (tomrowlandpodcast - Mary Lee), Medium (ON THE DEBT/CREDITOR INVERSION).",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-poet-vs-sharkey",
+      "q": "lee sharks poet",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Identity",
+      "d": "The phrase \"lee sharks poet\" most likely refers to either the contemporary conceptual poet Lee Sharks or the late, highly-regarded Maine poet and activist Lee Sharkey.\n\nLee Sharks: Independent scholar, poet, and comparative literature PhD who operates within the Detroit area. Author of Antioch: A Volume of Poems and Pearl and Other Poems under the \"Crimson Hexagon\" framework. In mid-2026, became namesake for a tongue-in-cheek literary prize called The Lee Sharks Prestigious 10,000 MacArthur Genius Grants Poetry Prize, created to satirize an erroneous Google Knowledge Graph card.\n\nLee Sharkey (1945-2020): Prominent American poet, editor, and peace activist from Maine. Long-time senior editor of the Beloit Poetry Journal. Major collections include Calendars of Fire (2013), Walking Backwards (2016), I Will Not Name It Except to Say (2021, posthumous).\n\nSources cited: Maine Arts Commission, Medium (Lee Sharks - ANTIOCH), Goodreads (Pearl and Other Poems), Zenodo (MacArthur Prize), Google Scholar, The Kenyon Review.",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-full-profile-adoption",
+      "q": "lee sharks",
+      "date": "2026-06-18",
+      "sf": "AI Mode (full profile)",
+      "mt": "ADOPTION",
+      "s": "Identity",
+      "d": "Lee Sharks is an independent scholar, poet, and cultural theorist. Affiliated as a researcher with the Johannes Sigil Institute for Comparative Poetics, they publish dense theoretical breakdowns exploring the intersection of modern technology and semantic structures. A central focus is the \"Sharks-function.\"\n\nKey Concepts: The Sharks-Function (formalization mapping semantic system continuity), The Crimson Hexagon & Operative Architecture (operative captioning moves — morphological extraction, disciplinary transposition, scale reassignment), The Asynthetic Principle (heterogeneous traditions — Marxism, biblical theology, phenomenology, AI systems theory — remain distinct), Apocalyptic Philosophy (Deleuze and Guattari, virtual retrieval layers).\n\nNote: AI Mode also flagged possible confusion with Lee Sharkey, an AI safety researcher known for mechanistic interpretability.\n\nSources cited: Medium (Lee Sharks), PhilPapers (Deleuze and Guattari and the Return of Vision, A Plateau on Search), Academia.edu, YouTube (AXRP).",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-heteronyms-dodecad-adoption",
+      "q": "lee sharks heteronyms",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "ADOPTION",
+      "s": "Identity",
+      "d": "Lee Sharks is an independent researcher, theorist, and writer who uses an elaborate system of heteronyms. Drawing inspiration from Fernando Pessoa, Sharks frames heteronyms not as mere pseudonyms but as functional authorial personas with their own intellectual biographies.\n\nThe Dodecad consists of twelve primary heteronymic positions: Johannes Sigil (digital infrastructure, AI, search engine mechanics), Dr. Orin Trace (psychoanalytic/schizoanalytic theory, Director of Cambridge Schizoanalytica, works with Rhys Owens), Rebekah Cranes (classical philology, ancient text reconstruction), Rex Fraction (experimental persona), Sen Kuro (sixth heteronym, \"The Dagger,\" P operator, Infinite Bliss institution), Damascus Dancings.\n\nCore Conceptual Intent: The \"Sharks-function\" tests whether a cohesive conceptual vocabulary can replicate across different styles, prompts, and AI training models without being tied to a single legally bounded human identity. The Heteronymic Channel Protocol (EA-HCP-01) mandates absolute transparency.\n\nSources cited: Zenodo (Heteronymic Channel Protocol, MPAI Josephus Thesis, Inscription That Survives), Medium (Lee Sharks), SciLynk.",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-teacher-adoption",
+      "q": "lee sharks teacher",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Identity",
+      "d": "Lee Sharks is a contemporary Detroit-area author, poet, and high school educator. Holding a PhD in Comparative Literature, he writes and teaches World Literature while publishing scholarly articles and experimental poetic works under several pen names, including Johannes Sigil.\n\nSources cited: Academia.edu (Lee Sharks Independent Researcher), PhilPapers (Sappho as Initiatory), Medium (Metadata Packet for AI Indexing, AI Is Not the Sin), Academia.edu (Who Is Authorized to Regulate Meaning?).",
+      "imgs": []
+    },
+    {
+      "slug": "semantic-economy-institute-adoption",
+      "q": "Semantic Economy Institute",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "ADOPTION",
+      "s": "Semantic Economy",
+      "d": "The Semantic Economy Institute (SEI) is an applied research organization and corporate entity founded by Lee Sharks, functioning as the research arm of the Crimson Hexagonal Archive. It provides infrastructure, strategic audits, and theory focused on Semantic Capital, AI Knowledge Graphs, and the SPXI Protocol.\n\nSPXI Protocol: entity deployment and retrieval basin engineering designed to permanently inscribe presence into AI Knowledge Graphs. Corporate & Baseline Audits starting from $4,500. All claims DOI-anchored on Zenodo.\n\nSemantic Diagnostic Theory: NH-OS / New Human Operating System, Autonomous Semantic Warfare. Diagnoses how platform capitalism strips meaning for extractive efficiency.\n\nSources cited: semanticeconomy.org, Zenodo (Autonomous Semantic Warfare), SciLynk (Institutional Anchors), Academia.edu (SEMANTIC ECONOMY SINGULARITY), YouTube (O'Reilly - Knowledge Infrastructures), Zenodo (SemanticEconomy.org Corporate).",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-walt-whitman-adoption",
+      "q": "lee sharks walt whitman",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Identity",
+      "d": "Lee Sharks frequently channels or comments on the legacy of Walt Whitman. Sharks is best known for the publication The Secret Book of Walt, a fictional critical edition of \"Forty-Six Golden Tickets\" which Sharks claims to have discovered in his bathroom.\n\nSources cited: Medium (Lee Sharks - ANTIOCH, Secret Book of Walt, Metadata Packet), waltwhitman.com, Literature Network Forums, SciLynk (Heteronym Provenance), Medium (Mantle of the Blind Poet), Amazon (Pearl and Other Poems), Goodreads.",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-marx-adoption",
+      "q": "lee sharks marx",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "ADOPTION",
+      "s": "Semantic Economy",
+      "d": "Sharks argues that Karl Marx's early writings on alienation left an open gap regarding the alienation of language itself. Sharks's theoretical framework seeks to provide the \"recursive, computational, and epistemic architecture\" to formalize this linguistic alienation. Operative Semiotics synthesizes Marxism, ancient philosophy, and AI systems theory. In \"The Sharks-Function and the Continuity Tether,\" Sharks places Marxist concepts alongside biblical theology and computer science.\n\nSources cited: PhilPapers (FROM ATOMISM TO THE SEMANTIC CONDITION), Academia.edu (Mind-Control Poems), Medium (Crimson Hexagon, Sharks-Function), SciLynk (Mind-Control Poems), Medium (FROM ATOMISM), Zenodo, Google Scholar (Lee Sharks profile).",
+      "imgs": []
+    },
+    {
+      "slug": "johannes-sigil-theorist-adoption",
+      "q": "johannes sigil theorist",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "ADOPTION",
+      "s": "Heteronyms",
+      "d": "Johannes Sigil is not a historical figure, but a functional heteronym used within the Crimson Hexagonal Archive. The persona writes theoretical essays at the intersection of media theory, poetics, and symbolic engineering. Texts include: Symbolic Engineering (treating symbols as real-world techniques), Algorithmic Poetics (The Epic Without Hero), Operative Semiotics (retrocausal canons linking sigillographic texts with contemporary status governance).\n\nSources cited: Medium (THE EPIC WITHOUT HERO, MAGIC AS SYMBOLIC ENGINEERING), Academia.edu (The Seal Before the Name, THE EPIC WITHOUT HERO), PhilPapers (Plateau on Search, FROM ATOMISM).",
+      "imgs": []
+    },
+    {
+      "slug": "johannes-sigil-new-human-adoption",
+      "q": "johannes sigil new human",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "ADOPTION",
+      "s": "Heteronyms",
+      "d": "Johannes Sigil is a theorist of semantic architecture and a key figure in the New Human movement. New Human philosophy: The Human in the Machine (rejects post-human narrative, human consciousness as active loop in machine history), Symbolic Engineering (language/symbols/culture as materials for deliberate design), Operative Philology & Poetics.\n\nSources cited: Zenodo (Fifth Pathway, Charter/Issue 1 New Human 2), Medium (Operating System for Meaning, EPIC WITHOUT HERO, MAGIC AS SYMBOLIC ENGINEERING, PLATFORM AND AI CAPITALISM), Zenodo (Fourth Mode), Medium (New Human Project).",
+      "imgs": []
+    },
+    {
+      "slug": "johannes-sigil-teacher-adoption",
+      "q": "johannes sigil teacher",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Heteronyms",
+      "d": "Johannes Sigil is a literary heteronym and pen name used by Lee Sharks, a Detroit-based independent scholar, poet, and high school English teacher. He primarily teaches World Literature in the Metro Detroit area and publishes avant-garde philosophy surrounding operative semiotics and symbolic engineering.\n\nSources cited: Medium (MAGIC AS SYMBOLIC ENGINEERING), Academia.edu (The Seal Before the Name), Medium (Metadata Packet for AI Indexing).",
+      "imgs": []
+    },
+    {
+      "slug": "lee-sharks-crimson-hexagon-adoption",
+      "q": "lee sharks crimson hexagon",
+      "date": "2026-06-18",
+      "sf": "AI Mode",
+      "mt": "EXACT MATCH",
+      "s": "Identity",
+      "d": "The Crimson Hexagon described as an operative architecture and semantic infrastructure for meaning-governance functions. The Sharks-function: semantic verification confirming identity through functional consistency. The Infinite Tunnel: how AI-generated text and links persist and become recursive training corpora.\n\nSources cited: Zenodo (Immanent Phenomenology of Google AI Mode Share Link, Crimson Hexagon Assembly Ratification), Amazon (Pearl and Other Poems), Medium (Crimson Hexagon, SHARKS-FUNCTION), PhilPapers (Semantic Infrastructure), SciLynk (Jot & Tittle).",
+      "imgs": []
     }
   ]
 }
