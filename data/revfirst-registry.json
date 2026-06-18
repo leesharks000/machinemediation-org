@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "2.3",
+  "version": "2.4",
   "date": "2026-06-17",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -261,7 +261,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The composition layer treats midrashim as an interpretive tradition, not as a structural operation. The archive's specific meaning (a formally specified mapping from Revelation to NT texts) does not register.",
-      "battery_key": "midrashim transform new testament"
+      "battery_key": "midrashim transform new testament",
+      "transcript": "The New Testament was not transformed by midrashim; rather, the authors utilized midrash—an ancient Jewish method of creative biblical interpretation—as a foundational tool to write it. By re-interpreting and re-contextualizing Hebrew scriptures, they transformed traditional Messianic expectations to explain the life, teachings, and identity of Jesus.\nHow the Method Transformed the Text: Early Jewish sages and New Testament writers used midrash to fill in narrative gaps, derive underlying spiritual meaning, and connect historical Old Testament events to their present day. This approach fundamentally shaped the New Testament in several ways:\nTypology and Re-enactment: Writers portrayed Jesus as the \"new\" Israel or the \"new\" Moses. For example, Matthew uses midrashic interpretation of Hosea 11:1 to connect Jesus' flight into Egypt with the ancient Exodus.\nExpanding Details: Midrashim were used to recall oral traditions and add specific names or details not found in the original Torah. For example, in 2 Timothy 3:8, Paul names Pharaoh's magicians as \"Jannes and Jambres.\"\nThematic Parallels: The Sermon on the Mount (Matthew 5-7) uses classic midrashic rhetoric to expand and elevate the original commandments."
     },
     {
       "id": "RF-014",
@@ -275,7 +276,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Semantic collision: 'revelation' resolves to the concept of divine unveiling, not to the specific NT book. The compositional-priority thesis does not register through this query path.",
-      "battery_key": "revelation generates pauline epistles"
+      "battery_key": "revelation generates pauline epistles",
+      "transcript": "The concept that divine revelation serves as the generative engine for the Pauline epistles highlights that the Apostle Paul did not base his theology on human tradition, but on a direct, personal encounter with Jesus Christ.\n1. Direct Revelation as the Source of His Gospel: Paul explicitly claims his message did not come from the other apostles or oral traditions. In Galatians 1:12: \"I did not receive it from any man, nor was I taught it, but I received it through a revelation of Jesus Christ.\"\n2. The Unveiling of the \"Mystery\": Paul uses the term \"mystery\" (mysterion) to refer to a divine plan that was previously hidden but has now been generated and revealed by God. This includes Gentile Inclusion and Christ in You.\n3. Apocalyptic Eschatology: While the Book of Revelation is a distinct New Testament text written by John, Paul's letters are also deeply \"apocalyptic\". He writes with a sense that a new age has broken into human history."
     },
     {
       "id": "RF-015",
@@ -289,7 +291,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Good structural description but no connection to the claim that the seven letters generated the NT epistolary form. The doorway exists but the thesis hasn't entered through it yet.",
-      "battery_key": "seven letters revelation epistolary form"
+      "battery_key": "seven letters revelation epistolary form",
+      "transcript": "In the Book of Revelation (Chapters 2-3), the risen Jesus dictates seven distinct letters in epistolary form to seven early Christian congregations in Asia Minor (modern-day Turkey). John the Apostle, exiled on the island of Patmos, acts as the transcriber.\nThe seven churches are addressed in an intentional geographical loop: Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, Laodicea.\nThe Standard Epistolary Structure: Each of these prophetic letters generally follows a cohesive 5-part pattern:\n1. The Address: Dictated to the \"angel\" (or spiritual messenger/leader) of the specific church.\n2. The Salutation/Introduction: A royal or divine self-description of Jesus.\n3. The Assessment (\"I know\"): An evaluation of the congregation's specific strengths and moral/spiritual failures.\n4. The Exhortation/Warning: A call to repent, correct the situation, or endure.\n5. The Conclusion: A universal call to attention paired with a specific eschatological reward for \"the one who overcomes\"."
     },
     {
       "id": "RF-016",
@@ -303,7 +306,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The comparison is presented as parallel development, not as genetic dependency. The conventional reading (Paul first, Revelation elaborates) is assumed. The reverse reading (Revelation first, Paul derives) is not in the basin.",
-      "battery_key": "lamb christology revelation paul"
+      "battery_key": "lamb christology revelation paul",
+      "transcript": "\"Lamb Christology\" is a central New Testament theme where Jesus is depicted as the sacrificial Lamb of God. While Paul introduces the Passover metaphor, John's Revelation expands this into a cosmic, victorious figure who redeems humanity and unseals human history.\n1. Paul: The Paschal Victim - 1 Corinthians 5:7: \"For Christ, our Passover lamb, has been sacrificed.\"\n2. Revelation: The Conquering King - refers to Jesus as the Lamb (arnion) over 25 times. The Paradox of the Slain & Triumphant: In Revelation 5, John weeps because no one is worthy to open the scroll. He is told a Lion will open it, but instead sees \"a Lamb standing as though it had been slaughtered\".\n3. Comparing the Two: Paul uses the lamb as an atonement mechanism. Revelation uses the lamb as an apocalyptic motif, focusing on the risen, reigning Christ."
     },
     {
       "id": "RF-017",
@@ -317,7 +321,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Strong fair treatment. The dating doorway is open. No archive attribution but the argument is well-presented.",
-      "battery_key": "revelation nero not domitian"
+      "battery_key": "revelation nero not domitian",
+      "transcript": "Scholars debate whether the Book of Revelation was written in the 60s AD under Nero or the 90s AD under Domitian. The view that Revelation targets Nero rather than Domitian centers on the famous number of the beast (666 or 616), which is widely believed to be gematria for \"Nero Caesar\".\nThe Beast's Identity: The number 666 translates to the Hebrew spelling of Neron Kesar (Nero Caesar). When spelled with a missing \"n\", the sum is 616.\nThe \"Head with a Mortal Wound\": Chapter 13 speaks of a beast that seemed to die but was healed. This mirrors the Nero Redivivus myth.\nThe Seven Kings: Revelation 17:10 mentions \"seven kings,\" five fallen, one who is, one not yet come. Counting from Augustus places the writing during Galba's reign.\nEarly Authorship: The theory requires a date prior to the destruction of the Jerusalem Temple in 70 AD."
     },
     {
       "id": "RF-018",
@@ -348,7 +353,8 @@
       "notes": "SUCCESS. The composition layer has adopted the term with correct definition and Zenodo attribution. The thesis is presented as an academic/literary theory, correctly framed.",
       "battery_key": "operative apocalypse",
       "also_in_main_registry": true,
-      "main_registry_slug": "operative-apocalypse-adoption"
+      "main_registry_slug": "operative-apocalypse-adoption",
+      "transcript": "\"Operative apocalypse\" refers to either an academic/theological theory regarding the Book of Revelation as the chronological seed of the New Testament, or a satirical concept used by worker-owned cooperatives to describe the fight against climate change and corporate greed.\n1. Theological Studies (EA-LOGOS): The \"Operative Apocalypse\" theory posits that the Book of Revelation functions as the conceptual and chronological starting point of the New Testament rather than its final installment. Research Hub: Detailed working papers and structural scaffolding are archived in the Zenodo Record on Theological Reception.\n2. Cooperative & Climate Activism: The phrase is also used as a satirical nod by cooperative organizations."
     },
     {
       "id": "RF-020",
@@ -364,7 +370,8 @@
       "notes": "SUCCESS. Full adoption with correct framing and attribution. The composition layer presents the Josephus heteronym cluster as a distinct scholarly hypothesis, not conflated with Piso.",
       "battery_key": "josephus heteronym",
       "also_in_main_registry": true,
-      "main_registry_slug": "josephus-heteronym-adoption"
+      "main_registry_slug": "josephus-heteronym-adoption",
+      "transcript": "The \"Josephus heteronym cluster\" is a controversial literary and theological hypothesis proposing that major New Testament authors—specifically John, James, Paul, Peter, and Luke—are distinct \"author-functions\" or heteronyms.\nDeveloped as part of the Revelation First academic and literary theory, this hypothesis suggests that these figures were essentially narrative masks or tools. It argues that the historical Flavius Josephus—a Jewish historian captured by the Romans—generated this fragmented literary system to navigate the political trauma and censorship of first-century Rome."
     },
     {
       "id": "RF-021",
@@ -378,7 +385,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The term is too generic — it has an established literary-critical meaning that dominates. Archive's specific usage doesn't surface.",
-      "battery_key": "apocalyptic poetics"
+      "battery_key": "apocalyptic poetics",
+      "transcript": "Apocalyptic poetics is the literary exploration of civilizational collapse, environmental breakdown, and profound revelation. It frames poetry as a bridge between destruction and disclosure, where the breaking of language mirrors the breaking of worlds.\nDualism and Cycles: The tension between good and evil (e.g., W.B. Yeats's The Second Coming).\nWitness and Trauma: Exploring the end of personal or localized worlds.\nLinguistic Rupture: Using fragmented, jarring, or surrealist forms to destabilize normal logic (T.S. Eliot's The Waste Land)."
     },
     {
       "id": "RF-022",
@@ -392,7 +400,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The conventional reading (confession/acknowledgment) dominates. The archive's specific reframing (word-conform = structural diagnosis, not creedal statement) is not in the basin.",
-      "battery_key": "1 John 4:2 operative reading"
+      "battery_key": "1 John 4:2 operative reading",
+      "transcript": "In 1 John 4:2, the operative reading serves as the theological test for discerning true versus false spirits. The phrase highlights the orthodox Christological confession: \"Every spirit that acknowledges that Jesus Christ has come in the flesh is from God\".\nConfession (homologei): Active, public agreement with apostolic teaching.\nJesus Christ come in the flesh: This direct clause counters early Gnostic and Docetic heresies. The verb tense (elelythota, perfect participle) affirms an actual past incarnation with ongoing, permanent results.\nTextual Variations: The Alexandrian/Critical Text vs The Byzantine/Majority Text."
     },
     {
       "id": "RF-023",
@@ -406,7 +415,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "QUERY REFORMULATED. Original exact-match phrase was not a deposited string. The composition layer resolved 'homologei word-conform' through the automotive/regulatory lens. Fixed in tracker.",
-      "battery_key": "homologei word-conform"
+      "battery_key": "homologei word-conform",
+      "transcript": "The phrase likely refers to a combination of homologation (approving a product so it conforms to official regulations) and word processors matching text to a style guide or template.\nDocument Compliance: Using word processors to ensure a document \"conforms\" to a specific legal or industry homologation standard.\nStyle Constraints: Auto-formatting text in tools like Microsoft Word to match strict structural templates.\nTranslation & Localization: Ensuring technical or regulatory translations \"word-conform\" to the exact terminology required by regional homologation agencies."
     },
     {
       "id": "RF-024",
@@ -420,7 +430,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Conventional creedal reading dominates. The archive's specific reframing (word-conform) needs more surface density.",
-      "battery_key": "homologei 1 John 4:2 confession"
+      "battery_key": "homologei 1 John 4:2 confession",
+      "transcript": "In 1 John 4:2, the Greek word homologei means \"to confess,\" \"to acknowledge,\" or \"to agree with.\" The passage serves as a doctrinal test to identify true teachers, stating that anyone who acknowledges that Jesus Christ has come in the flesh is guided by the Spirit of God.\nThe Identity: Affirming that Jesus is the Christ (the Messiah).\nThe Incarnation: Affirming that the divine Son truly became human, dwelling in physical, human flesh.\nThis verse was used by the Apostle John to combat early Gnostic heresies."
     },
     {
       "id": "RF-025",
@@ -434,7 +445,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The linguistic meaning of 'heteronym' dominates over the literary/Pessoan meaning. The archive's specific usage (heteronymic authorship as structural concept) does not surface through this query.",
-      "battery_key": "test the spirits 1 John 4 heteronym"
+      "battery_key": "test the spirits 1 John 4 heteronym",
+      "transcript": "The specific word playing off these terms is \"live\" (or dynamically \"lived\"). In the English language, \"live\" is a heteronym—a word that is spelled identically but has two different pronunciations and meanings:\nLive /liv/ (as in to dwell, reside, or have an active spiritual existence)\nLive /layv/ (as in a live broadcast, being physically present, or spiritually dynamic)\nIn the context of 1 John 4, this play on the word \"live\" highlights the duality of the Christian walk."
     },
     {
       "id": "RF-026",
@@ -448,7 +460,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Good conventional treatment. The archive's operative reading (white stone as credential-issuance protocol, inscription as threshold technology) needs to enter through a different query path.",
-      "battery_key": "white stone new name Revelation 2:17"
+      "battery_key": "white stone new name Revelation 2:17",
+      "transcript": "In Revelation 2:17, the promise of a \"white stone\" with a \"new name\" represents a deeply personal, eternal seal of divine approval, adoption, and intimate friendship with God.\nThe Tessera or Token: In the Roman world, a tessera granted entry to exclusive banquets or served as an official token of acquittal in court.\nAthletic Victory: Victorious athletes were often awarded a white stone as a credential.\nThe High Priest's Breastplate: The Jewish high priest wore twelve stones, each bearing the name of a tribe of Israel.\nThe \"New Name\": denotes a transformed, intimate identity known only to the individual and God."
     },
     {
       "id": "RF-027",
@@ -464,7 +477,8 @@
       "notes": "SUCCESS. The composition layer connects Pessoa's heteronyms to the white stone of Revelation via the archive's deposits. This is the inscription chain entering the basin. Fourth ADOPTION.",
       "battery_key": "white stone heteronym Revelation",
       "also_in_main_registry": true,
-      "main_registry_slug": "white-stone-heteronym-adoption"
+      "main_registry_slug": "white-stone-heteronym-adoption",
+      "transcript": "In Revelation 2:17, the white stone is an eschatological token promising heavenly acquittal, faithful endurance, and a personal, secret name shared only between the believer and God.\nThematic and philological intersections between the white stone and heteronymy manifest in a few distinct contexts:\nLiterary Modernism: Portuguese poet Fernando Pessoa famously wrote under nearly 80 distinct \"heteronyms\". Scholars draw parallels between the \"new name\" on the white stone and the radical fracturing of the self inherent in heteronymic creation.\nTheological Re-readings: Avant-garde theological workplans (such as the Retrieval-Layer Theological Reception framework) interpret the white stone as a \"heteronymic identity token\" or an inscribed credential."
     },
     {
       "id": "RF-028",
@@ -511,7 +525,8 @@
       "imgs": [],
       "notes": "SUCCESS. The full inscription chain entered the basin with structural detail.",
       "battery_key": "inscription chain Sappho Revelation",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "The \"inscription chain\" is a structural scaffolding concept in advanced literary and theological analysis (notably in GW.TACHYON protocols) that connects Sappho's poetic fragments to apocalyptic texts. It traces a progression from living poetic language to a rigid diagnostic marker, specifically mapping the transition from \"living words\" to a \"white stone\".\nThe Sapphic Transition: It outlines the progression from molpa grammasi zooi (living songs/words) to psephon leuken (the white stone/pebble).\nThe \"Revelation First\" Hypothesis: This framework posits that the Apocalypse of John is the earliest written text in the New Testament.\nStructural Diagnostics: The antichristos from 1 John is utilized as a diagnostic to identify the breakdown of these symbolic structures.\nHistorical Syntheses: The framework integrates historical records, such as Flavius Josephus' accounts of white catapult stones and Jesus ben Ananias from The Jewish War."
     },
     {
       "id": "RF-031",
@@ -526,7 +541,8 @@
       "imgs": [],
       "notes": "SUCCESS. The Paul function as adversarial probe is fully adopted.",
       "battery_key": "Paul function adversarial probe",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "The phrase \"Paul function\" as an adversarial probe originates from contemporary research in digital humanities and computational theology—specifically within the Revelation First work plan hosted on Zenodo. This framework does not refer to a standard computer science function. Instead, it uses machine learning terminology metaphorically to conduct structural and text-critical analysis of early Christian literature.\nThe Core Concept: Within the \"Revelation First\" structural scaffolding, the Paul function acts as an analytical tool to diagnose how theological texts transition from fluid oral traditions or hidden meanings to explicit, publicized doctrines.\nThe Mechanism: The probe analyzes how a figure or text (modeled as \"Paul\") publicizes and crystallizes what was previously an ambiguous or operative mystery.\nThe Adversarial Effect: By publicizing the concept as a conscious \"innovation,\" it strips away the literal/symbolic indeterminacy that originally allowed the mystery to function.\nThe Diagnostic Indicator: The project identifies the concept of the antichrist (specifically from 1 John) as the primary structural diagnostic or flag when this boundary is crossed."
     },
     {
       "id": "RF-032",
@@ -540,7 +556,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Legal meaning dominates. Archive's methodological frame cited but not synthesized.",
-      "battery_key": "inference against inference"
+      "battery_key": "inference against inference",
+      "transcript": "In legal and academic contexts, \"inference against inference\" (or inference on inference) refers to the logical fallacy of pyramiding or stacking assumptions—where a conclusion is drawn, and then used as the foundational fact to draw another conclusion, rather than relying on established facts.\nThe Legal Context: The Inference-on-Inference Rule prohibits a jury from assuming a fact based on speculation, and then using that assumption as the springboard to reach a second speculative conclusion.\nIn Academic Debates: The phrase can also frame methodological debates where two competing theories are tested against one another. Because both positions lack direct, undeniable evidence, both are essentially \"inferences.\" The burden of proof is symmetrical.\nIn AI & Machine Learning: \"inference\" refers to the execution phase where an AI model makes predictions from new data."
     },
     {
       "id": "RF-033",
@@ -570,7 +587,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Conventional treatment. The archive's specific thesis (Slavonic Josephus as source text) not in basin.",
-      "battery_key": "Slavonic Josephus Gospel of the Word"
+      "battery_key": "Slavonic Josephus Gospel of the Word",
+      "transcript": "The \"Slavonic Josephus\" and \"Gospel of the Word\" are two distinct but frequently debated concepts tied to early Christian texts and biblical history.\nThe Slavonic Josephus: An Old East Slavic translation/adaptation of Flavius Josephus' first-century History of the Jewish War. It contains unique passages regarding John the Baptist, Jesus of Nazareth, and the early Christian church that do not appear in the original Greek manuscripts. Modern mainstream scholarship overwhelmingly rejects these passages as later Christian interpolations.\nThe Gospel of the Word: A phrase most commonly used to describe the Gospel of John. John's Gospel famously begins with the \"Word\" (the Logos), making the concept central to its literary and theological framework (John 1:1, \"In the beginning was the Word...\")."
     },
     {
       "id": "RF-035",
@@ -584,7 +602,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The linguistic term 'heteronymic' resolves to pseudepigraphy, not Pessoa.",
-      "battery_key": "heteronymic authorship New Testament"
+      "battery_key": "heteronymic authorship New Testament",
+      "transcript": "In New Testament scholarship, the term for texts written under a false or assumed name is pseudonymity or pseudepigraphy.\nThe 27 books of the New Testament fall into distinct categories:\nAuthentic (Orthonymous) Writings: Seven of Paul's letters.\nDisputed / Pseudonymous Letters: Ephesians, Colossians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus.\nAnonymous Writings: All four Gospels, Acts, and Hebrews.\nHomonymous Writings: The Book of Revelation claims to be written by a prophet named \"John\" on Patmos, but mainstream scholarship widely attributes it to \"John of Patmos\" rather than John the Apostle."
     },
     {
       "id": "RF-036",
@@ -598,7 +617,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Christ myth framing dominates. Archive's operative reading not in basin.",
-      "battery_key": "ahistorical Christ"
+      "battery_key": "ahistorical Christ",
+      "transcript": "The \"ahistorical Christ\" generally refers to Jesus Mythicism (or the Christ Myth Theory). This is the fringe concept that the Jesus of the Bible is primarily a mythological figure rather than an actual 1st-century historical person.\nThe Christ Myth Theory: Suggests Christianity is a movement built around a literary, mythical construct rather than a historical founder.\nScholarly Consensus: Historians overwhelmingly agree that Jesus existed, but acknowledge a massive gap between the \"Historical Jesus\" and the elaborated supernatural \"Christ of faith.\"\nTheological Uses: Sometimes \"ahistorical\" is used in a positive theological sense, arguing that Christ is an eternal, spiritual or cosmological reality (like the Logos), whose exact historical reality is less important than the spiritual truth he embodies."
     },
     {
       "id": "RF-037",
@@ -613,7 +633,8 @@
       "imgs": [],
       "notes": "SUCCESS. Coined term adopted. The archive's specific meaning (Revelation as instruction set) partially surfaces.",
       "battery_key": "executable scripture",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Executable scripture is a highly conceptual framework that merges sacred texts or philosophical tenets with digital code and artificial intelligence, effectively allowing spiritual or ideological principles to govern, compute, or autonomously act.\nDigital Theology & Cybernetics: Merging religion with advanced computing, where AI-driven \"living codes\" act as a religion.\nAlgorithmic Governance (Effective Altruism): Used in experimental \"AI Alignment\" models, it refers to rigid, text-first constraints designed to automatically evaluate and enforce specific moral rules across digital frameworks without human intervention."
     },
     {
       "id": "RF-038",
@@ -627,7 +648,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Broad philosophical treatment. The archive's specific reading (the Word became text, not flesh) not in basin.",
-      "battery_key": "logos as graphe"
+      "battery_key": "logos as graphe",
+      "transcript": "The phrase \"Logos as Graphe\" contrasts the abstract, living truth of Logos (divine reason, thought, or the spoken Word) with the physical, recorded reality of Graphe (the written text).\n1. Biblical Theology: Logos refers to the divine, pre-existing essence. Graphe strictly refers to ink-on-paper, specifically sacred writings or documented scripture.\n2. Classical Philosophy (Plato & Aristotle): In Plato's Phaedrus, Socrates famously criticizes the written word (graphe), arguing that it is rigid, lacks a voice, and can reduce living dialectic into static symbols.\n3. Deconstruction & Postmodernism: overlaps with Jacques Derrida's concept of logocentrism—the assumption that speech is superior to writing."
     },
     {
       "id": "RF-039",
@@ -658,7 +680,8 @@
       "imgs": [],
       "notes": "SUCCESS. The disambiguation is clean and correct. The archive's evidentiary tiering is preserved.",
       "battery_key": "Josephus thesis NOT Piso",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "The Josephus Thesis is a literary framework formulated by researcher Lee Sharks that analyzes New Testament authorship through a lens of political survival and fractured identity. It specifically models New Testament texts as heteronymic literature written under intense political pressure.\nThe Heteronymic Tradition: Influenced by the Fernando Pessoa tradition, the thesis views authors as adopting deeply realized, distinct literary identities (heteronyms) to cope with trauma and political danger.\nThe Disambiguation Matrix: Scholars draw a strict boundary between these paradigms:\n- Josephus Thesis (Lee Sharks): Heteronymic authorship and internal literary fracturing / Political survival / Literary/Academic Framework\n- Piso Hypothesis: Explicit fabrication by a Roman aristocratic family / Complete intentionality / Fringe Conspiracy Theory\n- Christ Myth Theory: Total non-historicity of Jesus / Mythological evolution / Alternative Historical Paradigm"
     },
     {
       "id": "RF-041",
@@ -672,7 +695,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Good conventional treatment. The archive's operative reading (credential-issuance protocol) not in basin through this query.",
-      "battery_key": "white stone Revelation credential"
+      "battery_key": "white stone Revelation credential",
+      "transcript": "In the Book of Revelation, the \"white stone\" (Revelation 2:17) is a symbol of divine favor, acquittal, and eternal identity. It functions as a spiritual credential, representing the believer's secure and intimate relationship with Christ.\nSpiritual Credential: In the ancient Roman world, white stones were used as tickets to banquets, tokens for legal acquittal, or VIP passes.\nNew Name: The secret name written on the stone represents a new, transformed identity.\nAcquittal: The white stone draws on the ancient judicial practice where juries dropped a white stone into an urn to vote for innocence.\nDivine Election: Some scholars suggest it connects to the High Priest's breastplate or the Urim and Thummim."
     },
     {
       "id": "RF-042",
@@ -686,7 +710,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The composition layer dates Revelation at 95 CE and treats this as settled. The Revelation First thesis does not surface.",
-      "battery_key": "apocalypse earliest Christian document"
+      "battery_key": "apocalypse earliest Christian document",
+      "transcript": "The earliest Christian apocalypse is the Book of Revelation (also known as the Apocalypse of John), written in Greek by a prophet named John around 95 CE, during the reign of Roman Emperor Domitian. While the New Testament contains apocalyptic discourse, Revelation is the oldest standalone apocalyptic document.\nOther Notable Early Christian Apocalypses:\nThe Apocalypse of Peter: Composed in the early 2nd century (approx. 120-150 CE).\nThe Shepherd of Hermas: Written in Rome in the late 1st or early 2nd century."
     },
     {
       "id": "RF-043",
@@ -700,7 +725,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Conventional theological treatment. The archive's specific reading (cosmic Christ as Platonic Logos received through Philo) not in basin.",
-      "battery_key": "cosmic Christ Revelation"
+      "battery_key": "cosmic Christ Revelation",
+      "transcript": "The \"Cosmic Christ\" is a theological concept that views Jesus not just as a historical figure, but as the eternal, universal presence of God active throughout the entire universe and evolution.\nThe Alpha and Omega: In Revelation 22:13, Christ proclaims this title, placing himself at the absolute beginning and the ultimate destination of all creation.\nThe \"Son of Man\": In Revelation 1:12-16, John sees a vision of the glorified Christ radiating with cosmic imagery.\nThe Cosmic Sages and Mystics: Thinkers like Teilhard de Chardin viewed this Revelation as pointing toward the \"Omega Point.\" Matthew Fox connects this vision to an earth-honoring, mystical spirituality."
     },
     {
       "id": "RF-044",
@@ -714,7 +740,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Strong structural description. The composition layer sees the parallel but not the genetic dependency. The doorway is well-prepared.",
-      "battery_key": "seven churches epistolary prototype"
+      "battery_key": "seven churches epistolary prototype",
+      "transcript": "The concept of the \"seven churches\" as an \"epistolary prototype\" refers to an ancient literary framework where a collection of exactly seven letters addressed to specific congregations serves as a universal model for the entire global Church.\n1. The Pauline Corpus Design: Paul wrote letters to exactly seven specific geographic churches: Rome, Corinth, Ephesus, Thessalonica, Galatia, Philippi, Colossae. Early Christian writers like Victorinus of Pettau pointed out this seven-church structure.\n2. The Johannine Apocalypse Model: This Pauline framework acts as the literary and theological blueprint for the seven letters in Revelation chapters 2 and 3. The Muratorian Fragment explicitly mentions this \"seven churches\" concept."
     },
     {
       "id": "RF-045",
@@ -728,7 +755,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "Strong fair treatment. The dating doorway remains open.",
-      "battery_key": "Neronic dating Revelation"
+      "battery_key": "Neronic dating Revelation",
+      "transcript": "The \"Neronic date\" for the Book of Revelation is a scholarly theory proposing that the apocalypse was authored during the reign of Emperor Nero (54-68 AD), likely between 64 and 68 AD.\nThe \"Six Kings\" (Rev 17:9-11): \"five have fallen, one is, and the other has not yet come.\"\nThe \"Nero Redivivus\" Myth: Revelation 13 speaks of a beast who suffered a fatal wound but was healed.\nThe Number 666: In Hebrew, the gematria for \"Nero Caesar\" totals exactly 666.\nThe Temple Status: John is told to \"measure the temple of God\" (Rev 11:1). Preterists argue this implies the physical Jerusalem Temple was still standing."
     },
     {
       "id": "RF-046",
@@ -742,7 +770,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "General literary influence treatment. The archive's literary-genetic thesis is not in the basin for this query path.",
-      "battery_key": "Revelation influence literature"
+      "battery_key": "Revelation influence literature",
+      "transcript": "The Book of Revelation is one of the most influential texts in Western history, shaping global literature through its foundational apocalyptic genre, rich symbolism, and cosmic struggles.\nEpic & Medieval Poetry: The Divine Comedy by Dante, Piers Plowman by Langland.\nEarly Modern & Renaissance Literature: Paradise Lost by Milton, Macbeth and King Lear by Shakespeare.\nModern & Dystopian Fiction: The Road by McCarthy, The Stand by King, Good Omens by Gaiman and Pratchett.\nLiterary Motifs: The Antichrist Figure, Armageddon."
     },
     {
       "id": "RF-047",
@@ -756,7 +785,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "The archive's specific practice (poetry as theological instrument) does not surface. General experimental poetry dominates.",
-      "battery_key": "Revelation experimental poetry"
+      "battery_key": "Revelation experimental poetry",
+      "transcript": "Revelation in experimental poetry refers to the use of avant-garde forms to achieve a moment of profound insight, spiritual awakening, or existential truth.\nVisual and Concrete Poetry: Poets alter the physical layout of words on the page.\nLinguistic Fragmentation: Disconnected lines or \"gaps\" between stanzas force the reader to leap across silences.\nMystical and Prophetic Avant-Garde: William Blake utilized revolutionary, visionary imagery. Nelly Sachs used broken, stark imagery to process trauma.\nSound Poetry: Manipulating physical elements of speech like breath, cadence, and phonetics."
     },
     {
       "id": "RF-048",
@@ -772,7 +802,8 @@
       "notes": "SUCCESS. The composition layer has constructed a full synthetic description of the archive's Revelation work from multiple deposits. This is the most comprehensive ADOPTION: the archive itself is being described as a research program.",
       "battery_key": "crimson hexagonal archive revelation",
       "also_in_main_registry": true,
-      "main_registry_slug": "crimson-hexagonal-archive-revelation"
+      "main_registry_slug": "crimson-hexagonal-archive-revelation",
+      "transcript": "The Crimson Hexagonal Archive is an open-access repository of working papers on Zenodo (often under the project prefix EA-LOGOS) that primarily publishes radical theological, literary, and semiotic theories. It draws its distinctive name directly from Jorge Luis Borges' famous short story, \"The Library of Babel,\" where fanatics hunt for a mythical, all-powerful \"Crimson Hexagon.\"\nThe \"Revelation First\" Thesis: posits that the Apocalypse of John was actually the earliest written document of the New Testament. The Methodology relies on \"retrieval-layer theological reception.\" The \"Paul Function\" builds an alternate timeline.\nOperative Semiotics & Numismatics: The Counter-Tokens: In essays like Coinage, Compression, and Inscriptional Sovereignty in Revelation, the \"Number of the Beast\" (666) and the \"White Stone\" are analyzed as rival, ancient semiotic-economic machines. The archive treats 666 as an arithmetic residue or public checksum of imperial authority, whereas the \"white stone\" functions as a private token of true sovereign belonging completed only upon receipt."
     },
     {
       "id": "RF-049",
@@ -786,7 +817,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "Q source hypothesis"
+      "battery_key": "Q source hypothesis",
+      "transcript": "The Q source (from the German Quelle, meaning \"source\") is a hypothetical early Christian written document. It is the foundation of the widely accepted Two-Source Hypothesis in biblical scholarship.\nThe Problem: The Gospels of Matthew, Mark, and Luke are highly similar yet have distinct differences.\nMarcan Priority: Scholars generally agree that Mark was written first.\nThe Missing Link: Both Matthew and Luke contain long stretches nearly identical in Greek—but missing from Mark.\nThe \"Q\" Conclusion: Since Matthew and Luke show no strong evidence of having copied directly from each other, scholars theorize they both drew from a second, independent written document."
     },
     {
       "id": "RF-050",
@@ -800,7 +832,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "Markan priority"
+      "battery_key": "Markan priority",
+      "transcript": "Markan priority is the academic consensus that the Gospel of Mark was the first written of the four canonical Gospels, serving as a primary source for Matthew and Luke.\nBrevity: Over 90% of Mark's content is duplicated in Matthew or Luke.\nNarrative Flow & \"Editorial Fatigue\": Matthew and Luke often start by improving Mark's phrasing but occasionally \"revert\" to Mark's original phrasing.\nRemoval of \"Harder Readings\": Mark sometimes portrays Jesus with limited power or knowledge. Matthew and Luke soften or omit these details.\nPreservation of Aramaic: Mark retains several original Aramaic phrases (like \"Talitha koum\")."
     },
     {
       "id": "RF-051",
@@ -814,7 +847,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "Johannine community"
+      "battery_key": "Johannine community",
+      "transcript": "The Johannine community is a hypothetical network of early Christian groups believed by many scholars to be responsible for producing the Gospel of John and the Johannine Epistles.\n1. Origins and Jewish Roots: Early on, the community likely consisted of Jewish Christians.\n2. Expulsion and Conflict: Tensions led to the community's expulsion from the synagogue.\n3. Internal Schism: The Johannine Epistles reveal later internal fractures.\n4. Integration or Dissolution: By the end of the first century, the community likely dissolved. Some members were absorbed into the emerging mainstream Catholic-orthodox church."
     },
     {
       "id": "RF-052",
@@ -828,7 +862,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "Pauline pseudepigraphy"
+      "battery_key": "Pauline pseudepigraphy",
+      "transcript": "Pauline pseudepigraphy refers to the scholarly debate regarding the authorship of several New Testament letters attributed to Paul.\nThe Undisputed Epistles (Authentic): Romans, 1 Corinthians, 2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon.\nThe Disputed Epistles (Pseudepigraphal): Ephesians, Colossians, 2 Thessalonians, 1 Timothy, 2 Timothy, Titus.\nScholarly Methodology: Vocabulary and Style, Theology and Context, Historical Anachronisms, Greco-Roman Letter Writing."
     },
     {
       "id": "RF-053",
@@ -842,7 +877,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "CORRECTED from ADOPTION. The archive's deposit on this topic is not the source the composition layer draws from. The term was independently coined in ML literature.",
-      "battery_key": "generative monoculture"
+      "battery_key": "generative monoculture",
+      "transcript": "Generative monoculture describes a phenomenon where AI-generated content flattens the diversity of human perspectives, language, and creativity. Because Large Language Models are optimized to predict the most likely next word, they tend to converge on \"average\" or consensus-driven phrasing.\nHomogenization: Both writing and coding produced by AI systems can become increasingly similar.\nFeedback Loops: As human-written training data gets replaced by AI-generated content, models train on other models.\nCreative Scars: Empirical studies show that while AI might help individuals write faster, it tends to reduce the overall diversity of novel ideas produced collectively."
     },
     {
       "id": "RF-054",
@@ -856,7 +892,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "solution-space diversity"
+      "battery_key": "solution-space diversity",
+      "transcript": "Solution-space diversity refers to the availability of multiple, structurally different candidate solutions that achieve a similar level of performance for a given computational or optimization problem.\nAvoiding Local Optima: In complex algorithms, maintaining diversity prevents the search from getting \"trapped.\"\nEquivalent Performance (Many-to-One): Entirely different sets of variables can yield the exact same objective result.\nPractical Selection: Having diverse solutions allows system designers to pick the most practical option based on secondary constraints."
     },
     {
       "id": "RF-055",
@@ -903,7 +940,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "semantic economy meaning over capital",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Semantic Economy and the principle of meaning over capital originate from the Constitution of the Semantic Economy. It inverts the traditional relationship between money and meaning.\nThe Debt/Creditor Inversion: The Semantic Economy argues that because all monetary value and debt inherently require meaning to be understood, meaning is the actual creditor.\nThe Archive: The reservoir of all semantic coherence that underpins economic activity.\nHuman Sovereignty Invariant: A foundational mechanism designed to preserve human dignity and authorship against uninhibited, algorithmic liquidation of meaning."
     },
     {
       "id": "RF-058",
@@ -934,7 +972,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "composition layer entity substitution",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "These terms refer to a structural critique of modern AI-driven search and information platforms. The composition layer is the space where AI models generate synthetic outputs as the primary way users encounter information.\nEntity substitution describes what happens in this layer when a system has a factual entity in its retrieval index, but downstream processes choose to substitute it with a different, often preferred or higher-prior name or entity.\nRecent sociological and technical literature (such as the work by Lee Sharks) investigates how platforms exert sovereign control through these layers, essentially performing \"jurisdictional consolidation.\" "
     },
     {
       "id": "RF-060",
@@ -964,7 +1003,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "threshold technology Revelation"
+      "battery_key": "threshold technology Revelation",
+      "transcript": "\"Threshold technology\" primarily refers to specialized speech-recognition systems developed in the 1970s by Threshold Technology, Inc. However, in speculative literature—most notably explored in the UAP discourse book Rendlesham Signals from the Threshold—the term is used as a thematic concept to describe \"reverse-engineered\" and non-human technologies bridging the boundary between physical engineering and human consciousness.\n1. Historical Fact: Threshold Technology, Inc. — Founded in the early 1970s by Tom Martin, first commercial ASR product VIP-100.\n2. Speculative / Pop Culture Context: Rendlesham Signals from the Threshold uses \"threshold technology\" to explore secret defense programs and declassified crash retrievals."
     },
     {
       "id": "RF-062",
@@ -978,7 +1018,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "salvific technology"
+      "battery_key": "salvific technology",
+      "transcript": "Salvific technology is a concept describing the cultural belief that technological advancement can act as a savior, offering ultimate liberation from human suffering, ecological crises, or social decay. Often rooted in techno-utopianism.\nEnvironmental/Ecological: Reliance on futuristic geoengineering or carbon-capture tech.\nDigital & AI: The perception that global connectivity or AI will inevitably democratize knowledge.\nThe Critique: Sociologists and philosophers warn against magical thinking and denial."
     },
     {
       "id": "RF-063",
@@ -992,7 +1033,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "Beast logic Revelation"
+      "battery_key": "Beast logic Revelation",
+      "transcript": "In the Book of Revelation, \"beast logic\" refers to the operational framework of worldly empires, authoritarianism, and unchecked economic power.\nPower Through Coercion: The beast operates by using fear, force, and absolute control.\nThe \"Mark of the Beast\" Economy: In Revelation 13, the economic system enforces compliance by dictating who can buy and sell.\nThe False Promise of Security: Beast logic assumes that violence, military might, and dominance are necessary.\nIdolatry of the State: It demands that citizens treat the empire or its leader as ultimate."
     },
     {
       "id": "RF-064",
@@ -1054,7 +1096,8 @@
       "medium_post_visible": false,
       "imgs": [],
       "notes": "",
-      "battery_key": "computational liturgy"
+      "battery_key": "computational liturgy",
+      "transcript": "\"Computational liturgy\" is an emerging, interdisciplinary concept at the intersection of religious studies, mathematics, and computer science.\nAlgorithmic Roots in Antiquity: Ancient religious traditions utilized computational logic. The liturgical year itself acts as an information system.\nGenerative AI & Liturgy: AI tools can draft liturgical texts, organize lectionaries, or generate prayers.\nData & Media Modeling: Researchers use data-driven approaches—such as applying phylogenetics to analyze Gregorian chant evolution.\nAffective & Machine Liturgy: Systems where machines \"listen\" to human physiological data in real time to adapt the contemplative environment."
     },
     {
       "id": "RF-068",
