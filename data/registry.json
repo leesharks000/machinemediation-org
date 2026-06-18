@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "7.9",
+  "version": "8.0",
   "date": "2026-06-17",
-  "total_captures": 164,
+  "total_captures": 163,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -2723,18 +2723,6 @@
       "d": "White stone as counter-token of belonging vs public checksum. Zenodo cited. RF-071.",
       "imgs": [],
       "search_url": "https://www.google.com/search?q=%22counter-token%22+%22white+stone%22",
-      "related": []
-    },
-    {
-      "s": "Revelation First / Semantic Economy",
-      "slug": "generative-monoculture-adoption",
-      "q": "\"generative monoculture\"",
-      "date": "2026-06-17",
-      "sf": "Google AI Mode, Zenodo cited",
-      "mt": "ADOPTION",
-      "d": "AI content flattening diversity. Archive-adjacent. RF-053.",
-      "imgs": [],
-      "search_url": "https://www.google.com/search?q=%22generative+monoculture%22",
       "related": []
     }
   ]
