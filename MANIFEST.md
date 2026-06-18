@@ -104,6 +104,31 @@ Terms that exist independently in other literatures (e.g., "generative monocultu
 - Disambiguation MPAIs require a disambiguation matrix covering ALL composed-from sources.
 - Use the EA-MPAI-JOSEPHUS-01 (DOI 10.5281/zenodo.20690540) as the template.
 
+
+## Where Transcripts Live (CRITICAL GAP — NEXT SESSION PRIORITY)
+
+**Current state:** Full verbatim transcripts from the 17 June 2026 battery sweep exist ONLY in the Claude conversation transcript file. They are NOT in either registry. The `response_summary` field in revfirst-registry.json contains Claude-generated summaries, which can be wrong (see: generative monoculture false ADOPTION).
+
+**Required fix:** Add a `transcript` field to each revfirst-registry.json entry containing the full verbatim text the composition layer produced. The transcript is the primary forensic data:
+- Exact wording of the composition layer's response
+- Exact sources cited (with URLs)
+- Exact organic results listed
+- The framing decisions visible in word choice
+
+**Architecture decision:** Store transcripts inline in revfirst-registry.json as a `transcript` string field per entry. The file will grow (~200K for 71 entries) but JSON handles this. The alternative (separate transcripts.json or per-entry .txt files) adds complexity without benefit.
+
+**What gets recorded per capture:**
+1. `transcript` — full verbatim text (the composition layer's exact output)
+2. `response_summary` — Claude's short classification summary (secondary, derivative)
+3. `framing` — CORRECTION / ADOPTION / FAIR_TREATMENT / BASIN_MISS / PARTIAL
+4. `archive_attribution` — boolean: did the response cite archive sources?
+5. `imgs` — screenshot filenames (prove it happened)
+6. `date` — when the capture was taken
+7. `surface` — which composition layer (Google AI Mode, ChatGPT, etc.)
+8. `battery_key` — which tracker term this capture corresponds to
+
+**The hierarchy:** Transcripts > images > summaries. Transcripts have exact wording and sources. Images prove visual appearance. Summaries are interpretive and can be wrong. Never substitute a summary for a transcript.
+
 ## Credentials (ROTATE THESE)
 GitHub PAT and Zenodo tokens have been exposed in multiple conversation sessions. Rotation is pending and critical.
 
