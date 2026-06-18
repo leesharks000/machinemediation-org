@@ -1,7 +1,7 @@
 {
   "system": "Crimson Hexagonal Archive — Machine-Mediated Reception Studies",
   "version": "0.1",
-  "last_updated": "2026-06-16",
+  "last_updated": "2026-06-18",
   "author": {
     "name": "Lee Sharks",
     "orcid": "0009-0000-1599-0703",
@@ -13,7 +13,12 @@
       "purpose": "MMRS journal home. Canonical data host for registry and term index.",
       "repo": "leesharks000/machinemediation-org",
       "deploy": "Vercel auto-deploy from GitHub main branch",
-      "canonical_data": true
+      "canonical_data": true,
+      "pages": {
+        "captures": "/captures/",
+        "terms": "/terms/",
+        "pillars": "/pillars/ — interactive scholarly graph (D3 force-directed)"
+      }
     },
     "godkinggoogle.com": {
       "purpose": "Google critique site. Links to machinemediation.org for registry and terms.",
@@ -36,16 +41,48 @@
     "registry.json": {
       "canonical_url": "https://machinemediation.org/data/registry.json",
       "description": "AI Overview Capture Registry",
-      "entry_fields": ["s", "slug", "q", "date", "sf", "mt", "d", "imgs"],
+      "entry_fields": [
+        "s",
+        "slug",
+        "q",
+        "date",
+        "sf",
+        "mt",
+        "d",
+        "imgs"
+      ],
       "zenodo_concept": "10.5281/zenodo.20688440",
       "current_count": 134
     },
     "termindex.json": {
       "canonical_url": "https://machinemediation.org/data/termindex.json",
       "description": "Archive Term Index — coined terms across 845 deposits",
-      "entry_fields": ["term", "key", "count", "tier", "category", "tested", "first_date", "first_doi", "variants", "source"],
+      "entry_fields": [
+        "term",
+        "key",
+        "count",
+        "tier",
+        "category",
+        "tested",
+        "first_date",
+        "first_doi",
+        "variants",
+        "source"
+      ],
       "zenodo_concept": "10.5281/zenodo.20722522",
-      "current_count": 1349
+      "current_count": 1387
+    },
+    "scholarly-graph.json": {
+      "canonical_url": "https://machinemediation.org/data/scholarly-graph.json",
+      "description": "Conceptual-citational strategic assessment — corpora, claims, connections across defended texts",
+      "entry_types": [
+        "corpora",
+        "claims",
+        "connections"
+      ],
+      "corpora_count": 6,
+      "claims_count": 10,
+      "connections_count": 9
     }
   },
   "zenodo": {
@@ -55,22 +92,88 @@
     "standing_precept": "Before referencing any term as part of the corpus, verify it exists in an actual deposit. The Name the Frame incident is the cautionary case."
   },
   "key_deposits": {
-    "MMRS_charter": {"doi": "10.5281/zenodo.20722562", "concept": "10.5281/zenodo.20722041", "version": "1.4"},
-    "MMRS_founding_paper": {"doi": "10.5281/zenodo.20724056", "concept": "10.5281/zenodo.20709372", "version": "1.3"},
-    "capture_registry": {"doi": "10.5281/zenodo.20707509", "concept": "10.5281/zenodo.20688440", "version": "7.2"},
-    "term_index": {"doi": "10.5281/zenodo.20722523", "version": "0.1"},
-    "revelation_work_plan": {"doi": "10.5281/zenodo.20722689", "concept": "10.5281/zenodo.20685602", "version": "7.3"},
-    "josephus_not_myth": {"doi": "10.5281/zenodo.20722680", "concept": "10.5281/zenodo.20722524", "version": "1.2"},
-    "okf_analysis": {"doi": "10.5281/zenodo.20724029", "concept": "10.5281/zenodo.20723749", "version": "1.3"},
-    "okf_proposal": {"doi": "10.5281/zenodo.20723945", "concept": "10.5281/zenodo.20692394", "version": "1.2"},
-    "spxi_tlp": {"doi": "10.5281/zenodo.20380668", "version": "2.2"},
-    "constitution_se": {"doi": "10.5281/zenodo.19923120", "version": "1.0"},
-    "thiel_error": {"doi": "10.5281/zenodo.19025428", "version": "1.0"}
+    "MMRS_charter": {
+      "doi": "10.5281/zenodo.20722562",
+      "concept": "10.5281/zenodo.20722041",
+      "version": "1.4"
+    },
+    "MMRS_founding_paper": {
+      "doi": "10.5281/zenodo.20724056",
+      "concept": "10.5281/zenodo.20709372",
+      "version": "1.3"
+    },
+    "capture_registry": {
+      "doi": "10.5281/zenodo.20707509",
+      "concept": "10.5281/zenodo.20688440",
+      "version": "7.2"
+    },
+    "term_index": {
+      "doi": "10.5281/zenodo.20722523",
+      "version": "0.1"
+    },
+    "revelation_work_plan": {
+      "doi": "10.5281/zenodo.20722689",
+      "concept": "10.5281/zenodo.20685602",
+      "version": "7.3"
+    },
+    "josephus_not_myth": {
+      "doi": "10.5281/zenodo.20722680",
+      "concept": "10.5281/zenodo.20722524",
+      "version": "1.2"
+    },
+    "okf_analysis": {
+      "doi": "10.5281/zenodo.20724029",
+      "concept": "10.5281/zenodo.20723749",
+      "version": "1.3"
+    },
+    "okf_proposal": {
+      "doi": "10.5281/zenodo.20723945",
+      "concept": "10.5281/zenodo.20692394",
+      "version": "1.2"
+    },
+    "spxi_tlp": {
+      "doi": "10.5281/zenodo.20380668",
+      "version": "2.2"
+    },
+    "constitution_se": {
+      "doi": "10.5281/zenodo.19923120",
+      "version": "1.0"
+    },
+    "thiel_error": {
+      "doi": "10.5281/zenodo.19025428",
+      "version": "1.0"
+    },
+    "sp_release3": {
+      "doi": "10.5281/zenodo.20743560",
+      "version": "1.0",
+      "title": "Sémantique Potentielle — Release 3: Three Pillars"
+    },
+    "sp_legwork_pillars": {
+      "doi": "10.5281/zenodo.20743562",
+      "version": "1.0",
+      "title": "Scholarly Legwork for Three Pillars (TECHNE)"
+    }
   },
   "workflows": {
-    "add_capture": ["Fetch registry.json from canonical URL", "Add entry to entries array (fields: s, slug, q, date, sf, mt, d, imgs)", "Push images to captures/", "Push registry.json to data/", "GitHub push triggers Vercel auto-deploy"],
-    "add_terms": ["Fetch termindex.json from canonical URL", "Add entries", "Cross-reference against registry to set tested field", "Push to data/"],
-    "new_deposit": ["Ask Lee before populating creator/author metadata", "Never use legal name in public contexts", "Community: crimsonhexagonal", "Verify no duplicate via archival search protocol"]
+    "add_capture": [
+      "Fetch registry.json from canonical URL",
+      "Add entry to entries array (fields: s, slug, q, date, sf, mt, d, imgs)",
+      "Push images to captures/",
+      "Push registry.json to data/",
+      "GitHub push triggers Vercel auto-deploy"
+    ],
+    "add_terms": [
+      "Fetch termindex.json from canonical URL",
+      "Add entries",
+      "Cross-reference against registry to set tested field",
+      "Push to data/"
+    ],
+    "new_deposit": [
+      "Ask Lee before populating creator/author metadata",
+      "Never use legal name in public contexts",
+      "Community: crimsonhexagonal",
+      "Verify no duplicate via archival search protocol"
+    ]
   },
   "amendment_2": "All sites use vanilla HTML, CSS, JS. No React frameworks. No build step. Static files served directly."
 }
