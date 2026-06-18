@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "2.0",
+  "version": "2.1",
   "date": "2026-06-17",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -23,7 +23,7 @@
   "per_methodology": "PER (Provenance Erasure Rate) applied per EA-WG-CAPTURES-01 methodology. PER 0.00 = full attribution. PER 1.00 = total erasure. PER is measured only on captures where the thesis content appears.",
   "battery_source": "EA-LOGOS-REVFIRST-PLAN v7.3, \u00a7Baseline battery + \u00a7Phase 1-2 batteries",
   "total_entries": 71,
-  "successful_captures": 27,
+  "successful_captures": 26,
   "entries": [
     {
       "id": "RF-001",
@@ -819,15 +819,14 @@
       "q": "\"generative monoculture\"",
       "date": "2026-06-17",
       "surface": "Google AI Mode",
-      "framing": "ADOPTION",
-      "response_summary": "Correctly described as AI content flattening diversity. Cites arXiv, ICLR 2026. Archive-adjacent concept.",
-      "archive_attribution": true,
-      "per": 0.0,
+      "framing": "FAIR_TREATMENT",
+      "response_summary": "Term exists independently in ML research (ICLR 2026, arXiv, AIS eLibrary). AI Mode describes the concept correctly but cites zero archive sources. EA-UMBML-MONOCULTURE-01 does not surface.",
+      "archive_attribution": false,
+      "per": null,
       "medium_post_visible": false,
       "imgs": [],
-      "notes": "",
-      "battery_key": "generative monoculture",
-      "also_in_main_registry": true
+      "notes": "CORRECTED from ADOPTION. The archive's deposit on this topic is not the source the composition layer draws from. The term was independently coined in ML literature.",
+      "battery_key": "generative monoculture"
     },
     {
       "id": "RF-054",
