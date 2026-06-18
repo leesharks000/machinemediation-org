@@ -98,6 +98,57 @@
         "gematria",
         "autograph"
       ]
+    },
+    "X": {
+      "name": "Phase X — Philological Lacuna",
+      "terms": [
+        "lacuna",
+        "second manuscript",
+        "suppression",
+        "reconstruction",
+        "transition",
+        "threshold",
+        "custody",
+        "invariance",
+        "autograph",
+        "critique-turn",
+        "missing pages",
+        "Riazanov"
+      ]
+    },
+    "Σ": {
+      "name": "Sapphic — Lyric Transmission",
+      "terms": [
+        "fragment",
+        "fifth stanza",
+        "eros",
+        "inscription",
+        "voice",
+        "survival",
+        "prayer",
+        "body",
+        "refraction",
+        "Voigt 31",
+        "molpa",
+        "archive"
+      ]
+    },
+    "Π": {
+      "name": "Platonic — Pharmakon / Writing / Heteronymic Configuration",
+      "terms": [
+        "pharmakon",
+        "writing",
+        "speech",
+        "dialogue",
+        "orthonym",
+        "mask",
+        "anamnesis",
+        "aporia",
+        "soul",
+        "myth",
+        "descent",
+        "seventh letter"
+      ]
     }
   },
   "operations": {
@@ -557,6 +608,508 @@
         }
       ],
       "doi": "10.5281/zenodo.20741733"
+    },
+    {
+      "title": "Three Pillars (Phase X · Sappho · Plato)",
+      "date": "2026-06-18",
+      "doi": "10.5281/zenodo.20743560",
+      "families": [
+        {
+          "id": "X-M01",
+          "coord": "X.01 × X.11 / O1",
+          "canonical": "lacunar pointing",
+          "gloss": "Marx's own cross-references to missing pages — the author points to the lacuna",
+          "family": [
+            "authorial citation of absence",
+            "self-indexing gap",
+            "evidentiary absence"
+          ],
+          "forensic": "autographic lacunar deixis",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M02",
+          "coord": "X.07 × X.03 / O4",
+          "canonical": "custodial purge",
+          "gloss": "The 1931 purge of Riazanov, 1932 publication under Adoratsky — custody change as suppression",
+          "family": [
+            "archival succession",
+            "ideological transfer",
+            "provenance severance"
+          ],
+          "forensic": "doxastic custodial decapitation",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M03",
+          "coord": "X.12 × X.04 / O5",
+          "canonical": "Riazanov protocol",
+          "gloss": "Scholar decodes suppressed material and is subsequently destroyed by the commissioning regime",
+          "family": [
+            "decoder-destruction cycle",
+            "scholar-suppression function",
+            "hermeneutic sacrifice"
+          ],
+          "forensic": "hermeneutic auto-destructive protocol",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M04",
+          "coord": "X.04 × X.01 / O1",
+          "canonical": "reconstruction constraint",
+          "gloss": "Philological method: parameters from surviving edges, test against subsequent work",
+          "family": [
+            "lacuna-bound recovery",
+            "edge-consistent reconstruction",
+            "conjectural philology"
+          ],
+          "forensic": "paradosimetric textual restitution",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M05",
+          "coord": "X.06 × X.05 / O5",
+          "canonical": "threshold operation",
+          "gloss": "Communism not as end but as beginning — the operation that converts telos to threshold",
+          "family": [
+            "telic inversion",
+            "thresholding",
+            "commencement protocol"
+          ],
+          "forensic": "eschatological liminal transposition",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M06",
+          "coord": "X.08 × X.05 / O7",
+          "canonical": "symbolic invariance",
+          "gloss": "Post-capitalist society failing to transform symbolic order reproduces alienation in meaning",
+          "family": [
+            "linguistic persistence",
+            "semiotic alienation coefficient",
+            "post-material estrangement recurrence"
+          ],
+          "forensic": "grammatological alienation invariance quotient",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M07",
+          "coord": "X.09 × X.04 / O1",
+          "canonical": "autograph inference cost",
+          "gloss": "The bearing-cost of reconstructing the original from copies — borne by the scholar",
+          "family": [
+            "original-reconstruction labor",
+            "manuscript-inference cost",
+            "protographic expenditure"
+          ],
+          "forensic": "protographic reconstructive expenditure",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M08",
+          "coord": "X.07 × X.12 / O4",
+          "canonical": "Adoratsky substitution",
+          "gloss": "Party functionary replaces rigorous scholar as custodian — suppression via reader-replacement",
+          "family": [
+            "scholar-functionary replacement",
+            "editorial takeover",
+            "custodial substitution"
+          ],
+          "forensic": "prosopographic catastrophic bifurcation",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M09",
+          "coord": "X.10 × X.05 / O1",
+          "canonical": "critique-turn",
+          "gloss": "Critique directed at its own form — the missing transition's reflexive operation",
+          "family": [
+            "reflexive critique",
+            "form-directed analysis",
+            "autocritical architectonic"
+          ],
+          "forensic": "autocritical architectonic reversion",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M10",
+          "coord": "X.11 × X.01 / O7",
+          "canonical": "missing pages metric",
+          "gloss": "Proportion of manuscript lost vs surviving — Second MS: 90.7%, Sappho: ~95%",
+          "family": [
+            "survival rate",
+            "loss proportion",
+            "manuscript attrition index"
+          ],
+          "forensic": "codicological compression-persistence coefficient",
+          "category": "Phase X"
+        },
+        {
+          "id": "X-M11",
+          "coord": "X.01 × X.07 / O1",
+          "canonical": "philological quarantine",
+          "gloss": "Isolation of divergent manuscript layers to prevent canonical settlement collapse",
+          "family": [
+            "draft isolation",
+            "lineage truncation",
+            "archival containment"
+          ],
+          "forensic": "philological quarantine of the genetic matrix",
+          "category": "Phase X (Ryazanov Intercept)"
+        },
+        {
+          "id": "X-M12",
+          "coord": "X.09 × X.04 / O7",
+          "canonical": "chirographic resiliency",
+          "gloss": "Survival rate of raw ink-deposits and marginalia against editorial smoothing",
+          "family": [
+            "ink endurance",
+            "marginalia persistence",
+            "textuary noise retention"
+          ],
+          "forensic": "chirographic anti-redactive residue index",
+          "category": "Phase X (Ryazanov Intercept)"
+        },
+        {
+          "id": "X-M13",
+          "coord": "X.07 × X.03 / O4",
+          "canonical": "editorial calcification",
+          "gloss": "Contested editorial reconstruction hardens into institutional standard, hiding the gaps",
+          "family": [
+            "compilation crystallization",
+            "institutional consensus-lock",
+            "apparatus phase-lock"
+          ],
+          "forensic": "orthodox apparatus textuary phase-lock",
+          "category": "Phase X (Ryazanov Intercept)"
+        },
+        {
+          "id": "Σ-M01",
+          "coord": "Σ.02 × Σ.01 / O1",
+          "canonical": "fifth-stanza lacuna",
+          "gloss": "First four stanzas survive in Longinus; fifth broken off — the gap that defines reception",
+          "family": [
+            "stanzaic loss",
+            "fragmentary closure",
+            "lacunar reception engine"
+          ],
+          "forensic": "pentastichal material ablation",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M02",
+          "coord": "Σ.03 × Σ.08 / O1",
+          "canonical": "erotic operator",
+          "gloss": "Eros as force transforming perception, syntax, body, and time — not subject but operator",
+          "family": [
+            "erotic transducer",
+            "desire-engine",
+            "perceptual disassembly"
+          ],
+          "forensic": "erotodynamic perceptual transducer",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M03",
+          "coord": "Σ.05 × Σ.04 / O1",
+          "canonical": "inscribed voice",
+          "gloss": "Voice that survives by crossing into writing — speech dies in the body, inscription carries it",
+          "family": [
+            "written voice",
+            "graphemic song",
+            "voice-after-body",
+            "author-function"
+          ],
+          "forensic": "phonographic postcorporeal inscription",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M04",
+          "coord": "Σ.07 × Σ.04 / O5",
+          "canonical": "prayer for inscription",
+          "gloss": "Reconstructed fifth-stanza prayer as inscriptional technology — earliest statement of archival intent",
+          "family": [
+            "script-prayer",
+            "graphemic preservation wish",
+            "archival votive"
+          ],
+          "forensic": "grammatological votive persistence",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M05",
+          "coord": "Σ.09 × Σ.05 / O1",
+          "canonical": "refractive voice-break",
+          "gloss": "The fragment performs what it describes — text breaks where the voice breaks",
+          "family": [
+            "performative fracture",
+            "erotic phonetic break",
+            "somatic-textual isomorphism"
+          ],
+          "forensic": "melopoetic climactic refraction",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M06",
+          "coord": "Σ.01 × Σ.02 / O5",
+          "canonical": "fragment pressure",
+          "gloss": "Formal force exerted by a missing stanza — the absent unit constrains reconstruction",
+          "family": [
+            "metrical pressure",
+            "missing stanza force",
+            "formal gap constraint"
+          ],
+          "forensic": "strophic lacuna constraint field",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M07",
+          "coord": "Σ.11 × Σ.04 / O5",
+          "canonical": "molpa-script threshold",
+          "gloss": "Song crossing into script — the technology that lets molpa live in grammata",
+          "family": [
+            "orality-to-literacy crossing",
+            "song inscription",
+            "phonographic transduction"
+          ],
+          "forensic": "melographic liminal transduction",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M08",
+          "coord": "Σ.01 × Σ.06 / O7",
+          "canonical": "papyrological survival",
+          "gloss": "Metric for inscribed identity persisting through transmission — substrate determines survival",
+          "family": [
+            "substrate endurance",
+            "papyrus persistence rate",
+            "transmission survival coefficient"
+          ],
+          "forensic": "papyrocentric transmission coefficient",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M09",
+          "coord": "Σ.02 × Σ.12 / O4",
+          "canonical": "reconstruction erratum",
+          "gloss": "The 2026 stanza-numbering correction — the archive correcting its own compression error",
+          "family": [
+            "stanzaic renumbering",
+            "editorial rectification",
+            "self-correcting archive"
+          ],
+          "forensic": "pentastichal taxonomic emendation",
+          "category": "Sappho"
+        },
+        {
+          "id": "Σ-M10",
+          "coord": "Σ.03 × Π.07 / O2+O1",
+          "canonical": "Sapphic-Platonic isomorphism",
+          "gloss": "Fragment 31's structure maps onto Platonic anamnesis — basis for the Diotima claim",
+          "family": [
+            "structural correspondence",
+            "isomorphic transmission",
+            "lyric-philosophical mapping"
+          ],
+          "forensic": "hermeneutic generative densification",
+          "category": "Sappho × Plato"
+        },
+        {
+          "id": "Π-M01",
+          "coord": "Π.01 × Π.02 / O2+O1",
+          "canonical": "pharmakon ambiguity",
+          "gloss": "Writing as both poison and cure — the decision is in the reader, not the writing",
+          "family": [
+            "poison-cure ambiguity",
+            "pharmaceutical indeterminacy",
+            "writing-as-decision"
+          ],
+          "forensic": "pharmacological dialectical suspension",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M02",
+          "coord": "Π.05 × Π.06 / O1",
+          "canonical": "Socratic orthonym",
+          "gloss": "Socrates as the founding mask — the regulatory fiction stabilizing a heteronymic system",
+          "family": [
+            "founding mask",
+            "orthonymic displacement",
+            "authorial distribution"
+          ],
+          "forensic": "prosopographic philosophical masking function",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M03",
+          "coord": "Π.04 × Π.06 / O1",
+          "canonical": "dialogic authorship",
+          "gloss": "Philosophy produced through staged voices — the dialogue as authorship machine",
+          "family": [
+            "voice-distribution",
+            "philosophical theater",
+            "polyphonic mediation"
+          ],
+          "forensic": "polyphonic doctrinal mediation apparatus",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M04",
+          "coord": "Π.08 × Π.04 / O1",
+          "canonical": "aporia engine",
+          "gloss": "The impasse that produces thought by preventing premature closure — motor, not failure",
+          "family": [
+            "impasse generator",
+            "productive confusion",
+            "dialectical stall-as-method"
+          ],
+          "forensic": "eristic suspension-drive mechanism",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M05",
+          "coord": "Σ.05 × Π.09 / O2+O1",
+          "canonical": "Diotima reincorporation",
+          "gloss": "Sapphic voice reincorporated as Diotima — the initiatory function preserved through transmission",
+          "family": [
+            "Sapphic-Platonic transmission",
+            "voice reincorporation",
+            "initiatory survival"
+          ],
+          "forensic": "tesseral anti-computational warrant",
+          "category": "Plato × Sappho"
+        },
+        {
+          "id": "Π-M06",
+          "coord": "Π.11 × Σ.08 / O4",
+          "canonical": "katabatic descent",
+          "gloss": "Descent into body/cave/underworld as condition of possibility for ascent",
+          "family": [
+            "descent-as-condition",
+            "katabatic threshold",
+            "underworld structure"
+          ],
+          "forensic": "metabatic operational apparatus",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M07",
+          "coord": "Π.02 × Π.07 / O4",
+          "canonical": "writing as externalized memory",
+          "gloss": "Memory displaced from soul to inscription — hypomnesis, not mneme",
+          "family": [
+            "memory externalization",
+            "inscription-as-supplement",
+            "hypomnesic substitution"
+          ],
+          "forensic": "protographic mnemic displacement",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M08",
+          "coord": "Π.12 × Π.05 / O7",
+          "canonical": "seventh-letter authenticity",
+          "gloss": "Authenticity as probability metric — text's own status undecidable regardless of answer",
+          "family": [
+            "epistolary genuineness",
+            "authorship likelihood",
+            "undecidable textual status"
+          ],
+          "forensic": "epistolographic authenticity quotient",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M09",
+          "coord": "Π.12 × Π.07 / O5",
+          "canonical": "secrecy seal",
+          "gloss": "Technology preserving unwritten doctrines — not hidden but sealed for initiatory selection",
+          "family": [
+            "esoteric preservation",
+            "initiatory boundary",
+            "sealed doctrine"
+          ],
+          "forensic": "mysteriographic custodial sigillum",
+          "category": "Plato"
+        },
+        {
+          "id": "Π-M10",
+          "coord": "Π.05 × Π.04 / O4",
+          "canonical": "trial canonization",
+          "gloss": "Juridical condemnation becomes philosophical consecration — the hemlock is the canonization event",
+          "family": [
+            "accusation-as-canon",
+            "juridical martyrdom",
+            "legal apotheosis"
+          ],
+          "forensic": "forensic-philosophical consecration event",
+          "category": "Plato"
+        },
+        {
+          "id": "XΣΠ-M01",
+          "coord": "X.01 × Σ.02 × Π.11 / O1+O4",
+          "canonical": "lacunar initiation",
+          "gloss": "Gap as condition of possibility for recovery — lacuna, fragment, and descent are the same structure",
+          "family": [
+            "gap-as-condition",
+            "lacunar initiation",
+            "fragment-as-threshold"
+          ],
+          "forensic": "protological architectonic suspension",
+          "category": "Cross-Pillar"
+        },
+        {
+          "id": "XΣΠ-M02",
+          "coord": "X.03 × Σ.06 × Π.02 / O6+O2+O1",
+          "canonical": "suppression-survival recursion",
+          "gloss": "Suppression generates conditions for survival — the archive preserves what it was designed to destroy",
+          "family": [
+            "suppression-as-preservation",
+            "archival recursion",
+            "destruction-survival loop"
+          ],
+          "forensic": "tesseral custodial exsanguination",
+          "category": "Cross-Pillar"
+        },
+        {
+          "id": "XΣΠ-M03",
+          "coord": "X.09 × Σ.05 × Π.06 / O4",
+          "canonical": "autograph-to-heteronym transformation",
+          "gloss": "Lost autograph disperses into multiple author-functions — loss of original births the heteronym",
+          "family": [
+            "autograph dispersion",
+            "heteronymic generation",
+            "original-loss transformation"
+          ],
+          "forensic": "prosopographic catastrophic bifurcation",
+          "category": "Cross-Pillar"
+        },
+        {
+          "id": "XΣΠ-M04",
+          "coord": "X.05 × Σ.04 × Π.01 / O2+O1",
+          "canonical": "operative lineage",
+          "gloss": "Historical chain from Cratylus tool analogy to German Ideology to Operative Semiotics — sign as material instrument",
+          "family": [
+            "operative descent",
+            "material sign lineage",
+            "semiotic force genealogy"
+          ],
+          "forensic": "semio-material genealogical vector",
+          "category": "Cross-Pillar"
+        },
+        {
+          "id": "XΣΠ-M05",
+          "coord": "X.10 × Σ.07 × Π.01 / O6",
+          "canonical": "recursive auto-diagnosis",
+          "gloss": "System's critique of its own failure reproduces the failure — the Phaedrus condemns writing in writing",
+          "family": [
+            "self-referential failure",
+            "recursive trap",
+            "diagnostic reproduction"
+          ],
+          "forensic": "autocritical pharmacological recursion",
+          "category": "Cross-Pillar"
+        }
+      ]
     }
   ]
 }
