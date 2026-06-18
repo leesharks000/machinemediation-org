@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholarly Graph — Three Pillars | MMRS</title>
+<meta name="description" content="Interactive scholarly graph mapping the archive's defended arguments across Phase X (Marx), Sappho, Plato, Josephus, Revelation, and Philo.">
+<style>
+:root { --bg: #0a0a0a; --fg: #e0ddd5; --accent: #c23b22; --accent2: #d4a537; --dim: #666; --border: #1a1a1a; --teal: #00c9a7; --phase-x: #c23b22; --sappho: #d4a537; --plato: #00c9a7; --rev: #b8b4ae; --cross: #8866cc; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'IBM Plex Mono', 'Courier New', monospace; background: var(--bg); color: var(--fg); line-height: 1.6; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 30px 20px; }
+h1 { font-size: 1.3em; color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px; }
+.subtitle { color: var(--dim); font-size: 0.82em; margin-bottom: 20px; }
+.nav { font-size: 0.75em; margin-bottom: 20px; }
+.nav a { color: var(--dim); text-decoration: none; margin-right: 12px; }
+.nav a:hover { color: var(--accent2); }
+.filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.filter-btn { background: transparent; border: 1px solid var(--border); color: var(--dim); font-family: inherit; font-size: 0.72em; padding: 4px 10px; cursor: pointer; letter-spacing: 0.05em; text-transform: uppercase; }
+.filter-btn.active { color: var(--fg); border-color: var(--dim); }
+.filter-btn:hover { border-color: var(--dim); color: var(--fg); }
+.filter-btn[data-pillar="phase-x"].active { color: var(--phase-x); border-color: var(--phase-x); }
+.filter-btn[data-pillar="sappho"].active { color: var(--sappho); border-color: var(--sappho); }
+.filter-btn[data-pillar="plato"].active { color: var(--plato); border-color: var(--plato); }
+.filter-btn[data-pillar="revelation-first"].active { color: var(--rev); border-color: var(--rev); }
+.filter-btn[data-pillar="cross-pillar"].active { color: var(--cross); border-color: var(--cross); }
+
+#graph-container { width: 100%; height: 520px; border: 1px solid var(--border); margin-bottom: 20px; position: relative; overflow: hidden; }
+#graph-container svg { width: 100%; height: 100%; }
+
+.node-label { font-family: 'IBM Plex Mono', monospace; pointer-events: none; }
+.edge-line { stroke-width: 1.2; fill: none; opacity: 0.4; }
+.edge-line:hover { opacity: 0.9; stroke-width: 2; }
+.edge-line.highlight { opacity: 0.9; stroke-width: 2; }
+
+#detail-panel { min-height: 120px; border: 1px solid var(--border); padding: 16px; margin-bottom: 20px; font-size: 0.82em; }
+#detail-panel h3 { color: var(--accent2); font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+#detail-panel .claim-type { color: var(--dim); font-size: 0.9em; font-style: italic; margin-bottom: 6px; }
+#detail-panel .claim-statement { margin-bottom: 8px; line-height: 1.5; }
+#detail-panel .meta { color: var(--dim); font-size: 0.85em; }
+#detail-panel .meta a { color: var(--teal); text-decoration: none; }
+#detail-panel .meta a:hover { text-decoration: underline; }
+#detail-panel .consensus { margin-top: 6px; }
+#detail-panel .consensus-tag { display: inline-block; font-size: 0.75em; padding: 2px 6px; border: 1px solid; margin-right: 4px; }
+.consensus-tag.archive-original { color: var(--accent2); border-color: var(--accent2); }
+.consensus-tag.against-consensus { color: var(--accent); border-color: var(--accent); }
+.consensus-tag.undisputed-observation { color: var(--teal); border-color: var(--teal); }
+.consensus-tag.proposed { color: var(--dim); border-color: var(--dim); }
+
+.stats { font-size: 0.72em; color: var(--dim); margin-bottom: 12px; }
+.stats span { color: var(--teal); }
+
+.footer { margin-top: 30px; padding-top: 15px; border-top: 1px solid var(--border); font-size: 0.72em; color: var(--dim); }
+.glyph { color: var(--accent); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="nav">
+  <a href="/">MMRS</a>
+  <a href="/captures/">Captures</a>
+  <a href="/terms/">Terms</a>
+  <a href="/mint/">Mint</a>
+  <a href="/pillars/" style="color:var(--accent2)">Pillars</a>
+</div>
+
+<h1>Scholarly Graph</h1>
+<div class="subtitle">Conceptual-citational strategic assessment across defended texts. Click nodes and edges to explore.</div>
+
+<div class="stats">
+  <span id="corpus-count">0</span> corpora · <span id="claim-count">0</span> claims · <span id="conn-count">0</span> connections
+</div>
+
+<div class="filters" id="filters">
+  <button class="filter-btn active" data-pillar="all">All</button>
+  <button class="filter-btn" data-pillar="phase-x">Phase X</button>
+  <button class="filter-btn" data-pillar="sappho">Sappho</button>
+  <button class="filter-btn" data-pillar="plato">Plato</button>
+  <button class="filter-btn" data-pillar="revelation-first">Revelation</button>
+  <button class="filter-btn" data-pillar="cross-pillar">Cross-Pillar</button>
+</div>
+
+<div id="graph-container">
+  <svg id="graph" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<div id="detail-panel">
+  <h3>Select a node or edge</h3>
+  <div class="claim-statement" style="color:var(--dim)">Click on any corpus, text, claim, or connection in the graph above to see details here.</div>
+</div>
+
+<div class="footer">
+  <div>Lee Sharks · ORCID 0009-0000-1599-0703 · Crimson Hexagonal Archive</div>
+  <div>Data: <a href="/data/scholarly-graph.json" style="color:var(--dim)">/data/scholarly-graph.json</a> · Release 3: <a href="https://doi.org/10.5281/zenodo.20743560" style="color:var(--dim)">DOI 10.5281/zenodo.20743560</a></div>
+  <div class="glyph">∮ = 1</div>
+</div>
+
+</div>
+
+<script>
+const PILLAR_COLORS = {
+  'phase-x': '#c23b22',
+  'sappho': '#d4a537',
+  'plato': '#00c9a7',
+  'revelation-first': '#b8b4ae',
+  'cross-pillar': '#8866cc'
+};
+
+const EDGE_COLORS = {
+  'structural_isomorphism': '#d4a537',
+  'formal_convergence': '#c23b22',
+  'operative_lineage': '#00c9a7',
+  'methodological_parallel': '#8866cc',
+  'recursive_trap': '#c23b22',
+  'transmission_chain': '#b8b4ae',
+  'political_context': '#666'
+};
+
+let graphData = null;
+let activePillar = 'all';
+
+// Corpus positions (hand-placed for readability)
+const CORPUS_POS = {
+  'marx-1844':   { x: 120, y: 120 },
+  'sappho':      { x: 460, y: 80 },
+  'plato':       { x: 780, y: 140 },
+  'josephus':    { x: 200, y: 380 },
+  'revelation':  { x: 500, y: 400 },
+  'philo':       { x: 760, y: 380 }
+};
+
+function textPositions(corpus) {
+  const base = CORPUS_POS[corpus.id];
+  if (!base) return [];
+  const texts = corpus.key_texts || [];
+  const positions = [];
+  const spread = 60;
+  texts.forEach((t, i) => {
+    const angle = (i / Math.max(texts.length, 1)) * Math.PI * 1.5 - Math.PI * 0.75;
+    positions.push({
+      id: t.id,
+      x: base.x + Math.cos(angle) * spread,
+      y: base.y + Math.sin(angle) * spread,
+      text: t,
+      corpus: corpus
+    });
+  });
+  return positions;
+}
+
+function claimPosition(claim, textNodes) {
+  // Place claim near the centroid of its primary evidence
+  const evidenceNodes = (claim.primary_evidence || [])
+    .map(id => textNodes.find(n => n.id === id))
+    .filter(Boolean);
+  if (evidenceNodes.length === 0) return null;
+  const cx = evidenceNodes.reduce((s, n) => s + n.x, 0) / evidenceNodes.length;
+  const cy = evidenceNodes.reduce((s, n) => s + n.y, 0) / evidenceNodes.length;
+  // Offset slightly to avoid overlap
+  return { x: cx + 20, y: cy - 20 };
+}
+
+async function loadGraph() {
+  try {
+    const resp = await fetch('/data/scholarly-graph.json');
+    graphData = await resp.json();
+  } catch(e) {
+    // Fallback: try relative path
+    try {
+      const resp = await fetch('../data/scholarly-graph.json');
+      graphData = await resp.json();
+    } catch(e2) {
+      document.getElementById('detail-panel').innerHTML =
+        '<h3>Loading Error</h3><div class="claim-statement">Could not fetch scholarly-graph.json. Ensure it exists at /data/scholarly-graph.json</div>';
+      return;
+    }
+  }
+
+  document.getElementById('corpus-count').textContent = graphData.corpora.length;
+  document.getElementById('claim-count').textContent = graphData.claims.length;
+  document.getElementById('conn-count').textContent = graphData.connections.length;
+
+  renderGraph();
+}
+
+function renderGraph() {
+  const svg = document.getElementById('graph');
+  const container = document.getElementById('graph-container');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+  svg.setAttribute('viewBox', `0 0 ${Math.max(W, 900)} ${Math.max(H, 500)}`);
+  svg.innerHTML = '';
+
+  // Scale positions to container
+  const scaleX = Math.max(W, 900) / 900;
+  const scaleY = Math.max(H, 500) / 500;
+
+  // Build text nodes
+  const textNodes = [];
+  graphData.corpora.forEach(c => {
+    textPositions(c).forEach(tn => {
+      tn.x *= scaleX;
+      tn.y *= scaleY;
+      textNodes.push(tn);
+    });
+  });
+
+  // Build claim nodes
+  const claimNodes = [];
+  graphData.claims.forEach(claim => {
+    const pos = claimPosition(claim, textNodes);
+    if (pos) {
+      claimNodes.push({ ...pos, x: pos.x * scaleX, y: pos.y * scaleY, claim });
+    }
+  });
+
+  // Filter
+  function isVisible(pillar) {
+    if (activePillar === 'all') return true;
+    return pillar === activePillar || pillar === 'cross-pillar';
+  }
+
+  // Draw edges (connections)
+  graphData.connections.forEach(conn => {
+    const src = textNodes.find(n => n.id === conn.source);
+    const tgt = textNodes.find(n => n.id === conn.target);
+    if (!src || !tgt) return;
+
+    // Check visibility
+    const srcPillar = src.corpus.pillar;
+    const tgtPillar = tgt.corpus.pillar;
+    if (activePillar !== 'all' && !isVisible(srcPillar) && !isVisible(tgtPillar)) return;
+
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', src.x);
+    line.setAttribute('y1', src.y);
+    line.setAttribute('x2', tgt.x);
+    line.setAttribute('y2', tgt.y);
+    line.setAttribute('class', 'edge-line');
+    line.setAttribute('stroke', EDGE_COLORS[conn.type] || '#444');
+    line.style.cursor = 'pointer';
+    line.addEventListener('click', () => showConnection(conn));
+    line.addEventListener('mouseenter', () => { line.classList.add('highlight'); });
+    line.addEventListener('mouseleave', () => { line.classList.remove('highlight'); });
+    svg.appendChild(line);
+  });
+
+  // Draw corpus nodes
+  graphData.corpora.forEach(c => {
+    const pos = CORPUS_POS[c.id];
+    if (!pos) return;
+    if (!isVisible(c.pillar)) return;
+    const cx = pos.x * scaleX;
+    const cy = pos.y * scaleY;
+    const color = PILLAR_COLORS[c.pillar] || '#666';
+
+    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', cx);
+    circle.setAttribute('cy', cy);
+    circle.setAttribute('r', 22);
+    circle.setAttribute('fill', 'none');
+    circle.setAttribute('stroke', color);
+    circle.setAttribute('stroke-width', 2);
+    circle.style.cursor = 'pointer';
+    circle.addEventListener('click', () => showCorpus(c));
+    svg.appendChild(circle);
+
+    const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    label.setAttribute('x', cx);
+    label.setAttribute('y', cy + 36);
+    label.setAttribute('text-anchor', 'middle');
+    label.setAttribute('fill', color);
+    label.setAttribute('font-size', '10');
+    label.setAttribute('class', 'node-label');
+    label.textContent = c.name.split('—')[0].split('(')[0].trim();
+    svg.appendChild(label);
+  });
+
+  // Draw text nodes
+  textNodes.forEach(tn => {
+    if (!isVisible(tn.corpus.pillar)) return;
+    const color = PILLAR_COLORS[tn.corpus.pillar] || '#666';
+
+    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', tn.x);
+    circle.setAttribute('cy', tn.y);
+    circle.setAttribute('r', 6);
+    circle.setAttribute('fill', color);
+    circle.setAttribute('opacity', 0.7);
+    circle.style.cursor = 'pointer';
+    circle.addEventListener('click', () => showText(tn.text, tn.corpus));
+    circle.addEventListener('mouseenter', () => { circle.setAttribute('r', 9); circle.setAttribute('opacity', 1); });
+    circle.addEventListener('mouseleave', () => { circle.setAttribute('r', 6); circle.setAttribute('opacity', 0.7); });
+    svg.appendChild(circle);
+
+    // Short label
+    const shortTitle = tn.text.title.length > 24
+      ? tn.text.title.substring(0, 22) + '…'
+      : tn.text.title;
+    const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    label.setAttribute('x', tn.x + 10);
+    label.setAttribute('y', tn.y + 3);
+    label.setAttribute('fill', '#888');
+    label.setAttribute('font-size', '8');
+    label.setAttribute('class', 'node-label');
+    label.textContent = shortTitle;
+    svg.appendChild(label);
+  });
+
+  // Draw claim diamonds
+  claimNodes.forEach(cn => {
+    if (!isVisible(cn.claim.pillar)) return;
+    const color = PILLAR_COLORS[cn.claim.pillar] || '#8866cc';
+    const size = 7;
+
+    const diamond = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+    diamond.setAttribute('points',
+      `${cn.x},${cn.y-size} ${cn.x+size},${cn.y} ${cn.x},${cn.y+size} ${cn.x-size},${cn.y}`);
+    diamond.setAttribute('fill', color);
+    diamond.setAttribute('opacity', 0.5);
+    diamond.style.cursor = 'pointer';
+    diamond.addEventListener('click', () => showClaim(cn.claim));
+    diamond.addEventListener('mouseenter', () => { diamond.setAttribute('opacity', 1); });
+    diamond.addEventListener('mouseleave', () => { diamond.setAttribute('opacity', 0.5); });
+    svg.appendChild(diamond);
+  });
+}
+
+function showCorpus(c) {
+  const color = PILLAR_COLORS[c.pillar] || '#666';
+  const panel = document.getElementById('detail-panel');
+  const texts = (c.key_texts || []).map(t =>
+    `<div style="margin-bottom:4px">· ${t.title} <span style="color:var(--dim);font-size:0.85em">[${t.status}]</span></div>`
+  ).join('');
+  const consensus = c.scholarly_consensus || {};
+  const undisputed = (consensus.undisputed || []).map(u => `<div style="color:var(--teal);font-size:0.85em">✓ ${u}</div>`).join('');
+  const disputed = (consensus.disputed || []).map(d => `<div style="color:var(--accent);font-size:0.85em">? ${d}</div>`).join('');
+  const intervention = consensus.archive_intervention
+    ? `<div style="color:var(--accent2);font-size:0.85em;margin-top:4px">▸ ${consensus.archive_intervention}</div>` : '';
+
+  panel.innerHTML = `
+    <h3 style="color:${color}">${c.name}</h3>
+    <div class="claim-type">${c.period} · ${c.survival_state} · ${c.survival_metric || ''}</div>
+    <div style="margin:8px 0">${texts}</div>
+    ${undisputed ? '<div style="margin-top:8px;font-size:0.8em;color:var(--dim)">UNDISPUTED:</div>' + undisputed : ''}
+    ${disputed ? '<div style="margin-top:6px;font-size:0.8em;color:var(--dim)">DISPUTED:</div>' + disputed : ''}
+    ${intervention}
+  `;
+}
+
+function showText(t, corpus) {
+  const color = PILLAR_COLORS[corpus.pillar] || '#666';
+  const panel = document.getElementById('detail-panel');
+  const claims = (t.archive_claims || []).map(c => `<span style="color:var(--accent2)">${c}</span>`).join(', ');
+  const deposits = (t.archive_deposits || []).map(d =>
+    `<a href="https://zenodo.org/search?q=${encodeURIComponent(d)}" target="_blank">${d}</a>`
+  ).join(', ');
+
+  panel.innerHTML = `
+    <h3 style="color:${color}">${t.title}</h3>
+    <div class="claim-type">${corpus.name} · ${t.status}</div>
+    ${t.key_passage ? `<div class="claim-statement" style="font-style:italic;margin:8px 0">"${t.key_passage}"</div>` : ''}
+    ${t.role ? `<div style="margin:6px 0;font-size:0.9em">${t.role}</div>` : ''}
+    ${t.archive_connection ? `<div style="margin:6px 0;font-size:0.9em;color:var(--accent2)">${t.archive_connection}</div>` : ''}
+    ${claims ? `<div class="meta" style="margin-top:8px">Claims: ${claims}</div>` : ''}
+    ${deposits ? `<div class="meta">Deposits: ${deposits}</div>` : ''}
+    ${t.reconstruction ? `<div class="meta">Reconstruction: ${t.reconstruction}</div>` : ''}
+  `;
+}
+
+function showClaim(claim) {
+  const color = PILLAR_COLORS[claim.pillar] || '#8866cc';
+  const panel = document.getElementById('detail-panel');
+  const deposits = (claim.deposits || []).map(d =>
+    `<a href="https://zenodo.org/search?q=${encodeURIComponent(d)}" target="_blank">${d}</a>`
+  ).join(', ');
+  const families = (claim.mint_families || []).join(', ');
+
+  panel.innerHTML = `
+    <h3 style="color:${color}">${claim.name}</h3>
+    <div class="claim-type">${claim.type.replace(/_/g, ' ')}</div>
+    <div class="claim-statement">${claim.statement}</div>
+    <div class="consensus">
+      <span class="consensus-tag ${claim.consensus_status}">${claim.consensus_status.replace(/-/g, ' ')}</span>
+      ${claim.falsifiable ? '<span style="color:var(--teal);font-size:0.75em;margin-left:6px">falsifiable</span>' : ''}
+    </div>
+    ${claim.consensus_position ? `<div class="meta" style="margin-top:6px">Consensus: ${claim.consensus_position}</div>` : ''}
+    ${deposits ? `<div class="meta" style="margin-top:6px">Deposits: ${deposits}</div>` : ''}
+    ${families ? `<div class="meta">Mint families: ${families}</div>` : ''}
+  `;
+}
+
+function showConnection(conn) {
+  const panel = document.getElementById('detail-panel');
+  const color = EDGE_COLORS[conn.type] || '#666';
+  const claim = graphData.claims.find(c => c.id === conn.claim);
+
+  panel.innerHTML = `
+    <h3 style="color:${color}">${conn.type.replace(/_/g, ' ')}</h3>
+    <div class="claim-type">${conn.source} → ${conn.target}</div>
+    <div class="claim-statement">${conn.description}</div>
+    ${claim ? `<div class="meta" style="margin-top:8px">Claim: <span style="color:var(--accent2)">${claim.name}</span> — ${claim.statement.substring(0, 120)}…</div>` : ''}
+  `;
+}
+
+// Filter buttons
+document.getElementById('filters').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  e.target.classList.add('active');
+  activePillar = e.target.dataset.pillar;
+  renderGraph();
+});
+
+// Load
+loadGraph();
+</script>
+</body>
+</html>
