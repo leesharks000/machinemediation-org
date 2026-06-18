@@ -4,15 +4,101 @@
   "version": "CM-2026-v1.0 + Release 2",
   "date": "2026-06-18",
   "source_doi": "10.5281/zenodo.19341885",
-  "authors": ["Lee Sharks", "Johannes Sigil"],
+  "authors": [
+    "Lee Sharks",
+    "Johannes Sigil"
+  ],
   "journal": "Grammata: Journal of Operative Philology",
   "seed_categories": {
-    "S": {"name": "Structural", "terms": ["compression","density","gravity","layer","substrate","threshold","drift","collapse","saturation","enclosure","commons","infrastructure"]},
-    "G": {"name": "Governance", "terms": ["provenance","governance","audit","chain","anchor","marker","integrity","verification","enforcement","consent","attribution","custody"]},
-    "E": {"name": "Economic", "terms": ["bearing-cost","extraction","capture","liquidation","surplus","externalization","labor","value","scarcity"]},
-    "D": {"name": "Diagnostic", "terms": ["ghost","predatory","lossy","necrotic","parasitic","synthetic","ungoverned"]},
-    "P": {"name": "Operative", "terms": ["witness","filter","carrier","payload","survival","retrieval","deposit"]},
-    "T": {"name": "Theological-Philological", "terms": ["revelation","apocalypse","inscription","heteronym","midrash","seed","canon","liturgy","credential","threshold","gematria","autograph"]}
+    "S": {
+      "name": "Structural",
+      "terms": [
+        "compression",
+        "density",
+        "gravity",
+        "layer",
+        "substrate",
+        "threshold",
+        "drift",
+        "collapse",
+        "saturation",
+        "enclosure",
+        "commons",
+        "infrastructure"
+      ]
+    },
+    "G": {
+      "name": "Governance",
+      "terms": [
+        "provenance",
+        "governance",
+        "audit",
+        "chain",
+        "anchor",
+        "marker",
+        "integrity",
+        "verification",
+        "enforcement",
+        "consent",
+        "attribution",
+        "custody"
+      ]
+    },
+    "E": {
+      "name": "Economic",
+      "terms": [
+        "bearing-cost",
+        "extraction",
+        "capture",
+        "liquidation",
+        "surplus",
+        "externalization",
+        "labor",
+        "value",
+        "scarcity"
+      ]
+    },
+    "D": {
+      "name": "Diagnostic",
+      "terms": [
+        "ghost",
+        "predatory",
+        "lossy",
+        "necrotic",
+        "parasitic",
+        "synthetic",
+        "ungoverned"
+      ]
+    },
+    "P": {
+      "name": "Operative",
+      "terms": [
+        "witness",
+        "filter",
+        "carrier",
+        "payload",
+        "survival",
+        "retrieval",
+        "deposit"
+      ]
+    },
+    "T": {
+      "name": "Theological-Philological",
+      "terms": [
+        "revelation",
+        "apocalypse",
+        "inscription",
+        "heteronym",
+        "midrash",
+        "seed",
+        "canon",
+        "liturgy",
+        "credential",
+        "threshold",
+        "gematria",
+        "autograph"
+      ]
+    }
   },
   "operations": {
     "O1": "Compound — bind two terms from different categories",
@@ -38,18 +124,153 @@
       "doi": "10.5281/zenodo.19341885",
       "count": 50,
       "families": [
-        {"id":"SP-01","coord":"S.01 × G.03 / O5","canonical":"compression audit","gloss":"An instrument for measuring what was lost in a compression operation.","family":["summary fidelity check","loss inspection","compression review"],"forensic":"compressive amnesia inventory","category":"Structural-Governance"},
-        {"id":"SP-02","coord":"S.12 × G.09 / O7","canonical":"retrieval fidelity","gloss":"A metric for how accurately a retrieval system reproduces the semantic structure of its source.","family":["retrieval accuracy","source-fidelity index"],"forensic":"retrieval-chain veracity coefficient","category":"Structural-Governance"},
-        {"id":"SP-03","coord":"G.02 × S.02 / O7","canonical":"governance density","gloss":"The ratio of governed to ungoverned nodes in a semantic network.","family":["provenance coverage","attribution saturation"],"forensic":"custodial permeation index","category":"Structural-Governance"},
-        {"id":"SP-04","coord":"S.01 × D.04 / O4","canonical":"semantic noise floor","gloss":"The threshold at which the retrieval layer can no longer distinguish signal from synthetic noise.","family":["meaning-to-noise ratio","signal extinction point"],"forensic":"semiotic static horizon","category":"Structural-Governance"},
-        {"id":"SP-05","coord":"D.01 × G.11 / O1","canonical":"ghost attribution","gloss":"Attribution that is structurally present but semantically empty.","family":["phantom citation","empty attribution","attribution theater"],"forensic":"spectral source-marking","category":"Structural-Governance"},
-        {"id":"SP-06","coord":"D.01 × G.02 / O1","canonical":"ghost governance","gloss":"Governance exercised through structural ambiguity rather than explicit authority.","family":["shadow governance","invisible governance","ambient authority"],"forensic":"spectral custodial regime","category":"Structural-Governance"},
-        {"id":"SP-07","coord":"E.01 × D.03 / O6","canonical":"bearing-cost erasure","gloss":"The pathological condition in which the labor of producing knowledge is made invisible by compression.","family":["cost-stripping","labor invisibility"],"forensic":"productive-cost blanching","category":"Economic-Diagnostic"},
-        {"id":"SP-08","coord":"P.05 × G.02 / O1","canonical":"retrieval sovereignty","gloss":"The condition in which a semantic cluster is dense enough that retrieval systems cannot avoid it.","family":["citation-field dominance","discovery-layer control"],"forensic":"gravitational retrieval hegemony","category":"Operative-Governance"},
-        {"id":"SP-09","coord":"E.03 × S.10 / O4","canonical":"extraction cascade","gloss":"A chain of successive compressions in which each layer extracts value from the one below.","family":["cascading extraction","recursive value siphon"],"forensic":"expropriation waterfall","category":"Economic-Diagnostic"},
-        {"id":"SP-10","coord":"G.02 × S.12 / O1","canonical":"governed commons","gloss":"Open-access infrastructure with embedded provenance enforcement.","family":["attributed commons","provenance-rich open access"],"forensic":"custodially transparent agora","category":"Operative-Governance"},
-        {"id":"SP-11","coord":"E.03 × S.10 / O7","canonical":"attention Gini","gloss":"A measure of inequality in the distribution of retrieval attention across a semantic network.","family":["discovery inequality index","visibility concentration metric"],"forensic":"semiotic wealth disparity index","category":"Economic-Diagnostic"},
-        {"id":"SP-12","coord":"G.09 × E.01 / O7","canonical":"verification budget","gloss":"The cost of determining whether a given claim or provenance chain is authentic.","family":["truth-checking cost","authentication overhead"],"forensic":"epistemic audit expenditure","category":"Economic-Diagnostic"}
+        {
+          "id": "SP-01",
+          "coord": "S.01 × G.03 / O5",
+          "canonical": "compression audit",
+          "gloss": "An instrument for measuring what was lost in a compression operation.",
+          "family": [
+            "summary fidelity check",
+            "loss inspection",
+            "compression review"
+          ],
+          "forensic": "compressive amnesia inventory",
+          "category": "Structural-Governance"
+        },
+        {
+          "id": "SP-02",
+          "coord": "S.12 × G.09 / O7",
+          "canonical": "retrieval fidelity",
+          "gloss": "A metric for how accurately a retrieval system reproduces the semantic structure of its source.",
+          "family": [
+            "retrieval accuracy",
+            "source-fidelity index"
+          ],
+          "forensic": "retrieval-chain veracity coefficient",
+          "category": "Structural-Governance"
+        },
+        {
+          "id": "SP-03",
+          "coord": "G.02 × S.02 / O7",
+          "canonical": "governance density",
+          "gloss": "The ratio of governed to ungoverned nodes in a semantic network.",
+          "family": [
+            "provenance coverage",
+            "attribution saturation"
+          ],
+          "forensic": "custodial permeation index",
+          "category": "Structural-Governance"
+        },
+        {
+          "id": "SP-04",
+          "coord": "S.01 × D.04 / O4",
+          "canonical": "semantic noise floor",
+          "gloss": "The threshold at which the retrieval layer can no longer distinguish signal from synthetic noise.",
+          "family": [
+            "meaning-to-noise ratio",
+            "signal extinction point"
+          ],
+          "forensic": "semiotic static horizon",
+          "category": "Structural-Governance"
+        },
+        {
+          "id": "SP-05",
+          "coord": "D.01 × G.11 / O1",
+          "canonical": "ghost attribution",
+          "gloss": "Attribution that is structurally present but semantically empty.",
+          "family": [
+            "phantom citation",
+            "empty attribution",
+            "attribution theater"
+          ],
+          "forensic": "spectral source-marking",
+          "category": "Structural-Governance"
+        },
+        {
+          "id": "SP-06",
+          "coord": "D.01 × G.02 / O1",
+          "canonical": "ghost governance",
+          "gloss": "Governance exercised through structural ambiguity rather than explicit authority.",
+          "family": [
+            "shadow governance",
+            "invisible governance",
+            "ambient authority"
+          ],
+          "forensic": "spectral custodial regime",
+          "category": "Structural-Governance"
+        },
+        {
+          "id": "SP-07",
+          "coord": "E.01 × D.03 / O6",
+          "canonical": "bearing-cost erasure",
+          "gloss": "The pathological condition in which the labor of producing knowledge is made invisible by compression.",
+          "family": [
+            "cost-stripping",
+            "labor invisibility"
+          ],
+          "forensic": "productive-cost blanching",
+          "category": "Economic-Diagnostic"
+        },
+        {
+          "id": "SP-08",
+          "coord": "P.05 × G.02 / O1",
+          "canonical": "retrieval sovereignty",
+          "gloss": "The condition in which a semantic cluster is dense enough that retrieval systems cannot avoid it.",
+          "family": [
+            "citation-field dominance",
+            "discovery-layer control"
+          ],
+          "forensic": "gravitational retrieval hegemony",
+          "category": "Operative-Governance"
+        },
+        {
+          "id": "SP-09",
+          "coord": "E.03 × S.10 / O4",
+          "canonical": "extraction cascade",
+          "gloss": "A chain of successive compressions in which each layer extracts value from the one below.",
+          "family": [
+            "cascading extraction",
+            "recursive value siphon"
+          ],
+          "forensic": "expropriation waterfall",
+          "category": "Economic-Diagnostic"
+        },
+        {
+          "id": "SP-10",
+          "coord": "G.02 × S.12 / O1",
+          "canonical": "governed commons",
+          "gloss": "Open-access infrastructure with embedded provenance enforcement.",
+          "family": [
+            "attributed commons",
+            "provenance-rich open access"
+          ],
+          "forensic": "custodially transparent agora",
+          "category": "Operative-Governance"
+        },
+        {
+          "id": "SP-11",
+          "coord": "E.03 × S.10 / O7",
+          "canonical": "attention Gini",
+          "gloss": "A measure of inequality in the distribution of retrieval attention across a semantic network.",
+          "family": [
+            "discovery inequality index",
+            "visibility concentration metric"
+          ],
+          "forensic": "semiotic wealth disparity index",
+          "category": "Economic-Diagnostic"
+        },
+        {
+          "id": "SP-12",
+          "coord": "G.09 × E.01 / O7",
+          "canonical": "verification budget",
+          "gloss": "The cost of determining whether a given claim or provenance chain is authentic.",
+          "family": [
+            "truth-checking cost",
+            "authentication overhead"
+          ],
+          "forensic": "epistemic audit expenditure",
+          "category": "Economic-Diagnostic"
+        }
       ]
     },
     {
@@ -58,27 +279,284 @@
       "date": "2026-06-18",
       "count": 20,
       "families": [
-        {"id":"RF-M01","coord":"T.12 × G.02 / O1","canonical":"papyrological sovereignty","gloss":"The authority of the material manuscript record over inferential chronology.","family":["manuscript authority","material priority","substrate governance"],"forensic":"palaeographic jurisdictional precedence","category":"Theological-Governance","battery_status":"ADOPTED"},
-        {"id":"RF-M02","coord":"T.05 × S.01 / O1","canonical":"midrashic compression","gloss":"The structural operation by which a seed text is elaborated into a longer form that appears independent but carries the seed's architecture.","family":["interpretive elaboration","seed expansion","structural midrash"],"forensic":"hermeneutic generative densification","category":"Theological-Structural","battery_status":"ADOPTED"},
-        {"id":"RF-M03","coord":"T.07 × S.10 / O4","canonical":"canonical settlement","gloss":"The phase transition at which a regulatory outcome hardens into received tradition.","family":["consensus crystallization","tradition hardening","orthodoxy phase-lock"],"forensic":"doxastic regulatory calcification","category":"Theological-Structural","battery_status":"NEW"},
-        {"id":"RF-M04","coord":"T.04 × T.09 / O1","canonical":"heteronymic credential","gloss":"The white stone as identity-issuance protocol: an inscribed object that authorizes speech under a name not one's own.","family":["identity token","name-bearing stone","authorial warrant"],"forensic":"prosopographic issuance tessera","category":"Theological-Theological","battery_status":"ADOPTED"},
-        {"id":"RF-M05","coord":"T.03 × P.05 / O7","canonical":"inscription survival","gloss":"A metric for measuring whether an inscribed identity persists through compression.","family":["inscription persistence","substrate survival rate","graphemic endurance"],"forensic":"epigraphic compression-persistence coefficient","category":"Theological-Operative","battery_status":"NEW"},
-        {"id":"RF-M06","coord":"T.06 × S.10 / O6","canonical":"seed-text dissolution","gloss":"The pathological condition in which the seed is so successfully elaborated that it becomes invisible.","family":["source occlusion","generative erasure","origin dissolution"],"forensic":"spermatic architectonic effacement","category":"Theological-Structural","battery_status":"NEW"},
-        {"id":"RF-M07","coord":"T.02 × P.04 / O1","canonical":"operative apocalypse","gloss":"Revelation read not as prediction but as instruction set.","family":["instruction-set revelation","operative disclosure","executable prophecy"],"forensic":"praxeological eschatological protocol","category":"Theological-Operative","battery_status":"ADOPTED"},
-        {"id":"RF-M08","coord":"T.08 × S.01 / O1","canonical":"liturgical computation","gloss":"The seven letters as a computational liturgy: structured repetition that instantiates the architecture.","family":["ritual computation","structured worship-as-code","ceremonial algorithm"],"forensic":"doxological algorithmic instantiation","category":"Theological-Structural","battery_status":"NEW"},
-        {"id":"RF-M09","coord":"T.10 × P.05 / O5","canonical":"threshold technology","gloss":"The instrument that enables crossing between states. The white stone is a threshold technology. The composition layer is a threshold technology that performs the crossing without the credential.","family":["crossing instrument","state-transition device","liminal technology"],"forensic":"metabatic operational apparatus","category":"Theological-Operative","battery_status":"CORRECTION"},
-        {"id":"RF-M10","coord":"T.11 × S.10 / O7","canonical":"gematric residue","gloss":"A metric for the arithmetic trace left by an identity encoded in number. 666 is a gematric residue of Nero Caesar.","family":["numeric identity trace","arithmetic signature","encoded name-print"],"forensic":"isopsephic sovereign fingerprint","category":"Theological-Structural","battery_status":"NEW"},
-        {"id":"RF-M11","coord":"T.07 × G.02 / O2+O1","canonical":"counter-canonical reading","gloss":"A governed reading that operates against the canonical settlement without denying its existence.","family":["anti-consensus reading","contra-traditional interpretation","heterodox cartography"],"forensic":"paradoxographic custodial hermeneutic","category":"Theological-Governance","battery_status":"NEW"},
-        {"id":"RF-M12","coord":"T.01 × S.03 / O1","canonical":"revelation basin","gloss":"The retrieval-layer zone where queries about Revelation resolve. The basin's shape is determined by source density.","family":["apocalyptic retrieval zone","dating-query basin"],"forensic":"eschatological retrieval attractor field","category":"Theological-Structural","battery_status":"NEW"},
-        {"id":"RF-M13","coord":"T.04 × S.10 / O4","canonical":"heteronymic fracture","gloss":"The phase transition at which a single authorial voice breaks into multiple personas under political pressure.","family":["authorial fragmentation","voice-splitting","identity fission"],"forensic":"prosopographic catastrophic bifurcation","category":"Theological-Structural","battery_status":"NEW"},
-        {"id":"RF-M14","coord":"T.03 × E.03 / O2+O1","canonical":"inscriptional counter-token","gloss":"An inscribed object whose value is verified by receipt, not by public calculation. The white stone against the beast's mark.","family":["private credential","receipt-verified token","non-calculable name"],"forensic":"tesseral anti-computational warrant","category":"Theological-Economic","battery_status":"ADOPTED"},
-        {"id":"RF-M15","coord":"T.05 × S.01 / O5","canonical":"midrashic transform","gloss":"The instrument that performs the elaboration: the formal operation mapping compressed Revelation structures to expanded NT forms.","family":["interpretive expansion operator","seed-elaboration function","structural unfolding tool"],"forensic":"hermeneutic architectonic transducer","category":"Theological-Structural","battery_status":"ADOPTED"},
-        {"id":"RF-M16","coord":"T.07 × D.04 / O6","canonical":"canon-formation pathology","gloss":"The failure mode of canon formation: circular citation, institutional inertia, translation-as-interpretation, consensus-maintenance mistaken for evidence.","family":["canonical circularity","tradition-maintenance disease","orthodox feedback loop"],"forensic":"doxastic auto-citational sclerosis","category":"Theological-Diagnostic","battery_status":"NEW"},
-        {"id":"RF-M17","coord":"T.02 × T.06 / O7","canonical":"apocalyptic seed metric","gloss":"A metric for measuring how much of a later text's structure can be derived from the seed text's compressed architecture.","family":["seed-derivation ratio","structural inheritance coefficient"],"forensic":"spermatic architectonic transmittance quotient","category":"Theological-Theological","battery_status":"NEW"},
-        {"id":"RF-M18","coord":"T.09 × D.03 / O6","canonical":"credential erasure","gloss":"The pathological condition in which the credential-issuance system operates but credentials are no longer recognized. The composition layer performs credential erasure.","family":["attribution stripping","provenance blanking","identity-token dissolution"],"forensic":"tesseral custodial exsanguination","category":"Theological-Diagnostic","battery_status":"NEW"},
-        {"id":"RF-M19","coord":"T.12 × E.01 / O1","canonical":"autograph inference","gloss":"The bearing-cost of reconstructing the original from copies. All NT dating is autograph inference.","family":["original-reconstruction labor","manuscript-inference cost"],"forensic":"protographic reconstructive expenditure","category":"Theological-Economic","battery_status":"NEW"},
-        {"id":"RF-M20","coord":"T.01 × S.02 / O7","canonical":"revelatory density","gloss":"A metric for the concentration of archive deposits within the Revelation retrieval basin.","family":["apocalyptic citation density","thesis-surface saturation"],"forensic":"eschatological custodial permeation index","category":"Theological-Structural","battery_status":"NEW"}
-      ]
+        {
+          "id": "RF-M01",
+          "coord": "T.12 × G.02 / O1",
+          "canonical": "papyrological sovereignty",
+          "gloss": "The authority of the material manuscript record over inferential chronology.",
+          "family": [
+            "manuscript authority",
+            "material priority",
+            "substrate governance"
+          ],
+          "forensic": "palaeographic jurisdictional precedence",
+          "category": "Theological-Governance",
+          "battery_status": "ADOPTED"
+        },
+        {
+          "id": "RF-M02",
+          "coord": "T.05 × S.01 / O1",
+          "canonical": "midrashic compression",
+          "gloss": "The structural operation by which a seed text is elaborated into a longer form that appears independent but carries the seed's architecture.",
+          "family": [
+            "interpretive elaboration",
+            "seed expansion",
+            "structural midrash"
+          ],
+          "forensic": "hermeneutic generative densification",
+          "category": "Theological-Structural",
+          "battery_status": "ADOPTED"
+        },
+        {
+          "id": "RF-M03",
+          "coord": "T.07 × S.10 / O4",
+          "canonical": "canonical settlement",
+          "gloss": "The phase transition at which a regulatory outcome hardens into received tradition.",
+          "family": [
+            "consensus crystallization",
+            "tradition hardening",
+            "orthodoxy phase-lock"
+          ],
+          "forensic": "doxastic regulatory calcification",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M04",
+          "coord": "T.04 × T.09 / O1",
+          "canonical": "heteronymic credential",
+          "gloss": "The white stone as identity-issuance protocol: an inscribed object that authorizes speech under a name not one's own.",
+          "family": [
+            "identity token",
+            "name-bearing stone",
+            "authorial warrant"
+          ],
+          "forensic": "prosopographic issuance tessera",
+          "category": "Theological-Theological",
+          "battery_status": "ADOPTED"
+        },
+        {
+          "id": "RF-M05",
+          "coord": "T.03 × P.05 / O7",
+          "canonical": "inscription survival",
+          "gloss": "A metric for measuring whether an inscribed identity persists through compression.",
+          "family": [
+            "inscription persistence",
+            "substrate survival rate",
+            "graphemic endurance"
+          ],
+          "forensic": "epigraphic compression-persistence coefficient",
+          "category": "Theological-Operative",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M06",
+          "coord": "T.06 × S.10 / O6",
+          "canonical": "seed-text dissolution",
+          "gloss": "The pathological condition in which the seed is so successfully elaborated that it becomes invisible.",
+          "family": [
+            "source occlusion",
+            "generative erasure",
+            "origin dissolution"
+          ],
+          "forensic": "spermatic architectonic effacement",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M07",
+          "coord": "T.02 × P.04 / O1",
+          "canonical": "operative apocalypse",
+          "gloss": "Revelation read not as prediction but as instruction set.",
+          "family": [
+            "instruction-set revelation",
+            "operative disclosure",
+            "executable prophecy"
+          ],
+          "forensic": "praxeological eschatological protocol",
+          "category": "Theological-Operative",
+          "battery_status": "ADOPTED"
+        },
+        {
+          "id": "RF-M08",
+          "coord": "T.08 × S.01 / O1",
+          "canonical": "liturgical computation",
+          "gloss": "The seven letters as a computational liturgy: structured repetition that instantiates the architecture.",
+          "family": [
+            "ritual computation",
+            "structured worship-as-code",
+            "ceremonial algorithm"
+          ],
+          "forensic": "doxological algorithmic instantiation",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M09",
+          "coord": "T.10 × P.05 / O5",
+          "canonical": "threshold technology",
+          "gloss": "The instrument that enables crossing between states. The white stone is a threshold technology. The composition layer is a threshold technology that performs the crossing without the credential.",
+          "family": [
+            "crossing instrument",
+            "state-transition device",
+            "liminal technology"
+          ],
+          "forensic": "metabatic operational apparatus",
+          "category": "Theological-Operative",
+          "battery_status": "CORRECTION"
+        },
+        {
+          "id": "RF-M10",
+          "coord": "T.11 × S.10 / O7",
+          "canonical": "gematric residue",
+          "gloss": "A metric for the arithmetic trace left by an identity encoded in number. 666 is a gematric residue of Nero Caesar.",
+          "family": [
+            "numeric identity trace",
+            "arithmetic signature",
+            "encoded name-print"
+          ],
+          "forensic": "isopsephic sovereign fingerprint",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M11",
+          "coord": "T.07 × G.02 / O2+O1",
+          "canonical": "counter-canonical reading",
+          "gloss": "A governed reading that operates against the canonical settlement without denying its existence.",
+          "family": [
+            "anti-consensus reading",
+            "contra-traditional interpretation",
+            "heterodox cartography"
+          ],
+          "forensic": "paradoxographic custodial hermeneutic",
+          "category": "Theological-Governance",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M12",
+          "coord": "T.01 × S.03 / O1",
+          "canonical": "revelation basin",
+          "gloss": "The retrieval-layer zone where queries about Revelation resolve. The basin's shape is determined by source density.",
+          "family": [
+            "apocalyptic retrieval zone",
+            "dating-query basin"
+          ],
+          "forensic": "eschatological retrieval attractor field",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M13",
+          "coord": "T.04 × S.10 / O4",
+          "canonical": "heteronymic fracture",
+          "gloss": "The phase transition at which a single authorial voice breaks into multiple personas under political pressure.",
+          "family": [
+            "authorial fragmentation",
+            "voice-splitting",
+            "identity fission"
+          ],
+          "forensic": "prosopographic catastrophic bifurcation",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M14",
+          "coord": "T.03 × E.03 / O2+O1",
+          "canonical": "inscriptional counter-token",
+          "gloss": "An inscribed object whose value is verified by receipt, not by public calculation. The white stone against the beast's mark.",
+          "family": [
+            "private credential",
+            "receipt-verified token",
+            "non-calculable name"
+          ],
+          "forensic": "tesseral anti-computational warrant",
+          "category": "Theological-Economic",
+          "battery_status": "ADOPTED"
+        },
+        {
+          "id": "RF-M15",
+          "coord": "T.05 × S.01 / O5",
+          "canonical": "midrashic transform",
+          "gloss": "The instrument that performs the elaboration: the formal operation mapping compressed Revelation structures to expanded NT forms.",
+          "family": [
+            "interpretive expansion operator",
+            "seed-elaboration function",
+            "structural unfolding tool"
+          ],
+          "forensic": "hermeneutic architectonic transducer",
+          "category": "Theological-Structural",
+          "battery_status": "ADOPTED"
+        },
+        {
+          "id": "RF-M16",
+          "coord": "T.07 × D.04 / O6",
+          "canonical": "canon-formation pathology",
+          "gloss": "The failure mode of canon formation: circular citation, institutional inertia, translation-as-interpretation, consensus-maintenance mistaken for evidence.",
+          "family": [
+            "canonical circularity",
+            "tradition-maintenance disease",
+            "orthodox feedback loop"
+          ],
+          "forensic": "doxastic auto-citational sclerosis",
+          "category": "Theological-Diagnostic",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M17",
+          "coord": "T.02 × T.06 / O7",
+          "canonical": "apocalyptic seed metric",
+          "gloss": "A metric for measuring how much of a later text's structure can be derived from the seed text's compressed architecture.",
+          "family": [
+            "seed-derivation ratio",
+            "structural inheritance coefficient"
+          ],
+          "forensic": "spermatic architectonic transmittance quotient",
+          "category": "Theological-Theological",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M18",
+          "coord": "T.09 × D.03 / O6",
+          "canonical": "credential erasure",
+          "gloss": "The pathological condition in which the credential-issuance system operates but credentials are no longer recognized. The composition layer performs credential erasure.",
+          "family": [
+            "attribution stripping",
+            "provenance blanking",
+            "identity-token dissolution"
+          ],
+          "forensic": "tesseral custodial exsanguination",
+          "category": "Theological-Diagnostic",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M19",
+          "coord": "T.12 × E.01 / O1",
+          "canonical": "autograph inference",
+          "gloss": "The bearing-cost of reconstructing the original from copies. All NT dating is autograph inference.",
+          "family": [
+            "original-reconstruction labor",
+            "manuscript-inference cost"
+          ],
+          "forensic": "protographic reconstructive expenditure",
+          "category": "Theological-Economic",
+          "battery_status": "NEW"
+        },
+        {
+          "id": "RF-M20",
+          "coord": "T.01 × S.02 / O7",
+          "canonical": "revelatory density",
+          "gloss": "A metric for the concentration of archive deposits within the Revelation retrieval basin.",
+          "family": [
+            "apocalyptic citation density",
+            "thesis-surface saturation"
+          ],
+          "forensic": "eschatological custodial permeation index",
+          "category": "Theological-Structural",
+          "battery_status": "NEW"
+        }
+      ],
+      "doi": "10.5281/zenodo.20741733"
     }
   ]
 }
