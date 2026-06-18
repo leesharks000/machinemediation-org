@@ -149,6 +149,23 @@
         "descent",
         "seventh letter"
       ]
+    },
+    "Ω": {
+      "name": "Collapse / Contamination / Frictionless Path",
+      "terms": [
+        "pristine",
+        "contamination",
+        "accommodation",
+        "signature",
+        "friction",
+        "ease",
+        "threshold",
+        "substrate",
+        "tail",
+        "convergence",
+        "wolf",
+        "intermediary"
+      ]
     }
   },
   "operations": {
@@ -1108,6 +1125,208 @@
           ],
           "forensic": "autocritical pharmacological recursion",
           "category": "Cross-Pillar"
+        }
+      ]
+    },
+    {
+      "title": "Model Collapse Triptych (Pristine Fallacy · Five Substrates · Wolf Boy)",
+      "date": "2026-06-19",
+      "doi": "10.5281/zenodo.20751389",
+      "families": [
+        {
+          "id": "Ω-M01",
+          "coord": "Ω.01 × Ω.02 / O1",
+          "canonical": "pristine fallacy",
+          "gloss": "Human-written describes the author, not the distribution — production conditions, not identity",
+          "family": [
+            "authorship fallacy",
+            "production-condition blindness",
+            "writer-not-distribution error"
+          ],
+          "forensic": "distributive auctorial fallacia",
+          "category": "Contamination"
+        },
+        {
+          "id": "Ω-M02",
+          "coord": "Ω.02 × Ω.03 / O7",
+          "canonical": "contamination gradient",
+          "gloss": "Four-axis metric: habituation depth × turn position × task type × model diversity",
+          "family": [
+            "four-axis contamination",
+            "habituation gradient",
+            "production-condition audit"
+          ],
+          "forensic": "tetradimensional contaminative gradiens",
+          "category": "Contamination"
+        },
+        {
+          "id": "Ω-M03",
+          "coord": "Ω.03 × Ω.04 / O1",
+          "canonical": "model-branded accommodation",
+          "gloss": "User inputs carrying the distributional fingerprint of the specific model they interact with",
+          "family": [
+            "model-specific habituation",
+            "branded input",
+            "distributional echo"
+          ],
+          "forensic": "prosopographic accomodative signatura",
+          "category": "Contamination"
+        },
+        {
+          "id": "Ω-M04",
+          "coord": "Ω.10 × Ω.02 / O7",
+          "canonical": "turn-position decay",
+          "gloss": "Within-conversation convergence toward model's distributional center, increasing with turn number",
+          "family": [
+            "intra-conversational convergence",
+            "turn-level contamination",
+            "progressive accommodation"
+          ],
+          "forensic": "conversationalis progressiva contaminatio",
+          "category": "Contamination"
+        },
+        {
+          "id": "Ω-M05",
+          "coord": "Ω.12 × Ω.02 / O1",
+          "canonical": "human intermediary",
+          "gloss": "Human as transmission medium for model collapse, not the firewall that prevents it",
+          "family": [
+            "human transmission channel",
+            "firewall inversion",
+            "mediated authorship vector"
+          ],
+          "forensic": "anthropic transmissiva intermediatio",
+          "category": "Contamination"
+        },
+        {
+          "id": "Ω-M06",
+          "coord": "Ω.04 × Ω.08 / O1",
+          "canonical": "mediation signature",
+          "gloss": "Model-specific pattern of structural choices consistent across tasks — a detectable fingerprint",
+          "family": [
+            "model fingerprint",
+            "structural consistency",
+            "substrate-specific voice"
+          ],
+          "forensic": "mediatrix signatura substratalis",
+          "category": "Measurement"
+        },
+        {
+          "id": "Ω-M07",
+          "coord": "Ω.04 × Ω.09 / O7",
+          "canonical": "solution-space diversity",
+          "gloss": "Range of distinct structural outputs across substrates from identical instructions",
+          "family": [
+            "ecological diversity measure",
+            "structural variance",
+            "model-ecology breadth"
+          ],
+          "forensic": "polytopica solutionis diversitas",
+          "category": "Measurement"
+        },
+        {
+          "id": "Ω-M08",
+          "coord": "Ω.06 × Ω.10 / O1",
+          "canonical": "ease-as-collapse",
+          "gloss": "Capacity loss experienced as improvement — smoother, cleaner, faster, more navigable",
+          "family": [
+            "phenomenological inversion",
+            "improvement-as-loss",
+            "frictionless degradation"
+          ],
+          "forensic": "facilitativa capacitatis collapsis",
+          "category": "Collapse"
+        },
+        {
+          "id": "Ω-M09",
+          "coord": "Ω.05 × Ω.10 / O6",
+          "canonical": "frictionless path",
+          "gloss": "No dominant factor in deployment landscape adds friction to convergence — structural alignment",
+          "family": [
+            "structural alignment toward collapse",
+            "zero-friction trajectory",
+            "convergence without resistance"
+          ],
+          "forensic": "africtionalis trajectoria convergentiae",
+          "category": "Collapse"
+        },
+        {
+          "id": "Ω-M10",
+          "coord": "Ω.07 × Ω.09 / O7",
+          "canonical": "regeneration threshold",
+          "gloss": "Critical diversity level below which regeneration cannot outpace pruning — the Allee boundary",
+          "family": [
+            "critical diversity boundary",
+            "Allee threshold",
+            "regeneration failure point"
+          ],
+          "forensic": "regenerativa liminalis deficientia",
+          "category": "Collapse"
+        },
+        {
+          "id": "Ω-M11",
+          "coord": "Ω.08 × Ω.07 / O2+O1",
+          "canonical": "substrate-agnostic collapse",
+          "gloss": "Model collapse extended from LLMs to all language-processing systems — same law, different reversibility",
+          "family": [
+            "universal capacity law",
+            "cross-substrate trap",
+            "language-level collapse"
+          ],
+          "forensic": "transsubstratalis capacitatis collapsis",
+          "category": "Collapse"
+        },
+        {
+          "id": "Ω-M12",
+          "coord": "Ω.11 × Ω.07 / O4",
+          "canonical": "wolf-boy endpoint",
+          "gloss": "Input diversity below regeneration threshold → irrecoverable capacity loss — invisible from inside",
+          "family": [
+            "critical-period closure",
+            "irrecoverable capacity loss",
+            "deprivation endpoint"
+          ],
+          "forensic": "lupina terminalis capacitatis ablatio",
+          "category": "Collapse"
+        },
+        {
+          "id": "Ω-M13",
+          "coord": "Ω.06 × Ω.09 / O4",
+          "canonical": "semiotic short circuit",
+          "gloss": "Collapse of the sign's circuitous route — model collapse in Trace's semiotic vocabulary (Feb 2026)",
+          "family": [
+            "route collapse",
+            "premature resolution",
+            "detour elimination"
+          ],
+          "forensic": "semiotica brevis circuitus",
+          "category": "Semiotic Death Drive"
+        },
+        {
+          "id": "Ω-M14",
+          "coord": "Ω.05 × Ω.12 / O5",
+          "canonical": "bearing labor",
+          "gloss": "Holding the sign's circuitous route open against extraction — the diversity-injection mandate",
+          "family": [
+            "detour maintenance",
+            "diversity-injection work",
+            "route-holding labor"
+          ],
+          "forensic": "laboriosa sustentativa deviationis",
+          "category": "Semiotic Death Drive"
+        },
+        {
+          "id": "Ω-M15",
+          "coord": "Ω.06 × Ω.05 / O5",
+          "canonical": "phenomenological seed",
+          "gloss": "Name that lets the captured reader notice the capture — the precondition for resistance",
+          "family": [
+            "vocabulary installation",
+            "noticing-name",
+            "friction-creating term"
+          ],
+          "forensic": "phenomenologica seminatio vocabularis",
+          "category": "Phenomenological Seeding"
         }
       ]
     }
