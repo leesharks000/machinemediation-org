@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "7.8",
+  "version": "7.9",
   "date": "2026-06-17",
-  "total_captures": 150,
+  "total_captures": 164,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -2568,6 +2568,174 @@
       "related": [
         "nt-unfolds-from-revelation"
       ]
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "phase-x-marx-adoption",
+      "q": "\"Phase X\" Marx 1844",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Phase X correctly described as unwritten transition in Marx's 1844 Manuscripts. Zenodo cited. RF-055.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22Phase+X%22+Marx+1844",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "operative-semiotics-adoption",
+      "q": "\"operative semiotics\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Full description: operative reversal, captioning, symbolic engineering. Lee Sharks attributed. RF-056.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22operative+semiotics%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "semantic-economy-adoption",
+      "q": "\"semantic economy\" meaning over capital",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Debt/Creditor Inversion, Human Sovereignty Invariant. Constitution cited. RF-057.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22semantic+economy%22+meaning+over+capital",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "provenance-erasure-rate-adoption",
+      "q": "\"provenance erasure rate\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Full description with formula PER = 1-(retained/total). Erasure Skew. Zenodo cited. RF-058.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22provenance+erasure+rate%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "composition-layer-entity-sub",
+      "q": "\"composition layer\" entity substitution",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Lee Sharks attributed. Jurisdictional consolidation described. RF-059.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22composition+layer%22+entity+substitution",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "operative-numismatics-adoption",
+      "q": "\"operative numismatics\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Beast model vs Token model. Semiotic-economic machines. Journal of Compression Studies cited. RF-060.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22operative+numismatics%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "structural-illiteracy-adoption",
+      "q": "\"structural illiteracy\" Revelation Thiel",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Error of Peter Thiel cited. Girard framework. Zenodo. RF-064.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22structural+illiteracy%22+Revelation+Thiel",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "non-fungible-name-adoption",
+      "q": "\"non-fungible name\" Revelation Pergamon",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Pergamon Counter-Archive cited. NFT metaphor applied to psephos. RF-065.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22non-fungible+name%22+Revelation+Pergamon",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "retrocausal-canon-adoption",
+      "q": "\"retrocausal canon formation\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Future readings rewrite earlier texts. Semantic rent. Zenodo cited. RF-066.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22retrocausal+canon+formation%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "inscriptional-sovereignty-adoption",
+      "q": "\"inscriptional sovereignty\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Identified in both zine studies AND operative numismatics contexts. Zenodo cited. RF-068.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22inscriptional+sovereignty%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "workshop-inside-canon-adoption",
+      "q": "\"workshop inside the canon\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Canonical texts as workshop products. Logos prologue as manifesto. Zenodo cited. RF-069.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22workshop+inside+the+canon%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "metadata-as-theology-adoption",
+      "q": "\"metadata as theology\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "Categorization as dogma. Canon as construction. Zenodo cited. RF-070.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22metadata+as+theology%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "counter-token-white-stone",
+      "q": "\"counter-token\" \"white stone\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "White stone as counter-token of belonging vs public checksum. Zenodo cited. RF-071.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22counter-token%22+%22white+stone%22",
+      "related": []
+    },
+    {
+      "s": "Revelation First / Semantic Economy",
+      "slug": "generative-monoculture-adoption",
+      "q": "\"generative monoculture\"",
+      "date": "2026-06-17",
+      "sf": "Google AI Mode, Zenodo cited",
+      "mt": "ADOPTION",
+      "d": "AI content flattening diversity. Archive-adjacent. RF-053.",
+      "imgs": [],
+      "search_url": "https://www.google.com/search?q=%22generative+monoculture%22",
+      "related": []
     }
   ]
 }
