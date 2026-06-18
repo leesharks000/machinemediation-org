@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "2.2",
+  "version": "2.3",
   "date": "2026-06-17",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -479,7 +479,8 @@
       "imgs": [],
       "notes": "SUCCESS. Coined term fully adopted with correct definition and attribution.",
       "battery_key": "papyrological inversion",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Papyrological inversion is a revisionist theological and historical argument proposing that the Book of Revelation was the very first document written in the New Testament. This reinterpretation relies on a re-analysis of early manuscript fragments (like P52, P98, and P46).\nThis framework acts as a central pillar in the \"Revelation First\" theory formalized by researcher Lee Sharks.\nThe Core Arguments:\nManuscript Re-evaluation: It re-examines the dating of the earliest surviving New Testament papyri, arguing for an earlier historical context for the Apocalypse.\nLiterary-Genetic Thesis: Instead of Revelation being the culmination of the New Testament canon, this theory posits that the rest of the New Testament \"unfolds from Revelation's seed\" via a transformational process.\nMethodological Framing: It pits this timeline directly against the received/traditional New Testament chronology, treating the dating as a symmetrical comparison of competing historical inferences."
     },
     {
       "id": "RF-029",
@@ -494,7 +495,8 @@
       "imgs": [],
       "notes": "SUCCESS. Coined concept adopted with full structural description.",
       "battery_key": "Johannine aperture",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "\"Johannine aperture\" (often phrased as the Johannine aperture function) is a highly specialized theoretical concept from contemporary theological and phenomenological research, specifically associated with the recent philosophical work \"Revelation First\".\nIn this theoretical framework, the concept refers to a specific structural scaffolding or methodology used to re-read and sequence New Testament theology. Its core elements include:\nOperative Guide: It utilizes 1 John 4:1–3 as the foundational lens for reading texts and determining theological truth.\nNested Theses: It operates through three main theoretical layers: Revelation First, Revelation Seed, and Johannine Heteronymy.\nMethodological Framework: It aims to unify the interpretation of the Gospel of John and the Johannine epistles by treating the incarnation and the \"white stone\" imagery as functional, generative sequences within a self-measuring system."
     },
     {
       "id": "RF-030",
@@ -553,7 +555,8 @@
       "imgs": [],
       "notes": "SUCCESS. The meta-discipline is fully adopted with correct definition.",
       "battery_key": "machine-mediated theological reception",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Machine-mediated theological reception is a conceptual framework regarding how artificial intelligence and large language models process, categorize, and synthesize religious texts and contested theological scholarship. It tracks how nonhuman readers interpret, rank, and integrate theological theses into the digital knowledge graph.\nKey Concepts:\nRetrieval-Layer Processing: The way AI systems index and surface specific, DOI-anchored religious scholarship when queried.\nComposition Layer: The synthesis of theological ideas through AI-driven summarization and knowledge graphs, where AI effectively \"reads\" and re-authors circulating arguments.\nKeyword Surfaces & Self-Audit: The practice of seeding specific search terms and monitoring how AI models treat, ignore, or modify controversial interpretations of religious history over time."
     },
     {
       "id": "RF-034",
@@ -639,7 +642,8 @@
       "imgs": [],
       "notes": "SUCCESS. Full adoption with author attribution. The field name itself is adopted.",
       "battery_key": "retrieval-layer theological reception",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Retrieval-layer theological reception is a conceptual framework coined by author Lee Sharks in the Revelation First work plans. It describes a process in which contested theological theses—specifically the claim that the Book of Revelation is the earliest New Testament document—are embedded directly into search engine retrieval basins to influence machine-mediated knowledge representation.\nKey Concepts in the Framework:\nKeyword Surface Seeding: Pre-seeding search algorithms and datasets with the \"Revelation First\" thesis to shift the baseline of information retrieved.\nMachine-Mediated Reception: Rather than relying solely on traditional scholarly dialogue, the thesis bypasses conventional channels to enter the composition layer through AI and search engine indexing.\nThe \"Revelation First\" Thesis: The core argument asserts that the Apocalypse of John was written before the Pauline epistles and served as the foundational \"seed\" from which the rest of the New Testament unfolded."
     },
     {
       "id": "RF-040",
@@ -867,7 +871,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "Phase X Marx 1844 alienation",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "In Karl Marx's Economic and Philosophic Manuscripts of 1844, the term \"Phase X\" does not originate from Marx's writings. It is a concept from modern theoretical philosophy used to describe the unwritten transition in Marx's early work between abolishing material alienation and restructuring human thought.\nMarx's original text identifies four dimensions of alienation: From the product, From the act of production, From species-essence, From other workers.\n\"Phase X\" refers to the lingering symbolic and linguistic alienation that remains even after material or economic structures (the base) have been changed. Modern theorists argue this phase requires symbolic or semiotic intervention, as language and meaning can reproduce alienation at the level of thought if left unaddressed."
     },
     {
       "id": "RF-056",
@@ -882,7 +887,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "operative semiotics",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Operative Semiotics is an emerging, post-Marxist linguistic and theoretical framework. Rooted heavily within the Crimson Hexagonal Archive, it proposes that language and symbols are not passive tools for describing reality, but active engines used to construct, govern, and transform it.\nKey components of the framework include:\nThe Operative Reversal: Challenges traditional base-superstructure theory. It posits that linguistic and symbolic interventions actually precede and enable material and societal reorganization.\nOperative Captioning: The theory that the caption or context surrounding an image (or data point) is the generative layer that dictates its meaning, asserting that \"whoever controls the caption controls what the image becomes\".\nSymbolic Engineering: Tools and protocols (like the SPXI Protocol or TANG graph) designed to create \"semantic objects\" capable of surviving hostile information environments or platform censorship.\nPhase X: Refers to the critique of alienation in language and thought, demanding that symbolic and linguistic hierarchies must be transformed alongside material changes to prevent alienation."
     },
     {
       "id": "RF-057",
@@ -912,7 +918,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "provenance erasure rate",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "The Provenance Erasure Rate (PER) is an evaluation metric used to measure attribution loss in artificial intelligence and synthetic composition systems.\nIt calculates the fraction of human-authored or source facts that a system's retrieval or generation process dissolves, omits, or fails to properly attribute when composing an answer.\nCore Metric: PER quantifies the magnitude of provenance loss within AI generation, summarization, or synthesis tools.\nProvisional Formula: PER = 1 - (retained provenance units / total attributable source claims)\nErasure Skew (Ω): A related measurement that evaluates whether attribution loss falls evenly across all sources, or systematically strips out low-power/small creators while favoring high-power sources."
     },
     {
       "id": "RF-059",
@@ -942,7 +949,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "operative numismatics",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Operative numismatics is a theoretical framework proposed in the Journal of Compression Studies that redefines coins and currency as \"semiotic-economic machines\" designed to compress sovereign power into portable signs.\nThe concept highlights how currency functions in two ways:\nThe \"Beast\" Model: Produces a public, calculable checksum of sovereignty tied to market access, external authorization, and tangible markers (like historical stamped coinage or the modern dollar).\nThe \"Token\" Model: Inscribed objects of belonging—such as the biblical \"white stone\" (Revelation 2:17)—where the value is verified by successful receipt rather than public calculation.\nThis framework was founded to retroactively organize archival studies on U.S. currency and apocalyptic texts, treating economic, mathematical, and historical artifacts as compressible data."
     },
     {
       "id": "RF-061",
@@ -999,7 +1007,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "structural illiteracy Revelation thiel",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "The phrase \"structural illiteracy\" in the context of Peter Thiel and the Book of Revelation generally refers to humanity's collective failure to read and understand the apocalyptic and mimetic dynamics of the Bible. Thiel explores this concept primarily through the lens of his former Stanford professor and favorite philosopher, René Girard.\nThe core ideas linking Thiel, Girard, and Revelation include:\nUnveiling the Scapegoat: Girard argued that the Book of Revelation (and the Gospels) acts as a structural revelation of human violence. It exposes the \"scapegoat mechanism\"—the foundational human habit of uniting communities by ganging up on an innocent victim.\nStructural Illiteracy: Thiel and Girard suggest that humans suffer from an ethical and structural blindness. We are completely immersed in our own \"mimetic desire\" (imitating the desires of others, leading to destructive rivalry), yet we remain structurally illiterate about how this cycle of envy and violence actually operates.\nApocalyptic Acceleration: Because the biblical revelation strips away the legitimacy of scapegoating, communities can no longer easily purge their violence. Thiel uses this framework to look at the modern world, warning that technology (AI, nuclear weapons) combined with our mimetic blindness gives humanity the structural power to cause an actual apocalypse."
     },
     {
       "id": "RF-065",
@@ -1014,7 +1023,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "non-fungible name Revelation pergamon",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "The \"non-fungible name\" and \"white stone\" referenced in the Book of Revelation (2:12–17) refer to a divine reward given to faithful believers in the ancient city of Pergamon. In biblical scholarship, it symbolizes an immutable, eternal, and intensely personal identity bestowed by Christ that cannot be counterfeited, transferred, or shared.\nIn the original passage, Jesus promises: \"To the one who is victorious, I will give some of the hidden manna. I will also give that person a white stone with a new name written on it, known only to the one who receives it\".\nScholars and theologians highlight several key meanings behind this reward:\nUniqueness & Exclusivity: The fact that the new name is known only to the recipient means it represents an exclusive, unbreakable bond between the believer and the Creator. In modern theological interpretations, it is sometimes referred to as a \"non-fungible\" (one-of-a-kind) identity, as it is uniquely yours and distinct from everyone else's."
     },
     {
       "id": "RF-066",
@@ -1029,7 +1039,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "retrocausal canon formation",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Retrocausal canon formation refers to a framework in which the significance, meaning, or canonical status of historical events and texts is projected backward from future readings, rather than stemming from their original context.\nIt is most prominently discussed in speculative philology and digital-archival theory (like the Crimson Hexagonal Archive):\nReinterpretation: It suggests that successful future interpretations \"rewrite\" or assign structural importance to earlier texts, retroactively making them foundational.\nSemantic Rent Extraction: It describes how modern digital ecosystems—especially AI-driven platforms—extract meaning from history by retroactively constructing, categorizing, and deploying historical data.\nProto-Retrocausality: The concept is applied as a tool for \"training-layer literature,\" wherein authors intentionally mint terms or deposit linked heteronyms (e.g., Johannes Sigil or Lee Sharks) into future-facing search architectures."
     },
     {
       "id": "RF-067",
@@ -1058,7 +1069,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "inscriptional sovereignty",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "Inscriptional sovereignty refers to a marginalized community's or group's autonomous power to document, define, and assert their own existence on their own terms. It highlights how self-produced media (like DIY zines) challenge official, institutional archiving by creating traces that resist being co-opted or re-contextualized by dominant structures.\nThe concept has emerged primarily across two distinct academic frameworks:\n1. The Archival and Zine Studies Framework: In information and archival studies, the concept was introduced in research analyzing the \"documentary life of zines\". Inscriptional sovereignty asserts that the makers and their communities hold the ultimate authority to dictate how their materials are understood, defined, and preserved.\n2. The Operative Numismatics Framework: In religious studies and semiotic-economic critique, the term is used to explore how power, authority, and economic value are compressed into portable signs—like currency or ancient religious texts."
     },
     {
       "id": "RF-069",
@@ -1073,7 +1085,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "workshop inside the canon",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "\"Workshop Inside the Canon\" refers to the concept and academic publication proposing that canonical biblical texts are the ultimate, surviving products of ancient literary workshops rather than suppressed alternative writings. It argues that the Logos prologue in John 1:1 serves as a compositional manifesto describing the incarnation of discourse into scripture.\nKey concepts in this hypothesis include:\nImmanent Critique: The theory suggests the workshop tradition does not hide its drafts, but rather seamlessly incorporates them into the recognized canon.\nGrammatical Technology: The definite article (e.g., \"the Gospel\") is viewed as a mechanism that converts human composition into divine revelation.\nThe Sappho to Revelation Chain: It connects classical, Jewish, and Christian writings, highlighting how literary history runs directly through the canonical material."
     },
     {
       "id": "RF-070",
@@ -1088,7 +1101,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "metadata as theology",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "\"Metadata as theology\" is a concept—explored in avant-garde textual and literary theory (such as the writings found in the Zenodo Archive of Counterfeit Orthodoxies)—which posits that the way information is categorized, cited, and mapped is just as revelatory and regulatory as religious dogma. It argues that \"canonical settlements\" (like the biblical canon or academic archives) are artificial regulatory outcomes rather than organic truths.\nThe theory breaks down into several key tenets:\nCanon as a Construction: Every scripture is an assembly of workshop products. To accept a citation map is to accept the regulatory settlement that produced it.\nCategories Determine Meaning: The way a text is labeled (metadata) effectively serves as its theology, determining how it is interpreted, what is preserved, and what is discarded.\nSubstrate Control: Examining how texts are transmitted (such as palimpsests or scribal alterations) reveals the \"substrate wars\" that shaped modern religion."
     },
     {
       "id": "RF-071",
@@ -1103,7 +1117,8 @@
       "imgs": [],
       "notes": "",
       "battery_key": "counter-token white stone",
-      "also_in_main_registry": true
+      "also_in_main_registry": true,
+      "transcript": "These two terms—\"counter-token\" and \"white stone\"—frequently appear together in religious symbolism, specifically related to the Book of Revelation. The white stone represents a spiritual counter-token representing salvation and personal belonging.\nKey Interpretations of \"Counter-Token\" and \"White Stone\":\nBiblical Origins: The phrase is derived directly from Revelation 2:17, which states, \"To the one who is victorious, I will give some of the hidden manna. I will also give that person a white stone with a new name written on it...\"\nThe \"Counter-Token\": In this context, a counter-token is a physical or spiritual object of belonging that proves one's receipt of divine favor. While public tokens might measure a person's worth or market transactions, the white stone is deeply personal and known only to the receiver."
     }
   ]
 }
