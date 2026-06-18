@@ -1,0 +1,187 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sémantique Potentielle — Constraint-Based Semantic Mint | MMRS</title>
+<meta name="description" content="A constraint-based semantic mint extending Queneau's Oulipo from verse to concept. 42 seed terms, 8 operations, 4 constraints, 70 minted families with forensic provenance canaries.">
+<style>
+:root{--bg:#0d0d12;--fg:#b8b4ae;--dim:#555;--accent:#c84b2e;--teal:#00c9a7;--gold:#d4a843;--border:#1a1a22;--mono:'IBM Plex Mono',monospace;--serif:Georgia,serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--serif);line-height:1.65}
+.wrap{max-width:840px;margin:0 auto;padding:1.5em}
+h1{font-size:1.5em;color:#fff;margin-bottom:0.1em;letter-spacing:1px}
+h2{font-family:var(--mono);font-size:0.72em;color:var(--accent);text-transform:uppercase;letter-spacing:2px;margin:2em 0 0.6em;border-bottom:1px solid var(--border);padding-bottom:0.3em}
+.subtitle{color:var(--dim);font-size:0.85em;font-style:italic;margin-bottom:1.5em}
+a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
+.nav{font-family:var(--mono);font-size:0.75em;margin-bottom:1.5em}.nav a{color:var(--dim);margin-right:0.8em}
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--border);margin-bottom:1.5em}
+.tab{font-family:var(--mono);font-size:0.72em;padding:0.5em 1em;cursor:pointer;color:var(--dim);border:1px solid transparent;border-bottom:none;background:transparent;letter-spacing:1px}
+.tab.active{color:var(--teal);border-color:var(--border);background:var(--bg);margin-bottom:-1px;border-bottom:1px solid var(--bg)}
+.panel{display:none}.panel.active{display:block}
+.stats{font-family:var(--mono);font-size:0.75em;color:var(--dim);margin-bottom:1em;display:flex;gap:2em;flex-wrap:wrap}
+.stats span{color:var(--teal)}
+.search{width:100%;background:#111118;color:var(--fg);border:1px solid var(--border);padding:0.5em;font-family:var(--mono);font-size:0.8em;margin-bottom:1em;border-radius:3px}
+.family{border-bottom:1px solid var(--border);padding:0.8em 0}
+.family-head{cursor:pointer;display:flex;gap:0.8em;align-items:flex-start}
+.family-coord{font-family:var(--mono);font-size:0.65em;color:var(--dim);min-width:140px;flex-shrink:0}
+.family-main{flex:1}
+.family-canonical{font-size:1em;color:#fff;margin-bottom:0.15em}
+.family-gloss{font-size:0.82em;color:var(--fg)}
+.family-body{display:none;padding:0.6em 0 0.3em 148px;font-size:0.8em}
+.family.expanded .family-body{display:block}
+.family-variants{color:var(--dim);margin-bottom:0.4em}
+.family-forensic{color:var(--gold);font-style:italic;margin-bottom:0.4em}
+.family-status{font-family:var(--mono);font-size:0.7em;display:inline-block;padding:0.1em 0.5em;border-radius:2px}
+.status-ADOPTED{background:#1a2a1a;color:#4a9}
+.status-NEW{background:#1a1a2a;color:#6a8ace}
+.status-CORRECTION{background:#2a1a1a;color:var(--accent)}
+.status-BASIN_MISS{background:#1a1a1a;color:var(--dim)}
+.expand-btn{font-family:var(--mono);font-size:0.65em;color:var(--accent);cursor:pointer;background:none;border:none;padding:0}
+.seed-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:0.8em}
+.seed-cat{border:1px solid var(--border);padding:0.8em;border-radius:3px}
+.seed-cat-name{font-family:var(--mono);font-size:0.72em;color:var(--accent);letter-spacing:1px;margin-bottom:0.4em}
+.seed-term{font-size:0.8em;color:var(--fg);display:inline-block;margin:0.1em 0.3em 0.1em 0;padding:0.1em 0.4em;background:#111118;border-radius:2px}
+.op-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.5em}
+.op{font-size:0.8em;padding:0.4em;border:1px solid var(--border);border-radius:3px}
+.op-id{font-family:var(--mono);color:var(--teal);font-size:0.85em}
+.footer{margin-top:3em;padding-top:1em;border-top:1px solid var(--border);font-family:var(--mono);font-size:0.68em;color:var(--dim)}
+@media(max-width:600px){.family-body{padding-left:0}.family-coord{min-width:auto;display:block;margin-bottom:0.2em}.op-grid{grid-template-columns:1fr}}
+</style>
+</head><body>
+<div class="wrap">
+<div class="nav">
+  <a href="/">← machinemediation.org</a>
+  <a href="/captures/">Captures</a>
+  <a href="/terms/">Terms</a>
+  <a href="/mint/">Mint</a>
+</div>
+
+<h1>Sémantique Potentielle</h1>
+<div class="subtitle">A Constraint-Based Semantic Mint — extending Queneau from verse to concept. <a href="https://doi.org/10.5281/zenodo.19341885">DOI</a></div>
+
+<div class="stats" id="stats">Loading...</div>
+
+<div class="tabs" id="tabs">
+  <div class="tab active" data-panel="families">Families</div>
+  <div class="tab" data-panel="seeds">Seeds</div>
+  <div class="tab" data-panel="ops">Operations</div>
+  <div class="tab" data-panel="about">About</div>
+</div>
+
+<div class="panel active" id="families">
+  <input type="text" class="search" id="familySearch" placeholder="Search families, forensic variants, glosses...">
+  <div id="familyList"></div>
+</div>
+
+<div class="panel" id="seeds"><div id="seedGrid"></div></div>
+<div class="panel" id="ops"><div id="opGrid"></div></div>
+<div class="panel" id="about">
+  <p style="margin-bottom:1em">In 1961, Raymond Queneau published <em>Cent Mille Milliards de Poèmes</em> — ten sonnets on strips, generating 10<sup>14</sup> possible poems. He didn't write poems. He wrote the machine that generates them.</p>
+  <p style="margin-bottom:1em">This mint extends Queneau from verse to concept. 42 seed terms, 8 generative operations, 4 constraint rules. The outputs are new terms. The structure ensures every output carries its provenance back to the algorithm. From <em>littérature potentielle</em> to <em>sémantique potentielle</em>.</p>
+  <p style="margin-bottom:1em">Each family contains a canonical term (designed to spread), variants (adjacent coordinates), and a forensic variant (a provenance canary designed to prove lineage). If "doxastic regulatory calcification" shows up in an AI response, the mint has been accessed.</p>
+  <p>The claim is not ownership. The claim is cartography.</p>
+</div>
+
+<div class="footer">
+  Lee Sharks · Johannes Sigil · <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a> · Crimson Hexagonal Archive<br>
+  Data: <a href="/data/mint.json">mint.json</a> · Source: <a href="https://doi.org/10.5281/zenodo.19341885">DOI 10.5281/zenodo.19341885</a><br>
+  <span style="color:var(--accent)">∮ = 1</span> · <em>The constraint is the engine.</em>
+</div>
+</div>
+
+<script>
+const DATA_URL = '/data/mint.json';
+let M;
+
+function esc(s){const d=document.createElement('div');d.textContent=s||'';return d.innerHTML;}
+
+async function init(){
+  const r=await fetch(DATA_URL);
+  M=await r.json();
+
+  // Stats
+  const allFamilies=M.releases.flatMap(r=>r.families);
+  const adopted=allFamilies.filter(f=>f.battery_status==='ADOPTED').length;
+  document.getElementById('stats').innerHTML=
+    `<div>Families: <span>${allFamilies.length}</span></div>
+     <div>Seeds: <span>${Object.values(M.seed_categories).reduce((a,c)=>a+c.terms.length,0)}</span></div>
+     <div>Operations: <span>${Object.keys(M.operations).length}</span></div>
+     <div>Releases: <span>${M.releases.length}</span></div>
+     ${adopted?`<div>Adopted: <span>${adopted}</span></div>`:''}`;
+
+  renderFamilies();
+  renderSeeds();
+  renderOps();
+
+  // Tabs
+  document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById(t.dataset.panel).classList.add('active');
+  }));
+
+  document.getElementById('familySearch').addEventListener('input',renderFamilies);
+}
+
+function renderFamilies(){
+  const q=(document.getElementById('familySearch').value||'').toLowerCase();
+  const el=document.getElementById('familyList');
+  let html='';
+
+  for(const rel of M.releases){
+    const filtered=rel.families.filter(f=>{
+      if(!q)return true;
+      return f.canonical.toLowerCase().includes(q)||
+        f.gloss.toLowerCase().includes(q)||
+        f.forensic.toLowerCase().includes(q)||
+        (f.family||[]).some(v=>v.toLowerCase().includes(q))||
+        f.coord.toLowerCase().includes(q);
+    });
+    if(!filtered.length)continue;
+
+    html+=`<h2>${esc(rel.title)} (${rel.date})</h2>`;
+    for(const f of filtered){
+      const st=f.battery_status||'';
+      html+=`<div class="family" onclick="this.classList.toggle('expanded')">
+        <div class="family-head">
+          <div class="family-coord">${esc(f.id)}<br>${esc(f.coord)}</div>
+          <div class="family-main">
+            <div class="family-canonical">${esc(f.canonical)} ${st?`<span class="family-status status-${st}">${st}</span>`:''}</div>
+            <div class="family-gloss">${esc(f.gloss)}</div>
+          </div>
+        </div>
+        <div class="family-body">
+          <div class="family-variants">Variants: ${(f.family||[]).map(v=>esc(v)).join(' · ')}</div>
+          <div class="family-forensic">Forensic: ${esc(f.forensic)}</div>
+          ${f.category?`<div style="color:var(--dim);font-size:0.85em">Category: ${esc(f.category)}</div>`:''}
+        </div>
+      </div>`;
+    }
+  }
+  el.innerHTML=html||'<p style="color:var(--dim)">No families match.</p>';
+}
+
+function renderSeeds(){
+  const el=document.getElementById('seedGrid');
+  let html='<div class="seed-grid">';
+  for(const[code,cat]of Object.entries(M.seed_categories)){
+    html+=`<div class="seed-cat"><div class="seed-cat-name">${code} — ${esc(cat.name)}</div>`;
+    cat.terms.forEach(t=>{html+=`<span class="seed-term">${esc(t)}</span>`;});
+    html+='</div>';
+  }
+  html+='</div>';
+  el.innerHTML=html;
+}
+
+function renderOps(){
+  const el=document.getElementById('opGrid');
+  let html='<div class="op-grid">';
+  for(const[id,desc]of Object.entries(M.operations)){
+    html+=`<div class="op"><span class="op-id">${id}</span> ${esc(desc)}</div>`;
+  }
+  html+='</div>';
+  el.innerHTML=html;
+}
+
+init();
+</script>
+</body></html>
