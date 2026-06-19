@@ -84,7 +84,7 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 let D, filtered=[], page=0, PAGE_SIZE=50, activeFilter='all';
 
 fetch('/data/schemas.json').then(r=>r.json()).then(d=>{
-  D=d;
+  D=d.entries||d; document.getElementById('stats').innerHTML=`<span>${(d.totals||{}).total_posts||D.length}</span> visual schemas · <span>${(d.totals||{}).total_images||0}</span> AI-generated images`;
   document.getElementById('stats').innerHTML=
     `<span>${d.totals.total_posts}</span> posts · <span>${d.totals.total_images}</span> images · `+
     `<span>${d.totals.visual_schema_posts}</span> visual schemas · `+
@@ -97,7 +97,7 @@ document.getElementById('search').addEventListener('input',()=>{ page=0; applyFi
 function setFilter(f){
   activeFilter=f;
   document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
-  document.getElementById(f==='vs'?'btnVS':f==='other'?'btnOther':'btnAll').classList.add('active');
+  
   page=0; applyFilters();
 }
 
