@@ -136,6 +136,11 @@ function render(){
         </div>
       </div>
       <div class="entry-body">
+        ${en.is_visual_schema && en.part_b_visual_schema.text_preview ? 
+          '<div style="font-size:0.82em;line-height:1.65;color:#c8c4be;margin-bottom:1em;padding:0.8em;background:#0e0e16;border-left:2px solid #D4AF37;border-radius:0 3px 3px 0;max-height:12em;overflow-y:auto;white-space:pre-wrap">' + 
+          en.part_b_visual_schema.text_preview.replace(/</g,'&lt;').substring(0,2000) + 
+          (en.part_b_visual_schema.text_length > 2000 ? '\n\n<span style="color:#555;font-style:italic">... ' + Math.round(en.part_b_visual_schema.text_length/1000) + 'k chars total — <a href="' + en.blog_url + '" target="_blank">read full schema →</a></span>' : '') +
+          '</div>' : ''}
         <div class="gallery">${allImgs}</div>
         ${compLinks}
         <div style="margin-top:0.5em"><a href="${en.blog_url}" target="_blank" style="font-size:0.72em;font-family:var(--mono)">View on blog \u2192</a></div>
