@@ -1,0 +1,132 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Schemas — Crimson Hexagonal Archive | Machine-Mediated Reception Studies</title>
+<meta name="description" content="174 visual schemas with 499 AI-generated images. Five-part interlinked dataset: prose poem, visual schema, generated images, ornamenting article, summary analysis.">
+<style>
+:root{--bg:#0a0a0f;--surface:#111118;--card:#14141e;--text:#b8b4ae;--dim:#555;--accent:#c84b2e;--teal:#00c9a7;--gold:#D4AF37;--mono:'Courier New',monospace;--serif:Georgia,'Palatino Linotype',serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.65}
+.wrap{max-width:900px;margin:0 auto;padding:1.5em}
+h1{font-size:1.6em;color:#fff;margin-bottom:0.2em}
+h2{font-family:var(--mono);font-size:0.78em;color:var(--accent);text-transform:uppercase;letter-spacing:2px;margin-top:2em;margin-bottom:0.8em}
+.subtitle{color:var(--dim);font-size:0.88em;margin-bottom:1.5em;font-style:italic}
+a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
+.nav{font-family:var(--mono);font-size:0.78em;margin-bottom:1.5em}.nav a{color:var(--dim);margin-right:0.8em}
+.stats{font-family:var(--mono);font-size:0.78em;color:var(--dim);margin-bottom:1em}
+.stats span{color:var(--teal);font-size:1.1em}
+.search-box{width:100%;background:#111118;color:var(--text);border:1px solid #1a1a22;padding:0.5em 0.8em;font-family:var(--mono);font-size:0.85em;border-radius:3px;margin-bottom:1em}
+.entry{border-bottom:1px solid #1a1a22;padding:1.2em 0}
+.entry-header{cursor:pointer}
+.entry-concept{font-family:var(--mono);font-size:0.95em;color:var(--gold);margin-bottom:0.15em}
+.entry-meta{font-family:var(--mono);font-size:0.7em;color:var(--dim);margin-bottom:0.4em}
+.entry-preview{font-size:0.82em;color:var(--text);line-height:1.6;max-height:3.2em;overflow:hidden;position:relative}
+.entry-preview.expanded{max-height:none}
+.gallery{display:flex;gap:8px;flex-wrap:wrap;margin-top:0.8em}
+.gallery img{max-width:200px;max-height:300px;border:1px solid #222;border-radius:3px;cursor:pointer;opacity:0.85;transition:opacity 0.2s,border-color 0.2s}
+.gallery img:hover{opacity:1;border-color:var(--teal)}
+.gallery img.beautiful{border-color:var(--gold);border-width:2px}
+.companion{font-family:var(--mono);font-size:0.7em;color:var(--dim);margin-top:0.5em}
+.companion a{color:var(--gold)}
+.toggle-btn{font-family:var(--mono);font-size:0.7em;color:var(--accent);cursor:pointer;background:none;border:none;padding:0.2em 0}
+.entry-body{display:none}
+.entry-body.open{display:block}
+.label{font-family:var(--mono);font-size:0.6em;padding:1px 4px;border-radius:2px;margin-left:6px}
+.label-working{background:#1a2a1a;color:#4a9a4a}
+.label-beautiful{background:#2a2a1a;color:var(--gold)}
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.92);z-index:100;justify-content:center;align-items:center}
+.modal.active{display:flex}
+.modal img{max-width:95vw;max-height:95vh}
+.footer{margin-top:3em;padding-top:1em;border-top:1px solid #1a1a22;font-family:var(--mono);font-size:0.7em;color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="nav">
+  <a href="/">← MMRS</a>
+  <a href="/pillars/">Pillars</a>
+  <a href="/mint/">Mint</a>
+  <a href="/terms/">Terms</a>
+  <a href="/schemas/">Schemas</a>
+</div>
+
+<h1>Visual Schemas</h1>
+<div class="subtitle">Five-Part Interlinked Dataset — Prose Schema · Generated Images · Ornamenting Articles</div>
+
+<div class="stats" id="stats">Loading...</div>
+
+<input type="text" class="search-box" id="search" placeholder="Search concepts, titles, or schema text...">
+
+<div id="entries"></div>
+
+<div class="footer">
+  Rebekah Cranes, ed. · Lee Sharks · <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a> · Crimson Hexagonal Archive<br>
+  Data: <a href="/data/schemas.json">schemas.json</a> · Dataset DOI: <a href="https://doi.org/10.5281/zenodo.20754486">10.5281/zenodo.20754486</a><br>
+  Work Plan DOI: <a href="https://doi.org/10.5281/zenodo.20754288">10.5281/zenodo.20754288</a><br>
+  <span style="color:var(--accent)">∮ = 1</span>
+</div>
+</div>
+
+<div class="modal" id="modal" onclick="this.classList.remove('active')"><img id="modalImg"></div>
+
+<script>
+const DATA_URL = '/data/schemas.json';
+let D;
+
+fetch(DATA_URL).then(r=>r.json()).then(d=>{
+  D = d;
+  document.getElementById('stats').innerHTML =
+    `<span>${d.totals.schema_entries}</span> schemas · ` +
+    `<span>${d.totals.total_images}</span> images ` +
+    `(<span>${d.totals.schema_images}</span> working + <span>${d.totals.companion_images}</span> beautiful alternates) · ` +
+    `<span>${d.totals.with_companions}</span> with companion articles`;
+  render(d.entries);
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  if (!D) return;
+  const filtered = D.entries.filter(en =>
+    en.concept.toLowerCase().includes(q) ||
+    en.schema_title.toLowerCase().includes(q) ||
+    (en.part_b_visual_schema.text_preview || '').toLowerCase().includes(q)
+  );
+  render(filtered);
+});
+
+function render(entries) {
+  const el = document.getElementById('entries');
+  el.innerHTML = entries.map((en, i) => {
+    const schemaImgs = en.part_c_images.schema_images.map(img =>
+      `<img src="${img.url}" onclick="showModal(this.src)" title="Working image" alt="${en.concept}">`
+    ).join('');
+    const compImgs = en.part_c_images.companion_images.map(img =>
+      `<img class="beautiful" src="${img.url}" onclick="showModal(this.src)" title="Beautiful alternate — ${img.article_title || ''}" alt="${en.concept} alternate">`
+    ).join('');
+    const companions = en.part_d_ornamenting_articles.map(a =>
+      `<div class="companion">→ <a href="${a.url}" target="_blank">${a.title.substring(0,80)}</a> <span>[${a.date}]</span></div>`
+    ).join('');
+    const hasImgs = schemaImgs || compImgs;
+    return `<div class="entry">
+      <div class="entry-header" onclick="this.nextElementSibling.classList.toggle('open')">
+        <div class="entry-concept">${en.concept}
+          ${en.part_c_images.companion_images.length ? '<span class="label label-beautiful">+ alternates</span>' : ''}
+        </div>
+        <div class="entry-meta">${en.date} · ${en.part_c_images.schema_images.length + en.part_c_images.companion_images.length} images · ${Math.round(en.part_b_visual_schema.text_length/1000)}k chars</div>
+        <div class="entry-preview">${(en.part_b_visual_schema.text_preview || '').substring(0,200)}...</div>
+      </div>
+      <div class="entry-body">
+        <div style="margin-top:0.8em;font-size:0.82em;line-height:1.6;color:#c8c4be">${(en.part_b_visual_schema.text_preview || '').replace(/\n/g,'<br>')}</div>
+        ${hasImgs ? '<div class="gallery">' + schemaImgs + compImgs + '</div>' : ''}
+        ${companions}
+        <div style="margin-top:0.5em"><a href="${en.part_b_visual_schema.blog_url}" target="_blank" style="font-size:0.72em;font-family:var(--mono)">View on blog →</a></div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function showModal(src) {
+  document.getElementById('modalImg').src = src;
+  document.getElementById('modal').classList.add('active');
+}
+</script>
+</body></html>
