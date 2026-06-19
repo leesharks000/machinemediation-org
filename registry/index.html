@@ -94,12 +94,11 @@ fetch('/data/sovereign-registry.json').then(r=>r.json()).then(d=>{
   D=d;
   const s=d.summary;
   document.getElementById('stats').innerHTML=
-    `<div class="stat"><div class="stat-num teal">${d.total_assets}</div><div class="stat-label">Unique Works</div></div>`+
-    `<div class="stat"><div class="stat-num yellow">${d.total_versions||d.total_assets}</div><div class="stat-label">Total Records</div></div>`+
-    `<div class="stat"><div class="stat-num red">${d.total_versions||d.total_assets}</div><div class="stat-label">Zenodo 410</div></div>`+
-    `<div class="stat"><div class="stat-num yellow">${s.with_blog_mirror}</div><div class="stat-label">Blog Mirror</div></div>`+
-    `<div class="stat"><div class="stat-num red">${s.critical_no_mirror}</div><div class="stat-label">Critical</div></div>`+
-    `<div class="stat"><div class="stat-num teal">${s.version_chains||0}</div><div class="stat-label">Version Chains</div></div>`;
+    `<div class="stat"><div class="stat-num teal">${d.total_assets}</div><div class="stat-label">DOI Records</div></div>`+
+    `<div class="stat"><div class="stat-num red">${d.total_assets}</div><div class="stat-label">Zenodo 410</div></div>`+
+    `<div class="stat"><div class="stat-num green">${s.with_text||0}</div><div class="stat-label">Text Restored</div></div>`+
+    `<div class="stat"><div class="stat-num yellow">${s.with_blog_mirror||0}</div><div class="stat-label">Blog Mirror</div></div>`+
+    `<div class="stat"><div class="stat-num red">${s.critical_no_mirror||0}</div><div class="stat-label">Critical</div></div>`;
   go();
 });
 
