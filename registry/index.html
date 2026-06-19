@@ -16,32 +16,32 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 .stat-num{font-family:var(--mono);font-size:1.3em;font-weight:bold}
 .stat-num.red{color:var(--red)}.stat-num.green{color:var(--green)}.stat-num.yellow{color:var(--yellow)}.stat-num.teal{color:var(--teal)}
 .stat-label{font-family:var(--mono);font-size:0.6em;color:var(--dim);margin-top:0.2em}
-.controls{display:flex;gap:0.5em;margin-bottom:1em;flex-wrap:wrap}
-.search-box{flex:1;min-width:180px;background:#111118;color:var(--text);border:1px solid #1a1a22;padding:0.5em 0.8em;font-family:var(--mono);font-size:0.82em;border-radius:3px}
-.filter-btn{background:none;border:1px solid #1a1a22;color:var(--dim);font-family:var(--mono);font-size:0.68em;padding:0.3em 0.5em;cursor:pointer;border-radius:2px}
-.filter-btn.active{color:var(--gold);border-color:var(--gold)}
+.controls{display:flex;gap:0.5em;margin-bottom:1em;flex-wrap:wrap;align-items:center}
+.search-box{flex:1;min-width:160px;background:#111118;color:var(--text);border:1px solid #1a1a22;padding:0.5em 0.8em;font-family:var(--mono);font-size:0.82em;border-radius:3px}
+.btn{background:none;border:1px solid #1a1a22;color:var(--dim);font-family:var(--mono);font-size:0.68em;padding:0.3em 0.5em;cursor:pointer;border-radius:2px}
+.btn.active{color:var(--gold);border-color:var(--gold)}
+.btn:hover{border-color:var(--teal);color:var(--teal)}
 .entry{border-bottom:1px solid #0e0e16;padding:0.7em 0}
 .entry-header{cursor:pointer;display:flex;gap:0.6em;align-items:flex-start}
-.entry-id{font-family:var(--mono);font-size:0.65em;color:var(--dim);min-width:85px;flex-shrink:0;padding-top:2px}
+.entry-id{font-family:var(--mono);font-size:0.62em;color:var(--dim);min-width:80px;flex-shrink:0;padding-top:3px}
 .entry-info{flex:1;min-width:0}
-.entry-title{font-size:0.85em;color:var(--text);margin-bottom:0.1em}
-.entry-meta{font-family:var(--mono);font-size:0.65em;color:var(--dim)}
-.badge{font-family:var(--mono);font-size:0.55em;padding:1px 4px;border-radius:2px;margin-left:4px;vertical-align:middle}
+.entry-title{font-size:0.82em;color:var(--text);margin-bottom:0.15em;line-height:1.4}
+.entry-meta{font-family:var(--mono);font-size:0.62em;color:var(--dim)}
+.badge{font-family:var(--mono);font-size:0.52em;padding:1px 4px;border-radius:2px;margin-left:4px;vertical-align:middle}
 .badge-ver{background:#1a1a2a;color:#8888cc}
 .badge-type{background:#1a2a1a;color:#66aa66}
 .status-DEGRADED{color:var(--yellow)}.status-CRITICAL{color:var(--red)}
-.entry-detail{display:none;padding:0.8em 0 0.4em 91px;font-size:0.8em;line-height:1.6}
+.entry-detail{display:none;padding:0.8em 0 0.4em 0;margin-left:86px;font-size:0.78em;line-height:1.6;border-left:2px solid #1a1a22;padding-left:12px}
 .entry-detail.open{display:block}
-.detail-section{margin-bottom:0.8em}
-.detail-label{font-family:var(--mono);font-size:0.7em;color:var(--gold);margin-bottom:0.2em}
-.doi-dead{text-decoration:line-through;color:var(--red);font-family:var(--mono);font-size:0.75em}
-.doi-row{font-family:var(--mono);font-size:0.72em;color:var(--dim);padding:2px 0}
-.mirror-row{font-family:var(--mono);font-size:0.72em;padding:1px 0}
+.detail-label{font-family:var(--mono);font-size:0.68em;color:var(--gold);margin:0.6em 0 0.2em}
+.doi-dead{text-decoration:line-through;color:var(--red);font-family:var(--mono);font-size:0.72em}
+.doi-row{font-family:var(--mono);font-size:0.7em;color:var(--dim);padding:2px 0}
 .mirror-active{color:var(--green)}.mirror-dead{color:var(--red)}.mirror-pending{color:var(--dim)}
 .notice{background:#1a1010;border:1px solid #3a1010;padding:1em;margin-bottom:1.5em;border-radius:3px;font-size:0.82em}
 .notice strong{color:var(--red)}
 .load-more{display:block;width:100%;padding:0.6em;background:var(--surface);border:1px solid #1a1a22;color:var(--dim);font-family:var(--mono);font-size:0.78em;cursor:pointer;text-align:center;margin-top:1em;border-radius:3px}
 .footer{margin-top:3em;padding-top:1em;border-top:1px solid #1a1a22;font-family:var(--mono);font-size:0.68em;color:var(--dim)}
+.result-count{font-family:var(--mono);font-size:0.72em;color:var(--dim);margin-bottom:0.5em}
 </style>
 </head>
 <body>
@@ -60,18 +60,23 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 <div class="subtitle">Crimson Hexagonal Archive — Mirror Status Tracking</div>
 
 <div class="notice">
-  <strong>ZENODO ACCOUNT TERMINATED — 2026-06-19.</strong> All records removed without prior notification or record-level review. Private reason given: "substantially AI-generated without a verifiable research basis." Public reason displayed: "Content out of scope for repository." <a href="https://github.com/zenodo/zenodo/issues/2606">#2606</a>
+<strong>ZENODO ACCOUNT TERMINATED — 2026-06-19.</strong> All records removed without prior notification or record-level review. Private reason: "substantially AI-generated without a verifiable research basis." Public reason: "Content out of scope for repository." <a href="https://github.com/zenodo/zenodo/issues/2606">#2606</a>
 </div>
 
 <div class="stats-grid" id="stats"></div>
 
 <div class="controls">
-  <input type="text" class="search-box" id="search" placeholder="Search titles, DOIs, IDs...">
-  <button class="filter-btn active" onclick="setFilter('all',this)">All</button>
-  <button class="filter-btn" onclick="setFilter('DEGRADED',this)">Degraded</button>
-  <button class="filter-btn" onclick="setFilter('CRITICAL',this)">Critical</button>
+  <input type="text" class="search-box" id="search" placeholder="Search titles, DOIs, types...">
+  <button class="btn" id="btnDateDesc" onclick="setSort('date-desc',this)">Newest</button>
+  <button class="btn" id="btnDateAsc" onclick="setSort('date-asc',this)">Oldest</button>
+  <button class="btn" id="btnIdAsc" onclick="setSort('id-asc',this)">ID</button>
+  <span style="color:#333;margin:0 2px">|</span>
+  <button class="btn active" id="btnAll" onclick="setFilter('all',this)">All</button>
+  <button class="btn" id="btnDeg" onclick="setFilter('DEGRADED',this)">Degraded</button>
+  <button class="btn" id="btnCrit" onclick="setFilter('CRITICAL',this)">Critical</button>
 </div>
 
+<div class="result-count" id="resultCount"></div>
 <div id="entries"></div>
 <button class="load-more" id="loadMore" onclick="loadMore()">Load more...</button>
 
@@ -83,7 +88,7 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 </div>
 
 <script>
-let D,filtered=[],page=0,PAGE=50,filt='all';
+let D,filtered=[],page=0,PAGE=50,filt='all',sort='date-desc';
 
 fetch('/data/sovereign-registry.json').then(r=>r.json()).then(d=>{
   D=d;
@@ -100,9 +105,16 @@ fetch('/data/sovereign-registry.json').then(r=>r.json()).then(d=>{
 
 document.getElementById('search').addEventListener('input',()=>{page=0;go()});
 
+function setSort(s,btn){
+  sort=s;
+  document.querySelectorAll('#btnDateDesc,#btnDateAsc,#btnIdAsc').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  page=0;go();
+}
+
 function setFilter(f,btn){
   filt=f;
-  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('#btnAll,#btnDeg,#btnCrit').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
   page=0;go();
 }
@@ -112,62 +124,60 @@ function go(){
   filtered=D.assets.filter(a=>{
     if(filt!=='all'&&a.network_status!==filt)return false;
     const doi=a.latest_doi||a.historical_doi||'';
-    if(q&&!a.title.toLowerCase().includes(q)&&!doi.includes(q)&&!a.sovereign_id.toLowerCase().includes(q)&&!a.content_type.includes(q))return false;
+    if(q&&!a.title.toLowerCase().includes(q)&&!doi.includes(q)&&!a.sovereign_id.toLowerCase().includes(q)&&!(a.content_type||'').includes(q))return false;
     return true;
+  });
+  // Sort
+  filtered.sort((a,b)=>{
+    if(sort==='date-desc') return (b.date||'').localeCompare(a.date||'');
+    if(sort==='date-asc') return (a.date||'').localeCompare(b.date||'');
+    return a.sovereign_id.localeCompare(b.sovereign_id);
   });
   render();
 }
 
 function render(){
   const show=filtered.slice(0,(page+1)*PAGE);
-  document.getElementById('entries').innerHTML=show.map((a,i)=>{
+  document.getElementById('resultCount').textContent=filtered.length+' of '+D.assets.length+' works';
+  document.getElementById('entries').innerHTML=show.map((a,idx)=>{
     const vc=a.version_count||1;
     const doi=a.latest_doi||a.historical_doi||'';
     const blog=a.mirrors&&a.mirrors.blog&&a.mirrors.blog.url;
-    
-    // Version history
-    let versionHtml='';
+    const uid='d'+idx;
+
+    let vHtml='';
     if(a.versions&&a.versions.length>0){
-      versionHtml='<div class="detail-section"><div class="detail-label">Version History ('+a.versions.length+' versions)</div>';
+      vHtml='<div class="detail-label">Version History ('+a.versions.length+' records)</div>';
       a.versions.forEach(v=>{
-        versionHtml+=`<div class="doi-row"><span class="doi-dead">${v.historical_doi}</span> ${v.date||''} ${v.title!==a.title?v.title.substring(0,80):''}</div>`;
+        vHtml+=`<div class="doi-row"><span class="doi-dead">${v.historical_doi}</span> ${v.date||''} ${v.title!==a.title?'<br>'+v.title:''}</div>`;
       });
-      versionHtml+='</div>';
     }
-    
-    // Mirrors
-    let mirrorHtml='<div class="detail-section"><div class="detail-label">Mirrors</div>';
+
+    let mHtml='<div class="detail-label">Mirrors</div>';
     if(a.mirrors){
-      const m=a.mirrors;
-      mirrorHtml+=`<div class="mirror-row mirror-dead">Zenodo: ${doi} — 410 GONE</div>`;
-      if(m.blog&&m.blog.url) mirrorHtml+=`<div class="mirror-row mirror-active">Blog: <a href="${m.blog.url}" target="_blank">${m.blog.url.substring(0,80)}</a> — ACTIVE</div>`;
-      if(m.osf) mirrorHtml+=`<div class="mirror-row mirror-pending">OSF: PENDING</div>`;
-      if(m.figshare) mirrorHtml+=`<div class="mirror-row mirror-pending">Figshare: PENDING</div>`;
+      mHtml+=`<div class="doi-row mirror-dead">Zenodo: ${doi} — 410 GONE</div>`;
+      if(a.mirrors.blog&&a.mirrors.blog.url) mHtml+=`<div class="doi-row mirror-active">Blog: <a href="${a.mirrors.blog.url}" target="_blank">ACTIVE</a></div>`;
+      else mHtml+=`<div class="doi-row mirror-pending">Blog: N/A</div>`;
+      mHtml+=`<div class="doi-row mirror-pending">OSF: PENDING</div>`;
+      mHtml+=`<div class="doi-row mirror-pending">Figshare: PENDING</div>`;
     }
-    mirrorHtml+='</div>';
-    
-    // Metadata
-    let metaHtml=`<div class="detail-section"><div class="detail-label">Metadata</div>`+
-      `<div class="doi-row">Sovereign ID: ${a.sovereign_id}</div>`+
-      `<div class="doi-row">Content Type: ${a.content_type}</div>`+
-      `<div class="doi-row">Date: ${a.date||'unknown'}</div>`+
-      `<div class="doi-row">Network Status: <span class="status-${a.network_status}">${a.network_status}</span></div>`+
-      `<div class="doi-row">Sources: ${(a.sources_recovered_from||[]).join(', ')}</div>`+
-      `</div>`;
-    
+
     return `<div class="entry">
-      <div class="entry-header" onclick="document.getElementById('detail-${i}').classList.toggle('open')">
-        <div class="entry-id">${a.sovereign_id}<br><span class="status-${a.network_status}" style="font-size:0.85em">${a.network_status}</span></div>
+      <div class="entry-header" onclick="document.getElementById('${uid}').classList.toggle('open')">
+        <div class="entry-id">${a.sovereign_id}<br><span class="status-${a.network_status}">${a.network_status}</span></div>
         <div class="entry-info">
-          <div class="entry-title">${a.title}
-            ${vc>1?`<span class="badge badge-ver">${vc} versions</span>`:''}
-            <span class="badge badge-type">${a.content_type}</span>
-          </div>
-          <div class="entry-meta">${a.date||''} · <span class="doi-dead">${doi}</span>${blog?' · <a href="'+blog+'" target="_blank">blog \u2192</a>':''}</div>
+          <div class="entry-title">${a.title}${vc>1?` <span class="badge badge-ver">${vc}v</span>`:''} <span class="badge badge-type">${a.content_type}</span></div>
+          <div class="entry-meta">${a.date||'no date'} · <span class="doi-dead">${doi}</span>${blog?' · <a href="'+blog+'" target="_blank">blog</a>':''}</div>
         </div>
       </div>
-      <div class="entry-detail" id="detail-${i}">
-        ${metaHtml}${versionHtml}${mirrorHtml}
+      <div class="entry-detail" id="${uid}">
+        <div class="detail-label">Metadata</div>
+        <div class="doi-row">Sovereign ID: ${a.sovereign_id}</div>
+        <div class="doi-row">Content Type: ${a.content_type}</div>
+        <div class="doi-row">Date: ${a.date||'unknown'}</div>
+        <div class="doi-row">Network Status: <span class="status-${a.network_status}">${a.network_status}</span></div>
+        <div class="doi-row">Sources: ${(a.sources_recovered_from||[]).join(', ')||'unknown'}</div>
+        ${vHtml}${mHtml}
       </div>
     </div>`;
   }).join('');
