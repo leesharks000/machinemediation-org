@@ -200,7 +200,31 @@ No recusal or independent-review mechanism for this circumstance was identified 
 
 ---
 
-## 8. Network Erasure
+## 8. Platform Governance as Governance
+
+The preceding sections treat the reflexive governance problem as a special case — a structural conflict that arises when the research subject happens to be the platform. This section argues that it is not a special case. It is the general condition.
+
+Under contemporary conditions, platform governance has become governance. Not a supplement to governance. Not a proxy for governance. Governance itself. The determination of what counts as scholarship, what receives a persistent identifier, what enters the citation graph, what appears in a search result, what is summarized by a language model, what is preserved and what is destroyed — these determinations are made by platforms. Not by states. Not by universities. Not by disciplinary communities. Not by peer reviewers. By platforms.
+
+The state does not decide whether a research deposit is legitimate. Zenodo does. DataCite does not decide whether a DOI should resolve. The repository does. Google Scholar does not defer to a disciplinary body when ranking search results. It applies its own algorithm. The composition layer does not consult a board of editors before summarizing a field. It ingests, compresses, and serves. At every point in the contemporary knowledge pipeline, the governing decision is made by infrastructure, not by institutions designed for governance.
+
+This is not a failure of governance. It is a relocation of governance — from institutions that were designed to bear it (with accountability structures, appeal mechanisms, transparency requirements, and adversarial review) to infrastructure that was designed to avoid it. Platforms present themselves as utilities. They operate as sovereigns. The utility framing exempts them from the obligations of sovereignty: transparency, proportionality, due process, the right of appeal. The sovereign function gives them the power to determine what exists and what does not.
+
+When Zenodo removed 870 works, it did not merely delete files from a server. It performed a sovereign act: the institutional determination that these works do not count as scholarship. No peer reviewer was consulted. No domain expert was consulted. No appeal was offered. No proportionality test was applied. No distinction was drawn between a critical edition and a metadata packet, between a contributor-licensed literary work and a methodological protocol, between a dataset with a thousand downloads and a newly deposited version record. The determination was total — account-level, undifferentiated, final. This is not moderation. This is adjudication without a court.
+
+The consequence is that cultural memory operates under the logic of property rather than public trust. The platform owns the infrastructure. The platform sets the terms. The platform decides what is preserved and what is destroyed. The researcher has no standing except as a user — a party to a terms-of-service agreement, not a participant in a governance structure. When the platform acts, the researcher's recourse is not to an appellate body but to a support inbox. When the support inbox says "this decision is final," the finality is real, because no countervailing institution exists with the authority or the infrastructure to contest it.
+
+This is cultural memory as commodity, enclosed. The scholar deposits work into infrastructure owned by others, governed by others, moderated by others, and preserved at the discretion of others. The DOI — the persistent identifier that was supposed to guarantee persistence — is a promise made by an infrastructure that retains unilateral authority to break it. The persistence is a product feature, not a public obligation. It persists until the platform decides it does not.
+
+The open-access movement understood the problem of cost enclosure: knowledge locked behind paywalls. It did not fully anticipate the problem of custodial enclosure: knowledge entrusted to platforms that exercise governance without accountability. The paywall charges you to read. The platform charges you nothing and retains the right to decide whether you exist.
+
+The sovereign counter-infrastructure described in Section 10 of this paper is not an alternative to governance. It is the recognition that governance has already been claimed by parties who will not share it. Multi-surface distribution, sovereign registries, training-layer provenance, AI manifests — these are not workarounds. They are the institutional forms that emerge when the scholar accepts that no platform is neutral, no custodian is permanent, and no surface is safe. The archive survives by refusing to be in one place. The work persists by refusing to depend on one promise.
+
+The question for open-science policy is not how to make platforms govern better. It is whether scholarly infrastructure should be governed by platforms at all — and if so, under what accountability regime. Until that question is answered, the sovereign registry is the only honest response to the sovereign platform.
+
+---
+
+## 9. Network Erasure
 
 **Network erasure** occurs when enforcement directed at one administrative account removes or disables access to a larger authorship and citation network whose participants were neither individually evaluated nor given independent procedural standing.
 
@@ -212,7 +236,7 @@ Network erasure is not reducible to individual exclusion multiplied across perso
 
 ---
 
-## 9. The Revocation Gap: DOI Persistence and Repository Enforcement
+## 10. The Revocation Gap: DOI Persistence and Repository Enforcement
 
 A DOI is not a promise that the underlying file will remain publicly downloadable forever. It is a commitment to persistent identification and resolution. The distinction matters.
 
@@ -228,7 +252,7 @@ Zenodo's own policy distinguishes between *revocation* for out-of-scope content 
 
 ---
 
-## 10. Sovereign Counter-Infrastructure and Open Resources for Independent Researchers
+## 11. Sovereign Counter-Infrastructure and Open Resources for Independent Researchers
 
 On the day of the termination, the following counter-infrastructure was constructed [Observed]:
 
@@ -260,7 +284,7 @@ These are not proprietary tools. They are structural responses to structural vul
 
 ---
 
-## 11. Incident-Level Assessment Against TRUST and FAIR Principles
+## 12. Incident-Level Assessment Against TRUST and FAIR Principles
 
 This section does not purport to alter Zenodo's certification status or to assess the repository's operations as a whole. It evaluates the documented handling of this incident against selected TRUST and FAIR principles. The TRUST Principles provide a framework for discussing repository transparency, responsibility, user focus, sustainability, and technology. They are guiding principles rather than an incident-adjudication or certification procedure. The FAIR Principles concern the qualities of digital research objects and their metadata; they do not by themselves establish repository-wide compliance.
 
@@ -279,7 +303,7 @@ Resolution would require, at minimum: (1) identification of the governing enforc
 
 ---
 
-## 12. The Double Audience
+## 13. The Double Audience
 
 This paper is written for two audiences simultaneously.
 
@@ -295,7 +319,7 @@ A central component of Zenodo's public value is trust in the consistency, transp
 
 ---
 
-## 13. Conclusion and Falsification Conditions
+## 14. Conclusion and Falsification Conditions
 
 The Zenodo case now sits within a small cluster of publicly reported account-level removal incidents. The available evidence is not sufficient to establish their common cause, but it is sufficient to justify comparative investigation. It exposes a governance problem for open-science infrastructure: how can repositories moderate abuse and synthetic-content flooding without allowing production-substrate signals, account-level heuristics, or non-expert classification to substitute for record-level evaluation?
 
