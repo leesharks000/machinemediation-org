@@ -90,7 +90,18 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 <script>
 let D,filtered=[],page=0,PAGE=50,filt='all',sort='date-desc';
 
-fetch('/data/sovereign-registry.json').then(r=>r.json()).then(d=>{
+Promise.all([
+  fetch('/data/sovereign-registry.json').then(r=>r.json()),
+  fetch('/data/downloads-manifest.json').then(r=>r.json()).catch(()=>[])
+]).then(([d, dlManifest])=>{
+  // Build sovereign_id -> download files map
+  window.DL_MAP={};
+  dlManifest.forEach(f=>{
+    if(f.registry_id){
+      if(!window.DL_MAP[f.registry_id]) window.DL_MAP[f.registry_id]=[];
+      window.DL_MAP[f.registry_id].push(f);
+    }
+  });
   D=d;
   const s=d.summary;
   document.getElementById('stats').innerHTML=
@@ -159,6 +170,14 @@ function render(){
       else mHtml+=`<div class="doi-row mirror-pending">Blog: N/A</div>`;
       mHtml+=`<div class="doi-row mirror-pending">OSF: PENDING</div>`;
       mHtml+=`<div class="doi-row mirror-pending">Figshare: PENDING</div>`;
+      const dlFiles=window.DL_MAP[a.sovereign_id]||[];
+      if(dlFiles.length>0){
+        mHtml+='<div class="detail-label">Downloads ('+dlFiles.length+' file'+(dlFiles.length>1?'s':'')+')</div>';
+        dlFiles.forEach(f=>{
+          const sz=f.size>1048576?(f.size/1048576).toFixed(1)+' MB':f.size>1024?Math.round(f.size/1024)+' KB':f.size+' B';
+          mHtml+=`<div class="doi-row"><a class="dl-btn" href="${f.download_url}" target="_blank">.${f.ext}</a> ${f.name} <span style="color:#555">(${sz})</span></div>`;
+        });
+      }
     }
 
     return `<div class="entry">
@@ -166,7 +185,7 @@ function render(){
         <div class="entry-id">${a.sovereign_id}<br><span class="status-${a.network_status}">${a.network_status}</span></div>
         <div class="entry-info">
           <div class="entry-title">${a.title}${vc>1?` <span class="badge badge-ver">${vc}v</span>`:''} <span class="badge badge-type">${a.content_type}</span></div>
-          <div class="entry-meta">${a.date||'no date'} · <span class="doi-dead">${doi}</span>${blog?' · <a href="'+blog+'" target="_blank">blog</a>':''}</div>
+          <div class="entry-meta">${a.date||'no date'} · <span class="doi-dead">${doi}</span>${blog?' · <a href="'+blog+'" target="_blank">blog</a>':''}${(window.DL_MAP[a.sovereign_id]||[]).length?' · <span style="color:#00c9a7;font-size:0.85em">⬇ '+(window.DL_MAP[a.sovereign_id].length)+'</span>':''}</div>
         </div>
       </div>
       <div class="entry-detail" id="${uid}">
