@@ -94,11 +94,11 @@ fetch('/data/sovereign-registry.json').then(r=>r.json()).then(d=>{
   D=d;
   const s=d.summary;
   document.getElementById('stats').innerHTML=
-    `<div class="stat"><div class="stat-num teal">${d.total_assets}</div><div class="stat-label">DOI Records</div></div>`+
-    `<div class="stat"><div class="stat-num red">${d.total_assets}</div><div class="stat-label">Zenodo 410</div></div>`+
-    `<div class="stat"><div class="stat-num green">${s.with_text||0}</div><div class="stat-label">Text Restored</div></div>`+
-    `<div class="stat"><div class="stat-num yellow">${s.with_blog_mirror||0}</div><div class="stat-label">Blog Mirror</div></div>`+
-    `<div class="stat"><div class="stat-num red">${s.critical_no_mirror||0}</div><div class="stat-label">Critical</div></div>`;
+    `<div class="stat"><div class="stat-num teal">${d.total_assets}</div><div class="stat-label">Unique Works</div></div>`+
+    `<div class="stat"><div class="stat-num green">${s.with_full_text||0}</div><div class="stat-label">Text Restored</div></div>`+
+    `<div class="stat"><div class="stat-num yellow">${s.with_zenodo_dois||0}</div><div class="stat-label">Had Zenodo DOI</div></div>`+
+    `<div class="stat"><div class="stat-num red">${s.total_zenodo_dois||0}</div><div class="stat-label">DOIs Destroyed</div></div>`+
+    `<div class="stat"><div class="stat-num green">${d.total_assets}</div><div class="stat-label">Blog Active</div></div>`;
   go();
 });
 
@@ -122,7 +122,7 @@ function go(){
   const q=document.getElementById('search').value.toLowerCase();
   filtered=D.assets.filter(a=>{
     if(filt!=='all'&&a.network_status!==filt)return false;
-    const doi=a.latest_doi||a.historical_doi||'';
+    const doi=(a.zenodo_dois&&a.zenodo_dois[0])||'';
     if(q&&!a.title.toLowerCase().includes(q)&&!doi.includes(q)&&!a.sovereign_id.toLowerCase().includes(q)&&!(a.content_type||'').includes(q)&&!(a.text_preview||'').toLowerCase().includes(q))return false;
     return true;
   });
@@ -140,7 +140,7 @@ function render(){
   document.getElementById('resultCount').textContent=filtered.length+' of '+D.assets.length+' works';
   document.getElementById('entries').innerHTML=show.map((a,idx)=>{
     const vc=a.version_count||1;
-    const doi=a.latest_doi||a.historical_doi||'';
+    const doi=(a.zenodo_dois&&a.zenodo_dois[0])||'';
     const blog=a.mirrors&&a.mirrors.blog&&a.mirrors.blog.url;
     const uid='d'+idx;
 
