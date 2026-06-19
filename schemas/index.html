@@ -63,9 +63,9 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 
 <div class="controls">
   <input type="text" class="search-box" id="search" placeholder="Search titles, concepts...">
-  <button class="filter-btn active" id="btnAll" onclick="setFilter('all')">All</button>
-  <button class="filter-btn" id="btnVS" onclick="setFilter('vs')">Visual Schemas</button>
-  <button class="filter-btn" id="btnOther" onclick="setFilter('other')">Other</button>
+  
+  
+  
 </div>
 
 <div id="entries"></div>
@@ -81,31 +81,25 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 <div class="modal" id="modal" onclick="this.classList.remove('active')"><img id="modalImg"></div>
 
 <script>
-let D, filtered=[], page=0, PAGE_SIZE=50, activeFilter='all';
+let D=[], filtered=[], page=0, PAGE_SIZE=50;
 
 fetch('/data/schemas.json').then(r=>r.json()).then(d=>{
-  D=d.entries||d; document.getElementById('stats').innerHTML=`<span>${(d.totals||{}).total_posts||D.length}</span> visual schemas · <span>${(d.totals||{}).total_images||0}</span> AI-generated images`;
+  const entries = d.entries || d;
+  D = Array.isArray(entries) ? entries : [];
+  const totals = d.totals || {};
   document.getElementById('stats').innerHTML=
-    `<span>${d.totals.total_posts}</span> posts · <span>${d.totals.total_images}</span> images · `+
-    `<span>${d.totals.visual_schema_posts}</span> visual schemas · `+
-    `<span>${d.totals.with_companions}</span> with companions`;
+    `<span>${totals.total_posts||D.length}</span> visual schemas · <span>${totals.total_images||0}</span> AI-generated images`;
   applyFilters();
+}).catch(err=>{
+  document.getElementById('stats').innerHTML='<span style="color:#c23b22">Error loading schema data</span>';
+  console.error('Schema load error:', err);
 });
 
 document.getElementById('search').addEventListener('input',()=>{ page=0; applyFilters(); });
 
-function setFilter(f){
-  activeFilter=f;
-  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
-  
-  page=0; applyFilters();
-}
-
 function applyFilters(){
   const q=document.getElementById('search').value.toLowerCase();
-  filtered=D.entries.filter(e=>{
-    if(activeFilter==='vs'&&!e.is_visual_schema) return false;
-    if(activeFilter==='other'&&e.is_visual_schema) return false;
+  filtered=D.filter(e=>{
     if(q&&!e.title.toLowerCase().includes(q)&&!(e.concept||'').toLowerCase().includes(q)) return false;
     return true;
   });
@@ -116,31 +110,34 @@ function render(){
   const show=filtered.slice(0,(page+1)*PAGE_SIZE);
   const el=document.getElementById('entries');
   el.innerHTML=show.map((en,i)=>{
-    const imgs=en.part_c_images.schema_images;
-    const comps=en.part_c_images.companion_images;
+    const pc=en.part_c_images||{};
+    const imgs=pc.schema_images||[];
+    const comps=pc.companion_images||[];
     const thumb=imgs[0]?imgs[0].url:'';
     const isVS=en.is_visual_schema;
     const allImgs=imgs.map(img=>`<img src="${img.url}" onclick="showModal(this.src)">`).join('')+
       comps.map(img=>`<img class="beautiful" src="${img.url}" onclick="showModal(this.src)" title="${img.article_title||''}">`).join('');
-    const compLinks=en.part_d_ornamenting_articles.map(a=>
-      `<div class="companion">\u2192 <a href="${a.url}" target="_blank">${a.title.substring(0,80)}</a></div>`).join('');
+    const ornaments=en.part_d_ornamenting_articles||[];
+    const compLinks=ornaments.map(a=>
+      `<div class="companion">\u2192 <a href="${a.url}" target="_blank">${(a.title||'').substring(0,80)}</a></div>`).join('');
+    const pb=en.part_b_visual_schema||{};
     return `<div class="entry">
       <div class="entry-header" onclick="this.nextElementSibling.classList.toggle('open')">
-        ${thumb?`<img class="entry-thumb${isVS?' vs':''}" src="${thumb}">`:
-          '<div style="width:80px;height:80px;background:#0e0e16;border:1px solid #1a1a22;border-radius:3px;flex-shrink:0"></div>'}
+        ${thumb?`<img class="entry-thumb vs" src="${thumb}">`
+          :'<div style="width:80px;height:80px;background:#0e0e16;border:1px solid #1a1a22;border-radius:3px;flex-shrink:0"></div>'}
         <div class="entry-info">
-          <div class="entry-title${isVS?' vs':''}">${en.title}
-            ${isVS?'<span class="label label-vs">SCHEMA</span>':''}
+          <div class="entry-title vs">${en.title}
+            <span class="label label-vs">SCHEMA</span>
             ${comps.length?'<span class="label label-alt">+alternates</span>':''}
           </div>
-          <div class="entry-meta">${en.date} \u00b7 ${imgs.length+comps.length} image${imgs.length+comps.length!==1?'s':''}</div>
+          <div class="entry-meta">${en.date||''} \u00b7 ${imgs.length+comps.length} image${imgs.length+comps.length!==1?'s':''}</div>
         </div>
       </div>
       <div class="entry-body">
-        ${en.is_visual_schema && en.part_b_visual_schema.text_preview ? 
-          '<div style="font-size:0.82em;line-height:1.65;color:#c8c4be;margin-bottom:1em;padding:0.8em;background:#0e0e16;border-left:2px solid #D4AF37;border-radius:0 3px 3px 0;max-height:12em;overflow-y:auto;white-space:pre-wrap">' + 
-          en.part_b_visual_schema.text_preview.replace(/</g,'&lt;').substring(0,2000) + 
-          (en.part_b_visual_schema.text_length > 2000 ? '\n\n<span style="color:#555;font-style:italic">... ' + Math.round(en.part_b_visual_schema.text_length/1000) + 'k chars total — <a href="' + en.blog_url + '" target="_blank">read full schema →</a></span>' : '') +
+        ${pb.available && pb.text_preview ?
+          '<div style="font-size:0.82em;line-height:1.65;color:#c8c4be;margin-bottom:1em;padding:0.8em;background:#0e0e16;border-left:2px solid #D4AF37;border-radius:0 3px 3px 0;max-height:12em;overflow-y:auto;white-space:pre-wrap">' +
+          pb.text_preview.replace(/</g,'&lt;').substring(0,2000) +
+          (pb.text_length > 2000 ? '\n\n<span style="color:#555;font-style:italic">... ' + Math.round(pb.text_length/1000) + 'k chars total</span>' : '') +
           '</div>' : ''}
         <div class="gallery">${allImgs}</div>
         ${compLinks}
