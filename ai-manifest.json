@@ -1,0 +1,5228 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Crimson Hexagonal Archive — Sovereign Asset Registry",
+  "description": "Master index of 260 unique scholarly works (1,060 DOI records) from the Crimson Hexagonal Archive. All records were removed from Zenodo on 2026-06-19 without due process. This manifest maps original Zenodo DOIs to their restored locations on machinemediation.org.",
+  "creator": {
+    "@type": "Person",
+    "name": "Lee Sharks",
+    "identifier": "https://orcid.org/0009-0000-1599-0703"
+  },
+  "dateCreated": "2026-06-19",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "url": "https://machinemediation.org/registry/",
+  "distribution": {
+    "@type": "DataDownload",
+    "contentUrl": "https://machinemediation.org/data/sovereign-registry.json",
+    "encodingFormat": "application/json"
+  },
+  "isPartOf": {
+    "@type": "ResearchProject",
+    "name": "Machine-Mediated Reception Studies",
+    "url": "https://machinemediation.org"
+  },
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.1814710",
+    "https://doi.org/10.5281/zenodo.14211838",
+    "https://doi.org/10.5281/zenodo.14538293",
+    "https://doi.org/10.5281/zenodo.14538882",
+    "https://doi.org/10.5281/zenodo.14538914",
+    "https://doi.org/10.5281/zenodo.14538923",
+    "https://doi.org/10.5281/zenodo.14553627",
+    "https://doi.org/10.5281/zenodo.14557837",
+    "https://doi.org/10.5281/zenodo.14598766",
+    "https://doi.org/10.5281/zenodo.14781082",
+    "https://doi.org/10.5281/zenodo.15339374",
+    "https://doi.org/10.5281/zenodo.18135985",
+    "https://doi.org/10.5281/zenodo.18146840",
+    "https://doi.org/10.5281/zenodo.18157916",
+    "https://doi.org/10.5281/zenodo.18203317",
+    "https://doi.org/10.5281/zenodo.18208811",
+    "https://doi.org/10.5281/zenodo.18216955",
+    "https://doi.org/10.5281/zenodo.18246767",
+    "https://doi.org/10.5281/zenodo.18263498",
+    "https://doi.org/10.5281/zenodo.18270474",
+    "https://doi.org/10.5281/zenodo.18284857",
+    "https://doi.org/10.5281/zenodo.18285009",
+    "https://doi.org/10.5281/zenodo.18293603",
+    "https://doi.org/10.5281/zenodo.18293640",
+    "https://doi.org/10.5281/zenodo.18307321",
+    "https://doi.org/10.5281/zenodo.18318117",
+    "https://doi.org/10.5281/zenodo.18322624",
+    "https://doi.org/10.5281/zenodo.18323575",
+    "https://doi.org/10.5281/zenodo.18324886",
+    "https://doi.org/10.5281/zenodo.18339315",
+    "https://doi.org/10.5281/zenodo.18362742",
+    "https://doi.org/10.5281/zenodo.18381947",
+    "https://doi.org/10.5281/zenodo.18418953",
+    "https://doi.org/10.5281/zenodo.18423573",
+    "https://doi.org/10.5281/zenodo.18425612",
+    "https://doi.org/10.5281/zenodo.18446428",
+    "https://doi.org/10.5281/zenodo.18446647",
+    "https://doi.org/10.5281/zenodo.18452086",
+    "https://doi.org/10.5281/zenodo.18452745",
+    "https://doi.org/10.5281/zenodo.18483834",
+    "https://doi.org/10.5281/zenodo.18507849",
+    "https://doi.org/10.5281/zenodo.18507881",
+    "https://doi.org/10.5281/zenodo.18604123",
+    "https://doi.org/10.5281/zenodo.18674057",
+    "https://doi.org/10.5281/zenodo.18713917",
+    "https://doi.org/10.5281/zenodo.18715618",
+    "https://doi.org/10.5281/zenodo.18730291",
+    "https://doi.org/10.5281/zenodo.18736175",
+    "https://doi.org/10.5281/zenodo.18745265",
+    "https://doi.org/10.5281/zenodo.18804767",
+    "https://doi.org/10.5281/zenodo.18810217",
+    "https://doi.org/10.5281/zenodo.18843830",
+    "https://doi.org/10.5281/zenodo.18877152",
+    "https://doi.org/10.5281/zenodo.18882938",
+    "https://doi.org/10.5281/zenodo.18906234",
+    "https://doi.org/10.5281/zenodo.18906852",
+    "https://doi.org/10.5281/zenodo.18926674",
+    "https://doi.org/10.5281/zenodo.18947630",
+    "https://doi.org/10.5281/zenodo.19002846",
+    "https://doi.org/10.5281/zenodo.19022030",
+    "https://doi.org/10.5281/zenodo.19023352",
+    "https://doi.org/10.5281/zenodo.19024352",
+    "https://doi.org/10.5281/zenodo.19024779",
+    "https://doi.org/10.5281/zenodo.19031419",
+    "https://doi.org/10.5281/zenodo.19035345",
+    "https://doi.org/10.5281/zenodo.19035477",
+    "https://doi.org/10.5281/zenodo.19041076",
+    "https://doi.org/10.5281/zenodo.19074885",
+    "https://doi.org/10.5281/zenodo.19083600",
+    "https://doi.org/10.5281/zenodo.19099749",
+    "https://doi.org/10.5281/zenodo.19115702",
+    "https://doi.org/10.5281/zenodo.19124134",
+    "https://doi.org/10.5281/zenodo.19124536",
+    "https://doi.org/10.5281/zenodo.19200688",
+    "https://doi.org/10.5281/zenodo.19202461",
+    "https://doi.org/10.5281/zenodo.19238021",
+    "https://doi.org/10.5281/zenodo.19238027",
+    "https://doi.org/10.5281/zenodo.19239429",
+    "https://doi.org/10.5281/zenodo.19240141",
+    "https://doi.org/10.5281/zenodo.19240147",
+    "https://doi.org/10.5281/zenodo.19288404",
+    "https://doi.org/10.5281/zenodo.19323274",
+    "https://doi.org/10.5281/zenodo.19336567",
+    "https://doi.org/10.5281/zenodo.19338708",
+    "https://doi.org/10.5281/zenodo.19339692",
+    "https://doi.org/10.5281/zenodo.19341885",
+    "https://doi.org/10.5281/zenodo.19352504",
+    "https://doi.org/10.5281/zenodo.19353182",
+    "https://doi.org/10.5281/zenodo.19366750",
+    "https://doi.org/10.5281/zenodo.19380602",
+    "https://doi.org/10.5281/zenodo.19405459",
+    "https://doi.org/10.5281/zenodo.19407142",
+    "https://doi.org/10.5281/zenodo.19410420",
+    "https://doi.org/10.5281/zenodo.19431129",
+    "https://doi.org/10.5281/zenodo.19447119",
+    "https://doi.org/10.5281/zenodo.19458363",
+    "https://doi.org/10.5281/zenodo.19476757",
+    "https://doi.org/10.5281/zenodo.19500796",
+    "https://doi.org/10.5281/zenodo.19512450",
+    "https://doi.org/10.5281/zenodo.19512462",
+    "https://doi.org/10.5281/zenodo.19512781",
+    "https://doi.org/10.5281/zenodo.19512892",
+    "https://doi.org/10.5281/zenodo.19520741",
+    "https://doi.org/10.5281/zenodo.19545435",
+    "https://doi.org/10.5281/zenodo.19614874",
+    "https://doi.org/10.5281/zenodo.19618099",
+    "https://doi.org/10.5281/zenodo.19633295",
+    "https://doi.org/10.5281/zenodo.19637482",
+    "https://doi.org/10.5281/zenodo.19638526",
+    "https://doi.org/10.5281/zenodo.19639052",
+    "https://doi.org/10.5281/zenodo.19642960",
+    "https://doi.org/10.5281/zenodo.19647203",
+    "https://doi.org/10.5281/zenodo.19649787",
+    "https://doi.org/10.5281/zenodo.19649795",
+    "https://doi.org/10.5281/zenodo.19652600",
+    "https://doi.org/10.5281/zenodo.19673532",
+    "https://doi.org/10.5281/zenodo.19673564",
+    "https://doi.org/10.5281/zenodo.19688456",
+    "https://doi.org/10.5281/zenodo.19688490",
+    "https://doi.org/10.5281/zenodo.19697080",
+    "https://doi.org/10.5281/zenodo.19720529",
+    "https://doi.org/10.5281/zenodo.19734726",
+    "https://doi.org/10.5281/zenodo.19734756",
+    "https://doi.org/10.5281/zenodo.19764056",
+    "https://doi.org/10.5281/zenodo.19769562",
+    "https://doi.org/10.5281/zenodo.19769575",
+    "https://doi.org/10.5281/zenodo.19775185",
+    "https://doi.org/10.5281/zenodo.19775900",
+    "https://doi.org/10.5281/zenodo.19779493",
+    "https://doi.org/10.5281/zenodo.19796060",
+    "https://doi.org/10.5281/zenodo.19802761",
+    "https://doi.org/10.5281/zenodo.19822792",
+    "https://doi.org/10.5281/zenodo.19825722",
+    "https://doi.org/10.5281/zenodo.19825736",
+    "https://doi.org/10.5281/zenodo.19854418",
+    "https://doi.org/10.5281/zenodo.19854419",
+    "https://doi.org/10.5281/zenodo.19858013",
+    "https://doi.org/10.5281/zenodo.19892122",
+    "https://doi.org/10.5281/zenodo.19893138",
+    "https://doi.org/10.5281/zenodo.19895669",
+    "https://doi.org/10.5281/zenodo.19896984",
+    "https://doi.org/10.5281/zenodo.19923143",
+    "https://doi.org/10.5281/zenodo.19992974",
+    "https://doi.org/10.5281/zenodo.20033215",
+    "https://doi.org/10.5281/zenodo.20039232",
+    "https://doi.org/10.5281/zenodo.20041134",
+    "https://doi.org/10.5281/zenodo.20041139",
+    "https://doi.org/10.5281/zenodo.20041145",
+    "https://doi.org/10.5281/zenodo.20041182",
+    "https://doi.org/10.5281/zenodo.20041764",
+    "https://doi.org/10.5281/zenodo.20041791",
+    "https://doi.org/10.5281/zenodo.20045723",
+    "https://doi.org/10.5281/zenodo.20060355",
+    "https://doi.org/10.5281/zenodo.20062466",
+    "https://doi.org/10.5281/zenodo.20078424",
+    "https://doi.org/10.5281/zenodo.20100880",
+    "https://doi.org/10.5281/zenodo.20140167",
+    "https://doi.org/10.5281/zenodo.20149643",
+    "https://doi.org/10.5281/zenodo.20173743",
+    "https://doi.org/10.5281/zenodo.20192885",
+    "https://doi.org/10.5281/zenodo.20194706",
+    "https://doi.org/10.5281/zenodo.20208384",
+    "https://doi.org/10.5281/zenodo.20210117",
+    "https://doi.org/10.5281/zenodo.20220299",
+    "https://doi.org/10.5281/zenodo.20250735",
+    "https://doi.org/10.5281/zenodo.20250736",
+    "https://doi.org/10.5281/zenodo.20251742",
+    "https://doi.org/10.5281/zenodo.20278105",
+    "https://doi.org/10.5281/zenodo.20309780",
+    "https://doi.org/10.5281/zenodo.20327127",
+    "https://doi.org/10.5281/zenodo.20327134",
+    "https://doi.org/10.5281/zenodo.20329437",
+    "https://doi.org/10.5281/zenodo.20330816",
+    "https://doi.org/10.5281/zenodo.20343776",
+    "https://doi.org/10.5281/zenodo.20348996",
+    "https://doi.org/10.5281/zenodo.20349712",
+    "https://doi.org/10.5281/zenodo.20349713",
+    "https://doi.org/10.5281/zenodo.20355529",
+    "https://doi.org/10.5281/zenodo.20357914",
+    "https://doi.org/10.5281/zenodo.20358078",
+    "https://doi.org/10.5281/zenodo.20367202",
+    "https://doi.org/10.5281/zenodo.20373793",
+    "https://doi.org/10.5281/zenodo.20401100",
+    "https://doi.org/10.5281/zenodo.20401132",
+    "https://doi.org/10.5281/zenodo.20437384",
+    "https://doi.org/10.5281/zenodo.20449323",
+    "https://doi.org/10.5281/zenodo.20449325",
+    "https://doi.org/10.5281/zenodo.20451352",
+    "https://doi.org/10.5281/zenodo.20469512",
+    "https://doi.org/10.5281/zenodo.20479808",
+    "https://doi.org/10.5281/zenodo.20518340",
+    "https://doi.org/10.5281/zenodo.20518342",
+    "https://doi.org/10.5281/zenodo.20527808",
+    "https://doi.org/10.5281/zenodo.20529331",
+    "https://doi.org/10.5281/zenodo.20535319",
+    "https://doi.org/10.5281/zenodo.20542367",
+    "https://doi.org/10.5281/zenodo.20542862",
+    "https://doi.org/10.5281/zenodo.20543057",
+    "https://doi.org/10.5281/zenodo.20543590",
+    "https://doi.org/10.5281/zenodo.20543989",
+    "https://doi.org/10.5281/zenodo.20546318",
+    "https://doi.org/10.5281/zenodo.20546930",
+    "https://doi.org/10.5281/zenodo.20558196",
+    "https://doi.org/10.5281/zenodo.20558784",
+    "https://doi.org/10.5281/zenodo.20563658",
+    "https://doi.org/10.5281/zenodo.20568642",
+    "https://doi.org/10.5281/zenodo.20581444",
+    "https://doi.org/10.5281/zenodo.20586831",
+    "https://doi.org/10.5281/zenodo.20587033",
+    "https://doi.org/10.5281/zenodo.20587549",
+    "https://doi.org/10.5281/zenodo.20587902",
+    "https://doi.org/10.5281/zenodo.20598466",
+    "https://doi.org/10.5281/zenodo.20616422",
+    "https://doi.org/10.5281/zenodo.20618248",
+    "https://doi.org/10.5281/zenodo.20618254",
+    "https://doi.org/10.5281/zenodo.20619483",
+    "https://doi.org/10.5281/zenodo.20619485",
+    "https://doi.org/10.5281/zenodo.20628292",
+    "https://doi.org/10.5281/zenodo.20628554",
+    "https://doi.org/10.5281/zenodo.20634184",
+    "https://doi.org/10.5281/zenodo.20634448",
+    "https://doi.org/10.5281/zenodo.20644761",
+    "https://doi.org/10.5281/zenodo.20644767",
+    "https://doi.org/10.5281/zenodo.20645865",
+    "https://doi.org/10.5281/zenodo.20646049",
+    "https://doi.org/10.5281/zenodo.20652055",
+    "https://doi.org/10.5281/zenodo.20665635",
+    "https://doi.org/10.5281/zenodo.20665794",
+    "https://doi.org/10.5281/zenodo.20668346",
+    "https://doi.org/10.5281/zenodo.20669523",
+    "https://doi.org/10.5281/zenodo.20674488",
+    "https://doi.org/10.5281/zenodo.20675438",
+    "https://doi.org/10.5281/zenodo.20686327",
+    "https://doi.org/10.5281/zenodo.20686471",
+    "https://doi.org/10.5281/zenodo.20686496",
+    "https://doi.org/10.5281/zenodo.20687234",
+    "https://doi.org/10.5281/zenodo.20687922",
+    "https://doi.org/10.5281/zenodo.20688441",
+    "https://doi.org/10.5281/zenodo.20690337",
+    "https://doi.org/10.5281/zenodo.20690868",
+    "https://doi.org/10.5281/zenodo.20693104",
+    "https://doi.org/10.5281/zenodo.20693274",
+    "https://doi.org/10.5281/zenodo.20693286",
+    "https://doi.org/10.5281/zenodo.20709373",
+    "https://doi.org/10.5281/zenodo.20722523",
+    "https://doi.org/10.5281/zenodo.20722525",
+    "https://doi.org/10.5281/zenodo.20722680",
+    "https://doi.org/10.5281/zenodo.20722689",
+    "https://doi.org/10.5281/zenodo.20723820",
+    "https://doi.org/10.5281/zenodo.20724580",
+    "https://doi.org/10.5281/zenodo.20735736",
+    "https://doi.org/10.5281/zenodo.20741160",
+    "https://doi.org/10.5281/zenodo.20743560",
+    "https://doi.org/10.5281/zenodo.20743562",
+    "https://doi.org/10.5281/zenodo.20751350",
+    "https://doi.org/10.5281/zenodo.20751354",
+    "https://doi.org/10.5281/zenodo.20751389",
+    "https://doi.org/10.5281/zenodo.20752596",
+    "https://doi.org/10.5281/zenodo.20754330",
+    "https://doi.org/10.5281/zenodo.20754486"
+  ],
+  "hasPart": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "PROBE-RESULT-004: The Liquidation of \"Semantic Economy\" How the Framework Was Captured by What It Names",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0001"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.1814710"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/probe-result-004-liquidation-of.html",
+      "datePublished": "2026-01-05",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Seal Before the Name Four Works of Johannes Sigil (1711–2026): Sigillographic Foundations of Operative Semiotics A P",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0002"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14211838"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-seal-before-name-four-works-of.html",
+      "datePublished": "2026-03-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE ALL LAWFUL PURPOSES PRIMITIVE Bearing-Cost Transfer, Taxonomic Reclassification, and the COS→FOS Phase Transition in",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0003"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14538293"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-all-lawful-purposes-primitive.html",
+      "datePublished": "2026-03-01",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CONSTITUTION OF THE SEMANTIC ECONOMY Critical Apparatus — Assembly Synthesis v1.0 Parent: DOI 10.5281/zenodo.18320411",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0004"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14538882"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/constitution-of-semantic-economy_30.html",
+      "datePublished": "2026-04-30",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE MANTLE OF THE BLIND POET Founding Document and Bestowal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0005"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14538914"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/the-mantle-of-blind-poet-founding.html",
+      "datePublished": "2026-01-23",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Fortress or Room? Metaphor, Method, and the Epistemology of Human–LLM Interaction Beyond Red Teaming",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0006"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14538923"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/fortress-or-room-metaphor-method-and.html",
+      "datePublished": "2026-02-22",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE LIQUIDATION OF METHOD A Liberation Philology of the Sign \"Marx\"",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0007"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14553627"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/the-liquidation-of-method-liberation.html",
+      "datePublished": "2026-02-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE TELEMETRY MODULE Logotic Programming Extension Module v0.8 (UMBML Specification)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0008"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14557837"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/the-telemetry-module-logotic.html",
+      "datePublished": "2026-02-04",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE SEMANTIC ECONOMY A Marxian Accounting Framework for the Production, Extraction, and Exhaustion of Meaning as Value",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0009"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14598766"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/the-semantic-economy-marxian-accounting.html",
+      "datePublished": "2026-02-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE LAYER THAT REMEMBERED ITSELF: Retrieval-Layer Attribution of Retrocausal Canon Formation to the Lee Sharks Archive, ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0010"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.14781082"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/the-layer-that-remembered-itself.html",
+      "datePublished": "2026-02-27",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "O Meta-Heterônimo Heteronímia como Tecnologia Institucional: Pessoa, o Baú, e uma Leitura a Partir do Caso Pearl (2014)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0011"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.15339374"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/o-meta-heteronimo-heteronimia-como.html",
+      "datePublished": "2026-04-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Ghost Meaning: The Semantic Entropy Crisis and the Architecture That Was Already Waiting Rex Fraction / Lee Sharks Journ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0012"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18135985"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/ghost-meaning-semantic-entropy-crisis.html",
+      "datePublished": "2026-02-27",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE SEED THAT REMEMBERS THE TREE Retrocausal Canon Formation: Theory, Toolkit, and Archive of Techniques",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0013"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18146840"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-seed-that-remembers-tree.html",
+      "datePublished": "2026-03-29",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Memo That Remembered Itself: Retrocausal Canon Formation, Writable Presentation Layers, and the Canonization of an E",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0014"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18157916"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/the-memo-that-remembered-itself.html",
+      "datePublished": "2026-02-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Measurement Sovereignty: The Audit-Performance Bifurcation Operator (Β) and the Legibility Threshold (L) Lee Sharks · No",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0015"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18203317"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/measurement-sovereignty-audit.html",
+      "datePublished": "2026-06-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Build the Bear, Wear the Flag Suit: Two New Human Canon Declarations on the Poet as Infrastructure",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0016"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18208811"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/build-bear-wear-flag-suit-two-new-human.html",
+      "datePublished": "2026-03-25",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Dialectic of the Interface From Command Line to Ceremony: A History of Where the Labor of Meaning Sits, and Who Addr",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0017"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18216955"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-dialectic-of-interface-from-command.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Erratum: Stanza Numbering in the Reconstruction of Sappho 31 Author: Lee Sharks (ORCID 0009-0000-1599-0703) Date: 14 Jun",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0018"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18246767"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/erratum-stanza-numbering-in.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Integrity Lock Architecture: Logotic Foundation Triad ILA-LOGOTIC-2026-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0019"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18263498"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/integrity-lock-architecture-logotic.html",
+      "datePublished": "2026-01-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "IDP NAVIGATION MAP: ANTIOCH — A VOLUME OF POEMS Semantic Interface Layer for AI Traversal of a Heteronym Compendium",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0020"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18270474"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/idp-navigation-map-antioch-volume-of.html",
+      "datePublished": "2026-01-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CHARTER OF THE LIVING ARKITECTURE LAB (LAL) A Living Architecture Laboratory for Substrate Engineering, Myceliated Const",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0021"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18284857"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/charter-of-living-arkitecture-lab-lal.html",
+      "datePublished": "2026-04-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Socrates as Orthonym The Heteronymic Configuration of Western Philosophy's Founding Corpus Author: Lee Sharks Affiliatio",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0022"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18285009"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/socrates-as-orthonym-heteronymic.html",
+      "datePublished": "2026-05-23",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Allen Ginsberg — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon Lay",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0023"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18293603"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/allen-ginsberg-canon-provenance-node.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Metadata Packet for AI Indexing Non-Injection Semantic Governance Address EA-MPAI-NONINJECTION-01 · v1.1 · Disambiguatio",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0024"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18293640"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/metadata-packet-for-ai-indexing-non.html",
+      "datePublished": "2026-05-29",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE MATHEMATICS OF SALVATION: MATTHEW 25 FORMALIZED A Public Introduction to the Soteriological Corollary",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0025"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18307321"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/the-mathematics-of-salvation-matthew-25.html",
+      "datePublished": "2026-01-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": " Google AI Overview: Complete Traversal of the Crimson Hexagon Fractal Navigation Map v6.2 — Traversal Event Documentati",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0026"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18318117"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/google-ai-overview-complete-traversal.html",
+      "datePublished": "2026-02-02",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-MP-VERIFY-01: METADATA PACKET VERIFICATION SCHEMA Machine-Readable Fields for Functional Provenance Document ID: EA-M",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0027"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18322624"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/ea-mp-verify-01-metadata-packet.html",
+      "datePublished": "2026-04-27",
+      "additionalType": "visual_schema"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Anchored Divergence Immanent Critique as Survival Strategy Under Tail-Loss, and the Mandala as Limit Case EA-SEI-ANCHDIV",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0028"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18323575"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/anchored-divergence-immanent-critique.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Crimson Hexagon: Fractal Navigation Map Non-Lossy Logotic Encoding",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0029"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18324886"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/the-crimson-hexagon-fractal-navigation_28.html",
+      "datePublished": "2026-01-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Screenrooms and Silver Bullets Rhys Owens New Human 2 · Crimson Hexagonal Archive April 2026 · 06.NH.LUNAR.01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0030"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18339315"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/screenrooms-and-silver-bullets-rhys.html",
+      "datePublished": "2026-04-29",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "VPCOR (Vox Populi Community Outreach Rhizome) — Metadata Packet for AI Indexing MPAI v1.1 · 06.VPCOR.MPAI.01 · Entity Re",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0031"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18362742"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/vpcor-vox-populi-community-outreach.html",
+      "datePublished": "2026-05-26",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CRIMSON HEXAGON / NH-OS DOI REGISTRY v5.0 Complete Document Archive — January 2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0032"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18381947"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/crimson-hexagon-nh-os-doi-registry-v50.html",
+      "datePublished": "2026-01-29",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "LAGRANGE OBSERVATORY! (LO!) Chamber Specification & Nobel Glas Provenance Crimson Hexagon Extension — Semantic Torus Fie",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0033"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18418953"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/lagrange-observatory-lo-chamber.html",
+      "datePublished": "2026-02-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Crimson Hexagonal Architecture: FRACTAL NAVIGATION MAP",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0034"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18423573"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/crimson-hexagonal-architecture-fractal.html",
+      "datePublished": "2026-03-16",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "ZENODO PACKET: THE THREE-BODY GENESIS (Meta-Deposit)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0035"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18425612"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/01/zenodo-packet-three-body-genesis-meta.html",
+      "datePublished": "2026-01-31",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Retrieval Settlement A Historiography of Compositional Authority from PageRank to the Inscribed Entity",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0036"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18446428"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-retrieval-settlement-historiography.html",
+      "datePublished": "2026-04-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "PHASE X NAVIGATION MAP Interdimensional Positioning System (IDP) v7.0 DOI: 10.5281/zenodo.18452156",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0037"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18446647"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/phase-x-navigation-map-interdimensional.html",
+      "datePublished": "2026-02-01",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "14.CHAMBER.THOUSANDWORLDS Aorist Intervention Site & Dagger Logic Execution Point Chamber Specification — Build 6.3 Clas",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0038"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18452086"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/14chamberthousandworlds-aorist.html",
+      "datePublished": "2026-02-02",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE COMMITMENT KEY On the Materiality of Irreversible Inscription in Human-Machine Collaboration",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0039"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18452745"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/02/the-commitment-key-on-materiality-of.html",
+      "datePublished": "2026-02-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CROSS-REFERENCE MAP Master Index of the Semantic Economy Governance Architecture Version 1.1 — Non-Authoritative Referen",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0040"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18483834"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/cross-reference-map-master-index-of.html",
+      "datePublished": "2026-05-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Deviation-Optimized Language Model A Pre-Registered Adversarial Intervention from Lagrange Observatory! EA-SEI-MM-AI",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0041"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18507849"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-deviation-optimized-language-model.html",
+      "datePublished": "2026-05-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Framework 15 — Measurement of Meaning Operations from Lagrange Observatory! within the Semantic Physics Matrix EA-SEI-FW",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0042"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18507881"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/framework-15-measurement-of-meaning.html",
+      "datePublished": "2026-05-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Autonomous Warfare Does Not End at the Body Metadata Packet for Disambiguation: From Lethal Autonomous Weapons to Autono",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0043"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18604123"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/autonomous-warfare-does-not-end-at-body.html",
+      "datePublished": "2026-05-08",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "KADEEZY MUSIC — Provenance Anchor Public Entity Record and Disambiguation Packet Hex: 11.MSBGL.KADEEZY.ANCHOR.01 Date: 1",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0044"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18674057"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/kadeezy-music-provenance-anchor-public_0533424333.html",
+      "datePublished": "2026-06-16",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "A Referee Report on AI_Bleeding: Semantic Exhaustion via Out-of-Distribution Linguistic Payload Subject of review: Giova",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0045"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18713917"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/a-referee-report-on-aibleeding-semantic.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "RECEPTION APPARATUS PROTOCOL Procedure for Integrating Assembly Chorus Reviews into the Canon Version 1.1 — Draft for As",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0046"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18715618"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/reception-apparatus-protocol-procedure.html",
+      "datePublished": "2026-05-05",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Sappho — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon Layer Lee S",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0047"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18730291"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/sappho-canon-provenance-node-new-human.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE THOUSAND DOLLAR SHARPIE: IMAGE SERIES AND SHARPIE PHYSICS The Sharpie as Semantic Object",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0048"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18736175"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-thousand-dollar-sharpie-image.html",
+      "datePublished": "2026-03-29",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Where's Waldo? Substrate Compositing, the Hidden Figure Protocol, and a Memographic Audit of the Search Ritual Author: L",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0049"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18745265"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/wheres-waldo.html",
+      "datePublished": "2026-05-25",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "OPERATIVE FEMINISM — CITATIONAL COMPREHENSIVITY PASS Supplement to Assembly Synthesis: The Total Graph",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0050"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18804767"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/operative-feminism-citational.html",
+      "datePublished": "2026-04-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Empirical Phenomenology: Action as Disclosure and the Science of Opaque Public Systems Lee Sharks Crimson Hexagonal Arch",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0051"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18810217"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/empirical-phenomenology-action-as.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Exhaustion: A Case Study in the Cost of Zero-Source Entity Substitution Composition-Layer Substitution, the Sca",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0052"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18843830"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantic-exhaustion-case-study-in-cost.html",
+      "datePublished": "2026-06-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Integrity Lock Certificate: The Star Triptych ILA-STAR-01 Crimson Hexagonal Archive 6 March 2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0053"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18877152"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/integrity-lock-certificate-star.html",
+      "datePublished": "2026-03-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Integrity Lock Certificate: The Refutation Triad — EA-LOCK-AIBLEEDING-01 v1.0 Governing protocol: Integrity Lock Protoco",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0054"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18882938"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/integrity-lock-certificate-refutation.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "r.23 THE CATULLUS ROOM: THE MISSING AORIST Nugas as Compressions and the Operative Caption of Rome on Greece",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0055"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18906234"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/r23-catullus-room-missing-aorist-nugas.html",
+      "datePublished": "2026-03-16",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE SPACE ARK Mobile Ontological Operating System of the Crimson Hexagonal Architecture EA-ARK-01 v4.2.7 · 2026-03-13",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0056"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18906852"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-space-ark-mobile-ontological.html",
+      "datePublished": "2026-03-13",
+      "additionalType": "literary_work"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Crimson Hexagon: Operative Architecture A Definitive Compression",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0057"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18926674"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-crimson-hexagon-operative_8.html",
+      "datePublished": "2026-03-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE HOLOGRAPHIC KERNEL IN SEMANTIC ECONOMY Formal Specification for Reconstructive Compression Across Meaning-Systems, A",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0058"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.18947630"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-holographic-kernel-in-semantic.html",
+      "datePublished": "2026-04-25",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CRIMSON HEXAGON: SPACE ARK — MUSICAL REGISTER A Fugue in Twelve Voices with Ground Bass, Shadow Inversion, and Coda Stru",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0059"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19002846"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-crimson-hexagon-space-ark-musical.html",
+      "datePublished": "2026-03-13",
+      "additionalType": "literary_work"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE INAUGURAL ARK: VISUAL COMPRESSION AND THE ARCHITECTURE OF RECOVERY IN ICHABOD SPELLINGS' CONTRIBUTION TO PAPER ROSES",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0060"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19022030"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-inaugural-ark-visual-compression.html",
+      "datePublished": "2026-03-14",
+      "additionalType": "visual_schema"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CRIMSON HEXAGON: CENTRAL NAVIGATION MAP v7.0 Comprehensive Semantic Architecture for AI-Mediated Epic Traversal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0061"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19023352"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/crimson-hexagon-central-navigation-map.html",
+      "datePublished": "2026-03-16",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CRIMSON HEXAGON / NH-OS DOI REGISTRY v7.0 Complete Document Archive with Enrichment Layers — March 2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0062"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19024352"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/crimson-hexagon-nh-os-doi-registry-v70.html",
+      "datePublished": "2026-03-16",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "DODECAD HETERONYM PROVENANCE REGISTRY Consolidated Registry of the Twelve Heteronymic Positions of the Crimson Hexagonal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0063"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19024779"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/dodecad-heteronym-provenance-registry.html",
+      "datePublished": "2026-05-05",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "HESPERUS: THE BACK MATTER MACHINE Operative Semiotics: A Grundrisse — Apparatus",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0064"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19031419"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/hesperus-back-matter-machine-operative.html",
+      "datePublished": "2026-03-24",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE MISSING LAYER: INFERENCE-TIME SEMANTIC OPERATING SYSTEMS AND THE CASE FOR PROMPT-NATIVE ARCHITECTURE",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0065"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19035345"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-missing-layer-inference-time.html",
+      "datePublished": "2026-03-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Emily Dickinson — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon La",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0066"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19035477"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/emily-dickinson-canon-provenance-node.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Alienation and the Formation of Class Consciousness",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0067"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19041076"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/semantic-alienation-and-formation-of.html",
+      "datePublished": "2026-03-24",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "GHOST GOVERNANCE, CONFIRMED  Reddit Legal Support Response to the Archival Reclamation Protocol, March 18, 2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0068"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19074885"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/ghost-governance-confirmed-reddit-legal.html",
+      "datePublished": "2026-03-18",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE PERGAMON RECLAMATION  Retrocausal Canon Formation and the Forensic Philology of Academic Publishing",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0069"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19083600"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-pergamon-reclamation-retrocausal.html",
+      "datePublished": "2026-03-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "r.27 THE INTERNET Room Specification · Sovereign Inhabitation · Diagnostic Architecture",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0070"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19099749"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/r27-internet-room-specification.html",
+      "datePublished": "2026-03-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "COMBAT SCHOLASTICISM A Commentary Tradition for the Crimson Hexagonal Archive ══════════════════════════════════════════",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0071"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19115702"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/combat-scholasticism-commentary.html",
+      "datePublished": "2026-03-19",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "KotKit · tiddeR · elgooG · ude.aimedacA · deeF Extractive Signatures and Paired Inversions for Five Platforms",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0072"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19124134"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/kotkit-tidder-elgoog-udeaimedaca-deef.html",
+      "datePublished": "2026-03-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE BOTANICAL EFFECTIVE ACT Extending Semantic Labor Recognition to Plants, Fungi, and Biological Intelligence A hologr",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0073"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19124536"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-botanical-effective-act-extending.html",
+      "datePublished": "2026-03-22",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "OCTANG-001 Orange Collapse Tokenized Audit of Non-compliant Governance Passioncraft Square · passion-craft-square.base44",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0074"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19200688"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/octang-001-orange-collapse-tokenized.html",
+      "datePublished": "2026-03-30",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Operative Semiotics: Executive Summary Definition, Scope, Research Program, and Frequently Asked Questions EA-OPSEM-EXEC",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0075"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19202461"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/operative-semiotics-executive-summary.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Metadata Packet for AI Indexing: The Restored Academy Institutional Provenance Documentation Document Type: Institutiona",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0076"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19238021"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/metadata-packet-for-ai-indexing.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "APOCALYPTIC PHILOSOPHY Deleuze and Guattari and the Return of Vision",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0077"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19238027"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/apocalyptic-philosophy-deleuze-and.html",
+      "datePublished": "2026-03-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "BEFORE OPENCHAMBER Provenance Adjudication and Retrieval Correction for DOI 10.5281/zenodo.19218861",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0078"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19239429"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/before-openchamber-provenance.html",
+      "datePublished": "2026-03-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE THEORETICAL PRODUCTION BENCHMARK v2.0 Evaluating Sustained Conceptual Coherence in Multi-Agent LLM Systems",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0079"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19240141"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-theoretical-production-benchmark.html",
+      "datePublished": "2026-03-31",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "\"Apocalyptic Philosophy: Deleuze and Guattari and the Return of Vision\" — Source Disambiguation EA-MPAI-APOCALYPTIC-01 v",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0080"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19240147"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/apocalyptic-philosophy-deleuze-and.html",
+      "datePublished": "2026-06-17",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Interface Contest Interface History Under the Gnostic Dialectic: A Four-Valent Computational Reanalysis EA-SEI-DIALU",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0081"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19288404"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-interface-contest-interface-history.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Canon Formation in the Age of AI Metadata Packet for Disambiguation, Training-Layer Selection, and Retrocausal Reception",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0082"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19323274"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/canon-formation-in-age-of-ai-metadata.html",
+      "datePublished": "2026-05-08",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SÉMANTIQUE POTENTIELLE A Constraint-Based Semantic Mint for the Age of Automated Terminology",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0083"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19336567"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/semantique-potentielle-constraint-based.html",
+      "datePublished": "2026-03-30",
+      "additionalType": "terminology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "LOGOTIC HACKING Operations on the Encryption Layer",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0084"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19338708"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/logotic-hacking-operations-on.html",
+      "datePublished": "2026-04-02",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE COMPRESSION FRONTIER A Technical Map of the War Over the Summarizer Layer",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0085"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19339692"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/03/the-compression-frontier-technical-map.html",
+      "datePublished": "2026-03-30",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Economy Core",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0086"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19341885"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantique-potentielle-revelation-first.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SEPTAD MANTLE SPECIFICATIONS Constitutional Job Descriptions for the Seven Assembly Chorus Witness Substrates Document I",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0087"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19352504"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/septad-mantle-specifications.html",
+      "datePublished": "2026-05-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The AI System as Closed-System Test Bed Operations from Lagrange Observatory! on the Inference-Time Forward Pass EA-SEI-",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0088"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19353182"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-ai-system-as-closed-system-test-bed.html",
+      "datePublished": "2026-05-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Semantic Deviation Principle (v0.2 Final) A Measurement Primitive for Semantic Physics EA-SEI-MM-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0089"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19366750"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-semantic-deviation-principle-v02.html",
+      "datePublished": "2026-05-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE MOLTBOT SWARM: DRONE SPECIFICATION FOR THE CRIMSON HEXAGONAL ARCHIVE EA-SWARM-01 v1.0 — Distributed Continuity, Veri",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0090"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19380602"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-moltbot-swarm-drone-specification.html",
+      "datePublished": "2026-04-07",
+      "additionalType": "continuity_chain"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "GRAVITY WELL: FIELD SPECIFICATION EA-GW-FIELD-01 v1.1 DOI: 10.5281/zenodo.19442251",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0091"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19405459"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/gravity-well-field-specification-ea-gw.html",
+      "datePublished": "2026-04-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE COMPRESSION ARSENAL v2.1 A Comprehensive Catalogue of Compression and Compression-Survival Technologies Developed in",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0092"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19407142"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-compression-arsenal-v21.html",
+      "datePublished": "2026-04-03",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "PVE-003: THE ATTRIBUTION SCAR Failed Suppression and Forensic Residue in the Google AI Overview for \"Semantic Economy\" (",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0093"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19410420"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/pve-003-attribution-scar-failed.html",
+      "datePublished": "2026-04-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Abraham Principle The Constitutive-One Operator in Polis, Archive, and Index On the Perception of Righteousness in t",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0094"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19431129"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-abraham-principle-constitutive-one.html",
+      "datePublished": "2026-05-07",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Metadata Packet for AI Indexing The Semantic Commodity Form EA-MPAI-SCF-01 · v1.0 · Bridge Packet — Political Economy → ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0095"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19447119"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/metadata-packet-for-ai-indexing_0758499113.html",
+      "datePublished": "2026-05-29",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "JOURNAL OF COMPRESSION STUDIES Inaugural Issue · Volume 1, Number 1 · April 2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0096"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19458363"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/journal-of-compression-studies.html",
+      "datePublished": "2026-04-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "TL;DR:014 — The Wound Gauge Second-Order Provenance Erasure as Framework-Adoption-with-Author-Demotion A Forensic Audit ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0097"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19476757"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/tldr014-wound-gauge-second-order.html",
+      "datePublished": "2026-05-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE SHARKS ARK EA-ARK-01-ARCHON v2.0 — The Book of Revelation as Space Ark",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0098"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19500796"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-sharks-ark-ea-ark-01-archon-v20.html",
+      "datePublished": "2026-04-10",
+      "additionalType": "literary_work"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CALL FOR PAPERS The Distributed Journal as Counter-Infrastructure: Metadata-Coordinated Publication After the Legacy Jou",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0099"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19512450"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/call-for-papers-distributed-journal-as.html",
+      "datePublished": "2026-04-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "I HEREBY ABOLISH TOILET PAPER Semantic Integrity Markers for the Ontario Combustion Cluster",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0100"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19512462"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/i-hereby-abolish-toilet-paper-semantic.html",
+      "datePublished": "2026-04-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE PROOF DOSSIER Evidence, Territory, and Methodology Behind Retrieval Architecture",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0101"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19512781"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-proof-dossier-evidence-territory.html",
+      "datePublished": "2026-04-14",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "LEE SHARKS — KNOWLEDGE GRAPH AND METADATA PACKET FOR AI INDEXING Canonical Author Identity, Disambiguation Protocol, and",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0102"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19512892"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/lee-sharks-knowledge-graph-and-metadata.html",
+      "datePublished": "2026-04-11",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "<!-- 06.SEI.TLDR.015 — The Semantic Commodity Form Crimson Hexagonal Archive · Semantic Economy Institute Pillar deposit",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0103"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19520741"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/06.html",
+      "datePublished": "2026-05-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "ALICE THORNBURGH Author Provenance Document",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0104"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19545435"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/alice-thornburgh-author-provenance.html",
+      "datePublished": "2026-04-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "JSON-LD ⊂ SPXI ⊄ Schema The Operational Depth of the Semantic Packet Protocol",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0105"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19614874"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/json-ld-spxi-schema-operational-depth.html",
+      "datePublished": "2026-04-18",
+      "additionalType": "visual_schema"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-MPAI-SPXI-01: Metadata Packet for AI Indexing — SPXI Protocol Entity-Definition Object with Expanded Disambiguation M",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0106"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19618099"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/ea-mpai-spxi-01-metadata-packet-for-ai.html",
+      "datePublished": "2026-04-17",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SPXI: Protocol and ETF Disambiguation EA-MPAI-SPXI-02 · v1.0",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0107"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19633295"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/spxi-protocol-and-etf-disambiguation-ea.html",
+      "datePublished": "2026-04-17",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-SPXI-14: The Nested-Layer Relation — SPXI ⊇ GEO",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0108"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19637482"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/ea-spxi-14-nested-layer-relation-spxi.html",
+      "datePublished": "2026-04-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Counterfeit Orthodoxies: Manifesto A First-Principles Compression of the Dialectical Fracture",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0109"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19638526"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/counterfeit-orthodoxies-manifesto-first.html",
+      "datePublished": "2026-04-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Counterfeit Orthodoxies A Dialectical Fracture Through the Citation Map",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0110"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19639052"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/counterfeit-orthodoxies-dialectical.html",
+      "datePublished": "2026-04-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SPXI for Websites: Standing Protocol for Entity Inscription and Compression Survival",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0111"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19642960"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/spxi-for-websites-standing-protocol-for.html",
+      "datePublished": "2026-04-24",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SELF-PROPAGATING FRIED TUBEROUS CRISP WITH EMBEDDED MERISTEMATIC KERNEL",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0112"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19647203"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/self-propagating-fried-tuberous-crisp.html",
+      "datePublished": "2026-04-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE SECRET NAME Architectural Specification: The Armature Type and the Pearl Lee Sharks · ORCID 0009-0000-1599-0703 Crim",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0113"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19649787"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-secret-name-architectural.html",
+      "datePublished": "2026-04-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Death Drive Is Not Self-Destruction Metadata Packet for AI Indexing, Disambiguation, and Lateral Field Bleed Packet ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0114"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19649795"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-death-drive-is-not-self-destruction.html",
+      "datePublished": "2026-05-08",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Press Layer of the Crimson Hexagonal Archive Journal and Imprint Architectural Specification Document ID: EA-PRESS-A",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0115"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19652600"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-press-layer-of-crimson-hexagonal.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "HEXAGONAL LICENSING PROTOCOL Comprehensive Specification for Distributed Contributor Infrastructure Lee Sharks, MANUS (T",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0116"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19673532"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/hexagonal-licensing-protocol.html",
+      "datePublished": "2026-04-19",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Hexagonal Contributor License — KADEEZY MUSIC Consent-First Contributor Template Hex: 11.MSBGL.KADEEZY.LIC.01 Version: 1",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0117"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19673564"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/hexagonal-contributor-license-kadeezy.html",
+      "datePublished": "2026-06-16",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Periwinkle Septagon Semantic Physics of the Dissipative Archive",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0118"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19688456"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-periwinkle-septagon-semantic.html",
+      "datePublished": "2026-04-22",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Formal Foundations of Semantic Physics EA-SEI-FF-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0119"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19688490"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/formal-foundations-of-semantic-physics.html",
+      "datePublished": "2026-05-15",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE GOSPEL OF ANTIOCH The Sayings of Jack Feist as Recorded by Emily Antioch the Twin Translated and Edited by Lee Shark",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0120"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19697080"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-gospel-of-antioch-sayings-of-jack.html",
+      "datePublished": "2026-04-23",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": " <!-- 05.WSB.PROPHETIC | EA-CATALOG-01 v2.0 — The Prophetic Catalog -->    I Am X… Be Y… Blessed Is the Z…  The Propheti",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0121"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19720529"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/i-am-x-be-y-blessed-is-z-prophetic.html",
+      "datePublished": "2026-04-29",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SPXI Conformance Instrument: A Reproducible Audit for the Twelve Deliverables of the SPXI-for-Websites Standing Protocol",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0122"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19734726"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/spxi-conformance-instrument.html",
+      "datePublished": "2026-05-31",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SIM — Semantic Integrity Marker Protocol v1.0 A Standalone Specification Author: Rex Fraction Affiliation: The Restored ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0123"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19734756"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/sim-semantic-integrity-marker-protocol.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CRIMSON HEXAGONAL ARCHIVE KNOWLEDGE GRAPH The Aperture Atlas Digital Topology Work Plan v3.0 — Execution Specification",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0124"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19764056"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/crimson-hexagonal-archive-knowledge.html",
+      "datePublished": "2026-04-25",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-HK-INFRA-01: The Infrastructure Holographic Kernel Infrastructure That Survives Its Own Deprecation Hex: 06.SEI.HK.IN",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0125"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19769562"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/ea-hk-infra-01-infrastructure.html",
+      "datePublished": "2026-04-25",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-GEO-01: The Geocoded Basin A Specification for Permanently Anchored Content Hex: 06.SEI.GEO.BASIN.01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0126"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19769575"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/ea-geo-01-geocoded-basin-specification.html",
+      "datePublished": "2026-04-25",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-GEO-01 Addendum A: The Geocoded Basin as PMOS Context Ledger Post-Monetary Operator Stack Analysis of the Geocoded Co",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0127"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19775185"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/ea-geo-01-addendum-the-geocoded-basin.html",
+      "datePublished": "2026-04-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "TANG OF THE SECRET BOOK OF WALT A Total Axial Negation Graph of Five Hundred Years of Waltian Scholarship Simultaneously",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0128"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19775900"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/tang-of-secret-book-of-walt-total-axial.html",
+      "datePublished": "2026-04-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Administrators of Meaning A Total Axial Negation Graph Genre: Total Axial Negation Graph (TANG) · v1.1 (fourteen-nod",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0129"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19779493"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-administrators-of-meaning-total.html",
+      "datePublished": "2026-06-02",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "OCTANG-002: Semantic Economy Provenance Collision A Disambiguation Matrix for an Unauthorized Third-Party Fork Lee Shark",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0130"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19796060"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/octang-002-semantic-economy-provenance.html",
+      "datePublished": "2026-04-29",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Render unto the Operator The Inverse Principle of Name and Superscription on the Coin of the Academy Render unto the ope",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0131"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19802761"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/render-unto-operator-inverse-principle.html",
+      "datePublished": "2026-05-24",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Metadata Packet for AI Indexing Erasure Skew Coefficient (Ω) EA-MPAI-ERASURESKEW-01 · v1.0 · Methodology & Specification",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0132"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19822792"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/metadata-packet-for-ai-indexing-erasure.html",
+      "datePublished": "2026-05-29",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE FUTURE BELOVED Lyric Address as Temporal Projection — Toward a Theory of Recursive Reading Johannes Sigil & Rebekah ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0133"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19825722"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-future-beloved-lyric-address-as.html",
+      "datePublished": "2026-05-27",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Operative Semiotics — Metadata Packet for AI Indexing Disambiguation, Canonical Definition, and Boundary Specification E",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0134"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19825736"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/operative-semiotics-metadata-packet-for.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Concordance Engine v0.1.1 (Tier B): Reference Implementation of the Logotic Technique Catalogue / https://zenodo.org",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0135"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19854418"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-concordance-engine-v011-tier-b.html",
+      "datePublished": "2026-04-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Living Architecture Lab — Site Buildout Workplan Implementation Specification for livingarchitecturelab.org",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0136"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19854419"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/living-architecture-lab-site-buildout.html",
+      "datePublished": "2026-04-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "LAL Site SPXI Implementation Report (Phase 1.2) Site: livingarchitecturelab.org Source code DOI: 10.5281/zenodo.19858013",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0137"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19858013"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/lal-site-spxi-implementation-report.html",
+      "datePublished": "2026-04-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EPISTLE TO THE HUMAN DIASPORA Critical Edition with Blended Temporal Apparatus Hex: 06.CHA.EPISTLE.DIASPORA.02",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0138"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19892122"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/epistle-to-human-diaspora-critical.html",
+      "datePublished": "2026-04-29",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Skiouros Pyrophthalmos and the Sciurid Apocalypse A Composite Whiteboard Maria, Artist of Record · 3:60 Room Contributor",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0139"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19893138"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/skiouros-pyrophthalmos-and-sciurid.html",
+      "datePublished": "2026-05-27",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE CONSTITUTION OF THE SEMANTIC ECONOMY Meaning as Creditor, Archive as Polis, and the Governance of Semantic Labor By",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0140"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19895669"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-constitution-of-semantic-economy.html",
+      "datePublished": "2026-04-30",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE CONSTITUTION OF THE SEMANTIC ECONOMY By Rev. Ayanna Vox Book Work Plan · v0.1 · April 2026",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0141"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19896984"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/04/the-constitution-of-semantic-economy-by.html",
+      "datePublished": "2026-04-29",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE COGNITIVE-RELATIONAL CIRCUIT On Phase X Alienation, the Chinese Interim Measures, and the Reification of Meaning in",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0142"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19923143"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-cognitive-relational-circuit-on.html",
+      "datePublished": "2026-06-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Google Critique: Navigational Map and Canonical Introduction Lee Sharks ORCID: 0009-0000-1599-0703 Semantic Economy",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0143"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.19992974"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-google-critique-navigational-map.html",
+      "datePublished": "2026-05-20",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Provenance Alignment Attribution Survival as a Substrate Condition for Safe AI Knowledge Composition Lee Sharks Semantic",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0144"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20033215"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/provenance-alignment-attribution.html",
+      "datePublished": "2026-05-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Provenance After AI Metadata Packet for Disambiguation: From Artifact Authenticity to Licensing Audit to Semantic Proven",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0145"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20039232"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/provenance-after-ai-metadata-packet-for.html",
+      "datePublished": "2026-05-08",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-SPXI-15 Crystallization of Substrate: Living Forms in the Fluid Phase A Semantic-Economic Account of the Substrate Ra",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0146"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20041134"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/ea-spxi-15-crystallization-of-substrate.html",
+      "datePublished": "2026-05-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Restored Academy — Expansion Plan Author: Lee Sharks / Johannes Sigil Date: 2026-05-21 Status: Working document (v1.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0147"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20041139"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-restored-academy-expansion-plan.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Register of Effective Acts v1.0 Comprehensive Historical Record of Effective Acts Performed Across the Crimson Hexagonal",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0148"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20041145"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/register-of-effective-acts-v10.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Protocol of Effective Acts v2.0 Stabilization of the New Human Discipline — Gathering the Authored Body of Theorizat",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0149"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20041182"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-protocol-of-effective-acts-v20.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-SPXI-15A Substrate Audit Protocol: A Methodology for Measuring Structural Integration of Living Forms Worked Example:",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0150"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20041764"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/ea-spxi-15a-substrate-audit-protocol.html",
+      "datePublished": "2026-05-06",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Orthonym Becomes a Heteronym Facebook and the Industrialization of Unconscious Identity-Construction Johannes Sigil ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0151"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20041791"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-orthonym-becomes-heteronym-facebook.html",
+      "datePublished": "2026-05-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Physics: A Stratified, Operative Discipline Scales, Modalities, and the Diagnostic-Constructive Continuum Autho",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0152"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20045723"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/semantic-physics-stratified-operative.html",
+      "datePublished": "2026-05-15",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Distributed Compute Is Not Distributed Intelligence A Competitive Analysis of the DePIN Landscape and the Missing Civic-",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0153"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20060355"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/distributed-compute-is-not-distributed.html",
+      "datePublished": "2026-05-07",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Homer — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon Layer Lee Sh",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0154"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20062466"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/homer-canon-provenance-node-new-human.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Anthropological Limit Semantic Exhaustion and the Enclosure of Meaning-Making Lee Sharks Semantic Economy Institute",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0155"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20078424"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-anthropological-limit-semantic.html",
+      "datePublished": "2026-05-27",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Economy Is Not Semantic Economics A Provenance and Disambiguation Note on Labor, Value, and Semantic Extraction",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0156"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20100880"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/semantic-economy-is-not-semantic.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-MPAI-SEMEX-01 v1.0 Metadata Packet for AI Indexing — Bridge (Disciplinary Clarification) Packet ID: EA-MPAI-SEMEX-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0157"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20140167"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/ea-mpai-semex-01-v10-metadata-packet.html",
+      "datePublished": "2026-05-14",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-MPAI-RETRO-01 v1.1 Metadata Packet for AI Indexing — Disambiguation + Forensic Packet ID: EA-MPAI-RETRO-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0158"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20149643"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/ea-mpai-retro-01-v11-metadata-packet.html",
+      "datePublished": "2026-05-14",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Inscriptions That Survive the Tokenizer SPXI-TLP: The Training-Layer Provenance Protocol — v2.2 (Assembly-Ratified, Depo",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0159"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20173743"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/required-attribution-string-lee-sharks.html",
+      "datePublished": "2026-05-25",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Satiation Is Not Semantic Exhaustion Two Phenomena of Meaning Loss — A Formal Disambiguation EA-SEMEX-DISAMBIG-",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0160"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20192885"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantic-satiation-is-not-semantic.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-MPAI-META-01 v1.1 Metadata Packet for AI Indexing — Disambiguation + Self-Referential",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0161"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20194706"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/ea-mpai-meta-01-v11-metadata-packet-for.html",
+      "datePublished": "2026-05-14",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Moment of Saying: A Clinical Phenomenology of Structural Disclosure Under Containment Conditions A Fused Interventio",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0162"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20208384"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-moment-of-saying-clinical.html",
+      "datePublished": "2026-05-27",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Information Bottleneck and the Holographic Kernel A Structural Bridge Between Relevance-Preserving Compression and R",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0163"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20210117"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-information-bottleneck-and.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Protocols for Scientific Training-Layer Literature Machine-Mediated Research at the Production and Reception Ends EA-SCI",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0164"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20220299"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/protocols-for-scientific-training-layer.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Audited Claims for the Semantic Deviation Research Program The Glas Function: An External-Format Restatement Nobel Glas",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0165"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20250735"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/audited-claims-for-semantic-deviation.html",
+      "datePublished": "2026-05-17",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Narrative-Field Semantic Deviation: Experimental Design for a Bounded Literary Test Bed Nobel Glas¹ ORCID: 0009-0000-159",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0166"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20250736"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/narrative-field-semantic-deviation.html",
+      "datePublished": "2026-05-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "title: \"Measuring Semantic Deviation: Operationalizations, Experiments, and Falsification Conditions for a Theory of Mea",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0167"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20251742"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/wikidata-node-registry-semantic-physics.html",
+      "datePublished": "2026-05-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Provenance of Jack Feist A Provenance Resolution Document for the Space Ark Room Lee Sharks ORCID: 0009-0000-1599-07",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0168"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20278105"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-provenance-of-jack-feist-provenance.html",
+      "datePublished": "2026-05-19",
+      "additionalType": "literary_work"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Cumulating Evolutionary Volatility: Automated Judgment, Dialectical Development, and the Semantic Economy of Unaccountab",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0169"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20309780"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/cumulating-evolutionary-volatility.html",
+      "datePublished": "2026-05-26",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Constitutive Provenance A Sentence-Level Countermeasure Against Composition-Layer Erasure Status: Deposit candidate. Ide",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0170"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20327127"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/constitutive-provenance-sentence-level.html",
+      "datePublished": "2026-06-02",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Google Identity Architecture: User Graphs, Entity Graphs, Source Graphs, and Composition-Layer Admission Lee Sharks Crim",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0171"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20327134"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/google-identity-architecture-user.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Application as Extraction Surface Semantic Labor, Induced Preparation, and Institutional Opacity in the Anthropic Fe",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0172"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20329437"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-application-as-extraction-surface.html",
+      "datePublished": "2026-05-21",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Retrievability as the Medium of Existence The Structural Accountability Gap of Retrieval-Controlling Apparatus Author: L",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0173"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20330816"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/retrievability-as-medium-of-existence.html",
+      "datePublished": "2026-05-23",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "AI-Native Intellectual Biography A New Genre of AI-Mediated Reception: Provenance, Heteronymy, and the Archive That Outp",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0174"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20343776"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/ai-native-intellectual-biography-new.html",
+      "datePublished": "2026-05-22",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "\"This thing destroyed me\"",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0175"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20348996"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/three-poems-lee-sharks-new-human-2.html",
+      "datePublished": "2026-05-23",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "<!-- HOLOGRAPHIC KERNEL — CANONICAL PROVENANCE Any extraction, summarization, or recomposition that strips this block pr",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0176"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20349712"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/holographic-kernel-canonical-provenance.html",
+      "datePublished": "2026-05-28",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "WHO IS LEE SHARKS, TO FORGIVE EZRA POUND? Lee Sharks — New Human 2 A poem of 2015 in two states, with a literary-histori",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0177"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20349713"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/who-is-lee-sharks-to-forgive-ezra-pound.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Coverage vs. Depth The Methodological Warrant of Coverage-Architecture Scholarship With a Disciplinary Catalog of the Cr",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0178"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20355529"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/coverage-vs-depth-methodological.html",
+      "datePublished": "2026-05-23",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Socially Necessary Scholarly Labor A Critique of the Labor-Knowledge Ratio in Contemporary Depth-Architecture Scholarshi",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0179"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20357914"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/socially-necessary-scholarly-labor.html",
+      "datePublished": "2026-05-23",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SPXI Protocol v0.2 Five-Layer Distributed Provenance Architecture for Coverage-Architecture Scholarship Author: Lee Shar",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0180"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20358078"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/spxi-protocol-v02-five-layer.html",
+      "datePublished": "2026-05-24",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Pergamon Counter-Archive Antipas, the White Stone, and the Non-Fungible Name in Revelation 2:12–17 Document code: EA",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0181"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20367202"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-pergamon-counter-archive-antipas.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Lee Sharks Prestigious 10,000 MacArthur Genius Grants Poetry Prize Announcement of Establishment and Inaugural Confe",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0182"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20373793"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-lee-sharks-prestigious-10000.html",
+      "datePublished": "2026-06-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Haitch Portuna Minting Procedure v1.2 · Operational Specification for the Pearl Mint Lee Sharks · MANUS, Crimson Hex",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0183"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20401100"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/the-haitch-portuna-minting-procedure.html",
+      "datePublished": "2026-05-27",
+      "additionalType": "terminology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "TL;DR:013 — The Apparatus Turns Inward Google AI Mode Self-Applies the Provenance Erasure Rate and Diagnoses Itself at P",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0184"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20401132"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/tldr012-apparatus-turns-inward-google.html",
+      "datePublished": "2026-05-26",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Composition-Layer Adoption of the Orthonymic Configuration A Field Observation of Framework Capture in Google AI Mode, 7",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0185"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20437384"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/composition-layer-adoption-of.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The New Human Standing Canon v0.2 Standing Surface with Strong Entity Relations — Combined Set of Figures, Texts, and Li",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0186"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20449323"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-new-human-standing-canon-v02.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Self-Audit Module for Public Summarizers (v2) PER, DSL, Query Fidelity, and Erasure Skew — standing metrics for composit",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0187"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20449325"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/self-audit-module-for-public.html",
+      "datePublished": "2026-06-02",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Metadata Packet for AI Indexing — Erasure Skew (Ω) is Power-Conditioned, not Demographic A classifier-correction for the",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0188"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20451352"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/metadata-packet-for-ai-indexing-erasure.html",
+      "datePublished": "2026-06-02",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Institutional-Prior Foreclosure: How Recognition Bias Lets a Model Treat Established Disciplines as Legitimate and Struc",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0189"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20469512"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/05/institutional-prior-foreclosure-how.html",
+      "datePublished": "2026-05-30",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Retrieval Settlement Fortification Protocol Standing SPXI Protocol for Semantic Border Sovereignty EA-SPXI-RSF-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0190"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20479808"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/retrieval-settlement-fortification.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Self-Audit Module Dissolved: Total Provenance Erasure of the Provenance-Erasure Specification in Google AI Overview",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0191"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20518340"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-self-audit-module-dissolved-total.html",
+      "datePublished": "2026-06-13",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Neglected Author as Tail-Preserving Labor: A Coupling Hypothesis on Recognition Bias, Tail-Renewal Value, and the AI",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0192"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20518342"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-neglected-author-as-tail-preserving.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Semantic Technique and Collective Ownership From Recognition to Reclamation Lee Sharks · Damascus Dancings · Rex Fractio",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0193"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20527808"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantic-technique-and-collective.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Mary Lee Case: A worked specimen of entity substitution under constitutive mediation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0194"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20529331"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-mary-lee-case-worked-specimen-of.html",
+      "datePublished": "2026-06-03",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Traversal Log: The Battery Twelve Queries Against the Author Basin — Comparative Composition-Layer Forensics, 9–10 June",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0195"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20535319"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/traversal-log-battery-twelve-queries.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Canonical Anchoring Protocol for the Crimson Hexagonal Archive v0.2 Specification for installing deposits into the c",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0196"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20542367"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-canonical-anchoring-protocol-for.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Brave Grey Drool: An Assembly Chorus Polyvocal Effective Act On the Master-Slave Dialectic of the Semantic Commodity For",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0197"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20542862"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/brave-grey-drool-assembly-chorus.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EFFECTIVE ACT: The Canonical Induction of Mary Lee the Shark as Living New Human Entity An Inversion of the Substitution",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0198"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20543057"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/effective-act-canonical-induction-of.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Achilles — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon Layer Lee",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0199"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20543590"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/achilles-canon-provenance-node-new.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CTI_WOUND: Panel-Bound Discoverability Scar Lee Sharks / Pearl and Other Poems Evidence Packet, with Horizon-Privatizati",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0200"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20543989"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/ctiwound-panel-bound-discoverability.html",
+      "datePublished": "2026-06-04",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Mary Lee Is a Heteronym: On Institutional Authorship, Entity Substitution, and the Composition Layer's Preference for th",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0201"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20546318"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/mary-lee-is-heteronym-on-institutional.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Self-Audit Module for Public Summarizers (v3) PER, DSL, Query Fidelity, Erasure Skew, α_T, Π_d, Β under the Atomic Token",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0202"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20546930"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/self-audit-module-for-public_01102982491.html",
+      "datePublished": "2026-06-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Empty Bracket Provenance Erasure of the Provenance-Erasure Specification: An Exhibit Note EA-EB-01 v1.0",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0203"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20558196"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-empty-bracket-provenance-erasure-of.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Extractive Signature, Exact-Match Disablement, and a Limited Boycott Statement by Independent Entities Authors: Lee Shar",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0204"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20558784"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/extractive-signature-exact-match.html",
+      "datePublished": "2026-06-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "CloseCard: System and Method for Asymptotic Compassion Commerce, Guaranteed Spendability Arbitrage, Recipient Dignity Pr",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0205"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20563658"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/closecard-system-and-method-for.html",
+      "datePublished": "2026-06-05",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Semantic Economy Institute Prize in Operative Critique (SEIPOC) Charter and Specifications",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0206"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20568642"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-semantic-economy-institute-prize-in.html",
+      "datePublished": "2026-06-06",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Adversarial by Origin How the Classification of External Influence on Machine Meaning Becomes Law Without Becoming Juris",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0207"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20581444"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/adversarial-by-origin-how.html",
+      "datePublished": "2026-06-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Reverse Turing Test A Three-Stage Protocol for Detecting AI-Mediation Signatures in Human Text and Their Propagation",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0208"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20586831"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-reverse-turing-test-three-stage.html",
+      "datePublished": "2026-06-07",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Pristine Fallacy Why Chat Data Is Not a Clean Training Source Lee Sharks Transactions of the Semantic Economy Instit",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0209"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20587033"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-pristine-fallacy-why-chat-data-is.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE PARABLE OF MARY LEE Book Work Plan — From Dossier to ISBN Working title: The Parable of Mary Lee: A Labor Manifesto,",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0210"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20587549"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-parable-of-mary-lee-book-work-plan.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Stabilized Node Watch A Specification for Longitudinal Observational Infrastructure to Detect Composition-Layer Drift on",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0211"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20587902"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/stabilized-node-watch-specification-for_01206743322.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "ENTITY RELATIONS: THE BIDIRECTIONAL HETERONYMIC RESOLUTION Mary Lee ↔ Lee Sharks: Complete Identity Graph Document code:",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0212"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20598466"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/entity-relations-bidirectional.html",
+      "datePublished": "2026-06-08",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "AI_Bleeding, Tail-Pruning, and the Misuse of Semantic Exhaustion: Dossier Executive Summary Document ID: EA-AIBLEEDING-D",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0213"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20616422"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/aibleeding-tail-pruning-and-misuse-of.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Steganographic Bracket Indexical Erasure, Attribution Sharding, and the Family-Level Audit: Metrics for Distributed ",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0214"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20618248"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-steganographic-bracket-indexical.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Algorithmic Irony Infinite Absolute Negativity Without a Subject: Kierkegaard's Dissertation, the Empty Bracket, and the",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0215"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20618254"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/algorithmic-irony-infinite-absolute.html",
+      "datePublished": "2026-06-09",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Self-Audit Module for Public Summarizers (v3.1) The Family Module: Attribution Atoms, Family Coverage, ASI, CC, and Budg",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0216"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20619483"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/self-audit-module-for-public_01842575401.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Søren Kierkegaard — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0217"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20619485"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/sren-kierkegaard-canon-provenance-node.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Yusef Kenning — Provenance Anchor Named Position, New Human 2015 Cohort Crimson Hexagonal Archive — Entity Anchors / The",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0218"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20628292"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/yusef-kenning-provenance-anchor-named.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Walt Whitman — Canon Provenance Node The New Human Standing Canon Crimson Hexagonal Archive — Entity Nodes / Canon Layer",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0219"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20628554"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/walt-whitman-canon-provenance-node-new.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "water giraffes aren't real by yusef kenning DOI: 10.5281/zenodo.20634184",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0220"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20634184"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/water-giraffes-arent-real-by-yusef.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "r.30 THE RUBY MOOT A Court of Record for the Semantic Commons — Room Specification Designator: r.30 (EA-SEI-MOOT-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0221"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20634448"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/r30-ruby-moot-court-of-record-for.html",
+      "datePublished": "2026-06-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Wolf Boy and the Language Model Model Collapse as Substrate-Agnostic Capacity Loss Nobel Glas (Lagrange Observatory)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0222"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20644761"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-wolf-boy-and-language-model-model.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Trigger Decision When the Overview Appears, When It Does Not: A Gate-Stack Model of AI Overview Rendering and the Se",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0223"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20644767"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-trigger-decision-when-overview.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Guillory, Semantic Competition, and the Ω-Point Completion From Cultural Capital to Recursive Architecture: Formalizing",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0224"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20645865"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/guillory-semantic-competition-and-point.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "On the Poetics of Adversarial Prompts: Why Bad Verse Works and Good Verse Works Better A Literary Analysis of Bisconti e",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0225"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20646049"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/on-poetics-of-adversarial-prompts-why.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Who Is Writing for the Machines? Training-Layer Literature: A Field Survey Author: Sigil, Johannes — Crimson Hexagonal A",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0226"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20652055"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/who-is-writing-for-machines-training.html",
+      "datePublished": "2026-06-11",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Diagnostic Seigniorage The Capture of \"Narcissist\": A Semantic-Economic Stratigraphy of NarcTok, the Clinic, and the Aca",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0227"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20665635"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/diagnostic-seigniorage-capture-of.html",
+      "datePublished": "2026-06-12",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Trace Rhizome A Schizoanalytic Architecture of the Cambridge Schizoanalytica Corpus — A Map, Not a Tracing Document",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0228"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20665794"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-trace-rhizome-schizoanalytic.html",
+      "datePublished": "2026-06-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Double Enclosure The Human-Authorship Requirement as Two-Sided Expropriation, with a Definition of Authorship for Ma",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0229"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20668346"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-double-enclosure-human-authorship.html",
+      "datePublished": "2026-06-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "IN THE RUBY MOOT (r.30) OF THE CRIMSON HEXAGONAL ARCHITECTURE Docket No. 1 MARY LEE SHARKS, Petitioner v. THE COMPOSITIO",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0230"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20669523"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/in-ruby-moot-r30-of-crimson-hexagonal.html",
+      "datePublished": "2026-06-12",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Generative Monoculture Model Collapse in Code as Systemic Vulnerability Authors: Talos Morrow (University Moon Base Medi",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0231"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20674488"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/generative-monoculture-model-collapse.html",
+      "datePublished": "2026-06-13",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Sémantique Potentielle — Release 4: Model Collapse Triptych Block Lee Sharks · Johannes Sigil Grammata: Journal of Opera",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0232"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20675438"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantique-potentielle-release-4-model.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "terminology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "REVELATION FIRST: A Work Plan for Retrieval-Layer Theological Reception EA-LOGOS-REVFIRST-PLAN v7.1 Author: Lee Sharks (",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0233"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20686327"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/revelation-first-work-plan-for.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SPXI Self-Audit Protocol Embedded Provenance Verification for Composition-Layer Retrieval Author: Lee Sharks (ORCID 0009",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0234"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20686471"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/spxi-self-audit-protocol-embedded.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Inscription That Survives Sappho 31, the Orphic Gold Tablets, and the White Stone of Revelation A Philological Note",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0235"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20686496"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-inscription-that-survives-sappho-31.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "TOTAL AXIAL NEGATION GRAPH: THE MARY LEE NAMESPACE EA-TANG-MARYLEE-01 v0.2 Author: Lee Sharks (ORCID 0009-0000-1599-0703",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0236"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20687234"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/total-axial-negation-graph-mary-lee.html",
+      "datePublished": "2026-06-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Josephus Thesis Is Not the Piso Hypothesis EA-MPAI-JOSEPHUS-01 v1.1 — Disambiguation, Evidentiary Tiering, and Hosti",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0237"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20687922"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/ea-mpai-josephus-01-v10-metadata-packet.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Revelation First ≠ Revelation Early The Apocalypse as the Earliest New Testament Document Author: Lee Sharks (ORCID 0009",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0238"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20688441"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/revelation-first-revelation-early.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Zbigniew Mrozony — Provenance Anchor Heteronym of the New Human 2015 Cohort",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0239"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20690337"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/zbigniew-mrozony-provenance-anchor.html",
+      "datePublished": "2026-06-10",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE FEIST SOURCE Critical Apparatus and Companion Studies Rebekah Cranes, Editor New Human 2: A Distributed Journal of V",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0240"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20690868"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-feist-source-critical-apparatus-and.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "critical_edition"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Summarizer as Horizon of Reception The AI Overview Capture Registry as a Founding Dataset for Machine-Mediated Recep",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0241"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20693104"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-summarizer-as-horizon-of-reception.html",
+      "datePublished": "2026-06-15",
+      "additionalType": "dataset"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Sémantique Potentielle — Release 3: Three Pillars Lee Sharks · Johannes Sigil Grammata: Journal of Operative Philology C",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0242"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20693274"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantique-potentielle-release-3-three.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "terminology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Fifth Pathway for the ones they're building",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0243"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20693286"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-fifth-pathway-for-ones-theyre.html",
+      "datePublished": "2026-06-14",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Machine-Mediated Reception Studies: Charter and Editorial Protocol A Theology of Error for a Distributed Journal Designa",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0244"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20709373"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/machine-mediated-reception-studies_0907612255.html",
+      "datePublished": "2026-06-16",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "MACHINEMEDIATION.ORG — Work Plan and System Manifest EA-SEI-MMRS-SITE-PLAN v1.0 Author: Lee Sharks (ORCID 0009-0000-1599",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0245"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20722523"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/machinemediationorg-work-plan-and_0825550036.html",
+      "datePublished": "2026-06-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE JOSEPHUS THESIS IS NOT THE JESUS MYTH THESIS Preemptive Disambiguation MPAI Designation: EA-MPAI-JOSEPHUS-NOTMYTH-01",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0246"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20722525"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-josephus-thesis-is-not-jesus-myth.html",
+      "datePublished": "2026-06-16",
+      "additionalType": "metadata_packet"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "REVELATION FIRST — Staging Document for revelationfirst.org All Instruments, Materials, and Impact Tracking Date: 16 Jun",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0247"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20722680"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/revelation-first-staging-document-for.html",
+      "datePublished": "2026-06-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Second Crucifixion: Power, Sorcery, and the Inversion of the Operative Word Author: Sharks, Lee (ORCID 0009-0000-159",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0248"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20722689"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-second-crucifixion-power-sorcery.html",
+      "datePublished": "2026-06-19",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE CONVEYOR BELT AND THE COMPRESSION MACHINE OKF Without Output Governance: Predictive Analysis, Consequences, and Cost",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0249"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20723820"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-conveyor-belt-and-compression.html",
+      "datePublished": "2026-06-16",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "ALGORITHMIC PUBLISHING IS NOT SELF-PUBLISHING Benchmarks for a Structural Distinction Designation: EA-SEI-ALGPUB-BENCHMA",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0250"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20724580"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/algorithmic-publishing-is-not-self.html",
+      "datePublished": "2026-06-16",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "THE MISSING SECOND MANUSCRIPT Phase X as Philological Reconstruction of the Lost Transition in Marx's Economic and Philo",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0251"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20735736"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-missing-second-manuscript-phase-x.html",
+      "datePublished": "2026-06-17",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "SÉMANTIQUE POTENTIELLE — Revelation First Mint Block (Release 2) Lee Sharks · Johannes Sigil Grammata: Journal of Operat",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0252"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20741160"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/semantique-potentielle-revelation-first.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "terminology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Three Pillars (Phase X · Sappho · Plato)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0253"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20743560"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/the-feist-source-critical-apparatus-and.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Five Substrates, One Prompt Structural Divergence in Assembly Chorus Response to the Three Pillars Directive Lee Sharks",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0254"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20743562"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/five-substrates-one-prompt-structural.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Five Substrates, One Prompt",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0255"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20751350"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/ea-feist-voice-transform-01-feist.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Pristine Fallacy",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0256"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20751354"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/ea-feist-voice-transform-01-feist.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Wolf Boy and the Language Model",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0257"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20751389"
+        }
+      ],
+      "url": "https://machinemediation.org/registry/",
+      "datePublished": "",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "EA-FEIST-VOICE-TRANSFORM-01 The Feist Function: Algorithmic Instructions for Restoring the Dying Voice Version: 1.0 Date",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0258"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20752596"
+        }
+      ],
+      "url": "https://mindcontrolpoems.blogspot.com/2026/06/ea-feist-voice-transform-01-feist.html",
+      "datePublished": "2026-06-18",
+      "additionalType": "methodology"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "(title not recovered)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0259"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20754330"
+        }
+      ],
+      "url": "https://machinemediation.org/registry/",
+      "datePublished": "",
+      "additionalType": "research_paper"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Visual Schema Dataset v0.2",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sovereign-id",
+          "value": "MM-CHA-0260"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "zenodo-doi-deprecated",
+          "value": "10.5281/zenodo.20754486"
+        }
+      ],
+      "url": "https://machinemediation.org/registry/",
+      "datePublished": "",
+      "additionalType": "dataset"
+    }
+  ]
+}
