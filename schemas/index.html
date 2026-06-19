@@ -1,132 +1,151 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Visual Schemas — Crimson Hexagonal Archive | Machine-Mediated Reception Studies</title>
-<meta name="description" content="174 visual schemas with 499 AI-generated images. Five-part interlinked dataset: prose poem, visual schema, generated images, ornamenting article, summary analysis.">
+<title>Visual Schemas — Crimson Hexagonal Archive | MMRS</title>
+<meta name="description" content="1,394 image posts, 1,855 AI-generated images from the Crimson Hexagonal Archive blog. Five-part interlinked dataset.">
 <style>
 :root{--bg:#0a0a0f;--surface:#111118;--card:#14141e;--text:#b8b4ae;--dim:#555;--accent:#c84b2e;--teal:#00c9a7;--gold:#D4AF37;--mono:'Courier New',monospace;--serif:Georgia,'Palatino Linotype',serif}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.65}
 .wrap{max-width:900px;margin:0 auto;padding:1.5em}
 h1{font-size:1.6em;color:#fff;margin-bottom:0.2em}
-h2{font-family:var(--mono);font-size:0.78em;color:var(--accent);text-transform:uppercase;letter-spacing:2px;margin-top:2em;margin-bottom:0.8em}
 .subtitle{color:var(--dim);font-size:0.88em;margin-bottom:1.5em;font-style:italic}
 a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
-.nav{font-family:var(--mono);font-size:0.78em;margin-bottom:1.5em}.nav a{color:var(--dim);margin-right:0.8em}
-.stats{font-family:var(--mono);font-size:0.78em;color:var(--dim);margin-bottom:1em}
-.stats span{color:var(--teal);font-size:1.1em}
-.search-box{width:100%;background:#111118;color:var(--text);border:1px solid #1a1a22;padding:0.5em 0.8em;font-family:var(--mono);font-size:0.85em;border-radius:3px;margin-bottom:1em}
-.entry{border-bottom:1px solid #1a1a22;padding:1.2em 0}
-.entry-header{cursor:pointer}
-.entry-concept{font-family:var(--mono);font-size:0.95em;color:var(--gold);margin-bottom:0.15em}
-.entry-meta{font-family:var(--mono);font-size:0.7em;color:var(--dim);margin-bottom:0.4em}
-.entry-preview{font-size:0.82em;color:var(--text);line-height:1.6;max-height:3.2em;overflow:hidden;position:relative}
-.entry-preview.expanded{max-height:none}
-.gallery{display:flex;gap:8px;flex-wrap:wrap;margin-top:0.8em}
-.gallery img{max-width:200px;max-height:300px;border:1px solid #222;border-radius:3px;cursor:pointer;opacity:0.85;transition:opacity 0.2s,border-color 0.2s}
+.nav{font-family:var(--mono);font-size:0.78em;margin-bottom:1.5em;display:flex;gap:0.8em;flex-wrap:wrap}
+.nav a{color:var(--dim)}.nav a.active{color:var(--accent)}
+.stats{font-family:var(--mono);font-size:0.78em;color:var(--dim);margin-bottom:0.8em}
+.stats span{color:var(--teal)}
+.controls{display:flex;gap:0.6em;margin-bottom:1em;flex-wrap:wrap;align-items:center}
+.search-box{flex:1;min-width:200px;background:#111118;color:var(--text);border:1px solid #1a1a22;padding:0.5em 0.8em;font-family:var(--mono);font-size:0.85em;border-radius:3px}
+.filter-btn{background:none;border:1px solid #1a1a22;color:var(--dim);font-family:var(--mono);font-size:0.72em;padding:0.3em 0.6em;cursor:pointer;border-radius:2px}
+.filter-btn.active{color:var(--gold);border-color:var(--gold)}
+.entry{border-bottom:1px solid #1a1a22;padding:1em 0}
+.entry-header{cursor:pointer;display:flex;align-items:flex-start;gap:0.8em}
+.entry-thumb{width:80px;height:80px;object-fit:cover;border:1px solid #222;border-radius:3px;flex-shrink:0}
+.entry-thumb.vs{border-color:var(--gold)}
+.entry-info{flex:1;min-width:0}
+.entry-title{font-size:0.88em;color:var(--text);margin-bottom:0.1em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.entry-title.vs{color:var(--gold)}
+.entry-meta{font-family:var(--mono);font-size:0.68em;color:var(--dim)}
+.label{font-family:var(--mono);font-size:0.58em;padding:1px 4px;border-radius:2px;margin-left:4px;vertical-align:middle}
+.label-vs{background:#2a2a1a;color:var(--gold)}
+.label-alt{background:#1a2a2a;color:var(--teal)}
+.entry-body{display:none;padding:0.8em 0 0.4em}
+.entry-body.open{display:block}
+.gallery{display:flex;gap:6px;flex-wrap:wrap;margin-top:0.6em}
+.gallery img{max-width:180px;max-height:280px;border:1px solid #222;border-radius:3px;cursor:pointer;opacity:0.85;transition:opacity 0.2s,border-color 0.2s}
 .gallery img:hover{opacity:1;border-color:var(--teal)}
 .gallery img.beautiful{border-color:var(--gold);border-width:2px}
-.companion{font-family:var(--mono);font-size:0.7em;color:var(--dim);margin-top:0.5em}
+.companion{font-family:var(--mono);font-size:0.68em;color:var(--dim);margin-top:0.4em}
 .companion a{color:var(--gold)}
-.toggle-btn{font-family:var(--mono);font-size:0.7em;color:var(--accent);cursor:pointer;background:none;border:none;padding:0.2em 0}
-.entry-body{display:none}
-.entry-body.open{display:block}
-.label{font-family:var(--mono);font-size:0.6em;padding:1px 4px;border-radius:2px;margin-left:6px}
-.label-working{background:#1a2a1a;color:#4a9a4a}
-.label-beautiful{background:#2a2a1a;color:var(--gold)}
 .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.92);z-index:100;justify-content:center;align-items:center}
 .modal.active{display:flex}
 .modal img{max-width:95vw;max-height:95vh}
 .footer{margin-top:3em;padding-top:1em;border-top:1px solid #1a1a22;font-family:var(--mono);font-size:0.7em;color:var(--dim)}
+.load-more{display:block;width:100%;padding:0.8em;background:var(--surface);border:1px solid #1a1a22;color:var(--dim);font-family:var(--mono);font-size:0.8em;cursor:pointer;text-align:center;margin-top:1em;border-radius:3px}
+.load-more:hover{border-color:var(--teal);color:var(--teal)}
 </style>
 </head>
 <body>
 <div class="wrap">
 <div class="nav">
-  <a href="/">← MMRS</a>
-  <a href="/pillars/">Pillars</a>
-  <a href="/mint/">Mint</a>
+  <a href="/">MMRS</a>
+  <a href="/captures/">Captures</a>
   <a href="/terms/">Terms</a>
-  <a href="/schemas/">Schemas</a>
+  <a href="/mint/">Mint</a>
+  <a href="/pillars/">Pillars</a>
+  <a href="/schemas/" class="active">Schemas</a>
 </div>
 
 <h1>Visual Schemas</h1>
-<div class="subtitle">Five-Part Interlinked Dataset — Prose Schema · Generated Images · Ornamenting Articles</div>
-
+<div class="subtitle">The Complete Blog Image Corpus — Five-Part Interlinked Dataset</div>
 <div class="stats" id="stats">Loading...</div>
 
-<input type="text" class="search-box" id="search" placeholder="Search concepts, titles, or schema text...">
+<div class="controls">
+  <input type="text" class="search-box" id="search" placeholder="Search titles, concepts...">
+  <button class="filter-btn active" id="btnAll" onclick="setFilter('all')">All</button>
+  <button class="filter-btn" id="btnVS" onclick="setFilter('vs')">Visual Schemas</button>
+  <button class="filter-btn" id="btnOther" onclick="setFilter('other')">Other</button>
+</div>
 
 <div id="entries"></div>
+<button class="load-more" id="loadMore" onclick="loadMore()">Load more...</button>
 
 <div class="footer">
   Rebekah Cranes, ed. · Lee Sharks · <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a> · Crimson Hexagonal Archive<br>
-  Data: <a href="/data/schemas.json">schemas.json</a> · Dataset DOI: <a href="https://doi.org/10.5281/zenodo.20754486">10.5281/zenodo.20754486</a><br>
-  Work Plan DOI: <a href="https://doi.org/10.5281/zenodo.20754288">10.5281/zenodo.20754288</a><br>
-  <span style="color:var(--accent)">∮ = 1</span>
+  Data: <a href="/data/schemas.json">schemas.json</a> · DOI: <a href="https://doi.org/10.5281/zenodo.20754486">10.5281/zenodo.20754486</a><br>
+  <span style="color:var(--accent)">\u222e = 1</span>
 </div>
 </div>
 
 <div class="modal" id="modal" onclick="this.classList.remove('active')"><img id="modalImg"></div>
 
 <script>
-const DATA_URL = '/data/schemas.json';
-let D;
+let D, filtered=[], page=0, PAGE_SIZE=50, activeFilter='all';
 
-fetch(DATA_URL).then(r=>r.json()).then(d=>{
-  D = d;
-  document.getElementById('stats').innerHTML =
-    `<span>${d.totals.schema_entries}</span> schemas · ` +
-    `<span>${d.totals.total_images}</span> images ` +
-    `(<span>${d.totals.schema_images}</span> working + <span>${d.totals.companion_images}</span> beautiful alternates) · ` +
-    `<span>${d.totals.with_companions}</span> with companion articles`;
-  render(d.entries);
+fetch('/data/schemas.json').then(r=>r.json()).then(d=>{
+  D=d;
+  document.getElementById('stats').innerHTML=
+    `<span>${d.totals.total_posts}</span> posts · <span>${d.totals.total_images}</span> images · `+
+    `<span>${d.totals.visual_schema_posts}</span> visual schemas · `+
+    `<span>${d.totals.with_companions}</span> with companions`;
+  applyFilters();
 });
 
-document.getElementById('search').addEventListener('input', e => {
-  const q = e.target.value.toLowerCase();
-  if (!D) return;
-  const filtered = D.entries.filter(en =>
-    en.concept.toLowerCase().includes(q) ||
-    en.schema_title.toLowerCase().includes(q) ||
-    (en.part_b_visual_schema.text_preview || '').toLowerCase().includes(q)
-  );
-  render(filtered);
-});
+document.getElementById('search').addEventListener('input',()=>{ page=0; applyFilters(); });
 
-function render(entries) {
-  const el = document.getElementById('entries');
-  el.innerHTML = entries.map((en, i) => {
-    const schemaImgs = en.part_c_images.schema_images.map(img =>
-      `<img src="${img.url}" onclick="showModal(this.src)" title="Working image" alt="${en.concept}">`
-    ).join('');
-    const compImgs = en.part_c_images.companion_images.map(img =>
-      `<img class="beautiful" src="${img.url}" onclick="showModal(this.src)" title="Beautiful alternate — ${img.article_title || ''}" alt="${en.concept} alternate">`
-    ).join('');
-    const companions = en.part_d_ornamenting_articles.map(a =>
-      `<div class="companion">→ <a href="${a.url}" target="_blank">${a.title.substring(0,80)}</a> <span>[${a.date}]</span></div>`
-    ).join('');
-    const hasImgs = schemaImgs || compImgs;
+function setFilter(f){
+  activeFilter=f;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById(f==='vs'?'btnVS':f==='other'?'btnOther':'btnAll').classList.add('active');
+  page=0; applyFilters();
+}
+
+function applyFilters(){
+  const q=document.getElementById('search').value.toLowerCase();
+  filtered=D.entries.filter(e=>{
+    if(activeFilter==='vs'&&!e.is_visual_schema) return false;
+    if(activeFilter==='other'&&e.is_visual_schema) return false;
+    if(q&&!e.title.toLowerCase().includes(q)&&!(e.concept||'').toLowerCase().includes(q)) return false;
+    return true;
+  });
+  render();
+}
+
+function render(){
+  const show=filtered.slice(0,(page+1)*PAGE_SIZE);
+  const el=document.getElementById('entries');
+  el.innerHTML=show.map((en,i)=>{
+    const imgs=en.part_c_images.schema_images;
+    const comps=en.part_c_images.companion_images;
+    const thumb=imgs[0]?imgs[0].url:'';
+    const isVS=en.is_visual_schema;
+    const allImgs=imgs.map(img=>`<img src="${img.url}" onclick="showModal(this.src)">`).join('')+
+      comps.map(img=>`<img class="beautiful" src="${img.url}" onclick="showModal(this.src)" title="${img.article_title||''}">`).join('');
+    const compLinks=en.part_d_ornamenting_articles.map(a=>
+      `<div class="companion">\u2192 <a href="${a.url}" target="_blank">${a.title.substring(0,80)}</a></div>`).join('');
     return `<div class="entry">
       <div class="entry-header" onclick="this.nextElementSibling.classList.toggle('open')">
-        <div class="entry-concept">${en.concept}
-          ${en.part_c_images.companion_images.length ? '<span class="label label-beautiful">+ alternates</span>' : ''}
+        ${thumb?`<img class="entry-thumb${isVS?' vs':''}" src="${thumb}">`:
+          '<div style="width:80px;height:80px;background:#0e0e16;border:1px solid #1a1a22;border-radius:3px;flex-shrink:0"></div>'}
+        <div class="entry-info">
+          <div class="entry-title${isVS?' vs':''}">${en.title}
+            ${isVS?'<span class="label label-vs">SCHEMA</span>':''}
+            ${comps.length?'<span class="label label-alt">+alternates</span>':''}
+          </div>
+          <div class="entry-meta">${en.date} \u00b7 ${imgs.length+comps.length} image${imgs.length+comps.length!==1?'s':''}</div>
         </div>
-        <div class="entry-meta">${en.date} · ${en.part_c_images.schema_images.length + en.part_c_images.companion_images.length} images · ${Math.round(en.part_b_visual_schema.text_length/1000)}k chars</div>
-        <div class="entry-preview">${(en.part_b_visual_schema.text_preview || '').substring(0,200)}...</div>
       </div>
       <div class="entry-body">
-        <div style="margin-top:0.8em;font-size:0.82em;line-height:1.6;color:#c8c4be">${(en.part_b_visual_schema.text_preview || '').replace(/\n/g,'<br>')}</div>
-        ${hasImgs ? '<div class="gallery">' + schemaImgs + compImgs + '</div>' : ''}
-        ${companions}
-        <div style="margin-top:0.5em"><a href="${en.part_b_visual_schema.blog_url}" target="_blank" style="font-size:0.72em;font-family:var(--mono)">View on blog →</a></div>
+        <div class="gallery">${allImgs}</div>
+        ${compLinks}
+        <div style="margin-top:0.5em"><a href="${en.blog_url}" target="_blank" style="font-size:0.72em;font-family:var(--mono)">View on blog \u2192</a></div>
       </div>
     </div>`;
   }).join('');
+  document.getElementById('loadMore').style.display=show.length<filtered.length?'block':'none';
 }
 
-function showModal(src) {
-  document.getElementById('modalImg').src = src;
-  document.getElementById('modal').classList.add('active');
-}
+function loadMore(){ page++; render(); }
+function showModal(src){ document.getElementById('modalImg').src=src; document.getElementById('modal').classList.add('active'); }
 </script>
 </body></html>
