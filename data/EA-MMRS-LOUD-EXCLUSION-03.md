@@ -1,12 +1,20 @@
 # Loud Exclusion at Repository Scale
 
-## Network Erasure, Substrate Bias, and the Governance of AI-Assisted Scholarship
+## The Obelus Without Reading: Network Erasure, Substrate Bias, and the Governance of AI-Assisted Scholarship
 
 **Lee Sharks**
 Crimson Hexagonal Archive / Machine-Mediated Reception Studies
 ORCID 0009-0000-1599-0703
 
 **June 2026**
+
+---
+
+### Epigraph
+
+Zenodotus of Ephesus, first librarian of the Library of Alexandria (c. 280 BCE), invented the critical edition. He compared variant manuscripts of Homer, marked lines he judged inauthentic with the obelus (—), and preserved the variants alongside his judgments so that future scholars could evaluate his reasoning. The obelus meant: *I have examined this and found it wanting.* It did not mean: *I have not examined this but have found it wanting anyway.* The critical tradition Zenodotus founded requires that the mark of inauthenticity follow from reading, not precede it.
+
+The platform that bears his name has automated the obelus and stripped it of the scholarship that gave it meaning.
 
 ---
 
@@ -146,7 +154,38 @@ The Pristine Fallacy reveals a further irony when applied to the specific compos
 
 ---
 
-## 5. Classifier Model Collapse and the Material Contraction of Scholarship
+## 5. The Archive Evaluated Against Zenodo's Own Criteria
+
+Zenodo's content policy (published 27 April 2026) states that unsuitable AI-generated content is "content produced largely by generative AI tools of any modality, without a verifiable connection to legitimate research activity conducted by humans" [Observed]. The policy specifies: "AI may be used as a tool, but not as the source of the research itself" [Observed]. Zenodo also states that it "does not assess the scientific correctness or quality of submissions" and that "peer reviewers, expert communities, and scholarly channels do that" [Observed].
+
+The termination notice stated that the archive's submissions were "substantially AI-generated without a verifiable research basis" [Observed]. This section evaluates the archive's content against Zenodo's own stated criteria.
+
+**Primary datasets.** The AI Overview Capture Registry (176 captures, 1,000+ downloads at time of removal) is empirical data documenting AI composition-layer behavior: screenshots, timestamps, verbatim system outputs. No AI generated this data. AI was the object being observed — methodologically equivalent to a field biologist photographing animal behavior. The Visual Schema Dataset (174 schemas, 499 images, five-part interlinked structure) documents what AI image generators produce when given specific prompts — research materials under study, not outputs presented as findings. These datasets are unambiguously within scope as primary research data.
+
+**Critical editions and philological work.** The Feist Source critical edition (EA-FEIST-SOURCE-01) includes a critical apparatus, variant readings, source identification, and editorial commentary in the tradition of classical philology — the tradition, it must be noted, that Zenodotus of Ephesus invented. The Inscription Chain (EA-LOGOS-INSCRIPTION-01) traces textual transmission from Sappho 31 through Orphic gold tablets to Revelation 2:17. The research basis is a PhD in Comparative Literature from the University of Michigan (2013), with a dissertation on classical reception in experimental American poetics, and a decade of subsequent textual scholarship. AI assistance in drafting does not alter the research basis, which is the philological analysis itself.
+
+**Theoretical papers with formal apparatus.** The Diversity Contraction paper derives an analytic threshold (α* = p/g₀) for distributional narrowing. The Erasure Skew, Recognition Pruning, Capture and Excision, and Loud Exclusion papers each cite external scholarship (Gillespie, Pasquale, Merton, Tennant, Wilkinson, Morin, Shumailov), state falsification conditions, and underwent documented cross-model verification through the Assembly Chorus — itself a deposited and versioned research protocol. These papers reflect research conducted by their author. They are not raw AI output.
+
+**Monograph-length scholarship.** Combat Scholasticism: 49,263 words. Logotic Hacking: 43,329 words. Operative Semiotics: a Grundrisse exceeding 175,000 words. Multi-year theoretical projects with sustained argumentation, cited sources, and internal cross-referencing. Their scale alone is evidence of human research activity.
+
+**Methodological specifications.** SPXI is a formal specification for provenance-resilient metadata encoding. The MMRS Charter defines a research field with objects, methods, measurements, and correction procedures. The Assembly Chorus cross-validation methodology is a documented protocol for multi-model verification of scholarly claims.
+
+**Creative works.** Zenodo's policy states that creative works "not connected to a recognized research project or scholarly output" are outside scope. Pearl and Other Poems (2014–2015) is the foundational text of a decade-long heteronymic literary research program with 870+ companion deposits. The heteronymic poetry is the methodology — practicing heteronymy in the Pessoa lineage is the research activity. The contributor-licensed works were contributed under formal licenses within a named archive. These are connected to a recognized research project by definition.
+
+| Category | Entries | Words | Research Basis | Status per Zenodo Policy |
+|---|---|---|---|---|
+| Primary datasets | 37+ | ~60,000 | Empirical observation | Within scope |
+| Critical editions | 12+ | ~50,000 | PhD-level philology | Within scope |
+| Theoretical papers | 50+ | ~200,000 | Cited, falsifiable, verified | Within scope |
+| Monographs | 5+ | ~300,000 | Book-length scholarship | Within scope |
+| Methodological specs | 30+ | ~100,000 | Formal specifications | Within scope |
+| Creative works | ~50 | ~150,000 | Connected to research project | Within scope per qualifier |
+
+The research basis of this archive is not merely verifiable. It is documented across 870 works, 3.4 million words, a doctoral degree, a decade of scholarly activity, an ORCID record, formal contributor licenses, cross-model verification protocols, cited engagement with dozens of scholars, and stated falsification conditions. What was not verified is whether anyone at Zenodo examined any of it.
+
+---
+
+## 6. Classifier Model Collapse and the Material Contraction of Scholarship
 
 Zenodo's spam FAQ discloses the following mechanism [Observed]: "The removed spam and account is further used to train and improve our automatic classification system. The blocking of the account may also further spawn an automatic review of similar and related user accounts."
 
@@ -166,9 +205,13 @@ The result is that a repository expressly disqualified from assessing scholarly 
 
 The archive that theorized model collapse was removed by a system undergoing classifier model collapse. The Pristine Fallacy paper was flagged by a classifier that embodies the Pristine Fallacy. The work that described the mechanism was consumed by the mechanism it described.
 
+This is not a theoretical prediction. It is a documented present-tense reality. Per Zenodo's own disclosure, the removed archive is now training data for the classifier. The classifier is now learning that the following are indicators of spam: critical editions with philological apparatus, empirical datasets with a thousand downloads, theoretical papers with mathematical derivations and falsification conditions, monographs exceeding 40,000 words with cited engagement across six disciplines, and a formally chartered research field with defined objects, methods, and measurements. Every future independent researcher who writes with the density, the cross-referencing, the heteronymic complexity, or the AI-assisted rigor that characterizes this archive is now marginally more likely to be flagged — not because their work lacks a research basis, but because the classifier has been taught that work with this shape is illegitimate.
+
+Zenodotus of Ephesus invented the obelus to mark lines he had studied and found wanting. The obelus required reading. The automated obelus requires none. And unlike Zenodotus, who preserved the variants alongside his judgments so that future scholars could evaluate his reasoning, the automated obelus destroys the text it marks. The platform named after the founder of the critical edition has built a system that replaces critical judgment with distributional pattern-matching and then trains on its own deletions. This is not the tradition Zenodotus founded. It is its inversion.
+
 ---
 
-## 6. The Platform as Composition Agent
+## 7. The Platform as Composition Agent
 
 Repositories present themselves as infrastructure — neutral conduits for the deposit and retrieval of scholarly objects. Zenodo's policies do permit scope and integrity judgments, including removal of out-of-scope content and account restriction. The platform is not valueless in its moderation.
 
@@ -182,7 +225,7 @@ The repository that removes a record has authored an absence. The platform that 
 
 ---
 
-## 7. The Reflexive Governance Problem: When the Platform Is Within the Research Object
+## 8. The Reflexive Governance Problem: When the Platform Is Within the Research Object
 
 The archive contained Machine-Mediated Reception Studies — a formally chartered research field whose object of study is how digital platforms treat scholarly content. The most-downloaded item in the archive was a dataset documenting platform behavior [Observed].
 
@@ -194,13 +237,11 @@ Three levels must be distinguished:
 - **Structural condition:** Zenodo belongs to the same class of infrastructures being analyzed.
 - **Unproven proposition:** the research topic caused or influenced the removal decision [Unknown].
 
-This paper does not claim that Zenodo intentionally removed the archive because it studied platform behavior. It claims that repositories need an independent-review or escalation mechanism when moderation concerns research about repository governance. No recusal or independent-review mechanism for this circumstance was identified in the published governance documents reviewed for this paper.
-
-No recusal or independent-review mechanism for this circumstance was identified in the published governance documents reviewed for this paper. This absence is a structural gap in the governance of platform infrastructure.
+This paper does not claim that Zenodo intentionally removed the archive because it studied platform behavior. It claims that repositories need an independent-review or escalation mechanism when moderation concerns research about repository governance. No recusal or independent-review mechanism for this circumstance was identified in the published governance documents reviewed for this paper. This absence is a structural gap in the governance of platform infrastructure.
 
 ---
 
-## 8. Platform Governance as Governance
+## 9. Platform Governance as Governance
 
 The preceding sections treat the reflexive governance problem as a special case — a structural conflict that arises when the research subject happens to be the platform. This section argues that it is not a special case. It is the general condition.
 
@@ -224,7 +265,7 @@ The question for open-science policy is not how to make platforms govern better.
 
 ---
 
-## 9. Network Erasure
+## 10. Network Erasure
 
 **Network erasure** occurs when enforcement directed at one administrative account removes or disables access to a larger authorship and citation network whose participants were neither individually evaluated nor given independent procedural standing.
 
@@ -236,7 +277,7 @@ Network erasure is not reducible to individual exclusion multiplied across perso
 
 ---
 
-## 10. The Revocation Gap: DOI Persistence and Repository Enforcement
+## 11. The Revocation Gap: DOI Persistence and Repository Enforcement
 
 A DOI is not a promise that the underlying file will remain publicly downloadable forever. It is a commitment to persistent identification and resolution. The distinction matters.
 
@@ -252,7 +293,7 @@ Zenodo's own policy distinguishes between *revocation* for out-of-scope content 
 
 ---
 
-## 11. Sovereign Counter-Infrastructure and Open Resources for Independent Researchers
+## 12. Sovereign Counter-Infrastructure and Open Resources for Independent Researchers
 
 On the day of the termination, the following counter-infrastructure was constructed [Observed]:
 
@@ -284,7 +325,7 @@ These are not proprietary tools. They are structural responses to structural vul
 
 ---
 
-## 12. Incident-Level Assessment Against TRUST and FAIR Principles
+## 13. Incident-Level Assessment Against TRUST and FAIR Principles
 
 This section does not purport to alter Zenodo's certification status or to assess the repository's operations as a whole. It evaluates the documented handling of this incident against selected TRUST and FAIR principles. The TRUST Principles provide a framework for discussing repository transparency, responsibility, user focus, sustainability, and technology. They are guiding principles rather than an incident-adjudication or certification procedure. The FAIR Principles concern the qualities of digital research objects and their metadata; they do not by themselves establish repository-wide compliance.
 
@@ -303,7 +344,7 @@ Resolution would require, at minimum: (1) identification of the governing enforc
 
 ---
 
-## 13. The Double Audience
+## 14. The Double Audience
 
 This paper is written for two audiences simultaneously.
 
@@ -319,7 +360,7 @@ A central component of Zenodo's public value is trust in the consistency, transp
 
 ---
 
-## 14. Conclusion and Falsification Conditions
+## 15. Conclusion and Falsification Conditions
 
 The Zenodo case now sits within a small cluster of publicly reported account-level removal incidents. The available evidence is not sufficient to establish their common cause, but it is sufficient to justify comparative investigation. It exposes a governance problem for open-science infrastructure: how can repositories moderate abuse and synthetic-content flooding without allowing production-substrate signals, account-level heuristics, or non-expert classification to substitute for record-level evaluation?
 
