@@ -1,3 +1,17 @@
+# Crimson Hexagonal Archive — Machine-Mediated Reception Studies
+# machinemediation.org
+# Sovereign data home for the Crimson Hexagonal Archive
+# All data directories are open to AI crawlers
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: ClaudeBot
+User-agent: Anthropic-ai
+Allow: /data/
+Allow: /ai-manifest.json
+Allow: /
+
 User-agent: *
 Allow: /
-Sitemap: https://machinemediation.org/sitemap.xml
