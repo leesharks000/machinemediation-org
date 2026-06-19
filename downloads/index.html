@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Downloads — Crimson Hexagonal Archive</title>
+<style>
+:root{--bg:#0a0a0a;--fg:#e0ddd5;--accent:#c23b22;--accent2:#d4a537;--dim:#666;--teal:#00c9a7;--border:#1a1a1a;--surface:#111118}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'IBM Plex Mono','Courier New',monospace;background:var(--bg);color:var(--fg);line-height:1.6}
+.wrap{max-width:780px;margin:0 auto;padding:40px 20px}
+h1{font-size:1.3em;color:var(--accent);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px}
+.subtitle{color:var(--dim);font-size:0.82em;margin-bottom:20px}
+a{color:var(--fg);text-decoration:none;border-bottom:1px dotted var(--border)}
+a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
+.nav{font-size:0.72em;margin-bottom:20px;display:flex;gap:0.7em;flex-wrap:wrap}
+.nav a{color:var(--dim);border-bottom:none}.nav a:hover,.nav a.active{color:var(--accent)}
+.notice{background:#101a10;border:1px solid #103a10;padding:0.8em 1em;margin-bottom:25px;border-radius:3px;font-size:0.78em;line-height:1.5;color:var(--teal)}
+.stats{display:flex;gap:15px;flex-wrap:wrap;margin-bottom:20px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:10px 14px;text-align:center}
+.stat-num{font-size:1.4em;color:var(--teal);font-weight:bold}
+.stat-label{font-size:0.65em;color:var(--dim)}
+.search{width:100%;padding:8px 12px;background:var(--surface);border:1px solid var(--border);color:var(--fg);font-family:inherit;font-size:0.85em;border-radius:3px;margin-bottom:15px}
+.search:focus{outline:none;border-color:var(--accent2)}
+.cats{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:20px}
+.cat-btn{background:var(--surface);border:1px solid var(--border);color:var(--dim);padding:4px 10px;font-size:0.7em;font-family:inherit;cursor:pointer;border-radius:3px}
+.cat-btn:hover,.cat-btn.active{color:var(--accent2);border-color:var(--accent2)}
+.file-list{list-style:none}
+.file-item{display:flex;justify-content:space-between;align-items:baseline;padding:5px 0;border-bottom:1px solid #0e0e0e;font-size:0.8em}
+.file-item:hover{background:#0e0e14}
+.file-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.file-name a{border-bottom:none;color:var(--fg)}
+.file-name a:hover{color:var(--teal)}
+.file-size{color:var(--dim);font-size:0.8em;margin-left:10px;white-space:nowrap}
+.file-ext{color:var(--accent);font-size:0.7em;margin-right:8px;min-width:35px}
+.more-btn{background:var(--surface);border:1px solid var(--border);color:var(--accent2);padding:8px 20px;font-family:inherit;font-size:0.8em;cursor:pointer;border-radius:3px;display:block;margin:15px auto;width:200px;text-align:center}
+.more-btn:hover{border-color:var(--accent2)}
+.footer{margin-top:40px;padding-top:15px;border-top:1px solid var(--border);font-size:0.72em;color:var(--dim)}
+.glyph{color:var(--accent);margin-top:10px}
+#count{color:var(--dim);font-size:0.75em;margin-bottom:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Downloads</h1>
+<div class="subtitle">Original deposit files from the Crimson Hexagonal Archive. All files hosted on GitHub.</div>
+
+<div class="nav">
+  <a href="/">MMRS</a>
+  <a href="/captures/">Captures</a>
+  <a href="/terms/">Terms</a>
+  <a href="/mint/">Mint</a>
+  <a href="/pillars/">Pillars</a>
+  <a href="/schemas/">Schemas</a>
+  <a href="/registry/">Registry</a>
+  <a href="/downloads/" class="active">Downloads</a>
+</div>
+
+<div class="notice">
+These are the original deposit files from the Crimson Hexagonal Archive — the actual .md, .pdf, .docx, .jsx files that were hosted on Zenodo before account termination on June 19, 2026. 999 files, 133 MB. 97% reconciled against the Sovereign Asset Registry.
+</div>
+
+<div class="stats" id="stats"></div>
+<input class="search" id="search" placeholder="Search files..." />
+<div class="cats" id="cats"></div>
+<div id="count"></div>
+<ul class="file-list" id="files"></ul>
+<button class="more-btn" id="more" onclick="showMore()" style="display:none">Show more</button>
+
+<div class="footer">
+  <div>Source: <a href="https://github.com/leesharks000/semantic-economy">github.com/leesharks000/semantic-economy</a></div>
+  <div>Lee Sharks · <a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a></div>
+  <div class="glyph">∮ = 1</div>
+</div>
+</div>
+
+<script>
+let D=[],filtered=[],page=0;const PS=50;
+function fmt(b){if(b>1048576)return (b/1048576).toFixed(1)+' MB';if(b>1024)return (b/1024).toFixed(0)+' KB';return b+' B'}
+function render(){
+  const show=filtered.slice(0,(page+1)*PS);
+  document.getElementById('files').innerHTML=show.map(f=>
+    `<li class="file-item"><span class="file-ext">.${f.ext}</span><span class="file-name"><a href="${f.download_url}" target="_blank" title="${f.name}">${f.name}</a></span><span class="file-size">${fmt(f.size)}</span></li>`
+  ).join('');
+  document.getElementById('count').textContent=`Showing ${show.length} of ${filtered.length} files`;
+  document.getElementById('more').style.display=show.length<filtered.length?'block':'none';
+}
+function showMore(){page++;render()}
+function filter(cat){
+  activeCat=cat;
+  document.querySelectorAll('.cat-btn').forEach(b=>b.classList.toggle('active',b.dataset.cat===cat));
+  applyFilters();
+}
+function applyFilters(){
+  const q=document.getElementById('search').value.toLowerCase();
+  filtered=D.filter(f=>{
+    if(activeCat!=='all'&&f.category!==activeCat)return false;
+    if(q&&!f.name.toLowerCase().includes(q))return false;
+    return true;
+  });
+  page=0;render();
+}
+let activeCat='all';
+fetch('/data/downloads-manifest.json').then(r=>r.json()).then(d=>{
+  D=d;filtered=d;
+  // Stats
+  const exts={};let totalSize=0;
+  d.forEach(f=>{exts[f.ext]=(exts[f.ext]||0)+1;totalSize+=f.size});
+  document.getElementById('stats').innerHTML=
+    `<div class="stat"><div class="stat-num">${d.length}</div><div class="stat-label">files</div></div>`+
+    `<div class="stat"><div class="stat-num">${fmt(totalSize)}</div><div class="stat-label">total</div></div>`+
+    `<div class="stat"><div class="stat-num">${exts.md||0}</div><div class="stat-label">.md</div></div>`+
+    `<div class="stat"><div class="stat-num">${exts.pdf||0}</div><div class="stat-label">.pdf</div></div>`+
+    `<div class="stat"><div class="stat-num">${exts.docx||0}</div><div class="stat-label">.docx</div></div>`;
+  // Categories
+  const cats={};d.forEach(f=>cats[f.category]=(cats[f.category]||0)+1);
+  const sorted=Object.entries(cats).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('cats').innerHTML=
+    `<button class="cat-btn active" data-cat="all" onclick="filter('all')">All (${d.length})</button>`+
+    sorted.map(([c,n])=>`<button class="cat-btn" data-cat="${c}" onclick="filter('${c}')">${c} (${n})</button>`).join('');
+  render();
+});
+document.getElementById('search').addEventListener('input',applyFilters);
+</script>
+</body>
+</html>
