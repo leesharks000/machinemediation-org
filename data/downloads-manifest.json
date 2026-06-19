@@ -12,7 +12,8 @@
     "size": 42090,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/01_BillOfRights_v2.2.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0071"
   },
   {
     "name": "01_The_Substrate_Burns.md",
@@ -83,7 +84,8 @@
     "size": 8094,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/05_SIM_BURN.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0130"
   },
   {
     "name": "06.NH.LUNAR.01_Screenrooms_and_Silver_Bullets.md",
@@ -474,7 +476,8 @@
     "size": 3899,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/AUTHOR%20%281%29.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "A_Body_Prepared.md",
@@ -3049,7 +3052,8 @@
     "size": 162089,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/FSA_WhitePaper_v2.2.pdf",
-    "category": "Major Works"
+    "category": "Major Works",
+    "registry_id": "MM-CHA-0140"
   },
   {
     "name": "FSA_WhitePaper_v2.2__19457943.pdf",
@@ -3096,28 +3100,32 @@
     "size": 39432,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/FearAndTremblingInLasVegas_FractalMidrashim.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0105"
   },
   {
     "name": "FromAtomismToTheSemanticCondition.md",
     "size": 12760,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/FromAtomismToTheSemanticCondition.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0303"
   },
   {
     "name": "FromYeezusToWalt_LiteraryHistory.md",
     "size": 14127,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/FromYeezusToWalt_LiteraryHistory.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0559"
   },
   {
     "name": "FromYeezusToWalt_LiteraryHistory__19720513.md",
     "size": 14127,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/FromYeezusToWalt_LiteraryHistory__19720513.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0559"
   },
   {
     "name": "From_House_to_Hexagon_EXPANDED_ARCHIVE.md",
@@ -3420,7 +3428,8 @@
     "size": 15370,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/GodelMidrashim.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0158"
   },
   {
     "name": "Google_AI_Traversal_Documentation (1).md",
@@ -3435,14 +3444,16 @@
     "size": 147464,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/GospelOfAntioch_ResearchEdition.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0127"
   },
   {
     "name": "GospelOfAntioch_ResearchEdition.pdf",
     "size": 226427,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/GospelOfAntioch_ResearchEdition.pdf",
-    "category": "Major Works"
+    "category": "Major Works",
+    "registry_id": "MM-CHA-0127"
   },
   {
     "name": "GospelOfAntioch_ResearchEdition__19709024.md",
@@ -3465,7 +3476,8 @@
     "size": 9174,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/GospelOfTheManyFacedBride.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0016"
   },
   {
     "name": "GovernanceAirlock_Sharks_2026.pdf",
@@ -3560,14 +3572,16 @@
     "size": 173132,
     "ext": "jsx",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/HexagonInterfaceResponsive_v2.0.jsx",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0096"
   },
   {
     "name": "HexagonInterfaceResponsive_v2.0__19460665.jsx",
     "size": 173132,
     "ext": "jsx",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/HexagonInterfaceResponsive_v2.0__19460665.jsx",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0096"
   },
   {
     "name": "Hexagon_Interface_Constitution_v2.0.md",
@@ -3718,7 +3732,8 @@
     "size": 79093,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/JCS_Vol1_No1.pdf",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0080"
   },
   {
     "name": "Journal_Charters_Crimson_Hexagon.md",
@@ -3789,7 +3804,8 @@
     "size": 913,
     "ext": "",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/LICENSE",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "LOS_HARDENING_SPECIFICATION.md",
@@ -3804,28 +3820,32 @@
     "size": 58736,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/LP_0.9_CANONICAL%20%281%29.md",
-    "category": "Logotic Programming"
+    "category": "Logotic Programming",
+    "registry_id": "MM-CHA-0116"
   },
   {
     "name": "LP_1.0_CANONICAL (1).md",
     "size": 37506,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/LP_1.0_CANONICAL%20%281%29.md",
-    "category": "Logotic Programming"
+    "category": "Logotic Programming",
+    "registry_id": "MM-CHA-0116"
   },
   {
     "name": "LP_1.1_CANONICAL.md",
     "size": 53647,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/LP_1.1_CANONICAL.md",
-    "category": "Logotic Programming"
+    "category": "Logotic Programming",
+    "registry_id": "MM-CHA-0116"
   },
   {
     "name": "LP_1.2_CANONICAL (1).md",
     "size": 51615,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/LP_1.2_CANONICAL%20%281%29.md",
-    "category": "Logotic Programming"
+    "category": "Logotic Programming",
+    "registry_id": "MM-CHA-0116"
   },
   {
     "name": "LP_v0.7_CONFORMANCE (1).md",
@@ -4000,7 +4020,8 @@
     "size": 19464,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/License_Alice_v3.0.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "License_Alice_v3.0_FULL.md",
@@ -4039,7 +4060,8 @@
     "size": 16769,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/License_Rhys_v3.0.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "License_Rhys_v3.0_FULL.md",
@@ -4478,7 +4500,8 @@
     "size": 24280,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/PHAINETAI_MOI.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "PHASE-X-PREPOSITIONAL-ALIENATION.md",
@@ -4613,28 +4636,32 @@
     "size": 9577,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/RA-PROT-0003-SIM-v1.0.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "RA-PROT-0003-SIM-v1.0.pdf",
     "size": 68497,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/RA-PROT-0003-SIM-v1.0.pdf",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "RA-PROT-0010-CDI-v1.0.md",
     "size": 9117,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/RA-PROT-0010-CDI-v1.0.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "RA-PROT-0010-CDI-v1.0.pdf",
     "size": 58992,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/RA-PROT-0010-CDI-v1.0.pdf",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "RA-PROT-0011-Drowning-Test-v1.0.md",
@@ -4665,21 +4692,24 @@
     "size": 5953,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/RABL_ZP.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "README (1).txt",
     "size": 2147,
     "ext": "txt",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/README%20%281%29.txt",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "README.md",
     "size": 15714,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/README.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "REX_FRACTION_ASW (1).md",
@@ -4886,7 +4916,8 @@
     "size": 8094,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/SIM_BURN.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0130"
   },
   {
     "name": "SIM_BURN__19512462.md",
@@ -4997,7 +5028,8 @@
     "size": 53958,
     "ext": "jsx",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/SecretBookOfWalt_App_v2.jsx",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "SecretBookOfWalt_App_v2__19739494.jsx",
@@ -5028,14 +5060,16 @@
     "size": 224365,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/SecretBookOfWalt_ResearchEdition.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "SecretBookOfWalt_ResearchEdition.pdf",
     "size": 306283,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/SecretBookOfWalt_ResearchEdition.pdf",
-    "category": "Major Works"
+    "category": "Major Works",
+    "registry_id": null
   },
   {
     "name": "SecretBookOfWalt_ResearchEdition__19739494.md",
@@ -5386,7 +5420,8 @@
     "size": 19475,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/SplitTheAdam_SongAndPhenomenology%20%281%29.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0133"
   },
   {
     "name": "Substrate_Competitive_Analysis_v3.2.md",
@@ -5561,7 +5596,8 @@
     "size": 6370,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/THE_MIRROR.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "THE_PERGAMON_RECLAMATION.pdf",
@@ -5576,7 +5612,8 @@
     "size": 989841,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/THE_PROBLEM.pdf",
-    "category": "Major Works"
+    "category": "Major Works",
+    "registry_id": null
   },
   {
     "name": "THE_PROBLEM__19578096.pdf",
@@ -5679,49 +5716,56 @@
     "size": 25827,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR-012.md",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR-012.pdf",
     "size": 80539,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR-012.pdf",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR008_NobelGlas_AdversarialTelemetry.md",
     "size": 39394,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR008_NobelGlas_AdversarialTelemetry.md",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR009_OrinTrace_EntityFabrication.md",
     "size": 26101,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR009_OrinTrace_EntityFabrication.md",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR009_OrinTrace_EntityFabrication.pdf",
     "size": 27742,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR009_OrinTrace_EntityFabrication.pdf",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR010_OrinTrace_SemanticOverride.md",
     "size": 26795,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR010_OrinTrace_SemanticOverride.md",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR010_OrinTrace_SemanticOverride.pdf",
     "size": 29001,
     "ext": "pdf",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TLDR010_OrinTrace_SemanticOverride.pdf",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TLDR_Operative_Philology_in_the_Wild_v1.1.pdf",
@@ -5760,14 +5804,16 @@
     "size": 31812,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TRAVLOG006_TalosMorrow_GenerativeInstallation%20%282%29.md",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TRAVLOG007_SparrowWells_PatacinematicHabitation (1).md",
     "size": 43200,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TRAVLOG007_SparrowWells_PatacinematicHabitation%20%281%29.md",
-    "category": "Traversal Logs"
+    "category": "Traversal Logs",
+    "registry_id": null
   },
   {
     "name": "TREND_TWENTY_DOLLAR_LOOP (3).md",
@@ -5886,14 +5932,16 @@
     "size": 25932,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TheStakes_SCI%20%281%29.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "TheUnmadeSign_FINAL.md",
     "size": 45915,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TheUnmadeSign_FINAL.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "The_2_Ply_Inferno.md",
@@ -6212,7 +6260,8 @@
     "size": 11155,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/ThousandWorldsChamber_Spec.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "Three_Sigil_Precursors_Proto_RCF (1).pdf",
@@ -6235,7 +6284,8 @@
     "size": 60938,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TraversalLog_GoogleAIMode_AyannaVox.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "TraversalLog_GoogleAIMode_CSA.md",
@@ -6250,21 +6300,24 @@
     "size": 16024,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TraversalLog_GoogleAIMode_PaperRoses.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "TraversalLog_GoogleAIMode_RexFraction.md",
     "size": 22557,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TraversalLog_GoogleAIMode_RexFraction.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "TraversalLog_GoogleAIMode_SenKuro.md",
     "size": 14552,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/TraversalLog_GoogleAIMode_SenKuro.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "Traversal_Log_Sigil_Installation.md",
@@ -6279,7 +6332,8 @@
     "size": 16750,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/UKTP_v1.1.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "UNBUNDLING_CULTURAL_SOVEREIGNTY_v1.1.md",
@@ -7006,7 +7060,8 @@
     "size": 1678796,
     "ext": "docx",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/cleis.docx",
-    "category": "Major Works"
+    "category": "Major Works",
+    "registry_id": "MM-CHA-0389"
   },
   {
     "name": "closecard-patent-poem-v1.1.md",
@@ -7101,14 +7156,16 @@
     "size": 6747,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/corgi_essay_packet.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "corgi_revisited_packet.md",
     "size": 6555,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/corgi_revisited_packet.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "cos_fos_distinction_protocol (3).md",
@@ -7187,7 +7244,8 @@
     "size": 20416,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/cpd_maria_final.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "crimson-hexagonal-interface-v2.0.tar.gz",
@@ -7402,7 +7460,8 @@
     "size": 1986468,
     "ext": "png",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/e7e90b59-65e1-4944-9609-0908b6b2c9f8.png",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "effective-acts-substack.md",
@@ -7681,7 +7740,8 @@
     "size": 8886,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/fos_decree_v1.0-rc1%20%281%29.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0126"
   },
   {
     "name": "fourth_mode_sigil.md",
@@ -7696,7 +7756,8 @@
     "size": 6291,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/front_door_explainer.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": "MM-CHA-0086"
   },
   {
     "name": "full-archive-scan-records.json",
@@ -7767,14 +7828,16 @@
     "size": 239188,
     "ext": "csv",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/graph_edges.csv",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "gravityWellAdapter.js",
     "size": 4427,
     "ext": "js",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/gravityWellAdapter.js",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "gravityWellAdapter__19460734.js",
@@ -7845,7 +7908,8 @@
     "size": 7710,
     "ext": "md",
     "download_url": "https://raw.githubusercontent.com/leesharks000/semantic-economy/main/handbook_packet.md",
-    "category": "Archive"
+    "category": "Archive",
+    "registry_id": null
   },
   {
     "name": "hauntedmemes-wikidata-node-registry-v1.0.md",
