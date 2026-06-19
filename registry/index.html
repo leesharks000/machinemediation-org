@@ -124,7 +124,7 @@ function go(){
   filtered=D.assets.filter(a=>{
     if(filt!=='all'&&a.network_status!==filt)return false;
     const doi=a.latest_doi||a.historical_doi||'';
-    if(q&&!a.title.toLowerCase().includes(q)&&!doi.includes(q)&&!a.sovereign_id.toLowerCase().includes(q)&&!(a.content_type||'').includes(q))return false;
+    if(q&&!a.title.toLowerCase().includes(q)&&!doi.includes(q)&&!a.sovereign_id.toLowerCase().includes(q)&&!(a.content_type||'').includes(q)&&!(a.text_preview||'').toLowerCase().includes(q))return false;
     return true;
   });
   // Sort
@@ -177,6 +177,7 @@ function render(){
         <div class="doi-row">Date: ${a.date||'unknown'}</div>
         <div class="doi-row">Network Status: <span class="status-${a.network_status}">${a.network_status}</span></div>
         <div class="doi-row">Sources: ${(a.sources_recovered_from||[]).join(', ')||'unknown'}</div>
+        ${a.text_preview ? '<div class="detail-label">Content Preview ('+((a.word_count||0).toLocaleString())+' words)</div><div style="font-size:0.78em;line-height:1.55;color:#c8c4be;max-height:20em;overflow-y:auto;white-space:pre-wrap;padding:0.6em;background:#0a0a12;border-radius:3px;margin-bottom:0.8em">'+a.text_preview.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</div>'+(a.full_text_url?'<div class="doi-row"><a href="'+a.full_text_url+'" target="_blank">Read full text on blog \u2192</a></div>':'') : ''}
         ${vHtml}${mHtml}
       </div>
     </div>`;
