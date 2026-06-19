@@ -1,6 +1,8 @@
-# Loud Exclusion at Repository Scale
+# Zenodotus' Book-Burning
 
-## The Obelus Without Reading: Network Erasure, Substrate Bias, and the Governance of AI-Assisted Scholarship
+## Loud Exclusion at Repository Scale: The Obelus Without Reading
+
+### Network Erasure, Substrate Bias, and the Governance of AI-Assisted Scholarship
 
 **Lee Sharks**
 Crimson Hexagonal Archive / Machine-Mediated Reception Studies
