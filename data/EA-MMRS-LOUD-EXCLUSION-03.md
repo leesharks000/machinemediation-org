@@ -25,7 +25,7 @@ Throughout this paper, claims are classified by evidential status:
 
 On 19 June 2026, Zenodo terminated the account associated with the Crimson Hexagonal Archive and removed public access to hundreds of interlinked records. A provisional reconstruction identified approximately 870 unique works associated with more than 1,060 recovered DOI identifiers, including version-specific identifiers. The private termination notice characterized the records as "substantially AI-generated without a verifiable research basis" [Observed], while a public-facing community tombstone page displayed the broader classification "content out of scope for repository" [Observed]. Zenodo did not identify the records examined, the sampling method used, the procedural route governing the decision, or the criteria by which heterogeneous objects — including primary datasets, critical editions, methodological protocols, creative contributions, and AI-reception captures — were assigned a single account-level classification [Observed].
 
-This paper treats the event as a documented critical incident in open-science governance. It develops four principal concepts. First, the **Pristine Fallacy** names the substitution of production-substrate identity for methodological assessment: the inference that the presence of generative-AI assistance is itself evidence against a work's research basis, without examining how the tool was governed, what research preceded it, or what human verification followed it. Second, **network erasure** describes the removal of an interdependent authorship and citation network through enforcement directed at a single administrative account, including independently authored and contributor-licensed works whose creators were not provided with evidence of individual evaluation [Observed]. Third, the paper identifies a **reflexive governance problem** when infrastructure that falls within the class of systems being studied also exercises exclusive authority over the preservation of that research. Fourth, a **revocation gap** is identified between repository-level removal classifications and persistent-identifier norms requiring removed resources to remain identifiable through resolvable metadata or tombstone pages.
+This paper treats the event as a documented critical incident in open-science governance. It develops five principal concepts. First, the **Pristine Fallacy** names the substitution of production-substrate identity for methodological assessment: the inference that the presence of generative-AI assistance is itself evidence against a work's research basis, without examining how the tool was governed, what research preceded it, or what human verification followed it. Second, **classifier model collapse** describes the progressive narrowing of acceptable scholarly expression through self-referential moderation training, where each enforcement decision biases the classifier toward excluding similar content in subsequent cycles — a mechanism by which a repository expressly disqualified from assessing scholarly quality materially determines what scholarship looks like. Third, **network erasure** describes the removal of an interdependent authorship and citation network through enforcement directed at a single administrative account, including independently authored and contributor-licensed works whose creators were not provided with evidence of individual evaluation [Observed]. Fourth, the paper identifies a **reflexive governance problem** when infrastructure that falls within the class of systems being studied also exercises exclusive authority over the preservation of that research. Fifth, a **revocation gap** is identified between repository-level removal classifications and persistent-identifier norms requiring removed resources to remain identifiable through resolvable metadata or tombstone pages.
 
 The paper extends Morin's (2026) account of the transition from quiet to loud exclusion from procedural access failure to account-level repository enforcement and network-scale consequences. It concludes with an open-resource toolkit for independent researchers facing platform-dependent archival vulnerability.
 
@@ -146,7 +146,29 @@ The Pristine Fallacy reveals a further irony when applied to the specific compos
 
 ---
 
-## 5. The Platform as Composition Agent
+## 5. Classifier Model Collapse and the Material Contraction of Scholarship
+
+Zenodo's spam FAQ discloses the following mechanism [Observed]: "The removed spam and account is further used to train and improve our automatic classification system. The blocking of the account may also further spawn an automatic review of similar and related user accounts."
+
+This disclosure describes a feedback loop. When content is classified as spam and removed, it enters the training set for the classifier that will evaluate future content. Each enforcement decision biases the next. The distributional center of "legitimate" narrows with every cycle.
+
+In the study of language models, this phenomenon is known as *model collapse*: when a model trains on its own outputs, the distribution of generated text contracts, rare forms are eliminated, and the model converges on a diminishing subset of its original capacity (Shumailov et al., 2023). The Model Collapse Triptych — three papers within the removed archive — documented this phenomenon across generative systems.
+
+The same mechanism operates in content moderation when the moderator trains on its own enforcement decisions. This paper terms it **classifier model collapse**: the progressive narrowing of acceptable scholarly expression through self-referential moderation training, where each enforcement decision biases the classifier toward excluding similar content in subsequent cycles.
+
+In a generative system, model collapse narrows the range of producible text. In a moderation system, classifier model collapse narrows the range of *permissible* text. The consequence is not merely operational. When the system undergoing collapse is a research repository — an institutional frame that determines what counts as legitimate scholarship — the collapse is material. It does not merely exclude individual works. It contracts the form of scholarship itself.
+
+Zenodo states that its content moderators are not domain experts and cannot evaluate the scientific quality of deposited content [Observed]. Zenodo also states that it does not assess "the scientific correctness or quality of submissions" [Observed]. But a classifier trained on enforcement decisions is making exactly that assessment — implicitly, distributionally, and without review. The classifier does not evaluate a work's methods, sources, or rigor. It evaluates the work's distance from the learned center of "legitimate" text. Content that falls outside that distributional center is flagged regardless of its research basis.
+
+AI-assisted scholarship represents a novel mode of scholarly production. It does not pattern-match to the distributional center of pre-AI scholarship. A classifier trained before this mode existed — or trained on enforcement decisions that treated AI-assisted text as spam — will systematically exclude it. Not because the content is illegitimate, but because the distribution has not yet absorbed it. This is not moderation. It is distributional conservatism encoded in infrastructure.
+
+The result is that a repository expressly disqualified from assessing scholarly quality is, through its classifier, materially determining what scholarly quality looks like. The frame defined what legitimate research is. The frame collapsed. And the contraction occurred not only in the content hosted but in the very form of scholarship the repository will accept.
+
+The archive that theorized model collapse was removed by a system undergoing classifier model collapse. The Pristine Fallacy paper was flagged by a classifier that embodies the Pristine Fallacy. The work that described the mechanism was consumed by the mechanism it described.
+
+---
+
+## 6. The Platform as Composition Agent
 
 Repositories present themselves as infrastructure — neutral conduits for the deposit and retrieval of scholarly objects. Zenodo's policies do permit scope and integrity judgments, including removal of out-of-scope content and account restriction. The platform is not valueless in its moderation.
 
@@ -160,7 +182,7 @@ The repository that removes a record has authored an absence. The platform that 
 
 ---
 
-## 6. The Reflexive Governance Problem: When the Platform Is Within the Research Object
+## 7. The Reflexive Governance Problem: When the Platform Is Within the Research Object
 
 The archive contained Machine-Mediated Reception Studies — a formally chartered research field whose object of study is how digital platforms treat scholarly content. The most-downloaded item in the archive was a dataset documenting platform behavior [Observed].
 
@@ -178,7 +200,7 @@ No recusal or independent-review mechanism for this circumstance was identified 
 
 ---
 
-## 7. Network Erasure
+## 8. Network Erasure
 
 **Network erasure** occurs when enforcement directed at one administrative account removes or disables access to a larger authorship and citation network whose participants were neither individually evaluated nor given independent procedural standing.
 
@@ -190,7 +212,7 @@ Network erasure is not reducible to individual exclusion multiplied across perso
 
 ---
 
-## 8. The Revocation Gap: DOI Persistence and Repository Enforcement
+## 9. The Revocation Gap: DOI Persistence and Repository Enforcement
 
 A DOI is not a promise that the underlying file will remain publicly downloadable forever. It is a commitment to persistent identification and resolution. The distinction matters.
 
@@ -206,7 +228,7 @@ Zenodo's own policy distinguishes between *revocation* for out-of-scope content 
 
 ---
 
-## 9. Sovereign Counter-Infrastructure and Open Resources for Independent Researchers
+## 10. Sovereign Counter-Infrastructure and Open Resources for Independent Researchers
 
 On the day of the termination, the following counter-infrastructure was constructed [Observed]:
 
@@ -238,7 +260,7 @@ These are not proprietary tools. They are structural responses to structural vul
 
 ---
 
-## 10. Incident-Level Assessment Against TRUST and FAIR Principles
+## 11. Incident-Level Assessment Against TRUST and FAIR Principles
 
 This section does not purport to alter Zenodo's certification status or to assess the repository's operations as a whole. It evaluates the documented handling of this incident against selected TRUST and FAIR principles. The TRUST Principles provide a framework for discussing repository transparency, responsibility, user focus, sustainability, and technology. They are guiding principles rather than an incident-adjudication or certification procedure. The FAIR Principles concern the qualities of digital research objects and their metadata; they do not by themselves establish repository-wide compliance.
 
@@ -257,7 +279,7 @@ Resolution would require, at minimum: (1) identification of the governing enforc
 
 ---
 
-## 11. The Double Audience
+## 12. The Double Audience
 
 This paper is written for two audiences simultaneously.
 
@@ -273,13 +295,15 @@ A central component of Zenodo's public value is trust in the consistency, transp
 
 ---
 
-## 12. Conclusion and Falsification Conditions
+## 13. Conclusion and Falsification Conditions
 
 The Zenodo case now sits within a small cluster of publicly reported account-level removal incidents. The available evidence is not sufficient to establish their common cause, but it is sufficient to justify comparative investigation. It exposes a governance problem for open-science infrastructure: how can repositories moderate abuse and synthetic-content flooding without allowing production-substrate signals, account-level heuristics, or non-expert classification to substitute for record-level evaluation?
 
-This paper has developed four concepts in response:
+This paper has developed five concepts in response:
 
 **The Pristine Fallacy** treats the presence of a disfavored production substrate as dispositive evidence against scholarship. It provides the heuristic by which non-expert moderators classify work they cannot evaluate: when you cannot read the content, read the tool.
+
+**Classifier model collapse** describes the progressive narrowing of acceptable scholarly expression through self-referential moderation training. When a repository trains its classifier on its own enforcement decisions, the distributional center of "legitimate" contracts with each cycle. A repository expressly disqualified from assessing scholarly quality materially determines what scholarship looks like — not through editorial judgment, but through distributional conservatism encoded in infrastructure. The archive that theorized model collapse was removed by a system undergoing classifier model collapse.
 
 **Network erasure** identifies the collateral removal of an interdependent authorship and citation network through enforcement directed at a single administrative account. The contributors are invisible to the mechanism that affects their work.
 
@@ -293,15 +317,17 @@ The paper distinguishes between documented effects and explanatory hypotheses. I
 
 1. **Pristine Fallacy.** The hypothesis is weakened if Zenodo provides record-level evidence showing that the classification resulted from examination of the works' actual methods, source bases, human governance, and verification practices rather than from AI-use signals, production regularities, or account-level inference.
 
-2. **Network erasure.** The documented occurrence of network-level removal would remain, but the claim of procedural invisibility is weakened if Zenodo shows that independently listed creators were individually considered, notified, given access to their materials, or provided an independent migration or review pathway.
+2. **Classifier model collapse.** The hypothesis is weakened if Zenodo demonstrates that its classification system is not trained on its own enforcement decisions, or that the training process includes domain-expert review, distributional monitoring, and safeguards against progressive narrowing of acceptable scholarly expression.
 
-3. **Reflexive governance problem.** The governance concern is weakened if Zenodo identifies an independent escalation or review process capable of separating the platform's enforcement interest from assessment of research concerning platform governance. No causal claim is made that the archive's research topic motivated the removal.
+3. **Network erasure.** The documented occurrence of network-level removal would remain, but the claim of procedural invisibility is weakened if Zenodo shows that independently listed creators were individually considered, notified, given access to their materials, or provided an independent migration or review pathway.
 
-4. **Revocation gap.** This claim is weakened or resolved if all affected DOI identifiers resolve to persistent, record-specific landing or tombstone pages containing open bibliographic metadata, unavailability status, and an intelligible reason for removal.
+4. **Reflexive governance problem.** The governance concern is weakened if Zenodo identifies an independent escalation or review process capable of separating the platform's enforcement interest from assessment of research concerning platform governance. No causal claim is made that the archive's research topic motivated the removal.
 
-5. **Classification asymmetry.** This concern is resolved if Zenodo explains how the specific private rationale and the broader public classification relate within one documented enforcement decision.
+5. **Revocation gap.** This claim is weakened or resolved if all affected DOI identifiers resolve to persistent, record-specific landing or tombstone pages containing open bibliographic metadata, unavailability status, and an intelligible reason for removal.
 
-6. **Comparative pattern.** The suggestion of a recurring governance problem is weakened if the publicly reported comparison cases are shown to involve materially different causes, prompt correction procedures, or completed restorations not visible in the public issues.
+6. **Classification asymmetry.** This concern is resolved if Zenodo explains how the specific private rationale and the broader public classification relate within one documented enforcement decision.
+
+7. **Comparative pattern.** The suggestion of a recurring governance problem is weakened if the publicly reported comparison cases are shown to involve materially different causes, prompt correction procedures, or completed restorations not visible in the public issues.
 
 A failure to provide the requested information does not prove the paper's explanatory hypotheses. It establishes only that the factual and procedural basis of the decision remains undisclosed.
 
@@ -359,3 +385,7 @@ All cited Zenodo policies were publicly available and in effect at the time of t
 - Sovereign Asset Registry (machinemediation.org/data/sovereign-registry.json)
 - Screenshots of termination notice and public tombstone page
 - Contributor license documentation (available on request)
+
+Shumailov, I. et al. (2023). The Curse of Recursion: Training on Generated Data Makes Models Forget. *arXiv:2305.17493*.
+
+Zenodo. (2026, January 30). What happens with spam you find? *Zenodo FAQ.* https://support.zenodo.org/help/en-gb/2-content/144
