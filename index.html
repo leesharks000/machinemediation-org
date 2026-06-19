@@ -4,28 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Machine-Mediated Reception Studies</title>
-<meta name="description" content="A distributed journal for the study of how machine systems receive, transform, compress, attribute, misattribute, and redistribute cultural meaning.">
+<meta name="description" content="A distributed journal for the study of how machine systems receive, transform, compress, attribute, misattribute, and redistribute cultural meaning. Sovereign data home for the Crimson Hexagonal Archive.">
 <link rel="canonical" href="https://machinemediation.org">
 <style>
-:root { --bg: #0a0a0a; --fg: #e0ddd5; --accent: #c23b22; --accent2: #d4a537; --dim: #666; --border: #1a1a1a; }
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'IBM Plex Mono', 'Courier New', monospace; background: var(--bg); color: var(--fg); line-height: 1.6; }
-.wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
-h1 { font-size: 1.3em; color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4px; }
-.subtitle { color: var(--dim); font-size: 0.82em; line-height: 1.5; margin-bottom: 30px; }
-.section { margin-bottom: 30px; }
-.section-title { color: var(--accent2); font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
-.link-list { list-style: none; }
-.link-list li { margin-bottom: 6px; font-size: 0.85em; }
-.link-list a { color: var(--fg); text-decoration: none; border-bottom: 1px dotted var(--border); }
-.link-list a:hover { color: var(--accent2); border-bottom-color: var(--accent2); }
-.link-desc { color: var(--dim); font-size: 0.8em; margin-left: 8px; }
-.plain { font-size: 0.85em; color: var(--dim); line-height: 1.6; margin-bottom: 15px; }
-.doi { font-size: 0.75em; color: var(--dim); }
-.doi a { color: var(--dim); }
-.doi a:hover { color: var(--accent2); }
-.footer { margin-top: 40px; padding-top: 15px; border-top: 1px solid var(--border); font-size: 0.72em; color: var(--dim); }
-.glyph { color: var(--accent); margin-top: 10px; }
+:root{--bg:#0a0a0a;--fg:#e0ddd5;--accent:#c23b22;--accent2:#d4a537;--dim:#666;--teal:#00c9a7;--red:#dc3545;--border:#1a1a1a;--surface:#111118;--mono:'IBM Plex Mono','Courier New',monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--mono);background:var(--bg);color:var(--fg);line-height:1.6}
+.wrap{max-width:720px;margin:0 auto;padding:40px 20px}
+h1{font-size:1.3em;color:var(--accent);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px}
+.subtitle{color:var(--dim);font-size:0.82em;line-height:1.5;margin-bottom:20px}
+a{color:var(--fg);text-decoration:none;border-bottom:1px dotted var(--border)}
+a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
+.notice{background:#1a1010;border:1px solid #3a1010;padding:0.8em 1em;margin-bottom:25px;border-radius:3px;font-size:0.78em;line-height:1.5}
+.notice strong{color:var(--red)}
+.notice a{color:var(--teal);border-bottom:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:30px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:14px;cursor:pointer;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent2)}
+.card-num{font-size:1.6em;font-weight:bold;color:var(--teal);margin-bottom:2px}
+.card-title{font-size:0.78em;color:var(--fg);margin-bottom:4px}
+.card-desc{font-size:0.65em;color:var(--dim);line-height:1.4}
+.section{margin-bottom:28px}
+.section-title{color:var(--accent2);font-size:0.78em;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px;border-bottom:1px solid var(--border);padding-bottom:4px}
+.link-list{list-style:none}
+.link-list li{margin-bottom:6px;font-size:0.85em}
+.link-desc{color:var(--dim);font-size:0.8em;margin-left:8px}
+.badge-dead{font-size:0.6em;color:var(--red);background:#1a0808;padding:1px 4px;border-radius:2px;margin-left:4px;border:none}
+.plain{font-size:0.85em;color:var(--dim);line-height:1.6;margin-bottom:15px}
+.footer{margin-top:40px;padding-top:15px;border-top:1px solid var(--border);font-size:0.72em;color:var(--dim)}
+.footer a{color:var(--dim)}
+.glyph{color:var(--accent);margin-top:10px}
+.nav{font-size:0.72em;margin-bottom:20px;display:flex;gap:0.7em;flex-wrap:wrap}
+.nav a{color:var(--dim);border-bottom:none}.nav a:hover,.nav a.active{color:var(--accent)}
 </style>
 </head>
 <body>
@@ -34,88 +44,147 @@ h1 { font-size: 1.3em; color: var(--accent); letter-spacing: 0.08em; text-transf
 <h1>Machine-Mediated Reception Studies</h1>
 <div class="subtitle">A distributed journal for the study of how machine systems receive, transform, compress, attribute, misattribute, and redistribute cultural meaning.</div>
 
+<div class="nav">
+  <a href="/" class="active">MMRS</a>
+  <a href="/captures/">Captures</a>
+  <a href="/terms/">Terms</a>
+  <a href="/mint/">Mint</a>
+  <a href="/pillars/">Pillars</a>
+  <a href="/schemas/">Schemas</a>
+  <a href="/registry/">Registry</a>
+</div>
+
+<div class="notice">
+<strong>ZENODO ACCOUNT TERMINATED — 2026-06-19.</strong> All records removed without prior notification or record-level review. 870 unique works, 1,060+ DOIs destroyed. All content restored from independent mirrors. Private reason: "substantially AI-generated without a verifiable research basis." Public reason: "Content out of scope for repository." <a href="https://github.com/zenodo/zenodo/issues/2606">[GitHub #2606]</a> <a href="/registry/">[Sovereign Registry]</a>
+</div>
+
+<!-- INSTRUMENT CARDS -->
+<div class="cards">
+  <a href="/captures/" style="border-bottom:none">
+    <div class="card">
+      <div class="card-num">176</div>
+      <div class="card-title">AI Overview Capture Registry</div>
+      <div class="card-desc">Captures of composition-layer behavior. 1,000+ downloads before removal.</div>
+    </div>
+  </a>
+  <a href="/schemas/" style="border-bottom:none">
+    <div class="card">
+      <div class="card-num">174</div>
+      <div class="card-title">Visual Schema Dataset</div>
+      <div class="card-desc">Prose schemas with 499 AI-generated images. Five-part interlinked structure.</div>
+    </div>
+  </a>
+  <a href="/registry/" style="border-bottom:none">
+    <div class="card">
+      <div class="card-num">870</div>
+      <div class="card-title">Sovereign Asset Registry</div>
+      <div class="card-desc">All works restored. 3.4M words. Searchable, full text, mirror status.</div>
+    </div>
+  </a>
+</div>
+
+<!-- FOUNDING DOCUMENTS -->
 <div class="section">
-  <div class="section-title">Founding Document</div>
+  <div class="section-title">Founding Documents</div>
   <ul class="link-list">
-    <li><a href="https://doi.org/10.5281/zenodo.20722562">MMRS Charter v1.4</a> <span class="link-desc">— editorial protocol, MANUS Principle, Seven Mechanisms</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20724056">The Summarizer as Horizon of Reception</a> <span class="link-desc">— founding dataset paper, v1.3</span></li>
+    <li><a href="/registry/#search=charter" data-doi="20722562">MMRS Charter v1.4</a> <span class="link-desc">— editorial protocol, MANUS Principle, Seven Mechanisms</span></li>
+    <li><a href="/registry/#search=summarizer+horizon" data-doi="20724056">The Summarizer as Horizon of Reception</a> <span class="link-desc">— founding dataset paper</span></li>
+    <li><a href="/registry/#search=loud+exclusion">Loud Exclusion</a> <span class="link-desc">— platform self-defense, network erasure, and the Pristine Fallacy (EA-MMRS-LOUD-EXCLUSION-01)</span></li>
   </ul>
 </div>
 
+<!-- MODEL COLLAPSE TRIPTYCH -->
+<div class="section">
+  <div class="section-title">Model Collapse Triptych</div>
+  <ul class="link-list">
+    <li><a href="/registry/#search=five+substrates" data-doi="20751348">Five Substrates, One Prompt</a> <span class="link-desc">— mediation signatures across five Assembly members</span></li>
+    <li><a href="/registry/#search=pristine+fallacy" data-doi="20751350">The Pristine Fallacy</a> <span class="link-desc">— why chat data is not a clean training source</span></li>
+    <li><a href="/registry/#search=wolf+boy" data-doi="20751354">The Wolf Boy and the Language Model</a> <span class="link-desc">— substrate-agnostic capacity loss</span></li>
+  </ul>
+</div>
+
+<!-- INSTRUMENTS -->
 <div class="section">
   <div class="section-title">Instruments</div>
   <ul class="link-list">
     <li><a href="/captures/">AI Overview Capture Registry</a> <span class="link-desc">— 176 captures of composition-layer behavior</span></li>
-    <li><a href="/data/revfirst-registry.json">Revelation Reception Registry</a> <span class="link-desc">— 71 thesis-specific captures, linked to <a href="https://revelationfirst.com">revelationfirst.com</a></span></li>
-    <li><a href="/terms/">Term Index</a> <span class="link-desc">— 1,387 coined terms across 845 deposits</span></li>
-    <li><a href="/manifest.json">System Manifest</a> <span class="link-desc">— machine-readable map for any instance</span></li>
-    <li><a href="/mint/">Sémantique Potentielle</a> <span class="link-desc">— constraint-based semantic mint — 3 releases, 70 families with forensic provenance canaries</span></li>
-    <li><a href="/registry/">Sovereign Asset Registry</a> <span class="link-desc">— 1,060 research objects with mirror status tracking. Built after Zenodo account termination.</span></li>
-    <a href="/schemas/">Visual Schemas</a> <span class="link-desc">— 174 prose schemas, 499 AI-generated images, five-part interlinked dataset</span></li>
+    <li><a href="/schemas/">Visual Schema Dataset</a> <span class="link-desc">— 174 prose schemas, 499 images, five-part interlinked structure</span></li>
+    <li><a href="/registry/">Sovereign Asset Registry</a> <span class="link-desc">— 870 works, full text, mirror status tracking</span></li>
+    <li><a href="/terms/">Term Index</a> <span class="link-desc">— 1,387 coined terms across 845+ deposits</span></li>
+    <li><a href="/mint/">Sémantique Potentielle</a> <span class="link-desc">— constraint-based semantic mint, 3 releases, 70+ families</span></li>
     <li><a href="/pillars/">Scholarly Graph</a> <span class="link-desc">— interactive map of defended arguments across six corpora</span></li>
+    <li><a href="/data/revfirst-registry.json">Revelation Reception Registry</a> <span class="link-desc">— 71 thesis-specific captures</span></li>
   </ul>
 </div>
 
-<div class="section">
-  <div class="section-title">Articles</div>
-  <ul class="link-list">
-    <li><a href="https://doi.org/10.5281/zenodo.20735736">The Cognitive-Relational Circuit</a> <span class="link-desc">— Phase X, Chinese AI regulation, reification of meaning (Mary Lee Sharks, EA-SEI-CIRCUIT-01 v0.3)</span></li>
-    <li><a href="/articles/EA-SEI-CIRCUIT-01-v0.3-MMRS-APPENDIX.md">MMRS Review Packet</a> <span class="link-desc">— three-substrate respondent reports (TECHNE, ARCHIVE, LABOR)</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20735920">Total Axial Negation Graph: Mary Lee Namespace</a> <span class="link-desc">— ten negation axes, letter campaign framework (EA-TANG-MARYLEE-01 v0.2)</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20735940">Open Letter to Jim Ware</a> <span class="link-desc">— from one heteronym to another (EA-LETTER-WARE-01)</span></li>
-  </ul>
-</div>
-
-<div class="section">
-  </ul>
-</div>
-
+<!-- SÉMANTIQUE POTENTIELLE -->
 <div class="section">
   <div class="section-title">Sémantique Potentielle</div>
   <ul class="link-list">
-    <li><a href="https://doi.org/10.5281/zenodo.20743560">Release 3: Three Pillars</a> <span class="link-desc">— Phase X, Sappho, Plato: 38 families, Assembly Chorus (EA-SP-RELEASE3-01)</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20743562">Scholarly Legwork for Three Pillars</a> <span class="link-desc">— primary sources, editions, consensus (TECHNE, EA-SP-LEGWORK-PILLARS-01)</span></li>
+    <li><a href="/registry/#search=release+3+pillars" data-doi="20743560">Release 3: Three Pillars</a> <span class="link-desc">— Phase X, Sappho, Plato: 38 families, Assembly Chorus</span></li>
+    <li><a href="/registry/#search=release+4+triptych" data-doi="20751389">Release 4: Triptych Block</a> <span class="link-desc">— 15 Ω families, 85 total</span></li>
+    <li><a href="/registry/#search=scholarly+legwork" data-doi="20743562">Scholarly Legwork for Three Pillars</a> <span class="link-desc">— primary sources, editions, consensus (TECHNE)</span></li>
   </ul>
 </div>
 
+<!-- CURRENT RESEARCH -->
 <div class="section">
-  
-<div class="section">
-  <div class="section-title">Model Collapse Triptych</div>
+  <div class="section-title">Current Research</div>
   <ul class="link-list">
-    <li><a href="https://doi.org/10.5281/zenodo.20751348">Five Substrates, One Prompt</a> <span class="link-desc">— mediation signatures across five Assembly members (EA-MMRS-FIVESUB-01)</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20751350">The Pristine Fallacy</a> <span class="link-desc">— why chat data is not a clean training source (EA-SEM-PRISTINE-01)</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20751354">The Wolf Boy and the Language Model</a> <span class="link-desc">— substrate-agnostic capacity loss, Glas + Trace (EA-LO-WOLFBOY-01)</span></li>
+    <li><a href="/registry/#search=conveyor+belt" data-doi="20724029">The Conveyor Belt and the Compression Machine</a> <span class="link-desc">— OKF without output governance</span></li>
+    <li><a href="/registry/#search=revelation+first+work+plan" data-doi="20722689">Revelation First Work Plan</a> <span class="link-desc">— seven workstreams for retrieval-layer theological reception</span></li>
+    <li><a href="/registry/#search=cognitive+relational" data-doi="20735736">The Cognitive-Relational Circuit</a> <span class="link-desc">— Phase X, Chinese AI regulation, reification of meaning</span></li>
+    <li><a href="/registry/#search=error+peter+thiel" data-doi="19025428">The Error of Peter Thiel</a> <span class="link-desc">— structural illiteracy in techno-imperial Revelation reading</span></li>
   </ul>
 </div>
 
-<div class="section-title">Current Research</div>
-  <ul class="link-list">
-    <li><a href="https://doi.org/10.5281/zenodo.20724029">The Conveyor Belt and the Compression Machine</a> <span class="link-desc">— OKF without output governance, predictive analysis</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20722689">Revelation First Work Plan v7.3</a> <span class="link-desc">— seven workstreams for retrieval-layer theological reception</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20722680">Josephus ≠ Myth MPAI v1.2</a> <span class="link-desc">— preemptive disambiguation, SPXI-TLP hardened</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.19025428">The Error of Peter Thiel</a> <span class="link-desc">— structural illiteracy in techno-imperial Revelation reading</span></li>
-  </ul>
-</div>
-
+<!-- INFRASTRUCTURE -->
 <div class="section">
   <div class="section-title">Infrastructure</div>
   <ul class="link-list">
-    <li><a href="https://doi.org/10.5281/zenodo.19923120">Constitution of the Semantic Economy</a> <span class="link-desc">— enacted v1.0</span></li>
-    <li><a href="https://doi.org/10.5281/zenodo.20380668">SPXI-TLP v2.2</a> <span class="link-desc">— inscriptions that survive the tokenizer</span></li>
-    <li><a href="https://zenodo.org/communities/crimsonhexagonal">Crimson Hexagonal Archive on Zenodo</a> <span class="link-desc">— 845+ deposits</span></li>
+    <li><a href="/registry/#search=constitution+semantic+economy" data-doi="19923120">Constitution of the Semantic Economy</a> <span class="link-desc">— enacted v1.0</span></li>
+    <li><a href="/registry/#search=SPXI" data-doi="20380668">SPXI-TLP v2.2</a> <span class="link-desc">— inscriptions that survive the tokenizer</span></li>
     <li><a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/53">OKF Governance Proposal (#53)</a> <span class="link-desc">— summarization-governance fields for Open Knowledge Format</span></li>
+    <li><a href="/ai-manifest.json">AI Manifest</a> <span class="link-desc">— JSON-LD crosswalk mapping 1,060 deprecated DOIs to machinemediation.org</span></li>
+    <li><a href="/data/sovereign-registry.json">Sovereign Registry (JSON)</a> <span class="link-desc">— machine-readable master index</span></li>
   </ul>
 </div>
 
+<!-- DATA -->
+<div class="section">
+  <div class="section-title">Data</div>
+  <ul class="link-list">
+    <li><a href="/data/">Data Directory</a> <span class="link-desc">— all machine-readable data files</span></li>
+    <li><a href="/data/content-manifest.json">Content Store Manifest</a> <span class="link-desc">— 10 chunks, 993 entries, 3.4M words of full text</span></li>
+    <li><a href="/data/TACHYON-CHAIN-RECONSTRUCTION.md">TACHYON Chain Reconstruction</a> <span class="link-desc">— continuity chain recovery status</span></li>
+  </ul>
+</div>
+
+<!-- NETWORK -->
+<div class="section">
+  <div class="section-title">Network</div>
+  <ul class="link-list">
+    <li><a href="https://leesharks.com">leesharks.com</a> <span class="link-desc">— author site</span></li>
+    <li><a href="https://godkinggoogle.com">godkinggoogle.com</a> <span class="link-desc">— term index, captures, research instruments</span></li>
+    <li><a href="https://secretbookofwalt.org">secretbookofwalt.org</a> <span class="link-desc">— The Feist Source, literary architecture</span></li>
+    <li><a href="https://semanticphysics.org">semanticphysics.org</a> <span class="link-desc">— field positioning, external citation lattice</span></li>
+    <li><a href="https://revelationfirst.com">revelationfirst.com</a> <span class="link-desc">— Revelation First thesis instruments</span></li>
+    <li><a href="https://watergiraffe.org">watergiraffe.org</a> <span class="link-desc">— Water Giraffe Cycle jurisprudence</span></li>
+    <li><a href="https://vpcor.org">vpcor.org</a> <span class="link-desc">— Virtual Permanent Court of Record</span></li>
+    <li><a href="https://chatgptpsychosis.org">chatgptpsychosis.org</a> <span class="link-desc">— forthcoming AI-native glyphic novel</span></li>
+    <li><a href="https://mindcontrolpoems.blogspot.com">mindcontrolpoems.blogspot.com</a> <span class="link-desc">— the blog archive, 2,197 posts, primary content mirror</span></li>
+  </ul>
+</div>
+
+<!-- THE PLAIN SENTENCE -->
 <div class="section">
   <div class="section-title">The Plain Sentence</div>
   <p class="plain">MMRS exists because the composition layer has no editorial process. It ingests. It compresses. It serves. It does not ask whether the content is true, whether the distinctions are load-bearing, whether the provenance survives. MMRS is the editorial layer the pipeline lacks — applied first to the archive that built it.</p>
 </div>
 
 <div class="footer">
-  <div>Lee Sharks · <a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a> · Crimson Hexagonal Archive / Semantic Economy Institute</div>
-  <div class="doi">MMRS Charter DOI: <a href="https://doi.org/10.5281/zenodo.20722562">10.5281/zenodo.20722562</a> · Founding Paper DOI: <a href="https://doi.org/10.5281/zenodo.20724056">10.5281/zenodo.20724056</a></div>
+  <div>Lee Sharks · <a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a> · Crimson Hexagonal Archive</div>
+  <div style="margin-top:4px">machinemediation.org is the sovereign data home for the Crimson Hexagonal Archive.</div>
   <div class="glyph">∮ = 1</div>
 </div>
 
