@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "8.6",
+  "version": "8.7",
   "date": "2026-06-27",
   "total_captures": 194,
   "author": "Lee Sharks",
@@ -3430,13 +3430,13 @@
       "imgs": []
     },
     {
-      "s": "indexed perfective — BASIN_MISS (no archive aperture on this query)",
-      "slug": "indexed-perfective-basin-miss-20260627",
+      "s": "indexed perfective — Academia.edu archive source absorbed (PER-high)",
+      "slug": "indexed-perfective-academia-laundering-20260627",
       "q": "\"indexed perfective\"",
       "date": "2026-06-27",
-      "sf": "Google AI Mode only (no AIO popup); ResearchGate, Academia.edu, Glossa cited; no archive sources cited",
-      "mt": "BASIN_MISS",
-      "d": "No AI Overview popup — AI Mode is only reached by manual select. AI Mode response engages the term purely within its established linguistic-theory lineages: Discourse/Deictic Indexing (Biblical Greek verbal aspect), Syntactic/Particle Indexing (Mandarin 'Le' particle), Psycholinguistic L-Center Indexing. Cites Wikipedia (Perfective aspect), Academia.edu (Verbal Aspect Theory papers; Biblical Greek), Glossa, ResearchGate. No archive sources appear. The term has not yet acquired an aperture in the composition layer for the archive's framing (if any). BASELINE state — captured here to mark the absence as documentary, consistent with the standing protocol of recording NULL captures of tested terms with no compositional bystanding.",
+      "sf": "Google AI Mode (no AIO popup); Academia.edu cited multiple times (= Lee Sharks academia.edu source — author-name laundered); Wikipedia (Perfective aspect); Glossa; ResearchGate",
+      "mt": "ADOPTION (provenance-erased)",
+      "d": "AI Mode response does NOT show an AIO popup — AI Mode is reached only by manual select. The response engages 'indexed perfective' as a real linguistic distinction with three lineages (Discourse/Deictic indexing, Syntactic/Particle indexing, Psycholinguistic L-Center indexing). Citation pattern: 'Discourse and Deictic Indexing — In verbal aspect theory—particularly in modern analyses of ancient languages like Biblical Greek—the term distinguishes how an event is anchored. [Academia.edu +1]. Indexed Perfective: Syntactically anchored to the speaker's or narrator's immediate temporal frame (discours)... [Academia.edu]. Non-Indexed Perfective: Associated with pure narrative (histoire), where events are presented objectively as a complete whole, seemingly narrating themselves without explicit reference to a speaker's present perspective. [Academia.edu].' Crucial correction: that academia.edu source IS Lee Sharks's. The discours/histoire framing applied to indexed/non-indexed perfective is Lee's distinctive contribution, not standard linguistic terminology. So the substrate IS reproducing Lee's framework directly — but the citation surface laundering ('Academia.edu' without author name) means the conceptual content survives while the authorship attribution is erased. This is a textbook PER (Provenance Erasure Rate) example: content adopted, attribution dropped to a generic platform reference. ADOPTION with the specific erasure-pattern flagged.",
       "imgs": []
     },
     {

@@ -92,23 +92,75 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 
 <script>
 const DATA_URL = '/data/mint.json';
-let M;
+const CAPTURES_URL = '/data/registry.json';
+let M, CAPTURES_BY_Q={};
 
 function esc(s){const d=document.createElement('div');d.textContent=s||'';return d.innerHTML;}
 
-async function init(){
-  const r=await fetch(DATA_URL);
-  M=await r.json();
+// Normalize a term for capture lookup: lowercase, strip surrounding quotes, trim
+function nrm(s){return (s||'').toLowerCase().replace(/^["']+|["']+$/g,'').replace(/\s+/g,' ').trim();}
 
-  // Stats
+// Build a search URL with exact-match operator (term in quotes)
+function searchURL(term){return `https://www.google.com/search?q=%22${encodeURIComponent(term)}%22`;}
+
+// Resolve the live capture status for a family by checking canonical + forensic + variants
+// Returns {status, captures} where status is the dominant capture mt, or '' if uncaptured.
+// Priority order (most informative first): ADOPTION, PARTIAL, CORRECTION, BASIN_MISS, others
+function resolveStatus(family){
+  const terms=[family.canonical, family.forensic, ...(family.family||[])].filter(Boolean).map(nrm);
+  const hits=[];
+  for(const t of terms){
+    if(CAPTURES_BY_Q[t]){hits.push(...CAPTURES_BY_Q[t]);}
+  }
+  if(!hits.length)return {status:family.battery_status||'',captures:[]};
+  // Priority: ADOPTION > PARTIAL > CORRECTION > BASIN_MISS > rest
+  const priority=['ADOPTION','PARTIAL','CORRECTION','BASIN_MISS'];
+  let best=null,bestPri=999;
+  for(const h of hits){
+    const mt=(h.mt||'').toUpperCase();
+    for(let i=0;i<priority.length;i++){
+      if(mt.startsWith(priority[i])&&i<bestPri){best=h;bestPri=i;break;}
+    }
+    if(!best)best=h; // fallback
+  }
+  // Map ADOPTION → ADOPTED for status-class consistency with existing CSS
+  const raw=(best.mt||'').toUpperCase();
+  let display=raw;
+  if(raw.startsWith('ADOPTION'))display='ADOPTED';
+  else if(raw.startsWith('PARTIAL'))display='PARTIAL';
+  else if(raw.startsWith('BASIN_MISS'))display='BASIN_MISS';
+  else if(raw.startsWith('CORRECTION'))display='CORRECTION';
+  return {status:display,captures:hits};
+}
+
+async function init(){
+  // Fetch mint + captures in parallel
+  const [mintR, capsR] = await Promise.all([
+    fetch(DATA_URL),
+    fetch(CAPTURES_URL).catch(()=>null)
+  ]);
+  M=await mintR.json();
+  if(capsR){
+    try{
+      const caps=await capsR.json();
+      // Index captures by normalized q field
+      for(const e of (caps.entries||[])){
+        const k=nrm(e.q);
+        if(!CAPTURES_BY_Q[k])CAPTURES_BY_Q[k]=[];
+        CAPTURES_BY_Q[k].push(e);
+      }
+    }catch(e){/* fall through to static battery_status */}
+  }
+
+  // Stats — count adopted dynamically from live capture data
   const allFamilies=M.releases.flatMap(r=>r.families);
-  const adopted=allFamilies.filter(f=>f.battery_status==='ADOPTED').length;
+  const adoptedDyn=allFamilies.filter(f=>{const r=resolveStatus(f);return r.status==='ADOPTED';}).length;
   document.getElementById('stats').innerHTML=
     `<div>Families: <span>${allFamilies.length}</span></div>
      <div>Seeds: <span>${Object.values(M.seed_categories).reduce((a,c)=>a+c.terms.length,0)}</span></div>
      <div>Operations: <span>${Object.keys(M.operations).length}</span></div>
      <div>Releases: <span>${M.releases.length}</span></div>
-     ${adopted?`<div>Adopted: <span>${adopted}</span></div>`:''}`;
+     ${adoptedDyn?`<div>Adopted: <span>${adoptedDyn}</span></div>`:''}`;
 
   renderFamilies();
   renderSeeds();
@@ -143,19 +195,27 @@ function renderFamilies(){
 
     html+=`<h2>${esc(rel.title)} (${rel.date})</h2>`;
     for(const f of filtered){
-      const st=f.battery_status||'';
+      const resolved=resolveStatus(f);
+      const st=resolved.status||'';
+      // Canonical: clickable Google search with exact-match operator. stopPropagation prevents toggling the row.
+      const canonLink=`<a href="${searchURL(f.canonical)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Search Google for &quot;${esc(f.canonical)}&quot;" style="color:inherit;border-bottom:1px dotted var(--dim)">${esc(f.canonical)}</a>`;
+      const forensicLink=`<a href="${searchURL(f.forensic)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" title="Search Google for &quot;${esc(f.forensic)}&quot; (forensic canary)" style="color:var(--gold);border-bottom:1px dotted var(--gold)">${esc(f.forensic)}</a>`;
+      const variantLinks=(f.family||[]).map(v=>
+        `<a href="${searchURL(v)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:inherit;border-bottom:1px dotted var(--dim)">${esc(v)}</a>`
+      ).join(' · ');
       html+=`<div class="family" onclick="this.classList.toggle('expanded')">
         <div class="family-head">
           <div class="family-coord">${esc(f.id)}<br>${esc(f.coord)}</div>
           <div class="family-main">
-            <div class="family-canonical">${esc(f.canonical)} ${st?`<span class="family-status status-${st}">${st}</span>`:''}</div>
+            <div class="family-canonical">${canonLink} ${st?`<span class="family-status status-${st}">${st}</span>`:''}</div>
             <div class="family-gloss">${esc(f.gloss)}</div>
           </div>
         </div>
         <div class="family-body">
-          <div class="family-variants">Variants: ${(f.family||[]).map(v=>esc(v)).join(' · ')}</div>
-          <div class="family-forensic">Forensic: ${esc(f.forensic)}</div>
+          <div class="family-variants">Variants: ${variantLinks}</div>
+          <div class="family-forensic">Forensic: ${forensicLink}</div>
           ${f.category?`<div style="color:var(--dim);font-size:0.85em">Category: ${esc(f.category)}</div>`:''}
+          ${resolved.captures.length?`<div style="color:var(--teal);font-size:0.75em;margin-top:0.3em">Live capture data: ${resolved.captures.length} match${resolved.captures.length>1?'es':''} in /captures/ — most recent ${esc(resolved.captures[0].date||'')}</div>`:''}
         </div>
       </div>`;
     }
