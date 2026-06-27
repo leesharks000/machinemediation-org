@@ -1,7 +1,7 @@
 {
   "index_id": "EA-REGISTRY-TERMINDEX-01",
-  "version": "0.2",
-  "date": "2026-06-19",
+  "version": "0.3",
+  "date": "2026-06-27",
   "total_terms": 1400,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
@@ -14,8 +14,8 @@
     "4": 24,
     "5": 276
   },
-  "tested_count": 142,
-  "untested_count": 1258,
+  "tested_count": 151,
+  "untested_count": 1249,
   "entries": [
     {
       "term": "semantic economy",
@@ -154,7 +154,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -167,7 +167,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -425,7 +425,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -587,7 +587,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -857,7 +857,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -951,7 +951,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -990,7 +990,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -1029,7 +1029,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },
@@ -1042,7 +1042,7 @@
       "word_count": 2,
       "first_date": "",
       "first_doi": "",
-      "tested": false,
+      "tested": true,
       "variants": [],
       "source": "file_content"
     },

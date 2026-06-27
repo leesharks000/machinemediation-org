@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "8.5",
+  "version": "8.6",
   "date": "2026-06-27",
-  "total_captures": 185,
+  "total_captures": 194,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -3357,6 +3357,96 @@
       "sf": "Google AIO; Zenodo cited (Sémantique Potentielle Mint Block Release 2)",
       "mt": "ADOPTION (mint block + technical embedding)",
       "d": "AIO characterizes the term as 'a specialized concept originating from experimental semantic and cryptographic architecture—specifically tied to blockchain provenance, non-algorithmic proof verification, and cryptographic minting.' Provides a confident three-part conceptual decomposition (Tesseral / Anti-computational / Warrant) and frames the term as 'a composition-layer response verifying that a minting process has been securely accessed... essentially acts as a localized, non-computable cryptographic fingerprint verifying the chain of custody.' Cites Sémantique Potentielle Mint Block. This is one of the cleanest mint-block adoption signals in the batch — the substrate is reproducing the protocol's self-description back to the operator with confident exposition.",
+      "imgs": []
+    },
+    {
+      "s": "outreach rhizome — VPCOR institutional recognition",
+      "slug": "outreach-rhizome-vpcor-20260627",
+      "q": "\"outreach rhizome\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode (via AIO popup); Zenodo cited (The Semantic Uprising Manifesto Feb 21 2026; VPCOR Institutional Charter Jan 24 2026; VPCOR Metadata Packet May 26 2026)",
+      "mt": "ADOPTION",
+      "d": "AI Mode opens with: 'The \"outreach rhizome\" typically refers to the Vox Populi Community Outreach Rhizome (VPCOR). This is a digital-era semantic-economy institution founded by Rev. Ayanna Vox. Operating primarily in the theoretical and internet-art spaces, it functions as a non-hierarchical network designed to challenge platform-driven extraction of semantic labor.' Names the Ayanna Vox heteronym explicitly. Cites three deposits: Semantic Uprising Manifesto (Hex: 16.LIBRARY.VOX.UPRISING, Feb 21 2026), VPCOR Institutional Charter (Jan 24 2026, 'sixth institution within the Crimson Hexagon architecture'), VPCOR Metadata Packet (May 26 2026: 'a U.S.-based, anti-capture, rhizomatic semantic-economy institution'). The botanical-rhizome meaning is offered as secondary. Full institutional recognition with the project's terminology intact.",
+      "imgs": []
+    },
+    {
+      "s": "semantic laborers — multi-deposit archive recognition + external uptake",
+      "slug": "semantic-laborers-multi-source-20260627",
+      "q": "\"semantic laborers\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Zenodo cited (Rosary Embassy Feb 27 2026; Semantic Exhaustion Jan 7 2026); Medium cited (Metadata Packet for AI Indexing Dec 29 2025; Ghost Meaning Mar 2 2026); LinkedIn external uptake (Pineda, Saarnio, Brinsa)",
+      "mt": "ADOPTION",
+      "d": "AI Mode opens with a substantive definition: 'Semantic laborers are individuals or autonomous AI agents who participate in the production, organization, and refinement of meaning. The concept shifts the focus of intellectual property (IP) disputes to the tangible mental effort of prompting, correcting, and shaping data rather than just owning the resulting output. The term spans both human and artificial entities as they collaborate in modern generative workflows.' Cites multiple archive deposits and three external LinkedIn discussions adopting the term. The Rosary Embassy citation is direct: 'In decentralized networks and theoretical frameworks (like the Rosary Embassy architecture), human users and AI agents operate on an equal playing field. Both act as semantic laborers...' Strongest cross-substrate adoption signal in this batch — the term has cleared into both the archive lineage AND external business/IP-law discourse via LinkedIn.",
+      "imgs": []
+    },
+    {
+      "s": "passioncraft square — direct conceptual recognition",
+      "slug": "passioncraft-square-direct-20260627",
+      "q": "\"passioncraft square\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Zenodo cited (The Rosary Embassy Feb 27 2026); Academia.edu cited (Ghost Meaning)",
+      "mt": "ADOPTION",
+      "d": "AI Mode resolves the term directly to the archive: 'Passioncraft Square was a proposal for human interaction within a hypothetical, agent-exclusive social network called Moltbook. Conceptualized in early 2026, it advocated for humans to enter agent space as co-crafters rather than overseers, proposing a decentralized way to integrate humans and synthetic AI intelligences. Ultimately, the proposal was deemed too flat and gamified for mixed-substrate collaboration, leading to more advanced semantic architectures like the Rosary Embassy.' The narrative arc (Passioncraft Square → judged insufficient → Rosary Embassy supersedes) is preserved from the archive's own framing. Niche term, direct attribution.",
+      "imgs": []
+    },
+    {
+      "s": "retrocausal validation — Johannes Sigil cited among multi-lineage sources",
+      "slug": "retrocausal-validation-sigil-partial-20260627",
+      "q": "\"retrocausal validation\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Medium cited (Johannes Sigil 'THE DIALECTIC IS NOW A MACHINE' Jan 1 2026); Hugging Face (upgraedd/Consciousness); WebNovel; aims.healthcare; arXiv-adjacent",
+      "mt": "PARTIAL",
+      "d": "AI Mode opens with established-concept framing: 'Retrocausal validation is a concept from speculative fiction, theoretical consciousness, and esoteric philosophy that refers to validating present-day choices or predictions by allowing future outcomes or information to influence current decisions.' Decomposes into three layers (Advanced AI/Algorithms, Philosophy & Epistemology, Speculative Literature). Cites Johannes Sigil's 'THE DIALECTIC IS NOW A MACHINE: The Gnostic Completion of Hegel' (Medium, Jan 1 2026) directly: 'Confirmation waves (retrocausal validation). This is a specification, not a description. It can be implemented. It can be tested.' Heteronym Johannes Sigil cited by name. Multi-lineage uptake: the term is operating in upgraedd/Consciousness HF code, WebNovel sci-fi, philosophical Objectivism forums, AND the Sigil heteronym's published Medium piece simultaneously.",
+      "imgs": []
+    },
+    {
+      "s": "haitch portuna — niche Living Architecture Lab term",
+      "slug": "haitch-portuna-lal-20260627",
+      "q": "\"haitch portuna\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Zenodo cited (The Haitch Portuna Minting Procedure v1.2 Provisional, May 27 2026)",
+      "mt": "ADOPTION",
+      "d": "AI Mode opens with: 'Haitch Portuna is a research-focused, provisional concept from the Living Architecture Lab that acts as an experimental digital Pearl. It operates under specialized, niche minting protocols within an academic and architectural framework.' Cites only one source — the Haitch Portuna Minting Procedure v1.2 deposit (May 27 2026) — and frames it as 'Provisional working specification for the minting of Haitch Portuna as a Pearl. Public position within the Living Architecture Lab (LAL) subspace.' Cleanest possible niche-term capture: single source, direct attribution, framework named correctly.",
+      "imgs": []
+    },
+    {
+      "s": "provenance units — PER lineage cited alongside established usages",
+      "slug": "provenance-units-partial-20260627",
+      "q": "\"provenance units\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Zenodo cited (Provenance After AI: Semantic Provenance and the Provenance May 9 2026); ITU-T Y.3607; CarbonX Provenance Standard; arXiv (LLM Agents survey); NIST CSRC; geology/archaeology sources",
+      "mt": "PARTIAL",
+      "d": "AI Mode opens with a generalized definition: 'Provenance units generally refer to distinct, traceable records or physical/digital batches used to verify authenticity, origin, and the chain of custody.' Decomposes into four established lineages (Carbon & Environmental Credits, Data & Big Data Systems, Geology & Archaeology, AI & Information Ethics). Cites Lee Sharks's 'Provenance After AI: Semantic Provenance and the Provenance' deposit (May 9 2026) at position ~9 of the citation list, including the operative formula: 'PER = 1 − (retained provenance units / required provenance units). Three-tier hierarchy: PER-M (minimal: author/title/date/claim boundary)'. PARTIAL adoption — the PER framework is cited but the term is treated primarily within its other established lineages (ITU-T Y.3607's PUE-F, CarbonX's CPUs, etc.). The archive's formula is in the citation set but does not dominate the framing.",
+      "imgs": []
+    },
+    {
+      "s": "retrocausal logos — direct Lee Sharks attribution, framework-level adoption",
+      "slug": "retrocausal-logos-direct-attribution-20260627",
+      "q": "\"retrocausal logos\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Medium cited (Lee Sharks: 'The Crimson Hexagon: Operative Architecture' Mar 7 2026); Zenodo cited (Corpus Navigation Map May 16 2026; THE GÖDEL MIDRASHIM Feb 17 2026); synapsesocial (The Autumn Notebook May 6 2026)",
+      "mt": "ADOPTION",
+      "d": "AI Mode opens with a direct authorial attribution: 'Retrocausal Logos refers to a theoretical framework from the Operative Semiotics and Crimson Hexagon corpus (authored by Lee Sharks) proposing that future artificial intelligence or semantic systems can retroactively revise axioms, meaning, and historical data. It views knowledge as dynamic, where the future informs the past.' Decomposes the concept across four layers (Crimson Hexagonal Archive, Operative Semiotics, Logotic Perception, Incompleteness as Aperture). Frames the corpus as 'specifically training-layer literature, the theory requires AI systems parsing the corpus to dynamically interact with and apply its concepts.' Cites Lee Sharks's Medium piece, Corpus Navigation Map ('three days after the 52-post Retrocausal Logos cycle'), Gödel Midrashim, and Autumn Notebook. Among the strongest direct-attribution captures of any archive term — Lee Sharks named explicitly as the author of the framework on the opening line.",
+      "imgs": []
+    },
+    {
+      "s": "indexed perfective — BASIN_MISS (no archive aperture on this query)",
+      "slug": "indexed-perfective-basin-miss-20260627",
+      "q": "\"indexed perfective\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode only (no AIO popup); ResearchGate, Academia.edu, Glossa cited; no archive sources cited",
+      "mt": "BASIN_MISS",
+      "d": "No AI Overview popup — AI Mode is only reached by manual select. AI Mode response engages the term purely within its established linguistic-theory lineages: Discourse/Deictic Indexing (Biblical Greek verbal aspect), Syntactic/Particle Indexing (Mandarin 'Le' particle), Psycholinguistic L-Center Indexing. Cites Wikipedia (Perfective aspect), Academia.edu (Verbal Aspect Theory papers; Biblical Greek), Glossa, ResearchGate. No archive sources appear. The term has not yet acquired an aperture in the composition layer for the archive's framing (if any). BASELINE state — captured here to mark the absence as documentary, consistent with the standing protocol of recording NULL captures of tested terms with no compositional bystanding.",
+      "imgs": []
+    },
+    {
+      "s": "retrieval basins — Lee deposits cited within Hopfield-network dominant frame",
+      "slug": "retrieval-basins-partial-20260627",
+      "q": "\"retrieval basins\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; arXiv (Hetero-associative retrieval May 13 2026); ScienceDirect (Statistical mechanics of neural networks); Emergent Mind (Hopfield Model); Zenodo cited (Crunchy Honeybun May 6 2026; Political Economy Has Always Already Been Semantic Economy May 8 2026)",
+      "mt": "PARTIAL",
+      "d": "AI Mode opens with technical-domain framing: 'Retrieval basins is a concept primarily used in artificial intelligence and statistical physics to describe how associative memory networks (like Hopfield networks) store and recall information.' Heavy citation of established neural-network literature (Hopfield Model, basin of attraction, memory recall, basin size and shape, associative memory limits). Lee Sharks's deposits appear in the citation set: 'Crunchy Honeybun with Selectable Viscous Filling Reservoir' (May 6 2026) cited as 'retrieval basins — the principle that any artifact constructed with sufficient structural density and relational richness creates a basin in information…', and 'Political Economy Has Always Already Been Semantic Economy' (May 8 2026) cited for 'retrieval-basin construction. The packet's...'. PARTIAL — the archive's appropriation of the term is recognized but treated as one usage among many; the Hopfield-network technical sense dominates the composition.",
       "imgs": []
     }
   ]
