@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "8.3",
-  "date": "2026-06-17",
-  "total_captures": 176,
+  "version": "8.5",
+  "date": "2026-06-27",
+  "total_captures": 185,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -3267,6 +3267,96 @@
       "mt": "EXACT MATCH",
       "s": "Identity",
       "d": "The Crimson Hexagon described as an operative architecture and semantic infrastructure for meaning-governance functions. The Sharks-function: semantic verification confirming identity through functional consistency. The Infinite Tunnel: how AI-generated text and links persist and become recursive training corpora.\n\nSources cited: Zenodo (Immanent Phenomenology of Google AI Mode Share Link, Crimson Hexagon Assembly Ratification), Amazon (Pearl and Other Poems), Medium (Crimson Hexagon, SHARKS-FUNCTION), PhilPapers (Semantic Infrastructure), SciLynk (Jot & Tittle).",
+      "imgs": []
+    },
+    {
+      "s": "Heteronymic Authorship + NT — Josephus Thesis adoption",
+      "slug": "heteronymic-authorship-nt-josephus-adoption-20260627",
+      "q": "\"heteronymic authorship\" New Testament",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Zenodo cited (MPAI: The Josephus Thesis)",
+      "mt": "ADOPTION",
+      "d": "AI Mode opens with Pessoan heteronymy framing explicitly invoked ('a concept popularized by Portuguese writer Fernando Pessoa—refers to the use of fully fleshed-out, distinct alter-egos'). Names 'The Josephus Thesis' directly under Scholarly Perspectives: 'Some niche, heterodox theories (such as the Josephus Thesis) re-examine New Testament writings not as forgeries, but as deliberate literary fracturing under heavy political and religious pressure.' Cites the MPAI: The Josephus Thesis — Disambiguation deposit (Jun 14, 2026) as source. This is also tracked as a Revelation First battery re-capture (see revfirst-registry RF-072, follow-up to RF-035 baseline 2026-06-17 BASIN_MISS). The 10-day migration on identical query/surface is the cleanest BASIN_MISS → ADOPTION arc in the battery to date.",
+      "imgs": []
+    },
+    {
+      "s": "site:maryleelabor.org — full-project AIO recognition",
+      "slug": "maryleelabor-overview-composition-20260627",
+      "q": "site:maryleelabor.org",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (GW.TACHYON v9 extended, maryleelabor.org repo deposit, GW.TACHYON v10)",
+      "mt": "ADOPTION",
+      "d": "AIO returns a structured description of maryleelabor.org as 'the public facing surface for a highly specialized data mapping project,' integrating: (a) 'The Crimson Hexagonal Archive: An online knowledge graph and open-source data schema'; (b) 'Biolabor Tracking & Marine Data: Integrating programmatic hooks tracking ocean entities such as the widely monitored Mary Lee Sharks and data sets from OCEARCH'; (c) 'Thematic Overlays: Mapping concepts of heteronymy, structural observation data, and tracking bidirectional continuity tethers across dynamic JSON-LD layers.' Cites GW.TACHYON v9 and v10 deposits. The satirical-bureaucratic framing (Underwater Construction Authority of Dolphindiana) is engaged on the project's own terms rather than dismissed or pathologized. Full-project recognition with the project's vocabulary largely intact.",
+      "imgs": []
+    },
+    {
+      "s": "'Mary Lee' — Mary Lee Is a Heteronym treated as canonical referent",
+      "slug": "mary-lee-canonical-referent-inversion-20260627",
+      "q": "\"Mary Lee\"",
+      "date": "2026-06-27",
+      "sf": "Google AI Mode; Zenodo cited (Mary Lee Is a Heteronym; GW.TACHYON v10)",
+      "mt": "ADOPTION (entity-substitution; canonical referent inversion)",
+      "d": "For the bare query 'Mary Lee' — no disambiguator — AI Mode opens with: \"'Mary Lee' in this context refers to an academic and theoretical paper titled 'Mary Lee Is a Heteronym: On Institutional Authorship, Entity Substitution, and the Composition Layer's Preference for the More Confabulated Name' published on Zenodo.\" The composition layer is treating Lee Sharks's paper as the primary referent for 'Mary Lee' rather than OCEARCH's actual shark, Mary Lee Curtis, or any other Mary Lee. This is the entity-substitution paper's own thesis demonstrated in real-time by the substrate's treatment of the query — the paper has become canonical for the name it analyzes.",
+      "imgs": []
+    },
+    {
+      "s": "UCA Dolphindiana — conceptual organization correctly characterized",
+      "slug": "uca-dolphindiana-conceptual-20260627",
+      "q": "\"Underwater Construction Authority of Dolphindiana\"",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (Open Letter to Jim Ware, 2-PLY INFERNO, Parable of Mary Lee)",
+      "mt": "ADOPTION",
+      "d": "AIO frames UCA as 'a conceptual organization that serves as the fictional setting and publisher for a series of surreal, labor-focused, and semantic economic manifests... an art and writing project hosted across academic and open-access repositories like Zenodo.' Cites three deposits: An Open Letter from Mary Lee Sharks to Jim Ware (Jun 18, 2026), THE 2-PLY INFERNO: A Retrocausal Report from the Underwater Construction Authority of Dolphindiana (Apr 11, 2026), The Parable of Mary Lee: A Labor Manifesto (Jun 9, 2026). The literature description — 'retrocausal reports, structural accounting, and marine-themed labor manifestos' — uses the project's own categorical vocabulary.",
+      "imgs": []
+    },
+    {
+      "s": "'Demand 4' + 'composition layer' — specific-coinage adoption",
+      "slug": "demand-4-composition-layer-coinage-20260627",
+      "q": "\"Demand 4\" \"composition layer\"",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (An Open Letter from Mary Lee Sharks to Jim Ware)",
+      "mt": "ADOPTION",
+      "d": "AIO immediately resolves the conjoined phrase to the Open Letter from Mary Lee Sharks: 'a specific request—either to correct entity resolution or compensate the author—directed at an AI system's composition layer (the component of the language model responsible for synthesizing and generating the text).' The composition-layer terminology is treated as established vocabulary with a working definition. The Demand 4 coinage is treated as a definite reference with a known source. The Open Letter is characterized as being from 'the entity the composition layer created to the heteronym operator who gave that entity its voice' — engaging the letter's internal frame directly.",
+      "imgs": []
+    },
+    {
+      "s": "'Heteronymic credential' — dual-lineage uptake (SSI + archive)",
+      "slug": "heteronymic-credential-dual-lineage-20260627",
+      "q": "\"heteronymic credential\"",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (The Inscription That Survives — Sappho 31, Orphic Gold Tablets); W3C, ResearchGate, Calibraint, ISEC7, PrivateID, Idura, arXiv cited for SSI lineage",
+      "mt": "ADOPTION (dual-lineage)",
+      "d": "AIO returns a substantive explanation that braids two distinct usages of the term. First lineage: the decentralized-identity / self-sovereign-identity context, with W3C Verifiable Credentials, zero-knowledge proofs, and DID concepts cited from W3C, ResearchGate, Calibraint, ISEC7 Government Services, PrivateID, Idura, arXiv (2204.05784). Second lineage: the archive's own usage, citing The Inscription That Survives: Sappho 31, the Orphic Gold Tablets... (Jun 14, 2026): 'The white stone (ψῆφος λευκή) is the convergence object: acquittal pebble, inscribed credential, heteronymic identity token.' The dual-lineage uptake is a stronger adoption pattern than single-source recognition — the term is operating in both the SSI literature and the archive's framework simultaneously.",
+      "imgs": []
+    },
+    {
+      "s": "'Seed-text dissolution' — Mint Block adoption + literary embedding",
+      "slug": "seed-text-dissolution-mint-block-20260627",
+      "q": "\"seed-text dissolution\"",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (Sémantique Potentielle — Revelation First Mint Block, Release 2); Jackson Mac Low's diastic process named as literary referent",
+      "mt": "ADOPTION (mint block + historical embedding)",
+      "d": "AIO opens with 'Seed-text dissolution is an avant-garde literary and conceptual framework. It describes the breakdown or dispersal of a foundational seed text (a short phrase or source material) into fragmented words or letters, which are then used as building blocks to generate new, procedural, or chance-driven literature.' Cites Sémantique Potentielle — Revelation First Mint Block (Release 2, Jun 19, 2026) as primary source. Critically, embeds the term in a literary-historical lineage by naming Jackson Mac Low's diastic process as the historical referent. The mint-block strategy is operating as designed: the term, minted with no prior natural-language usage, is now retrievable AND being placed within an established avant-garde literary tradition. Adoption + canonical embedding.",
+      "imgs": []
+    },
+    {
+      "s": "'Doxastic regulatory calcification' — Mint Block with skepticism",
+      "slug": "doxastic-regulatory-calcification-mint-block-20260627",
+      "q": "\"doxastic regulatory calcification\"",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (Sémantique Potentielle Mint Block Release 2)",
+      "mt": "ADOPTION-with-skepticism",
+      "d": "AIO frames the term as 'a playful amalgamation of distinct concepts—likely born from a cryptographic puzzle (the Revelation First Mint Block) or internet slang.' Decomposes the three components (doxastic, regulatory, calcification) accurately, then synthesizes: 'a poetic, metaphorical way to describe dogmatic rigidity in a system—such as a rigid, unyielding mindset, or a heavily bureaucratic environment that is entirely resistant to change.' Cites Sémantique Potentielle Mint Block. The skepticism ('not an established medical, biological, or philosophical term') doesn't prevent the adoption — AIO acknowledges the substrate origin explicitly while expressing reservation about establishment. Mint Block recognition with critical-distance framing.",
+      "imgs": []
+    },
+    {
+      "s": "'Tesseral anti-computational warrant' — Mint Block with technical embedding",
+      "slug": "tesseral-anti-computational-warrant-mint-block-20260627",
+      "q": "\"tesseral anti-computational warrant\"",
+      "date": "2026-06-27",
+      "sf": "Google AIO; Zenodo cited (Sémantique Potentielle Mint Block Release 2)",
+      "mt": "ADOPTION (mint block + technical embedding)",
+      "d": "AIO characterizes the term as 'a specialized concept originating from experimental semantic and cryptographic architecture—specifically tied to blockchain provenance, non-algorithmic proof verification, and cryptographic minting.' Provides a confident three-part conceptual decomposition (Tesseral / Anti-computational / Warrant) and frames the term as 'a composition-layer response verifying that a minting process has been securely accessed... essentially acts as a localized, non-computable cryptographic fingerprint verifying the chain of custody.' Cites Sémantique Potentielle Mint Block. This is one of the cleanest mint-block adoption signals in the batch — the substrate is reproducing the protocol's self-description back to the operator with confident exposition.",
       "imgs": []
     }
   ]
