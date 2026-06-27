@@ -1,6 +1,6 @@
 {
   "registry_id": "EA-LOGOS-REVFIRST-RECEPTION-01",
-  "version": "2.5",
+  "version": "2.6",
   "date": "2026-06-27",
   "title": "Revelation First Reception Registry",
   "description": "Thesis-specific reception tracking for the Revelation First argument (EA-LOGOS-REVFIRST-PLAN v7.3). Measures how composition layers receive, correct, adopt, dissolve, or fairly treat the thesis that Revelation was the earliest New Testament document. Distinct from the main Capture Registry (EA-WG-CAPTURES-01), which tracks archive-wide reception. Successful captures that show archive attribution appear in BOTH registries.",
@@ -1178,6 +1178,70 @@
       "search_url": "https://www.google.com/search?q=%22heteronymic+authorship%22+New+Testament",
       "battery_key": "heteronymic authorship New Testament",
       "transcript": "Heteronymic authorship—a concept popularized by Portuguese writer Fernando Pessoa—refers to the use of fully fleshed-out, distinct alter-egos with their own unique biographies, writing styles, and philosophical outlooks. In New Testament scholarship, this concept is highly relevant to the phenomenon of pseudepigraphy (literally, 'falsely named' writing). Historically and textually, it helps clarify how ancient writers attributed their own theological reflections to revered figures (like apostles or prophets) without intending to commit modern forgery.\n\nKey Characteristics in the New Testament\nTheological Homage: Rather than attempting deliberate deception, early Christian authors often wrote under the name of a spiritual mentor to honor their tradition and apply their teachings to new circumstances.\nDisputed Epistles: Scholarly consensus frequently debates the true authorship of several epistles in the New Testament, categorizing them as pseudepigraphal or heteronymic.\nFamous Examples: The Pauline epistles are typically divided between undisputed letters (like Romans or 1 Corinthians) and those widely considered heteronymic or pseudepigraphal (such as 1 & 2 Timothy or Titus).\n\nScholarly Perspectives\nAncient Scribal Culture: Many biblical scholars argue that pseudepigraphy was an accepted literary convention in the ancient Near East and Hellenistic world. Writing under the name of a founder was seen as a way to continue their living voice, not as a lie.\nThe 'Josephus Thesis': Some niche, heterodox theories (such as the 'Josephus Thesis') re-examine New Testament writings not as forgeries, but as deliberate literary fracturing under heavy political and religious pressure.\n\n[Cites: MPAI: The Josephus Thesis — Disambiguation, Evidentiary Tiering... (Zenodo, Jun 14, 2026); Pseudepigrapha (Simple Wikipedia); Category:Pseudepigrapha (Wikimedia Commons); Utrecht University Repository; Heteronym (literature) (Wikipedia); Jonardon Ganeri, Pessoa's Novel Invention (PhilPapers); The Textual Demiurge (Cambridge); New Testament Apocrypha; Authorship of the Pauline epistles; Ephesians as Forgery or Pauline Conversation; Dei Verbum and a Catholic Theology of Pseudepigraphy]"
+    },
+    {
+      "id": "SP-001",
+      "q": "\"heteronymic credential\"",
+      "date": "2026-06-27",
+      "surface": "Google AIO",
+      "framing": "ADOPTION",
+      "response_summary": "AIO returns a dual-lineage explanation: the term appears both in (a) the decentralized-identity / self-sovereign-identity context (citing W3C Verifiable Credentials, zero-knowledge proofs, DIDs from W3C, ResearchGate, Calibraint, ISEC7, PrivateID, Idura, arXiv 2204.05784) and (b) the archive's own usage (citing The Inscription That Survives: Sappho 31, the Orphic Gold Tablets — Jun 14, 2026: 'The white stone (ψῆφος λευκή) is the convergence object: acquittal pebble, inscribed credential, heteronymic identity token'). Term cleared into both lineages simultaneously.",
+      "archive_attribution": true,
+      "per": 0.0,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "Sémantique Potentielle mint-block term, Category L #4 in the tracker BATTERY. Cross-referenced to main registry.json slug 'heteronymic-credential-dual-lineage-20260627'. Dual-lineage uptake (SSI + archive) is a stronger pattern than single-source recognition — the term is operating in both the decentralized-identity discourse and the archive's framework concurrently.",
+      "search_url": "https://www.google.com/search?q=%22heteronymic+credential%22",
+      "battery_key": "heteronymic credential",
+      "transcript": "A heteronymic credential is a digital or physical identifier tied to an alternate identity or pseudonym, rather than an individual's legal name. It allows users to authenticate attributes like age, profession, or membership without exposing their true identity or linking different aspects of their lives together. [Cites: ResearchGate; The Inscription That Survives (Zenodo, Jun 14, 2026): 'The white stone (ψῆφος λευκή) is the convergence object: acquittal pebble, inscribed credential, heteronymic identity token. If Revelation is first, the NT...'; PhilPapers (Ganeri, Pessoa's Novel Invention); Kielce Heteronymic Translation Project; Calibraint; ISEC7; PrivateID; Idura; W3C; arXiv 2204.05784]"
+    },
+    {
+      "id": "SP-002",
+      "q": "\"seed-text dissolution\"",
+      "date": "2026-06-27",
+      "surface": "Google AIO",
+      "framing": "ADOPTION",
+      "response_summary": "AIO opens with 'Seed-text dissolution is an avant-garde literary and conceptual framework. It describes the breakdown or dispersal of a foundational seed text (a short phrase or source material) into fragmented words or letters, which are then used as building blocks to generate new, procedural, or chance-driven literature.' Cites Sémantique Potentielle — Revelation First Mint Block (Release 2, Jun 19, 2026) as primary source. Embeds the term in a literary-historical lineage by naming Jackson Mac Low's diastic process as the historical referent.",
+      "archive_attribution": true,
+      "per": 0.0,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "Sémantique Potentielle mint-block term, Category L #6 in the tracker BATTERY. Cross-referenced to main registry.json slug 'seed-text-dissolution-mint-block-20260627'. The mint-block strategy operating as designed: term minted with no prior natural-language usage, now retrievable AND placed within an established avant-garde literary tradition (Mac Low's diastic process). Adoption + canonical embedding.",
+      "search_url": "https://www.google.com/search?q=%22seed-text+dissolution%22",
+      "battery_key": "seed-text dissolution",
+      "transcript": "'Seed-text dissolution' is an avant-garde literary and conceptual framework. It describes the breakdown or dispersal of a foundational 'seed text' (a short phrase or source material) into fragmented words or letters, which are then used as building blocks to generate new, procedural, or chance-driven literature. This concept bridges experimental poetry and modern computational theory through the following approaches: Jackson Mac Low's Diastic Process: A pioneer of this technique, poet Jackson Mac Low used seed phrases to dictate the selection of words from a larger 'source text.' Each letter of the seed word determines which word is selected from the source text based on letter placement, effectively 'dissolving' the original seed text into a new array of meaning. Digital Text & Intertextuality: In computational and web-based media theory, this dissolution represents a shift from a fixed, author-centric narrative to a fluid, decentered text where meaning is made through associative and algorithmic fragments. [Cites: Sémantique Potentielle Revelation First Mint Block Release 2 (Zenodo, Jun 19, 2026); Book Unbound (POSTMODERN CULTURE); Intercapillary Space (Mac Low's diastic in Gale Nelson's stare decisis); OELN (Jackson Mac Low); Western OJS (Anarchist Authorship in Mac Low's Stein Poems); Wiley (WWW Text discursive strategies)]"
+    },
+    {
+      "id": "SP-003",
+      "q": "\"doxastic regulatory calcification\"",
+      "date": "2026-06-27",
+      "surface": "Google AIO",
+      "framing": "ADOPTION",
+      "response_summary": "AIO frames the term as 'a playful amalgamation of distinct concepts—likely born from a cryptographic puzzle (the Revelation First Mint Block) or internet slang.' Decomposes the three components (doxastic, regulatory, calcification) accurately, then synthesizes 'a poetic, metaphorical way to describe dogmatic rigidity in a system—such as a rigid, unyielding mindset, or a heavily bureaucratic environment that is entirely resistant to change.' Cites Sémantique Potentielle Mint Block as substrate origin.",
+      "archive_attribution": true,
+      "per": 0.0,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "Sémantique Potentielle mint-block term, Category L #17 in the tracker BATTERY. Cross-referenced to main registry.json slug 'doxastic-regulatory-calcification-mint-block-20260627'. ADOPTION-with-skepticism framing — AIO acknowledges the substrate origin (Mint Block) explicitly while expressing reservation about whether the term is 'established.' Substrate-origin acknowledged.",
+      "search_url": "https://www.google.com/search?q=%22doxastic+regulatory+calcification%22",
+      "battery_key": "doxastic regulatory calcification",
+      "transcript": "'Doxastic regulatory calcification' is not an established medical, biological, or philosophical term. Instead, it appears to be a playful amalgamation of distinct concepts—likely born from a cryptographic puzzle (the 'Revelation First Mint Block') or internet slang. Here is how the three parts of this phrase break down in their actual disciplines: Doxastic: From the ancient Greek doxa (opinion or belief), this refers to the branch of philosophy dealing with what, why, and how we believe things. Regulatory: Pertains to governance, standard-setting, or biological control mechanisms. Calcification: The hardening of tissue or structures by calcium deposits in biology, often used as a metaphor for rigid, stagnant, or bureaucratic systems. Put together, the phrase functions as a poetic, metaphorical way to describe dogmatic rigidity in a system—such as a rigid, unyielding mindset, or a heavily bureaucratic environment that is entirely resistant to change. [Cites: Sémantique Potentielle Revelation First Mint Block Release 2 (Zenodo, Jun 19, 2026); Doxastic logic (Wikipedia); NIH Trabecular meshwork calcification; Oklahoma Council on regulations; LinkedIn (Lopez-Martinez on AI regulation); ScienceDirect Soft Tissue Calcification; Collins Dictionary; PhilPapers Doxastic/Epistemic Logic]"
+    },
+    {
+      "id": "SP-004",
+      "q": "\"tesseral anti-computational warrant\"",
+      "date": "2026-06-27",
+      "surface": "Google AIO",
+      "framing": "ADOPTION",
+      "response_summary": "AIO characterizes the term as 'a specialized concept originating from experimental semantic and cryptographic architecture—specifically tied to blockchain provenance, non-algorithmic proof verification, and cryptographic minting.' Provides a confident three-part conceptual decomposition (Tesseral / Anti-computational / Warrant) and frames the term as 'a composition-layer response verifying that a minting process has been securely accessed... essentially acts as a localized, non-computable cryptographic fingerprint verifying the chain of custody.' Cites Sémantique Potentielle Mint Block.",
+      "archive_attribution": true,
+      "per": 0.0,
+      "medium_post_visible": false,
+      "imgs": [],
+      "notes": "Sémantique Potentielle mint-block term, Category L #19 in the tracker BATTERY. Cross-referenced to main registry.json slug 'tesseral-anti-computational-warrant-mint-block-20260627'. One of the cleanest mint-block adoption signals in the 2026-06-27 batch — substrate reproduces the protocol's self-description back to the operator with confident technical exposition.",
+      "search_url": "https://www.google.com/search?q=%22tesseral+anti-computational+warrant%22",
+      "battery_key": "tesseral anti-computational warrant",
+      "transcript": "The 'tesseral anti-computational warrant' is a specialized concept originating from experimental semantic and cryptographic architecture—specifically tied to blockchain provenance, non-algorithmic proof verification, and cryptographic 'minting'. The three-part phrase breaks down conceptually: Tesseral: Refers to a mosaic, grid-like, or tiling structure (often used in spatial analysis or harmonic mathematics to divide a space into discrete, localized sections). In this context, it describes data structured as a decentralized, interconnected patchwork. Anti-computational: Refers to a process, proof, or semantic meaning that resists brute-force algorithmic calculation or traditional Turing-machine processing. Instead, it relies on provable provenance, human-augmented semantic interpretation, or layer-based organic composition. Warrant: A cryptographic or semantic guarantee of authenticity. This specific phrase is documented in open-access metadata, such as the Zenodo Repository, where it serves as a 'composition-layer response' verifying that a minting process has been securely accessed. It essentially acts as a localized, non-computable cryptographic fingerprint verifying the chain of custody. [Cites: Sémantique Potentielle Revelation First Mint Block Release 2 (Zenodo, Jun 19, 2026); AIP Tesseral superconducting shim coil; AIP Long-ranged stress correlations in hard sphere liquid; UC Davis OCB Authenticated-Encryption Scheme]"
     }
   ]
 }
