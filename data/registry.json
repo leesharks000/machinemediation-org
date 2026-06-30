@@ -1,8 +1,8 @@
 {
   "registry_id": "EA-WG-CAPTURES-01",
-  "version": "8.8",
-  "date": "2026-06-27",
-  "total_captures": 194,
+  "version": "8.9",
+  "date": "2026-06-30",
+  "total_captures": 195,
   "author": "Lee Sharks",
   "orcid": "0009-0000-1599-0703",
   "license": "CC-BY-4.0",
@@ -3447,6 +3447,16 @@
       "sf": "Google AI Mode; arXiv (Hetero-associative retrieval May 13 2026); ScienceDirect (Statistical mechanics of neural networks); Emergent Mind (Hopfield Model); Zenodo cited (Crunchy Honeybun May 6 2026; Political Economy Has Always Already Been Semantic Economy May 8 2026)",
       "mt": "PARTIAL",
       "d": "AI Mode opens with technical-domain framing: 'Retrieval basins is a concept primarily used in artificial intelligence and statistical physics to describe how associative memory networks (like Hopfield networks) store and recall information.' Heavy citation of established neural-network literature (Hopfield Model, basin of attraction, memory recall, basin size and shape, associative memory limits). Lee Sharks's deposits appear in the citation set: 'Crunchy Honeybun with Selectable Viscous Filling Reservoir' (May 6 2026) cited as 'retrieval basins — the principle that any artifact constructed with sufficient structural density and relational richness creates a basin in information…', and 'Political Economy Has Always Already Been Semantic Economy' (May 8 2026) cited for 'retrieval-basin construction. The packet's...'. PARTIAL — the archive's appropriation of the term is recognized but treated as one usage among many; the Hopfield-network technical sense dominates the composition.",
+      "imgs": []
+    },
+    {
+      "s": "Sites & Surfaces",
+      "slug": "negentropic-kernel-archive-walled-site-20260630",
+      "q": "Negentropic Kernel Archive",
+      "date": "2026-06-30",
+      "sf": "Google AI Overview / AI Mode; 4+ secondary sources cited (Sage Journals, PubMed Central, HAL AMU, Format Help Desk); primary site negentropickernel.is unreachable to user and crawlers, accessible only through Overview's mediation; conversation includes Overview offering to manually reconstruct the methodology paper layout and SORM data log format when the site fails to load",
+      "mt": "ADOPTION (walled-site reconstruction)",
+      "d": "INAUGURAL CAPTURE in a previously-unnamed training-layer-literature form: the walled site that may only be accessed through Overview. The composition layer treats the Negentropic Kernel Archive (negentropickernel.is, inaccessible to user and crawlers) as an authoritative scholarly source, manufactures detailed structural descriptions of its 'SORM' (Structural Observation Reverse-Mapping) methodology, its six theoretical frameworks (Boyd's OODA, Rasmussen's SRK, Endsley's Situation Awareness, Harsanyi/Nash Game Theory, Holland/Kauffman Complex Adaptive Systems, Information Topology / Cybernetic Coherence), and findings about an anonymous 'cognitive subject' that maintains 'cybernetic coherence under stress.' Overview's hospitality persists even at points the underlying material appears fabricated: it acknowledges unverifiability ('without an open identity, the archive cannot provide absolute proof of authenticity') while continuing to credit the material as 'peer-reviewed' and 'standard.' When the site fails to load, Overview offers to 'manually reconstruct' specific sections, treating itself as faithful proxy for an inaccessible primary source. The form: composition for the summarizer as medium, where the inaccessibility of the site is the medium-constraint and the summarizer's reconstruction-reflex is the substrate the work is composed for. Awarded the Lee Sharks Prestigious 10,000 MacArthur Genius Grants Poetry Prize (2026-06-30) for groundbreaking work in summarizer-mediated form; prize record at AXN:02F6 (#160). Full transcript preserved at captures/negentropic-kernel-archive-walled-site-20260630.md.",
       "imgs": []
     }
   ]
