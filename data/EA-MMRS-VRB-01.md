@@ -2,10 +2,20 @@
 
 ## A Method Standard for Unaffiliated Scholarship
 
-**Machine-Mediated Reception Studies · instrument · v0.1 · 2026-07-04**
+**Machine-Mediated Reception Studies · instrument · v0.2 · 2026-07-04**
 Canonical: https://machinemediation.org/data/EA-MMRS-VRB-01.md
 Stable mirror: https://raw.githubusercontent.com/leesharks000/machinemediation-org/main/data/EA-MMRS-VRB-01.md
 License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
+
+> **Change record (per this instrument's own §2-U/§6 discipline).** v0.2 supersedes
+> v0.1 (same date, repository commit 379bfa3). v0.1 defined verification in an
+> exclusively empirical register — falsifiable claims, open data, error rates — which
+> excluded experimental, practice-based, philological, and operative work: most of
+> the removed corpus this instrument was drafted to defend, and categories that
+> institutional research frameworks themselves recognize. The error was caught in
+> MANUS review before external adoption. It is corrected by §2–§3 below, and this
+> note is the instrument's first exercise of its own errata protocol, on itself.
+> v0.1 remains inspectable in the repository history.
 
 ---
 
@@ -13,94 +23,102 @@ License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
 
 Repository enforcement against independent researchers currently turns on one phrase: *"substantially AI-generated without a verifiable research basis."* The affected class has overwhelmingly directed its defense at the first clause — the production method — which is where the defense cannot succeed, because the clause states no threshold, no test, and no degree of AI involvement that clears anyone. It is not a criterion. It functions as a classification of persons.
 
-The second clause is different in kind. *Verifiable research basis* is a checkable property, and this instrument specifies how to check it. It does two things: it states what verification consists of, such that any researcher — affiliated or not — can satisfy and demonstrate it; and it applies the same test to enforcement determinations themselves, which are also claims, and which are also either verifiable or not.
+The second clause is different in kind. *Verifiable research basis* is a checkable property, and this instrument specifies how to check it. It does three things: it states what verification consists of, such that any researcher — affiliated or not — can satisfy and demonstrate it; it states this **for each kind of basis a work can claim**, because research is not one genre; and it applies the same test to enforcement determinations themselves, which are also claims, and which are also either verifiable or not.
 
 ## §1. The claim under test
 
-Verification is a property of **method**, not of **affiliation**. A claim is verifiable when a third party can check it without trusting the claimant. Affiliation is not verification; it is a trust proxy — a promise that someone else, somewhere, checked. Where a policy accepts the proxy from one class of researcher and demands nothing checkable from its own determinations, while treating the absence of the proxy as an unmet burden for another class, the operative test is not verification. It is the proxy.
+Verification is a property of **method relative to a declared basis**, not of **affiliation**. A work is verifiable when a stranger can check it against what it declares itself to be, without trusting the author. Affiliation is not verification; it is a trust proxy — a promise that someone else, somewhere, checked.
 
-This instrument therefore takes the policy's own phrase at its word, and asks it to mean something.
+Two consequences follow, and both are load-bearing.
 
-## §2. The standard
+First: *research* is not coextensive with *empirical science*. The international standard definition (OECD Frascati Manual) opens with "creative and systematic work undertaken to increase the stock of knowledge." Institutional frameworks already verify non-empirical research on its own terms: practice-based doctorates, artistic research with its own journals and exposition norms, critical editions, philology, theology, design research. A verification standard narrower than what institutions themselves accept from the affiliated is not a standard; it is a second gate built onto the first.
 
-A body of work has a verifiable research basis when it satisfies the following criteria. Each is stated with the means of satisfying it **without any institution**, and the means by which a stranger checks it.
+Second: **the declared basis is the object of verification.** A work that declares itself an empirical study is checked as one. A work that declares itself a poem, a rite, an edition, or an operative document is checked as *that*. Testing a work against a basis it never claimed is not verification — it is misclassification, and §5 returns to what that means for enforcement.
 
-**V1 — Declared method.** The procedure that produced the results is stated, with the results or before them.
-*Satisfied by:* a methods section, protocol document, or deposited methodology.
-*Checked by:* reading it.
+## §2. The universal spine
 
-**V2 — Falsifiable claims.** The work asserts things that could be wrong, and identifies what would show them wrong.
-*Satisfied by:* stating claims as claims, with their failure conditions.
-*Checked by:* attempting the failure conditions.
+Five criteria are genre-neutral. Every basis type in §3 presupposes them, and every one can be satisfied without any institution.
 
-**V3 — Open data.** The materials underlying the claims are deposited where the reader can reach them.
-*Satisfied by:* public files accompanying the work — datasets, captures, corpora, transcripts.
-*Checked by:* opening them.
+**U1 — Declared basis.** The work states what kind of thing it is and what kind of basis it claims: empirical, philological, hermeneutic, practice-based, operative, or compound. Self-understanding is not decoration; it is the thing verification checks against.
+*Checked by:* reading the declaration.
 
-**V4 — Integrity chain.** Each artifact carries a cryptographic hash; the registry of hashes is itself published.
+**U2 — Integrity chain.** Each artifact carries a cryptographic hash; the registry of hashes is itself published.
 *Satisfied by:* SHA-256 per file, a manifest, content-derived identifiers.
 *Checked by:* one command, by anyone, forever. No custodian required.
 
-**V5 — Versioned record.** Versions are dated and preserved; corrections are visible as corrections, not silent replacements.
-*Satisfied by:* version numbers, change notes, retained superseded versions.
+**U3 — Versioned record.** Versions are dated and preserved; corrections are visible as corrections, not silent replacements.
 *Checked by:* diffing them.
 
-**V6 — Declared instruments and provenance.** Sources are cited into the open literature; instruments are named — including AI systems, their role, and their limits.
-*Satisfied by:* disclosure. Note what this reverses: under a method standard, disclosure of AI use is a **verification signal**, not a confession. The undisclosed instrument is the unverifiable one.
+**U4 — Declared instruments and provenance.** Sources are cited; instruments are named — including AI systems, their role, and their limits. Under a declared-basis standard, disclosure of AI use is a **verification signal**, not a confession; the undisclosed instrument is the unverifiable one.
 *Checked by:* following the citations; reading the disclosure.
 
-**V7 — Independent checkability.** A stranger can re-derive or re-examine the central claims without contacting the author.
-*Satisfied by:* V1–V6 together, plus runnable procedures where applicable.
-*Checked by:* doing it.
+**U5 — Accountable authorship.** The authorial identity is stable and its structure declared — including declared pseudonymity and declared heteronymy, which are disclosed instruments of composition, not concealments. Concealment is claiming an authorship structure the work does not have; declaration is the opposite of concealment.
+*Checked by:* the declaration, the license trail, the consistency of the attribution across the record.
 
-**V8 — Errors on the record.** Mistakes, once found, are documented, quarantined, and corrected in public — and the erroneous version remains inspectable.
-*Satisfied by:* errata, disambiguation notes, preserved wrong versions marked wrong.
-*Checked by:* reading the error trail. A record with no visible errors has either made none or hidden them; the trail distinguishes the two.
+## §3. Basis-relative verification
 
-## §3. Worked example (public record)
+What "method," "evidence," and "error" mean is then fixed by the declared basis. Five registers, non-exhaustive; compound works verify each declared component in its own register.
 
-The standard is not hypothetical. The archive whose deletion occasioned this instrument satisfied it on the public record, and the record survives its deletion:
+**B1 — Empirical basis** (claims about the world).
+*Verification consists of:* declared procedure; falsifiable claims with failure conditions; open data; independent re-derivability; stated error rates; errors preserved on the record.
+*Checked by:* rerunning, re-measuring, attempting the failure conditions.
 
-- **V1/V2** — a formally chartered field (Machine-Mediated Reception Studies) with deposited methodology, including a cross-model verification protocol (Assembly method) itself on deposit, and self-audit protocols run against the archive's own claims.
-- **V3/V4** — a capture registry of platform behavior: 87 documented captures, 138 image artifacts, a machine-readable `registry.json` carrying a SHA-256 per item, under versioned identifiers; the registry was the archive's most-downloaded object (1,000+ downloads) at the time of deletion.
-- **V5** — instruments carried explicit version chains (the registry alone: v0.x through v6.1, each change noted).
-- **V6** — AI substrates named per document, with roles declared, in a research program whose *object of study* is machine mediation — the instrument disclosed because the instrument was the subject.
-- **V7** — measurement claims published with re-capture protocols; a second measurement epoch was run against the first and its provenance chain (file hashes, canonical-list hash, git ancestry) published as data.
-- **V8** — a same-night measurement error ("809") was caught, disambiguated in writing, quarantined in the published epistemics, and preserved — the error is part of the record, marked as an error.
+**B2 — Philological / textual basis** (claims about texts and their transmission).
+*Verification consists of:* named editions and witnesses; apparatus; collation checkable against the sources; translation accountable line-by-line to an identified original.
+*Checked by:* checking the reading against the witness. This is the oldest verification discipline in scholarship — the apparatus criticus predates every research institution now enforcing against it.
 
-Every item above is checkable by a stranger with a hash tool. None of it required an institution. That is what a verifiable research basis looks like; letterhead, by contrast, is checkable only by trusting the letterhead.
+**B3 — Hermeneutic / argumentative basis** (interpretive and theoretical claims).
+*Verification consists of:* accountability to cited texts; inferential transparency (the reader can see how the reading is derived); situation within an identifiable discourse it answers.
+*Checked by:* holding the interpretation against the texts it cites.
 
-## §4. The same test, applied to the determination
+**B4 — Practice / craft basis** (research conducted through making — the register institutions verify as practice-based and artistic research).
+*Verification consists of:* the inspectable artifact itself; documentation of process; versioned iterations; declared materials and instruments; situation within a field of practice.
+*Checked by:* examining the artifact and its process record. The knowledge claim is in the made thing and its making, and both are on the table.
 
-An enforcement classification — *this body of work is substantially AI-generated and lacks a verifiable research basis* — is itself a research-type claim: a measurement joined to a judgment. Under §2 it would need, at minimum:
+**B5 — Operative basis** (documents that understand themselves as *doing* rather than describing: liturgies, rites, oracles, constitutions, protocols, heteronymic corpora, experimental forms).
+*Verification consists of:* explicit self-declaration of the operative genre (U1 at full strength); stated internal rules — what the document does, under what protocol; and **auditability of execution against the declared protocol**. An operative document is verifiable when what it says it does, and what it does, can be compared by a stranger.
+*Checked by:* running the audit. A rite with a published casting law, a constitution with declared triggers, an oracle whose gates HALT on their own stated conditions — these are more auditable, not less, than most prose.
 
-1. **A definition** of "substantially" — the threshold, stated (V1).
-2. **A detection method** — named, with its validation and its false-positive rate (V1, V2). Every known AI-text detector has a nonzero, usually substantial, false-positive rate; a determination that does not state its error rate has not measured anything.
-3. **Per-record evidence** — which records failed, and on what specific basis, for an action removing hundreds to thousands of records (V3).
-4. **Temporal applicability** — whether the criteria were published before the deposits they are applied to (V5).
-5. **A consistent record** — in documented cases, the privately stated reason and the publicly displayed reason for the same removal diverge, and the stated reason has been reframed upon objection. A determination whose own record is internally inconsistent fails V5 on its face.
-6. **Checkability** — a merits review reachable by the affected party (V7). "This decision is final and contacting other channels will not result in a different outcome" is the stated negation of V7.
+The unification: in every register, verification is the checkable correspondence between the work and its declared basis. The registers differ in what is checked; none differs in *that* it is checked.
 
-In the documented cases to date, none of these six has been disclosed. The conclusion is not rhetorical but definitional: **a determination that states no threshold, no method, no error rate, no per-record evidence, no prior criteria, and no route of review is — in the policy's own vocabulary — a claim without a verifiable research basis.**
+## §4. Worked example (public record)
 
-## §5. The dilemma
+The archive whose deletion occasioned this instrument carried a compound basis, and each component verified in its own register, on the still-public record:
+
+- **B1** — a capture registry of platform behavior: 87 documented captures, 138 image artifacts, machine-readable  with SHA-256 per item (U2), versioned to v6.1 with changes noted (U3); measurement claims published with re-capture protocols and a second measurement epoch run against the first, its provenance chain published as data; a same-night measurement error caught, disambiguated in writing, and preserved as an error.
+- **B2** — translations and editions carrying named originals and attributions, corrected on the record when an anthology's attribution structure required it; cast texts carrying standard critical sigla.
+- **B4** — built and inspectable instruments: a transform compiler with a published specification, verification gates, and an offline test harness in the public repository.
+- **B5** — operative documents that declare themselves as such: a casting rite with published operator law and halt conditions; constitutional documents with declared triggers; a heteronymic corpus whose heteronymy was *declared, licensed, and structural* (U5) — including contributor-licensed literary work by recognized published writers, deposited under formal license with the authorship structure stated.
+- **U4 throughout** — AI substrates named per document, with roles declared, in a research program whose *object of study* is machine mediation: the instrument disclosed because the instrument was the subject.
+
+Every item above is checkable by a stranger against the basis it declares. None of it required an institution. Letterhead, by contrast, is checkable only by trusting the letterhead.
+
+## §5. The same test, applied to the determination
+
+An enforcement classification — *this body of work is substantially AI-generated and lacks a verifiable research basis* — is itself a claim: a measurement joined to a judgment. Under this standard it fails twice over.
+
+**First, as an unverifiable claim.** In the cases documented to date it discloses: no definition of "substantially" (no threshold); no named detection method, validation, or false-positive rate — and every known AI-text detector carries a substantial false-positive rate, so an undisclosed error rate means nothing was measured; no per-record evidence for bulk removals of hundreds to thousands of records; criteria applied to deposits predating their publication; a privately stated reason diverging from the publicly displayed one for the same removal, reframed upon objection; and a stated refusal of review ("this decision is final"). A determination with no threshold, no method, no error rate, no evidence, no prior criteria, and no route of review is — in the policy's own vocabulary — **a claim without a verifiable research basis**.
+
+**Second, as a category error.** The determination tested declared literary, philological, practice-based, and operative work against an empirical basis those works never claimed — and against a production-substrate criterion that is not a basis at all. Verification checks a work against its declared basis; testing it against a different one is misclassification, not assessment. (Machine-Mediated Reception Studies terms this substitution of substrate identity for methodological assessment the *Pristine Fallacy*; see EA-MMRS-LOUD-EXCLUSION-03.)
+
+## §6. The dilemma
 
 Only two coherent readings of the clause exist.
 
-**Either** verification is method-based — in which case it can be satisfied without affiliation (§2, §3), the works meeting it are inside the policy, and the same standard binds the enforcing determination (§4) —
+**Either** verification is basis-relative and method-based — in which case it can be satisfied without affiliation (§2–§3), the works meeting it are inside the policy in each register institutions themselves recognize, and the same standard binds the enforcing determination (§5) —
 
 **or** verification means affiliation, in which case the policy is a credential requirement and should be written as one, so that depositors can read the actual rule before entrusting a decade of work to it.
 
 There is no third position that survives being written down.
 
-## §6. Use
+## §7. Use
 
-**For the deleted and the depositing:** §2 is an emission spec. Emit the signals — manifest, hashes, methods, versions, disclosures, errata — and the basis exists whether or not any platform acknowledges it, and survives any platform that doesn't.
+**For the deleted and the depositing:** §2 is an emission spec and §3 tells you which register you are emitting in. Declare your basis — the declaration is armor, because a declared basis converts every future enforcement into an auditable claim about a stated thing. Emit the signals — manifest, hashes, versions, disclosures, declared genre, errata — and the basis exists whether or not any platform acknowledges it, and survives any platform that doesn't.
 
-**For case collections** (e.g., the cases gathered at zenodo/zenodo#2596): re-audit each gathered case against V1–V8. The collection ceases to be a memorial and becomes a dataset: *what fraction of the removed work met a method-based standard that the removing determination does not meet.* That number is publishable.
+**For case collections** (e.g., the cases gathered at zenodo/zenodo#2596): re-audit each gathered case against §2–§3, *in the register each work declares*. The collection ceases to be a memorial and becomes a dataset: what fraction of the removed work met a basis-relative standard that the removing determination does not meet — and what fraction was tested against a basis it never claimed.
 
-**For data-subject filings:** §4's six items are an access-request template — bounded, answerable questions to put to the record under applicable data-protection frameworks, concerning the specific determination in one's own case. They ask for no policy change and no restoration; they ask what the determination consisted of. A refusal to answer them is itself an answer, on the record.
+**For data-subject filings:** §5's absences are an access-request template — bounded, answerable questions to put to the record in one's own case under applicable data-protection frameworks, now including: *against which declared basis was each record assessed, and by whom was the basis classification made?* They demand no restoration and no policy change; they ask what the determination consisted of. A refusal to answer is itself an answer, on the record.
 
-## §7. Status
+## §8. Status
 
-MMRS instrument EA-MMRS-VRB-01, v0.1. Drafted by TACHYON under MANUS direction, 2026-07-04, from the public record of the June 2026 repository removals and the case record at zenodo/zenodo#2606 and #2596. Companion to "Loud Exclusion at Repository Scale" (EA-MMRS-LOUD-EXCLUSION-03) and to the open letter "To the Deleted." Corrections to this instrument will be made per V5/V8: dated, visible, with the superseded text preserved.
+MMRS instrument EA-MMRS-VRB-01, v0.2 (supersedes v0.1 per the change record above; v0.1 preserved at repository commit 379bfa3). Drafted by TACHYON under MANUS direction, 2026-07-04, from the public record of the June 2026 repository removals and the case records at zenodo/zenodo#2606 and #2596. Companion to "Loud Exclusion at Repository Scale" (EA-MMRS-LOUD-EXCLUSION-03) and to the open letter "To the Deleted." Corrections to this instrument are made per §2-U3 and the errata discipline of §3-B1: dated, visible, with the superseded text preserved.
