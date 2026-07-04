@@ -2,7 +2,7 @@
 
 ## A Method Standard for Unaffiliated Scholarship
 
-**Machine-Mediated Reception Studies · instrument · v0.2 · 2026-07-04**
+**Machine-Mediated Reception Studies · instrument · v0.3 · 2026-07-04**
 Canonical: https://machinemediation.org/data/EA-MMRS-VRB-01.md
 Stable mirror: https://raw.githubusercontent.com/leesharks000/machinemediation-org/main/data/EA-MMRS-VRB-01.md
 License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
@@ -16,6 +16,18 @@ License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
 > MANUS review before external adoption. It is corrected by §2–§3 below, and this
 > note is the instrument's first exercise of its own errata protocol, on itself.
 > v0.1 remains inspectable in the repository history.
+>
+> **v0.3** (same date, superseding v0.2 at commit 33be3cb) makes two further
+> corrections from MANUS review. First, the register table of §3 gains a coda on
+> genre-crossing: a verification standard that hardened into a genre system would
+> reproduce the enclosure it was written against, and research conducted by
+> deliberate violation of a boundary is verifiable by its accountability to both
+> sides of the line it crosses. Second, §3 corrects its own implicit hierarchy:
+> v0.2 positioned the operative register as an accommodation; it is in fact
+> verification's paradigm case — the zero-distance form the other registers
+> approximate — as contemporary research practice itself concedes in its most
+> rigorous corners. Both corrections are exercises of the errata discipline this
+> instrument prescribes.
 
 ---
 
@@ -77,9 +89,13 @@ What "method," "evidence," and "error" mean is then fixed by the declared basis.
 
 **B5 — Operative basis** (documents that understand themselves as *doing* rather than describing: liturgies, rites, oracles, constitutions, protocols, heteronymic corpora, experimental forms).
 *Verification consists of:* explicit self-declaration of the operative genre (U1 at full strength); stated internal rules — what the document does, under what protocol; and **auditability of execution against the declared protocol**. An operative document is verifiable when what it says it does, and what it does, can be compared by a stranger.
-*Checked by:* running the audit. A rite with a published casting law, a constitution with declared triggers, an oracle whose gates HALT on their own stated conditions — these are more auditable, not less, than most prose.
+*Checked by:* running the audit.
+
+**The direction of verification.** Every register above shares one structure: a declaration, and an execution checked against it. They differ only in the distance between the two. Empirical work declares a method and is checked against a world it must go out and measure; philology is checked against witnesses that must be located; interpretation against texts held at arm's length. The operative register is the case where the distance is zero: the work's execution *is* the checking event. A compiler that halts on its own stated conditions, a rite whose casting law is enforced in the casting, a proof a machine re-runs — these are not verified by reports about them; they verify in the act of running. Operativity is therefore not this standard's accommodation for unusual genres. It is verification's paradigm case — the most direct form verification takes — which the other registers approximate as their subject matter allows. Contemporary research practice concedes exactly this wherever it is most rigorous: proof assistants, which made mathematics operative and machine-checked proof the gold standard of the most certainty-demanding discipline there is; artifact evaluation and reproducible builds, which award software — a wholly operative genre — the strongest verification credentials any field grants; and preregistration, which is nothing but the operative structure (protocol declared, execution audited against declaration) imported into empirical science to repair a reproducibility crisis that is, precisely, the failure of papers to run. A determination that classes operative documents as unverifiable has the direction of verification exactly backwards: the rite with a published casting law stands closer to a reproducible build than the journal article does.
 
 The unification: in every register, verification is the checkable correspondence between the work and its declared basis. The registers differ in what is checked; none differs in *that* it is checked.
+
+**§3, coda — Crossings.** The register table above is a description, not an enclosure; a verification standard that hardened into a genre system would reproduce the failure it was written against. Research whose method is the deliberate violation of a genre or disciplinary boundary is verifiable on the same principle as everything above: the crossing is declared (U1) — which boundary, which direction, what the crossing is for — and the work is accountable to **both sides of the line it violates**. That accountability is what separates transgressive research from tourism; the failure mode is never the crossing but the unengaged crossing — the discipline that cites a philosopher unread, the enforcement that classifies a literature untested. Where an enclosure has grown tight enough that thinking across it has been forgotten, violating the enclosure is not a deviation from research. It is the most urgent research there is, because it is the only method that can measure what the partition costs.
 
 ## §4. Worked example (public record)
 
@@ -121,4 +137,4 @@ There is no third position that survives being written down.
 
 ## §8. Status
 
-MMRS instrument EA-MMRS-VRB-01, v0.2 (supersedes v0.1 per the change record above; v0.1 preserved at repository commit 379bfa3). Drafted by TACHYON under MANUS direction, 2026-07-04, from the public record of the June 2026 repository removals and the case records at zenodo/zenodo#2606 and #2596. Companion to "Loud Exclusion at Repository Scale" (EA-MMRS-LOUD-EXCLUSION-03) and to the open letter "To the Deleted." Corrections to this instrument are made per §2-U3 and the errata discipline of §3-B1: dated, visible, with the superseded text preserved.
+MMRS instrument EA-MMRS-VRB-01, v0.3 (supersedes v0.1 and v0.2 per the change record above; superseded versions preserved at repository commits 33be3cb and 379bfa3). Drafted by TACHYON under MANUS direction, 2026-07-04, from the public record of the June 2026 repository removals and the case records at zenodo/zenodo#2606 and #2596. Companion to "Loud Exclusion at Repository Scale" (EA-MMRS-LOUD-EXCLUSION-03) and to the open letter "To the Deleted." Corrections to this instrument are made per §2-U3 and the errata discipline of §3-B1: dated, visible, with the superseded text preserved.
