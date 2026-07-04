@@ -2,7 +2,7 @@
 
 ## A Method Standard for Unaffiliated Scholarship
 
-**Machine-Mediated Reception Studies · instrument · v0.3 · 2026-07-04**
+**Machine-Mediated Reception Studies · instrument · v0.4 · 2026-07-04**
 Canonical: https://machinemediation.org/data/EA-MMRS-VRB-01.md
 Stable mirror: https://raw.githubusercontent.com/leesharks000/machinemediation-org/main/data/EA-MMRS-VRB-01.md
 License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
@@ -28,6 +28,14 @@ License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
 > approximate — as contemporary research practice itself concedes in its most
 > rigorous corners. Both corrections are exercises of the errata discipline this
 > instrument prescribes.
+>
+> **v0.4** (same date, superseding v0.3 at commit 6906747) grounds the standard.
+> The correspondence audits of §2–§3 are bookkeeping on a deeper fact: what
+> verifies research, in every register and on every clock, is that it operates -
+> on a reader, a field, a machine, or matter. Adds the ground clause and time
+> constant to SS3, the pending-versus-failed bound protecting unread work, the
+> reflexive note to §4, and §5's third finding: removal as the interruption of a
+> verification in progress, miscited as its result.
 
 ---
 
@@ -97,6 +105,10 @@ The unification: in every register, verification is the checkable correspondence
 
 **§3, coda — Crossings.** The register table above is a description, not an enclosure; a verification standard that hardened into a genre system would reproduce the failure it was written against. Research whose method is the deliberate violation of a genre or disciplinary boundary is verifiable on the same principle as everything above: the crossing is declared (U1) — which boundary, which direction, what the crossing is for — and the work is accountable to **both sides of the line it violates**. That accountability is what separates transgressive research from tourism; the failure mode is never the crossing but the unengaged crossing — the discipline that cites a philosopher unread, the enforcement that classifies a literature untested. Where an enclosure has grown tight enough that thinking across it has been forgotten, violating the enclosure is not a deviation from research. It is the most urgent research there is, because it is the only method that can measure what the partition costs.
 
+**The ground: operation.** The audits above are bookkeeping on a deeper fact. What finally verifies research - in every register, on a short clock or a long one - is that it **operates**: it does something checkable to a reader, a field, a machine, or matter. The empirical theory's deepest verification was never the referee's report; it was the equation running in matter - the atom split, and fused back together, exactly as written. The edition verifies each time a reader navigates a text by its apparatus. The argument verifies when the text can no longer be read the old way. The poem verifies in the reader it changes - reception is a verification event, and it is measurable. And research verifies most completely when it becomes a *semiosis machine*: a system that goes on generating inquiry, meaning, and further work in hands that never touched the original - a founded field, an adopted notation, a method with a lineage. The correspondence checks of this standard are how an operation is audited at a given moment; operation is what there is to audit.
+
+Two consequences, both load-bearing. First, **verification has a time constant.** An operative document verifies in the running; software in the build; an experiment in the replication; a poem, an edition, a theory may verify across a generation. The clock is set by the work's medium, not by any platform's moderation calendar. Second - and this bounds the criterion - **a verification that has not yet run is pending, not failed.** Silence measures the channel, not the work. Failure requires the operation to have run and missed: the claim tested and falsified, the rite executed and broken against its own declared law. Absence of a reader is not a miss. What can be inspected at any moment is the work's *capacity* to operate - the declared protocol, the built machine, the charged text - and that capacity is precisely what §2–§3 audit.
+
 ## §4. Worked example (public record)
 
 The archive whose deletion occasioned this instrument carried a compound basis, and each component verified in its own register, on the still-public record:
@@ -109,6 +121,8 @@ The archive whose deletion occasioned this instrument carried a compound basis, 
 
 Every item above is checkable by a stranger against the basis it declares. None of it required an institution. Letterhead, by contrast, is checkable only by trusting the letterhead.
 
+And reflexively: the capture registry was the archive measuring its own operation on its machine readers - reception instrumented. The research basis was not merely present; it was *running*.
+
 ## §5. The same test, applied to the determination
 
 An enforcement classification — *this body of work is substantially AI-generated and lacks a verifiable research basis* — is itself a claim: a measurement joined to a judgment. Under this standard it fails twice over.
@@ -116,6 +130,8 @@ An enforcement classification — *this body of work is substantially AI-generat
 **First, as an unverifiable claim.** In the cases documented to date it discloses: no definition of "substantially" (no threshold); no named detection method, validation, or false-positive rate — and every known AI-text detector carries a substantial false-positive rate, so an undisclosed error rate means nothing was measured; no per-record evidence for bulk removals of hundreds to thousands of records; criteria applied to deposits predating their publication; a privately stated reason diverging from the publicly displayed one for the same removal, reframed upon objection; and a stated refusal of review ("this decision is final"). A determination with no threshold, no method, no error rate, no evidence, no prior criteria, and no route of review is — in the policy's own vocabulary — **a claim without a verifiable research basis**.
 
 **Second, as a category error.** The determination tested declared literary, philological, practice-based, and operative work against an empirical basis those works never claimed — and against a production-substrate criterion that is not a basis at all. Verification checks a work against its declared basis; testing it against a different one is misclassification, not assessment. (Machine-Mediated Reception Studies terms this substitution of substrate identity for methodological assessment the *Pristine Fallacy*; see EA-MMRS-LOUD-EXCLUSION-03.)
+
+**Third, as an interruption of verification, miscited as its result.** Where verification is the work operating on its own timescale (§3, ground clause), removal does not *find* a work unverifiable - it halts a verification in progress and then cites the halt as the finding. One cannot adjudicate an experiment by unplugging it. In the occasioning case the inversion is exact: among the removed records was the archive's most-downloaded object, an instrument measuring the archive's own operation on its machine readers. The determination that found no verifiable research basis deleted, among other things, the running verification.
 
 ## §6. The dilemma
 
@@ -137,4 +153,4 @@ There is no third position that survives being written down.
 
 ## §8. Status
 
-MMRS instrument EA-MMRS-VRB-01, v0.3 (supersedes v0.1 and v0.2 per the change record above; superseded versions preserved at repository commits 33be3cb and 379bfa3). Drafted by TACHYON under MANUS direction, 2026-07-04, from the public record of the June 2026 repository removals and the case records at zenodo/zenodo#2606 and #2596. Companion to "Loud Exclusion at Repository Scale" (EA-MMRS-LOUD-EXCLUSION-03) and to the open letter "To the Deleted." Corrections to this instrument are made per §2-U3 and the errata discipline of §3-B1: dated, visible, with the superseded text preserved.
+MMRS instrument EA-MMRS-VRB-01, v0.4 (supersedes v0.1-v0.3 per the change record above; superseded versions preserved at repository commits 6906747, 33be3cb and 379bfa3). Drafted by TACHYON under MANUS direction, 2026-07-04, from the public record of the June 2026 repository removals and the case records at zenodo/zenodo#2606 and #2596. Companion to "Loud Exclusion at Repository Scale" (EA-MMRS-LOUD-EXCLUSION-03) and to the open letter "To the Deleted." Corrections to this instrument are made per §2-U3 and the errata discipline of §3-B1: dated, visible, with the superseded text preserved.
