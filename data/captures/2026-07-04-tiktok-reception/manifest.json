@@ -1,0 +1,133 @@
+{
+ "capture_set": "CAP-TIKTOK-RECEPTION-20260704",
+ "subject": "https://www.tiktok.com/@leesharks (public profile grid, authenticated view)",
+ "captured": "2026-07-04T07:34-07:35 (device-local, America/Detroit); preserved off-device same day",
+ "account_state_at_capture": {
+  "followers": 1184,
+  "following": 388,
+  "likes": 6856
+ },
+ "significance": "Documents (1) the distribution channel that explains the removed dataset's download trajectory: the account holder was publishing AI Overview captures to a public readership on a consumer surface, and the CAP-ZENODO-PREBAN-STATS scroll recording is visible in-grid as a TikTok cross-post — the Zenodo downloads have a legible audience-acquisition mechanism on the record, namely readers; (2) a partial third-party-timestamped mirror of the deleted AI Overview Capture Registry — captures survive as dated public TikTok posts; (3) a reception dataset in its own right: human reception of machine-reception captures, per-concept view counts at capture time, inventoried below.",
+ "share_link": {
+  "url": "https://www.tiktok.com/t/ZTSPsR4vb/",
+  "note": "supplied by deponent 2026-07-04; automated resolution disallowed by platform; long-form URL pending — TikTok video IDs encode creation time (id >> 32 = unix ts), so the long-form URL yields an independent post-date decode."
+ },
+ "reception_inventory_at_capture": [
+  {
+   "post": "hyperion (pinned)",
+   "views": 280
+  },
+  {
+   "post": "hi, im the moon (pinned)",
+   "views": 16900
+  },
+  {
+   "post": "i love u all (pinned)",
+   "views": 240
+  },
+  {
+   "post": "Coordination Without Commodification / 'I hereby abolish money' AIO",
+   "views": 434
+  },
+  {
+   "post": "AI Overview Capture Registry — June 2026 AIO",
+   "views": 335
+  },
+  {
+   "post": "Phase X in Marxism AIO",
+   "views": 5698
+  },
+  {
+   "post": "Zenodo /me/uploads pre-ban stats scroll (cross-post of CAP-ZENODO-PREBAN-STATS recording)",
+   "views": 132
+  },
+  {
+   "post": "Talos Morrow AIO",
+   "views": 97
+  },
+  {
+   "post": "Studio for Patacinematics / Sparrow Wells AIO",
+   "views": 206
+  },
+  {
+   "post": "Rebekah Cranes diagrammatic poetics AIO",
+   "views": 216
+  },
+  {
+   "post": "Nobel Glas / Lagrange Observatory AIO",
+   "views": 124
+  },
+  {
+   "post": "semantic economy AIO",
+   "views": 290
+  },
+  {
+   "post": "Operative Semiotics AIO",
+   "views": 132
+  },
+  {
+   "post": "Provenance Erasure AIO",
+   "views": 297
+  },
+  {
+   "post": "Cambridge Schizoanalytica AIO",
+   "views": 149
+  },
+  {
+   "post": "Pearl and Other Poems AIO",
+   "views": 210
+  },
+  {
+   "post": "Autonomous Semantic Warfare (Rex Fraction) AIO",
+   "views": 289
+  },
+  {
+   "post": "VPCOR (Rev. Ayanna Vox) AIO",
+   "views": 266
+  },
+  {
+   "post": "Water Giraffe Cycle AIO",
+   "views": 268
+  },
+  {
+   "post": "Crimson Hexagonal Archive AIO",
+   "views": 160
+  },
+  {
+   "post": "Secret Book of Walt AIO",
+   "views": 177
+  },
+  {
+   "post": "Socrates as orthonym AIO",
+   "views": 433
+  },
+  {
+   "post": "Lee Sharks — Independent Researcher AIO",
+   "views": 270
+  },
+  {
+   "post": "secretbookofwalt (communion wafer)",
+   "views": 475
+  }
+ ],
+ "items": [
+  {
+   "file": "screengrab-20260704-073446.png",
+   "sha256": "778c9e7b07b60a2e1d74e53861d77324c4d0485babdee3e0eb725df147626eec",
+   "published": true,
+   "documents": "Profile header (@leesharks; 1,184 followers; 6,856 likes; bio) + pinned row + grid row 1 (Coordination 434; Registry 335; Phase X in Marxism 5,698)."
+  },
+  {
+   "file": "screengrab-20260704-073452.png",
+   "sha256": "ff01db44db19decb76ac1fa038207200978df8083eceec3a211459c09ecb6831",
+   "published": true,
+   "documents": "Grid rows: Zenodo pre-ban stats cross-post at 132 views; Morrow; Patacinematics; Cranes; Glas; semantic economy; Operative Semiotics; Provenance Erasure; Schizoanalytica; Pearl; Semantic Warfare; VPCOR."
+  },
+  {
+   "file": "screengrab-20260704-073501.png",
+   "sha256": "9ab74732ce1e86c9cb090d8de04e2713b909d7f83730b52e2f07ce0687a59c0e",
+   "published": true,
+   "documents": "Grid rows: Water Giraffe; Crimson Hexagonal Archive; Secret Book of Walt; Socrates as orthonym; Independent Researcher; secretbookofwalt at 475."
+  }
+ ]
+}

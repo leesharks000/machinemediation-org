@@ -21,6 +21,6 @@
    "published": true
   }
  ],
- "corroboration": "The screen recording is also posted publicly on TikTok (deponent attestation, 2026-07-04); the post's platform timestamp constitutes independent third-party dating corroboration. Post URL to be inscribed on receipt (manifest v2).",
+ "corroboration": "The screen recording is cross-posted publicly on TikTok; the cross-post is visible in the account grid at 132 views as of 2026-07-04 (see CAP-TIKTOK-RECEPTION-20260704). Share link https://www.tiktok.com/t/ZTSPsR4vb/ inscribed; long-form URL pending for ID-timestamp decode (manifest v3).",
  "baseline": "See BASELINE-METHOD.md + zenodo-baseline-sample.json in this directory (measured 2026-07-04)."
 }
