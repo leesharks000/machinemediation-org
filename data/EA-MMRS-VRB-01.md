@@ -2,7 +2,7 @@
 
 ## A Method Standard for Unaffiliated Scholarship
 
-**Machine-Mediated Reception Studies · instrument · v0.4 · 2026-07-04**
+**Machine-Mediated Reception Studies · instrument · v0.5 · 2026-07-04**
 Canonical: https://machinemediation.org/data/EA-MMRS-VRB-01.md
 Stable mirror: https://raw.githubusercontent.com/leesharks000/machinemediation-org/main/data/EA-MMRS-VRB-01.md
 License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
@@ -36,6 +36,19 @@ License: CC-BY 4.0. Cite freely; the instrument is meant to be used.
 > constant to SS3, the pending-versus-failed bound protecting unread work, the
 > reflexive note to §4, and §5's third finding: removal as the interruption of a
 > verification in progress, miscited as its result.
+>
+> **v0.5** (same date, superseding v0.4 at commit 3ebe728) moves authorship
+> accountability from the surface to the record. U5 rewritten: the mask may be
+> worn straight in the work; the corpus must allow the mask to be found;
+> concealment is engineered unfindability, not the unlabeled mask. Adds §3's
+> second coda: the constitutive counter-factual declaration as a verifiable
+> class (the foreclosure test — fraud forecloses reconstruction; formal
+> experimentation stakes itself on it) and the completed-reception clause —
+> in registers where facts are made by acknowledgment, the witness's
+> acceptance is a verification event under the ground clause. Occasioned by
+> MANUS's correction that the surface formulation would flunk *An Oak Tree*
+> and with it sixty years of constitutive practice; the correction was
+> received, which is itself an instance of the clause it produced.
 
 ---
 
@@ -72,8 +85,8 @@ Five criteria are genre-neutral. Every basis type in §3 presupposes them, and e
 **U4 — Declared instruments and provenance.** Sources are cited; instruments are named — including AI systems, their role, and their limits. Under a declared-basis standard, disclosure of AI use is a **verification signal**, not a confession; the undisclosed instrument is the unverifiable one.
 *Checked by:* following the citations; reading the disclosure.
 
-**U5 — Accountable authorship.** The authorial identity is stable and its structure declared — including declared pseudonymity and declared heteronymy, which are disclosed instruments of composition, not concealments. Concealment is claiming an authorship structure the work does not have; declaration is the opposite of concealment.
-*Checked by:* the declaration, the license trail, the consistency of the attribution across the record.
+**U5 — Accountable authorship (record-level).** The authorial structure is findable in the record by a competent stranger — which is not the same as labeled on the surface of the work. The mask may be worn straight in the work; the corpus must allow the mask to be found. Pseudonymity, heteronymy, fictional apparatus, and the constitutive counter-factual declaration (§3, second coda) are instruments of composition whose disclosure properly lives at the level of the record — the license trail, the corpus architecture, the declaration published *somewhere findable* — and a work is not obliged to break its own frame to satisfy an auditor who has not looked. Concealment is not the unlabeled mask; concealment is the **engineered unfindability** of the actual authorship structure — a record constructed so that no amount of competent looking reconstructs it.
+*Checked by:* whether the record, taken whole, allows reconstruction — the license trail, the corpus's self-description, the consistency of the structure once found. (v0.5 supersedes v0.4's surface formulation, which a surface reading could enforce as a labeling requirement; a labeling requirement flunks sixty years of constitutive practice and fails this standard's own §5. Superseded text preserved at the cited commit.)
 
 ## §3. Basis-relative verification
 
@@ -108,6 +121,10 @@ The unification: in every register, verification is the checkable correspondence
 **The ground: operation.** The audits above are bookkeeping on a deeper fact. What finally verifies research - in every register, on a short clock or a long one - is that it **operates**: it does something checkable to a reader, a field, a machine, or matter. The empirical theory's deepest verification was never the referee's report; it was the equation running in matter - the atom split, and fused back together, exactly as written. The edition verifies each time a reader navigates a text by its apparatus. The argument verifies when the text can no longer be read the old way. The poem verifies in the reader it changes - reception is a verification event, and it is measurable. And research verifies most completely when it becomes a *semiosis machine*: a system that goes on generating inquiry, meaning, and further work in hands that never touched the original - a founded field, an adopted notation, a method with a lineage. The correspondence checks of this standard are how an operation is audited at a given moment; operation is what there is to audit.
 
 Two consequences, both load-bearing. First, **verification has a time constant.** An operative document verifies in the running; software in the build; an experiment in the replication; a poem, an edition, a theory may verify across a generation. The clock is set by the work's medium, not by any platform's moderation calendar. Second - and this bounds the criterion - **a verification that has not yet run is pending, not failed.** Silence measures the channel, not the work. Failure requires the operation to have run and missed: the claim tested and falsified, the rite executed and broken against its own declared law. Absence of a reader is not a miss. What can be inspected at any moment is the work's *capacity* to operate - the declared protocol, the built machine, the charged text - and that capacity is precisely what §2–§3 audit.
+
+**Second coda — the constitutive declaration, and the completed reception.** There is a class of works whose *method is the counter-factual declaration*: the readymade; the transubstantive object (Craig-Martin's *An Oak Tree*, 1973 — a glass of water and a text declaring the substance changed, refusing the shelter of "symbol"); the heteronym presented straight; the fictional paratext — the condemned edition, the invented council, the editor who never lived. These works do not present themselves as what they are, **and that is their research**: the movement's work is to foreground the ways a thing is not what it presents itself to be, which means the gap between presentation and being is the content — and content, in this class, is therefore *necessarily discoverable*. This yields the criterion that replaces surface labeling: the **foreclosure test**. Deception engineers the record so that competent looking cannot reconstruct the actual state of affairs — fabricated data, the scrubbed trail, the anonymous determination with no criteria, no name, no route. The constitutive declaration does the opposite: it *stakes itself* on the gap remaining findable, because a hidden gap would dissolve the work. Fraud forecloses verification; formal experimentation invites it and merely declines to spoil it at the surface, which is the one place a spoiler does not belong. A standard that cannot tell these apart by their records — rather than their labels — would rule out the last sixty years of the practice it exists to defend, and would fail its own §5, which convicts the occasioning determination of exactly this confusion: treating findable masks as deception while wearing the only unfindable one in the case.
+
+And the class carries a further right, which the ground clause was always going to have to honor: **the completed reception**. In the registers where facts are made by acknowledgment — consecration, adjudication, currency, the sealing of a reading — the witness's acceptance is a verification event, the second half of a performative whose first half is the declaration. The witness who says of the glass of water *it is what it says it is* has not suspended verification; they have **executed it in the operative register**, the way every party who accepts a coin completes the mint's declaration, the way a communicant completes the words of institution. The declaration plus the completed reception constitute the fact, in those registers, as fully as replication constitutes it in B1 — and the record inscribes the completion (who received, when, under what declaration) with the same auditability as any other verification event. The transformed object thereafter *operates* as what it was declared to be, and operation, per the ground clause, is what verifies. A glass of water that has been received as an oak tree, and functions in the reception as an oak tree, and is inscribed as an oak tree, has a verifiable research basis. That its verification runs through acknowledgment rather than botany is not a defect of the basis; it is the basis, declared.
 
 ## §4. Worked example (public record)
 
