@@ -20,5 +20,7 @@
    "type": "screen recording, 15s, 576x1024 HEVC",
    "published": true
   }
- ]
+ ],
+ "corroboration": "The screen recording is also posted publicly on TikTok (deponent attestation, 2026-07-04); the post's platform timestamp constitutes independent third-party dating corroboration. Post URL to be inscribed on receipt (manifest v2).",
+ "baseline": "See BASELINE-METHOD.md + zenodo-baseline-sample.json in this directory (measured 2026-07-04)."
 }
