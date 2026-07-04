@@ -1,4 +1,12 @@
-# Cohort baseline for the pre-removal download figures
+# Cohort baseline for the pre-removal download figures (v2)
+
+> **Erratum (v2, 2026-07-04, same day).** v1 framed the captured 666 as "~2 days" of accumulation for v7.2. A
+> platform timestamp obtained the same day (TikTok Post analysis: image posted Jun 15, 2026, 4:42 PM — the day of
+> the v7.2 upload) supersedes the recollection that produced that framing, and the 666 is best read as the
+> record's cumulative counter at that moment. The corrected anchors: **666 cumulative at 2026-06-15 16:42**
+> (platform-timestamped) and **1,000+ at removal, 2026-06-19** (contemporaneous issue body, unrefuted) — a delta
+> of **>=334 downloads in <=4 days**. The cohort table below is unchanged; the Reading and Conclusion are
+> restated on the corrected anchors. v1 is preserved in repository history.
 
 **Measured 2026-07-04, unauthenticated Zenodo REST API.** Raw sample: `zenodo-baseline-sample.json` (checkable; re-runnable from the query below).
 
@@ -18,8 +26,8 @@
 | max | 3,087 | 561 |
 | ≥ 666 after ~19 days | 2/200 (1.0%) | 0/200 (0.0%) |
 
-**Reading.** After ~19 days, 99% of the registry's own publication cohort had not reached the download count the registry reached in ~2. The captured 666-at-day-2 sits at approximately the 99th percentile of the cohort's 19-day counts; the 1,000+-at-day-4 figure asserted at removal sits above it. The registry's day-2 count was ~95× the cohort's 19-day median.
+**Reading (v2).** The four-day delta alone (>=334 downloads, Jun 15->19) is ~48x the cohort's nineteen-day median (7) and exceeds its nineteen-day p95 (116) at the version level. The cumulative 1,000+ at removal exceeds the cohort's version-level p99 (804) and the all-versions maximum observed (561). On any field mapping, the removed dataset's usage sat at the extreme top of its publication-week cohort.
 
 **Limitations, on the record.** (1) The sample is the window's 200 most recent, not a random draw; the window is only three days wide, limiting ordering bias, but this is a convenience sample. (2) The Zenodo UI counter captured at 666 is not field-labeled in the interface; API naming (`downloads` = this-version, `version_downloads` = all-versions) means the captured figure maps to one of the two columns above — it clears the 99th percentile threshold in either mapping at the version level and exceeds the observed maximum at the all-versions level. (3) Bot and crawler traffic is unmodeled on both sides of the comparison. (4) Cohort stats were measured post-hoc on 2026-07-04 and will drift; the raw sample is preserved for exactly that reason.
 
-**Conclusion, bounded.** By the platform's own contemporaneous cohort, the removed dataset's usage was in the top ~1% of same-week datasets on a fraction of the accumulation time. "A lot by Zenodo's standards" is hereby a measurement, not an impression.
+**Conclusion, bounded (v2).** By the platform's own contemporaneous cohort, the removed dataset's usage was in the top ~1% of same-week datasets, and its final four days alone outpaced what 95% of that cohort accumulated in nineteen. "A lot by Zenodo's standards" is hereby a measurement, not an impression — and this note's own correction trail is part of the measurement's warrant.
