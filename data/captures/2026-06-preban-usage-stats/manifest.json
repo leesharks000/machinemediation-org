@@ -31,6 +31,6 @@
  ],
  "corroboration": "TikTok post (share link https://www.tiktok.com/t/ZTSPsR4vb/) platform-timestamped Jun 15, 2026, 4:42 PM per the Post-analysis capture inscribed below; single-photo post (Photos viewed 1/1) with music. The post's own reach (132 views, no engagement) is immaterial to this set: its evidentiary function is the timestamp only.",
  "baseline": "See BASELINE-METHOD.md + zenodo-baseline-sample.json in this directory (measured 2026-07-04).",
- "manifest_version": "v3",
- "interpretation_note": "Given same-day posting, the 666 figure is best read as the record's CUMULATIVE download counter as of 2026-06-15 16:42 (the registry concept predates v7.2 across earlier versions; version-level vs all-versions field mapping in the /me/uploads UI is not labeled). Defensible anchors: 666 cumulative at Jun 15 16:42; 1,000+ at removal Jun 19 per the contemporaneous issue body; delta >=334 downloads in <=4 days. See BASELINE-METHOD.md v2."
+ "manifest_version": "v4",
+ "interpretation_note": "SUPERSEDED BY TIMELINE.md (v4): DataCite shows the concept DOI registered 2026-06-13T22:48:57Z — the June registry line was ~46 hours old at the 666 capture. The v3 cumulative-over-weeks reading over-corrected; the deponent attestation (first-or-second day) is confirmed by instruments. See TIMELINE.md for the consolidated chronology and the DataCite 404 severance datum."
 }
