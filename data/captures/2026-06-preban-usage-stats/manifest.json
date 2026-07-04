@@ -1,0 +1,24 @@
+{
+ "capture_set": "CAP-ZENODO-PREBAN-STATS-202606",
+ "subject": "https://zenodo.org/me/uploads (authenticated account view, pre-removal)",
+ "captured": "circa 2026-06-16/17, per deponent attestation: registry v7.2 uploaded 2026-06-15; capture taken 'the second day' with the download counter at 666; the account was removed 2026-06-19 before the counter was observed again. No embedded creation timestamp in either file (device-stripped).",
+ "preserved_off_device": "2026-07-04 (transferred, SHA-256 inscribed, committed same day)",
+ "significance": "Only known surviving capture of pre-removal usage statistics from Zenodo's own interface. Documents: AI Overview Capture Registry — June 2026 (EA-WG-CAPTURES-01 v7.2, 131 captures in four categories: Frameworks 79, Heteronyms 26, Sites & Surfaces 16, Books & Projects 10), Dataset, Open, author Sharks, Lee (ORCID badge shown), Part of Crimson Hexagonal Archive, uploaded June 15 2026 — at 309 views / 666 downloads approximately two days after the version's upload. Establishes the download trajectory consistent with the 1,000+ downloads at time of removal contemporaneously asserted in the body of zenodo/zenodo#2606 (opened 2026-06-19, the day of removal, in the falsifiability window, unrefuted since). The video is a 15-second scroll of the same view showing per-record statistics across additional records, including the corrected Mrozony provenance-anchor record (v1, June 15 2026).",
+ "chain_note": "Frame extraction (fps=1, 15 frames) was performed 2026-07-04 for content documentation and privacy review only; frames are derivative and not published. Original files renamed for legibility; original device filenames inscribed below. Hashes are over file contents and are name-independent.",
+ "items": [
+  {
+   "file": "zenodo-me-uploads-stats-666-circa20260616.png",
+   "original_filename": "1830cfba1a327566216d77940ea2a144.png",
+   "sha256": "52285008b232efc31f826ed36b33442406d0352308ea50a360b804c6647e0d60",
+   "type": "screenshot",
+   "published": true
+  },
+  {
+   "file": "zenodo-me-uploads-scroll-circa20260616.mp4",
+   "original_filename": "4046fd3a334443e1e0185ac79a86e03c.mp4",
+   "sha256": "1f0048aa9e0a67aac8e2466e0f045a8a836526a7e633aea4e6b3be3350b605b3",
+   "type": "screen recording, 15s, 576x1024 HEVC",
+   "published": true
+  }
+ ]
+}
