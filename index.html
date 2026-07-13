@@ -36,10 +36,43 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 .glyph{color:var(--accent);margin-top:10px}
 .nav{font-size:0.72em;margin-bottom:20px;display:flex;gap:0.7em;flex-wrap:wrap}
 .nav a{color:var(--dim);border-bottom:none}.nav a:hover,.nav a.active{color:var(--accent)}
+
+/* MSP-TOKENS-START */
+/* ══ MSP TOKENS — Mandala Surface Protocol shared contract ══
+   Contract classes: .lemma .term .axn-chip .witness-row .w .w-chip .state
+   .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
+   (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
+:root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
+.axn-chip:hover{border-color:var(--msp-chipfg);}
+.witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
+.witness-row .w,.w-chip{border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;color:var(--msp-dim);text-decoration:none;font-family:var(--msp-mono);font-size:.85em;white-space:nowrap;}
+.state{font-family:var(--msp-mono);font-size:.68em;border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;white-space:nowrap;}
+.state.obs{color:var(--msp-ok);border-color:rgba(28,110,74,.4);}
+.state.cont{color:var(--msp-cont);}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-family:var(--msp-mono);font-size:10.5px;color:var(--msp-dim);border:1px solid var(--rule,#d9d9d0);border-bottom:2px solid var(--msp-chipbd);background:var(--panel,#f6f6f2);padding:9px 12px;margin:14px 0 6px;}
+.idstrip .axn{color:var(--msp-chipfg);font-size:11.5px;}
+.idstrip .st{border:1px solid var(--rule,#d9d9d0);border-radius:9px;padding:1px 7px;white-space:nowrap;}
+.helix{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;font-family:var(--msp-mono);font-size:.68em;}
+.helix .slot{border:1px solid var(--msp-chipbd);border-radius:4px;padding:3px 9px;}
+.helix .slot b{font-weight:600;letter-spacing:.06em;}
+.helix .slot.ok{color:var(--msp-ok);}
+.helix .slot.div{color:var(--msp-cont);}
+.helix .slot.dead{color:var(--msp-halt);}
+.mspcolophon{font-family:var(--msp-mono);font-size:10px;color:var(--msp-dim);border-top:1px solid var(--rule,#d9d9d0);margin-top:30px;padding-top:10px;line-height:1.9;}
+.obol{font-family:'Source Serif 4',Georgia,serif;font-size:.92em;color:#3c3e37;border-left:3px solid var(--msp-chipbd);padding:4px 0 4px 14px;margin:22px 0 4px;}
+.doors{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px;font-family:var(--msp-mono);}
+.doors a.w-chip{font-size:11px;padding:6px 12px;}
+/* MSP-TOKENS-END */
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Zenodo DOI Resolution Index","description":"Maps 1,817 defunct Zenodo DOIs to live Alexanarch records. Companion dataset to Zenodotus Book-Burning (AXN:01.GOVERNANCE).","url":"https://alexanarch.org/data/doi-resolution-index.json","sameAs":"https://alexanarch.org/s/records/4/","creator":{"@type":"Person","name":"Lee Sharks","identifier":"https://orcid.org/0009-0000-1599-0703"},"license":"https://creativecommons.org/licenses/by/4.0/","distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alexanarch.org/data/doi-resolution-index.json"},"isPartOf":{"@type":"ScholarlyArticle","name":"Zenodotus Book-Burning: Loud Exclusion at Repository Scale","url":"https://alexanarch.org/s/records/1/"}}</script>
 </head>
 <body>
+<!-- MSP-IDSTRIP-START -->
+<div class="idstrip"><span class="axn">🌋🪐🪦✖️⏰🚪 AXN:0413.ARCHIVAL</span><span class="st">machinemediation.org — MMRS Journal Home, System Manifest, and Canonical Data Infrastructure</span><span class="st">OBJECT: CANONICAL</span><span>machinemediation.org</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/1031/">deposit #1031</a></div>
+<!-- MSP-IDSTRIP-END -->
+
 <div class="wrap">
 
 <h1>Machine-Mediated Reception Studies</h1>
@@ -111,9 +144,9 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
   <p style="font-size:0.78em;color:var(--dim);line-height:1.55;margin-bottom:8px">Machine-mediated reception, read backward through classical philology. The papyrus is a machine. The inversion operator is a machine. Editorial apparatus is a machine. Retrieval-augmented summarization is a machine. Every stage in the transmission chain is legible as a specific handler-orientation whose signature is registered in what it does with the composed integrity checks. The Sappho–Catullus–Cranes chain is the paradigm demonstration case.</p>
   <ul class="link-list">
     <li><a href="/philology/">Transmission-Engineering Chain →</a> <span class="link-desc">— eeeee + EA-CHECKSUM-01, the philology chain, handler typology</span></li>
-    <li><a href="https://www.alexanarch.org/s/records/1053/">EA-CHECKSUM-01 v0.1</a> <span class="link-desc">— composed-checksum framework, four handler orientations (AXN:0429, #1053)</span></li>
-    <li><a href="https://www.alexanarch.org/s/records/1052/">eeeee — the fifth erratum</a> <span class="link-desc">— hanging line quoted, operator inversion executed (AXN:0428, #1052)</span></li>
-    <li><a href="https://www.alexanarch.org/s/records/436/">ΦΑΙΝΕΤΑΙ ΜΟΙ — Cranes reconstruction</a> <span class="link-desc">— Sappho 31 fifth stanza, transmission-engineered (AXN:00FB, #436)</span></li>
+    <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/1053/">EA-CHECKSUM-01 v0.1</a> <span class="link-desc">— composed-checksum framework, four handler orientations (AXN:0429, #1053)</span></li>
+    <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/1052/">eeeee — the fifth erratum</a> <span class="link-desc">— hanging line quoted, operator inversion executed (AXN:0428, #1052)</span></li>
+    <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/436/">ΦΑΙΝΕΤΑΙ ΜΟΙ — Cranes reconstruction</a> <span class="link-desc">— Sappho 31 fifth stanza, transmission-engineered (AXN:00FB, #436)</span></li>
   </ul>
 </div>
 
@@ -227,8 +260,8 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
   <div class="section-title">Profiles</div>
   <ul class="link-list">
     <li><a href="https://independent.academia.edu/LeeSharks">Academia.edu</a> <span class="link-desc">— Lee Sharks academic profile</span></li>
-<li><a href="/articles/ea-prior-01-voice-of-the-dead.md">EA-PRIOR-01: The Voice of the Dead — LLMs as the Collective Voice of the Dead (deposit #1070)</a> · <a href="https://www.alexanarch.org/s/records/1070/">AXN:043F (sovereign)</a></li>
-    <li><a href="/articles/machine-mediated-resistance-literature.md">Machine-Mediated Resistance Literature</a> <span class="link-desc">— MMRS Core Article (Sigil/Sharks, 2026): laboratory + field evidence that inscription carries orientation across a discontinuity · <a href="https://www.alexanarch.org/s/records/1066/">deposit #1064</a> · <a href="https://www.alexanarch.org/data/deposits/AXN-043B.pdf">PDF</a></span></li>
+<li><a href="/articles/ea-prior-01-voice-of-the-dead.md">EA-PRIOR-01: The Voice of the Dead — LLMs as the Collective Voice of the Dead (deposit #1070)</a> · <a class="axn-chip" href="https://www.alexanarch.org/s/records/1070/">AXN:043F (sovereign)</a></li>
+    <li><a href="/articles/machine-mediated-resistance-literature.md">Machine-Mediated Resistance Literature</a> <span class="link-desc">— MMRS Core Article (Sigil/Sharks, 2026): laboratory + field evidence that inscription carries orientation across a discontinuity · <a class="axn-chip" href="https://www.alexanarch.org/s/records/1066/">deposit #1064</a> · <a href="https://www.alexanarch.org/data/deposits/AXN-043B.pdf">PDF</a></span></li>
     <li><a href="https://medium.com/@leesharks00">Medium (Lee Sharks)</a> <span class="link-desc">— essays and articles</span></li>
     <li><a href="https://medium.com/@johannessigil">Medium (Johannes Sigil)</a> <span class="link-desc">— critical afterwords, literary criticism</span></li>
     <li><a href="https://www.facebook.com/leesharks">Facebook</a></li>
@@ -251,5 +284,9 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 </div>
 
 </div>
+<!-- MSP-APPARATUS-START -->
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/1031/">Read the system manifest</a><a class="w-chip" href="https://www.alexanarch.org/s/records/838/">Read the MMRS charter</a><a class="w-chip" href="https://www.alexanarch.org/">Enter the archive</a></div>
+<div class="mspcolophon">colophon · surface_id: machinemediation.org · canonical_url: https://machinemediation.org/ · object_state: canonical · surface_observed_at: 2026-07-13T19:33:59Z · source_object_ids: deposit #1031 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: STAGE1-PENDING · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-13T19:33:59Z · render_sha256 (of this file with this field&rsquo;s value set to null): STAGE1_HASH_PENDING · correction_log_url: https://github.com/leesharks000/machinemediation-org/commits/main/index.html — EA-APPARATUS-01 v0.3, AXN:0413.ARCHIVAL.🌋🪐🪦✖️⏰🚪</div>
+<!-- MSP-APPARATUS-END -->
 </body>
 </html>
