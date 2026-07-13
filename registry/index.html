@@ -1,5 +1,7 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Sovereign Asset Registry — Crimson Hexagonal Archive</title>
 <style>
 :root{--bg:#0a0a0f;--surface:#111118;--text:#b8b4ae;--dim:#555;--accent:#c84b2e;--teal:#00c9a7;--gold:#D4AF37;--red:#dc3545;--green:#28a745;--yellow:#e6a817;--mono:'Courier New',monospace;--serif:Georgia,serif}
@@ -42,51 +44,76 @@ a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
 .load-more{display:block;width:100%;padding:0.6em;background:var(--surface);border:1px solid #1a1a22;color:var(--dim);font-family:var(--mono);font-size:0.78em;cursor:pointer;text-align:center;margin-top:1em;border-radius:3px}
 .footer{margin-top:3em;padding-top:1em;border-top:1px solid #1a1a22;font-family:var(--mono);font-size:0.68em;color:var(--dim)}
 .result-count{font-family:var(--mono);font-size:0.72em;color:var(--dim);margin-bottom:0.5em}
+
+/* MSP-TOKENS-START */
+/* ══ MSP TOKENS — Mandala Surface Protocol shared contract ══
+   Contract classes: .lemma .term .axn-chip .witness-row .w .w-chip .state
+   .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
+   (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
+:root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
+.axn-chip:hover{border-color:var(--msp-chipfg);}
+.witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
+.witness-row .w,.w-chip{border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;color:var(--msp-dim);text-decoration:none;font-family:var(--msp-mono);font-size:.85em;white-space:nowrap;}
+.state{font-family:var(--msp-mono);font-size:.68em;border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;white-space:nowrap;}
+.state.obs{color:var(--msp-ok);border-color:rgba(28,110,74,.4);}
+.state.cont{color:var(--msp-cont);}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-family:var(--msp-mono);font-size:10.5px;color:var(--msp-dim);border:1px solid var(--rule,#d9d9d0);border-bottom:2px solid var(--msp-chipbd);background:var(--panel,#f6f6f2);padding:9px 12px;margin:14px 0 6px;}
+.idstrip .axn{color:var(--msp-chipfg);font-size:11.5px;}
+.idstrip .st{border:1px solid var(--rule,#d9d9d0);border-radius:9px;padding:1px 7px;white-space:nowrap;}
+.helix{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;font-family:var(--msp-mono);font-size:.68em;}
+.helix .slot{border:1px solid var(--msp-chipbd);border-radius:4px;padding:3px 9px;}
+.helix .slot b{font-weight:600;letter-spacing:.06em;}
+.helix .slot.ok{color:var(--msp-ok);}
+.helix .slot.div{color:var(--msp-cont);}
+.helix .slot.dead{color:var(--msp-halt);}
+.mspcolophon{font-family:var(--msp-mono);font-size:10px;color:var(--msp-dim);border-top:1px solid var(--rule,#d9d9d0);margin-top:30px;padding-top:10px;line-height:1.9;}
+.obol{font-family:'Source Serif 4',Georgia,serif;font-size:.92em;color:#3c3e37;border-left:3px solid var(--msp-chipbd);padding:4px 0 4px 14px;margin:22px 0 4px;}
+.doors{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px;font-family:var(--msp-mono);}
+.doors a.w-chip{font-size:11px;padding:6px 12px;}
+/* MSP-TOKENS-END */
 </style>
 </head>
 <body>
+<!-- MSP-IDSTRIP-START -->
+<div class="idstrip"><span class="axn">🌋🪐🪦✖️⏰🚪 AXN:0413.ARCHIVAL</span><span class="st">Sovereign Asset Registry</span><span class="st">OBJECT: CANONICAL</span><span>machinemediation.org/registry</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/1031/">deposit #1031</a></div>
+<!-- MSP-IDSTRIP-END -->
 <div class="wrap">
 <div class="nav">
-  <a href="/">MMRS</a>
-  <a href="/captures/">Captures</a>
-  <a href="/terms/">Terms</a>
-  <a href="/mint/">Mint</a>
-  <a href="/pillars/">Pillars</a>
-  <a href="/schemas/">Schemas</a>
-  <a href="/registry/" class="active">Registry</a>
+<a href="/">MMRS</a>
+<a href="/captures/">Captures</a>
+<a href="/terms/">Terms</a>
+<a href="/mint/">Mint</a>
+<a href="/pillars/">Pillars</a>
+<a href="/schemas/">Schemas</a>
+<a class="active" href="/registry/">Registry</a>
 </div>
-
 <h1>Sovereign Asset Registry</h1>
 <div class="subtitle">Crimson Hexagonal Archive — Mirror Status Tracking</div>
-
 <div class="notice">
 <strong>ZENODO ACCOUNT TERMINATED — 2026-06-19.</strong> All records removed without prior notification or record-level review. Private reason: "substantially AI-generated without a verifiable research basis." Public reason: "Content out of scope for repository." <a href="https://github.com/zenodo/zenodo/issues/2606">#2606</a>
 </div>
-
 <div class="stats-grid" id="stats"></div>
-
 <div class="controls">
-  <input type="text" class="search-box" id="search" placeholder="Search titles, DOIs, types...">
-  <button class="btn" id="btnDateDesc" onclick="setSort('date-desc',this)">Newest</button>
-  <button class="btn" id="btnDateAsc" onclick="setSort('date-asc',this)">Oldest</button>
-  <button class="btn" id="btnIdAsc" onclick="setSort('id-asc',this)">ID</button>
-  <span style="color:#333;margin:0 2px">|</span>
-  <button class="btn active" id="btnAll" onclick="setFilter('all',this)">All</button>
-  <button class="btn" id="btnDeg" onclick="setFilter('DEGRADED',this)">Degraded</button>
-  <button class="btn" id="btnCrit" onclick="setFilter('CRITICAL',this)">Critical</button>
+<input class="search-box" id="search" placeholder="Search titles, DOIs, types..." type="text"/>
+<button class="btn" id="btnDateDesc" onclick="setSort('date-desc',this)">Newest</button>
+<button class="btn" id="btnDateAsc" onclick="setSort('date-asc',this)">Oldest</button>
+<button class="btn" id="btnIdAsc" onclick="setSort('id-asc',this)">ID</button>
+<span style="color:#333;margin:0 2px">|</span>
+<button class="btn active" id="btnAll" onclick="setFilter('all',this)">All</button>
+<button class="btn" id="btnDeg" onclick="setFilter('DEGRADED',this)">Degraded</button>
+<button class="btn" id="btnCrit" onclick="setFilter('CRITICAL',this)">Critical</button>
 </div>
-
 <div class="result-count" id="resultCount"></div>
 <div id="entries"></div>
 <button class="load-more" id="loadMore" onclick="loadMore()">Load more...</button>
-
 <div class="footer">
-  Lee Sharks · PhD Comparative Literature, U Michigan 2013 · <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a> · Crimson Hexagonal Archive<br>
-  Data: <a href="/data/sovereign-registry.json">sovereign-registry.json</a><br>
-  <span style="color:var(--accent)">&#x222e; = 1</span>
+  Lee Sharks · PhD Comparative Literature, U Michigan 2013 · <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a> · Crimson Hexagonal Archive<br/>
+  Data: <a href="/data/sovereign-registry.json">sovereign-registry.json</a><br/>
+<span style="color:var(--accent)">∮ = 1</span>
 </div>
 </div>
-
 <script>
 let D,filtered=[],page=0,PAGE=50,filt='all',sort='date-desc';
 
@@ -241,4 +268,8 @@ function render(){
 
 function loadMore(){page++;render()}
 </script>
+<!-- MSP-APPARATUS-START -->
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/1031/">Read the system manifest</a><a class="w-chip" href="https://www.alexanarch.org/s/records/838/">Read the MMRS charter</a><a class="w-chip" href="https://www.alexanarch.org/">Enter the archive</a></div>
+<div class="mspcolophon">colophon · surface_id: machinemediation.org/registry · canonical_url: https://machinemediation.org/registry/ · object_state: canonical · surface_observed_at: 2026-07-13T23:13:51Z · source_object_ids: deposit #1031 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: STAGE1-PENDING · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-13T23:13:51Z · render_sha256 (of this file with this field’s value set to null): STAGE1_HASH_PENDING · correction_log_url: https://github.com/leesharks000/machinemediation-org/commits/main/registry/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
+<!-- MSP-APPARATUS-END -->
 </body></html>
