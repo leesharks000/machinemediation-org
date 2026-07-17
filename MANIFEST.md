@@ -110,7 +110,7 @@ When Lee pastes a transcript from a composition-layer search result, the FIRST a
 ### When Lee brings capture transcripts:
 1. **Record the full verbatim transcript** — not just a summary. The transcript is the forensic evidence. Claude's summaries can be wrong (see: generative monoculture false ADOPTION, corrected 17 June 2026).
 2. Classify the framing: CORRECTION, ADOPTION, FAIR_TREATMENT, BASIN_MISS, PARTIAL.
-3. For ADOPTION: verify that the composition layer actually **cites archive sources** (Zenodo, Medium/Lee Sharks, academia.edu/Lee Sharks). Describing the concept correctly but sourcing from independent literature is NOT an adoption.
+3. For ADOPTION: verify that the composition layer actually **cites archive sources** (Zenodo, Medium/Lee Sharks, academia.edu/165445655 Sharks). Describing the concept correctly but sourcing from independent literature is NOT an adoption.
 4. Add to `revfirst-registry.json` (always for Revelation battery) + `registry.json` (only if ADOPTION).
 5. Increment version. Push. All three sites update automatically.
 
