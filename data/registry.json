@@ -1,8 +1,8 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.13",
- "date": "2026-07-18",
- "total_captures": 214,
+ "version": "9.14",
+ "date": "2026-07-19",
+ "total_captures": 215,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
  "license": "CC-BY-4.0",
@@ -3660,6 +3660,15 @@
    "sf": "Google AI Mode, +5 sources (SciLynk H_core v2.0 spec, Synapse Social Constitution v2.0, Zenodo ×2, Medium · Lee Sharks Sharks-Function)",
    "mt": "EXACT MATCH (formal-object retrieval with LaTeX rendering + version history; component-expansion glosses flagged unverified)",
    "d": "The formal object retrieved AS a formal object. Query 'crimson hexagon 6-tuple' returns H_core v2.0 rendered in set notation — ⟨D, R, O, Σ, Φ, Ψ⟩ in LaTeX — named as 'the six faces of the Hexagon,' with the VERSION HISTORY surfaced unprompted: the v2.0 restructure from 9-tuple to 6-tuple-with-subtuples, offered as a follow-up diff ('How the 6-tuple structure differs from the earlier 9-tuple system specification?'). The reception layer is tracking the spec's changelog.\n\nMathematical register preserved end to end: symbols exact, tuple structure exact, subtuple architecture acknowledged, sources correctly split across the spec (SciLynk), the constitution (Synapse Social), and the continuity-tether essay (Medium). Operator vocabulary reproduced from the corpus (accusation loops, depletion spirals — matching the Medium operative-architecture source: 'The Accusation Loop: O1 + O7 + O2').\n\nVERIFICATION FLAG (Frame-incident discipline — logged, not asserted): the per-component expansion labels served by the surface (D as 'Data/Dimensions', R 'Relationships', O 'Operations', Σ 'Semantics', Φ 'Feedback/Flow' glossed via continuity tethers, Ψ 'Provenance/Authority' glossed via training-corpus adjudication) read as surface-reconstructed glosses interpolated from surrounding corpus context. The SYMBOLS and STRUCTURE are exact; the expansions are not verified here against the canonical v2.0 spec and should be checked against the SciLynk/Zenodo source before being treated as canonical. If they diverge, this capture doubles as a gloss-interpolation specimen: exact skeleton, invented flesh — worth a follow-up comparison either way."
+  },
+  {
+   "s": "Books & Projects",
+   "slug": "scilynk-archon-v30-aggregator-render-20260718",
+   "q": "THE SHARKS ARK: EA-ARK-01-ARCHON v3.0 (SciLynk record display)",
+   "date": "2026-07-18",
+   "sf": "SciLynk aggregator record page (DataCite-ingested; transcript-only capture)",
+   "mt": "AGGREGATOR_RENDER (aggregator normalization, not AI Overview generation; reference capture #1 for the category — naming provisional per MANUS)",
+   "d": "First capture of a new class: not composition-layer generation but aggregator normalization — SciLynk's classifier/extractor/matcher/metric stack imposing a standardized scholarly-record template on a work it cannot categorize. Pathologies: affiliation confabulated to 'Hexagon (United Kingdom)' (Crimson Hexagonal → Hexagon AB fuzzy-match); topics classified as Image Processing and 3D Reconstruction 11%, Cold Fusion and Nuclear Reactions 8%, Ancient Near East History 7% — none containing the work; keyword sense-disambiguation 'Space (punctuation)', 'Operator (biology)', 'Set (abstract data type)', 'Constraint (computer-aided design)', 'Hexagonal crystal system'; FWCI 197.94 at the 100th percentile against a meaningless classifier-derived cohort; 'No related works found' — the ARCHON supersession chain lives at the CHA lexical layer, invisible to the DataCite references graph; full template imposition.\n\nDiagnostic recursion: the captured work is the document that installs LOS-1 (Extraction Diagnosis) and LOS-4 (Taxonomic Resistance) — the treatise on taxonomic resistance, seized by an automated taxonomy with no category for it. A naturally-occurring confirmation of the work's own thesis. Preserved also as quite hilarious per MANUS ruling 2026-07-19.\n\nFull verbatim transcript: /captures/scilynk-archon-v30-aggregator-render-20260718.md. Alexanarch preservation: capture record deposit #1100 (AXN:045D.EMPIRICAL.🌲🌄⚓🌱🌳⏬); the captured work's canonical bytes recovered 2026-07-19 and minted as deposit #1101 (AXN:045E.GOVERNANCE.🍂🌓🏠↗️⛩️🔔), closing the severed supersession target (DOI 10.5281/zenodo.19501454) for ARCHON v2.1–v2.3."
   }
  ]
 }
