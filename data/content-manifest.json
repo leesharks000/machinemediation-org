@@ -1,0 +1,76 @@
+{
+  "chunks": [
+    {
+      "file": "content-01.json",
+      "entries": 100,
+      "size_bytes": 10923871,
+      "words": 1480505,
+      "doi_range": "18141617\u201320752596"
+    },
+    {
+      "file": "content-02.json",
+      "entries": 100,
+      "size_bytes": 10521417,
+      "words": 1394380,
+      "doi_range": "18202475\u201320693286"
+    },
+    {
+      "file": "content-03.json",
+      "entries": 100,
+      "size_bytes": 11977155,
+      "words": 1591639,
+      "doi_range": "18142278\u201320690337"
+    },
+    {
+      "file": "content-04.json",
+      "entries": 100,
+      "size_bytes": 12417496,
+      "words": 1686323,
+      "doi_range": "18200613\u201320558784"
+    },
+    {
+      "file": "content-05.json",
+      "entries": 100,
+      "size_bytes": 13252726,
+      "words": 1704198,
+      "doi_range": "18136313\u201320358078"
+    },
+    {
+      "file": "content-06.json",
+      "entries": 100,
+      "size_bytes": 14070838,
+      "words": 1919198,
+      "doi_range": "14538882\u201320277159"
+    },
+    {
+      "file": "content-07.json",
+      "entries": 100,
+      "size_bytes": 12181122,
+      "words": 1641276,
+      "doi_range": "15339353\u201319858013"
+    },
+    {
+      "file": "content-08.json",
+      "entries": 100,
+      "size_bytes": 19148543,
+      "words": 2521183,
+      "doi_range": "14211838\u201319336567"
+    },
+    {
+      "file": "content-09.json",
+      "entries": 100,
+      "size_bytes": 17074567,
+      "words": 2131187,
+      "doi_range": "1\u201319024352"
+    },
+    {
+      "file": "content-10.json",
+      "entries": 93,
+      "size_bytes": 4330214,
+      "words": 463059,
+      "doi_range": "14538869\u201318452745"
+    }
+  ],
+  "total_entries": 993,
+  "total_words": 16532948
+}

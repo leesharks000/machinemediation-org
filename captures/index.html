@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Overview Capture Registry — Machine-Mediated Reception Studies</title>
+<style>
+:root { --bg: #0a0a0a; --fg: #e0ddd5; --accent: #c23b22; --accent2: #d4a537; --dim: #666; --border: #222; --hover: #151515; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'IBM Plex Mono', 'Courier New', monospace; background: var(--bg); color: var(--fg); line-height: 1.5; }
+.c { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.nav { margin-bottom: 20px; font-size: 0.8em; }
+.nav a { color: var(--accent2); text-decoration: none; margin-right: 15px; }
+h1 { font-size: 1.3em; color: var(--accent); margin-bottom: 4px; letter-spacing: 0.05em; }
+.sub { color: var(--dim); font-size: 0.82em; margin-bottom: 20px; }
+.stats { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 15px; font-size: 0.78em; }
+.stat { border: 1px solid var(--border); padding: 6px 12px; }
+.stat-l { color: var(--dim); font-size: 0.72em; text-transform: uppercase; }
+.stat-v { font-size: 1.2em; color: var(--accent2); }
+.ctl { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 15px; }
+.ctl input, .ctl select { background: #111; color: var(--fg); border: 1px solid var(--border); padding: 5px 8px; font-family: inherit; font-size: 0.78em; }
+.ctl input { flex: 1; min-width: 180px; }
+.fc { color: var(--dim); font-size: 0.72em; align-self: center; }
+.card { border: 1px solid var(--border); margin-bottom: 12px; padding: 12px; }
+.card:hover { border-color: var(--accent); }
+.card-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.card-q { color: var(--accent2); font-weight: bold; font-size: 0.9em; }
+.card-meta { color: var(--dim); font-size: 0.7em; }
+.card-cat { font-size: 0.68em; color: var(--dim); border: 1px solid var(--border); padding: 1px 5px; border-radius: 2px; margin-right: 6px; }
+.card-mt { font-size: 0.68em; color: var(--tested, #2a7a3a); }
+.card-desc { font-size: 0.78em; color: var(--fg); margin: 6px 0; }
+.card-imgs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.card-imgs img { max-width: 200px; max-height: 300px; border: 1px solid var(--border); cursor: pointer; opacity: 0.85; }
+.card-imgs img:hover { opacity: 1; border-color: var(--accent); }
+.card-body{display:none}
+.card.expanded .card-summary{display:none}
+.card.expanded .card-body{display:block}
+.expand-btn{font-family:'IBM Plex Mono',monospace;font-size:0.68em;color:var(--accent);cursor:pointer;background:none;border:none;padding:0.2em 0}
+.modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 100; justify-content: center; align-items: center; }
+.modal.active { display: flex; }
+.modal img { max-width: 95vw; max-height: 95vh; }
+a { color: var(--accent2); text-decoration: none; }
+
+/* MSP-TOKENS-START */
+/* ══ MSP TOKENS — Mandala Surface Protocol shared contract ══
+   Contract classes: .lemma .term .axn-chip .witness-row .w .w-chip .state
+   .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
+   (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
+:root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
+.axn-chip:hover{border-color:var(--msp-chipfg);}
+.witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
+.witness-row .w,.w-chip{border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;color:var(--msp-dim);text-decoration:none;font-family:var(--msp-mono);font-size:.85em;white-space:nowrap;}
+.state{font-family:var(--msp-mono);font-size:.68em;border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;white-space:nowrap;}
+.state.obs{color:var(--msp-ok);border-color:rgba(28,110,74,.4);}
+.state.cont{color:var(--msp-cont);}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-family:var(--msp-mono);font-size:10.5px;color:var(--msp-dim);border:1px solid var(--rule,#d9d9d0);border-bottom:2px solid var(--msp-chipbd);background:var(--panel,#f6f6f2);padding:9px 12px;margin:14px 0 6px;}
+.idstrip .axn{color:var(--msp-chipfg);font-size:11.5px;}
+.idstrip .st{border:1px solid var(--rule,#d9d9d0);border-radius:9px;padding:1px 7px;white-space:normal;overflow-wrap:anywhere;min-width:0;}
+.helix{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;font-family:var(--msp-mono);font-size:.68em;}
+.helix .slot{border:1px solid var(--msp-chipbd);border-radius:4px;padding:3px 9px;}
+.helix .slot b{font-weight:600;letter-spacing:.06em;}
+.helix .slot.ok{color:var(--msp-ok);}
+.helix .slot.div{color:var(--msp-cont);}
+.helix .slot.dead{color:var(--msp-halt);}
+.mspcolophon{font-family:var(--msp-mono);font-size:10px;color:var(--msp-dim);border-top:1px solid var(--rule,#d9d9d0);margin-top:30px;padding-top:10px;line-height:1.9;}
+.obol{font-family:'Source Serif 4',Georgia,serif;font-size:.92em;color:var(--msp-obol-fg,#3c3e37);border-left:3px solid var(--msp-chipbd);padding:4px 0 4px 14px;margin:22px 0 4px;}
+.doors{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px;font-family:var(--msp-mono);}
+.doors a.w-chip{font-size:11px;padding:6px 12px;}
+/* MSP-TOKENS-END */
+/* MSP-SKIN-START — per-surface overrides for the shared apparatus contract.
+   Category: dark-red. Lives outside the MSP-TOKENS block so applicator
+   re-syncs of the shared contract don't clobber it. */
+:root{
+  --panel:#141210;
+  --rule:rgba(224,221,213,0.14);
+  --msp-lemma:rgba(224,221,213,0.14);
+  --msp-chipfg:#c23b22;
+  --msp-chipbd:rgba(194,59,34,0.35);
+  --msp-chipbg:rgba(194,59,34,0.05);
+  --msp-cont:#d15f47;
+  --msp-obol-fg:#e0ddd5;
+  --msp-dim:#7a7770;
+}
+/* MSP-SKIN-END */
+</style>
+</head>
+<body>
+<!-- MSP-IDSTRIP-START -->
+<div class="idstrip"><span class="axn">🌋🪐🪦✖️⏰🚪 AXN:0413.ARCHIVAL</span><span class="st">AI Overview Capture Registry</span><span class="st">OBJECT: CANONICAL</span><span>machinemediation.org/captures</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/1031/">deposit #1031</a></div>
+<!-- MSP-IDSTRIP-END -->
+<div class="c">
+<div class="nav"><a href="/">← machinemediation.org</a> <a href="/registry/">Registry</a>
+<a href="/schemas/">Schemas</a>
+<a href="/captures/">Captures</a> <a href="/terms/">Terms</a></div>
+<h1>AI OVERVIEW CAPTURE REGISTRY</h1>
+<div class="sub">EA-WG-CAPTURES-01 · Longitudinal captures of composition-layer behavior · <a href="/registry/#search=20707509">DOI</a></div>
+<div class="stats" id="stats"></div>
+<div class="ctl">
+<input id="search" placeholder="Search queries or descriptions..." type="text"/>
+<select id="catF"><option value="">All categories</option></select>
+<select id="mtF"><option value="">All match types</option><option value="EXACT MATCH">Exact</option><option value="BROAD MATCH">Broad</option></select>
+<span class="fc" id="fc"></span>
+</div>
+<div id="cards"></div>
+</div>
+<div class="modal" id="modal" onclick="this.classList.remove('active')"><img id="modalImg"/></div>
+<script>
+const IMG_BASE = 'https://godkinggoogle.vercel.app/captures/';
+let D;
+async function init() {
+  const r = await fetch('/data/registry.json');
+  D = await r.json();
+  const cats = [...new Set(D.entries.map(e => e.s))].sort();
+  const catF = document.getElementById('catF');
+  cats.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; catF.appendChild(o); });
+  document.getElementById('stats').innerHTML = `<div class="stat"><div class="stat-l">Captures</div><div class="stat-v">${D.total_captures}</div></div><div class="stat"><div class="stat-l">Version</div><div class="stat-v">${D.version}</div></div><div class="stat"><div class="stat-l">Date</div><div class="stat-v">${D.date}</div></div>`;
+  ren();
+  ['search'].forEach(id => document.getElementById(id).addEventListener('input', ren));
+  ['catF', 'mtF'].forEach(id => document.getElementById(id).addEventListener('change', ren));
+}
+function ren() {
+  const s = document.getElementById('search').value.toLowerCase();
+  const cf = document.getElementById('catF').value;
+  const mf = document.getElementById('mtF').value;
+  let entries = D.entries.filter(e => {
+    if (s && !e.q.toLowerCase().includes(s) && !(e.d||'').toLowerCase().includes(s)) return false;
+    if (cf && e.s !== cf) return false;
+    if (mf && e.mt !== mf) return false;
+    return true;
+  });
+  document.getElementById('fc').textContent = `${entries.length} of ${D.total_captures}`;
+  document.getElementById('cards').innerHTML = entries.map(e => `
+    <div class="card">
+      <div class="card-head">
+        <span class="card-q">${esc(e.q)}</span>
+        <span class="card-meta">${e.date || ''}</span>
+      </div>
+      <div><span class="card-cat">${e.s}</span>${e.mt ? `<span class="card-mt">${e.mt}</span>` : ''} <span style="color:var(--dim);font-size:0.68em">${e.sf || ''}</span></div>
+      <div class="card-desc card-summary">${esc((e.d||'').substring(0,150))}${(e.d||'').length > 150 ? '...' : ''}</div>
+      ${(e.d||'').length > 150 || (e.imgs||[]).length ? '<button class="expand-btn" onclick="this.closest(\'.card\').classList.toggle(\'expanded\');this.textContent=this.closest(\'.card\').classList.contains(\'expanded\')?\'▾ collapse\':\'▸ expand\'">▸ expand</button>' : ''}
+      <div class="card-body"><div class="card-desc">${esc(e.d || '')}</div></div>
+      ${(e.imgs || []).length ? `<div class="card-imgs">${e.imgs.map(img => { const s = typeof img === "string" ? img : img.src; const a = typeof img === "string" ? img : (img.label||img.src); return `<img src="${IMG_BASE}${s}" alt="${a}" title="${a}" onclick="event.stopPropagation();document.getElementById('modalImg').src=this.src;document.getElementById('modal').classList.add('active');" loading="lazy" onerror="this.style.display='none'">`; }).join('')}</div>` : ''}
+    </div>
+  `).join('');
+}
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+init();
+</script>
+<!-- MSP-APPARATUS-START -->
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/1031/">Read the system manifest</a><a class="w-chip" href="https://www.alexanarch.org/s/records/838/">Read the MMRS charter</a><a class="w-chip" href="https://www.alexanarch.org/">Enter the archive</a></div>
+<div class="mspcolophon">colophon · surface_id: machinemediation.org/captures · canonical_url: https://machinemediation.org/captures/ · object_state: canonical · surface_observed_at: 2026-07-13T23:13:51Z · source_object_ids: deposit #1031 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: dd4d7370cf9b696a3c391793e7e52f011229e425 · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-13T23:13:51Z · render_sha256 (of this file with this field’s value set to null): 0f19b4403c5849837c638bcdeb27fa67238f858407bb2c0aadc87181985bfbd7 · correction_log_url: https://github.com/leesharks000/machinemediation-org/commits/main/captures/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
+<!-- MSP-APPARATUS-END -->
+</body>
+</html>
