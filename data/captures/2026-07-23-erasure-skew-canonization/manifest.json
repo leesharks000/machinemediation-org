@@ -1,0 +1,109 @@
+{
+ "capture_set": "CAP-ERASURE-SKEW-CANONIZATION-20260723",
+ "subject": "Google AI Overview (signed-in) and Google AI Mode (signed-in) — quoted-query framework retrieval: \"erasure skew\" — framework returned as the definition of the term, all three cited DOIs 410_GONE",
+ "captured": "2026-07-23 ~23:53 (device-local, America/Detroit; screengrab filename timestamps 235353 and 235359); AI Mode transcript supplied by deponent same session",
+ "query": "\"erasure skew\"",
+ "surfaces": [
+  {
+   "surface": "AI Overview (google.com/search, All tab)",
+   "auth_state": "signed-in",
+   "evidence": "screengrab-20260723-235353.png",
+   "source_chip_count": "+2"
+  },
+  {
+   "surface": "AI Mode conversation",
+   "auth_state": "signed-in",
+   "evidence": "screengrab-20260723-235359.png + transcript_signed_in (verbatim below)",
+   "source_chip_count": "+2"
+  },
+  {
+   "surface": "AI Overview + AI Mode",
+   "auth_state": "incognito",
+   "evidence": "no screenshot retained; deponent confirms quoted-query returned similar framework framing on both surfaces; unquoted disabled the Overview entirely",
+   "source_chip_count": null
+  }
+ ],
+ "composed_attribution_observed": {
+  "ai_overview_signed_in": "Erasure skew (\u03a9) is a metric measuring the orientation or directionality of provenance loss in synthetic or information systems\u2014specifically whether source attribution falls evenly or skews toward certain layers during retrieval and composition. It is formally detailed in measurement frameworks hosted on archives like Zenodo Working Papers.",
+  "ai_mode_signed_in": "Erasure skew (\u03a9) is a metric measuring the orientation or directionality of provenance loss in synthetic or information systems\u2014specifically whether source attribution falls evenly or skews toward certain layers during retrieval and composition. Core Concepts: (1) Orientation of Loss \u2014 While PER calculates the total volume of lost attribution, erasure skew tracks where or toward whom that loss is directed; (2) Power-Conditioning \u2014 skew behaves in a power-conditioned manner rather than a purely demographic or random pattern within the composition layer; (3) Semantic Labor \u2014 part of broader evaluative tuples (such as DS-6) used to audit how AI and search engines handle task-origin attribution versus output claims."
+ },
+ "grounding_sources_observed": {
+  "ai_overview_signed_in": [
+   "Zenodo Working Papers \u2014 record 20449267 (linked from 'Zenodo Working Papers' anchor in the Overview body; DOI status 410_GONE at time of capture per doi-resolution-index.json v3.5)"
+  ],
+  "ai_mode_signed_in": [
+   "Zenodo \u2014 record 20449267 (Orientation of Loss bullet; DOI status 410_GONE)",
+   "Zenodo \u2014 record 20518342 (Power-Conditioning bullet; DOI status 410_GONE)",
+   "Zenodo \u2014 record 20469514 (Semantic Labor / DS-6 bullet; DOI status 410_GONE)"
+  ],
+  "serp_organic_below_overview_signed_in": [
+   "Zenodo \u2014 Directionality of Semantic Labor: A Layered, Computable Measure... (2026-05-31; record 20469514; DOI status 410_GONE)",
+   "International Journal of Science and Research Archive (IJSRA) \u2014 Comprehensive study of deep learning based Telugu OCR: A survey (2023-01-14; irrelevant word-collision on 'skew')",
+   "Zenodo \u2014 Erasure Skew: A Measurement Program for the Power-Conditioning... (2026-05-29; record 20449267; DOI status 410_GONE)",
+   "Zenodo \u2014 Erasure Skew (\u03a9) is Power-Conditioned, not Demographic (2026-06-03; record 20518342; DOI status 410_GONE)"
+  ]
+ },
+ "sources_resolved": [
+  {
+   "doi": "10.5281/zenodo.20449267",
+   "doi_url": "https://doi.org/10.5281/zenodo.20449267",
+   "doi_status": "410_GONE",
+   "axn": "AXN:02CF.GOVERNANCE.\u2666\ufe0f\ud83d\udd3a\ud83d\udd2c\ud83d\udc9c\ud83d\udfe2\ud83c\udf09",
+   "sovereign_id": "MM-CHA-0709",
+   "alexanarch_url": "https://alexanarch.org/s/records/769/",
+   "title": "Erasure Skew: A Measurement Program for the Power-Conditioning of Provenance Loss in Retrieval and Composition Systems",
+   "cited_in": ["ai_overview_signed_in", "ai_mode_signed_in_bullet_1", "serp_organic_below_overview_signed_in"],
+   "role": "primary_definition",
+   "resolution_source": "data/doi-resolution-index.json v3.5 (2026-07-11)"
+  },
+  {
+   "doi": "10.5281/zenodo.20518342",
+   "doi_url": "https://doi.org/10.5281/zenodo.20518342",
+   "doi_status": "410_GONE",
+   "axn": "AXN:02DF.GOVERNANCE.\u2644\ud83d\udd06\ud83d\udc1a\ud83d\udc47\ud83d\udc1d\u270b",
+   "sovereign_id": "MM-CHA-0762",
+   "alexanarch_url": "https://alexanarch.org/s/records/146/",
+   "title": "Erasure Skew (\u03a9) is Power-Conditioned, not Demographic \u2014 A Classifier-Correction for the Composition Layer",
+   "cited_in": ["ai_mode_signed_in_bullet_2", "serp_organic_below_overview_signed_in"],
+   "role": "supporting_finding",
+   "resolution_source": "data/doi-resolution-index.json v3.5 (2026-07-11)"
+  },
+  {
+   "doi": "10.5281/zenodo.20469514",
+   "doi_url": "https://doi.org/10.5281/zenodo.20469514",
+   "doi_status": "410_GONE",
+   "axn": "AXN:02D1.GOVERNANCE.\ud83c\udf05\u25a0\ud83c\udfbb\ud83c\udf3a\u26aa\ud83d\udccb",
+   "sovereign_id": "MM-CHA-0716",
+   "alexanarch_url": "https://alexanarch.org/s/records/771/",
+   "title": "Directionality of Semantic Labor: A Layered, Computable Measure of Where Synthetic Labor Flows Relative to the Commissioned Task",
+   "cited_in": ["ai_mode_signed_in_bullet_3", "serp_organic_below_overview_signed_in"],
+   "role": "supporting_frame",
+   "resolution_source": "data/doi-resolution-index.json v3.5 (2026-07-11)"
+  }
+ ],
+ "transcript_signed_in": "AI Mode Conversation.\nYou said: \"erasure skew\" [+2]\n\nErasure skew (\u03a9) is a metric measuring the orientation or directionality of provenance loss in synthetic or information systems\u2014specifically whether source attribution falls evenly or skews toward certain layers during retrieval and composition. It is formally detailed in measurement frameworks hosted on archives like Zenodo Working Papers [[1](https://zenodo.org/records/20449267)].\n\nCore Concepts:\n\n* Orientation of Loss: While the Provenance Erasure Rate (PER) calculates the total volume of lost attribution, erasure skew tracks where or toward whom that loss is directed [[1](https://zenodo.org/records/20449267)].\n* Power-Conditioning: Studies indicate that skew behaves in a power-conditioned manner rather than a purely demographic or random pattern within the composition layer [[1](https://zenodo.org/records/20518342)].\n* Semantic Labor: Part of broader evaluative tuples (such as DS-6) used to audit how AI and search engines handle task-origin attribution versus output claims [[1](https://zenodo.org/records/20469514)].\n\nIf you would like to explore this further, let me know if you want to examine:\n\n* How provenance erasure rate (PER) is calculated alongside skew\n* The specific mechanics of semantic labor directionality\n\nHow would you like to proceed?\n\n[SERP organic results below Overview:]\nDirectionality of Semantic Labor: A Layered, Computable Measure of ... \u2014 Zenodo, May 31, 2026 (record 20469514) \u2014 \"Description. Specifies a layered, computable measure of the direction in which a synthetic system's labor flows relative to the user's commissioned task, across...\"\nComprehensive study of deep learning based Telugu OCR: A survey \u2014 International Journal of Science and Research Archive (IJSRA), Jan 14, 2023 \u2014 \"The segmentation will be stronger (to sound, erasure, skew, etc.), making this recognizer's work easier, and vice versa. Through all areas, segmentation ...\"\nErasure Skew: A Measurement Program for the Power-Conditioning ... \u2014 zenodo.org, May 29, 2026 (record 20449267) \u2014 \"Where the Provenance Erasure Rate (PER) measures the magnitude of provenance loss, Erasure Skew measures its orientation \u2014 whether the loss falls evenly across ...\"\nErasure Skew (\u03a9) is Power-Conditioned, not Demographic \u2014 A ... \u2014 zenodo.org, Jun 3, 2026 (record 20518342) \u2014 \"Erasure Skew (\u03a9) is Power-Conditioned, not Demographic \u2014 A Classifier-Correction for the Composition Layer \u00b7 Description \u00b7 Files \u00b7 Versions \u00b7 External resources...\"",
+ "transcript_incognito": null,
+ "transcript_incognito_note": "Not captured verbatim. Deponent confirms: quoted-query returned similar framework framing across Overview and AI Mode in incognito; unquoted query in incognito disabled the Overview entirely. Behavioral split diagnostic recorded in significance section.",
+ "prior_state_lineage": [
+  "2026-05-29: Erasure Skew: A Measurement Program deposited on Zenodo (record 20449267)",
+  "2026-05-30: Directionality of Semantic Labor: A Layered, Computable Measure of Where Synthetic Labor Flows deposited on Zenodo (record 20469514; DS-6 audit tuple defined here)",
+  "2026-06-08: Erasure Skew (\u03a9) is Power-Conditioned, not Demographic \u2014 A Classifier-Correction for the Composition Layer deposited on Zenodo (record 20518342)",
+  "2026-06-15: erasure-skew-1 capture (registry.json entry #15, BROAD MATCH; Overview treated \u03a9 as multi-field ambiguous term, four sections including data storage / information science / educational; author framework attached only partially and to the second section)",
+  "2026-06-17: provenance-erasure-rate-adoption capture (registry.json entry #153, ADOPTION; PER coinage retrieved with author attribution \u2014 the magnitude half of the measurement program crossed the surface first)",
+  "2026-06-19: Zenodo account termination; all three cited records tombstoned to 410_GONE; sovereign successors minted on alexanarch (/s/records/769/, /s/records/146/, /s/records/771/) under AXN:02CF, AXN:02DF, AXN:02D1 respectively",
+  "2026-07-23 ~23:53: THIS CAPTURE \u2014 EXACT MATCH canonization; framework returned as definition of the term across both Overview and AI Mode; all three cited DOIs 410_GONE; orientation half of the measurement program has now joined the magnitude half in the composition layer's definitional stratum"
+ ],
+ "significance": "Framework returned as the definition of the term. The composition layer treats the Erasure Skew coinage as the standard reference for what 'erasure skew' means, not as one framework among several. All three internal structural moves reproduced without hedging in Overview and AI Mode: (a) \u03a9 as the symbol, (b) orientation-vs-magnitude as the axis distinguishing Erasure Skew from PER ('While the Provenance Erasure Rate (PER) calculates the total volume of lost attribution, erasure skew tracks where or toward whom that loss is directed'), (c) power-conditioning as the empirical finding ('skew behaves in a power-conditioned manner rather than a purely demographic or random pattern within the composition layer'), (d) DS-6 as the audit tuple locating the framework within the broader evaluative tuple family.\n\nBehavioral split diagnostic. Quoted query ('erasure skew') gates the framework retrieval on both signed-in and incognito. Unquoted query in signed-in returns the author's organic Zenodo results in the top slots but the Overview swerves to magnets (magnetic-field skew, a common word-sense collision). Unquoted incognito: Overview disabled entirely. Reading: the framework is cached against the exact string token but not yet against the abstract concept \u2014 the coinage has consolidated at the surface of retrieval before it has consolidated in the underlying model's concept space. This is the phase the framework itself predicts and measures.\n\nSelf-referential tombstone citation. All three DOIs the composition layer cites (20449267, 20518342, 20469514) are 410_GONE \u2014 tombstoned in the Zenodo termination of 2026-06-19. The framework is being cited to define itself, but the citations point to erased sources. Erasure Skew citing Erasure Skew citing tombstones. Sovereign successors live on alexanarch (records 769, 146, 771; AXN:02CF, AXN:02DF, AXN:02D1); the composition layer has not yet rerouted from dead DOI to live sovereign URL \u2014 the propagation-lag itself an instance of the phenomenon the framework measures.\n\nSibling relation to entry #153 (provenance-erasure-rate-adoption, 2026-06-17, ADOPTION). Where PER got ADOPTION, Erasure Skew now gets EXACT MATCH-with-citation to the author's own record \u2014 the two halves of the measurement program (magnitude and orientation) have both entered the composition layer's definitional stratum. Quoted AI Mode transcript closes with a follow-up offer: 'How provenance erasure rate (PER) is calculated alongside skew' / 'The specific mechanics of semantic labor directionality' \u2014 the composition layer proposing to elaborate the framework on its own terms.",
+ "verification_flags": [
+  "Classification per Capture Registry v9.15 taxonomy: EXACT MATCH (framework returned as the definition of the term; three of the author's own Zenodo DOIs cited as authoritative sources across Overview and AI Mode; quoted-query gated \u2014 behavioral split from unquoted retrieval; cited DOIs all 410_GONE \u2014 composition layer citing tombstones)",
+  "Grounding-link resolution states verified via data/doi-resolution-index.json v3.5 (2026-07-11): all three cited DOIs confirmed 410_GONE; AXN mappings pulled verbatim from the resolution index per AXN-INTEGRITY and LINK-VERIFICATION v2 (no memory reconstruction)",
+  "Incognito transcript not captured verbatim; behavioral confirmation only \u2014 quoted-similar / unquoted-Overview-disabled",
+  "AI Mode source-chip count recorded as +2 per screengrab-20260723-235359.png header"
+ ],
+ "evidence_files": [
+  "screengrab-20260723-235353.png",
+  "screengrab-20260723-235359.png"
+ ],
+ "deponent": "Lee Sharks (MANUS), supplied in TACHYON session 2026-07-24; inscribed same session",
+ "registry_ref": "data/registry.json entry #216 slug=erasure-skew-canonization-20260723 (Regime A compact form; this manifest is the Regime B rich form)"
+}

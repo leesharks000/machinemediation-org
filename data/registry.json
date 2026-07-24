@@ -1,7 +1,7 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.15",
- "date": "2026-07-23",
+ "version": "9.16",
+ "date": "2026-07-24",
  "total_captures": 216,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
@@ -3720,7 +3720,8 @@
      ],
      "role": "supporting_frame"
     }
-   ]
+   ],
+   "manifest_ref": "data/captures/2026-07-23-erasure-skew-canonization/manifest.json"
   }
  ]
 }
