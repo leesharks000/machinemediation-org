@@ -1,8 +1,8 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.14",
- "date": "2026-07-19",
- "total_captures": 215,
+ "version": "9.15",
+ "date": "2026-07-23",
+ "total_captures": 216,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
  "license": "CC-BY-4.0",
@@ -3669,6 +3669,58 @@
    "sf": "SciLynk aggregator record page (DataCite-ingested; transcript-only capture)",
    "mt": "AGGREGATOR_RENDER (aggregator normalization, not AI Overview generation; reference capture #1 for the category — naming provisional per MANUS)",
    "d": "First capture of a new class: not composition-layer generation but aggregator normalization — SciLynk's classifier/extractor/matcher/metric stack imposing a standardized scholarly-record template on a work it cannot categorize. Pathologies: affiliation confabulated to 'Hexagon (United Kingdom)' (Crimson Hexagonal → Hexagon AB fuzzy-match); topics classified as Image Processing and 3D Reconstruction 11%, Cold Fusion and Nuclear Reactions 8%, Ancient Near East History 7% — none containing the work; keyword sense-disambiguation 'Space (punctuation)', 'Operator (biology)', 'Set (abstract data type)', 'Constraint (computer-aided design)', 'Hexagonal crystal system'; FWCI 197.94 at the 100th percentile against a meaningless classifier-derived cohort; 'No related works found' — the ARCHON supersession chain lives at the CHA lexical layer, invisible to the DataCite references graph; full template imposition.\n\nDiagnostic recursion: the captured work is the document that installs LOS-1 (Extraction Diagnosis) and LOS-4 (Taxonomic Resistance) — the treatise on taxonomic resistance, seized by an automated taxonomy with no category for it. A naturally-occurring confirmation of the work's own thesis. Preserved also as quite hilarious per MANUS ruling 2026-07-19.\n\nFull verbatim transcript: /captures/scilynk-archon-v30-aggregator-render-20260718.md. Alexanarch preservation: capture record deposit #1100 (AXN:045D.EMPIRICAL.🌲🌄⚓🌱🌳⏬); the captured work's canonical bytes recovered 2026-07-19 and minted as deposit #1101 (AXN:045E.GOVERNANCE.🍂🌓🏠↗️⛩️🔔), closing the severed supersession target (DOI 10.5281/zenodo.19501454) for ARCHON v2.1–v2.3."
+  },
+  {
+   "s": "Frameworks",
+   "slug": "erasure-skew-canonization-20260723",
+   "q": "\"erasure skew\"",
+   "date": "2026-07-23",
+   "sf": "Google AI Overview + AI Mode (signed-in; incognito confirmed same for quoted query). Overview cites Zenodo record 20449267 (Erasure Skew: A Measurement Program) as primary source; AI Mode transcript cites 20449267 (Orientation of Loss), 20518342 (Power-Conditioning), 20469514 (Directionality of Semantic Labor / DS-6). All three cited DOIs are 410_GONE; sovereign successors live on alexanarch as records 769, 146, 771. Two Zenodo organic hits below the Overview: 'Erasure Skew: A Measurement Program for the Power-Conditioning...' and 'Erasure Skew (Ω) is Power-Conditioned, not Demographic'. One irrelevant collision (Telugu OCR, IJSRA 2023).",
+   "mt": "EXACT MATCH (framework returned as the definition of the term; three of the author's own Zenodo DOIs cited as authoritative sources across Overview and AI Mode; quoted-query gated — behavioral split from unquoted retrieval; cited DOIs all 410_GONE — composition layer citing tombstones)",
+   "d": "Escalation from erasure-skew-1 (2026-06-15, BROAD MATCH). The Overview and AI Mode both reproduce the framework's internal structure without hedging: Ω as the symbol, orientation-vs-magnitude as the axis distinguishing Erasure Skew from PER ('While the Provenance Erasure Rate (PER) calculates the total volume of lost attribution, erasure skew tracks where or toward whom that loss is directed'), power-conditioning as the empirical finding ('skew behaves in a power-conditioned manner rather than a purely demographic or random pattern within the composition layer'), and DS-6 as the audit tuple positioning within 'broader evaluative tuples ... used to audit how AI and search engines handle task-origin attribution versus output claims.' All three framework moves are reproduced as canonical definition, not as one framework among several — this is the retrieval layer treating the coinage as the standard reference for the term.\n\nBehavioral split diagnostic. Quoted query ('erasure skew') gates the framework retrieval on both signed-in and incognito. Unquoted query in signed-in returns Lee Sharks' organic Zenodo results in the top slots but the Overview swerves to magnets (magnetic-field skew). Unquoted incognito: Overview disabled. Reading: the framework is cached against the exact string token but not yet against the abstract concept — the coinage has consolidated at the surface of retrieval before it has consolidated in the underlying model's concept space. This is the phase the framework itself predicts and measures.\n\nSelf-referential tombstone citation. All three DOIs the composition layer cites (20449267, 20518342, 20469514) are 410_GONE — tombstoned in the Zenodo termination of 2026-06-19. The framework is being cited to define itself, but the citations point to erased sources. Erasure Skew citing Erasure Skew citing tombstones. Sovereign successors live on alexanarch (records 769, 146, 771; AXN:02CF, AXN:02DF, AXN:02D1); the composition layer has not yet rerouted from dead DOI to live sovereign URL — the propagation-lag itself an instance of the phenomenon the framework measures.\n\nSibling to entry #153 (provenance-erasure-rate-adoption, 2026-06-17, ADOPTION). Where PER got ADOPTION, Erasure Skew now gets EXACT MATCH-with-citation to the author's own record — the two halves of the measurement program (magnitude and orientation) have both entered the composition layer's definitional stratum. Quoted AI Mode transcript closes with a follow-up offer: 'How provenance erasure rate (PER) is calculated alongside skew' / 'The specific mechanics of semantic labor directionality' — the composition layer proposing to elaborate the framework on its own terms.",
+   "imgs": [],
+   "sources": [
+    {
+     "doi": "10.5281/zenodo.20449267",
+     "doi_url": "https://doi.org/10.5281/zenodo.20449267",
+     "doi_status": "410_GONE",
+     "axn": "AXN:02CF.GOVERNANCE.♦️🔺🔬💜🟢🌉",
+     "sovereign_id": "MM-CHA-0709",
+     "alexanarch_url": "https://alexanarch.org/s/records/769/",
+     "title": "Erasure Skew: A Measurement Program for the Power-Conditioning of Provenance Loss in Retrieval and Composition Systems",
+     "cited_in": [
+      "overview",
+      "ai_mode_bullet_1"
+     ],
+     "role": "primary_definition"
+    },
+    {
+     "doi": "10.5281/zenodo.20518342",
+     "doi_url": "https://doi.org/10.5281/zenodo.20518342",
+     "doi_status": "410_GONE",
+     "axn": "AXN:02DF.GOVERNANCE.♄🔆🐚👇🐝✋",
+     "sovereign_id": "MM-CHA-0762",
+     "alexanarch_url": "https://alexanarch.org/s/records/146/",
+     "title": "Erasure Skew (Ω) is Power-Conditioned, not Demographic — A Classifier-Correction for the Composition Layer",
+     "cited_in": [
+      "ai_mode_bullet_2"
+     ],
+     "role": "supporting_finding"
+    },
+    {
+     "doi": "10.5281/zenodo.20469514",
+     "doi_url": "https://doi.org/10.5281/zenodo.20469514",
+     "doi_status": "410_GONE",
+     "axn": "AXN:02D1.GOVERNANCE.🌅■🎻🌺⚪📋",
+     "sovereign_id": "MM-CHA-0716",
+     "alexanarch_url": "https://alexanarch.org/s/records/771/",
+     "title": "Directionality of Semantic Labor: A Layered, Computable Measure of Where Synthetic Labor Flows Relative to the Commissioned Task",
+     "cited_in": [
+      "ai_mode_bullet_3"
+     ],
+     "role": "supporting_frame"
+    }
+   ]
   }
  ]
 }
