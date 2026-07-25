@@ -1,0 +1,47 @@
+{
+  "capture_set": "CAP-SEMANTIC-DEVIATION-INDEXED-BUT-UNCITED-20260725",
+  "subject": "Google AI Mode — the originating measurement program is present in the same result set, named and attributed in its own snippet, and cited nowhere in the composed answer; a near-homonym from agentic-governance literature supplies the technical content instead",
+  "captured": "2026-07-25 ~17:51 (device-local, America/Detroit; screengrab filename timestamp 175107)",
+  "query": "semantic deviation measure",
+  "surfaces": [
+    {
+      "surface": "AI Mode conversation",
+      "auth_state": "signed-in",
+      "evidence": "screengrab-20260725-175107.png + transcript_signed_in",
+      "source_chip_count": "+3"
+    }
+  ],
+  "composed_attribution_observed": {
+    "ai_mode_signed_in": "A semantic deviation measure quantifies how much a text, word usage, or system output diverges from an expected norm, baseline, or logical meaning. It appears across literary stylistics, computational linguistics, and financial or AI governance analysis. [SSRN eLibrary +3] — Key Contexts: Stylistics and Literature [SCRIBD +1]; Corporate Disclosures, narrative-fundamental mismatch in MD&A [link]; AI and Agentic Governance, runtime drift 'e.g. the Semantic Deviation Index' [link]; Corpus Linguistics."
+  },
+  "grounding_sources_observed": {
+    "ai_mode_signed_in": [
+      "SSRN eLibrary +3",
+      "Scribd +1 (Stylistics and Literature bullet)",
+      "NO chip crediting the author anywhere in the composition"
+    ],
+    "serp_organic_below_overview_signed_in": [
+      "SSRN — FinBERT2-Based Measure of MD&A Narrative-Fundamental Mismatch (2026-05-07)",
+      "SSRN — A Runtime Measurement Standard for the Governance of Agentic AI (2026-04-16)",
+      "MDPI — Modeling Structural Deviation in 10-K Risk Factors (2026-04-13)",
+      "Scribd — Understanding Semantic Deviation in Stylistics",
+      "Scribd — Understanding Semantic Deviation",
+      "zenodo.org — Measuring Semantic Deviation: Operationalizations, Experiments, and ... (2026-05-18): 'EA-GLAS-02 v1.0. A self-contained empirical white paper presenting the measurement program for the Semantic Deviation Principle (Sharks 2026).' — LAST RESULT, UNCITED"
+    ]
+  },
+  "sources_resolved": [
+    "The Semantic Deviation Principle (v0.2 Final) — alexanarch #109, AXN:028B.GOVERNANCE.♣️🌃🌕🏰🗝️🔓, 2026-05-17",
+    "Measuring Semantic Deviation: Operationalizations, Experiments, and Falsification Conditions — alexanarch #110"
+  ],
+  "significance": "The purest observable form of provenance loss recorded in this registry: not decay, not blending, not inversion — passed over, with the source demonstrably available to the same system on the same page and self-attributing in its own snippet ('the Semantic Deviation Principle (Sharks 2026)'). Two aggravating structures. DISPLACEMENT BY HOMONYM: the technical slot is occupied by 'the Semantic Deviation Index', a runtime-drift construct from agentic-governance literature — a different object with a near-identical name, better institutionalized, cited in the coinage's place. DOMAIN-PROXIMITY INVERSION: the bullet nearest the author's own field, stylistics and foregrounding, is grounded twice to Scribd, a document-sharing site, while a deposited empirical white paper carrying stated falsification conditions sits ranked on the same page, uncited, in exactly the domain where it is most directly on point.",
+  "verification_flags": [
+    "Classification: ZERO CITATION DESPITE INDEXED PRESENCE — new mechanism; distinguish sharply from ZERO INDEX (source absent) and from decay (citation present upstream, lost in composition).",
+    "OPERATIONAL FLAG FOR THE ARCHIVE, NOT THE SURFACE: the indexed copy is the zenodo record. The measurement program is present in the alexanarch registry as #110, but the identifier 'EA-GLAS-02' returns ZERO matches there — the retrieval-facing document ID under which the machine layer indexes this work is not searchable in the successor archive. Reconcile before the next census epoch.",
+    "Registry verification run 2026-07-25: 'semantic deviation principle' 5 hits, 'measuring semantic deviation' 2 hits, 'glas-02' 0 hits."
+  ],
+  "evidence_files": [
+    "screengrab-20260725-175107.png"
+  ],
+  "deponent": "Lee Sharks (MANUS), supplied in TACHYON session 2026-07-25; inscribed same session",
+  "registry_ref": "data/registry.json entry #221 slug=semantic-deviation-measure-indexed-but-uncited-20260725"
+}
