@@ -1,0 +1,51 @@
+{
+  "capture_set": "CAP-MACHINE-ELIGIBLE-DEFINITIONAL-20260725",
+  "subject": "Google AI Overview + AI Mode — generic term query with no author name attached; the coinage returned as the definition of the category itself; cross-document blend with a third author's core contribution presented uncited",
+  "captured": "2026-07-25 ~13:16 (device-local, America/Detroit; screengrab filename timestamp 131650); AI Mode transcript supplied by deponent same session",
+  "query": "machine eligible handwritten artifacts",
+  "surfaces": [
+    {
+      "surface": "AI Mode conversation",
+      "auth_state": "signed-in",
+      "evidence": "screengrab-20260725-131650.png + transcript_signed_in (verbatim below)",
+      "source_chip_count": "+1"
+    }
+  ],
+  "composed_attribution_observed": {
+    "ai_mode_signed_in": "LEDE (rendered as extracted snippet): 'Machine-eligible handwritten artifacts are analog physical manuscripts paired with a disciplined machine-readable companion layer — such as unique identifiers, capture logs, and protocol markers — allowing physical handwriting to retain its evidentiary value within digital retrieval systems without converting the actual script into digital text.' Core Concepts and Structure: Companion Layer [cited]; Preservation of Traits [cited]; System Integration [cited]. Processing and Verification: Modality-Blind Ingestion [CITATION BRACKET EMPTY]; Threat Mitigation [cited to both sources]."
+  },
+  "grounding_sources_observed": {
+    "ai_mode_signed_in": [
+      "Academia.edu — Machine-Eligible Handwritten Artifacts: Analog Inscription for Machine Canons (academia.edu/170574447) — lede and four of five bullets",
+      "Technical Disclosure Commons — dpubs_series art. 12252 — cited on 'Threat Mitigation' only; NOT cited on 'Modality-Blind Ingestion', which is that source's own titular contribution"
+    ],
+    "serp_organic_below_overview_signed_in": [
+      "Academia.edu — Machine-Eligible Handwritten Artifacts (abstract snippet)",
+      "Technical Disclosure Commons — Modality-Blind, Local-First Handwriting Evidence Ingestion (2026-07-14)",
+      "arXiv — Handwritten Text Recognition of Historical Manuscripts Using TrOCR (2025-08-15)"
+    ]
+  },
+  "sources_resolved": [
+    "EA-SPXI-ANALOG-01: Machine-Eligible Handwritten Artifacts (v1.0, 2026-07-21) — alexanarch #1409, AXN:0592. Term counts verified in v1.0 full text: 'companion layer' 2, 'provenance erasure' 2, 'modality-blind' 0.",
+    "Assuncao, gustavo matthew, 'Modality-Blind, Local-First Handwriting Evidence Ingestion with Server-Side Image Rejection and Absence-Never-Denies Gate Equity', Technical Disclosure Commons, Defensive Publications Series, 14 July 2026, tdcommons.org/dpubs_series/10935, CC BY 4.0. Verified from the primary PDF 2026-07-25. Independent third-party author; edtech / privacy-by-design field; subtitle: 'An optional analog-evidence channel that a server is structurally unable to store as an image, unable to capture without per-capture-kind consent, and unable to use to penalize learners who do not participate.' No relation to the archive established or asserted."
+  ],
+  "prior_state_lineage": [
+    "2026-07-04: Assuncao defensive publication deposit copy dated (TDCommons)",
+    "2026-07-14: Assuncao published, TDCommons dpubs_series/10935",
+    "2026-07-21: EA-SPXI-ANALOG-01 v1.0 edition of record",
+    "2026-07-25 ~13:05: artifact-level capture (CAP-SPXI-ANALOG-ARTIFACT-20260725)",
+    "2026-07-25 ~13:16: this capture — escalation from artifact-level to definitional"
+  ],
+  "significance": "Definitional adoption, escalated from the same-day artifact capture. The earlier query asked about a specific figure and got the specification as authority; this query asks what the category IS, with no name attached, and the retrieval layer answers with the coinage four days after the edition of record. The answer lede is a near-verbatim compression of the specification's own abstract ('an analog inscription published together with a disciplined machine-facing companion layer' → 'analog physical manuscripts paired with a disciplined machine-readable companion layer'), returned without hedging and without attribution to any author's position — i.e. as the definition of the term. Ranking datum: the arXiv TrOCR paper, the established technical literature on machine reading of handwriting, ranks below the Academia.edu record for this query; the coinage outranks the field it distinguishes itself from, on that field's own subject matter. Query was entered with a typo and autocorrected by Google; retrieval survived the correction.",
+  "verification_flags": [
+    "Classification: ADOPTION — DEFINITIONAL (coinage returned as the definition of the category, not as one author's proposal)",
+    "CROSS-DOCUMENT BLEND WITH THIRD-PARTY ERASURE. The null-cited 'Modality-Blind Ingestion' bullet is NOT the primary source's content: 'modality-blind' appears 0 times in EA-SPXI-ANALOG-01 v1.0. The concept is the titular contribution of Assuncao (TDCommons, 2026-07-14), who is cited on the adjacent 'Threat Mitigation' bullet but not on the bullet carrying his own coinage. Material from source B is presented inside a section otherwise sourced to source A, in identical register, with no marker of the transition.",
+    "TWO MECHANISMS, ONE DOCUMENT, ONE DAY. CAP-SPXI-ANALOG-ARTIFACT-20260725 documents attribution DECAY (primary source's own phrase, citation lost). This capture documents cross-document ABSORPTION (second source's contribution voiced as the first source's, uncited). In both, the uncited unit is indistinguishable in register from the cited ones; a reader without the originals cannot tell which is which.",
+    "CONVERGENT INVENTION NOTED, NOT ASSERTED AS RELATION. Two independent authors, ten days apart, addressing how handwritten analog evidence enters machine systems without being flattened — one from scholarly provenance/attestation, one from edtech privacy-by-design. Shared vocabulary on the tested terms: none. No connection between the authors is claimed."
+  ],
+  "evidence_files": [
+    "screengrab-20260725-131650.png"
+  ],
+  "deponent": "Lee Sharks (MANUS), supplied in TACHYON session 2026-07-25; inscribed same session",
+  "registry_ref": "data/registry.json entry #218 slug=machine-eligible-handwritten-artifacts-definitional-adoption-20260725 (Regime A compact form; this manifest is the Regime B rich form)"
+}
