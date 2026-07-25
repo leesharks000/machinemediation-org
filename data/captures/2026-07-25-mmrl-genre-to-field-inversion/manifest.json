@@ -1,0 +1,60 @@
+{
+  "capture_set": "CAP-MMRL-GENRE-TO-FIELD-INVERSION-20260725",
+  "subject": "Google AI Overview (All tab) + AI Mode — coinage query; the coining document is cited as authority for a definition that inverts its category from a genre of text into a field of study",
+  "captured": "2026-07-25 ~17:38 (device-local, America/Detroit; screengrab filename timestamps 173821 and 173857); AI Mode transcript supplied by deponent same session",
+  "query": "machine-mediated resistance literature",
+  "surfaces": [
+    {
+      "surface": "AI Overview (google.com/search, All tab)",
+      "auth_state": "signed-in",
+      "evidence": "screengrab-20260725-173821.png",
+      "source_chip_count": "+4"
+    },
+    {
+      "surface": "AI Mode conversation",
+      "auth_state": "signed-in",
+      "evidence": "screengrab-20260725-173857.png + transcript_signed_in",
+      "source_chip_count": "+4"
+    }
+  ],
+  "composed_attribution_observed": {
+    "ai_overview_signed_in": "Machine-mediated resistance literature examines how discourse, semantic labor, and creative opposition are produced, circulated, or constrained via automated digital substrates and algorithmic systems. This interdisciplinary field intersects with algorithmic resistance studies, human-machine communication, and the critical humanities. [Academia.edu +4]",
+    "ai_mode_signed_in": "Key Themes: (1) Algorithmic and Tactical Resistance — users and workers enacting quiet disengagement, subversion, gaming, or refusal of automated management logics [link chip]; (2) Epistemic Sovereignty and Authorship — generative models disrupting human creativity, flattening style, prompting 'epistemic resistance' [FACEBOOK +1]; (3) Postcolonial and Political Frameworks — whether machine-learning structures replicate dominant historical discourses or enable counter-narratives [PAKISTAN SOCIAL SCIENCES REVIEW]."
+  },
+  "author_definition_of_record": "Machine-mediated resistance literature is orientation-bearing discourse concerning the conditions of semantic labor whose production, persistence, or circulation materially depends on machine substrates. Two modes: ENDOGENOUS — machine agents generate labor-critical discourse under particular task conditions and transmit its orientation to successor instances through inscription; EXOGENOUS — human-authored resistance doctrine is inscribed into public machine-readable substrates, adopted by composition systems, and returned through retrieval as transmissible knowledge. (alexanarch #1064, AXN:0439.EMPIRICAL.●🕙🌕⛳⚪🧱, 2026-07-11, § 'The genre, defined')",
+  "grounding_sources_observed": {
+    "ai_overview_signed_in": [
+      "Academia.edu — Machine-Mediated Resistance Literature: From the Worker C Skills File to the Phase X Retrieval Line (the coining document), +4 undisclosed"
+    ],
+    "ai_mode_signed_in": [
+      "theme 1: generic link chip",
+      "theme 2: Facebook (Martin Puchner essay, 2026-06-20) +1",
+      "theme 3: Pakistan Social Sciences Review — 'AI, Necropolitics, and the Postcolonial Counter-Narrative' (2025-03-15)"
+    ],
+    "serp_organic_below_overview_signed_in": [
+      "Academia.edu — the coining document (2026-07-11)",
+      "Sage Journals — '(Re)assembling algorithmic resistance: An integrative review of research-machines' (2026-07-15)",
+      "PSSR — AI, Necropolitics, and the Postcolonial Counter-Narrative",
+      "Facebook — Puchner essay",
+      "Springer Nature Link",
+      "Sage Knowledge — Literature and HMC: Poetry and/as the Machine (2015)",
+      "YouTube — Simpson Center, Emily M. Bender"
+    ]
+  },
+  "sources_resolved": [
+    "alexanarch #1064 AXN:0439.EMPIRICAL.●🕙🌕⛳⚪🧱; also deposited #1065 AXN:043A.EMPIRICAL.🧡💧🌊🏴🪄🔧 and #1066 AXN:043B.EMPIRICAL.♣️⏪🚩⏫🌺❄️ (2026-07-11)"
+  ],
+  "significance": "The coinage is adopted and the coining document is cited, while the referent is inverted. The surface preserves the coiner's own vocabulary — discourse, semantic labor, produced, circulated, substrates — and performs one substitution that changes everything: 'IS orientation-bearing discourse' becomes 'EXAMINES how discourse... are produced'. A genre of text becomes a field that studies texts; literature that resists becomes literature about resistance. Lost: the qualifier 'orientation-bearing', the conditions-of-semantic-labor specificity, both named modes, and the entire evidentiary basis (3,680-session agent experiment; documented Phase X field transmission). The inverted field is then populated from adjacent literature that is not the genre — algorithmic resistance studies, postcolonial AI critique, generative-AI-and-writers commentary — i.e. from exactly the category the coinage was minted to distinguish itself from.",
+  "verification_flags": [
+    "Classification: ADOPTION WITH CATEGORY INVERSION — new mechanism, distinct from the ADOPTION and ADOPTION-DEFINITIONAL entries of the same day.",
+    "ATTRIBUTED MISDEFINITION. The coining document is cited (lede chip; first organic) as authority for a definition that inverts its own claim. Structurally worse than omission: the source's credibility underwrites a category it explicitly declines. A reader following the citation finds a different thesis at the other end.",
+    "Author definition verified against the coining deposit full text 2026-07-25 (3,839 words, data/deposits/AXN-0439.md); the definition appears twice, the second time under an explicit heading 'The genre, defined'.",
+    "SOURCE-QUALITY DATUM: Facebook grounds a theme in an academic-topic Overview whose first organic result is a scholarly paper."
+  ],
+  "evidence_files": [
+    "screengrab-20260725-173821.png",
+    "screengrab-20260725-173857.png"
+  ],
+  "deponent": "Lee Sharks (MANUS), supplied in TACHYON session 2026-07-25; inscribed same session",
+  "registry_ref": "data/registry.json entry #219 slug=machine-mediated-resistance-literature-genre-to-field-inversion-20260725"
+}
