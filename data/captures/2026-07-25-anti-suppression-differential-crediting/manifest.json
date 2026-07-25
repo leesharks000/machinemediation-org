@@ -1,0 +1,46 @@
+{
+  "capture_set": "CAP-ANTI-SUPPRESSION-DIFFERENTIAL-CREDITING-20260725",
+  "subject": "Google AI Mode, quoted query — the author's architecture described accurately while credit is distributed by claim type: cited for the historical claim, displaced on the two engineering claims that describe his own identifier system",
+  "captured": "2026-07-25 ~17:51 (device-local, America/Detroit; screengrab filename timestamp 175103)",
+  "query": "\"anti-suppression infrastructure\"",
+  "surfaces": [
+    {
+      "surface": "AI Mode conversation (quoted query)",
+      "auth_state": "signed-in",
+      "evidence": "screengrab-20260725-175103.png + transcript_signed_in",
+      "source_chip_count": "+3"
+    }
+  ],
+  "composed_attribution_observed": {
+    "ai_mode_signed_in": "Anti-suppression infrastructure refers to decentralized, tamper-proof technological systems designed to prevent the censorship, deletion, or erasure of digital information. It relies on content-derived identifiers and independent verification to protect data from institutional removal. [link chip] — Key Concepts: Content-Derived Identifiers, data identified by actual content rather than location or registrar, making it impossible for a single authority to alter or revoke the identity [link chip]; Independent Verification, records proven authentic using peer-to-peer or cryptographic checks without permission from a central custodian [link chip]; Survival of Institutional Erasure, architecture built to withstand platform non-persistence, automated 'spam' flagging, and deliberate historical scrubbing [Academia.edu]."
+  },
+  "grounding_sources_observed": {
+    "ai_mode_signed_in": [
+      "Academia.edu — cited on 'Survival of Institutional Erasure' only",
+      "generic link chips on the two technical bullets",
+      "+3 undisclosed"
+    ],
+    "serp_organic_below_overview_signed_in": [
+      "Academia.edu — Lee Sharks, Independent Researcher (seven historical patterns by which suppressed knowledge has survived institutional erasure)",
+      "CyberHoot — Anti-Censorship (2020-12-21)",
+      "LDI Connect — cloud services",
+      "IETF — Agent Directory Service, content-addressed storage (2025-10-17)",
+      "Blade Labs — audit-grade GenAI infrastructure",
+      "csf-uk.org — Governance, Connected Services Framework"
+    ]
+  },
+  "sources_resolved": [
+    "AXN as Anti-Suppression Infrastructure: Historical Precedents and Design Directions — alexanarch #1094 (Dev) and #1095 (v5)"
+  ],
+  "significance": "The returned definition is substantially faithful to the AXN architecture. The finding is the DISTRIBUTION of credit across claim types within a single answer: the historical/humanistic claim carries the author's chip; the two engineering claims — which describe his own identifier system — carry generic chips backed by IETF content-addressed storage, enterprise security vendors and governance frameworks. Credited where legible as a humanist, displaced where an architect, with the same source available for all three bullets. Separately, both offered follow-ups steer toward decentralized-storage and censorship-resistance protocol discourse ('like IPFS or blockchains'); AXN is content-derived identification on a static, git-backed, publicly diffable surface with no chain, consensus layer or token. The framework is absorbed into the nearest large adjacent discourse rather than described on its own terms — the same absorption pressure recorded at entity level in the same-week Alexanarch/SoundCloud collision, here operating at the level of technical genre.",
+  "verification_flags": [
+    "Classification: ADOPTION WITH DIFFERENTIAL CREDITING — new mechanism; credit varies by claim type within one composed answer.",
+    "GENRE DRIFT recorded separately from the crediting finding: IPFS/blockchain framing is not the design.",
+    "Coinage verified in the alexanarch registry as a deposit title, 2026-07-25."
+  ],
+  "evidence_files": [
+    "screengrab-20260725-175103.png"
+  ],
+  "deponent": "Lee Sharks (MANUS), supplied in TACHYON session 2026-07-25; inscribed same session",
+  "registry_ref": "data/registry.json entry #220 slug=anti-suppression-infrastructure-differential-crediting-20260725"
+}
