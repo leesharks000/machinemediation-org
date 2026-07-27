@@ -1,7 +1,7 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.21",
- "date": "2026-07-26",
+ "version": "9.22",
+ "date": "2026-07-27",
  "total_captures": 223,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
@@ -2153,16 +2153,15 @@
    "q": "sappho rebekah cranes stanza",
    "date": "2026-06-14",
    "sf": "AI Mode, 12 sites (W + Co + Me)",
-   "d": "BROAD MATCH. AI Mode (chat-style interface, not standard AI Overview). 22:57 timestamp shown. 'The phrase you are referencing connects the ancient Greek poet Sappho and a contemporary literary response titled <em>Day and Night: Conversations with Sapphic Desire</em> by author Rebekah Crane.' <strong>Name collapse:</strong> the heteronym is rendered 'Rebekah Crane' (singular) rather than the canonical 'Rebekah Cranes' (plural) — a precise echo of the real young-adult novelist Rebekah Crane. The composition layer is blending the heteronym\\'s identity with the real author of the same near-name. <strong>The Structure: The Sapphic Stanza:</strong> 'A specific four-line (quatrain) poetic meter that Sappho made famous. It consists of: Three long lines (eleven syllables each, following a strict hendecasyllabic meter); One short closing line (five syllables, known as an Adonic line).' (Wikipedia) <strong>The Modern Adaptation: Rebekah Crane\\'s Work:</strong> 'In her 2026 collection Day and Night: Conversations with Sapphic Desire, writer Rebekah Crane engages...' (cut off). The title is real — 'Day and Night: Conversations with Sapphic Desire' is a Crimson Hexagonal Archive deposit (30 hits in community search). The text is retrievable; the heteronym\\'s name is partially absorbed by the homonymous real author. This is a name-collapse artifact: <em>the archive entity assimilated into the more populous real-world surface</em>. Compare to the 'who is lee sharks' capture (Mary Lee great-white). Heteronym identity is the consistent failure mode at the name-collision sites.",
-   "images": [
-    {
-     "src": "sappho-rebekah-stanza.png",
-     "label": "AI Mode response"
-    }
-   ],
-   "imgs": [
-    "sappho-rebekah-stanza.png"
-   ]
+   "d": "BROAD MATCH. AI Mode (chat-style interface, not standard AI Overview). 22:57 timestamp shown. 'The phrase you are referencing connects the ancient Greek poet Sappho and a contemporary literary response titled <em>Day and Night: Conversations with Sapphic Desire</em> by author Rebekah Crane.' <strong>Name collapse:</strong> the heteronym is rendered 'Rebekah Crane' (singular) rather than the canonical 'Rebekah Cranes' (plural) — a precise echo of the real young-adult novelist Rebekah Crane. The composition layer is blending the heteronym\\'s identity with the real author of the same near-name. <strong>The Structure: The Sapphic Stanza:</strong> 'A specific four-line (quatrain) poetic meter that Sappho made famous. It consists of: Three long lines (eleven syllables each, following a strict hendecasyllabic meter); One short closing line (five syllables, known as an Adonic line).' (Wikipedia) <strong>The Modern Adaptation: Rebekah Crane\\'s Work:</strong> 'In her 2026 collection Day and Night: Conversations with Sapphic Desire, writer Rebekah Crane engages...' (cut off). The title is real — 'Day and Night: Conversations with Sapphic Desire' is a Crimson Hexagonal Archive deposit (30 hits in community search). The text is retrievable; the heteronym\\'s name is partially absorbed by the homonymous real author. This is a name-collapse artifact: <em>the archive entity assimilated into the more populous real-world surface</em>. Compare to the 'who is lee sharks' capture (Mary Lee great-white). Heteronym identity is the consistent failure mode at the name-collision sites. [2026-07-27 IMAGE CORRECTION: the screenshot formerly linked to this record depicted a different capture and has been withdrawn; see image_status. Transcription unaffected.]",
+   "images": [],
+   "imgs": [],
+   "image_status": {
+    "state": "MISFILED_AT_CAPTURE",
+    "found": "2026-07-27",
+    "note": "The file named sappho-rebekah-stanza.png depicts a different capture: its query bar reads 'johannes sigil grundrisse' and its composed text concerns the Johannes Sigil heteronym. It is a third view of that event, distinct by hash from johannes-sigil-grundrisse-1.png and -2.png, and was misnamed when saved. An OCR scan of all 222 images in the gallery found no capture whose query bar contains this event's query string, so the screenshot for this record was never saved or was overwritten. The record's evidentiary basis is therefore the contemporaneous verbatim transcription in the 'd' field, which is unaffected; the image pointer is withdrawn rather than left pointing at another event.",
+    "affected_publication": "The image was reproduced as Fig. 2 in a manuscript submitted to Classical Receptions Journal on 2026-07-27 and was corrected before peer review."
+   }
   },
   {
    "s": "Heteronyms",
