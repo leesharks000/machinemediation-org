@@ -648,13 +648,15 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
    known-good figure rather than to a blank. Audited 2026-07-28 after seven counts
    had drifted and the capture count appeared three times with two values. */
 (function(){
+  /* 2026-07-30: values are validated before write — a non-finite or empty result
+     leaves the printed fallback standing rather than rendering NaN. */
   var SRC = {
     'registry.json:total_captures':        ['/data/registry.json',            function(d){return d.total_captures;}],
-    'schemas.json:entries':                ['/data/schemas.json',             function(d){return d.entries;}],
+    'schemas.json:entries':                ['/data/schemas.json',             function(d){return (d.totals&&d.totals.visual_schemas)||(d.entries||[]).length;}],
     'sovereign-registry.json:assets':      ['/data/sovereign-registry.json',  function(d){return (d.assets||[]).length;}],
-    'termindex.json:entries':              ['/data/termindex.json',           function(d){return d.entries;}],
-    'revfirst-registry.json:entries':      ['/data/revfirst-registry.json',   function(d){return d.entries;}],
-    'mint.json:releases':                  ['/data/mint.json',                function(d){return d.releases;}],
+    'termindex.json:entries':              ['/data/termindex.json',           function(d){return d.total_terms||(d.entries||[]).length;}],
+    'revfirst-registry.json:entries':      ['/data/revfirst-registry.json',   function(d){return (d.entries||[]).length;}],
+    'mint.json:releases':                  ['/data/mint.json',                function(d){return (d.releases||[]).length;}],
     'alexanarch:registry.json:deposits':   ['https://www.alexanarch.org/data/browse-index.json', function(d){return (d.deposits||d.items||[]).length||d.count;}]
   };
   var need = {};
@@ -667,7 +669,7 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
       if(v === undefined || v === null) return;
       var txt = Number(v).toLocaleString('en-US');
       document.querySelectorAll('[data-count="'+key+'"]').forEach(function(el){
-        if(el.textContent.trim() !== txt){ el.textContent = txt; el.setAttribute('data-count-refreshed',''); }
+        if(el.textContent.trim() !== txt){ if (Number.isFinite(Number(txt)) && Number(txt) > 0) el.textContent = Number(txt).toLocaleString(); el.setAttribute('data-count-refreshed',''); }
       });
     }).catch(function(){});
   });
