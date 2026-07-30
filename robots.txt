@@ -16,4 +16,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://machinemediation.org/sitemap.xml
+Sitemap: https://www.machinemediation.org/sitemap.xml
