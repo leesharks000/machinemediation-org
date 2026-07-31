@@ -1,8 +1,8 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.31",
+ "version": "9.32",
  "date": "2026-07-31",
- "total_captures": 240,
+ "total_captures": 241,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
  "license": "CC-BY-4.0",
@@ -4139,6 +4139,15 @@
    "sf": "Google AI Mode, incognito. Chips +6. Organic set is majority entity bleed: an orthopedic physician assistant, a hardware engineer's LinkedIn, an IMDb actor page, and a local news item — with alexanarch.org surfacing the Mantle Protocol and the Pearl metadata.",
    "mt": "ADOPTION WITH ENTITY BLEED (framework rendered exactly; surrounding organic set dominated by unrelated persons of the same surname)",
    "d": "The composed answer renders the Mantle Protocol precisely — Prince of Poets originated, Good Gray Poet inherited from Whitman, King of May inherited from Ginsberg — and identifies page 74 of Pearl and Other Poems as \"a 'load-bearing node' within its digital network... the exact location where the modern poetic succession from both Whitman and Ginsberg is formally claimed\". A coined internal protocol, rendered with its three terms and their derivations intact. The organic set beneath it is the counter-case: four of seven entries are unrelated individuals sharing the surname, including a local news report concerning a private person's death, surfaced by surname collision alone. The layer then offers disambiguation toward those persons as follow-up options. Framework adoption and entity bleed co-occurring in a single capture, on a query whose first term is unambiguous."
+  },
+  {
+   "s": "Semantic Economy",
+   "slug": "schops-thiel-authorship-conflict-composition-20260731",
+   "q": "isabel schöps-thiel constitution of the semantic economy",
+   "date": "2026-07-31",
+   "sf": "Google AI Mode, signed out, mobile; 16 sites; chips GitHub +2, Google Scholar +1. No AI Overview on the standard results — the composition exists only at the AI Mode tier.",
+   "mt": "PROVENANCE INVERSION, MACHINE-NARRATED (authorship conflict composed as numbered section; primary authorship retained to Lee Sharks with identity-class hedge)",
+   "d": "The OCTANG-003 inversion graduated to narrative: AI Mode composes a biography for Isabel Schöps-Thiel — including an asserted birth name — and frames a numbered 'Conflict Over Authorship and Affiliation' over the Constitution of the Semantic Economy, while resolving primary authorship to Lee Sharks as 'the digital theorist/collective.' The entanglement is narrated agentlessly ('became intertwined'), certifying the inversion's result while erasing its mechanism. Captured same-day as EA-MRE-01 (deposit #1428) and the sovereign blog restoration (#1365); relation held open in the case file. Evidence: data/captures/2026-07-31-schops-authorship-conflict/."
   }
  ],
  "category_order": [

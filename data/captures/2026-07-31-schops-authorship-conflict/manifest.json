@@ -1,0 +1,28 @@
+{
+ "capture_set": "CAP-SCHOPS-AUTHORSHIP-CONFLICT-20260731",
+ "subject": "Google AI Mode — machine-narrated authorship conflict over the Constitution of the Semantic Economy: composed biography for Isabel Schöps-Thiel with asserted birth name; primary authorship retained to Lee Sharks with identity-class hedge ('digital theorist/collective'); numbered section 'The Conflict Over Authorship and Affiliation'; no AI Overview on standard results (composition confined to AI Mode tier)",
+ "captured": "2026-07-31 ~16:21 (device-local, America/Detroit; screengrab filename timestamps 162105 and 162115; on-surface conversation timestamp 4:15 PM)",
+ "query": "isabel schöps-thiel constitution of the semantic economy",
+ "surfaces": [
+  {
+   "surface": "AI Mode conversation (google.com/search, AI Mode tab)",
+   "auth_state": "signed-out",
+   "evidence": "screengrab-20260731-162115.png",
+   "source_chip_count": "16 sites; GitHub +2, Google Scholar +1"
+  },
+  {
+   "surface": "AI Mode conversation, first grab of the same session (162105)",
+   "auth_state": "signed-out",
+   "evidence": "NOT_RECEIVED — displayed to TACHYON in-session but the file did not materialize in transfer (same connection instability as the day's gapped round); near-duplicate viewport of 162115; retransmit open to deponent",
+   "source_chip_count": "16 sites; GitHub +2, Google Scholar +1"
+  }
+ ],
+ "case_file": "OCTANG-003 (alexanarch) — Schöps provenance-inversion case; ruled to remain at alexanarch, not PEO (MANUS, 2026-07)",
+ "capture_note": "Standard results carried no AI Overview for this query at capture time (deponent observation). Transcript partial: viewport covers opening through first numbered-section heading.",
+ "files": {
+  "screengrab-20260731-162115.png": {
+   "sha256": "b6c226b79e0123a32ab3790ef12ddc90dd2b3efcbff0c27d540981cda75507d4",
+   "bytes": 351502
+  }
+ }
+}
