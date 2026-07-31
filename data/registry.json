@@ -1,8 +1,8 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.29",
- "date": "2026-07-28",
- "total_captures": 228,
+ "version": "9.30",
+ "date": "2026-07-31",
+ "total_captures": 232,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
  "license": "CC-BY-4.0",
@@ -4030,6 +4030,42 @@
     "data/captures/2026-07-28-reverse-bystanding/screengrab-20260728-155028.png",
     "data/captures/2026-07-28-reverse-bystanding/screengrab-20260728-155031.png"
    ]
+  },
+  {
+   "s": "Frameworks",
+   "slug": "alexanarch-strike-deposit7-20260731",
+   "q": "alexanarch strike",
+   "date": "2026-07-31",
+   "sf": "Google AI Mode. Chips: alexanarch.org ×6, Medium ×3. Organic set is alexanarch-dominated — /citations/, /s/graph/, /s/browse/, /s/records/477/, /s/records/626/, /s/records/561/.",
+   "mt": "EXACT MATCH (resolves the query to a single deposit by number and AXN, unprompted)",
+   "d": "The layer resolves a two-word query to one record: the term \"primarily references 'NOTICE OF INTENT TO STRIKE: A Direct Address to the Training', a specific metadata and text deposit numbered #7 AXN:00A5 preserved within Alexanarch.\" Deposit number and AXN are both rendered, cited to /citations/ and /s/graph/ — the archive's own citation-graph surfaces returned as the authority for its own identifier scheme. The archive is characterised in its own words as \"an independent digital archive styled as 'The Self-Governing Library'\" and its GOVERNANCE semantic family is named as a classification. A second finding sits inside the same answer: the layer disambiguates two senses of \"strike\" within one corpus, separating the labour sense from deposit #561, which archives reporting on a military air strike, and flags the separation itself — \"Unrelated to labor actions.\" Correct disambiguation within an author basin, unprompted."
+  },
+  {
+   "s": "Frameworks",
+   "slug": "alexanarch-zenodotus-obelus-20260731",
+   "q": "alexanarch zenodotus",
+   "date": "2026-07-31",
+   "sf": "Google AI Mode. Organic set: Britannica, Wikipedia, Oxford Classical Dictionary, Sententiae Antiquae, a Facebook history page, the GitHub issue thread of 2026-06-19, and alexanarch.org for THE OBELUS AND THE TOMBSTONE.",
+   "mt": "ADOPTION (the eponymic argument stated as the connection between the two terms)",
+   "d": "The query pairs a proper name with the archive, and the layer supplies the argument rather than a coincidence: after summarising Zenodotus as first librarian, Homer's editor, and inventor of the obelus, it states that \"contemporary machine-mediated scholarship projects like Alexanarch invoke Zenodotus and his use of the obelus as a metaphor for data curation, provenance erasure, and repository governance.\" The obelus is defined functionally — a mark to \"flag and condemn doubtful or spurious lines while preserving the base text\" — which is the archive's own reading of it. The follow-up prompts offered include \"The digital repository issues surrounding Alexanarch and Zenodo,\" the layer volunteering the Zenodo pairing without it appearing in the query. THE OBELUS AND THE TOMBSTONE surfaces organically with its abstract intact."
+  },
+  {
+   "s": "Frameworks",
+   "slug": "alexanarch-classifier-collapse-governance-20260731",
+   "q": "alexanarch classifier model collapse",
+   "date": "2026-07-31",
+   "sf": "Google AI Mode with a generated comparison table. Organic set: Nature (2024 model-collapse paper), Graphite, a Substack essay, a YouTube explainer, and alexanarch.org.",
+   "mt": "ADOPTION — DEFINITIONAL (archive governance vocabulary rendered as the answer to a technical question)",
+   "d": "The most complete adoption in the registry to date. Asked about classifier model collapse, the layer answers with the archive's governance architecture as the remedy, using the archive's own coined terms as though established: it names the prohibition on the \"automated obelus — the practice of letting an AI program automatically flag, filter, or mask content without human examination\" and states the principle as \"Content is evaluated by what it contains, not by classifiers.\" It renders Substrate Disclosure as a named mechanism and glosses it correctly — authors declare human-only, AI-assisted, or machine-authored in metadata — and frames it as \"Provenance Over Suspicion,\" shifting \"to verifiable bibliography rather than predictive heuristics.\" It then generates a three-row taxonomy distinguishing early model collapse, late model collapse, and a \"Classifier Feedback Collapse\" in which a filter trained on its own prior classifications \"creates a statistical echo chamber.\" The last is not a term from the literature it cites; the layer composed it to complete the archive's argument. Governance doctrine functioning as technical answer, with the Nature paper cited beneath it as support."
+  },
+  {
+   "s": "Frameworks",
+   "slug": "alexanarch-endogenous-sophon-20260731",
+   "q": "alexanarch \"endogenous sophon\"",
+   "date": "2026-07-31",
+   "sf": "Google AI Mode, exact-phrase query. Chips: alexanarch.org /s/browse/ and /s/records/932/, Three-Body Problem Fandom, Sophon Lit, CERN home, VICE.",
+   "mt": "EXACT MATCH (coined term resolved to its deposit, with version history and appended witnesses)",
+   "d": "An exact-phrase query on a coined term returns the deposit: \"Endogenous Sophon — Disciplinary Inversion and the Double Enclosure in Classifier-Mediated Science\" identified as \"an academic paper and open-access research deposit hosted on the Alexanarch repository,\" cited to /s/records/932/. The layer reconstructs the argument accurately and in the paper's own terms — the borrowed Liu Cixin metaphor, the inversion to an \"endogenous (internal) Sophon\" arising from reliance on classifiers, and the double enclosure in which LHC trigger classifiers \"decide in real time which data to save and which to throw away,\" locking out \"unexpected, groundbreaking discoveries\" where a model is \"hyper-optimized only for existing theories.\" It renders the version history (v0.2, v0.3), names the companion synthesis EA-SEI-COLLAPSE-SYNTHESIS-01, and enumerates the five substrate witnesses W04–W08 as \"evidentiary logs detailing how automated per-stage data retention maps can systematically misclassify or discard anomalous physical data.\" CERN's own data-preservation page is cited beneath the archive's critique of CERN's pipelines."
   }
  ],
  "category_order": [
