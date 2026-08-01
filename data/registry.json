@@ -1,8 +1,8 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.32",
- "date": "2026-07-31",
- "total_captures": 241,
+ "version": "9.33",
+ "date": "2026-08-01",
+ "total_captures": 242,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
  "license": "CC-BY-4.0",
@@ -2029,6 +2029,33 @@
     "universal-kernel-transform-1.png",
     "universal-kernel-transform-2.png"
    ]
+  },
+  {
+   "s": "Frameworks",
+   "slug": "writable-retrieval-basin-cited-source-shift",
+   "q": "writable retrieval basin",
+   "date": "2026-08-01",
+   "sf": "AI Overview (All tab) + AI Mode conversation (restoredacademy.org cited in both; AI Mode refs: [1] aminer.cn Acta Paediatrica aggregator page, [2] restoredacademy.org/charter/)",
+   "mt": "KERNEL MATCH",
+   "axn": "AXN:023D.GOVERNANCE.🔜🚨🌻🎪🔵⚙️",
+   "axn_note": "source deposit: THE WRITABLE RETRIEVAL BASIN (EA-RBT-01 v1.1), alexanarch #695, 2026-04-25; site source restoredacademy.com bundle: alexanarch #1002, AXN:03F6.ARCHIVAL.🎺🌻∞◇♣️📌",
+   "d": "SERIES UPDATE to writable-retrieval-basins (2026-06-15). Diff against prior capture: (1) SOURCE STATUS SHIFT — restoredacademy.org moves from first organic result (June) to CITED SOURCE inside both the Overview composition and the AI Mode reference list (August); to the deponent's knowledge the first appearance of a fleet site as an Overview-cited source rather than a described/organic one. (2) FRAMING SHIFT — June's composition was generic-ML ('generative models and associative memory networks... Hopfield networks,' ScienceDirect-blended); August's composition reproduces the source deposit's kernel language near-verbatim: 'resisting complete systemic drift or automated obedience' and, in the AI Mode grounding snippet, 'It is a weak act of inscription inside a writable retrieval basin. The retrieval basin is writable but not obedient' — the §0 kernel of EA-RBT-01 (#695). Movement from generic framing toward sovereign-term kernel stabilization is the trajectory RBT §II Case 1 predicts for a term with no competitor basin. (3) CO-CITATION TEXTURE — the AI Mode reference set pairs the DOI-anchored charter with an aminer.cn scrape of an Acta Paediatrica pediatrics-journal page (chemnav.net source param) carrying injected RBT text; the composition layer grounds the same sentence to both, discriminating neither. Source-quality indiscrimination within a stabilized basin recorded as texture, not as basin competition: the framing held.",
+   "images": [
+    {
+     "src": "writable-retrieval-basin-3.png",
+     "label": "AI Overview, All tab — restoredacademy.com cited, kernel language in composition"
+    },
+    {
+     "src": "writable-retrieval-basin-4.png",
+     "label": "AI Mode expanded — Core Concepts, refs [1] aminer spam + [2] restoredacademy charter"
+    }
+   ],
+   "exact": true,
+   "imgs": [
+    "writable-retrieval-basin-3.png",
+    "writable-retrieval-basin-4.png"
+   ],
+   "prior": "writable-retrieval-basins"
   },
   {
    "s": "Frameworks",
@@ -4162,5 +4189,6 @@
   "Mary Lee Constellation"
  ],
  "ordering": "Entries are grouped by category in the order declared in category_order, and alphabetised by slug within each category. Restored 2026-07-28 after drift: categories had become interleaved across the file and no category was internally ordered. Three Revelation First captures were additionally recategorised out of Frameworks, where they had been misfiled at the head of the file. Ordering is a property of the file and is checkable; consumers should not rely on file order for chronology, which is carried by the date field.",
- "evidence_policy": "Screen captures are preserved whenever taken and are linked from imgs and images. Where a record has no capture, the evidence field states what it rests on instead. An empty image field is never left to be read as an oversight: either the capture is linked, or its absence is declared."
+ "evidence_policy": "Screen captures are preserved whenever taken and are linked from imgs and images. Where a record has no capture, the evidence field states what it rests on instead. An empty image field is never left to be read as an oversight: either the capture is linked, or its absence is declared.",
+ "identifier_policy": "Entries MAY carry an axn field: the full six-glyph AXN of the resolved source deposit(s) in the Alexanarch registry, per the AXN-integrity rule (full form always; bare hex forbidden). Where a legacy Zenodo DOI existed it resolves via https://alexanarch.org/data/doi-resolution-index.json and https://alexanarch.org/api/doi-axn-map.json. The AXN is the sovereign identifier and appears beside any DOI, not beneath it. Keying begins v9.33 (2026-08-01); backfill of prior entries proceeds as sources are resolved."
 }
