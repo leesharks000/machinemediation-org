@@ -49,12 +49,12 @@
    "d": "The phrase is the author's: 'AXN as Anti-Suppression Infrastructure: Historical Precedents and Design Directions' (alexanarch #1094 and #1095). The returned definition is substantially faithful to that architecture — content-derived identifiers, independent verification, survival of institutional removal are the AXN design and the archive's operating thesis, not generic decentralization boilerplate.\n\nThe finding is in the distribution of credit across claim types. Three bullets, three provenance treatments. 'Survival of Institutional Erasure' — the historical/humanistic claim, nearest the paper's 'seven historical patterns' — carries the Academia.edu chip. 'Content-Derived Identifiers' and 'Independent Verification' — the two ENGINEERING claims, which describe the author's own identifier system — carry generic link chips, with the surrounding source cloud drawn from IETF content-addressed storage, enterprise security vendors, and governance frameworks. The author is credited where he is legible as a humanist and displaced where he is an architect. Differential crediting by claim type, within one answer, with the same source available for all three.\n\nGENRE DRIFT. Both offered follow-ups steer the reader into decentralized-storage and censorship-resistance protocol discourse ('like IPFS or blockchains'). AXN is content-derived identification on a static, git-backed, publicly diffable surface — no chain, no consensus layer, no token. The framework is absorbed into the nearest large adjacent discourse rather than described on its own terms: the same absorption pressure documented at the entity level in the same-week Alexanarch/SoundCloud collision, operating here at the level of technical genre.",
    "search_url": "https://www.google.com/search?q=%22anti-suppression+infrastructure%22",
    "imgs": [
-    "https://www.machinemediation.org/data/captures/2026-07-25-anti-suppression-differential-crediting/screengrab-20260725-175103.png"
+    "anti-suppression-differential-crediting-20260725.png"
    ],
    "images": [
     {
-     "src": "https://www.machinemediation.org/data/captures/2026-07-25-anti-suppression-differential-crediting/screengrab-20260725-175103.png",
-     "label": "screen capture"
+     "src": "anti-suppression-differential-crediting-20260725.png",
+     "label": "AI Overview — differential crediting (2026-07-25)"
     }
    ]
   },
