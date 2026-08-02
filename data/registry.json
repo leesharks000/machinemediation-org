@@ -1,8 +1,8 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.33",
+ "version": "9.34",
  "date": "2026-08-01",
- "total_captures": 242,
+ "total_captures": 244,
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
  "license": "CC-BY-4.0",
@@ -56,6 +56,59 @@
      "src": "https://www.machinemediation.org/data/captures/2026-07-25-anti-suppression-differential-crediting/screengrab-20260725-175103.png",
      "label": "screen capture"
     }
+   ]
+  },
+  {
+   "s": "Frameworks",
+   "slug": "anti-suppression-infrastructure-quoted-longitudinal-20260801",
+   "q": "\"anti-suppression infrastructure\"",
+   "date": "2026-08-01",
+   "sf": "AI Overview (All tab, LinkedIn/Academia ×2) + AI Mode conversation (refs: LinkedIn Anna Jacobi, independent.academia.edu/LSharks, Medium 'The Silent Veto')",
+   "mt": "NAMED-SYSTEM KERNEL MATCH",
+   "axn": "AXN:0457.EMPIRICAL.▶️🤲👈👈🔼🧡",
+   "axn_note": "source deposit lineage #1094/#1095 as above.",
+   "prior": "anti-suppression-infrastructure-differential-crediting-20260725",
+   "d": "SERIES UPDATE vs 2026-07-25 (differential crediting). Diff: (1) ATTRIBUTION SHIFT — July's composition credited the deponent for the historical claim while grounding the two technical claims describing his own architecture to generic IPFS/blockchain sources; August's composition names the system BY NAME in Core Concepts ('Systems like AXN use decentralized verification where data authenticity relies on the content itself rather than the permission of a central registrar or custodian') and grounds two of three concepts solely to the deponent's academia profile. Differential crediting has collapsed toward correct attribution. (2) LANGUAGE SHIFT — 'name-to-object mappings... survive institutional non-persistence' reproduces the PID paper's kernel vocabulary; the definition register moved from policy-generic toward the archive's architectural framing ('institutions, registries, or dominant platforms... unilaterally, silently'). (3) CO-CITATION — Medium 'The Silent Veto' (Perkins, June 2026) now grounds Institutional Resistance alongside the deponent: adjacent-not-competing framing. NOTE on the 7/25 prior: its screenshot IS seated and live at data/captures/2026-07-25-anti-suppression-differential-crediting/ (absolute-URL image reference; gallery renderers expecting bare captures/ filenames may not display it — rendering-convention mismatch, not a missing artifact). Today's images seated in standard convention as the longitudinal anchor.",
+   "images": [
+    {
+     "src": "anti-suppression-infrastructure-quoted-longitudinal-1.png",
+     "label": "AI Overview, quoted — Substack #1, academia profile #2"
+    },
+    {
+     "src": "anti-suppression-infrastructure-quoted-longitudinal-2.png",
+     "label": "AI Mode expanded — AXN named in Core Concepts; name-to-object kernel language"
+    }
+   ],
+   "exact": true,
+   "imgs": [
+    "anti-suppression-infrastructure-quoted-longitudinal-1.png",
+    "anti-suppression-infrastructure-quoted-longitudinal-2.png"
+   ]
+  },
+  {
+   "s": "Frameworks",
+   "slug": "anti-suppression-infrastructure-unquoted-20260801",
+   "q": "anti-suppression infrastructure",
+   "date": "2026-08-01",
+   "sf": "AI Overview (All tab, LinkedIn/Academia/+4) + AI Mode conversation (refs incl. LinkedIn Anna Jacobi, independent.academia.edu/LSharks, agentskills.legal, sabreproducts marketing PDF, pctech.se, cyphere)",
+   "mt": "BROAD MATCH — UNQUOTED TERM NOW INFORMS",
+   "axn": "AXN:0457.EMPIRICAL.▶️🤲👈👈🔼🧡",
+   "axn_note": "source deposit: AXN as Anti-Suppression Infrastructure (draft lineage #1094; successor #1095, AXN:0458.EMPIRICAL.🌸♠️🪦📎⚖️🚀). Substack surface ranks #1 organic beneath the Overview.",
+   "d": "FIRST UNQUOTED-TERM COMPOSITION. Prior captures required the exact quoted phrase; the bare term now returns a composed definition. Composition blends registers: the headline definition is AIO synthesis in a policy register (erasure/silencing of 'public input, or scientific findings' — LinkedIn/Jacobi gravity), but the third Core Component, 'Verifiable Substrates: content-derived identifiers and decentralized registries that preserve records independently of any single custodian,' is grounded SOLELY to the deponent's academia profile — the AXN framing surfacing inside an ambient-term composition. Citation set carries heavy fan-out noise (marketing-automation PDF using 'anti-suppression architecture' for social-media throttling evasion; a sentience-accord PDF; DSPT compliance blog) — none competing for the archive's specific framing. Basin expansion recorded: from exact-phrase representation to ambient-vocabulary participation, with the archive holding the substrate/identifier concept within the blend.",
+   "images": [
+    {
+     "src": "anti-suppression-infrastructure-unquoted-1.png",
+     "label": "AI Overview, unquoted query — Substack #1 organic beneath"
+    },
+    {
+     "src": "anti-suppression-infrastructure-unquoted-2.png",
+     "label": "AI Mode expanded — Verifiable Substrates grounded solely to LSharks academia"
+    }
+   ],
+   "exact": false,
+   "imgs": [
+    "anti-suppression-infrastructure-unquoted-1.png",
+    "anti-suppression-infrastructure-unquoted-2.png"
    ]
   },
   {
