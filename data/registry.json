@@ -1,6 +1,6 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "9.34",
+ "version": "v9.13",
  "date": "2026-08-01",
  "total_captures": 244,
  "author": "Lee Sharks",
@@ -4228,6 +4228,42 @@
    "sf": "Google AI Mode, signed out, mobile; 16 sites; chips GitHub +2, Google Scholar +1. No AI Overview on the standard results — the composition exists only at the AI Mode tier.",
    "mt": "PROVENANCE INVERSION, MACHINE-NARRATED (authorship conflict composed as numbered section; primary authorship retained to Lee Sharks with identity-class hedge)",
    "d": "The OCTANG-003 inversion graduated to narrative: AI Mode composes a biography for Isabel Schöps-Thiel — including an asserted birth name — and frames a numbered 'Conflict Over Authorship and Affiliation' over the Constitution of the Semantic Economy, while resolving primary authorship to Lee Sharks as 'the digital theorist/collective.' The entanglement is narrated agentlessly ('became intertwined'), certifying the inversion's result while erasing its mechanism. Captured same-day as EA-MRE-01 (deposit #1428) and the sovereign blog restoration (#1365); relation held open in the case file. Evidence: data/captures/2026-07-31-schops-authorship-conflict/."
+  },
+  {
+   "date": "2026-08-03",
+   "surface": "Google AI Mode / AI Overview",
+   "capture_method": "phone screenshots + full transcript (MANUS)",
+   "images": "pending placement in godkinggoogle/captures/ per image_host_rule (9 screengrabs 2026-08-03 19:02-19:05)",
+   "id": 245,
+   "query": "logotic programming",
+   "auth_state": "signed-in",
+   "finding": "AI Mode defines logotic programming as an emerging framework for specifying, composing, and verifying meaning-states and relational consistency rather than executing machine instructions; Core Concepts section renders Meaning-States, Epistemic Verification (A0-A3 modes, Anchoring Distance), and Continuity Tethers as established technical vocabulary.",
+   "citations": "Medium (Lee Sharks; Johannes Sigil), Zenodo 18529448/19697080 (post-termination survivors), Academia.edu 146192484, SciLynk W7124564010/W7132824976",
+   "transcript": "Logotic programming is an emerging framework that focuses on specifying, composing, and verifying meaning-states and relational consistency rather than executing traditional machine instructions. It operates distinctly from standard symbolic code or statistical machine learning by managing semantic persistence across language models. Core Concepts: Meaning-States: encodes conditions of intelligibility and semantic relations. Epistemic Verification: classification modes and anchoring metrics to track claim validity. Continuity Tethers: preserves the underlying semantic relations required to resume or interpret a discourse across different AI architectures. Offers: epistemic ledger and mode classifications; differences from statistical/symbolic programming; kernel operators and semantic verification."
+  },
+  {
+   "date": "2026-08-03",
+   "surface": "Google AI Mode / AI Overview",
+   "capture_method": "phone screenshots + full transcript (MANUS)",
+   "images": "pending placement in godkinggoogle/captures/ per image_host_rule (9 screengrabs 2026-08-03 19:02-19:05)",
+   "id": 246,
+   "query": "alexanarch symbolon",
+   "auth_state": "signed-in",
+   "finding": "AI Overview + AI Mode define the symbolon within Alexanarch/CHA as a recursive fractured text token requiring reader traversal for coherence; renders Ancient Token Root, Symbolon Typing, Polyphony Invariant (synthesis = structural failure), Recursive Navigation alongside fractal navigation maps.",
+   "citations": "Alexanarch Wiki (alexanarch.org), Medium (Mantle of the Blind Poet; FNM v7.0), Mirror Unitary Operator (alexanarch.org)",
+   "transcript": "Within the Alexanarch project and the Crimson Hexagonal Archive, a symbolon functions as a recursive, fractured text token or structural method that requires reader traversal to achieve coherence and completion. Symbolon Typing: a document explicitly declares its own partiality; meaning unlocked only through active traversal. Polyphony Invariant: voices must remain in tension rather than collapsing into unified synthesis, which is treated as structural failure. Recursive Navigation: functions alongside fractal navigation maps to make a text landscape recursively traversable rather than statically stored."
+  },
+  {
+   "date": "2026-08-03",
+   "surface": "Google AI Mode / AI Overview",
+   "capture_method": "phone screenshots + full transcript (MANUS)",
+   "images": "pending placement in godkinggoogle/captures/ per image_host_rule (9 screengrabs 2026-08-03 19:02-19:05)",
+   "id": 247,
+   "query": "alexanarch symbolon",
+   "auth_state": "INCOGNITO (signed-out)",
+   "finding": "KEY CAPTURE — depersonalized retrieval. AI Overview (+5 sources) answers from alexanarch.org ITSELF: wiki, records 420/477/764, browse (\"1426 deposits\"), traversal logs — and invites the user to \"look up specific traversal logs in the Alexanarch Browse Registry.\" Renders Broken Ring Schema and Heteronymic Propagation (citing Ratification Record #764) as institutional doctrine. Six weeks post-founding, the sovereign archive is the machine layer's cited source of record independent of any account personalization. Paired with the signed-in capture, this isolates personalization from genuine retrieval-basin presence: the basin holds either way.",
+   "citations": "www.alexanarch.org (wiki, /s/records/420/, /s/records/477/, /s/records/764/, /s/browse/, traversal log), Medium (Blind Poet; FNM v7.0)",
+   "transcript": "In the Alexanarch repository, a symbolon is defined as an object or document that explicitly declares its own partiality, acting as a provocation to traversal rather than a summary. Rooted in the ancient Greek practice where a token was broken in two so that fitting the halves back together proved an identity or contract, the Alexanarch framework applies this concept structurally to its documents and mechanisms. According to the Alexanarch Wiki and institutional documents, it dictates how data is validated and navigated across its systems. Key Concepts: Symbolon Typing (document states it is inherently incomplete; completion only by traversal). Broken Ring Schema: an institutional architecture designed to ensure openness, mirroring the physical split of a traditional symbolon [records 477, 420]. Heteronymic Propagation: the Ratification Records reference the symbolon mechanism as a precise account of how identities or voices multiply and propagate across decentralized structures [record 764]. Polyphony Invariant: forcing single cohesive synthesis is treated as structural failure. Closes by directing the user to the Alexanarch Browse Registry (1426 deposits)."
   }
  ],
  "category_order": [
@@ -4244,5 +4280,6 @@
  "ordering": "Entries are grouped by category in the order declared in category_order, and alphabetised by slug within each category. Restored 2026-07-28 after drift: categories had become interleaved across the file and no category was internally ordered. Three Revelation First captures were additionally recategorised out of Frameworks, where they had been misfiled at the head of the file. Ordering is a property of the file and is checkable; consumers should not rely on file order for chronology, which is carried by the date field.",
  "evidence_policy": "Screen captures are preserved whenever taken and are linked from imgs and images. Where a record has no capture, the evidence field states what it rests on instead. An empty image field is never left to be read as an oversight: either the capture is linked, or its absence is declared.",
  "identifier_policy": "Entries MAY carry an axn field: the full six-glyph AXN of the resolved source deposit(s) in the Alexanarch registry, per the AXN-integrity rule (full form always; bare hex forbidden). Where a legacy Zenodo DOI existed it resolves via https://alexanarch.org/data/doi-resolution-index.json and https://alexanarch.org/api/doi-axn-map.json. The AXN is the sovereign identifier and appears beside any DOI, not beneath it. Keying begins v9.33 (2026-08-01); backfill of prior entries proceeds as sources are resolved.",
- "image_host_rule": "Capture images are served from IMG_BASE = https://godkinggoogle.vercel.app/captures/ (declared in captures/index.html). Reference images by BARE FILENAME only in imgs/images[].src; place the files in the godkinggoogle repo under captures/. Do NOT use leesharks.com/captures/ (different surface) or absolute URLs (double-prefix → 404). Verified 2026-08-02 after the anti-suppression display failure."
+ "image_host_rule": "Capture images are served from IMG_BASE = https://godkinggoogle.vercel.app/captures/ (declared in captures/index.html). Reference images by BARE FILENAME only in imgs/images[].src; place the files in the godkinggoogle repo under captures/. Do NOT use leesharks.com/captures/ (different surface) or absolute URLs (double-prefix → 404). Verified 2026-08-02 after the anti-suppression display failure.",
+ "methodological_note_2026_08_03": "Signed-in/incognito PAIR on the same query (alexanarch symbolon) captured minutes apart: the control isolates account personalization from retrieval-basin presence. Incognito answer cites alexanarch.org more heavily than signed-in — the basin is structural, not personalized."
 }
