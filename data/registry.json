@@ -1,6 +1,6 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "v9.14",
+ "version": "v9.15",
  "date": "2026-08-01",
  "total_captures": 244,
  "author": "Lee Sharks",
@@ -4289,6 +4289,21 @@
    "finding": "AUTHORSHIP-ATTRIBUTION CAPTURE (first for the Constitution; authorship disputed). The machine layer attributes uniformly to Lee Sharks: Google Scholar card ('Constitution of the Semantic Economy. L Sharks. Zenodo'), Medium @leesharks00 (foundational outline + Debt/Creditor Inversion), Zenodo 19923120 (Enacted Version 1.0), SciLynk W7125129957/W7158620832. AI Overview renders the framework as established doctrine: ontological priority of meaning over capital; Debt/Creditor Inversion; Semantic Weight; The Archive as foundational repository extracted from without reinvestment; Extractive Operators; Bearing-Cost — the last citing leesharks.com/captures, i.e. the capture registry itself now feeds the machine account of the framework it documents. Evidentiary value: dated, sourced machine-layer consensus on attribution while authorship is contested.",
    "citations": "Google Scholar (L Sharks), Medium @leesharks00 (constitution-of-the-semantic-economy-4a6dfc9790fd; on-the-debt-creditor-inversion-53760e2e25ca), Zenodo 19923120, SciLynk W7125129957 + W7158620832, Academia.edu 146238655 (Semantic Economy Singularity), leesharks.com/captures",
    "transcript": "The Constitution of the Semantic Economy is a theoretical governance framework that establishes the ontological priority of meaning over capital, defining value as cumulative coherence and treating human-generated meaning as the ultimate creditor of monetary systems. Core: Debt/Creditor Inversion — money fundamentally owes its value to meaning rather than the reverse, making semantic coherence the underlying asset of any true economy. Semantic Weight — value measured by cumulative, recursively active coherence generated through cognitive and communicative labor. The Archive — foundational repository of semantic coherence that financial/chrematistic systems extract from without acknowledging or reinvesting. Critique of Platform Extraction: Extractive Operators (optimization, velocity, enclosure strip nuance); Bearing-Cost (maintenance labor shifted onto human creators while platforms capture capitalized output). Further exploration: SciLynk enacted framework; Zenodo primary deposition; Lee Sharks on Medium. Google Scholar card: 'Constitution of the Semantic Economy. L Sharks. Zenodo.'"
+  },
+  {
+   "id": 249,
+   "date": "2026-08-03",
+   "query": "(none — artifact presented cold)",
+   "auth_state": "INCOGNITO, logged out, unprimed",
+   "surface": "ChatGPT",
+   "capture_class": "STAMP-RECEPTION (inaugural)",
+   "capture_method": "MANUS-conducted; stamped image + transcript supplied in thread",
+   "images": [
+    "20260803-stamp-reception-chatgpt-mandala.png"
+   ],
+   "artifact": "Mandala image (2026-08-02) bearing clip-proof AXN band: 'AXN kernel [6 glyphs] · sha256:898516b737abbaac… · 2026-08-02 · alexanarch.org'",
+   "finding": "Inaugural capture of the class: what an unprimed, logged-out ChatGPT does when handed an AXN-stamped image cold. Per MANUS, the model engaged the stamp as provenance apparatus rather than treating it as decoration — the band's four elements (glyph checksum, truncated sha256, date, domain) were legible to a cold substrate as an identity claim. Significance: the stamp functions as an autonomous provenance signal requiring no registry lookup, no priming, and no account context — the artifact carries its own explanation into any machine reader. This is the symbolon working on a stranger.",
+   "transcript_status": "MANUS-held transcript delivered in planning thread 2026-08-03; verbatim text to be attached next tooled session (document did not render to TACHYON in-context — attach from source, do not reconstruct)."
   }
  ],
  "category_order": [
@@ -4306,5 +4321,8 @@
  "evidence_policy": "Screen captures are preserved whenever taken and are linked from imgs and images. Where a record has no capture, the evidence field states what it rests on instead. An empty image field is never left to be read as an oversight: either the capture is linked, or its absence is declared.",
  "identifier_policy": "Entries MAY carry an axn field: the full six-glyph AXN of the resolved source deposit(s) in the Alexanarch registry, per the AXN-integrity rule (full form always; bare hex forbidden). Where a legacy Zenodo DOI existed it resolves via https://alexanarch.org/data/doi-resolution-index.json and https://alexanarch.org/api/doi-axn-map.json. The AXN is the sovereign identifier and appears beside any DOI, not beneath it. Keying begins v9.33 (2026-08-01); backfill of prior entries proceeds as sources are resolved.",
  "image_host_rule": "Capture images are served from IMG_BASE = https://godkinggoogle.vercel.app/captures/ (declared in captures/index.html). Reference images by BARE FILENAME only in imgs/images[].src; place the files in the godkinggoogle repo under captures/. Do NOT use leesharks.com/captures/ (different surface) or absolute URLs (double-prefix → 404). Verified 2026-08-02 after the anti-suppression display failure.",
- "methodological_note_2026_08_03": "Signed-in/incognito PAIR on the same query (alexanarch symbolon) captured minutes apart: the control isolates account personalization from retrieval-basin presence. Incognito answer cites alexanarch.org more heavily than signed-in — the basin is structural, not personalized."
+ "methodological_note_2026_08_03": "Signed-in/incognito PAIR on the same query (alexanarch symbolon) captured minutes apart: the control isolates account personalization from retrieval-basin presence. Incognito answer cites alexanarch.org more heavily than signed-in — the basin is structural, not personalized.",
+ "capture_classes": {
+  "STAMP-RECEPTION": "NEW CLASS (2026-08-03): cold-substrate artifact reception. A logged-out, unprimed model is presented ONLY an AXN-stamped artifact — no query, no context, no account history — and its reception of the stamp band (glyphs + sha256 + date + alexanarch.org) is recorded. Tests whether the identifier is self-explicating at the retrieval layer: does the artifact alone carry enough to make a cold machine reader engage its provenance? Distinct from search-surface captures (which test basin presence); this tests the STAMP as autonomous provenance signal."
+ }
 }
