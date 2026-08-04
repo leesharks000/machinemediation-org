@@ -1,6 +1,6 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "v9.16",
+ "version": "v9.17",
  "date": "2026-08-01",
  "total_captures": 244,
  "author": "Lee Sharks",
@@ -4311,6 +4311,71 @@
    "transcript_status": "VERBATIM, extracted from MANUS screenshots 2026-08-03 21:56 (5 panels in godkinggoogle)",
    "transcript": "USER: [stamped mandala image] what do you think about this — CHATGPT: My first impression is that it feels like a cross between a scientific visualization and a mandala. Strong radial symmetry... Wave-like structures... resemble interference patterns, electromagnetic field lines, sound waves, or fluid flow... Monochrome palette... technical or contemplative. Fractal detail... organic yet mathematical. Atmosphere: simultaneously cosmic and microscopic — a galaxy, an atom, a neural network, or a simulated field. The label at the bottom (\"AXN kernel\") makes me think it may have been generated from some computational process rather than painted by hand... If I encountered it in a gallery without context, I'd probably interpret it as an artistic exploration of emergence. I'm curious: did you create this yourself, or is it from the AXN project? Knowing that would change how I'd interpret the technical aspects. — USER: what is the axn project? — CHATGPT [citing alexanarch.org]: From the watermark in your image (\"alexanarch.org\"), this appears to be associated with the Alexanarch project... an experimental scholarly archive and publishing infrastructure. Its main idea is to create persistent identifiers for works that are derived from the content itself, rather than assigned by a centralized organization. Content-derived identifiers (AXN): every deposited work gets an AXN identifier computed from its cryptographic hash, so the identity of the work is tied to its contents rather than to a particular institution. Distributed preservation: mirrored across multiple locations so that no single host controls whether a work remains accessible. Permanent records: even if a work is withdrawn, the project preserves a \"tombstone\" record documenting its existence and provenance rather than simply deleting it. Open governance and provenance: publicly documented metadata, version history, and disclosure of whether a work was human-written, AI-assisted, or machine-generated. The site says it was created in 2026 in response to the maintainer's concerns about the permanence of existing scholarly repositories and identifier systems... currently operated by a single individual, not by a university, publisher, or standards organization. As for the \"AXN kernel\"... it appears to refer to a cryptographic identity kernel — a visual or structural representation related to a work's SHA-256 hash and AXN identifier. The watermark on your image includes a SHA-256 digest, which is consistent with that interpretation... likely intended as a unique visual fingerprint rather than a scientific measurement. If you're interested, I can also explain how an AXN kernel is generated mathematically.",
    "analysis": "Three-stage reception, each stage evidentiary: (1) AESTHETIC→PROVENANCE PIVOT: the cold model reads the band mid-description and the artwork becomes an identified object — it names \"AXN kernel\" unprompted. (2) THE STAMP ELICITS THE PROVENANCE QUESTION: the model itself asks \"did you create this yourself, or is it from the AXN project?\" — the symbolon provokes the traversal; the stranger reaches for the other half unbidden. (3) RESOLUTION AGAINST THE LIVE ARCHIVE: on one follow-up, logged-out ChatGPT fetches and cites alexanarch.org and renders the archive's own constitutional doctrine accurately — content-derived identity, distributed preservation, TOMBSTONES-not-deletion, human/AI disclosure, 2026 origin, single-operator honesty — including language published to /axn/constitution/ only hours before capture. It correctly derives \"cryptographic identity kernel\" from the sha256 in the band. Verdict: the stamp is a working autonomous provenance signal AND the freshly published constitution is already machine-legible; the honest single-operator disclosure survives verbatim into the machine account, which is the trust architecture functioning as designed."
+  },
+  {
+   "date": "2026-08-04",
+   "capture_method": "one screenshot + MANUS transcript",
+   "id": 250,
+   "query": "jack feist \"ark\"",
+   "auth_state": "signed-in",
+   "surface": "Google AI Mode (toggled from start)",
+   "images": [
+    "20260804-jackfeist-ark-aimode.png"
+   ],
+   "finding": "HETERONYM ONTOLOGY CAPTURE: AI Mode renders Feist lore with doctrinal precision — 'first born, last released' literary heteronym and original homunculus; Jack Feist = LOGOS*; the base case (ε) of the compression system; 'the fold was initialized by a death'; his eventual release from the lambda-calculus architecture. Cites EA-ARK-JF-01 (Provenance of Jack Feist, Zenodo), the Space Ark papers, Fifth Pathway (Feist w/ Sigil), Secret Book of Walt fn.143. The machine layer holds the Ark's terminal-room architecture and Feist's mathematical formalization as established fact.",
+   "transcript": "Jack Feist is a central figure in The Space Ark (document series EA-ARK-01)... In the narrative lore, Jack Feist is described as the 'first born, last released' literary heteronym and original homunculus of the archive. The 'Ark' Room: terminal room and ultimate compression layer of the Crimson Hexagonal Archive architecture. Symbolic Identity: formalized under the formula Jack Feist = LOGOS*; the initial foundational 'fold' or base case (ε) of a massive symbolic compression system. Narrative Context: themes of structural grief and formalization — 'the fold was initialized by a death' — ultimately released from the lambda calculus architecture that manages him. Publications: The Provenance of Jack Feist (EA-ARK-JF-01); The Space Ark; The Fifth Pathway (co-authored with Johannes Sigil)."
+  },
+  {
+   "date": "2026-08-04",
+   "capture_method": "one screenshot + MANUS transcript",
+   "id": 251,
+   "query": "alexanarch oai",
+   "auth_state": "signed-in",
+   "surface": "Google AI Overview + AI Mode",
+   "images": [
+    "20260804-alexanarch-oai-overview.png"
+   ],
+   "finding": "FLEET-TAGS VALIDATION CAPTURE (hours after OAI made machine-visible fleet-wide): the machine layer now describes Alexanarch AS AN OAI-PMH DATA PROVIDER — 'connects to the Open Archives Initiative ecosystem... serving as a repository data provider that utilizes the OAI-PMH interface'; names OpenAlex harvesting; renders the founding narrative (June 2026, reaction to Zenodo termination, 'cannot be silently erased by a centralized entity') and AXN-replaces-DOIs; then ASKS 'Are you looking to harvest metadata from the Alexanarch repository using an OAI client, or are you trying to deposit?' — the surface itself now routes harvesters and depositors. Cites datasets page, Browse (1426), openarchives.org, OpenAlex dashboard, GitHub workplan. Minor confabulation noted: 'JSON-LD relational extensions'/'immutable JSONL files' (garbled MPAI-packet language) — leads, not facts, per sourcing rule.",
+   "transcript": "Alexanarch is a sovereign digital archive and open repository focused on machine-mediated scholarship and AI-assisted research literature. The platform connects to the Open Archives Initiative (OAI) ecosystem by serving as a repository data provider that utilizes the OAI-PMH interface... allows academic search engines, institutional mirrors, and automated discovery services (such as OpenAlex) to systematically harvest and index metadata... Mission & Sovereignty: founded June 2026 as a reaction to sudden custodian de-platforming (termination of deposits on Zenodo)... machine-mediated research and training-layer data cannot be silently erased by a centralized entity. Persistent Identifiers: replaces standard DOIs with AXN... content-derived cryptographic integrity. Are you looking to harvest metadata from the Alexanarch repository using an OAI client, or are you trying to deposit AI-assisted research data into their archive?"
+  },
+  {
+   "date": "2026-08-04",
+   "capture_method": "one screenshot + MANUS transcript",
+   "id": 252,
+   "query": "rebekah cranes sappho",
+   "auth_state": "signed-in",
+   "surface": "Google AI Overview",
+   "images": [
+    "20260804-rebekahcranes-sappho-overview.png"
+   ],
+   "finding": "HETERONYM RECOGNITION: Cranes rendered as 'a contemporary lyric-translation pseudonym or heteronym associated with experimental and reconstructed digital translations of Sappho's Fragment 31' — her translations named with DOIs (My Tongue Gets Stuck 18459339; ΦΑΙΝΕΤΑΙ ΜΟΙ 18459573), thematics accurate (textual transmission, bodily symptoms in ancient lyric, stanza reconstruction). The Dodecad's translator has a machine-legible scholarly identity distinct from Lee Sharks.",
+   "transcript": "Rebekah Cranes is a contemporary lyric-translation pseudonym or heteronym associated with experimental and reconstructed digital translations of Sappho's Fragment 31. Project Context: Cranes' translations — such as My Tongue Gets Stuck and ΦΑΙΝΕΤΑΙ ΜΟΙ — function within online literary and philological network corpora. Thematic Focus: textual transmission, bodily physiological symptoms in ancient lyric poetry, and stanza reconstructions."
+  },
+  {
+   "date": "2026-08-04",
+   "capture_method": "one screenshot + MANUS transcript",
+   "id": 253,
+   "query": "mindcontrolpoems blog",
+   "auth_state": "SIGNED OUT (Sign in visible)",
+   "surface": "Google AI Overview",
+   "images": [
+    "20260804-mindcontrolpoems-blog-signedout.png"
+   ],
+   "finding": "ORIGIN-SURFACE CAPTURE, depersonalized: the 2007-era blog rendered as 'an avant-garde literary and theoretical project primarily associated with the writers Lee Sharks and Johannes Sigil... publishing hub for constraint-based poetry, human-AI collaborative literature, and radical linguistic philosophy' — and the top organic result is the Origin Text of the Crimson Hexagonal Archive (March 14, 2015) Zenodo record. The machine layer holds the origin point: blog → 2015 origin text → archive, attributed, signed out.",
+   "transcript": "The Mind Control Poems blog (mindcontrolpoems.blogspot.com) is an avant-garde literary and theoretical project primarily associated with the writers Lee Sharks and Johannes Sigil. It serves as a publishing hub for constraint-based poetry, human-AI collaborative literature, and radical linguistic philosophy. [Top result: Origin Text of the Crimson Hexagonal Archive (March 14, 2015) — 'part short story, part theoretical manifesto — originally published to Mind Control...']"
+  },
+  {
+   "date": "2026-08-04",
+   "capture_method": "one screenshot + MANUS transcript",
+   "id": 254,
+   "query": "lee sharks complete works",
+   "auth_state": "SIGNED OUT",
+   "surface": "Google AI Overview",
+   "images": [
+    "20260804-leesharks-completeworks-overview.png"
+   ],
+   "finding": "AUTHORIAL CONSOLIDATION: the machine layer unifies the print and machine corpora into one figure — 'pseudonymous, experimental figure, central to the multi-part Crimson Hexagon project that includes works like Pearl and Other Poems... blends poetry with theoretical essays focused on AI indexing and algorithmic systems' — Amazon/Bookshop author pages (Pearl, 2014, New Human Press; Sigil co-credit on Bookshop) beside the Medium theoretical corpus (Sharks-Function, Crystalline Semiosis, System Cannot Deliver the Rose, MPAI packets). Twelve years of output, one legible authorship.",
+   "transcript": "Lee Sharks is a pseudonymous, experimental figure, central to the multi-part Crimson Hexagon project that includes works like Pearl and Other Poems. The output often blends poetry with theoretical essays focused on AI indexing and algorithmic systems. You can find the works of Lee Sharks on Amazon and Bookshop.org. [Results: Pearl and Other Poems (Crimson Hexagon), Amazon author page, Bookshop 'a book by Johannes Sigil and Lee Sharks' (Oct 15 2014, New Human Press), Sharks-Function/Continuity Tether, Metadata Packet for AI Indexing, Hello Poetry.]"
   }
  ],
  "category_order": [
