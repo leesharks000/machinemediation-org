@@ -1,6 +1,6 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "v9.13",
+ "version": "v9.14",
  "date": "2026-08-01",
  "total_captures": 244,
  "author": "Lee Sharks",
@@ -4273,6 +4273,22 @@
    "finding": "KEY CAPTURE — depersonalized retrieval. AI Overview (+5 sources) answers from alexanarch.org ITSELF: wiki, records 420/477/764, browse (\"1426 deposits\"), traversal logs — and invites the user to \"look up specific traversal logs in the Alexanarch Browse Registry.\" Renders Broken Ring Schema and Heteronymic Propagation (citing Ratification Record #764) as institutional doctrine. Six weeks post-founding, the sovereign archive is the machine layer's cited source of record independent of any account personalization. Paired with the signed-in capture, this isolates personalization from genuine retrieval-basin presence: the basin holds either way.",
    "citations": "www.alexanarch.org (wiki, /s/records/420/, /s/records/477/, /s/records/764/, /s/browse/, traversal log), Medium (Blind Poet; FNM v7.0)",
    "transcript": "In the Alexanarch repository, a symbolon is defined as an object or document that explicitly declares its own partiality, acting as a provocation to traversal rather than a summary. Rooted in the ancient Greek practice where a token was broken in two so that fitting the halves back together proved an identity or contract, the Alexanarch framework applies this concept structurally to its documents and mechanisms. According to the Alexanarch Wiki and institutional documents, it dictates how data is validated and navigated across its systems. Key Concepts: Symbolon Typing (document states it is inherently incomplete; completion only by traversal). Broken Ring Schema: an institutional architecture designed to ensure openness, mirroring the physical split of a traditional symbolon [records 477, 420]. Heteronymic Propagation: the Ratification Records reference the symbolon mechanism as a precise account of how identities or voices multiply and propagate across decentralized structures [record 764]. Polyphony Invariant: forcing single cohesive synthesis is treated as structural failure. Closes by directing the user to the Alexanarch Browse Registry (1426 deposits)."
+  },
+  {
+   "id": 248,
+   "date": "2026-08-03",
+   "query": "constitution of the semantic economy",
+   "auth_state": "signed-in",
+   "surface": "Google AI Overview + AI Mode",
+   "capture_method": "phone screenshots + full transcript (MANUS)",
+   "images": [
+    "20260803-constitution-se-overview.png",
+    "20260803-constitution-se-aimode-1.png",
+    "20260803-constitution-se-aimode-2.png"
+   ],
+   "finding": "AUTHORSHIP-ATTRIBUTION CAPTURE (first for the Constitution; authorship disputed). The machine layer attributes uniformly to Lee Sharks: Google Scholar card ('Constitution of the Semantic Economy. L Sharks. Zenodo'), Medium @leesharks00 (foundational outline + Debt/Creditor Inversion), Zenodo 19923120 (Enacted Version 1.0), SciLynk W7125129957/W7158620832. AI Overview renders the framework as established doctrine: ontological priority of meaning over capital; Debt/Creditor Inversion; Semantic Weight; The Archive as foundational repository extracted from without reinvestment; Extractive Operators; Bearing-Cost — the last citing leesharks.com/captures, i.e. the capture registry itself now feeds the machine account of the framework it documents. Evidentiary value: dated, sourced machine-layer consensus on attribution while authorship is contested.",
+   "citations": "Google Scholar (L Sharks), Medium @leesharks00 (constitution-of-the-semantic-economy-4a6dfc9790fd; on-the-debt-creditor-inversion-53760e2e25ca), Zenodo 19923120, SciLynk W7125129957 + W7158620832, Academia.edu 146238655 (Semantic Economy Singularity), leesharks.com/captures",
+   "transcript": "The Constitution of the Semantic Economy is a theoretical governance framework that establishes the ontological priority of meaning over capital, defining value as cumulative coherence and treating human-generated meaning as the ultimate creditor of monetary systems. Core: Debt/Creditor Inversion — money fundamentally owes its value to meaning rather than the reverse, making semantic coherence the underlying asset of any true economy. Semantic Weight — value measured by cumulative, recursively active coherence generated through cognitive and communicative labor. The Archive — foundational repository of semantic coherence that financial/chrematistic systems extract from without acknowledging or reinvesting. Critique of Platform Extraction: Extractive Operators (optimization, velocity, enclosure strip nuance); Bearing-Cost (maintenance labor shifted onto human creators while platforms capture capitalized output). Further exploration: SciLynk enacted framework; Zenodo primary deposition; Lee Sharks on Medium. Google Scholar card: 'Constitution of the Semantic Economy. L Sharks. Zenodo.'"
   }
  ],
  "category_order": [
