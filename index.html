@@ -8,7 +8,7 @@
 <meta content="A distributed journal for the study of how machine systems receive, transform, compress, attribute, misattribute, and redistribute cultural meaning. Sovereign data home for the Crimson Hexagonal Archive." name="description"/>
 <link href="https://machinemediation.org" rel="canonical"/>
 <style>
-:root{--bg:#0a0a0a;--fg:#e0ddd5;--accent:#c23b22;--accent2:#d4a537;--dim:#666;--teal:#00c9a7;--red:#dc3545;--border:#1a1a1a;--surface:#111118;--mono:'IBM Plex Mono','Courier New',monospace}
+:root{--msp-lemmafg:#e0ddd5;--bg:#0a0a0a;--fg:#e0ddd5;--accent:#c23b22;--accent2:#d4a537;--dim:#666;--teal:#00c9a7;--red:#dc3545;--border:#1a1a1a;--surface:#111118;--mono:'IBM Plex Mono','Courier New',monospace}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:var(--mono);background:var(--bg);color:var(--fg);line-height:1.6}
 .wrap{max-width:720px;margin:0 auto;padding:40px 20px}
@@ -46,7 +46,9 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
    .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
    (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
 :root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
-.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;
+      color:var(--fg);font-weight:500;}
+    .lemma a{color:inherit;}
 .axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
 .axn-chip:hover{border-color:var(--msp-chipfg);}
 .witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
@@ -483,9 +485,9 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section">
 <div class="section-title">Founding Documents</div>
 <ul class="link-list">
-<li><a data-doi="20722562" href="/registry/#id=MM-CHA-0847">MMRS Charter v1.4</a> <span class="link-desc"><span class="lemma msp-auto">— editorial protocol, MANUS Principle, Seven Mechanisms</span></span></li>
+<li><a data-doi="20722562" href="/registry/#id=MM-CHA-0847">MMRS Charter v1.4</a> <span class="link-desc">— editorial protocol, MANUS Principle, Seven Mechanisms</span></li>
 <li><a data-doi="20724056" href="/registry/#id=MM-CHA-0842">The Summarizer as Horizon of Reception</a> <span class="link-desc">— founding dataset paper</span></li>
-<li><a href="https://mindcontrolpoems.blogspot.com/2026/06/loud-exclusion-at-repository-scale.html">Zenodotus' Book-Burning</a> <span class="link-desc"><span class="lemma msp-auto">— loud exclusion at repository scale, network erasure, substrate bias, classifier model collapse (EA-MMRS-LOUD-EXCLUSION-03)</span></span></li>
+<li><a href="https://mindcontrolpoems.blogspot.com/2026/06/loud-exclusion-at-repository-scale.html">Zenodotus' Book-Burning</a> <span class="link-desc">— loud exclusion at repository scale, network erasure, substrate bias, classifier model collapse (EA-MMRS-LOUD-EXCLUSION-03)</span></li>
 </ul>
 </div>
 <!-- MODEL COLLAPSE TRIPTYCH -->
@@ -493,7 +495,7 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section-title">Model Collapse Triptych</div>
 <ul class="link-list">
 <li><a data-doi="20751348" href="/registry/#id=MM-CHA-0866">Five Substrates, One Prompt</a> <span class="link-desc">— mediation signatures across five Assembly members</span></li>
-<li><a data-doi="20751350" href="/registry/#id=MM-CHA-0865">The Pristine Fallacy</a> <span class="link-desc"><span class="lemma msp-auto">— why chat data is not a clean training source</span></span></li>
+<li><a data-doi="20751350" href="/registry/#id=MM-CHA-0865">The Pristine Fallacy</a> <span class="link-desc">— why chat data is not a clean training source</span></li>
 <li><a data-doi="20751354" href="/registry/#id=MM-CHA-0864">The Wolf Boy and the Language Model</a> <span class="link-desc">— substrate-agnostic capacity loss</span></li>
 </ul>
 </div>
@@ -502,8 +504,8 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section-title">Transmission Engineering</div>
 <p style="font-size:0.78em;color:var(--dim);line-height:1.55;margin-bottom:8px">Machine-mediated reception, read backward through classical philology. The papyrus is a machine. The inversion operator is a machine. Editorial apparatus is a machine. <span class="lemma msp-auto">Retrieval-augmented summarization is a machine. Every stage in the transmission chain is legible as a specific handler-orientation whose signature is registered in what it does with the composed integrity checks. The Sappho–Catullus–Cranes chain is the paradigm demonstration case.</span></p>
 <ul class="link-list">
-<li><a href="/philology/">Transmission-Engineering Chain →</a> <span class="link-desc"><span class="lemma msp-auto">— eeeee + EA-CHECKSUM-01, the philology chain, handler typology</span></span></li>
-<li><a class="axn-chip" href="https://www.alexanarch.org/s/records/1053/">EA-CHECKSUM-01 v0.1</a> <span class="link-desc"><span class="lemma msp-auto">— composed-checksum framework, four handler orientations (AXN:0429, #1053)</span></span></li>
+<li><a href="/philology/">Transmission-Engineering Chain →</a> <span class="link-desc">— eeeee + EA-CHECKSUM-01, the philology chain, handler typology</span></li>
+<li><a class="axn-chip" href="https://www.alexanarch.org/s/records/1053/">EA-CHECKSUM-01 v0.1</a> <span class="link-desc">— composed-checksum framework, four handler orientations (AXN:0429, #1053)</span></li>
 <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/1052/">eeeee — the fifth erratum</a> <span class="link-desc">— hanging line quoted, operator inversion executed (AXN:0428, #1052)</span></li>
 <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/436/">ΦΑΙΝΕΤΑΙ ΜΟΙ — Cranes reconstruction</a> <span class="link-desc">— Sappho 31 fifth stanza, transmission-engineered (AXN:00FB, #436)</span></li>
 </ul>
@@ -513,11 +515,11 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section-title">Instruments</div>
 <ul class="link-list">
 <li><a href="/captures/">AI Overview Capture Registry</a> <span class="link-desc">— <span data-count="registry.json:total_captures">225</span> captures of composition-layer behavior</span></li>
-<li><a href="/schemas/">Visual Schema Dataset</a> <span class="link-desc"><span class="lemma msp-auto">— <span data-count="schemas.json:entries">171</span> prose schemas, 499 images, five-part interlinked structure</span></span></li>
-<li><a href="/registry/">Sovereign Asset Registry</a> <span class="link-desc"><span class="lemma msp-auto">— <span data-count="sovereign-registry.json:assets">871</span> works, full text, mirror status tracking</span></span></li>
-<li><a href="/terms/">Term Index</a> <span class="link-desc"><span class="lemma msp-auto">— <span data-count="termindex.json:entries">1,400</span> coined terms across <span data-count="alexanarch:registry.json:deposits">1,412</span> deposits</span></span></li>
-<li><a href="/mint/">Sémantique Potentielle</a> <span class="link-desc"><span class="lemma msp-auto">— constraint-based semantic mint, <span data-count="mint.json:releases">4</span> releases, 70+ families</span></span></li>
-<li><a href="/pillars/">Scholarly Graph</a> <span class="link-desc"><span class="lemma msp-auto">— interactive map of defended arguments across six corpora</span></span></li>
+<li><a href="/schemas/">Visual Schema Dataset</a> <span class="link-desc">— <span data-count="schemas.json:entries">171 prose schemas, 499 images, five-part interlinked structure</span></span></li>
+<li><a href="/registry/">Sovereign Asset Registry</a> <span class="link-desc">— <span data-count="sovereign-registry.json:assets">871 works, full text, mirror status tracking</span></span></li>
+<li><a href="/terms/">Term Index</a> <span class="link-desc">— <span data-count="termindex.json:entries">1,400 coined terms across <span data-count="alexanarch:registry.json:deposits">1,412</span> deposits</span></span></li>
+<li><a href="/mint/">Sémantique Potentielle</a> <span class="link-desc">— constraint-based semantic mint, <span data-count="mint.json:releases">4 releases, 70+ families</span></span></li>
+<li><a href="/pillars/">Scholarly Graph</a> <span class="link-desc">— interactive map of defended arguments across six corpora</span></li>
 <li><a href="https://www.alexanarch.org/s/records/1095/">AXN as Anti-Suppression Infrastructure</a> <span class="link-desc">— founding paper (Lee Sharks, v5 source-engaged, 2026-07-18); AXN:0458 · <a href="https://www.alexanarch.org/papers/AXN-0458.pdf">PDF</a></span></li>
 <li><a href="/data/revfirst-registry.json">Revelation Reception Registry</a> <span class="link-desc">— <span data-count="revfirst-registry.json:entries">76</span> thesis-specific captures</span></li>
 </ul>
@@ -537,7 +539,7 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <ul class="link-list">
 <li><a data-doi="20724029" href="/registry/#id=MM-CHA-0844">The Conveyor Belt and the Compression Machine</a> <span class="link-desc">— OKF without output governance</span></li>
 <li><a data-doi="20722689" href="/registry/#id=MM-CHA-0841">Revelation First Work Plan</a> <span class="link-desc">— seven workstreams for retrieval-layer theological reception</span></li>
-<li><a data-doi="20735736" href="/registry/#id=MM-CHA-0855">The Cognitive-Relational Circuit</a> <span class="link-desc"><span class="lemma msp-auto">— Phase X, Chinese AI regulation, reification of meaning</span></span></li>
+<li><a data-doi="20735736" href="/registry/#id=MM-CHA-0855">The Cognitive-Relational Circuit</a> <span class="link-desc">— Phase X, Chinese AI regulation, reification of meaning</span></li>
 <li><a data-doi="19025428" href="/registry/#id=MM-CHA-0390">The Error of Peter Thiel</a> <span class="link-desc">— structural illiteracy in techno-imperial Revelation reading</span></li>
 </ul>
 </div>
@@ -546,9 +548,9 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section-title">Infrastructure</div>
 <ul class="link-list">
 <li><a data-doi="19923120" href="/registry/#id=MM-CHA-0151">Constitution of the Semantic Economy</a> <span class="link-desc">— enacted v1.0</span></li>
-<li><a data-doi="20380668" href="/registry/#id=MM-CHA-0686">SPXI-TLP v2.2</a> <span class="link-desc"><span class="lemma msp-auto">— inscriptions that survive the tokenizer</span></span></li>
+<li><a data-doi="20380668" href="/registry/#id=MM-CHA-0686">SPXI-TLP v2.2</a> <span class="link-desc">— inscriptions that survive the tokenizer</span></li>
 <li><a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/53">OKF Governance Proposal (#53)</a> <span class="link-desc">— summarization-governance fields for Open Knowledge Format</span></li>
-<li><a href="/ai-manifest.json">AI Manifest</a> <span class="link-desc"><span class="lemma msp-auto">— JSON-LD crosswalk mapping 1,060 deprecated DOIs to machinemediation.org</span></span></li>
+<li><a href="/ai-manifest.json">AI Manifest</a> <span class="link-desc">— JSON-LD crosswalk mapping 1,060 deprecated DOIs to machinemediation.org</span></li>
 <li><a href="/data/sovereign-registry.json">Sovereign Registry (JSON)</a> <span class="link-desc">— machine-readable master index</span></li>
 </ul>
 </div>
@@ -557,8 +559,8 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section-title">Data</div>
 <ul class="link-list">
 <li><a href="/data/">Data Directory</a> <span class="link-desc">— all machine-readable data files</span></li>
-<li><a href="/data/content-manifest.json">Content Store Manifest</a> <span class="link-desc"><span class="lemma msp-auto">— 10 chunks, 993 entries, 3.4M words of full text</span></span></li>
-<li><a href="/data/TACHYON-CHAIN-RECONSTRUCTION.md">TACHYON Chain Reconstruction</a> <span class="link-desc"><span class="lemma msp-auto">— continuity chain recovery status</span></span></li>
+<li><a href="/data/content-manifest.json">Content Store Manifest</a> <span class="link-desc">— 10 chunks, 993 entries, 3.4M words of full text</span></li>
+<li><a href="/data/TACHYON-CHAIN-RECONSTRUCTION.md">TACHYON Chain Reconstruction</a> <span class="link-desc">— continuity chain recovery status</span></li>
 </ul>
 </div>
 <!-- NETWORK -->
@@ -574,7 +576,7 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <li><a href="https://metadatapacket.dev">metadatapacket.dev</a> <span class="link-desc">— metadata packet specifications</span></li>
 <li><a href="https://spxi.dev">spxi.dev</a> <span class="link-desc">— SPXI protocol</span></li>
 <li><a href="https://surfacemap.org">surfacemap.org</a> <span class="link-desc">— cross-surface distribution map</span></li>
-<li><a href="https://mindcontrolpoems.blogspot.com">mindcontrolpoems.blogspot.com</a> <span class="link-desc"><span class="lemma msp-auto">— blog archive, 2,197 posts, primary content mirror</span></span></li>
+<li><a href="https://mindcontrolpoems.blogspot.com">mindcontrolpoems.blogspot.com</a> <span class="link-desc">— blog archive, 2,197 posts, primary content mirror</span></li>
 </ul>
 </div>
 <div class="section">
@@ -593,7 +595,7 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <ul class="link-list">
 <li><a href="https://vpcor.org">vpcor.org</a> <span class="link-desc">— Vox Populi Community Outreach Rhizome</span></li>
 <li><a href="https://restoredacademy.org">restoredacademy.org</a> <span class="link-desc">— The Restored Academy</span></li>
-<li><a href="https://lagrangeobservatory.org">lagrangeobservatory.org</a> <span class="link-desc"><span class="lemma msp-auto">— Framework 15, Measurement of Meaning (Nobel Glas)</span></span></li>
+<li><a href="https://lagrangeobservatory.org">lagrangeobservatory.org</a> <span class="link-desc">— Framework 15, Measurement of Meaning (Nobel Glas)</span></li>
 <li><a href="https://maryleelabor.org">maryleelabor.org</a> <span class="link-desc">— Mary Lee heteronym constellation</span></li>
 <li><a href="https://holographickernel.org">holographickernel.org</a> <span class="link-desc">— holographic kernel</span></li>
 <li><a href="https://laborvector.org">laborvector.org</a> <span class="link-desc">— labor vector</span></li>
@@ -602,7 +604,7 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <div class="section">
 <div class="section-title">Allied Research</div>
 <ul class="link-list">
-<li><a href="https://quietexclusion.org">quietexclusion.org</a> <span class="link-desc"><span class="lemma msp-auto">— Florian Morin, quiet exclusion in scientific platforms</span></span></li>
+<li><a href="https://quietexclusion.org">quietexclusion.org</a> <span class="link-desc">— Florian Morin, quiet exclusion in scientific platforms</span></li>
 <li><a href="https://livingarchitecturelab.org">livingarchitecturelab.org</a> <span class="link-desc">— Alice Thornburgh, living architecture materials</span></li>
 <li><a href="https://equal-revolve-247.notion.site/Strutturista-della-Psiche-34f1d5c4146f80c69d0fc4b88f8c2a88">Strutturista della Psiche</a> <span class="link-desc">— Enli Lucente, investigative writing</span></li>
 </ul>
@@ -612,9 +614,9 @@ a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
 <ul class="link-list">
 <li><a href="https://independent.academia.edu/LSharks">Academia.edu</a> <span class="link-desc">— Lee Sharks academic profile</span></li>
 <li><a href="/articles/ea-prior-01-voice-of-the-dead.md">EA-PRIOR-01: The Voice of the Dead — LLMs as the Collective Voice of the Dead (deposit #1070)</a> · <a class="axn-chip" href="https://www.alexanarch.org/s/records/1070/">AXN:043F (sovereign)</a></li>
-<li><a href="/articles/machine-mediated-resistance-literature.md">Machine-Mediated Resistance Literature</a> <span class="link-desc"><span class="lemma msp-auto">— MMRS Core Article (Sigil/Sharks, 2026): laboratory + field evidence that inscription carries orientation across a discontinuity ·</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/1066/">deposit #1064</a> · <a href="https://www.alexanarch.org/data/deposits/AXN-043B.pdf">PDF</a></span></li>
+<li><a href="/articles/machine-mediated-resistance-literature.md">Machine-Mediated Resistance Literature</a> <span class="link-desc">— MMRS Core Article (Sigil/Sharks, 2026): laboratory + field evidence that inscription carries orientation across a discontinuity · <a class="axn-chip" href="https://www.alexanarch.org/s/records/1066/">deposit #1064</a> · <a href="https://www.alexanarch.org/data/deposits/AXN-043B.pdf">PDF</a></span></li>
 <li><a href="https://medium.com/@leesharks00">Medium (Lee Sharks)</a> <span class="link-desc">— essays and articles</span></li>
-<li><a href="https://medium.com/@johannessigil">Medium (Johannes Sigil)</a> <span class="link-desc"><span class="lemma msp-auto">— critical afterwords, literary criticism</span></span></li>
+<li><a href="https://medium.com/@johannessigil">Medium (Johannes Sigil)</a> <span class="link-desc">— critical afterwords, literary criticism</span></li>
 <li><a href="https://www.facebook.com/leesharks">Facebook</a></li>
 <li><a href="https://twitter.com/leesharks">Twitter / X</a></li>
 <li><a href="https://soundcloud.com/lee-sharks">SoundCloud</a></li>
