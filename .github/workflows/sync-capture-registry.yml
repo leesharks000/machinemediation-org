@@ -1,0 +1,32 @@
+name: Sync capture registry from canonical
+# The galleries and this mirror consume the Capture Registry. Canonical lives at
+# alexanarch (data/EA-WG-CAPTURES-01.json). This mirror went stale at v9.17 for
+# weeks while galleries rendered it — the WITNESS-GAP in a derived copy. This
+# workflow keeps the mirror byte-synced: daily, and on demand.
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch canonical
+        run: |
+          curl -fsS "https://www.alexanarch.org/data/EA-WG-CAPTURES-01.json?sync=$(date +%s)" -o data/registry.json
+          python3 -c "import json; r=json.load(open('data/registry.json')); print('fetched', r['version'], len(r['entries']), 'entries')"
+      - name: Commit if changed
+        run: |
+          git config user.name "capture-registry-sync"
+          git config user.email "sync@machinemediation.org"
+          if ! git diff --quiet data/registry.json; then
+            V=$(python3 -c "import json; print(json.load(open('data/registry.json'))['version'])")
+            git add data/registry.json
+            git commit -m "Sync capture registry from canonical (v$V)"
+            git push
+          else
+            echo "already in sync"
+          fi
