@@ -117,7 +117,19 @@ a { color: var(--accent2); text-decoration: none; }
 </div>
 <div class="modal" id="modal" onclick="this.classList.remove('active')"><img id="modalImg"/></div>
 <script>
-const IMG_BASE = 'https://godkinggoogle.vercel.app/captures/';
+/* PREFER THE ABSOLUTE URL THE REGISTRY SUPPLIES.
+   This page read `imgs` — repo-relative paths that resolve only against
+   alexanarch — and prefixed a GODKINGGOOGLE VERCEL PREVIEW URL onto them, so
+   every image 404'd against a host that never held them. The projection carries
+   img_urls: absolute https, resolvable from anywhere. A renderer should never
+   have to know another node's file layout. IMG_BASE survives only as the
+   fallback for bare filenames that predate img_urls. */
+const IMG_BASE = 'https://www.alexanarch.org/data/captures/';
+function getImgSrc(img){
+  if (img && /^https?:\/\//.test(img)) return img;
+  if (img && img.indexOf('data/') === 0) return 'https://www.alexanarch.org/' + img;
+  return IMG_BASE + img;
+}
 let D;
 async function init() {
   const r = await fetch('/data/registry.json');
@@ -149,9 +161,9 @@ function ren() {
       </div>
       <div><span class="card-cat">${e.s}</span>${e.mt ? `<span class="card-mt">${e.mt}</span>` : ''} <span style="color:var(--dim);font-size:0.68em">${e.sf || ''}</span></div>
       <div class="card-desc card-summary">${esc((e.d||'').substring(0,150))}${(e.d||'').length > 150 ? '...' : ''}</div>
-      ${(e.d||'').length > 150 || (e.imgs||[]).length ? '<button class="expand-btn" onclick="this.closest(\'.card\').classList.toggle(\'expanded\');this.textContent=this.closest(\'.card\').classList.contains(\'expanded\')?\'▾ collapse\':\'▸ expand\'">▸ expand</button>' : ''}
+      ${(e.d||'').length > 150 || ((e.img_urls && e.img_urls.length) ? e.img_urls : (((e.img_urls && e.img_urls.length) ? e.img_urls : (e.imgs || [])) || [])).length ? '<button class="expand-btn" onclick="this.closest(\'.card\').classList.toggle(\'expanded\');this.textContent=this.closest(\'.card\').classList.contains(\'expanded\')?\'▾ collapse\':\'▸ expand\'">▸ expand</button>' : ''}
       <div class="card-body"><div class="card-desc">${esc(e.d || '')}</div></div>
-      ${(e.imgs || []).length ? `<div class="card-imgs">${e.imgs.map(img => { const s = typeof img === "string" ? img : img.src; const a = typeof img === "string" ? img : (img.label||img.src); return `<img src="${IMG_BASE}${s}" alt="${a}" title="${a}" onclick="event.stopPropagation();document.getElementById('modalImg').src=this.src;document.getElementById('modal').classList.add('active');" loading="lazy" onerror="this.style.display='none'">`; }).join('')}</div>` : ''}
+      ${((e.img_urls && e.img_urls.length) ? e.img_urls : (((e.img_urls && e.img_urls.length) ? e.img_urls : (e.imgs || [])) || [])).length ? `<div class="card-imgs">${((e.img_urls && e.img_urls.length) ? e.img_urls : (e.imgs || [])).map(img => { const s = typeof img === "string" ? img : img.src; const a = typeof img === "string" ? img : (img.label||img.src); return `<img src="${getImgSrc(s)}" alt="${a}" title="${a}" onclick="event.stopPropagation();document.getElementById('modalImg').src=this.src;document.getElementById('modal').classList.add('active');" loading="lazy" onerror="this.style.display='none'">`; }).join('')}</div>` : ''}
     </div>
   `).join('');
 }
