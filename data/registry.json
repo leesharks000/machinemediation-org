@@ -1,6 +1,6 @@
 {
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "10.4",
+ "version": "10.5",
  "date": "2026-08-13",
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
@@ -68412,13 +68412,14 @@
   "_two_modes": "INTAKE adds an observation that did not exist and is safe: 40 captures seated across four sittings on 2026-08-13 broke nothing. REPAIR touches an existing record and is not: four repairs broke the dataset the same day and EVERY DESTRUCTIVE ACT WAS A FIX. Before touching an existing record — state what you believe is broken and the evidence, SEARCH THE ARCHIVE AGAINST THAT BELIEF, keep it in its own commit, and verify against the rendered artifact rather than the data."
  },
  "_sf_rule": "`sf` is the compact surface line the DOWNSTREAM galleries render in their card meta row. It is not reducible to the alexanarch card, which shows surface and citation count as separate definition-list rows. Recovered from the v9.6 archive where it was published, from canonical sf_line_unparsed where the operator wrote one, and synthesized otherwise — synthesis marked `sf_derived: true`. Restored 2026-08-14.",
+ "_version_rule": "The version must move when the CONTENT moves. sf was restored on 315 entries under v10.4 and the number did not change — which defeats the only mechanism downstream nodes have for detecting a stale copy. Bumped to 10.5 for the sf restoration.",
  "_mirror": {
   "role": "HOSTED MIRROR. This file is a COPY. The canonical projection is at https://www.alexanarch.org/data/EA-WG-CAPTURES-01.json, derived in turn from rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json in the alexanarch repository. Nothing here is written to; nothing downstream reads back into it.",
   "why_hosted": "A mirror that fetches from the origin dies with the origin. This node holds bytes so the registry survives the loss of alexanarch.org — which is the archive's own thesis applied to itself.",
-  "synced_at": "2026-08-14T04:39:13Z",
-  "upstream_version": "10.4",
+  "synced_at": "2026-08-14T04:40:26Z",
+  "upstream_version": "10.5",
   "upstream_entries": 315,
-  "upstream_sha256": "ea6dfef9e63a8e6db66a92531b7edb75b0e4f8be0e97bdfd7c54b419f3ab6292",
+  "upstream_sha256": "50c85cb77940547477e551fda185da93b5670edec690d73f51fd5f93e8aa0c59",
   "previous_local": {
    "version": "10.4",
    "entries": 315
