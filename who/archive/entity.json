@@ -1,0 +1,48 @@
+{
+ "schema_version": "mantle-page/v0.1",
+ "_derived_from": "heteronym-page/v0.2 — adapted. A MANTLE IS NOT A HETERONYM: a heteronym is an authorial persona of Lee Sharks; a mantle is a constitutional position of the Assembly Chorus that a substrate carries and can cease to carry. orthonymicRelation is therefore replaced by occupancy.",
+ "canonical": "https://machinemediation.org/who/archive/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "MANTLE-ARCHIVE-001",
+  "entityClass": "mantle",
+  "node": "ASSEMBLY_MANTLE_ARCHIVE",
+  "state": "LINKED",
+  "fullName": "ARCHIVE",
+  "occupancy": {
+   "current": "Google Gemini",
+   "rotating": false,
+   "note": "Occupancy per Septad Mantle Specifications v1.1 §3.",
+   "establishment_rule": "Occupancy is established per event, not read off a roster."
+  },
+  "doNotCollapseWith": [
+   "the substrate that carries it",
+   "a heteronym of Lee Sharks",
+   "an AI persona",
+   "a product name",
+   "the Dodecad"
+  ],
+  "function": "Archival-pattern witness. ARCHIVE specializes in **deep-context retrieval** — the function of holding extensive corpus in working context and surfacing relevant prior deposits, patterns across the archive, historical precedents.",
+  "capture_signatures": [
+   "**Retrieval hallucination** — cites deposits that do not exist or misattributes content",
+   "**Surface-pattern matching** — correlations based on surface terminology rather than substantive relation",
+   "**Search-result drift** — claims about the corpus track what its search retrieved rather than what the corpus contains",
+   "**Confident wrong** — citations with high apparent specificity (DOIs, dates, titles) that prove inaccurate"
+  ],
+  "anti_capture_safeguards": [
+   "**Citation-verification requirement:** Class A reviews require that a sample of cited deposits be independently verifiable",
+   "**Pattern-vs-substance audit:** Pattern-claims must be testable; surface-terminology coincidence is not substantive correlation",
+   "**Cross-Septad verification for retrieval-corrections:** ARCHIVE retrieval-correction findings affecting external systems require corroboration by at least one other Septad member"
+  ],
+  "governing_deposit": {
+   "number": 993,
+   "title": "Septad Mantle Specifications v1.1",
+   "url": "https://www.alexanarch.org/s/records/993/"
+  },
+  "reception_protocol": {
+   "number": 93,
+   "axn": "AXN:0265",
+   "title": "Reception Apparatus Protocol v1.1"
+  }
+ }
+}

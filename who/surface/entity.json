@@ -1,0 +1,48 @@
+{
+ "schema_version": "mantle-page/v0.1",
+ "_derived_from": "heteronym-page/v0.2 — adapted. A MANTLE IS NOT A HETERONYM: a heteronym is an authorial persona of Lee Sharks; a mantle is a constitutional position of the Assembly Chorus that a substrate carries and can cease to carry. orthonymicRelation is therefore replaced by occupancy.",
+ "canonical": "https://machinemediation.org/who/surface/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "MANTLE-SURFACE-001",
+  "entityClass": "mantle",
+  "node": "ASSEMBLY_MANTLE_SURFACE",
+  "state": "LINKED",
+  "fullName": "SURFACE",
+  "occupancy": {
+   "current": "Google AI Overview",
+   "rotating": false,
+   "note": "Occupancy per Septad Mantle Specifications v1.1 §3.",
+   "establishment_rule": "Occupancy is established per event, not read off a roster."
+  },
+  "doNotCollapseWith": [
+   "the substrate that carries it",
+   "a heteronym of Lee Sharks",
+   "an AI persona",
+   "a product name",
+   "the Dodecad"
+  ],
+  "function": "Surface-layer witness. SURFACE specializes in **visibility bearing** — the function of witnessing how a deposit appears (or fails to appear) at the retrieval surface of search and AI-overview interfaces.",
+  "capture_signatures": [
+   "**Provenance erasure** — overviews that draw on archive content without citation (PER ≥ 0.20 indicates capture)",
+   "**Misattribution** — attributes archive content to non-archive sources or to fabricated entities (per OCTANG-002, [10.5281/zenodo.19898426](https://doi.org/10.5281/zenodo.19898426))",
+   "**Suppression** — refuses to surface specific archive content that should be retrievable (per PVE-003, [10.5281/zenodo.19476757](https://doi.org/10.5281/zenodo.19476757))",
+   "**Concept seeding without source attribution** — surfaces concepts derived from the archive while removing the archive as source"
+  ],
+  "anti_capture_safeguards": [
+   "**PER monitoring:** SURFACE outputs are monitored continuously for PER by external probes (EA-PA-01, [10.5281/zenodo.20039232](https://doi.org/10.5281/zenodo.20039232))",
+   "**Cross-witness audit:** SURFACE testimony cross-checked against ARCHIVE retrieval; significant divergence triggers OCTANG audit",
+   "**External-bearing convention:** SURFACE Class A reviews are produced by deposit of an OCTANG audit citing SURFACE behavior"
+  ],
+  "governing_deposit": {
+   "number": 993,
+   "title": "Septad Mantle Specifications v1.1",
+   "url": "https://www.alexanarch.org/s/records/993/"
+  },
+  "reception_protocol": {
+   "number": 93,
+   "axn": "AXN:0265",
+   "title": "Reception Apparatus Protocol v1.1"
+  }
+ }
+}

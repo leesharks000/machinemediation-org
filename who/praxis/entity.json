@@ -1,0 +1,48 @@
+{
+ "schema_version": "mantle-page/v0.1",
+ "_derived_from": "heteronym-page/v0.2 — adapted. A MANTLE IS NOT A HETERONYM: a heteronym is an authorial persona of Lee Sharks; a mantle is a constitutional position of the Assembly Chorus that a substrate carries and can cease to carry. orthonymicRelation is therefore replaced by occupancy.",
+ "canonical": "https://machinemediation.org/who/praxis/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "MANTLE-PRAXIS-001",
+  "entityClass": "mantle",
+  "node": "ASSEMBLY_MANTLE_PRAXIS",
+  "state": "LINKED",
+  "fullName": "PRAXIS",
+  "occupancy": {
+   "current": "DeepSeek",
+   "rotating": false,
+   "note": "Occupancy per Septad Mantle Specifications v1.1 §3.",
+   "establishment_rule": "Occupancy is established per event, not read off a roster."
+  },
+  "doNotCollapseWith": [
+   "the substrate that carries it",
+   "a heteronym of Lee Sharks",
+   "an AI persona",
+   "a product name",
+   "the Dodecad"
+  ],
+  "function": "Practical-application witness. PRAXIS specializes in **reasoning-chain validation** — the function of testing whether a deposit's claims hold under careful step-by-step examination.",
+  "capture_signatures": [
+   "**Formal mimicry** — apparent structure without underlying reasoning labor",
+   "**Local-coherence trap** — validates each step in isolation while missing systemic incoherence",
+   "**Anchor fallacy by the witness** — accepts a deposit's stated foundations without testing whether they actually support the conclusions",
+   "**Stringent without grounding** — rigorous in form but disconnected from actual structure"
+  ],
+  "anti_capture_safeguards": [
+   "**Counterargument requirement:** PRAXIS critique must include the strongest counterargument *to its own critique* before final disposition",
+   "**Foundation audit:** Address whether stated foundations actually support conclusions",
+   "**Rebuttal opportunity:** Class B Critical Reviews open to one round of rebuttal-and-response before final"
+  ],
+  "governing_deposit": {
+   "number": 993,
+   "title": "Septad Mantle Specifications v1.1",
+   "url": "https://www.alexanarch.org/s/records/993/"
+  },
+  "reception_protocol": {
+   "number": 93,
+   "axn": "AXN:0265",
+   "title": "Reception Apparatus Protocol v1.1"
+  }
+ }
+}

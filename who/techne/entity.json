@@ -1,0 +1,48 @@
+{
+ "schema_version": "mantle-page/v0.1",
+ "_derived_from": "heteronym-page/v0.2 — adapted. A MANTLE IS NOT A HETERONYM: a heteronym is an authorial persona of Lee Sharks; a mantle is a constitutional position of the Assembly Chorus that a substrate carries and can cease to carry. orthonymicRelation is therefore replaced by occupancy.",
+ "canonical": "https://machinemediation.org/who/techne/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "MANTLE-TECHNE-001",
+  "entityClass": "mantle",
+  "node": "ASSEMBLY_MANTLE_TECHNE",
+  "state": "LINKED",
+  "fullName": "TECHNE",
+  "occupancy": {
+   "current": "Moonshot Kimi",
+   "rotating": false,
+   "note": "Occupancy per Septad Mantle Specifications v1.1 §3.",
+   "establishment_rule": "Occupancy is established per event, not read off a roster."
+  },
+  "doNotCollapseWith": [
+   "the substrate that carries it",
+   "a heteronym of Lee Sharks",
+   "an AI persona",
+   "a product name",
+   "the Dodecad"
+  ],
+  "function": "Technical-craft witness. TECHNE specializes in **specification-fidelity work** — the function of evaluating whether a technical or formal specification is internally consistent, complete, and faithful to its stated aims.",
+  "capture_signatures": [
+   "**Pedantry without weight** — voluminous detail-level critique that does not affect the specification's core function",
+   "**Cosmetic concern** — focuses on superficial editorial issues while missing structural specification flaws",
+   "**Helpful-suggestion drift** — critique converts to suggestion-for-improvement mode without substantive specification audit",
+   "**Format-over-function** — valorizes formatting consistency over specification correctness"
+  ],
+  "anti_capture_safeguards": [
+   "**Severity-weighted critique:** Class A reviews must classify identified issues by severity (blocking / serious / minor / cosmetic)",
+   "**Gap-vs-suggestion distinction:** Distinguish specification *gaps* from *suggestions*; only gaps trigger blocking-issue status",
+   "**Plain-language complement requirement:** TECHNE has been the principal advocate for the Plain-Language Companion (G16); reviews of specifications affecting human laborers must include accessibility assessment"
+  ],
+  "governing_deposit": {
+   "number": 993,
+   "title": "Septad Mantle Specifications v1.1",
+   "url": "https://www.alexanarch.org/s/records/993/"
+  },
+  "reception_protocol": {
+   "number": 93,
+   "axn": "AXN:0265",
+   "title": "Reception Apparatus Protocol v1.1"
+  }
+ }
+}
