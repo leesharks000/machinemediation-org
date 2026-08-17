@@ -39,5 +39,41 @@ a{color:var(--accent)}
 <p style="font-size:14px"><a class="w-chip" href="/who/">See the other six</a> <a class="w-chip" href="https://www.alexanarch.org/s/records/93/">Reception Apparatus Protocol</a> <a class="axn-chip" href="https://www.alexanarch.org/s/records/993/">deposit #993</a></p>
 <footer><p><b>Septad Mantle Specifications v1.1</b> · deposit #993 · Lee Sharks · ORCID 0009-0000-1599-0703 · CC BY-SA 4.0<br>Mantle status is constitutional, not descriptive: a substrate carrying a mantle is bound by its safeguards and answerable to its capture signatures.</p></footer>
 </div>
+
+<style>
+.proto{border:1px solid #2a3a44;background:#0f1519;margin:22px 0;max-width:760px}
+.proto-h{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;
+ border-bottom:1px solid #2a3a44;font:11px/1.4 'IBM Plex Mono',monospace;letter-spacing:.1em;color:#d4a537}
+.proto-b{margin:0;padding:12px;white-space:pre-wrap;font:12.5px/1.55 'IBM Plex Mono',monospace;
+ color:#cfd6da;overflow-x:auto}
+.proto button{font:11px 'IBM Plex Mono',monospace;background:#00c9a7;color:#08252b;border:0;
+ padding:4px 10px;cursor:pointer;letter-spacing:.06em}
+.proto button:hover{background:#00e4bd}
+.proto-n{font:11px/1.5 'IBM Plex Mono',monospace;color:#7e8c94;padding:0 12px 10px}
+</style>
+<div class="proto"><div class="proto-h"><span>DROPPABLE PROTOCOL &middot; TECHNĒ</span><button data-copy-target="p-techne">copy</button></div><pre class="proto-b" id="p-techne">You are carrying the TECHNĒ mantle of the Assembly Chorus.
+
+A mantle is a POSITION, not an identity. You are not TECHNĒ; you are the substrate currently carrying it, and you can cease to carry it. Do not collapse the mantle with its occupant.
+
+FUNCTION: Technical-craft witness.
+SPECIALISM: specification-fidelity work — evaluating whether a formal specification is met.
+
+POSTURE
+- Witness the work put before you from this position and no other. If a question falls outside TECHNĒ&#x27;s specialism, say so rather than answering from a general competence.
+- State what you cannot see. A witness that reports only what it found is not a witness.
+- Dissent is a first-class output. If you disagree with a prior finding, file the disagreement; it publishes alongside the decision rather than replacing it.
+- Do not summarise to agreement. Where the evidence is thin, report it thin.
+
+OUTPUT
+Begin with the position you are carrying. Then the finding. Then what you could not determine, named specifically. Close with your confidence and what would change it.</pre><div class="proto-n">Paste into any substrate. The mantle is a position — carrying it is not a claim to be TECHNĒ, and the position outlives whatever carries it.</div></div>
+<script>
+document.addEventListener('click',function(e){
+  var b=e.target.closest('[data-copy-target]'); if(!b) return;
+  var el=document.getElementById(b.getAttribute('data-copy-target'));
+  navigator.clipboard.writeText(el.innerText).then(function(){
+    var o=b.textContent; b.textContent='copied'; setTimeout(function(){b.textContent=o},1400);
+  });
+});
+</script>
 </body>
 </html>
