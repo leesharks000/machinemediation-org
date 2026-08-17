@@ -46668,5 +46668,13 @@
    "complete": 70,
    "unknown": 4
   }
- }
+ },
+ "_STALENESS_NOTICE": {
+  "flagged": "2026-08-17",
+  "by": "operator — 'machinemediation has outdated data that doesnt sync'",
+  "what": "total_assets 871 is a SNAPSHOT taken 2026-06-19 by sequential blog scan, not a live count. sync_counts.py faithfully propagates it to the HTML and JSON-LD, so the page is CONSISTENT WITH A FROZEN FILE — which is why the number never moves however often the sync runs. The sync was never broken; the source was.",
+  "why_it_matters": "A count with no as-of date reads as current. This one has been read as current for two months. The blog it was scanned from now holds 2,809 posts.",
+  "required": "Regenerate by re-running the scan against the current blog index, or relabel the field as assets_as_of_2026_06_19 so the snapshot cannot be mistaken for a live figure. Regeneration is the better fix and needs the original scan method, which is recorded in the 'method' field."
+ },
+ "as_of": "2026-06-19"
 }
