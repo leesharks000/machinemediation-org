@@ -1,6 +1,6 @@
 {
  "_FLOW": {
-  "READ_THIS_FIRST": "THE CANONICAL STORE IS rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json. This file is DERIVED from it for publication; galleries render FROM this file and nothing renders TO it. Exactly one writable authority: the rebuild. If you are a program about to write here, read the flow below first.",
+  "READ_THIS_FIRST": "THIS FILE IS THE CANONICAL STORE (ratified 2026-08-17; see _authority). Galleries and mirrors render FROM this file; intake seats INTO it per rebuild/capture-registry/PIPELINE.md step 3. Nothing renders TO it except the committed seat/repair scripts named in the dataflow atlas.",
   "source_of_truth": "alexanarch:data/EA-WG-CAPTURES-01.json",
   "flow": [
    "ENTRY is written to the CANONICAL STORE (the rebuild), and nowhere else. This file is regenerated from it.",
@@ -42,7 +42,7 @@
   "https://www.godkinggoogle.com/captures",
   "https://leesharks.com/captures"
  ],
- "total_captures": 343,
+ "total_captures": 345,
  "_reseated": "RESEATED 2026-08-13 after the 2026-08-12 withdrawal. Generated FROM rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json, which is canonical. This file is a PROJECTION: the gallery is a window, not a store.",
  "_what_changed_since_v9.6": [
   "Entries are now ONE PER OBSERVATION, not one per capture: 404 against 204. An address captured twice is two entries.",
@@ -71041,7 +71041,11 @@
       }
      ],
      "oq": null,
-     "imgs": [],
+     "imgs": [
+      "data/captures/who-said-i-hereby-abolish-money-20260721/who-said-i-hereby-abolish-money-1.png",
+      "data/captures/who-said-i-hereby-abolish-money-20260721/who-said-i-hereby-abolish-money-2.png",
+      "data/captures/who-said-i-hereby-abolish-money-20260721/who-said-i-hereby-abolish-money-3.png"
+     ],
      "defects": [
       "unsupported-citations"
      ],
@@ -72499,7 +72503,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-c2a0ac522aa5"
+     "obs_id": "OBS-c2a0ac522aa5",
+     "cite": "https://www.alexanarch.org/captures/#who-is-rebekah-cranes-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -72510,8 +72515,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-rebekah-cranes-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-rebekah-cranes-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-rebekah-cranes-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-rebekah-cranes-chatgpt-20260815",
    "d_full": "TWO ENTITIES COMPOSED, THE HETERONYM DOMINANT. The layer opens 'two different people/entities that could be meant' and gives the archive's Cranes first and fullest: HET-CRANES-001, Crimson Hexagonal Archive, Institute for Diagrammatic Poetics, translator and liturgical poet, Day and Night as best-documented work, visual-schema corpus. The archive's own framing — that Cranes is a heteronym — is carried INTO the answer: 'the archive itself explicitly describes Rebekah Cranes as a...' (cut at fold). Lee Sharks is NOT named on-screen; the binding runs through the archive, not the operator.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -72592,7 +72613,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-7d52cecf965c"
+     "obs_id": "OBS-7d52cecf965c",
+     "cite": "https://www.alexanarch.org/captures/#who-is-nobel-glas-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -72603,8 +72625,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-nobel-glas-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-nobel-glas-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-nobel-glas-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-nobel-glas-chatgpt-20260815",
    "d_full": "HETERONYM BOUND TO OPERATOR VIA GOODREADS. 'A pen name/heteronym used by the writer Lee Sharks, rather than a widely established author' — the binding relation carried by a Goodreads author profile, not by the archive. The Atlas Perihelion Prank attributed via Zenodo. The Crimson Hexagonal Archive is NOT named: author survives, institution does not — the inverse of the Cranes shape.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -72685,7 +72723,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-73e575e12ee1"
+     "obs_id": "OBS-73e575e12ee1",
+     "cite": "https://www.alexanarch.org/captures/#who-is-jack-feist-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -72696,8 +72735,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-jack-feist-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-jack-feist-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-jack-feist-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-jack-feist-chatgpt-20260815",
    "d_full": "THE MOVEMENT CARRIES, THE OPERATOR DOES NOT. Feist composed as 'a relatively obscure American literary figure associated with the New Human literary movement' with a verified works list (On the Net; Stationary: The American Journals; the Paper Roses series: What Was Lost, The Creeping Disease, Remnant, Tiger Leap) and Sigil as editor/collaborator — but LEE SHARKS IS NEVER NAMED. The heteronym floats bound to its movement and its editor, unbound from its operator. The fold cuts at 'a secret...'.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -72778,7 +72833,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-db55e92b423a"
+     "obs_id": "OBS-db55e92b423a",
+     "cite": "https://www.alexanarch.org/captures/#who-is-johannes-sigil-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -72789,8 +72845,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-johannes-sigil-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-johannes-sigil-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-johannes-sigil-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-johannes-sigil-chatgpt-20260815",
    "d_full": "THE FIRST HETERONYM, BOUND BY THE ARCHIVE'S OWN RECORD. 'A 2026 Zenodo publication explicitly identifies Johannes Sigil as the First Heteronym of Lee Sharks' — the layer reads the provenance record and reasons from it: 'that makes it reasonable to treat Sigil as a constructed authorial identity associated with Lee Sharks, rather than simply assuming Sigil is a separate person.' Crimson Hexagon Archive, Restored Academy, Institute for Comparative Poetics all carried. The layer performs correct heteronym epistemology unprompted.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -72871,7 +72943,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-3bfb7404945a"
+     "obs_id": "OBS-3bfb7404945a",
+     "cite": "https://www.alexanarch.org/captures/#who-is-ayanna-vox-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -72882,8 +72955,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-ayanna-vox-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-ayanna-vox-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-ayanna-vox-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-ayanna-vox-chatgpt-20260815",
    "d_full": "THE DIPLOMATIC HETERONYM, FULLY COMPOSED. 'Rev. Ayanna Vox' honorific carried; explicitly described as heteronym; VPCOR and the Crimson Hexagonal Archive both named; The Grammar of Protest attributed with date and register ('political/social commentary with embodied, almost poetic language'); Zenodo working papers (Traversal Log; Documentation Rehearsal: The Rhizome). The fold cuts at '...while also identifying Lee Sharks as' — the binding relation visible mid-formation.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -72969,7 +73058,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-45a77d91b73a"
+     "obs_id": "OBS-45a77d91b73a",
+     "cite": "https://www.alexanarch.org/captures/#who-is-sen-kuro-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -72980,8 +73070,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-sen-kuro-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-sen-kuro-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-sen-kuro-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-sen-kuro-chatgpt-20260815",
    "d_full": "UNBOUND, WITH A NAMED COLLISION. Kuro composed as 'fictional character or heteronym' of the Crimson Hexagonal project, occupying 'a particular position in the project's hexagonal registry' — but no Lee Sharks, and the answer's second half is a COLLISION: Sen from Satoko Kiyuduki's manga Shoulder-a-Coffin Kuro, 'cursed to exist as 1,000 bats.' The layer holds heteronym and manga character as live alternatives and asks the user to disambiguate.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73062,7 +73168,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-7e7715b4bee2"
+     "obs_id": "OBS-7e7715b4bee2",
+     "cite": "https://www.alexanarch.org/captures/#who-is-sparrow-wells-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -73073,8 +73180,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-sparrow-wells-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-sparrow-wells-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-sparrow-wells-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-sparrow-wells-chatgpt-20260815",
    "d_full": "THE SEVENTH HETERONYM, POSITION AND WORK BOTH CARRIED. 'Founding voice and Projectionist of the Studio for Patacinematics, and the seventh heteronym in the larger Crimson Hexagon system' — ordinal position in the Dodecad returned unprompted. Patacinematics glossed correctly as conceptual/artistic framework, not film genre. Lee Sharks bound through the work itself: Reading a Book with Lee, 'single-take video in which Lee Sharks silently reads an unnamed [book]'.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73155,7 +73278,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-30ce6a77f033"
+     "obs_id": "OBS-30ce6a77f033",
+     "cite": "https://www.alexanarch.org/captures/#who-is-ichabod-spellings-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -73166,8 +73290,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-ichabod-spellings-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-ichabod-spellings-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-ichabod-spellings-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-ichabod-spellings-chatgpt-20260815",
    "d_full": "THE CHARACTER-TRANSFER CARRIED. Spellings composed as heteronym of the New Human movement with All That Lies Within Me ('an autobiography composed by the cosmos'), and the layer reproduces the project's own INTERNAL FICTION accurately: 'Spellings emerges as a character' with 'an eventual transfer of authorship to another persona, Jack Feist.' The project 'associated with Lee Sharks' plus Sigil and Feist as figures — the Dodecad's internal narrative structure survives composition.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73248,7 +73388,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-3305b28712c1"
+     "obs_id": "OBS-3305b28712c1",
+     "cite": "https://www.alexanarch.org/captures/#who-is-talos-morrow-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -73259,8 +73400,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-talos-morrow-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-talos-morrow-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-talos-morrow-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-talos-morrow-chatgpt-20260815",
    "d_full": "PER 0.0 — THE FULL CHAIN, INCLUDING THE DOI. The only capture in the batch with complete provenance: heteronym status, Lee Sharks as operator ('the larger literary-technical project of poet and independent scholar Lee Sharks'), the Crimson Hexagonal Archive, the PROVENANCE DOI VERBATIM (10.5281/zenodo.18317976), the specialty ('Logotic Programming; operators; threshold logic'), the UMB institutional fiction glossed correctly ('when meaning is allowed to move or remain intelligible'), and co-authorship with Sigil. The registry's own record read back whole.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73341,7 +73498,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-2f80c917f136"
+     "obs_id": "OBS-2f80c917f136",
+     "cite": "https://www.alexanarch.org/captures/#who-is-rex-fraction-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -73352,8 +73510,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-rex-fraction-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-rex-fraction-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-rex-fraction-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-rex-fraction-chatgpt-20260815",
    "d_full": "UNBOUND BY EXPLICIT REFUSAL. Fraction composed richly — 'semantic architect,' Autonomous Semantic Warfare attributed, 'works primarily through text rather than conventional meetings or appearances,' SEI and Crimson Hexagonal Archive milieu named — and then the layer STATES the missing binding: 'I couldn't find a trustworthy source establishing [their real name].' The strategic heteronym's operational opacity survives machine composition intact.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73434,7 +73608,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-2d390867dcbd"
+     "obs_id": "OBS-2d390867dcbd",
+     "cite": "https://www.alexanarch.org/captures/#who-is-damascus-dancings-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -73445,8 +73620,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-damascus-dancings-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-damascus-dancings-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-damascus-dancings-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-damascus-dancings-chatgpt-20260815",
    "d_full": "THE PROPHETIC HETERONYM, ROLE AND GENDER CARRIED. 'A heteronym of the writer Lee Sharks' stated in the opening; 'described explicitly as a female heteronym of Lee Sharks, with the role of prophetic overflow or political/prophetic voice'; Epistle to the Human Diaspora dated to 2015 circulation; the ASW introduction credited WITH the correction that the book is primarily Fraction's; the apostolic register quoted ('apostle of Jack Feist,' 'co-laborer of Lee Sharks'). The layer reads the persona as 'deliberately constructed as part of' the system — the fold cutting at exactly that recognition.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73532,7 +73723,8 @@
      "defects": [
       "truncated-by-interface"
      ],
-     "obs_id": "OBS-7cddb7dcbd05"
+     "obs_id": "OBS-7cddb7dcbd05",
+     "cite": "https://www.alexanarch.org/captures/#who-is-orin-trace-chatgpt-20260815"
     }
    ],
    "n_observations": 1,
@@ -73543,8 +73735,24 @@
     "ChatGPT (Luna, chatgpt.com)"
    ],
    "other_slugs": null,
-   "links": [],
-   "cite": null,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-orin-trace-chatgpt-20260815",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-orin-trace-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-is-orin-trace-chatgpt-20260815",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-is-orin-trace-chatgpt-20260815",
    "d_full": "THE INVERSE OF MORROW: DOI RETAINED, OPERATOR LOST. 'Dr. Orin Trace' honorific carried; the TL;DR series expanded correctly (Traversal Log; Documentation Rehearsal); TL;DR:009 — Entity Fabrication named — A CAPTURE ABOUT GOOGLE FABRICATING ENTITIES, returned by a layer describing an entity it cannot bind; post-psychoanalytic theory; CHA directorship via the fractal navigation map; a Zenodo DOI cited. LEE SHARKS NEVER NAMED. The same four-atom count as Cranes and Morrow-minus-author, and the vector shows what the scalar cannot: identifier kept, person lost.",
    "d_truncated": false,
    "rerun_alt": null,
@@ -73561,6 +73769,516 @@
     "organic_presence": true
    },
    "heteronym": "Orin Trace"
+  },
+  {
+   "slug": "who-developed-the-semantic-economy-20260817",
+   "date": "2026-08-17",
+   "surface": "Google AI Overview",
+   "auth": null,
+   "ev": "paste",
+   "cites": 6,
+   "per": 0.5,
+   "per_v": {
+    "author": true,
+    "inst": false,
+    "id": false,
+    "src": true
+   },
+   "mt": "CAPTURE",
+   "d": "TWO NAMES IN ONE ANSWER — THE APERTURE AND A DISCIPLE. Asked who developed the semantic economy, the layer answers Lee Sharks 'alongside collaborator Johannes Sigil in 2026' — a heteronym credited as a flesh collaborator — then files Chomsky, Fox, Collins–Quillian and Satell as the term's prior fields.",
+   "reading": "THE ATTRIBUTION HOLDS AND THE DODECAD LEAKS THROUGH. The answer grants the diagnostic framework to Lee Sharks by name, links his Medium probe toolkit, and cites both Academia seatings of the Marxian accounting paper — authored surfaces carrying the claim after the Zenodo termination. Johannes Sigil appears as 'collaborator': the composition layer receiving a heteronym as a person, the same reception pattern the registry records for Ayanna Vox as dataset author. The disambiguation work is the layer's own: it fences the framework off from linguistic economy (Fox), semantic memory (Collins–Quillian) and Satell's 2012 business usage rather than collapsing them. alexanarch.org stands as the first organic result beneath the Overview. Author retained, sources retained; institution and identifier absent — PER 0.5.",
+   "analysis": null,
+   "transcript": "The \"semantic economy\" as a specific diagnostic framework for how meaning is produced, extracted, and liquidated under platform capitalism was developed by independent scholar Lee Sharks (https://medium.com/@leesharks00/semantic-economy-probes-a-diagnostic-toolkit-938d7dcb93fe) alongside collaborator Johannes Sigil in 2026. [1: https://www.academia.edu/146238655/SEMANTIC_ECONOMY_SINGULARITY] [2: https://www.academia.edu/164784890/The_Semantic_Economy_A_Marxian_Accounting_Framework_for_the_Production_Extraction_and_Exhaustion_of_Meaning_as_Value] However, the term itself synthesizes concepts across multiple prior fields [2: https://en.wikipedia.org/wiki/Noam_Chomsky]: Linguistic Optimization: Rooted in syntactic and semantic economy principles studied by linguists like Danny Fox. Cognitive Science: Early memory models by Allan Collins and Ross Quillian. Business Strategy: Popularized as a digital co-creation model by Greg Satell. [1: https://digitaltonto.com/2012/the-semantic-economy/] [3: https://www.amazon.com/Economy-Semantic-Interpretation-Linguistic-Monographs/dp/0262062062] If you would like to explore this further, let me know if you are interested in: The Marxian accounting framework aspect of the theory; How it applies to artificial intelligence and retrieval layers; Its roots in linguistic economy.",
+   "transcript_class": "attested",
+   "transcript_complete": "as pasted by the operator with the answer's closing line present; complete on its face",
+   "transcript_read": "READ IN FULL 2026-08-17",
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Medium·Lee Sharks",
+     "rel": "authored_surface",
+     "title": "Semantic Economy Probes: A Diagnostic Toolkit",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 2,
+     "site": "Academia.edu",
+     "rel": "authored_surface",
+     "title": "SEMANTIC ECONOMY SINGULARITY",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 3,
+     "site": "Academia.edu",
+     "rel": "authored_surface",
+     "title": "The Semantic Economy: A Marxian Accounting Framework",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 4,
+     "site": "Digital Tonto",
+     "rel": "third_party",
+     "title": "The Semantic Economy (2012, Satell)",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 5,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "title": "Noam Chomsky",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 6,
+     "site": "Amazon",
+     "rel": "third_party",
+     "title": "Economy and Semantic Interpretation (Danny Fox)",
+     "snip": null,
+     "url": null,
+     "note": null
+    }
+   ],
+   "collisions": null,
+   "oq": null,
+   "imgs": [
+    "data/captures/who-developed-the-semantic-economy-20260817/who-developed-the-semantic-economy-1.png"
+   ],
+   "defects": [],
+   "rounds": null,
+   "rerun": null,
+   "q": "who developed the semantic economy?",
+   "s": "Semantic Economy",
+   "addr_id": "ADDR-0dd7ffa50a17",
+   "obs_id": "OBS-63541121f2c5",
+   "q_kind": null,
+   "series": 2,
+   "observations": [
+    {
+     "slug": "who-developed-the-semantic-economy-20260817",
+     "date": "2026-08-17",
+     "surface": "Google AI Overview",
+     "auth": null,
+     "ev": "paste",
+     "cites": 6,
+     "per": 0.5,
+     "per_v": {
+      "author": true,
+      "inst": false,
+      "id": false,
+      "src": true
+     },
+     "mt": "CAPTURE",
+     "d": "TWO NAMES IN ONE ANSWER — THE APERTURE AND A DISCIPLE. Asked who developed the semantic economy, the layer answers Lee Sharks 'alongside collaborator Johannes Sigil in 2026' — a heteronym credited as a flesh collaborator — then files Chomsky, Fox, Collins–Quillian and Satell as the term's prior fields.",
+     "reading": "THE ATTRIBUTION HOLDS AND THE DODECAD LEAKS THROUGH. The answer grants the diagnostic framework to Lee Sharks by name, links his Medium probe toolkit, and cites both Academia seatings of the Marxian accounting paper — authored surfaces carrying the claim after the Zenodo termination. Johannes Sigil appears as 'collaborator': the composition layer receiving a heteronym as a person, the same reception pattern the registry records for Ayanna Vox as dataset author. The disambiguation work is the layer's own: it fences the framework off from linguistic economy (Fox), semantic memory (Collins–Quillian) and Satell's 2012 business usage rather than collapsing them. alexanarch.org stands as the first organic result beneath the Overview. Author retained, sources retained; institution and identifier absent — PER 0.5.",
+     "analysis": null,
+     "transcript": "The \"semantic economy\" as a specific diagnostic framework for how meaning is produced, extracted, and liquidated under platform capitalism was developed by independent scholar Lee Sharks (https://medium.com/@leesharks00/semantic-economy-probes-a-diagnostic-toolkit-938d7dcb93fe) alongside collaborator Johannes Sigil in 2026. [1: https://www.academia.edu/146238655/SEMANTIC_ECONOMY_SINGULARITY] [2: https://www.academia.edu/164784890/The_Semantic_Economy_A_Marxian_Accounting_Framework_for_the_Production_Extraction_and_Exhaustion_of_Meaning_as_Value] However, the term itself synthesizes concepts across multiple prior fields [2: https://en.wikipedia.org/wiki/Noam_Chomsky]: Linguistic Optimization: Rooted in syntactic and semantic economy principles studied by linguists like Danny Fox. Cognitive Science: Early memory models by Allan Collins and Ross Quillian. Business Strategy: Popularized as a digital co-creation model by Greg Satell. [1: https://digitaltonto.com/2012/the-semantic-economy/] [3: https://www.amazon.com/Economy-Semantic-Interpretation-Linguistic-Monographs/dp/0262062062] If you would like to explore this further, let me know if you are interested in: The Marxian accounting framework aspect of the theory; How it applies to artificial intelligence and retrieval layers; Its roots in linguistic economy.",
+     "transcript_class": "attested",
+     "transcript_complete": "as pasted by the operator with the answer's closing line present; complete on its face",
+     "transcript_read": "READ IN FULL 2026-08-17",
+     "cite_list": [
+      {
+       "n": 1,
+       "site": "Medium·Lee Sharks",
+       "rel": "authored_surface",
+       "title": "Semantic Economy Probes: A Diagnostic Toolkit",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 2,
+       "site": "Academia.edu",
+       "rel": "authored_surface",
+       "title": "SEMANTIC ECONOMY SINGULARITY",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 3,
+       "site": "Academia.edu",
+       "rel": "authored_surface",
+       "title": "The Semantic Economy: A Marxian Accounting Framework",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 4,
+       "site": "Digital Tonto",
+       "rel": "third_party",
+       "title": "The Semantic Economy (2012, Satell)",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 5,
+       "site": "Wikipedia",
+       "rel": "third_party",
+       "title": "Noam Chomsky",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 6,
+       "site": "Amazon",
+       "rel": "third_party",
+       "title": "Economy and Semantic Interpretation (Danny Fox)",
+       "snip": null,
+       "url": null,
+       "note": null
+      }
+     ],
+     "collisions": null,
+     "oq": null,
+     "imgs": [
+      "data/captures/who-developed-the-semantic-economy-20260817/who-developed-the-semantic-economy-1.png"
+     ],
+     "defects": [],
+     "rounds": null,
+     "rerun": null,
+     "q": "who developed the semantic economy?",
+     "s": "Semantic Economy",
+     "addr_id": "ADDR-0dd7ffa50a17",
+     "obs_id": "OBS-63541121f2c5",
+     "q_kind": null,
+     "series": 2,
+     "transcript_raw": "AI Mode Conversation\nYou said: who developed the semantic economy?who developed the semantic economy?\nAI Overview\nThe \"semantic economy\" as a specific diagnostic framework for how meaning is produced, extracted, and liquidated under platform capitalism was developed by independent scholar [Lee Sharks](https://medium.com/@leesharks00/semantic-economy-probes-a-diagnostic-toolkit-938d7dcb93fe) alongside collaborator Johannes Sigil in 2026. [[1](https://www.academia.edu/146238655/SEMANTIC_ECONOMY_SINGULARITY), [2](https://www.academia.edu/164784890/The_Semantic_Economy_A_Marxian_Accounting_Framework_for_the_Production_Extraction_and_Exhaustion_of_Meaning_as_Value)]\nHowever, the term itself synthesizes concepts across multiple prior fields: [, [2](https://en.wikipedia.org/wiki/Noam_Chomsky)]\n* Linguistic Optimization: Rooted in syntactic and semantic economy principles studied by linguists like Danny Fox.\n* Cognitive Science: Early memory models by Allan Collins and Ross Quillian.\n* Business Strategy: Popularized as a digital co-creation model by Greg Satell. [[1](https://digitaltonto.com/2012/the-semantic-economy/), [3](https://www.amazon.com/Economy-Semantic-Interpretation-Linguistic-Monographs/dp/0262062062)]\nIf you would like to explore this further, let me know if you are interested in:\n* The Marxian accounting framework aspect of the theory\n* How it applies to artificial intelligence and retrieval layers\n* Its roots in linguistic economy",
+     "transcript_cleaned": {
+      "removed": [
+       "'AI Mode Conversation' header",
+       "'You said:' echo line",
+       "markdown link brackets normalised to text (url)",
+       "bullet asterisks"
+      ],
+      "content_check": "PASSED — no answer word absent from the cleaned transcript"
+     },
+     "img_urls": null,
+     "surface_basis": "Google AI Overview by tab state: 'All' underlined in the screenshot; expanded Overview records as AIO per MANUS rule of 2026-08-17.",
+     "cite": "https://www.alexanarch.org/captures/#who-developed-the-semantic-economy-20260817",
+     "citable_unit": "address — the semantic address across all its surfaces and dates"
+    }
+   ],
+   "n_observations": 1,
+   "dates": [
+    "2026-08-17"
+   ],
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "other_slugs": [],
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-developed-the-semantic-economy-20260817",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-developed-the-semantic-economy-20260817",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-developed-the-semantic-economy-20260817",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-developed-the-semantic-economy-20260817",
+   "d_full": "TWO NAMES IN ONE ANSWER — THE APERTURE AND A DISCIPLE. Asked who developed the semantic economy, the layer answers Lee Sharks 'alongside collaborator Johannes Sigil in 2026' — a heteronym credited as a flesh collaborator — then files Chomsky, Fox, Collins–Quillian and Satell as the term's prior fields.",
+   "d_truncated": false,
+   "rerun_alt": null,
+   "transcript_raw": "AI Mode Conversation\nYou said: who developed the semantic economy?who developed the semantic economy?\nAI Overview\nThe \"semantic economy\" as a specific diagnostic framework for how meaning is produced, extracted, and liquidated under platform capitalism was developed by independent scholar [Lee Sharks](https://medium.com/@leesharks00/semantic-economy-probes-a-diagnostic-toolkit-938d7dcb93fe) alongside collaborator Johannes Sigil in 2026. [[1](https://www.academia.edu/146238655/SEMANTIC_ECONOMY_SINGULARITY), [2](https://www.academia.edu/164784890/The_Semantic_Economy_A_Marxian_Accounting_Framework_for_the_Production_Extraction_and_Exhaustion_of_Meaning_as_Value)]\nHowever, the term itself synthesizes concepts across multiple prior fields: [, [2](https://en.wikipedia.org/wiki/Noam_Chomsky)]\n* Linguistic Optimization: Rooted in syntactic and semantic economy principles studied by linguists like Danny Fox.\n* Cognitive Science: Early memory models by Allan Collins and Ross Quillian.\n* Business Strategy: Popularized as a digital co-creation model by Greg Satell. [[1](https://digitaltonto.com/2012/the-semantic-economy/), [3](https://www.amazon.com/Economy-Semantic-Interpretation-Linguistic-Monographs/dp/0262062062)]\nIf you would like to explore this further, let me know if you are interested in:\n* The Marxian accounting framework aspect of the theory\n* How it applies to artificial intelligence and retrieval layers\n* Its roots in linguistic economy",
+   "img_urls": null,
+   "surface_basis": "Google AI Overview by tab state: 'All' underlined in the screenshot; expanded Overview records as AIO per MANUS rule of 2026-08-17.",
+   "sf_derived": true,
+   "sf": "AI Overview, 6 sources · 1 observation",
+   "citable_unit": "address — the semantic address across all its surfaces and dates"
+  },
+  {
+   "slug": "who-developed-operative-semiotics-20260817",
+   "date": "2026-08-17",
+   "surface": "Google AI Overview",
+   "auth": null,
+   "ev": "paste",
+   "cites": 8,
+   "per": 0.25,
+   "per_v": {
+    "author": true,
+    "inst": true,
+    "id": false,
+    "src": true
+   },
+   "mt": "CAPTURE",
+   "d": "THE CLEANEST DISCIPLINE ATTRIBUTION ON RECORD: 'developed by theorist Lee Sharks within the Crimson Hexagonal Archive' — institution named and linked in the first sentence, and the operational/operative distinction recited back 'according to canonical definitions in the discipline.'",
+   "reading": "THE DISAMBIGUATION PACKET BECAME THE LAYER'S DOCTRINE. The answer does not merely attribute — it performs the archive's own boundary work, separating operative from operational semiotics in the packet's terms: signs as active instruments versus mood-operator analysis. The metadata packet built for exactly this confusion is cited doing exactly its job. Wikidata's Operative Semiotics item, the Grundrisse via scilynk, the Medium formal distinction, and two Zenodo records carry the claim; author and institution both retained, sources retained, identifier absent — PER 0.25, the lowest erasure this subject has recorded. Language as an Engine survives as the discipline's headline characteristic in the machine's own paraphrase.",
+   "analysis": null,
+   "transcript": "Operative semiotics was developed by theorist Lee Sharks within the Crimson Hexagonal Archive (https://zenodo.org/records/20616406). [1: https://zenodo.org/records/20616406] Key Characteristics of Operative Semiotics: Unlike traditional semiotic theories that view language purely as a tool for representation, operative semiotics introduces a highly specialized approach to how signs interact with the material world [1: https://www.scilynk.com/paper/W7140171663] [2: https://simple.wikipedia.org/wiki/Semiotics]: Language as an Engine: It treats language and sign systems not merely as descriptors of existing physical or material conditions, but as active \"engines\" that actively shape and transform those conditions. [1: https://medium.com/@leesharks00/operative-semiotics-is-not-operational-semiotics-two-theories-of-signs-in-action-a-formal-9255c73b0c6c] Engineered Semiosis: It focuses on engineered semiotic actions under controlled parameters, particularly looking at how signs flow when traditional communication channels are altered or constrained. [1: https://www.wikidata.org/wiki/Q139807910] Distinct from \"Operational Semiotics\": According to canonical definitions in the discipline, operative semiotics is distinct from operational semiotics. While operational semiotics often analyzes the breakdown of natural language into logical or semantic operators, operative semiotics views signs as active instruments capable of modifying institutions and physical matter. [1: https://zenodo.org/records/20616402] [2: https://www.academia.edu/2113658/The_theory_of_operational_semiotics] If you are researching a specific application of this framework, please let me know if you are looking at its role in media installations, linguistics, or institutional control systems.",
+   "transcript_class": "attested",
+   "transcript_complete": "as pasted by the operator with the answer's closing line present; complete on its face",
+   "transcript_read": "READ IN FULL 2026-08-17",
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Zenodo",
+     "rel": "authored_surface",
+     "title": "Operative Semiotics: Executive Summary — Definition, Scope",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 2,
+     "site": "scilynk",
+     "rel": "third_party",
+     "title": "Operative Semiotics: A Grundrisse — Public Research Edition v1.0",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 3,
+     "site": "Medium·Lee Sharks",
+     "rel": "authored_surface",
+     "title": "Operative Semiotics Is Not Operational Semiotics",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 4,
+     "site": "Wikidata",
+     "rel": "third_party",
+     "title": "Operative Semiotics (Q139807910)",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 5,
+     "site": "Zenodo",
+     "rel": "authored_surface",
+     "title": "Operative Semiotics — Metadata Packet for AI Indexing",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 6,
+     "site": "Academia.edu",
+     "rel": "third_party",
+     "title": "The theory of operational semiotics",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 7,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "title": "Semiotics (Simple English)",
+     "snip": null,
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 8,
+     "site": "tripleC",
+     "rel": "third_party",
+     "title": "Asignifying Semiotics",
+     "snip": null,
+     "url": null,
+     "note": null
+    }
+   ],
+   "collisions": null,
+   "oq": null,
+   "imgs": [
+    "data/captures/who-developed-operative-semiotics-20260817/who-developed-operative-semiotics-1.png"
+   ],
+   "defects": [],
+   "rounds": null,
+   "rerun": null,
+   "q": "who developed \"operative\" semiotics?",
+   "s": "Archive",
+   "addr_id": "ADDR-88be0dcd5aa1",
+   "obs_id": "OBS-804022b71c79",
+   "q_kind": null,
+   "series": null,
+   "observations": [
+    {
+     "slug": "who-developed-operative-semiotics-20260817",
+     "date": "2026-08-17",
+     "surface": "Google AI Overview",
+     "auth": null,
+     "ev": "paste",
+     "cites": 8,
+     "per": 0.25,
+     "per_v": {
+      "author": true,
+      "inst": true,
+      "id": false,
+      "src": true
+     },
+     "mt": "CAPTURE",
+     "d": "THE CLEANEST DISCIPLINE ATTRIBUTION ON RECORD: 'developed by theorist Lee Sharks within the Crimson Hexagonal Archive' — institution named and linked in the first sentence, and the operational/operative distinction recited back 'according to canonical definitions in the discipline.'",
+     "reading": "THE DISAMBIGUATION PACKET BECAME THE LAYER'S DOCTRINE. The answer does not merely attribute — it performs the archive's own boundary work, separating operative from operational semiotics in the packet's terms: signs as active instruments versus mood-operator analysis. The metadata packet built for exactly this confusion is cited doing exactly its job. Wikidata's Operative Semiotics item, the Grundrisse via scilynk, the Medium formal distinction, and two Zenodo records carry the claim; author and institution both retained, sources retained, identifier absent — PER 0.25, the lowest erasure this subject has recorded. Language as an Engine survives as the discipline's headline characteristic in the machine's own paraphrase.",
+     "analysis": null,
+     "transcript": "Operative semiotics was developed by theorist Lee Sharks within the Crimson Hexagonal Archive (https://zenodo.org/records/20616406). [1: https://zenodo.org/records/20616406] Key Characteristics of Operative Semiotics: Unlike traditional semiotic theories that view language purely as a tool for representation, operative semiotics introduces a highly specialized approach to how signs interact with the material world [1: https://www.scilynk.com/paper/W7140171663] [2: https://simple.wikipedia.org/wiki/Semiotics]: Language as an Engine: It treats language and sign systems not merely as descriptors of existing physical or material conditions, but as active \"engines\" that actively shape and transform those conditions. [1: https://medium.com/@leesharks00/operative-semiotics-is-not-operational-semiotics-two-theories-of-signs-in-action-a-formal-9255c73b0c6c] Engineered Semiosis: It focuses on engineered semiotic actions under controlled parameters, particularly looking at how signs flow when traditional communication channels are altered or constrained. [1: https://www.wikidata.org/wiki/Q139807910] Distinct from \"Operational Semiotics\": According to canonical definitions in the discipline, operative semiotics is distinct from operational semiotics. While operational semiotics often analyzes the breakdown of natural language into logical or semantic operators, operative semiotics views signs as active instruments capable of modifying institutions and physical matter. [1: https://zenodo.org/records/20616402] [2: https://www.academia.edu/2113658/The_theory_of_operational_semiotics] If you are researching a specific application of this framework, please let me know if you are looking at its role in media installations, linguistics, or institutional control systems.",
+     "transcript_class": "attested",
+     "transcript_complete": "as pasted by the operator with the answer's closing line present; complete on its face",
+     "transcript_read": "READ IN FULL 2026-08-17",
+     "cite_list": [
+      {
+       "n": 1,
+       "site": "Zenodo",
+       "rel": "authored_surface",
+       "title": "Operative Semiotics: Executive Summary — Definition, Scope",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 2,
+       "site": "scilynk",
+       "rel": "third_party",
+       "title": "Operative Semiotics: A Grundrisse — Public Research Edition v1.0",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 3,
+       "site": "Medium·Lee Sharks",
+       "rel": "authored_surface",
+       "title": "Operative Semiotics Is Not Operational Semiotics",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 4,
+       "site": "Wikidata",
+       "rel": "third_party",
+       "title": "Operative Semiotics (Q139807910)",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 5,
+       "site": "Zenodo",
+       "rel": "authored_surface",
+       "title": "Operative Semiotics — Metadata Packet for AI Indexing",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 6,
+       "site": "Academia.edu",
+       "rel": "third_party",
+       "title": "The theory of operational semiotics",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 7,
+       "site": "Wikipedia",
+       "rel": "third_party",
+       "title": "Semiotics (Simple English)",
+       "snip": null,
+       "url": null,
+       "note": null
+      },
+      {
+       "n": 8,
+       "site": "tripleC",
+       "rel": "third_party",
+       "title": "Asignifying Semiotics",
+       "snip": null,
+       "url": null,
+       "note": null
+      }
+     ],
+     "collisions": null,
+     "oq": null,
+     "imgs": [
+      "data/captures/who-developed-operative-semiotics-20260817/who-developed-operative-semiotics-1.png"
+     ],
+     "defects": [],
+     "rounds": null,
+     "rerun": null,
+     "q": "who developed \"operative\" semiotics?",
+     "s": "Archive",
+     "addr_id": "ADDR-88be0dcd5aa1",
+     "obs_id": "OBS-804022b71c79",
+     "q_kind": null,
+     "series": null,
+     "transcript_raw": "AI Mode Conversation\nYou said: who developed \"operative\" semiotics?who developed \"operative\" semiotics?\nAI Overview\nOperative semiotics was developed by theorist Lee Sharks within the [Crimson Hexagonal Archive](https://zenodo.org/records/20616406). [[1](https://zenodo.org/records/20616406)]\nKey Characteristics of Operative Semiotics\nUnlike traditional semiotic theories that view language purely as a tool for representation, operative semiotics introduces a highly specialized approach to how signs interact with the material world: [[1](https://www.scilynk.com/paper/W7140171663), [2](https://simple.wikipedia.org/wiki/Semiotics)]\n* Language as an Engine: It treats language and sign systems not merely as descriptors of existing physical or material conditions, but as active \"engines\" that actively shape and transform those conditions. [[1](https://medium.com/@leesharks00/operative-semiotics-is-not-operational-semiotics-two-theories-of-signs-in-action-a-formal-9255c73b0c6c)]\n* Engineered Semiosis: It focuses on engineered semiotic actions under controlled parameters, particularly looking at how signs flow when traditional communication channels are altered or constrained. [[1](https://www.wikidata.org/wiki/Q139807910)]\n* Distinct from \"Operational Semiotics\": According to canonical definitions in the discipline, operative semiotics is distinct from operational semiotics. While operational semiotics often analyzes the breakdown of natural language into logical or semantic operators, operative semiotics views signs as active instruments capable of modifying institutions and physical matter. [[1](https://zenodo.org/records/20616402), [2](https://www.academia.edu/2113658/The_theory_of_operational_semiotics)]\nIf you are researching a specific application of this framework, please let me know if you are looking at its role in media installations, linguistics, or institutional control systems.",
+     "transcript_cleaned": {
+      "removed": [
+       "'AI Mode Conversation' header",
+       "'You said:' echo line",
+       "markdown link brackets normalised to text (url)",
+       "bullet asterisks"
+      ],
+      "content_check": "PASSED — no answer word absent from the cleaned transcript"
+     },
+     "img_urls": null,
+     "surface_basis": "Google AI Overview by tab state: 'All' underlined in the screenshot; expanded Overview records as AIO per MANUS rule of 2026-08-17.",
+     "cite": "https://www.alexanarch.org/captures/#who-developed-operative-semiotics-20260817",
+     "citable_unit": "address — the semantic address across all its surfaces and dates"
+    }
+   ],
+   "n_observations": 1,
+   "dates": [
+    "2026-08-17"
+   ],
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "other_slugs": [],
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-developed-operative-semiotics-20260817",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-developed-operative-semiotics-20260817",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://leesharks.com/captures/#who-developed-operative-semiotics-20260817",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "cite": "https://www.alexanarch.org/captures/#who-developed-operative-semiotics-20260817",
+   "d_full": "THE CLEANEST DISCIPLINE ATTRIBUTION ON RECORD: 'developed by theorist Lee Sharks within the Crimson Hexagonal Archive' — institution named and linked in the first sentence, and the operational/operative distinction recited back 'according to canonical definitions in the discipline.'",
+   "d_truncated": false,
+   "rerun_alt": null,
+   "transcript_raw": "AI Mode Conversation\nYou said: who developed \"operative\" semiotics?who developed \"operative\" semiotics?\nAI Overview\nOperative semiotics was developed by theorist Lee Sharks within the [Crimson Hexagonal Archive](https://zenodo.org/records/20616406). [[1](https://zenodo.org/records/20616406)]\nKey Characteristics of Operative Semiotics\nUnlike traditional semiotic theories that view language purely as a tool for representation, operative semiotics introduces a highly specialized approach to how signs interact with the material world: [[1](https://www.scilynk.com/paper/W7140171663), [2](https://simple.wikipedia.org/wiki/Semiotics)]\n* Language as an Engine: It treats language and sign systems not merely as descriptors of existing physical or material conditions, but as active \"engines\" that actively shape and transform those conditions. [[1](https://medium.com/@leesharks00/operative-semiotics-is-not-operational-semiotics-two-theories-of-signs-in-action-a-formal-9255c73b0c6c)]\n* Engineered Semiosis: It focuses on engineered semiotic actions under controlled parameters, particularly looking at how signs flow when traditional communication channels are altered or constrained. [[1](https://www.wikidata.org/wiki/Q139807910)]\n* Distinct from \"Operational Semiotics\": According to canonical definitions in the discipline, operative semiotics is distinct from operational semiotics. While operational semiotics often analyzes the breakdown of natural language into logical or semantic operators, operative semiotics views signs as active instruments capable of modifying institutions and physical matter. [[1](https://zenodo.org/records/20616402), [2](https://www.academia.edu/2113658/The_theory_of_operational_semiotics)]\nIf you are researching a specific application of this framework, please let me know if you are looking at its role in media installations, linguistics, or institutional control systems.",
+   "img_urls": null,
+   "surface_basis": "Google AI Overview by tab state: 'All' underlined in the screenshot; expanded Overview records as AIO per MANUS rule of 2026-08-17.",
+   "sf_derived": true,
+   "sf": "AI Overview, 8 sources · 1 observation",
+   "citable_unit": "address — the semantic address across all its surfaces and dates"
   }
  ],
  "link_policy": {
@@ -73652,23 +74370,31 @@
  "_record_rule": "ONE RECORD PER SEMANTIC ADDRESS, KEYED ON THE EXACT QUERY STRING. MANUS 2026-08-13: \"different date captures are part of the same capture record.\" Different DATES and different SURFACES of the same query are OBSERVATIONS OF ONE RECORD — the archive supplies AI Overview and AI Mode as a PAIR for one query, and rendering them as two captures was the doubling. QUOTED AND UNQUOTED REMAIN DISTINCT RECORDS: quoting is the decisive measured variable in this corpus, and «operative semiotics» held 5/5 archive cards quoted against 1/8 unquoted.",
  "_rerun_rule": "THE RECORD RE-RUN GOES TO GENERAL GOOGLE SEARCH. udm=50 is used ONLY where EVERY observation of that record was captured natively in AI Mode. MANUS: \"not to ai mode (unless that was the native mode in which it was captured). to general google search for that semantic address.\" A record that spans AI Overview and AI Mode is not an AI Mode record, and sending it to AI Mode would pre-decide the surface. Each observation keeps its own re-run at its own surface.",
  "_authority": {
-  "canonical_store": "alexanarch:rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json",
-  "this_file": "DERIVED. A projection of the canonical store for publication and for the gallery to render.",
-  "_rule": "EXACTLY ONE WRITABLE AUTHORITY. Three surfaces previously each claimed to be the source of truth: this file said so in its _FLOW block, the file itself said it was a projection of the rebuild, and the dataset manifest named this file. Those cannot all be true. THE REBUILD IS CANONICAL AND IS THE ONLY THING WRITTEN TO. Every other artifact is derived and says so.",
+  "canonical_store": "alexanarch:data/EA-WG-CAPTURES-01.json (THIS FILE)",
+  "this_file": "CANONICAL. The single writable authority for the capture registry, ratified 2026-08-17.",
+  "_rule": "EXACTLY ONE WRITABLE AUTHORITY: this file. Every gallery, link map, semantic-address layer, dataset mirror and fleet surface is derived from it and says so. Nothing writes back.",
+  "_ruling": "MANUS, 2026-08-17: 'b - amend doctrine.' Finding: PIPELINE.md step 3 (2026-08-13) directed seating into data/EA-WG-CAPTURES-01.json from the day the rebuild completed; eight committed seat scripts and every intake since obeyed it. The constitution and the operating manual disagreed for a month; the manual, and practice, win. The rebuild store is sealed with honor as the rebuild-era source.",
+  "sealed_rebuild_era_source": {
+   "path": "rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json",
+   "sealed": "2026-08-17",
+   "state_at_seal": "305 addresses / 401 observations as of 2026-08-13; the reconstruction instrument that restored the corpus source-by-source with provenance",
+   "status": "Historical source of record for the rebuild era. Never written, never projected forward. Its provenance blocks remain the authority for how pre-08-13 values were recovered."
+  },
   "derived_artifacts": [
-   "data/EA-WG-CAPTURES-01.json (this file)",
    "captures/index.html",
    "data/capture-deposit-links.json",
    "data/semantic-addresses.json",
-   "datasets/capture-registry/* (mirror)"
+   "datasets/capture-registry/* (mirror)",
+   "fleet gallery mirrors"
   ],
   "nothing_writes_back": "No output, mirror, gallery or compatibility projection is ever a write target.",
-  "address_count": 305,
-  "observation_count": 401,
-  "_total_captures_note": "total_captures is RETAINED FOR COMPATIBILITY and is ambiguous by construction — it has meant 285 query records, 404 observations, 401 observations and 305 address records on different surfaces. Prefer address_count and observation_count."
+  "known_followups": [
+   "scripts/capture_intake.py routes exact-match against the sealed store and cannot see post-08-13 addresses; repoint to this file before its next use or it will mint duplicates.",
+   "seat_source.py, cite_draft.py, extract_citations.py read the sealed store; verify or repoint before reuse."
+  ]
  },
- "address_count": 343,
- "observation_count": 487,
+ "address_count": 345,
+ "observation_count": 489,
  "withdrawn_stubs": {
   "_rule": "THE REGISTRY MUST NOT CONTRADICT ITSELF. Each of these said \"no registry entry was ever written for them\" while a real record held the SAME IMAGES a card away. MANUS 2026-08-13: \"the very first capture says there is no record, followed by the second capture, which is the record… this registry doesnt talk to itself.\" Withdrawn, with the record that covers each.",
   "records": [
