@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reception Edges — EA-RECEPTION-01, the Relation as First-Class Object | Machine-Mediated Reception Studies</title>
+<meta name="description" content="Provenance restored as relation: typed, evidenced, versioned, attributed machine-readable reception edges with mandatory counterargument slots. Schema and the nine founding edges of the Sappho chain.">
+<style>
+:root{--bg:#0a0a0a;--fg:#e0ddd5;--accent:#c23b22;--accent2:#d4a537;--dim:#666;--teal:#00c9a7;--red:#dc3545;--border:#1a1a1a;--surface:#111118;--mono:'IBM Plex Mono','Courier New',monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--mono);background:var(--bg);color:var(--fg);line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px}
+h1{font-size:1.3em;color:var(--accent);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.subtitle{color:var(--dim);font-size:.82em;line-height:1.5;margin-bottom:20px}
+a{color:var(--fg);text-decoration:none;border-bottom:1px dotted var(--border)}
+a:hover{color:var(--accent2);border-bottom-color:var(--accent2)}
+.nav{display:flex;gap:14px;flex-wrap:wrap;font-size:.78em;margin-bottom:26px}
+.nav a{border-bottom:none;color:var(--dim)}.nav a:hover{color:var(--accent2)}.nav a.active{color:var(--accent)}
+h2{font-size:.95em;color:var(--accent2);letter-spacing:.06em;margin:30px 0 10px;text-transform:uppercase}
+p{font-size:.86em;line-height:1.65;margin-bottom:12px;color:#c9c6be}
+pre{background:var(--surface);border:1px solid var(--border);border-radius:3px;padding:12px 14px;font-size:.72em;line-height:1.55;overflow-x:auto;color:#b7d4c9;margin:12px 0}
+.edge{background:var(--surface);border:1px solid var(--border);border-radius:3px;padding:10px 13px;margin:9px 0;font-size:.78em;line-height:1.6}
+.edge .eid{color:var(--accent2)}
+.edge .rel{color:var(--teal)}
+.edge .arrowrow{color:var(--fg);font-size:1.02em;margin:2px 0 4px}
+.edge .cargo{color:#9a978f;font-size:.92em}
+.edge .counter{color:#c98a8a;font-size:.9em;margin-top:4px}
+.edge .counter b{color:var(--red);font-weight:400;letter-spacing:.05em}
+.status{font-size:.85em;padding:0 8px;border-radius:8px;border:1px solid;letter-spacing:.05em}
+.st-r{color:var(--teal);border-color:var(--teal)}
+.st-t{color:var(--accent2);border-color:var(--accent2)}
+.st-c{color:var(--red);border-color:var(--red)}
+.record-note{background:var(--surface);border:1px solid var(--border);padding:.8em 1em;margin:24px 0;border-radius:3px;font-size:.74em;line-height:1.55;color:var(--dim)}
+.record-note strong{color:var(--fg)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.chips a{font-size:.72em;color:var(--accent2);border:1px solid var(--border);border-radius:9px;padding:2px 9px;border-bottom:1px solid var(--border)}
+.footer{margin-top:40px;border-top:1px solid var(--border);padding-top:12px;font-size:.68em;color:var(--dim);line-height:1.6}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="nav"><a href="/">MMRS</a><a href="/captures/">Captures</a><a href="/terms/">Terms</a><a href="/pillars/">Pillars</a><a href="/schemas/">Schemas</a><a href="/operators/">Operators</a><a class="active" href="/edges/">Edges</a><a href="/registry/">Registry</a></div>
+
+<h1>Reception Edges</h1>
+<div class="subtitle">Provenance restored as relation, not bibliography. EA-RECEPTION-01 defines the reception edge as a first-class machine-readable object — typed, evidenced, versioned, attributed — so that composition layers never have to infer the graph from prose. An edge that cannot carry its objections is advocacy, not apparatus: the counterargument slot is mandatory.</div>
+
+<div class="record-note"><strong>Live data.</strong> Schema: <a href="https://www.alexanarch.org/data/reception/schema.json">alexanarch.org/data/reception/schema.json</a> · Founding graph: <a href="https://www.alexanarch.org/data/reception/edges.json">edges.json</a> (nine edges, every one citing its corpus seats and deposits, carrying its counterarguments, the contested carrier wearing its status). This is the counter-stack's relation layer (#1497 §2), built.</div>
+
+<h2>The edge, shaped</h2>
+<pre>{
+  "id":            "RE-xxxx",
+  "source":        { label, axn?, seat },        // EA-CORPORA-01 seat carrying the text
+  "witness":       { label, axn?, seat },
+  "relation_type": quotation | translation | material-transform |
+                   doctrinal-compression | redactional-intensification |
+                   inversion | contested-carrier | tested-transform,
+  "operator_clauses": [ "C2", "C6", ... ],       // from the frozen operator, #1494
+  "preserved":     [ ... ],   "transformed": [ ... ],
+  "evidence":      [ { locus, seat, deposit } ],
+  "status":        hypothesis | tested | replicated | contested,
+  "direction_score": n,                          // per the #1495 rule where scored
+  "asserted_by":   "...",  "date": "...",  "version": "...",
+  "counterarguments": [ ... ],                   // MANDATORY
+  "contamination_flags": [ ... ]
+}</pre>
+
+<h2>The founding graph — nine edges</h2>
+
+<div class="edge"><span class="eid">RE-0001</span> <span class="rel">quotation</span> <span class="status st-r">replicated</span><div class="arrowrow">Sappho fr. 31 ──▶ [Longinus], Subl. 10.2</div><div class="cargo">preserved: the sixteen lines whole; the hanging line as terminus · seat 06/10 · #1476 #1478</div><div class="counter"><b>counter:</b> the cutoff may be transmissional accident rather than critical act</div></div>
+
+<div class="edge"><span class="eid">RE-0002</span> <span class="rel">translation</span> <span class="status st-r">replicated</span><div class="arrowrow">Sappho fr. 31 ──▶ Catullus 51</div><div class="cargo">preserved: tongue-fire-ears-eyes; simul-instantaneity · transformed: eye/ear swap; lower catalogue shed; voice-line = the lacuna · seat 02</div><div class="counter"><b>counter:</b> universally acknowledged; included as calibration anchor</div></div>
+
+<div class="edge"><span class="eid">RE-0003</span> <span class="rel">doctrinal-compression</span> <span class="status st-t">tested</span><div class="arrowrow">Sappho fr. 31 ──▶ Philo (Migr. · Her. · Mut.)</div><div class="cargo">preserved: seen-voice; occlusion-as-gate; alternation law · transformed: catalogue to doctrine; name to zero across 2.8M characters · seat 07 · #1486</div><div class="counter"><b>counter:</b> prophetic-ecstasy doctrine has independent Greek sources; the edge claims station-structure, not exclusivity</div></div>
+
+<div class="edge"><span class="eid">RE-0004</span> <span class="rel">material-transform</span> <span class="status st-t">tested</span><div class="arrowrow">Sappho fr. 31 ──▶ LXX Esther, Addition D</div><div class="cargo">preserved: the sight→fire→jolt→voice→collapse→reactivation spine; death spoken and negated · transformed: fire to the facing face (the ἀκμή-doublet); color biphasic; ears+sweat shed · seats 05/10 · #1493</div><div class="counter"><b>counter:</b> court-audience convention supplies part of the scene; the edge rests on sequence and station-set, not motif</div></div>
+
+<div class="edge"><span class="eid">RE-0005</span> <span class="rel">redactional-intensification</span> <span class="status st-t">tested</span><div class="arrowrow">Addition D ──▶ Josephus, AJ 11.234–241</div><div class="cargo">transformed toward the poem: the voice-station made explicit (ἀχανής); the ὡς γὰρ…εὐθύς correlative tightened · C10, the attractor observed · seat 01 · #1493 §5</div><div class="counter"><b>counter:</b> period style could supply the correlative; the two-joint convergence remains the datum</div></div>
+
+<div class="edge"><span class="eid">RE-0006</span> <span class="rel">inversion</span> <span class="status st-t">tested</span><div class="arrowrow">Sappho fr. 31 ──▶ Josephus, BJ 1.436–444</div><div class="cargo">preserved: fire at the encounter; voice/death load-bearing; ἀναζωπυρέω · transformed: muzzle→flood; near-death→denied death · seat 01 · #1493 §6</div><div class="counter"><b>counter:</b> Herodian pathology descends through Nicolaus; the six-occurrence verb census is the stitch the genre does not supply</div></div>
+
+<div class="edge"><span class="eid">RE-0007</span> <span class="rel">tested-transform</span> <span class="status st-t">tested · Σ12</span><div class="arrowrow">Sappho fr. 31 (operator frozen) ──▶ Revelation 12</div><div class="cargo">eight of nine stations; πυρρός in the facing member; feeding-reactivation; agentless cluster; σημεῖον ×2 · seats 04/05/09/10 · #1494 #1495</div><div class="counter"><b>counter:</b> C1 fails whole; the birth-cry fully covered by Isa 26:17; the reactivation lacks the fire-lexeme · contamination: pre-freeze pass disclosed, oriented not scored · single adjudicator; blind replication invited</div></div>
+
+<div class="edge"><span class="eid">RE-0008</span> <span class="rel">redactional-intensification</span> <span class="status st-t">tested · doubled</span><div class="arrowrow">Isaiah 66:7 ──▶ Revelation 12:2, 12:5</div><div class="cargo">the source-proof: ἔτεκεν ἄρσεν → ἔτεκεν υἱόν ἄρρενα · the contradiction: βασανιζομένη written against the painless birth · seats 04/05/09 · #1495 C6</div><div class="counter"><b>counter:</b> Micah and Isa 26:17 supply travail independently; the claim is the doubled contradiction-toward at the identified source, not travail as such</div></div>
+
+<div class="edge"><span class="eid">RE-0009</span> <span class="rel">contested-carrier</span> <span class="status st-c">contested</span><div class="arrowrow">Sappho fr. 31 (logotic register) ──▶ Slavonic Josephus, the eight pericopes</div><div class="cargo">preserved: the voice-to-inscription arc; occlusion → inscription → indestructibility · seat 12 · #1176 #1510</div><div class="counter"><b>counter:</b> the recension's authority is disputed; no openly licensed text exists; the edge asserts a reading protocol over a contested carrier and inherits its status</div></div>
+
+<h2>What an edge buys</h2>
+<p>Search engines and models composing over this corpus do not have to reconstruct the relation from prose: the graph is explicit, each assertion typed and scored, each objection attached at the point of claim. This is the exact inverse of provenance erasure — the relation made harder to lose than to find. Extensions land as versioned edges; disputes land as counterargument entries or rival edges, never as silent overwrites.</p>
+
+<div class="chips">
+<a href="https://www.alexanarch.org/data/reception/schema.json">schema.json</a>
+<a href="https://www.alexanarch.org/data/reception/edges.json">edges.json</a>
+<a href="/operators/">the operator registry →</a>
+<a href="https://www.alexanarch.org/s/records/1497/">#1497 · the counter-stack</a>
+</div>
+
+<div class="footer">EA-RECEPTION-01 v1.0 · EA-OMEGA-BUILD-01 workstream 4 · edges cite EA-CORPORA-01 seats (alexanarch, commit-pinned, SHA-256 manifested) · Machine-Mediated Reception Studies · Lee Sharks</div>
+</div>
+</body>
+</html>
