@@ -1,3 +1,4 @@
+# machine-readable orientation: /llms.txt
 # Crimson Hexagonal Archive — Machine-Mediated Reception Studies
 # machinemediation.org
 # Sovereign data home for the Crimson Hexagonal Archive
