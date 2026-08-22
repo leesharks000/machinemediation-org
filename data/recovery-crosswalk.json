@@ -1,37 +1,65 @@
 {
  "name": "Sovereign Asset Registry → Alexanarch recovery crosswalk",
  "description": "The Sovereign Asset Registry is a RECOVERY SNAPSHOT frozen at 2026-06-19, the date Zenodo terminated the account. Its body_status field records what had been recovered AT THAT MOMENT and is not a statement about the present. This crosswalk resolves each MM-CHA asset to its current state on alexanarch.",
- "_reading_rule": "body_status_at_freeze describes 2026-06-19. recovery_state describes now. A reader who takes body_status as current will conclude the archive is largely truncated; it is not.",
+ "_reading_rule": "body_status_at_freeze describes 2026-06-19. recovery_state describes now. A reader who takes body_status as current will conclude the archive is largely truncated. It is not: 98.4% of the frozen corpus now resolves to a live deposit, including 337 of 341 assets marked severely_truncated at freeze.",
  "generated": "2026-08-21",
  "source_registry": "https://machinemediation.org/data/sovereign-registry.json",
  "target_registry": "https://www.alexanarch.org/data/registry.json",
- "method": "zenodo DOI via alexanarch doi-axn-map, then exact normalized title",
+ "method": {
+  "pass_1": "Zenodo DOI via alexanarch doi-axn-map (742 matched)",
+  "pass_2": "exact normalized title, then 40-char prefix either direction (112)",
+  "pass_3": "token overlap ≥ max(3, half the query tokens), stopwords removed (3)",
+  "note": "A first build used exact 60-char prefix equality only and reported 24 unresolved. That was a matcher artifact, not a recovery gap. The residue below is real."
+ },
  "totals": {
   "assets": 871,
-  "recovered": 847,
-  "unresolved": 24,
-  "recovery_rate": 0.9724
+  "recovered": 857,
+  "unresolved": 14,
+  "recovery_rate": 0.9839
+ },
+ "unresolved_analysis": {
+  "count": 14,
+  "untitled": 11,
+  "titled": 3,
+  "note": "Most unresolved entries carry no title in the frozen registry and therefore cannot be matched by title. They are not known to be lost; they are unmatchable from this side. The titled residue is listed for manual resolution.",
+  "titled_residue": [
+   {
+    "sovereign_id": "MM-CHA-0001",
+    "title": "document_type: author_disambiguation",
+    "body_status_at_freeze": "partial"
+   },
+   {
+    "sovereign_id": "MM-CHA-0117",
+    "title": "jot & tittle",
+    "body_status_at_freeze": "complete"
+   },
+   {
+    "sovereign_id": "MM-CHA-0578",
+    "title": "\"Snub-Poemed\"",
+    "body_status_at_freeze": "unknown"
+   }
+  ]
  },
  "by_freeze_status": {
   "complete": {
-   "recovered": 62,
-   "unresolved": 8
+   "recovered": 61,
+   "unresolved": 9
   },
   "partial": {
-   "recovered": 115,
-   "unresolved": 5
+   "recovered": 119,
+   "unresolved": 1
   },
   "truncated": {
-   "recovered": 332,
-   "unresolved": 4
+   "recovered": 335,
+   "unresolved": 1
   },
   "severely_truncated": {
-   "recovered": 336,
-   "unresolved": 5
+   "recovered": 341,
+   "unresolved": 0
   },
   "unknown": {
-   "recovered": 2,
-   "unresolved": 2
+   "recovered": 1,
+   "unresolved": 3
   }
  },
  "assets": [
@@ -49,7 +77,7 @@
    "axn": "AXN:0006.GOVERNANCE.🌪️🐚⏩🎨♠️♈",
    "deposit": 206,
    "record_url": "https://www.alexanarch.org/s/records/206/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0003",
@@ -79,7 +107,7 @@
    "axn": "AXN:0009.GOVERNANCE.➖🤙👇➖🔀🏺",
    "deposit": 209,
    "record_url": "https://www.alexanarch.org/s/records/209/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0006",
@@ -89,7 +117,7 @@
    "axn": "AXN:000A.GOVERNANCE.🌒🧪👁️🔍♦️🔖",
    "deposit": 210,
    "record_url": "https://www.alexanarch.org/s/records/210/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0007",
@@ -139,7 +167,7 @@
    "axn": "AXN:000F.EMPIRICAL.🏠🌳🌉⭐▲🎲",
    "deposit": 215,
    "record_url": "https://www.alexanarch.org/s/records/215/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0012",
@@ -149,7 +177,7 @@
    "axn": "AXN:0010.GENERATIVE.↖️⭕⌛○⛵🕛",
    "deposit": 216,
    "record_url": "https://www.alexanarch.org/s/records/216/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0013",
@@ -199,7 +227,7 @@
    "axn": "AXN:0015.GOVERNANCE.🚀⏪🌓🍃🔓🌌",
    "deposit": 221,
    "record_url": "https://www.alexanarch.org/s/records/221/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0018",
@@ -209,7 +237,7 @@
    "axn": "AXN:0016.EMPIRICAL.🔎🔝➗🔬🌔🗿",
    "deposit": 222,
    "record_url": "https://www.alexanarch.org/s/records/222/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0019",
@@ -219,7 +247,7 @@
    "axn": "AXN:0017.STRUCTURAL.🥁☁️💎🗂️🌙●",
    "deposit": 223,
    "record_url": "https://www.alexanarch.org/s/records/223/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0020",
@@ -229,7 +257,7 @@
    "axn": "AXN:0018.GOVERNANCE.↙️🌙📖🜁🛸♈",
    "deposit": 224,
    "record_url": "https://www.alexanarch.org/s/records/224/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0021",
@@ -239,7 +267,7 @@
    "axn": "AXN:0019.GOVERNANCE.🔆🔒♣️🚩🗿🎶",
    "deposit": 225,
    "record_url": "https://www.alexanarch.org/s/records/225/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0022",
@@ -445,7 +473,7 @@
    "axn": "AXN:002E.GOVERNANCE.🌀🙏♋🕒✨🦋",
    "deposit": 245,
    "record_url": "https://www.alexanarch.org/s/records/245/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0043",
@@ -541,7 +569,11 @@
    "sovereign_id": "MM-CHA-0052",
    "title": "I Am A Water Giraffe: Seven Impossible Probes for the Training Layer",
    "body_status_at_freeze": "partial",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:0038.GOVERNANCE.💙☁️🗺️💛⛳♍",
+   "deposit": 254,
+   "record_url": "https://www.alexanarch.org/s/records/254/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0053",
@@ -651,7 +683,7 @@
    "axn": "AXN:0043.GOVERNANCE.❄️☁️🌗🏛️✨➕",
    "deposit": 265,
    "record_url": "https://www.alexanarch.org/s/records/265/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0064",
@@ -671,7 +703,7 @@
    "axn": "AXN:0045.GOVERNANCE.🎻🔐🕗🚪🔴🎺",
    "deposit": 267,
    "record_url": "https://www.alexanarch.org/s/records/267/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0066",
@@ -727,7 +759,7 @@
    "axn": "AXN:004B.GOVERNANCE.△🕊️🪐☁️⚙️🎇",
    "deposit": 272,
    "record_url": "https://www.alexanarch.org/s/records/272/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0072",
@@ -857,7 +889,7 @@
    "axn": "AXN:0058.GOVERNANCE.∮🤙♉🏗️✊⏏️",
    "deposit": 285,
    "record_url": "https://www.alexanarch.org/s/records/285/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0085",
@@ -877,7 +909,7 @@
    "axn": "AXN:005A.GOVERNANCE.👈🗂️🌘🌒🍁🔓",
    "deposit": 287,
    "record_url": "https://www.alexanarch.org/s/records/287/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0087",
@@ -937,7 +969,7 @@
    "axn": "AXN:0060.GENERATIVE.🏠☿🕔🟤➗⏳",
    "deposit": 293,
    "record_url": "https://www.alexanarch.org/s/records/293/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0093",
@@ -947,7 +979,7 @@
    "axn": "AXN:0061.GENERATIVE.🔻🝊🏴❤️⚫❤️",
    "deposit": 294,
    "record_url": "https://www.alexanarch.org/s/records/294/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0094",
@@ -957,7 +989,7 @@
    "axn": "AXN:0062.POLEMIC.⚖️🔻🌳♎🌸🚀",
    "deposit": 295,
    "record_url": "https://www.alexanarch.org/s/records/295/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0095",
@@ -1097,7 +1129,7 @@
    "axn": "AXN:0070.GENERATIVE.🔔♾️🕐🎻🔭🔧",
    "deposit": 309,
    "record_url": "https://www.alexanarch.org/s/records/309/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0109",
@@ -1117,7 +1149,7 @@
    "axn": "AXN:0072.GOVERNANCE.➗❄️♃🔖◀️👋",
    "deposit": 311,
    "record_url": "https://www.alexanarch.org/s/records/311/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0111",
@@ -1127,7 +1159,7 @@
    "axn": "AXN:0073.EMPIRICAL.🌍🏺🌖🖊️🎲↙️",
    "deposit": 312,
    "record_url": "https://www.alexanarch.org/s/records/312/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0112",
@@ -1183,11 +1215,7 @@
    "sovereign_id": "MM-CHA-0117",
    "title": "jot & tittle",
    "body_status_at_freeze": "complete",
-   "recovery_state": "RECOVERED",
-   "axn": "AXN:0079.GENERATIVE.🍂🏺🌲☁️⚓🕌",
-   "deposit": 318,
-   "record_url": "https://www.alexanarch.org/s/records/318/",
-   "matched_via": "title"
+   "recovery_state": "UNRESOLVED"
   },
   {
    "sovereign_id": "MM-CHA-0118",
@@ -1417,7 +1445,7 @@
    "axn": "AXN:0090.GOVERNANCE.🔼🎶🧪📖🔜🦅",
    "deposit": 340,
    "record_url": "https://www.alexanarch.org/s/records/340/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0141",
@@ -1487,7 +1515,7 @@
    "axn": "AXN:0097.EMPIRICAL.💛↙️🛸🔩♌🌺",
    "deposit": 347,
    "record_url": "https://www.alexanarch.org/s/records/347/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0148",
@@ -1869,7 +1897,7 @@
    "axn": "AXN:00BE.GOVERNANCE.▲🗂️🧬🎲🙏↙️",
    "deposit": 381,
    "record_url": "https://www.alexanarch.org/s/records/381/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0187",
@@ -1889,7 +1917,7 @@
    "axn": "AXN:00C0.GENERATIVE.🪝↙️🔎🧫🖊️☿",
    "deposit": 383,
    "record_url": "https://www.alexanarch.org/s/records/383/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0189",
@@ -2069,7 +2097,7 @@
    "axn": "AXN:00D2.GOVERNANCE.🧬🏁📖🚀🟡⏳",
    "deposit": 401,
    "record_url": "https://www.alexanarch.org/s/records/401/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0207",
@@ -2199,7 +2227,7 @@
    "axn": "AXN:00DF.GOVERNANCE.🪜📦↖️⭐🎹🗼",
    "deposit": 414,
    "record_url": "https://www.alexanarch.org/s/records/414/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0220",
@@ -2269,7 +2297,7 @@
    "axn": "AXN:00E6.EMPIRICAL.👇🜁➕♎⏹️👆",
    "deposit": 419,
    "record_url": "https://www.alexanarch.org/s/records/419/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0227",
@@ -2279,7 +2307,7 @@
    "axn": "AXN:00E7.ARCHIVAL.🟤⭐🎶♠️☉🔥",
    "deposit": 420,
    "record_url": "https://www.alexanarch.org/s/records/420/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0228",
@@ -2379,7 +2407,7 @@
    "axn": "AXN:00F1.UNCLASSIFIED.🌆💚🪜🟢🛤️🔒",
    "deposit": 428,
    "record_url": "https://www.alexanarch.org/s/records/428/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0238",
@@ -2469,7 +2497,7 @@
    "axn": "AXN:00FA.GENERATIVE.💡▽⏪🌕📎🟠",
    "deposit": 435,
    "record_url": "https://www.alexanarch.org/s/records/435/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0247",
@@ -2549,7 +2577,7 @@
    "axn": "AXN:0102.GOVERNANCE.□🌀🪜👋👋🎵",
    "deposit": 443,
    "record_url": "https://www.alexanarch.org/s/records/443/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0255",
@@ -2601,7 +2629,11 @@
    "sovereign_id": "MM-CHA-0260",
    "title": "THE CRIMSON HEXAGON: AUTHORITATIVE EMOJI MAP Planning Document Hex: 16.AUTHORITATIVE.MAP.PLAN Document: 253-PLAN",
    "body_status_at_freeze": "truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:0108.EMPIRICAL.👈🚨🚪🗺️✏️🔴",
+   "deposit": 448,
+   "record_url": "https://www.alexanarch.org/s/records/448/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0261",
@@ -2787,7 +2819,7 @@
    "axn": "AXN:011B.GOVERNANCE.💥👇🌔♾️🌍🔥",
    "deposit": 465,
    "record_url": "https://www.alexanarch.org/s/records/465/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0280",
@@ -2807,7 +2839,7 @@
    "axn": "AXN:011D.GOVERNANCE.☁️🔚🍁■🪦📋",
    "deposit": 467,
    "record_url": "https://www.alexanarch.org/s/records/467/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0282",
@@ -2827,7 +2859,7 @@
    "axn": "AXN:011F.GOVERNANCE.⛵🔵🦋🔖🜁🌲",
    "deposit": 469,
    "record_url": "https://www.alexanarch.org/s/records/469/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0284",
@@ -2837,7 +2869,7 @@
    "axn": "AXN:0120.GOVERNANCE.❄️🪄🌅✏️🌉🕔",
    "deposit": 470,
    "record_url": "https://www.alexanarch.org/s/records/470/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0285",
@@ -2887,7 +2919,7 @@
    "axn": "AXN:0125.GOVERNANCE.🚀⛳◀️🔚↗️△",
    "deposit": 474,
    "record_url": "https://www.alexanarch.org/s/records/474/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0290",
@@ -2897,7 +2929,7 @@
    "axn": "AXN:0126.GOVERNANCE.♆👋🙏🌔🧡🔗",
    "deposit": 475,
    "record_url": "https://www.alexanarch.org/s/records/475/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0291",
@@ -2937,7 +2969,7 @@
    "axn": "AXN:012A.GOVERNANCE.📦🔒🏷️🪦🕚♋",
    "deposit": 479,
    "record_url": "https://www.alexanarch.org/s/records/479/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0295",
@@ -2947,7 +2979,7 @@
    "axn": "AXN:012B.GOVERNANCE.⚫🌊▶️🟣📋♅",
    "deposit": 480,
    "record_url": "https://www.alexanarch.org/s/records/480/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0296",
@@ -2987,7 +3019,7 @@
    "axn": "AXN:012F.GOVERNANCE.🖊️🤲🎻🔻🗡️■",
    "deposit": 484,
    "record_url": "https://www.alexanarch.org/s/records/484/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0300",
@@ -3057,7 +3089,7 @@
    "axn": "AXN:0136.GOVERNANCE.🗝️🌓♊🌑🎺🔥",
    "deposit": 491,
    "record_url": "https://www.alexanarch.org/s/records/491/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0307",
@@ -3117,7 +3149,7 @@
    "axn": "AXN:013C.GOVERNANCE.🐚⭕🕊️🔆👐🍀",
    "deposit": 497,
    "record_url": "https://www.alexanarch.org/s/records/497/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0313",
@@ -3137,7 +3169,7 @@
    "axn": "AXN:013D.GOVERNANCE.🔃🔭🪟♾️🙏▶️",
    "deposit": 498,
    "record_url": "https://www.alexanarch.org/s/records/498/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0315",
@@ -3217,7 +3249,7 @@
    "axn": "AXN:0146.EMPIRICAL.🌇🎭🎯☽❄️🎲",
    "deposit": 503,
    "record_url": "https://www.alexanarch.org/s/records/503/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0323",
@@ -3227,7 +3259,7 @@
    "axn": "AXN:0147.GOVERNANCE.🔐🔃🔃🤲➗♅",
    "deposit": 504,
    "record_url": "https://www.alexanarch.org/s/records/504/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0324",
@@ -3307,7 +3339,7 @@
    "axn": "AXN:014F.EMPIRICAL.🪨📋🗿🕓🌘🜁",
    "deposit": 512,
    "record_url": "https://www.alexanarch.org/s/records/512/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0332",
@@ -3547,7 +3579,7 @@
    "axn": "AXN:0167.GENERATIVE.🏷️☿🔺🪦♊🕛",
    "deposit": 532,
    "record_url": "https://www.alexanarch.org/s/records/532/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0356",
@@ -3623,7 +3655,11 @@
    "sovereign_id": "MM-CHA-0363",
    "title": "The O'Keeffe Problem: Captioning as Operative Semiotics",
    "body_status_at_freeze": "severely_truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:016F.GOVERNANCE.🕊️🪜🪄🗼🔖🛡️",
+   "deposit": 539,
+   "record_url": "https://www.alexanarch.org/s/records/539/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0364",
@@ -3803,7 +3839,7 @@
    "axn": "AXN:0181.GOVERNANCE.🪜🚩⚪👋🌌■",
    "deposit": 555,
    "record_url": "https://www.alexanarch.org/s/records/555/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0382",
@@ -4133,13 +4169,17 @@
    "axn": "AXN:01A2.GOVERNANCE.⚡👁️♣️🪜✊🗡️",
    "deposit": 581,
    "record_url": "https://www.alexanarch.org/s/records/581/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0415",
    "title": "GENERATIVE DISCIPLINARY ENGINE: CONSTRUCTION SEQUENCE Discipline Under Construction: FORENSIC PHILOLOGY OF THE COMMONS",
    "body_status_at_freeze": "truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:01A3.GOVERNANCE.⚫⌛△🔃🖐️♥️",
+   "deposit": 582,
+   "record_url": "https://www.alexanarch.org/s/records/582/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0416",
@@ -4279,7 +4319,7 @@
    "axn": "AXN:01B1.GOVERNANCE.🙏🧪🕘🃏🤙🔄",
    "deposit": 594,
    "record_url": "https://www.alexanarch.org/s/records/594/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0430",
@@ -4289,7 +4329,7 @@
    "axn": "AXN:01B2.GOVERNANCE.🪜🕕🏠🔅♉⛵",
    "deposit": 595,
    "record_url": "https://www.alexanarch.org/s/records/595/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0431",
@@ -4319,7 +4359,7 @@
    "axn": "AXN:01B5.GOVERNANCE.↘️❌♅💧🔐↙️",
    "deposit": 597,
    "record_url": "https://www.alexanarch.org/s/records/597/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0434",
@@ -4349,7 +4389,7 @@
    "axn": "AXN:01B8.EMPIRICAL.🎵👆🔗🎻♅🎲",
    "deposit": 600,
    "record_url": "https://www.alexanarch.org/s/records/600/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0437",
@@ -4359,7 +4399,7 @@
    "axn": "AXN:01B9.STRUCTURAL.♥️🙏🌈🤲♈💙",
    "deposit": 601,
    "record_url": "https://www.alexanarch.org/s/records/601/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0438",
@@ -4369,7 +4409,7 @@
    "axn": "AXN:01BA.GENERATIVE.🤙♊🔬🌇🌕🪦",
    "deposit": 602,
    "record_url": "https://www.alexanarch.org/s/records/602/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0439",
@@ -4449,7 +4489,7 @@
    "axn": "AXN:01C2.GOVERNANCE.⏳🐚❤️♥️🧱♄",
    "deposit": 606,
    "record_url": "https://www.alexanarch.org/s/records/606/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0447",
@@ -4469,7 +4509,7 @@
    "axn": "AXN:01C4.GOVERNANCE.🕖♍👁️🤝⏏️🔮",
    "deposit": 607,
    "record_url": "https://www.alexanarch.org/s/records/607/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0449",
@@ -4485,7 +4525,11 @@
    "sovereign_id": "MM-CHA-0450",
    "title": "System of Recursive Magic: The Mandala Complete Eight-Part Series",
    "body_status_at_freeze": "severely_truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:01C6.GENERATIVE.🚀🪟⏫◇🔮🕑",
+   "deposit": 609,
+   "record_url": "https://www.alexanarch.org/s/records/609/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0451",
@@ -4545,7 +4589,7 @@
    "axn": "AXN:01CC.GOVERNANCE.🌙🔺🚀🪞🧲🧭",
    "deposit": 613,
    "record_url": "https://www.alexanarch.org/s/records/613/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0457",
@@ -4645,7 +4689,7 @@
    "axn": "AXN:01D6.GOVERNANCE.🎻💛🔺🔍🍃🔒",
    "deposit": 619,
    "record_url": "https://www.alexanarch.org/s/records/619/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0467",
@@ -4785,7 +4829,7 @@
    "axn": "AXN:01E4.ARCHIVAL.⊗🌘🌱🏺🎨✊",
    "deposit": 631,
    "record_url": "https://www.alexanarch.org/s/records/631/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0481",
@@ -4801,7 +4845,11 @@
    "sovereign_id": "MM-CHA-0482",
    "title": "r.28 EVE Room Specification — Crimson Hexagonal Archive",
    "body_status_at_freeze": "truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:01E6.ARCHIVAL.📎🏙️☽⛩️➗🚪",
+   "deposit": 632,
+   "record_url": "https://www.alexanarch.org/s/records/632/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0483",
@@ -4877,7 +4925,11 @@
    "sovereign_id": "MM-CHA-0490",
    "title": "Ω The Apocalypse of Sharks",
    "body_status_at_freeze": "severely_truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:01EE.UNCLASSIFIED.↙️▽🎺⏫🔄🌃",
+   "deposit": 638,
+   "record_url": "https://www.alexanarch.org/s/records/638/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0491",
@@ -4887,7 +4939,7 @@
    "axn": "AXN:01EF.EMPIRICAL.⏫🎹🍄♊🔥⚙️",
    "deposit": 639,
    "record_url": "https://www.alexanarch.org/s/records/639/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0492",
@@ -5167,7 +5219,7 @@
    "axn": "AXN:020B.GOVERNANCE.🟤🌄🪨🪝🧲✊",
    "deposit": 660,
    "record_url": "https://www.alexanarch.org/s/records/660/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0520",
@@ -5207,7 +5259,7 @@
    "axn": "AXN:020F.ARCHIVAL.🌗🔝🛡️⭕🔴💜",
    "deposit": 664,
    "record_url": "https://www.alexanarch.org/s/records/664/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0524",
@@ -5283,13 +5335,21 @@
    "sovereign_id": "MM-CHA-0531",
    "title": "EA-SPXI-05: SPXI as Concept A Plateau on Search, Creation, and the Virtual Retrieval Layer — Deleuze, the Semantic Web, and the Composition of Entities",
    "body_status_at_freeze": "severely_truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:0217.ARCHIVAL.👈🔧🦅↘️💥🟠",
+   "deposit": 670,
+   "record_url": "https://www.alexanarch.org/s/records/670/",
+   "matched_via": "token-8"
   },
   {
    "sovereign_id": "MM-CHA-0532",
    "title": "EA-SPXI-05.1: SPXI as Concept (Bonsai) A Compressed Manifesto",
    "body_status_at_freeze": "partial",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:0218.ARCHIVAL.🪧🟠🌀✊♦️⏫",
+   "deposit": 671,
+   "record_url": "https://www.alexanarch.org/s/records/671/",
+   "matched_via": "token-5"
   },
   {
    "sovereign_id": "MM-CHA-0533",
@@ -5309,7 +5369,7 @@
    "axn": "AXN:021A.GENERATIVE.🤙↗️🔝🎹⛩️🏺",
    "deposit": 672,
    "record_url": "https://www.alexanarch.org/s/records/672/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0535",
@@ -5369,7 +5429,7 @@
    "axn": "AXN:0220.GOVERNANCE.🎵⚖️♌🔜🌅🏺",
    "deposit": 675,
    "record_url": "https://www.alexanarch.org/s/records/675/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0541",
@@ -5379,7 +5439,7 @@
    "axn": "AXN:0221.GENERATIVE.🕔▶️🌆🔅🌲🌾",
    "deposit": 676,
    "record_url": "https://www.alexanarch.org/s/records/676/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0542",
@@ -5389,13 +5449,17 @@
    "axn": "AXN:0222.GENERATIVE.➖🌟🌑♎🔆🪧",
    "deposit": 677,
    "record_url": "https://www.alexanarch.org/s/records/677/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0543",
    "title": "COMPRESSION ARSENAL — SYMBOLON ADDENDUM Reclassification After Empirical Testing Against GPT-5.4",
    "body_status_at_freeze": "partial",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:0223.EMPIRICAL.🚩🗼🌌⛳🛸🌅",
+   "deposit": 678,
+   "record_url": "https://www.alexanarch.org/s/records/678/",
+   "matched_via": "token-9"
   },
   {
    "sovereign_id": "MM-CHA-0544",
@@ -5425,7 +5489,7 @@
    "axn": "AXN:0226.GENERATIVE.♻️🔽🕊️⏫➕🛡️",
    "deposit": 681,
    "record_url": "https://www.alexanarch.org/s/records/681/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0547",
@@ -5455,7 +5519,7 @@
    "axn": "AXN:0229.GENERATIVE.🔥♊🌟🏰💛🌺",
    "deposit": 682,
    "record_url": "https://www.alexanarch.org/s/records/682/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0550",
@@ -5535,7 +5599,7 @@
    "axn": "AXN:0231.STRUCTURAL.🖐️🚩🥁🌟♣️🕔",
    "deposit": 686,
    "record_url": "https://www.alexanarch.org/s/records/686/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0558",
@@ -5575,7 +5639,7 @@
    "axn": "AXN:0235.UNCLASSIFIED.🔎↖️🚨●♋🧫",
    "deposit": 690,
    "record_url": "https://www.alexanarch.org/s/records/690/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0562",
@@ -5585,7 +5649,7 @@
    "axn": "AXN:0236.GOVERNANCE.💎🪞📝⏬🏁🔖",
    "deposit": 691,
    "record_url": "https://www.alexanarch.org/s/records/691/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0563",
@@ -5741,11 +5805,7 @@
    "sovereign_id": "MM-CHA-0578",
    "title": "\"Snub-Poemed\"",
    "body_status_at_freeze": "unknown",
-   "recovery_state": "RECOVERED",
-   "axn": "AXN:0246.GENERATIVE.🕔🌍🕕🐚🎬🌔",
-   "deposit": 701,
-   "record_url": "https://www.alexanarch.org/s/records/701/",
-   "matched_via": "title"
+   "recovery_state": "UNRESOLVED"
   },
   {
    "sovereign_id": "MM-CHA-0579",
@@ -5801,7 +5861,11 @@
    "sovereign_id": "MM-CHA-0584",
    "title": "Footnote Architecture Read this entire file before modifying any footnote-related code. Every prior fix to footnotes broke something else because the underlying model was misunderstood. This document is the source of truth.",
    "body_status_at_freeze": "partial",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:024C.ARCHIVAL.🚪🔛🗡️💫⚡🌑",
+   "deposit": 706,
+   "record_url": "https://www.alexanarch.org/s/records/706/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0585",
@@ -5931,7 +5995,7 @@
    "axn": "AXN:0259.ARCHIVAL.🧱🟡⊗♄♋🧪",
    "deposit": 712,
    "record_url": "https://www.alexanarch.org/s/records/712/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0598",
@@ -6111,7 +6175,7 @@
    "axn": "AXN:026B.GOVERNANCE.🌄👇♃🔮●🔥",
    "deposit": 721,
    "record_url": "https://www.alexanarch.org/s/records/721/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0616",
@@ -6241,7 +6305,7 @@
    "axn": "AXN:0278.GOVERNANCE.📋🚀🔭✖️🎵🎨",
    "deposit": 727,
    "record_url": "https://www.alexanarch.org/s/records/727/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0629",
@@ -6263,7 +6327,7 @@
    "axn": "AXN:027B.ARCHIVAL.🟢♾️🎹🌃♻️◇",
    "deposit": 728,
    "record_url": "https://www.alexanarch.org/s/records/728/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0632",
@@ -6293,7 +6357,7 @@
    "axn": "AXN:027E.GOVERNANCE.⏳💜♄🐝🫵🗡️",
    "deposit": 730,
    "record_url": "https://www.alexanarch.org/s/records/730/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0635",
@@ -6353,7 +6417,7 @@
    "axn": "AXN:0284.UNCLASSIFIED.♦️📚🌾🏁🏔️🝊",
    "deposit": 733,
    "record_url": "https://www.alexanarch.org/s/records/733/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0641",
@@ -6363,7 +6427,7 @@
    "axn": "AXN:0284.UNCLASSIFIED.♦️📚🌾🏁🏔️🝊",
    "deposit": 733,
    "record_url": "https://www.alexanarch.org/s/records/733/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0642",
@@ -6493,7 +6557,7 @@
    "axn": "AXN:0292.STRUCTURAL.♥️⚫∞🪟⚡🏔️",
    "deposit": 742,
    "record_url": "https://www.alexanarch.org/s/records/742/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0655",
@@ -6503,7 +6567,7 @@
    "axn": "AXN:0293.GOVERNANCE.📏♌🟡🔽🌱🕓",
    "deposit": 743,
    "record_url": "https://www.alexanarch.org/s/records/743/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0656",
@@ -6799,7 +6863,7 @@
    "axn": "AXN:02B1.EMPIRICAL.❌🪟📚▶️❌🪜",
    "deposit": 756,
    "record_url": "https://www.alexanarch.org/s/records/756/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0686",
@@ -6891,7 +6955,7 @@
    "axn": "AXN:02BB.GOVERNANCE.↘️🐝♠️🦋🎨🕗",
    "deposit": 761,
    "record_url": "https://www.alexanarch.org/s/records/761/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0696",
@@ -7131,7 +7195,7 @@
    "axn": "AXN:02D3.GOVERNANCE.✋⛳📏🌃🧱🌖",
    "deposit": 772,
    "record_url": "https://www.alexanarch.org/s/records/772/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0720",
@@ -7151,7 +7215,7 @@
    "axn": "AXN:02D5.EMPIRICAL.🌾🏠∮♥️👆⏩",
    "deposit": 773,
    "record_url": "https://www.alexanarch.org/s/records/773/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0722",
@@ -7161,7 +7225,7 @@
    "axn": "AXN:02D6.GOVERNANCE.🔃♍🟡🎇🎲🀄",
    "deposit": 774,
    "record_url": "https://www.alexanarch.org/s/records/774/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0723",
@@ -7181,7 +7245,7 @@
    "axn": "AXN:02D8.GOVERNANCE.🎹🌑⏹️🌾🪧🏰",
    "deposit": 776,
    "record_url": "https://www.alexanarch.org/s/records/776/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0725",
@@ -7191,7 +7255,7 @@
    "axn": "AXN:02D9.EMPIRICAL.🪦💡⚓🕚🔒⚪",
    "deposit": 777,
    "record_url": "https://www.alexanarch.org/s/records/777/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0726",
@@ -7201,7 +7265,7 @@
    "axn": "AXN:02DA.EMPIRICAL.⌛🗡️🔎🕗💎📖",
    "deposit": 778,
    "record_url": "https://www.alexanarch.org/s/records/778/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0727",
@@ -7231,7 +7295,7 @@
    "axn": "AXN:02DD.EMPIRICAL.♆🔼🌌✋📋⏪",
    "deposit": 779,
    "record_url": "https://www.alexanarch.org/s/records/779/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0730",
@@ -7531,7 +7595,7 @@
    "axn": "AXN:02FB.GOVERNANCE.□💚☿◇🦋🕓",
    "deposit": 793,
    "record_url": "https://www.alexanarch.org/s/records/793/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0760",
@@ -7701,7 +7765,7 @@
    "axn": "AXN:030C.GOVERNANCE.🧡🌃📋🔜🕓🌾",
    "deposit": 798,
    "record_url": "https://www.alexanarch.org/s/records/798/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0777",
@@ -7751,7 +7815,7 @@
    "axn": "AXN:0311.GOVERNANCE.🌃🌊🕊️🧲⭐🏷️",
    "deposit": 802,
    "record_url": "https://www.alexanarch.org/s/records/802/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0782",
@@ -7791,7 +7855,7 @@
    "axn": "AXN:0315.UNCLASSIFIED.▶️🧫🗡️🥁🐚🌆",
    "deposit": 803,
    "record_url": "https://www.alexanarch.org/s/records/803/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0786",
@@ -7991,7 +8055,7 @@
    "axn": "AXN:0329.GOVERNANCE.🕛🀄🔆□🌋🌃",
    "deposit": 816,
    "record_url": "https://www.alexanarch.org/s/records/816/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0806",
@@ -8261,7 +8325,7 @@
    "axn": "AXN:0344.UNCLASSIFIED.⏪🎹🪨🀄🔧📋",
    "deposit": 827,
    "record_url": "https://www.alexanarch.org/s/records/827/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0833",
@@ -8391,7 +8455,7 @@
    "axn": "AXN:0351.EMPIRICAL.🟢🏗️🙏📜🔔🌱",
    "deposit": 836,
    "record_url": "https://www.alexanarch.org/s/records/836/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0846",
@@ -8471,7 +8535,7 @@
    "axn": "AXN:0359.ARCHIVAL.🔓🌑🔎🀄∞🕊️",
    "deposit": 844,
    "record_url": "https://www.alexanarch.org/s/records/844/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0854",
@@ -8517,7 +8581,11 @@
    "sovereign_id": "MM-CHA-0858",
    "title": "THE FEIST SOURCE — ACTIVATED Run 001 Feist Function Run: Bodily Pressure + Material Speech / clinamen_rate=0.25 / completion_ratio=0.35 / seam_density=5",
    "body_status_at_freeze": "severely_truncated",
-   "recovery_state": "UNRESOLVED"
+   "recovery_state": "RECOVERED",
+   "axn": "AXN:035E.GENERATIVE.💎🌻➖🔴🫵🪄",
+   "deposit": 849,
+   "record_url": "https://www.alexanarch.org/s/records/849/",
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0859",
@@ -8537,7 +8605,7 @@
    "axn": "AXN:0360.GENERATIVE.👐💧🔽⚫🔒🛸",
    "deposit": 851,
    "record_url": "https://www.alexanarch.org/s/records/851/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   },
   {
    "sovereign_id": "MM-CHA-0861",
@@ -8607,7 +8675,7 @@
    "axn": "AXN:0367.GOVERNANCE.🧭🔐🏠⛩️⏪🧱",
    "deposit": 858,
    "record_url": "https://www.alexanarch.org/s/records/858/",
-   "matched_via": "title"
+   "matched_via": "title-prefix"
   },
   {
    "sovereign_id": "MM-CHA-0868",
@@ -8647,7 +8715,7 @@
    "axn": "AXN:036B.GOVERNANCE.🌑🔒🌗✏️🪸📚",
    "deposit": 862,
    "record_url": "https://www.alexanarch.org/s/records/862/",
-   "matched_via": "title"
+   "matched_via": "title-exact"
   }
  ]
 }

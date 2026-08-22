@@ -4,7 +4,7 @@
   "frozen_at": "2026-06-19",
   "why": "The date Zenodo terminated the account. This registry indexes what had been recovered from the Zenodo corpus at that moment. It is a historical object and does not grow.",
   "body_status_means": "What had been recovered AS OF 2026-06-19. NOT a statement about the present.",
-  "current_state": "847 of 871 assets (97.2%) now resolve to a live deposit at alexanarch, including 336 of 341 marked severely_truncated here.",
+  "current_state": "857 of 871 assets (98.4%) now resolve to a live deposit at alexanarch, including 337 of 341 marked severely_truncated here. Of the 14 unresolved, 9 carry no title in this registry and are unmatchable from this side rather than known lost.",
   "crosswalk": "https://machinemediation.org/data/recovery-crosswalk.json",
   "do_not": "Read body_status as current recoverability. Read the crosswalk."
  },
