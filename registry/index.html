@@ -130,6 +130,17 @@ a:hover{text-decoration-color:currentColor}
 <div class="notice">
 <strong>ZENODO ACCOUNT TERMINATED — 2026-06-19.</strong> All records removed without prior notification or record-level review. Private reason: "substantially AI-generated without a verifiable research basis." Public reason: "Content out of scope for repository." <a href="https://github.com/zenodo/zenodo/issues/2606">#2606</a>
  <br><br><strong>This registry is a recovery snapshot, closed 2026-06-19.</strong> It indexes what had been recovered from the Zenodo corpus at the moment of termination, and does not grow. <strong>Body-status labels below describe that date, not the present:</strong> <a href="/data/recovery-crosswalk.json">807 of 871 assets (92.7%) now resolve to a live deposit at alexanarch</a>, including 334 of 341 marked <em>severely truncated</em> here. Each row carries its live record.</div>
+<div class="notice" style="border-color:#3a3a3a">
+<strong>Units.</strong> These figures count <em>this recovery snapshot</em> — what had been recovered from the Zenodo corpus by 19 June 2026. They are <strong>not</strong> the severance count, and the two do not disagree; they measure different things.
+<br><br>
+<strong>862</strong> deposit records removed at the repository layer &middot; <strong>1,817</strong> DOIs registered through DataCite across them (concept + version layers) &middot; <strong>946</strong> of those 1,817 still findable &middot; <strong>871</strong> keys in the founding-case capture set, of which 3 are malformed truncations, leaving <strong>868</strong> well-formed severed DOIs.
+<br><br>
+<strong>871 is used twice in this archive with different units:</strong> <em>works recovered</em> here, and <em>DOI capture keys</em> on <a href="https://persistentidentifiers.org/">persistentidentifiers.org</a>. Same number, different quantity.
+<br><br>
+The figure previously shown as &ldquo;DOIs Destroyed&rdquo; was <strong>6,596</strong>. That is the sum of per-row DOI lists, not a count of DOIs &mdash; 769 of the 993 distinct DOIs appear on more than one row, and one row lists 386. The distinct figure is <strong>993</strong>.
+<br><br>
+Sources: <a href="https://www.alexanarch.org/s/records/1/">Zenodotus&rsquo; Book-Burning</a> (deposit #1, v9.1) &middot; <a href="https://persistentidentifiers.org/">PID Erosion Observatory</a>.
+</div>
 <div class="stats-grid" id="stats"></div>
 <div class="controls">
 <input class="search-box" id="search" placeholder="Search titles, DOIs, types..." type="text"/>
@@ -173,10 +184,10 @@ Promise.all([
   D=d;
   const s=d.summary;
   document.getElementById('stats').innerHTML=
-    `<div class="stat"><div class="stat-num teal">${d.total_assets}</div><div class="stat-label">Unique Works</div></div>`+
+    `<div class="stat"><div class="stat-num teal">${d.total_assets}</div><div class="stat-label">Works Recovered</div></div>`+
     `<div class="stat"><div class="stat-num green">${s.with_full_text||0}</div><div class="stat-label">Text Restored</div></div>`+
     `<div class="stat"><div class="stat-num yellow">${s.with_zenodo_dois||0}</div><div class="stat-label">Had Zenodo DOI</div></div>`+
-    `<div class="stat"><div class="stat-num red">${s.total_zenodo_dois||0}</div><div class="stat-label">DOIs Destroyed</div></div>`+
+    `<div class="stat"><div class="stat-num red">${s.distinct_zenodo_dois||0}</div><div class="stat-label">Distinct Zenodo DOIs</div></div>`+
     `<div class="stat"><div class="stat-num green">${d.total_assets}</div><div class="stat-label">Blog Active</div></div>`;
   go();
     applyHash();
