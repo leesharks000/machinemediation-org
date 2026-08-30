@@ -154,7 +154,17 @@ function ren() {
   const s = document.getElementById('search').value.toLowerCase();
   const cf = document.getElementById('catF').value;
   const mf = document.getElementById('mtF').value;
-  let entries = D.entries.filter(e => {
+  /* 2026-08-30: the renderer had no sort at all — it printed D.entries in file
+     order. When the canonical registry was re-sorted to strict date order, all 21
+     sections interleaved (254 section runs across 373 entries) and the grouping
+     that v8.11 and v9.6 both carried was lost on every surface reading this file.
+     Sort here as well as at source, so a future re-order upstream cannot silently
+     scramble the page again. Sections alphabetical, chronological within each. */
+  let entries = D.entries.slice().sort((a, b) =>
+      (a.s || '\uffff').localeCompare(b.s || '\uffff') ||
+      (a.date || '').localeCompare(b.date || '') ||
+      (a.q || '').localeCompare(b.q || '')
+    ).filter(e => {
     if (s && !e.q.toLowerCase().includes(s) && !(e.d||'').toLowerCase().includes(s)) return false;
     if (cf && e.s !== cf) return false;
     if (mf && e.mt !== mf) return false;
