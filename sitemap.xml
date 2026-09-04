@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.machinemediation.org/</loc><lastmod>2026-07-30</lastmod><priority>1.0</priority></url>
-  <url><loc>https://www.machinemediation.org/registry/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/registry/static.html</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/captures/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/schemas/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/terms/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/downloads/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/pillars/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/mint/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.machinemediation.org/philology/</loc><lastmod>2026-07-30</lastmod><priority>0.8</priority></url>
-  <url><loc>https://machinemediation.org/operators/</loc></url>
-  <url><loc>https://machinemediation.org/edges/</loc></url>
-<url><loc>https://www.machinemediation.org/module/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://machinemediation.org/articles/EA-MMRS-RAW-01.md</loc><lastmod>2026-08-30</lastmod></url>
-  <url><loc>https://www.machinemediation.org/particle/</loc><lastmod>2026-09-03</lastmod></url>
+  <url><loc>https://www.machinemediation.org/</loc><lastmod>2026-09-03</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.machinemediation.org/captures/</loc><lastmod>2026-08-30</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/data/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/data/specs/EA-SPXI-ANALOG-01/v1.0/EA-SPXI-ANALOG-01-v1.0/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/downloads/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/edges/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/mint/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/module/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/operators/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/philology/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/pillars/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/registry/</loc><lastmod>2026-08-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/registry/static/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/schemas/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/terms/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/archive/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/labor/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/praxis/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/soil/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/surface/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/tachyon/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/who/techne/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
 </urlset>
