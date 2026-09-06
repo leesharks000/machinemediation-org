@@ -11,6 +11,12 @@ Usage: python3 scripts/project_captures_jsonld.py captures/index.html [--filter 
 """
 import json, re, sys, urllib.request, html, datetime
 REG = "https://www.alexanarch.org/data/EA-WG-CAPTURES-01.json"
+def _clean(x):
+    """JSON-LD strings must carry no raw control characters: Search Console reported the
+    /captures/ block unparsable on 2026-09-06 (a headline with an embedded newline)."""
+    import re as _re
+    return _re.sub(r"[\x00-\x1f]+", " ", str(x)).strip()
+
 def main():
     page = sys.argv[1]; flt = None; allc = "--all" in sys.argv
     if "--filter" in sys.argv: flt = re.compile(sys.argv[sys.argv.index("--filter")+1], re.I)
@@ -28,7 +34,7 @@ def main():
           "dateModified": datetime.date.today().isoformat(), "version": R.get("version"),
           "hasPart": [{"@type": "Observation", "@id": f"https://www.alexanarch.org/captures/#{e['slug']}", "name": e.get("q"), "observationDate": e.get("date"),
                         "measurementTechnique": e.get("surface"), "url": f"https://www.alexanarch.org/captures/#{e['slug']}",
-                        "description": (e.get("d") or "")[:300]} for e in shown]}
+                        "description": _clean((e.get("d") or "")[:300])} for e in shown]}
     s = open(page, encoding="utf-8").read()
     block = '<link rel="alternate" type="application/json" href="' + REG + '" title="EA-WG-CAPTURES-01 (canonical registry)">\n<script type="application/ld+json" id="captures-dataset">' + json.dumps(ld, ensure_ascii=False) + '</script>'
     s = re.sub(r'<link rel="alternate" type="application/json"[^>]*>\s*<script type="application/ld\+json" id="captures-dataset">.*?</script>', block, s, flags=re.S) if 'id="captures-dataset"' in s else s.replace('</head>', block + '\n</head>', 1)
