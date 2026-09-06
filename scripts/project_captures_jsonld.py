@@ -37,7 +37,11 @@ def main():
                         "description": _clean((e.get("d") or "")[:300])} for e in shown]}
     s = open(page, encoding="utf-8").read()
     block = '<link rel="alternate" type="application/json" href="' + REG + '" title="EA-WG-CAPTURES-01 (canonical registry)">\n<script type="application/ld+json" id="captures-dataset">' + json.dumps(ld, ensure_ascii=False) + '</script>'
-    s = re.sub(r'<link rel="alternate" type="application/json"[^>]*>\s*<script type="application/ld\+json" id="captures-dataset">.*?</script>', block, s, flags=re.S) if 'id="captures-dataset"' in s else s.replace('</head>', block + '\n</head>', 1)
+    # A string replacement in re.sub undergoes backslash processing: the JSON block's
+    # escapes (\n, \u2019, \") were being decoded into raw characters and invalid
+    # escapes — the two unparsable-block reports of 2026-09-06. A function replacement
+    # inserts the block verbatim.
+    s = re.sub(r'<link rel="alternate" type="application/json"[^>]*>\s*<script type="application/ld\+json" id="captures-dataset">.*?</script>', lambda m: block, s, flags=re.S) if 'id="captures-dataset"' in s else s.replace('</head>', block + '\n</head>', 1)
     open(page, "w", encoding="utf-8").write(s)
     print(f"captures JSON-LD: {len(shown)} parts of {len(E)} (registry v{R.get('version')})")
 if __name__ == "__main__": main()
