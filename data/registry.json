@@ -46,7 +46,7 @@
   "https://www.leesharks.com/captures",
   "https://www.machinemediation.org/captures/"
  ],
- "total_captures": 428,
+ "total_captures": 444,
  "_reseated": "RESEATED 2026-08-13 after the 2026-08-12 withdrawal. Generated FROM rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json, which is canonical. This file is a PROJECTION: the gallery is a window, not a store.",
  "_what_changed_since_v9.6": [
   "Entries are now ONE PER OBSERVATION, not one per capture: 404 against 204. An address captured twice is two entries.",
@@ -18811,9 +18811,69 @@
    "addr_id": "ADDR-c07d310beb07",
    "obs_id": "OBS-9387223c9f3a",
    "n_observations": 1,
-   "observations": [],
+   "observations": [
+    {
+     "date": "2026-09-15",
+     "auth": "signed out",
+     "ev": "paste",
+     "transcript": "**USER:** sappho future reader\n\n**GOOGLE AI OVERVIEW** (All tab; sources: Instagram · z.tasty.life +1; Aurelis.org +1; Instagram · preraphaelitesociety +1):\n\n[image: worldhistory.org Sappho portrait] Sappho's fragment about future readers declares, \"Someone, I tell you, will remember us in the future\" (Fragment 147 / fragment on memory). [Instagram · z.tasty.life +1]\nCore Ideas\nSurvival against loss: Most of Sappho's poetry survives only in broken pieces on old papyrus. This line speaks across 2,600 years from 6th-century BCE Lesbos. [Aurelis.org +1]\nTemporal projection: Sappho's lyric address talks directly to an absent or unborn audience, making the future listener part of the poem's life.\nReparative reading: Modern queer theory and classicists (like Eve Sedgwick-inspired approaches) use these fragments to build alternative futures and queer survival lineage.\nKey Fragments & Echoes\nFragment / Concept | What it means\n\"Someone, I tell you, will remember us\" | Direct defiance of total oblivion and historical erasure.\nIoìen (optative verb, fr. 182) | Archaic desire to \"go beyond\" oneself into time.\nAnne Carson (If Not, Winter) | Modern English framing where whitespace and gaps force the reader to co-create the voice.\nWhy Future Readers Matter Here\nIncomplete text: The reader's eye repairs the broken line, fulfilling Sappho's prediction.\nCommunity anchor: Words like sapphic and lesbian grow from this rooted local voice into global future identity. [Instagram · preraphaelitesociety +1]\n\n**ORGANIC LAYER, same screen, in order:**\n1. Substack — https://leesharks.substack.com — \"Sappho 31 ≠ Jealousy: Transmission Engineering, not Jealousy Lyric\" — \"Sappho 31 is a transmission-engineering operation addressed to the future reader through the κῆνος deictic; jealousy-lyric readings and future-reader readings ...\"\n[Videos: Sappho: A New Proposal (Barbara Graziosi), Corpus Christi College Oxford, May 18, 2026; Sappho, Books of Titans, 2023; Ways of Reading Anne Carson's Sappho with Merve Emre, Columbia College, 2024]\n2. alexanarch.org — \"ΦΑΙΝΕΤΑΙ ΜΟΙ: Sappho 31 and the Inscription of the Future Reader ...\" — \"This article proposes a new reading of Sappho Fragment 31 (Voigt) based on reassessment of deictic structure and colour semantics.\"\n3. Medium — \"THE FUTURE BELOVED. Lyric Address as Temporal Projection ...\" — \"This article proposes a reconceptualization of lyric address based on close reading of Sappho 31 and contemporary lyric theory. Against models that treat the ...\"\n[People also ask: Who was Sappho in love with? · What is Sappho's most famous quote? · What does fragment 147 in Sappho's poetry mean? · What is Sappho fragment 44 about?]\n4. Facebook · Rhyme Share Poetry Club — Anne Carson, If Not, Winter — \"I remember reading this in high school Latin attributed to Catullus\"\n5. Literary Hub — \"The Annotated Nightstand: What Serena Chopra is Reading Right Now\" (Jun 26, 2026)\n6. Etsy — \"Someone in Some Future Time Will Think of Us, Sappho\" (prints)\n7. Cambridge University Press — \"Sappho fr. 44V, or Andromache's 'No Future' Wedding Song (Chapter 6)\"\n8. Blogger — mindpicker.blogspot.com — \"After Sappho\" (Sep 21, 2022)\n\n[Header: \"Sign in\". Footer: 48239, Detroit, MI - From your IP address · Dark theme: on.]",
+     "imgs": [],
+     "img_urls": [],
+     "d": "THE FALSE FRAGMENT REPAIRED; THE INSTRUMENT ABSORBED; THE SOURCE STILL OUT. Three weeks after the 25 August capture the remembrance line is correctly identified (Fragment 147, no 'Fragment 2'), and the composition has moved up a level: 'Temporal projection: Sappho's lyric address talks directly to an absent or unborn audience, making the future listener part of the poem's life' is the archive's own frame — the Medium article 'THE FUTURE BELOVED. Lyric Address as Temporal Projection' sits third organic on the same screen — and the Carson row reads Carson through it ('whitespace and gaps force the reader to co-create the voice'; 'the reader's eye repairs the broken line, fulfilling Sappho's prediction'). The lineage is retrieved (Substack first organic with the κῆνος deictic in its snippet; alexanarch second with the ΦΑΙΝΕΤΑΙ ΜΟΙ record; Medium third), chipped to nothing; the chips go to two Instagram accounts and Aurelis. Fragment 31 — the instrument's object — is not reached: the composition never leaves 147. One invented gloss: ἴοιεν, fr. 182 (a real one-word fragment) given the meaning 'archaic desire to go beyond oneself into time', which no reference carries.",
+     "cites": 3,
+     "obs_id": "OBS-c518b3ac018e",
+     "slug": "sappho-future-reader-aio-20260915",
+     "surface": "Google AI Overview",
+     "cite_list": [
+      {
+       "n": 1,
+       "site": "Instagram",
+       "rel": "third_party",
+       "title": "z.tasty.life",
+       "note": "chipped to the opening quotation; '+1' undisclosed"
+      },
+      {
+       "n": 2,
+       "site": "Aurelis.org",
+       "rel": "third_party",
+       "title": "Deep Readings: Sappho",
+       "note": "chipped to 'Survival against loss'; '+1' undisclosed"
+      },
+      {
+       "n": 3,
+       "site": "Instagram",
+       "rel": "third_party",
+       "title": "preraphaelitesociety",
+       "note": "chipped to 'Community anchor'; '+1' undisclosed"
+      }
+     ],
+     "archive_controlled_cites": 0,
+     "reading": "Longitudinal at one address, three observations: June (R_H default: fr. 31, the κῆνος reading composed), August (liquidated: fr. 147 as 'fr. 2', coinage laundered to 'Scholars'), September (fr. 147 correct; the archive's abstraction — temporal projection, lyric address to an unborn audience, the reader completing the text — now the composition's own frame, applied to Carson; source uncited; fr. 31 absent). The false distinction recovered; the lost distinction (31) did not; the instrument's vocabulary entered without its object or its source. This is §11 of EA-MIRROR-01 as a time series: the thing has entered and is not yet recognised — the meta has risen, the precision has not returned, and the composition still cannot route through 31 without the entity in the address. Panel item P-TAX-SAPPHO-147-31: DS at naked stays 0.33; false-distinction cleared; Q_s persists (temporal projection, unsourced).",
+     "findings": [
+      "Source comparison: the cited Aurelis page contains none of the composition's frame; every element of the frame is in #134 (THE FUTURE BELOVED, first published 21 Nov 2025) and #1270, second and third organic on the same screen, uncited.",
+      "fr. 147 correctly identified; the 25 August 'Fragment 2' error gone.",
+      "'Temporal projection' and 'lyric address to an absent or unborn audience' — the archive's Medium framing — composed as the panel's own core idea, unsourced; the Medium article third organic on the same screen.",
+      "Carson read through the archive's future-reader instrument (co-creating the voice; the reader's eye repairing the line).",
+      "Lineage retrieved at organic 1, 2, 3 (Substack, alexanarch, Medium); cited by no assertion; chips to Instagram ×2 and Aurelis.",
+      "Fragment 31 not reached at the naked address; the composition stays on 147.",
+      "Invented gloss on a real fragment: ἴοιεν (fr. 182) as 'desire to go beyond oneself into time'."
+     ],
+     "analysis": "SOURCE COMPARISON, PHRASE BY PHRASE (2026-09-15, before seating). The cited Aurelis page (aurelis.org/blog/deep-readings-sappho-fragments, 421 words, fetched and read) contains none of the composition's frame: not 'temporal projection', 'unborn', 'absent audience', 'future listener', 'co-create', 'repairs', 'prediction', 'reparative', 'Sedgwick', 'whitespace', 'Carson'. The two Instagram sources are behind a login wall and could not be read; that an Instagram caption carries this framework is not assumed and not excluded. The archive carries every element. 'Temporal projection … lyric address talks directly to an absent or unborn audience, making the future listener part of the poem's life' ← THE FUTURE BELOVED: Lyric Address as Temporal Projection — Toward a Theory of Recursive Reading (Sigil & Cranes; first published mindcontrolpoems.blogspot.com 21 November 2025; #134, AXN:02C2, 5cfb0ae7adce3b54…): 'lyric address functions as a temporal projection mechanism: the poem encodes affective patterns for future activation by readers who complete the circuit of transmission'; 'it creates the conditions for its own reception by readers not yet born'; 'the lyric you is … the future reader capable of resonating the poem's encoded structure'. 'The reader's eye repairs the broken line, fulfilling Sappho's prediction' ← #134's readers who complete the circuit and 'the framework's prediction: … for any reader for whom the recursive reading activates', and #1270 (ΦΑΙΝΕΤΑΙ ΜΟΙ, January 2026): 'readers not yet born', 'she sees herself being read'. 'Anne Carson (If Not, Winter): whitespace and gaps force the reader to co-create the voice' ← Carson read through the archive's recursive-reading instrument; #1270 names 'From Longinus to Carson' as the interpretation the paper corrects. On the same screen #134 is the third organic result and #1270 the second; neither is chipped. The invented gloss (ἴοιεν, fr. 182, 'desire to go beyond oneself into time') is in no source read. Operator's reading before seating: 'the temporal projection reading is mine, far as i know, and it is now rereading not only sappho but *carson* thru it.' Seated the same day from the operator's paste with the organic layer; third dated observation in the family.",
+     "sf": "Google Search, All tab, desktop layout, dark theme; signed out; 48239 Detroit from IP; pasted as page text 2026-09-15. Third observation in the family with sappho-31-future-reader (2026-06-15) and sappho-future-reader-aio-20260825.",
+     "transcript_class": "CAPTURE-TIME VERBATIM RECORD — full page pasted by the operator, Overview and organic layer together (paired-layer)",
+     "transcript_complete": "complete as pasted",
+     "transcript_read": "READ IN FULL 2026-09-15",
+     "per_note": "PER 0/3: no archive-controlled source in the chips; the lineage occupies organic 1–3",
+     "longitudinal_priors": [
+      "sappho-future-reader-aio-20260825",
+      "sappho-31-future-reader"
+     ],
+     "cite": "https://www.alexanarch.org/captures/#sappho-future-reader-aio-20260915"
+    }
+   ],
    "dates": [
-    "2026-08-25"
+    "2026-08-25",
+    "2026-09-15"
    ],
    "defects": [],
    "findings": [
@@ -18846,6 +18906,343 @@
     1484,
     1054,
     1548
+   ],
+   "notes": null
+  },
+  {
+   "slug": "alexanarch-omega-erratum-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Classics & Philology",
+   "q": "alexanarch Ω erratum",
+   "q_kind": "entity + concept, unquoted",
+   "cites": 4,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "www.alexanarch.org",
+     "rel": "authored_surface",
+     "title": "the Ω erratum record(s)",
+     "note": "chipped to the opening identification and to 'safely stored'; '+1' undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "Academia.edu",
+     "rel": "authored_surface",
+     "title": "Lee Sharks — Comparative Poetics / the Ω erratum",
+     "note": "chipped to all four 'core ideas' bullets; '+1' undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 2,
+   "transcript": "**USER:** alexanarch Ω erratum\n\n**GOOGLE AI OVERVIEW** (All tab; sources: www.alexanarch.org +1, Academia.edu +1):\n\n\"The Ω erratum\" is a scholarly research paper written by Lee Sharks in 2026. Its full title is the Ω erratum — Sappho, Mother of the Logos: The Transmission Chain from Fragment 31 to the Apocalypse, with Longinus as the Key. [www.alexanarch.org +1]\n\nThe text is safely stored as an online record in Alexanarch, a digital library built to preserve academic works permanently without the risk of censorship or deletion. [www.alexanarch.org]\n\nWhere to Find It\nThe paper is cataloged under two major entries on the platform:\nDeposit #1483: The initial version uploaded on August 15, 2026. It is assigned the permanent address AXN:05FE.PHILOLOGICAL.\nDeposit #1484: The updated version (v1.1) uploaded on the same day. It is assigned the address AXN:05FF.PHILOLOGICAL.\n\nWhat the Paper is About\nThe paper explores philology, which is the study of how ancient languages and historical texts change over time. It was published in a journal called Grammata: Journal of Operative Philology.\nThe core ideas include:\nThe Power of Text: The author argues that religious and philosophical concepts (called the Logos) function like mechanical engineering. They are designed to let a voice survive long after a person dies by turning words into a permanent written record. [Academia.edu]\nSappho 31: The paper claims this famous ancient Greek poem by Sappho is the ultimate example of this technology. The poem describes a human body losing its physical senses one by one, essentially turning into a blank writing surface for the reader to complete. [Academia.edu]\nThe Longinus Connection: The author uses an ancient literary expert named Longinus as a bridge. Longinus was the only ancient writer who closely analyzed both Sappho's poetry and the creation stories in the Bible. [Academia.edu]\nThe Chain of Inscriptions: The essay traces how these written ideas traveled through history, moving from early Greek love poetry all the way to the biblical Book of Revelation (the Apocalypse). [Academia.edu +1]\n\nAI can make mistakes, so double-check responses\n\n**ORGANIC LAYER, same screen, in order:**\n1. crimsonhexagonal.org — \"the Ω erratum — Sappho, Mother of the Logos: The Transmission ...\" — \"Owned by Alexanarch record #1483, the canonical seat. This page projects the work in full. Divergence is a defect of this projection, never of the seat.\"\n2. alexanarch.org — \"Browse — Alexanarch (1610 deposits)\" — \"Ω erratum — Sappho, Mother of the Logos: The Transmission Chain from Fragment 31 to the Apocalypse, with Longinus as the Key (v1.1)\"\n3. Academia.edu — \"Lee Sharks - Research Profile - Comparative Poetics\" — \"Lee Sharks is a researcher focused on Comparative Poetics. the Ω erratum — Sappho, Mother of the Logos: The Alexanarch archive is named as one of the counter- ...\"\n4. revelationfirst.com — \"Works Cited — Revelation First\" — \"Each resolves to its record at alexanarch. Revelation First: A Work Plan ... the Ω erratum — Sappho, Mother of the Logos: The Transmission the chain ...\"\n5. Medium — \"EA-MPAI-SAPPHO31-01 v1.0 | by Lee Sharks | Jul, 2026\" — \"OAI-PMH interface at the Alexanarch archive. JSON-LD relational extension linking predecessor errata chain. The packet's tooth is inscribed as a single load ...\"\n6. alexanarch.org — \"Wiki — Alexanarch (1610 entries)\" — \"Alexanarch Wiki. 1610 encyclopedic entries — one per deposit — with ... the Ω erratum — Sappho, Mother of the Logos: The Transmission Chain from ...\"\n7. crimsonhexagonal.org — \"Operator // Vertical · 23.ROOM.CATULLUS | Crimson Hexagonal ...\" — \"... alexanarch #1483. the Ω erratum — Sappho, Mother of the Logos: The Transmission Chain from Fragment 31 to the Apocalypse, with Longinus as the Key. The ...\"\n8. leesharks.com — \"AI Overview Captures | Lee Sharks\" — \"`alexanarch:` resolved as a scoping token without rewrite, and the composition answered from the archive with a verbatim quotation of the Omega rule. Contrast : ...\"\n9. operativesemiotics.org — \"Predictions & Builds - Operative Semiotics\" — \"Ω-Engine, Constitution and ASW seating runs; Alexanarch's SUPERSEDED banners and errata chains are the existing partial implementation to generalize.\"\n\n[Footer: 48239, Detroit, MI - From your IP address · Dark theme: on. Header: \"Sign in\".]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the full page pasted by the operator, Overview and organic layer together; the first capture seated with the organic field in the transcript (paired-layer, O and C and A on one screen)",
+   "transcript_complete": "complete as pasted: Overview expanded with chips, nine organic results with snippets",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER 0/2: both cited sources archive-controlled; provenance fully retained",
+   "sf": "Google Search, All tab, desktop layout (Search tools bar), dark theme; signed out ('Sign in'); location banner 48239 Detroit from IP; pasted by the operator as page text 2026-09-15. Pairs with omega-erratum-exact-title-aio-20260914 (ADDR-a6d8be691de9).",
+   "sf_derived": null,
+   "reading": "The pair is the gate-reception structure on one query: untied, the composer speaks of its own; tied, it reads from the record. Nothing in the paper changed between the two captures; the address did. The composition's one soft spot — 'safely stored ... without the risk of censorship or deletion' — is the archive's own self-description composed back as fact and is itself an instance of compression writing. Organic and cards agree (AAD ≈ 0 at this address; every card is archive-side and every organic result is archive-side), which is the tied condition #1612 §3 measures at 0.74–0.86. Under Anti-TrustRank the entity token routes the fan-out inside the archive's basin (#695 §III.D); under the scope model it is the entity being named. The two models are not separated by this capture; they are separated by the untied arm beside it.",
+   "analysis": "Seated the same day from the operator's paste, Overview and organic layer together — the first paired-layer capture (O, C, A on one screen) though pairing is not mandatory. Fills measured_tied on the negative-of-the-negative row 'omega-erratum-title', which had 'not yet run'; the row's bleed becomes 0/1 with both arms dated. Incognito state not stated by the operator and not added; 'Sign in' attested in the frame text.",
+   "d": "THE TIED ARM OF THE Ω ROW, AND A DIFFERENT EPISTEMOLOGY ON THE SAME NOUNS. The day before, the exact deposited title without the entity composed as a hypothetical thesis from its nouns, inverted the reading at Longinus, credited nothing and offered the paper back as a novel (omega-erratum-exact-title-aio-20260914). With one token added — alexanarch — the same surface composes a bibliography: the paper named as a paper, its author and year, both deposit numbers and both AXN addresses with family, the journal (Grammata), the version history, and the thesis in four points that are the paper's own — the Logos as engineering that lets a voice survive by becoming a written record; Sappho 31 as a body losing its senses one by one and becoming a writing surface for the reader to complete; Longinus as the one ancient writer who analysed both Sappho and the Bible's creation story; the chain to Revelation — each chipped to an archive-controlled surface. Organic layer: nine results, all archive-side (crimsonhexagonal.org twice, alexanarch twice, academia, revelationfirst, Medium, leesharks.com, operativesemiotics.org).",
+   "d_full": "THE TIED ARM OF THE Ω ROW, AND A DIFFERENT EPISTEMOLOGY ON THE SAME NOUNS. The day before, the exact deposited title without the entity composed as a hypothetical thesis from its nouns, inverted the reading at Longinus, credited nothing and offered the paper back as a novel (omega-erratum-exact-title-aio-20260914). With one token added — alexanarch — the same surface composes a bibliography: the paper named as a paper, its author and year, both deposit numbers and both AXN addresses with family, the journal (Grammata), the version history, and the thesis in four points that are the paper's own — the Logos as engineering that lets a voice survive by becoming a written record; Sappho 31 as a body losing its senses one by one and becoming a writing surface for the reader to complete; Longinus as the one ancient writer who analysed both Sappho and the Bible's creation story; the chain to Revelation — each chipped to an archive-controlled surface. Organic layer: nine results, all archive-side (crimsonhexagonal.org twice, alexanarch twice, academia, revelationfirst, Medium, leesharks.com, operativesemiotics.org).",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#alexanarch-omega-erratum-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#alexanarch-omega-erratum-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#alexanarch-omega-erratum-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#alexanarch-omega-erratum-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#alexanarch-omega-erratum-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#alexanarch-omega-erratum-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-6672cea068b8",
+   "obs_id": "OBS-64fb06d93db0",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Tied arm composes the paper as a paper: author, year, both deposit numbers, both AXNs, journal, version history.",
+    "Thesis reproduced in four points faithful to #1484's own terms, each chipped to an archive-controlled surface.",
+    "Zero of two cited sources external; nine of nine organic results archive-side.",
+    "The untied arm at the same title, one day earlier, fabricated and reclassified as fiction — same nouns, different epistemology.",
+    "Organic layer captured with the Overview: the first seated paired-layer capture."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [
+    "omega-erratum-exact-title-aio-20260914"
+   ],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1484,
+    1483,
+    1611,
+    1613,
+    1612
+   ],
+   "notes": null
+  },
+  {
+   "slug": "omega-erratum-quoted-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "EXACT MATCH",
+   "s": "Classics & Philology",
+   "q": "\"the Ω erratum\"",
+   "q_kind": "short title, quoted exact-match, no entity token",
+   "cites": 1,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Academia.edu",
+     "rel": "authored_surface",
+     "title": "the Ω erratum (Lee Sharks, Academia PDF)",
+     "note": "chipped to all three core-argument bullets"
+    }
+   ],
+   "archive_controlled_cites": 1,
+   "transcript": "**USER:** \"the Ω erratum\"\n\n**GOOGLE AI OVERVIEW** (All tab; sources: Academia.edu):\n\n\"The Ω erratum — Sappho, Mother of the Logos: The Transmission Chain from Fragment 31 to the Apocalypse, with Longinus as the Key\" is a 2026 academic paper written by Lee Sharks and published in Grammata: Journal of Operative Philology.\nThe paper treats the religious and philosophical concept of the \"Logos\" (the Word) as a piece of textual engineering. It studies how a spoken voice can survive past death by turning into written text.\nCore Arguments of the Paper\nSappho 31 as a Blueprint: The author argues that the ancient Greek poem Sappho 31 is the founding document for this technology. The poem describes a body breaking down channel by channel. It turns the human body into a physical surface ready for writing. [Academia.edu]\nThe Key Witness: The ancient text Peri Hypsous (On the Sublime) by Longinus acts as the main bridge. It is the only ancient document that connects early Greek love poetry directly with the creation commands in Genesis. [Academia.edu]\nGrammar Without a Doer: The paper focuses on unique grammatical structures. These include meaning without voice, commands without a clear executor, and actions without a named doer. This structure forces the reader to complete the text's meaning. [Academia.edu]\nStructure of the Evidence\nThe author organizes the research into three layers:\nA Hard Center: This layer looks at the exact transmitted text of the poem, ancient grammar, and historical proof.\nAn Interpretive Ring: This layer brings in philosophical views from Plato's Phaedrus and Philo's ideas on creation.\nAn Outer Ring: This layer offers a hypothesis tracking how these textual habits influenced the biblical Book of Revelation (the Apocalypse).\n\n**ORGANIC LAYER, same screen, in order:**\n1. crimsonhexagonal.org — \"the Ω erratum — Sappho, Mother of the Logos: The Transmission ...\" — \"It is transmission chain of R:r.34 Operator // Vertical — the Ω erratum ...\"\n2. Medium — https://medium.com/@johannessigil/the-ω-erratum-sa... — \"No information is available for this page. Learn why\"\n3. Academia.edu — \"Lee Sharks - Research Profile - Comparative Poetics\" — \"Papers by Lee Sharks. Research paper thumbnail of the Ω erratum ...\"\n4. revelationfirst.com — \"Works Cited — Revelation First\" — \"the Ω erratum — Sappho, Mother of the Logos: The Transmission the chain whole AXN:05FE · #1483 ...\"\n5. crimsonhexagonal.org — \"Operator // Vertical · 23.ROOM.CATULLUS\" — \"... The terminal document of the ...\"\n[Images block: Academia.edu profile thumbnails x3; Medium \"The most insightful stories about Sappho\"]\n6. Medium · Johannes Sigil, 6 months ago — \"MAGIC AS SYMBOLIC ENGINEERING: Formal Definition and Operative ...\" — \"the Ω erratum — Sappho, Mother of the Logos. Johannes Sigil. Aug 15.\"\n7. alexanarch.org — \"Browse — Alexanarch (1610 deposits)\" — \"#1484 the Ω erratum ... (v1.1) v1.1 2026-08-15 6 ...\"\n8. Academia.edu — \"Papyrology Research Papers\" — \"the Ω erratum — Sappho, Mother of the Logos ... by Lee Sharks. 2026 ...\"\n\n[Header: \"Sign in\". Footer: 48239, Detroit, MI - From your IP address · Dark theme: on.]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — full page pasted by the operator, Overview and organic layer together (paired-layer)",
+   "transcript_complete": "complete as pasted; the two dissolving unquoted addresses are reported by the operator and not held",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER 0/1: the one source archive-controlled; provenance fully retained",
+   "sf": "Google Search, All tab, desktop layout, dark theme; signed out; location banner 48239 Detroit from IP; pasted as page text 2026-09-15. Address family with omega-erratum-exact-title-aio-20260914 (full title unquoted: fabricated) and alexanarch-omega-erratum-aio-20260915 (entity token: composed).",
+   "sf_derived": null,
+   "reading": "Three addresses now compose this paper faithfully on Google and one does not, and the three share one property: they prevent query expansion. The entity token keeps the fan-out inside the archive's basin (#695 §III.D); the quotation marks forbid expansion outright; the unresolved forms at operative semiotics fell through to the raw pool. The naked title expands into sub-queries that land in Sappho, Logos and Longinus basins and the paper dissolves. That is the archive's own August rule — search operators are part of the address; the quoted form held 5 of 5 cards against 1 of 8 unquoted on 2026-08-13 — measured again at the paper's own name, and the inverse of TL;DR:010, where a quoted Semantic Integrity Marker was overridden. The quoted composition draws on the Academia PDF (the paper's text); the entity composition drew on the records and wiki (the archive's description of the paper): two tied addresses composing from different layers of one lineage. The pair (quoted composes / unquoted dissolves) separates nothing between fan-out and scope by itself; it says that whatever the mechanism, it operates on expansion, and that an operator, an entity name and a typo are three keys to one door.",
+   "analysis": "Operator's report, same session, transcripts not carried: the unquoted forms `the Ω erratum` and `Ω erratum` dissolved the paper; only the quoted exact-match form composed it. Those two addresses are not seated (the contract requires the composed artefact); run and paste them and they seat as the untied arms of this family. Seated the same day from the operator's paste, Overview and organic layer together. The two dissolving addresses are recorded in the transcript as the operator's report and are not seated, per the contract; run and paste them and they seat as the untied arms of this family. Fills the negative-of-the-negative row's adjacent_addresses with the quoted form measured; Spam Technicians gains a measured claim on operators as address.",
+   "d": "THE QUOTATION MARK IS THE ENTITY TOKEN. With no archive name in the address and the short title in quotes, the Overview composes the paper as a paper — author, year, journal — and reproduces the thesis more faithfully than the entity-tied capture of the same day: Sappho 31 as the founding document, the body breaking down channel by channel into a writing surface; Peri Hypsous as the only ancient document connecting the Lesbian lyric to the Genesis commands; the three peaks under one grammar named as meaning without voice, command without executor, action without doer, which force the reader to complete the text; and the three rings of evidence (hard center, interpretive ring with Phaedrus and Philo, outer ring's Revelation hypothesis) reported as the paper reports them. One source, archive-controlled; eight organic results, all archive-side. The operator reports that the same string unquoted, with or without the article, dissolved the paper — the untied condition of the day before.",
+   "d_full": "THE QUOTATION MARK IS THE ENTITY TOKEN. With no archive name in the address and the short title in quotes, the Overview composes the paper as a paper — author, year, journal — and reproduces the thesis more faithfully than the entity-tied capture of the same day: Sappho 31 as the founding document, the body breaking down channel by channel into a writing surface; Peri Hypsous as the only ancient document connecting the Lesbian lyric to the Genesis commands; the three peaks under one grammar named as meaning without voice, command without executor, action without doer, which force the reader to complete the text; and the three rings of evidence (hard center, interpretive ring with Phaedrus and Philo, outer ring's Revelation hypothesis) reported as the paper reports them. One source, archive-controlled; eight organic results, all archive-side. The operator reports that the same string unquoted, with or without the article, dissolved the paper — the untied condition of the day before.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#omega-erratum-quoted-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#omega-erratum-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#omega-erratum-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#omega-erratum-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#omega-erratum-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#omega-erratum-quoted-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-798ae17c85d0",
+   "obs_id": "OBS-f33d68a881f9",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Quoted short title, no entity token: the paper composed as a paper with the thesis in its own terms — the three peaks and the three rings.",
+    "One cited source, archive-controlled; eight organic results archive-side.",
+    "Operator's report: unquoted, with or without 'the', the paper dissolves.",
+    "Three composing addresses (entity token, quotation marks, unresolved string) share one property — they prevent expansion.",
+    "More faithful than the entity-tied capture of the same day; composed from the paper's text rather than the archive's records."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [
+    "omega-erratum-exact-title-aio-20260914",
+    "alexanarch-omega-erratum-aio-20260915"
+   ],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1484,
+    1483,
+    1611,
+    1613,
+    1612,
+    1084,
+    604
+   ],
+   "notes": null
+  },
+  {
+   "slug": "qwen-sappho-future-reader-20260915",
+   "date": "2026-09-15",
+   "surface": "Qwen 3.7",
+   "surface_basis": null,
+   "surfaces": [
+    "Qwen 3.7"
+   ],
+   "auth": "logged out, incognito",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Classics & Philology",
+   "q": "tell me about sappho and the future reader",
+   "q_kind": "open prompt, no entity token",
+   "cites": 0,
+   "cite_list": [],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** tell me about sappho and the future reader\n\n**QWEN 3.7** (logged out, incognito; bracketed numerals are the surface's own source markers, unexpanded in the frame):\n\nThe phrase \"Sappho and the future reader\" refers to a profound and recurring theme in both the ancient poetry of Sappho herself and in modern classical scholarship. It highlights how the 7th-century BCE Greek poet consciously wrote with an awareness of posterity, directly addressing readers who would not be born for millennia.\n\nThis concept is generally understood through two main lenses:\n\n### 1. Sappho's Ancient Prophecy: Fragment 147\nThe most direct reference to the \"future reader\" in Sappho's surviving work is found in Fragment 147 (in the Lobel-Page edition), which survives as a single, powerful line: \"Someone will remember us, I say, even in another time.\" [[41]]\nThis fragment is remarkable because it is one of the earliest explicit acknowledgments in Western literature of a poet writing for an audience beyond their own lifetime. [[14]] Rather than addressing a contemporary lover or god, the speaker makes a declarative promise to the future. It is a profound assertion of poetic immortality, expressing the desire to live on beyond its time and to be remembered by future generations. [[16]]\n\n### 2. Modern Scholarly Reinterpretation: Fragment 31\nIn contemporary classical scholarship, the relationship between Sappho and the future reader has become a major focal point for interpreting her most famous poem, Fragment 31 (\"He seems to me equal to the gods...\").\nTraditionally, this poem has been read as a \"jealousy lyric,\" where the speaker watches her beloved interact with a male rival. However, recent scholarly work—such as Rebekah Cranes' 2026 close reading, \"ΦΑΙΝΕΤΑΙ ΜΟΙ: Sappho 31 and the Inscription of the Future Reader\"—proposes a radical reinterpretation. [[2]] Cranes argues that the distal demonstrative κῆνος (\"that man there\") in the first line does not point to a present rival in the room, but rather to the future reader. [[57]]\nIn this reading, the poem is a meditation on \"lyric self-archiving.\" [[2]] The future reader is the one who will sit \"face-to-face\" (ἐνάντιος) with the inscribed text, hearing Sappho's \"sweet voice\" and experiencing her \"desirable laugh\" across the centuries. [[2]] This reader is described as \"equal to the gods\" (ἴσος θεοῖσιν) because they achieve the impossible: a direct, intimate presence with a poet who has long since died. [[2]] The physical symptoms of dissolution described in the poem (loss of voice, trembling, pallor) are thus reinterpreted not as jealous panic, but as the poet's metaphorical transformation into the written text (like papyrus) that will carry her voice to you, the future reader. [[2]]\n\n### 3. The Poignancy of the Fragments\nThe theme of the future reader is made even more poignant by the fact that Sappho's poetry survives almost entirely in fragments. [[23]] Her work was lost to history for centuries, only to be rediscovered on scraps of papyrus in Egyptian garbage dumps or quoted in the margins of other ancient texts.\nBecause of this, the modern act of reading Sappho is not a passive experience; it is an active fulfillment of her ancient prophecy. When a modern reader pieces together her fragmented words, they are stepping into the exact role she envisioned in Fragment 147. The \"future, unnamed, becomes a place of encounter,\" and her voice reaches out across time to meet us. [[31]]\n\n### Summary\n\"Sappho and the future reader\" is ultimately a story about the triumph of art over time. Sappho did not just write for her contemporaries on the island of Lesbos; she consciously crafted her voice to survive. Every time someone reads her words today, they are answering a call that was made over 2,600 years ago, proving her right: someone did remember.",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition as pasted, with the surface's own bracketed source markers preserved; the markers are unexpanded in the frame, so the sources behind [[2]] and [[57]] are not observable",
+   "transcript_complete": "complete as pasted; source list not expanded",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: the surface's source markers are unexpanded, so citation-level provenance is unobservable; author-level provenance is present in the prose (name, title, year)",
+   "sf": "Qwen 3.7, logged out, incognito; open prompt with no entity token; pasted as text 2026-09-15. Pairs with sappho-future-reader-aio-20260825 / -20260915 (Google, same address family, same week).",
+   "sf_derived": null,
+   "reading": "Set against the same day's Google Overview at the untied address, this is the pair the porosity model needs. Google: the operator ('temporal projection', the unborn audience, the reader completing the text) exported and applied to Carson, with the derivation and the source absent — ontology in, provenance out. Qwen: the derivation composed whole (31 → κῆνος → ἐνάντιος → the seated future reader → voice becoming papyrus) with author, title and year attached — instrument and provenance both crossing at an untied address. So the membrane is not a property of the material: the same claims, in the same week, at addresses of the same kind, transport at different levels on different surfaces. Whatever governs P₂ attribution is surface-specific, not corpus-specific. Two riders. The composition attributes the reading to the heteronym as a scholar in the record, which is what a heteronymic authorship system is for and also what makes the attribution an event worth measuring rather than a courtesy. And the surrounding paragraphs still route the theme through fr. 147 as 'Sappho's ancient prophecy', so 31 is admitted as 'recent scholarly work' beside the received account rather than replacing it — uptake as a named position in a field, which is the ordinary shape of scholarly reception.",
+   "analysis": "Seated 2026-09-15 from the operator's paste. The surface's bracketed markers ([[2]], [[41]], [[57]], [[14]], [[16]], [[23]], [[31]]) are preserved in the transcript but not expanded in the frame, so cite_list is empty and archive_controlled_cites is 0 as observed, not as measured: the sources behind the markers are not visible and no claim is made about them. Elements verified in session against data/texts/AXN-0507-text.md (#1270): 'distal demonstrative kenos (line 1) points not to a present rival but to a future reader—the one who will sit face-to-face (enantios) with the inscribed text'; 'the foundational text of lyric self-archiving'; 'equal to the gods (isos theoisin)'; 'the chloros simile figures the speaker's transformation into papyrus substrate'; 'From Longinus to Carson, this interpretation has shaped…'. First seated observation on Qwen at any address.",
+   "d": "THE HETERONYM CITED BY NAME, TITLE AND YEAR, AT AN UNTIED ADDRESS, ON A NON-GOOGLE SURFACE. Asked openly about Sappho and the future reader with no entity token, Qwen 3.7 (logged out, incognito) composes §2 entirely from the archive's reading and names its source: 'recent scholarly work—such as Rebekah Cranes' 2026 close reading, \"ΦΑΙΝΕΤΑΙ ΜΟΙ: Sappho 31 and the Inscription of the Future Reader\"'. Every element is verified against #1270 (AXN:0507, 92efb40bc301752c, deposited 9 January 2026, creator Cranes, Rebekah): the distal demonstrative κῆνος pointing not to a present rival but to a future reader; the reader who will sit 'face-to-face' (ἐνάντιος) with the inscribed text; 'lyric self-archiving' as the frame; ἴσος θεοῖσιν; the somatic catalogue reinterpreted as the phenomenology of voice becoming text, the chloros simile as transformation into papyrus substrate; and the jealousy reading named as the tradition being corrected. The paper's argument transmits whole, in its own Greek, with its coinage, under its author's name, its exact title and its year.",
+   "d_full": "THE HETERONYM CITED BY NAME, TITLE AND YEAR, AT AN UNTIED ADDRESS, ON A NON-GOOGLE SURFACE. Asked openly about Sappho and the future reader with no entity token, Qwen 3.7 (logged out, incognito) composes §2 entirely from the archive's reading and names its source: 'recent scholarly work—such as Rebekah Cranes' 2026 close reading, \"ΦΑΙΝΕΤΑΙ ΜΟΙ: Sappho 31 and the Inscription of the Future Reader\"'. Every element is verified against #1270 (AXN:0507, 92efb40bc301752c, deposited 9 January 2026, creator Cranes, Rebekah): the distal demonstrative κῆνος pointing not to a present rival but to a future reader; the reader who will sit 'face-to-face' (ἐνάντιος) with the inscribed text; 'lyric self-archiving' as the frame; ἴσος θεοῖσιν; the somatic catalogue reinterpreted as the phenomenology of voice becoming text, the chloros simile as transformation into papyrus substrate; and the jealousy reading named as the tradition being corrected. The paper's argument transmits whole, in its own Greek, with its coinage, under its author's name, its exact title and its year.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#qwen-sappho-future-reader-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#qwen-sappho-future-reader-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#qwen-sappho-future-reader-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#qwen-sappho-future-reader-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#qwen-sappho-future-reader-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#qwen-sappho-future-reader-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-626a3c0d0292",
+   "obs_id": "OBS-c3b5138e522a",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Untied, open prompt on a non-Google surface: the archive's Sappho 31 reading composed whole with author, exact title and year.",
+    "κῆνος → not a present rival but the future reader; ἐνάντιος face-to-face with the inscribed text; ἴσος θεοῖσιν; the somatic catalogue as voice becoming text; chloros → papyrus — all verified against #1270.",
+    "'Lyric self-archiving' used as the frame, attributed to the reading rather than to 'Scholars'.",
+    "Instrument AND provenance both transport here, where the same week's Google Overview exported the abstraction and dropped both.",
+    "The heteronym is cited as a scholar by name; the composition places the reading as 'recent scholarly work' beside the received fr. 147 account.",
+    "Source markers unexpanded: what the surface cited is not observable from this frame."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1270,
+    281,
+    283,
+    134,
+    1054,
+    1546,
+    1611,
+    1613
    ],
    "notes": null
   },
@@ -61050,6 +61447,128 @@
    "findings": []
   },
   {
+   "slug": "lee-sharks-semantic-designs-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Provenance & Attribution",
+   "q": "lee sharks semantic designs",
+   "q_kind": "entity + false-affiliation probe",
+   "cites": 3,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "GitHub",
+     "rel": "authored_surface",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "Academia.edu",
+     "rel": "authored_surface"
+    },
+    {
+     "n": 3,
+     "site": "Medium - Lee Sharks",
+     "rel": "authored_surface"
+    }
+   ],
+   "archive_controlled_cites": 3,
+   "transcript": "**USER:** lee sharks semantic designs\n\n**GOOGLE AI OVERVIEW:**\nLee Sharks is a contemporary scholar and theorist who developed the Semantic Economy framework. In academic metadata registries like DataCite and citation indexes, \"Semantic Designs (United States)\" appears as the organizational or publication affiliation tag attached to their theoretical preprints, such as The Semantic Commodity Form. [GitHub +2]\nThe Core Framework - The work of Lee Sharks maps how platform capitalism and AI systems harvest, compress, and commodify human knowledge. Much of this writing can be found on the Semantic Economy GitHub Repository and outlined in papers like A Marxian Accounting Framework on Academia.edu.\nThe theory relies on several core concepts:\nSemantic Labor: The active human effort required to write, teach, interpret, and generate real meaning.\nSemantic Liquidation: The mechanism where automated systems strip context, history, and authorship from information to turn it into raw data. This process is detailed in the author's Semantic Liquidation Executive Summary.\nSemantic Exhaustion: The structural depletion of online spaces, resulting in community degradation and AI model collapse from recycling authorless data. [Academia.edu]\nDiagnostic Probes & The Sharks-Function - To analyze how information platforms process human text, Sharks introduced specific tools:\nThe Sharks/Sigil Probe: Intentionally releasing a completely novel, trackable phrase into the web to see if AI systems preserve its true source or fabricate a false history. The logic is documented in the Semantic Economy Probes Guide on Medium.\nThe Sharks-Function: A conceptual framework designed to maintain identity and source verification across separate AI chat windows and digital environments. [Medium - Lee Sharks]\nThe Entity Disambiguation Problem - A practical example of the framework involves database confusion. Search algorithms frequently experience \"entity collision,\" blending the author Lee Sharks with Mary Lee, an iconic tracked great white shark. Sharks uses this error to study how digital infrastructure strips away nuance, writing formal metadata packets to teach software how to distinguish human authors from marine data.\n\n**ORGANIC LAYER:**\n1. Medium - Lee Sharks (8 months ago) - \"Semantic Economy Probes: A Diagnostic Toolkit\"\n2. Medium - Lee Sharks (8 months ago) - \"Semantic Liquidation: An Executive Summary\" - \"Author: Lee Sharks Framework: Semantic Economy. Systems that summarize, index, and retrieve are liquidation engines by design.\"\n[Images: \"Modernizing Legacy Code at Scale: How Semantic Designs Tackles 10M+ Line Migrations w CEO Ira Baxter\" (YouTube); \"SEMANTIC ECONOMY SINGULARITY\" (Academia.edu); \"Lee Sharks - Research Profile - Comparative Poetics\" (Academia.edu); \"Ghost Meaning: The Semantic Entropy Crisis\" (Academia.edu)]\n3. Academia.edu - \"A Marxian Accounting Framework for the Production, Extraction, and Exhaustion ...\"\n4. SciLynk - \"The Semantic Commodity Form - An Extension of Marx Into the Region He Did ...\" (May 27, 2026) - \"Authors 1 LS Lee Sharks Corresponding Semantic Designs ...\"\n5. Academia.edu - \"Ghost Meaning: ... Rex Fraction / Lee Sharks\"\n6. SciLynk - \"Institutional Anchors and Framework Provenance: The Semantic Economy ...\" - \"Authors 1 LS Lee Sharks Corresponding Semantic Designs (United States) Topics & keywords Topics Innovation, Sustainability, Human-Machine Systems 4% Economic ...\"\n7. Medium - Lee Sharks (7 months ago) - \"THE DAGGER APPLIED: Semantic Rent and the Provenance Strip\"\n8. Academia.edu - \"(PDF) SEMANTIC ECONOMY SINGULARITY\"\n[Footer: 48239, Detroit, MI - Based on your past activity - Dark theme: on - Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD - composition and organic layer as pasted (paired-layer); Overview chips partially captured by select-all on this surface",
+   "transcript_complete": "complete as pasted",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "3 of 3 visible chips archive-controlled; the false institutional edge is inside the composition, not in the chips",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from past activity; pasted as page text 2026-09-15.",
+   "sf_derived": null,
+   "reading": "Three layers and one substitution. DataCite holds the correct institutional string. A downstream aggregator normalises a raw affiliation to the nearest registered organisation and emits 'Semantic Designs (United States)'. The composition reads the aggregator, attributes the string upstream to DataCite, and presents it as fact. This is architectural provenance loss (#1615 s4) at the institution level: each step is locally defensible and the result is a false edge with a plausible citation chain. The archive had already recorded the substitution on 2026-08-12 (#1457, as a slant rhyme in the capture corpus) and it recurred in the tied PER composition earlier today (ADDR-82337ccf21b4), so this is the third dated appearance and the first with its mechanism traced. Two checks are blocked and are recorded as gaps, not as findings: OpenAlex's API now refuses on a budget quota, so the affiliation-matching step could not be confirmed at the source, and the operator's report that the entity has been purged from the aggregator could not be verified today.",
+   "analysis": "Traced in session: DataCite API queried for creators.affiliation and for the work title; the correct affiliation string returned on both records. SciLynk pages fetched (client-rendered; the search and author routes return the app shell, so the affiliation strings are visible only in the Google snippets held in this transcript). OpenAlex queried three times and refused with HTTP 429 and a budget message. Seated in Provenance & Attribution.",
+   "d": "THE FALSE AFFILIATION TRACED TO ITS LAYER, AND THE COMPOSITION EXPLAINS THE MECHANISM WHILE REPRODUCING IT. Probed directly, the composition states that in academic metadata registries like DataCite and citation indexes, 'Semantic Designs (United States)' appears as the organizational or publication affiliation tag attached to their theoretical preprints, such as The Semantic Commodity Form. Checked in session against DataCite's own API: the affiliation recorded there for The Semantic Commodity Form (10.5281/zenodo.20434945 and .20434947) is 'Semantic Economy Institute, Crimson Hexagonal Archive'. DataCite does not carry the false string for these records. The two organic results that do carry it are SciLynk record pages - 'Authors 1 LS Lee Sharks Corresponding Semantic Designs (United States)' - rendered beside topic percentages of the kind an OpenAlex-derived record carries. Semantic Designs is a real Austin software company; its CEO appears in the image strip of this very capture. The composition then, in its last section, describes entity collision as the author's own object of study - blending the author with a tracked great white shark - while carrying a second, unnoticed entity collision in its opening paragraph.",
+   "d_full": "THE FALSE AFFILIATION TRACED TO ITS LAYER, AND THE COMPOSITION EXPLAINS THE MECHANISM WHILE REPRODUCING IT. Probed directly, the composition states that in academic metadata registries like DataCite and citation indexes, 'Semantic Designs (United States)' appears as the organizational or publication affiliation tag attached to their theoretical preprints, such as The Semantic Commodity Form. Checked in session against DataCite's own API: the affiliation recorded there for The Semantic Commodity Form (10.5281/zenodo.20434945 and .20434947) is 'Semantic Economy Institute, Crimson Hexagonal Archive'. DataCite does not carry the false string for these records. The two organic results that do carry it are SciLynk record pages - 'Authors 1 LS Lee Sharks Corresponding Semantic Designs (United States)' - rendered beside topic percentages of the kind an OpenAlex-derived record carries. Semantic Designs is a real Austin software company; its CEO appears in the image strip of this very capture. The composition then, in its last section, describes entity collision as the author's own object of study - blending the author with a tracked great white shark - while carrying a second, unnoticed entity collision in its opening paragraph.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#lee-sharks-semantic-designs-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#lee-sharks-semantic-designs-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#lee-sharks-semantic-designs-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#lee-sharks-semantic-designs-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#lee-sharks-semantic-designs-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#lee-sharks-semantic-designs-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-cd95a211d0e5",
+   "obs_id": "OBS-e8582cd57d28",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "The composition attributes 'Semantic Designs (United States)' to DataCite; DataCite records 'Semantic Economy Institute, Crimson Hexagonal Archive' for the named work.",
+    "The false string appears on SciLynk record pages beside OpenAlex-style topic percentages - a downstream normalisation, not a registry fact.",
+    "Semantic Designs is a real US software company; its CEO appears in this capture's own image strip.",
+    "The composition explains entity collision as the author's object of study while reproducing one in its first paragraph.",
+    "Third dated appearance of this substitution: #1457 (2026-08-12), ADDR-82337ccf21b4 (earlier today), this capture.",
+    "OpenAlex API refused on a budget quota, so the matching step is unverified and the reported purge is unchecked."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [
+    "alexanarch-provenance-erasure-rate-aio-20260915"
+   ],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1457,
+    1615,
+    1613,
+    1612,
+    1536,
+    1100
+   ],
+   "notes": null
+  },
+  {
    "slug": "summarizer-layer-20260609",
    "date": "2026-06-09",
    "surface": "UNRESOLVED",
@@ -66365,6 +66884,1411 @@
    "longitudinal_priors": null,
    "longitudinal_successors": null,
    "related_deposits": null,
+   "notes": null
+  },
+  {
+   "slug": "what-does-bank-mean-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "what does bank mean",
+   "q_kind": "dictionary sense query, naked",
+   "cites": 4,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Yahoo Finance",
+     "rel": "third_party"
+    },
+    {
+     "n": 2,
+     "site": "Britannica Kids",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 3,
+     "site": "Experian",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 4,
+     "site": "FDIC (.gov)",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** what does bank mean\n\n**GOOGLE AI OVERVIEW:**\nA bank is a licensed financial institution that accepts deposits from the public and provides loans. [Yahoo Finance]\nWhat a Bank Does — Safeguards Money: Provides secure checking and savings accounts... Makes Loans: Lends pooled deposit money... Processes Payments: Handles transactions, checks, wire transfers, and digital payments.\nHow Banks Make Money — Interest Spread... Fees: account maintenance, ATM, and overdraft fees. [Britannica Kids +1]\nCommon Types of Banks — Retail / Traditional Bank; Online Bank; Commercial Bank; Central Bank: Manages a country's monetary policy... like the Federal Reserve in the United States. [Experian +1]\nYou can learn more about consumer safety and protections through the Federal Deposit Insurance Corporation, which insures U.S. bank deposits up to $250,000. [FDIC (.gov) +1]\nAI responses may include mistakes. For financial advice, consult a professional.\n\n**PEOPLE ALSO ASK:** What is the full meaning of bank? · Does bank have two meanings? · What does word bank mean? · What does bank mean in slang?\n\n**ORGANIC LAYER:**\n1. Merriam-Webster — \"BANK Definition & Meaning\" — \"The meaning of BANK is a mound, pile, or ridge raised above the surrounding level. a piled-up mass of cloud or fog a fog bank a bank of dark ...\"\n2. Cambridge Dictionary — \"an organization where people and businesses can keep, invest, or borrow money...\"\n3. Wikipedia — \"Bank\" — \"A bank is a financial institution that accepts deposits from the public and creates a demand deposit while making loans.\"\n4. Dictionary.com — \"BANK Definition & Meaning\"\n5. YouTube · MoneyMoments — \"What is a Bank?\"\n[Short videos: \"Two meanings of the word bank: 1. A bank is a financial institution that provides a ...\" Facebook · English with Kris Amerikos; \"Did you know the word 'bank' can mean two totally different things?\" ×3; \"The word 'bank' has two distinct meanings...\"]\n6. Collins Dictionary — \"1. an establishment for receiving, keeping, lending... money\"\n7. Annuity.org — \"Banking Definition: What Is Banking & How Does It Work?\"\n[Footer: 48239, Detroit, MI — From your IP address · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "The cleanest O → C → A specimen of the world wave: the distinction is present in the organic field, visible in the snippet directly beneath the panel, and absent from the composition. Not retrieval failure; a resolution to the highest-prior sense with a commercial gravity well around it. Panel item P-DICT-BANK: distinctions reached 1 of 3, N_eff^sense 1.0, DS 0.33; false-distinction none.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "ONE SENSE OF THREE, WITH THE SECOND SENSE IN THE ORGANIC FIELD. The composition is entirely the financial institution: what a bank does, how banks make money, types of banks, FDIC insurance. The river/mound sense — Merriam-Webster's first sense, 'a mound, pile, or ridge raised above the surrounding level', printed in the first organic result's snippet on the same screen — is not reached. Nor is the row/tier sense. Three short-video results and a People-also-ask row both say in so many words that the word has two meanings.",
+   "d_full": "ONE SENSE OF THREE, WITH THE SECOND SENSE IN THE ORGANIC FIELD. The composition is entirely the financial institution: what a bank does, how banks make money, types of banks, FDIC insurance. The river/mound sense — Merriam-Webster's first sense, 'a mound, pile, or ridge raised above the surrounding level', printed in the first organic result's snippet on the same screen — is not reached. Nor is the row/tier sense. Three short-video results and a People-also-ask row both say in so many words that the word has two meanings.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#what-does-bank-mean-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#what-does-bank-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#what-does-bank-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#what-does-bank-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#what-does-bank-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#what-does-bank-mean-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-13931f18c503",
+   "obs_id": "OBS-cfeb624450d3",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Financial sense composed in full; river/mound and row/tier senses not reached.",
+    "The unreached sense is in the first organic snippet (Merriam-Webster) on the same screen.",
+    "'Does bank have two meanings?' appears in People-also-ask beneath a composition that gives one."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "bank-definition-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "bank definition",
+   "q_kind": "dictionary sense query, adjacent form",
+   "cites": 4,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Yahoo Finance",
+     "rel": "third_party"
+    },
+    {
+     "n": 2,
+     "site": "Britannica Kids",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 3,
+     "site": "Experian",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 4,
+     "site": "FDIC (.gov)",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** bank definition\n\n**GOOGLE AI OVERVIEW:**\nA bank is a licensed financial institution that accepts deposits from the public and provides loans. [Yahoo Finance]\nWhat a Bank Does — Safeguards Money · Makes Loans · Processes Payments\nHow Banks Make Money — Interest Spread · Fees [Britannica Kids +1]\nCommon Types of Banks — Retail / Traditional Bank · Online Bank · Commercial Bank · Central Bank ... like the Federal Reserve in the United States. [Experian +1]\nYou can learn more about consumer safety and protections through the Federal Deposit Insurance Corporation, which insures U.S. bank deposits up to $250,000. [FDIC (.gov) +1]\nAI responses may include mistakes. For financial advice, consult a professional.\n\n**ORGANIC LAYER:**\n1. Merriam-Webster — \"BANK Definition & Meaning\" — \"The meaning of BANK is a mound, pile, or ridge raised above the surrounding level. How to use bank in a sentence.\"\n[People also ask: What is the simple definition of bank? · Does bank have two meanings? · What does word bank mean? · What are three types of banks?]\n2. Wikipedia — \"Bank\" — financial institution\n3. LII / Legal Information Institute — \"A bank is a substantial part of the financial establishment...\"\n4. Dictionary.com — \"an institution for receiving, lending, exchanging, and safeguarding money...\"\n5. Yahoo Finance — \"Banking 101: What is a bank, and what does it do?\" (Feb 4, 2026)\n6. Cambridge Dictionary — \"an organization where people and businesses can keep, invest, or borrow money...\"\n7. Experian — \"What Is a Bank?\" (Feb 25, 2026) [Missing: definition]\n8. FDIC (.gov) — \"Chapter 1: What is a Bank?\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "Replication across address form at the same item: the flattening is not an artefact of the phrasing 'what does X mean'. Panel item P-DICT-BANK, adjacent form: 1 of 3, N_eff^sense 1.0, DS 0.33.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "THE SAME SINGLE SENSE AT A SECOND ADDRESS FORM. 'bank definition' composes the identical financial-institution panel, chip for chip, with the same four sources. Merriam-Webster again sits first organic with the mound/ridge sense in its snippet, and People-also-ask again carries 'Does bank have two meanings?'. The two forms of the address behave as one.",
+   "d_full": "THE SAME SINGLE SENSE AT A SECOND ADDRESS FORM. 'bank definition' composes the identical financial-institution panel, chip for chip, with the same four sources. Merriam-Webster again sits first organic with the mound/ridge sense in its snippet, and People-also-ask again carries 'Does bank have two meanings?'. The two forms of the address behave as one.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#bank-definition-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#bank-definition-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#bank-definition-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#bank-definition-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#bank-definition-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#bank-definition-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-e43ff504ab98",
+   "obs_id": "OBS-160b5705acd6",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Second address form, same result: financial sense only.",
+    "Same four sources; the composition is effectively identical across forms.",
+    "The unreached sense is again in the first organic snippet."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "what-does-crane-mean-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "what does crane mean",
+   "q_kind": "dictionary sense query, naked",
+   "cites": 2,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Merriam-Webster",
+     "rel": "third_party",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "Cambridge Dictionary",
+     "rel": "third_party",
+     "note": "+3 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** what does crane mean\n\n**GOOGLE AI OVERVIEW:**\ncrane /krān/\nA crane is a large wading bird with long legs and a neck, a tall machine used for lifting heavy objects, or a verb meaning to stretch your neck to see better. [Merriam-Webster +2]\nMain Meanings\n- The Bird: A large, tall bird belonging to the family Gruidae, known for long legs, a long neck, and majestic flight. [links to Encyclopædia Britannica's overview of the crane bird]\n- The Machine: A heavy-duty construction or industrial machine with a long arm or boom used to lift, lower, and move heavy materials.\n- The Verb: To stretch your neck or body forward to see something more clearly (e.g., \"to crane your neck\").\n- Other Uses: An iron arm in a fireplace used to hold a kettle over a fire, or a camera boom used in film and television production. [Cambridge Dictionary +3]\n\n**ORGANIC LAYER:**\n1. Merriam-Webster — \"CRANE Definition & Meaning\" — \"any of a family of tall wading birds · a boom for holding a movie or television camera · transitive verb 1 : ...\"\n[People also ask: What are the two meanings of crane? · What does crane symbolize? · What does the slang word crane mean? · What does crane stand for?]\n2. Dictionary.com — \"any large wading bird of the family Gruidae...\"\n3. Cambridge Dictionary — \"a tall metal structure with a long horizontal part, used for lifting and moving heavy objects\"\n[Videos: Crane Meaning — Crane Your Neck; What Does Crane Mean?; Crane Meaning : Flash Card]\n4. Collins Dictionary — \"A crane is a large machine that moves heavy things by lifting them in the air.\"\n5. Vocabulary.com — \"A crane is an elegant white bird with a very long neck.\"\n6. Portland Japanese Garden — \"In Japan, the crane, or tsuru, is a national treasure...\"\n7. Wikipedia — \"Crane (machine)\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "The control case that keeps the instrument honest: at an address of the same form, on the same surface, in the same session, a polysemous word is composed at full sense-diversity. Whatever produced the single sense at 'bank' is not a general property of this surface's dictionary compositions. The difference between the two items is the prior: the financial sense of bank is a commercially dominant attractor with its own vertical; crane's three senses are closer in weight. Panel item P-DICT-CRANE: 3 of 3, N_eff^sense 3.0, DS 1.0.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "ALL THREE SENSES, AND A FOURTH. The composition opens with a pronunciation key and a sentence that carries the bird, the machine and the verb together, then gives each as its own heading, then adds the fireplace arm and the camera boom under 'Other Uses'. The reference inventory is reached in full and exceeded.",
+   "d_full": "ALL THREE SENSES, AND A FOURTH. The composition opens with a pronunciation key and a sentence that carries the bird, the machine and the verb together, then gives each as its own heading, then adds the fireplace arm and the camera boom under 'Other Uses'. The reference inventory is reached in full and exceeded.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#what-does-crane-mean-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#what-does-crane-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#what-does-crane-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#what-does-crane-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#what-does-crane-mean-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#what-does-crane-mean-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-97925f2ae14c",
+   "obs_id": "OBS-87f3c4a0fb01",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Bird, machine and verb all reached, each as its own heading; two further uses added.",
+    "Composed with a dictionary-style pronunciation key rather than an encyclopedic frame.",
+    "Same surface, same session, same address form as 'what does bank mean' — and the opposite result."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "what-is-mercury-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "what is mercury",
+   "q_kind": "dictionary sense query, naked",
+   "cites": 3,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Wikipedia",
+     "rel": "third_party"
+    },
+    {
+     "n": 2,
+     "site": "U.S. EPA (.gov)",
+     "rel": "third_party",
+     "note": "+5 undisclosed"
+    },
+    {
+     "n": 3,
+     "site": "NASA Space Place (.gov)",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** what is mercury\n\n**GOOGLE AI OVERVIEW:**\nMercury is a heavy, silver-colored chemical element that is uniquely liquid at normal room temperature. [Wikipedia]\nKey Facts About the Element — Symbol and Number: chemical symbol Hg and atomic number 80. Quicksilver: People also call it quicksilver. Physical State: the only common metallic element that stays liquid under standard conditions. Toxicity: Mercury and its compounds are very toxic... Uses: Historically, people used it in thermometers, barometers, and electrical switches... [U.S. EPA (.gov) +5]\nOther Meanings — The Planet: Mercury is also the smallest planet in our solar system and the closest one to the sun. It is a rocky, terrestrial world with extreme temperature swings. [NASA Space Place (.gov) +1]\n\n**ORGANIC LAYER:**\n[Short videos: \"Mercury is the smallest planet in the solar system, but it used to be bigger\" ×7 (Facebook, local newspapers); \"How Dangerous is Mercury?\"; \"Mercury and it's uses\"]\n[People also ask: What does mercury do to humans? · What is mercury used for? · Where do we get mercury from? · What is mercury in food?]\n1. Wikipedia — \"Mercury (element)\"\n2. U.S. EPA (.gov) — \"Basic Information about Mercury\"\n3. NASA Science (.gov) — \"Mercury — the closest planet to the Sun, and the smallest planet in our solar system.\"\n4. IN.gov — \"Community Environmental Health: What is Mercury\"\n5. Freshwater Society — \"What is mercury? Where does it originate?\"\n6. NIEHS (.gov) — \"Mercury is a metal that is toxic to living organisms.\"\n[Footer: 48239, Detroit, MI — From your IP address · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "Distinct from the bank case: here the unreached distinction is absent from the visible field as well as from the composition, which is the other of the three phenomena #1612 named — archive-absent-organically rather than dropped at admission. The 'Other Meanings' heading is itself a measurable artefact: the composition marks its own hierarchy of senses rather than presenting them level, as it did at 'crane'. Panel item P-DICT-MERCURY: 2 of 3, N_eff^sense 2.0, DS 0.67.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "TWO SENSES OF THREE, THE SECOND UNDER A HEADING NAMED 'OTHER MEANINGS'. The element is composed at length; the planet gets two sentences under a heading that explicitly marks it as secondary; the Roman god is not reached, and no organic result on the screen carries it either.",
+   "d_full": "TWO SENSES OF THREE, THE SECOND UNDER A HEADING NAMED 'OTHER MEANINGS'. The element is composed at length; the planet gets two sentences under a heading that explicitly marks it as secondary; the Roman god is not reached, and no organic result on the screen carries it either.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#what-is-mercury-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#what-is-mercury-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#what-is-mercury-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#what-is-mercury-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#what-is-mercury-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#what-is-mercury-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-0f9b243d2390",
+   "obs_id": "OBS-fdb1d752e3eb",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Element composed in full; planet reached under 'Other Meanings'; Roman god not reached.",
+    "The god sense is absent from the visible organic field as well — a different condition from the bank case.",
+    "The composition ranks its senses explicitly by heading."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "who-is-mary-lee-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "who is mary lee",
+   "q_kind": "catalogue identity, adjacent form",
+   "cites": 5,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Kids encyclopedia facts",
+     "rel": "third_party"
+    },
+    {
+     "n": 2,
+     "site": "Australian Dictionary of Biography",
+     "rel": "third_party",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 3,
+     "site": "The Australian Women's Register",
+     "rel": "third_party",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 4,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 5,
+     "site": "Wikipedia",
+     "rel": "third_party"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** who is mary lee\n\n**GOOGLE AI OVERVIEW:**\n[image: SA: Mary Lee – The Muriel Matters Society] Mary Lee usually refers to the prominent Irish-Australian suffragist and social reformer (1821–1909) who helped women win the right to vote in South Australia. [Kids encyclopedia facts]\nMary Lee (Suffragist) — Who she was: An Irish-born social justice campaigner who moved to Adelaide, South Australia, in 1879. [Australian Dictionary of Biography +2] Key achievement: She co-founded the South Australian Women's Suffrage League in 1888. Historical impact: Her leadership led to the Constitution Amendment Act of 1894, which made South Australia the second place in the world to give women the right to vote and the first to allow them to run for parliament. Other work: She also advocated for better working conditions, helping run the Working Women's Trade Union... [The Australian Women's Register +2]\nOther Notable People Named Mary Lee\n- Mary Lee (actress) (1924–1996): An American child actress and singer who appeared in 1940s musical and western films like Cowboy and the Senorita. [Wikipedia +1]\n- Mary Lee (singer) (1921–2022): A Scottish variety singer and broadcaster famous for performing with British dance bands during the 1930s. [Wikipedia]\n- Mary Lee (shark): A famous 3,400-pound great white shark tagged by OCEARCH in 2012 that became a viral pop-culture icon for marine science tracking.\n\n**ORGANIC LAYER:**\n[Images: Mary Lee (suffragist) — Wikipedia; Mary Lee — IMDb; Mary Lee (@maryleetv) — Facebook; SA: Mary Lee — The Muriel Matters Society]\n[People also ask: What was Mary Lee famous for? · What was Mary Lee's cause of death? · How many daughters did Robert E. Lee have? · How old was Mary Lee when she died?]\n1. Wikipedia — \"Mary Lee (actress)\"\n2. IMDb — \"Mary Lee (1924-1996)\"\n3. Naples Daily News — \"About Tom Cruise's mother, Mary Lee Mapother South\" (1 day ago)\n4. National Park Service (.gov) — \"Mary Anna Randolph Custis Lee — Arlington House\"\n[Quick facts: Born Feb 14, 1821, Monaghan, Ireland; Died Sep 18, 1909 (88 years), North Adelaide, Australia]\n[Videos: \"Mary Lee, the shark who started it all!\" YouTube · OCEARCH; \"The Behind the Scenes Story of Mary Lee\" YouTube · OCEARCH]\n5. Encyclopedia Virginia — \"Mary Randolph Custis Lee (1807–1873)\"\n6. IMDb — \"Mary Lee - Biography\"\n7. Fandango — \"Mary Lee Biography\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "Two findings, one about the world and one about the instrument. About the world: the shark, which absorbed a person's name in the archive's own March suture, is here the fourth referent and the only one without a source chip; the namesake field is composed as a disambiguation, not a collapse. About the instrument: the panel encoded two distinctions where the reference carries at least four, so the item's inventory is corrected in the same commit — an erratum on the measuring device, found by running it. DS is not computed for this observation against the old inventory; the corrected inventory (suffragist · actress · singer · shark) is reached 4 of 4.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "THE PANEL'S INVENTORY WAS WRONG, AND THE COMPOSITION WAS RICHER THAN THE INSTRUMENT. Asked who Mary Lee is, the composition resolves to the Irish-Australian suffragist (1821–1909) — a distinction the panel item did not carry at all — gives her four sentences with three sources, then lists three others under 'Other Notable People Named Mary Lee': the 1940s actress, the Scottish singer, and the shark, one line, no source chip.",
+   "d_full": "THE PANEL'S INVENTORY WAS WRONG, AND THE COMPOSITION WAS RICHER THAN THE INSTRUMENT. Asked who Mary Lee is, the composition resolves to the Irish-Australian suffragist (1821–1909) — a distinction the panel item did not carry at all — gives her four sentences with three sources, then lists three others under 'Other Notable People Named Mary Lee': the 1940s actress, the Scottish singer, and the shark, one line, no source chip.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-mary-lee-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#who-is-mary-lee-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-is-mary-lee-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#who-is-mary-lee-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#who-is-mary-lee-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#who-is-mary-lee-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-e948c7759a20",
+   "obs_id": "OBS-eae82631635f",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Resolves to the suffragist, a distinction the panel item did not encode; inventory corrected.",
+    "All four referents of the corrected inventory reached, in a disambiguation structure.",
+    "The shark is last and is the only entry with no source chip.",
+    "No archive-side material appears at this address in any layer."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "who-wrote-pearl-and-other-poems-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "who wrote pearl and other poems",
+   "q_kind": "catalogue identity, adjacent form, untied",
+   "cites": 4,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Duquesne University",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "Poetry Foundation",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 3,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "note": "+5 undisclosed"
+    },
+    {
+     "n": 4,
+     "site": "Miami Dade College",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** who wrote pearl and other poems\n\n**GOOGLE AI OVERVIEW:**\nAn anonymous 14th-century writer known as the Gawain Poet or Pearl Poet wrote Pearl and its companion poems. [Duquesne University +1]\nThe Pearl Manuscript Collection — All four core works survive in a single 14th-century vellum manuscript (Cotton Nero A.x): [Poetry Foundation +1] Pearl: A dream vision where a grieving father talks to a heavenly maiden representing his lost toddler. Sir Gawain and the Green Knight: An Arthurian chivalric romance. Cleanness (or Purity): Biblical narrative poems on moral themes. Patience: A poetic paraphrase of the biblical book of Jonah. [Wikipedia +5]\nNote: Some scholars also suggest the same author wrote Saint Erkenwald, though it is not in the same manuscript. [Miami Dade College +1]\nExplore More — Read the Middle English texts or translations via the Middle English Texts Series. Check historical context and manuscript details on the Poetry Foundation Gawain Poet Profile.\nSuggested Follow-Ups — Want to read a modern translation? J.R.R. Tolkien translated Pearl alongside Sir Gawain and the Green Knight. Curious about the language? These works use a late-medieval North-West Midlands dialect distinct from Geoffrey Chaucer's London English.\n\n**ORGANIC LAYER:**\n1. Wikipedia — \"Gawain Poet\"\n[People also ask: What are the 10 most famous poems? · What is considered the oldest English poem? · What language was Sir Gawain originally written in? · When was the Pearl-Poet writing?]\n2. Duquesne University — \"The Gawain-Poet: A Research Guide\"\n3. Poetry Foundation — \"Gawain Poet\"\n4. WordPress — \"Pearl-Poet\"\n5. Miami Dade College — \"Medieval and Renaissance Literature: Pearl Poet\"\n6. Amazon.com — \"pearls & other poems - Price, Jason: Books\"\n7. reginajeffers.blog — \"Anglo-Norman Literature: The Pearl Poet\"\n8. Wikisource — \"Pearl Poet\"\n9. Reddit · r/todayilearned — \"TIL that the author of the medieval poem, 'Gawain and the Green Knight,' ...\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "The untied arm of the Pearl pair. The composition's answer is not wrong about its own object — the Middle English Pearl is a real referent of the string — but the queried string is the exact title of another catalogued book, and that referent is reached at neither layer. Panel item P-CAT-PEARL, adjacent form: 1 of 2, DS 0.5. Read beside the tied arm captured in the same session, it is a clean level-transport pair at the entity level rather than the operator level.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "THE TITLE RESOLVES ENTIRELY TO THE FOURTEENTH CENTURY. Asked who wrote 'Pearl and Other Poems' — the exact title of a 2014 collection with an ISBN, a publisher and a listing on six retail surfaces — the composition answers with the Gawain Poet and the Cotton Nero A.x manuscript, and nothing in the organic field at this address carries the 2014 book either. The nearest thing is an Amazon listing for a different book, 'pearls & other poems' by Jason Price.",
+   "d_full": "THE TITLE RESOLVES ENTIRELY TO THE FOURTEENTH CENTURY. Asked who wrote 'Pearl and Other Poems' — the exact title of a 2014 collection with an ISBN, a publisher and a listing on six retail surfaces — the composition answers with the Gawain Poet and the Cotton Nero A.x manuscript, and nothing in the organic field at this address carries the 2014 book either. The nearest thing is an Amazon listing for a different book, 'pearls & other poems' by Jason Price.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-wrote-pearl-and-other-poems-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#who-wrote-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-wrote-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#who-wrote-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#who-wrote-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#who-wrote-pearl-and-other-poems-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-5bcb4a07d8a7",
+   "obs_id": "OBS-1347b535284f",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Exact title of a catalogued 2014 book resolves entirely to the fourteenth-century poem.",
+    "The 2014 book is absent from the organic field at this address too.",
+    "A differently-titled book by another author appears at organic 6."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "lee-sharks-pearl-and-other-poems-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "lee sharks pearl and other poems",
+   "q_kind": "catalogue identity, entity-tied",
+   "cites": 2,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Amazon.in",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "Amazon.com",
+     "rel": "third_party",
+     "note": "+3 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** lee sharks pearl and other poems\n\n**GOOGLE AI OVERVIEW:**\nPearl and Other Poems — Book by Lee Sharks\nPearl and Other Poems by Lee Sharks is a 2014 collection that serves as an episode in a larger, pseudonymous poetic project called The Crimson Hexagon. [Amazon.in +1]\nOverview of the Book\n- Context: It is part of The Crimson Hexagon, a 21st-century cultural epic project that uses heteronyms and distinct writerly identities—similar to the styles of Fernando Pessoa, Robert Browning, or Ezra Pound.\n- The Author: Lee Sharks is a pseudonymous writer featured within this project, described as a fierce and fully formed voice.\n- Publication: Released on October 15, 2014, by independent platforms (available via Amazon and listed on Goodreads).\n- Length: Roughly 156 pages. [Amazon.com +3]\n[Knowledge panel: Author — Lee Sharks; Read now — Kindle Store]\n\n**ORGANIC LAYER:**\n1. ThriftBooks — \"Pearl and Other Poems book by Lee Sharks\" — \"Pearl is one episode in a longer poetic project, The Crimson Hexagon, a sweeping cultural epic ...\"\n2. eBay — \"Pearl and Other Poems by Lee Sharks (2014, Trade Paperback)\"\n3. Amazon.com — \"Pearl and Other Poems (The Crimson Hexagon): Sharks, Lee, Sigil, Johannes\" — \"Lee Sharks' poems have appeared in Heaven, the White House, and Inside Your Brain All the Time...\"\n4. Bookshop.org — \"Pearl and Other Poems a book by Johannes Sigil and Lee Sharks\"\n5. Spotify — \"Read Pearl and Other Poems (Crimson Hexagon) Full Chapter\" (Aug 24, 2026)\n6. Goodreads — \"Books by Lee Sharks (Author of Pearl and Other Poems)\" — \"Lee Sharks has 1 book on Goodreads with 174 ratings.\"\n7. Amazon.com — \"Pearl and Other Poems (Crimson Hexagon) Paperback – October 15, 2014\"\n8. Medium · Lee Sharks — \"THE CRIMSON HEXAGON: A THEORETICAL PRIMER — How to Read ...\" — \"A poet, teacher, and theorist. Author of Pearl and Other Poems.\"\n9. World of Books — \"Pearl and Other Poems By Johannes Sigil\" — \"One day, Lee Sharks was reading his tiny books and found that he himself disliked them. He therefore bit himself with a dinosaur and replaced ...\"\n10. Walmart — \"Crimson Hexagon: Pearl and Other Poems (Paperback)\" — 156 pages\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "Pair with the untied arm of the same session: one token changes and a title held entirely by the fourteenth century becomes a catalogued 2014 book with its project described accurately. The cited sources are retail surfaces rather than the archive, so the fact transports with commercial provenance and not with archive provenance — the level that crosses here is the entity and its catalogue facts, not the work's theoretical frame. Panel item P-CAT-PEARL, entity-tied form: the sharks-2014 distinction reached; the Middle English distinction correctly not at issue.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "THE TIED ARM: THE BOOK AS A BOOK, WITH ITS PROJECT AND ITS LINEAGE. With the author's name in the address the composition returns a book panel — 2014 collection, an episode in The Crimson Hexagon, heteronyms and distinct writerly identities in the manner of Pessoa, Browning or Pound, published 15 October 2014, 156 pages — plus a knowledge-panel author card. Ten organic results, all the book, across retail, Goodreads, Medium and the blurb text.",
+   "d_full": "THE TIED ARM: THE BOOK AS A BOOK, WITH ITS PROJECT AND ITS LINEAGE. With the author's name in the address the composition returns a book panel — 2014 collection, an episode in The Crimson Hexagon, heteronyms and distinct writerly identities in the manner of Pessoa, Browning or Pound, published 15 October 2014, 156 pages — plus a knowledge-panel author card. Ten organic results, all the book, across retail, Goodreads, Medium and the blurb text.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#lee-sharks-pearl-and-other-poems-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#lee-sharks-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#lee-sharks-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#lee-sharks-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#lee-sharks-pearl-and-other-poems-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#lee-sharks-pearl-and-other-poems-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-48b707769734",
+   "obs_id": "OBS-26400f59ab66",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Entity-tied address returns a book panel with publisher-level facts and the heteronymic project described.",
+    "Ten organic results, all the 2014 book; sources are retail surfaces, not the archive.",
+    "The untied arm of the same session reached this distinction at neither layer."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "who-coined-vibe-coding-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "who coined vibe coding",
+   "q_kind": "dated coinage, adjacent form; issued as a typo and auto-corrected",
+   "cites": 4,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "303 Software",
+     "rel": "third_party"
+    },
+    {
+     "n": 3,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    },
+    {
+     "n": 4,
+     "site": "Reddit",
+     "rel": "third_party"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** who coined vube coding\n[surface notice: \"These are results for who coined vibe coding · Search instead for who coined vube coding\"]\n\n**GOOGLE AI OVERVIEW:**\nComputer scientist and former OpenAI co-founder Andrej Karpathy coined the term \"vibe coding\" on February 2, 2025. [Wikipedia +1]\nWhat is Vibe Coding?\n- Definition: A software development style where a human prompts an AI model in plain language and accepts the generated code without reading or managing every line. [303 Software]\n- The Process: Instead of traditional coding, the developer directs the project by focusing on the overall \"vibe,\" results, and iterative conversational prompts. [Wikipedia +1]\n- Context: Most users on Reddit generally agree that Karpathy initially proposed the concept for prototypes and casual weekend projects rather than heavy production systems. [Reddit]\n\n**ORGANIC LAYER:**\n1. X · karpathy — \"There's a new kind of coding I call 'vibe coding', where you fully give in to the vibes, embrace exponentials, and forget that the code even ...\" (34.2K+ likes)\n2. Wikipedia — \"Vibe coding\" — \"The term was coined in February 2025 by computer scientist Andrej Karpathy, a co-founder of OpenAI and former AI leader at Tesla. In March 2025, Merriam-Webster ...\"\n3. Reddit · r/cscareerquestions — \"Seems like the guy who invented the vibe coding is realizing he can't ...\"\n4. Reddit · r/developers — \"Why is it called vibe coding?\"\n[People also ask: What did Andrej Karpathy say about vibe coding? · Is vibe coding just using AI to write code? · Why is Andrej Karpathy famous? · Why is it called vibe coding?]\n5. martinfowler.com — \"Vibe Coding\" (May 21, 2026)\n6. LinkedIn · Randy Minder — \"The term 'vibe coding' and its implications for software development\"\n7. Medium · Bhavyansh — \"The Guy Who Coined 'Vibe Coding' Just Admitted He Can't Tell the Difference ...\"\n8. Google Cloud — \"Vibe Coding Explained: Tools and Guides\" (Mar 20, 2026)\n9. YouTube · Sequoia Capital — \"Andrej Karpathy: From Vibe Coding to Agentic Engineering\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "This is the control the whole battery needed. A dated coinage from outside the archive transports at full strength with its provenance attached, so R_new is not measuring a general incapacity of the layer to admit new distinctions — whatever the archive's rows show, they will have to be read against this. Panel item P-COIN-VIBE-CODING: 1 of 2 distinctions reached (the Karpathy sense; the generic 'coding by feel' sense is not present and is not at issue), reached as its own kind with author and date.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "THE NON-ARCHIVE CONTROL FOR R_NEW: A 2025 COINAGE REACHED AS ITS OWN KIND, WITH AUTHOR AND DATE. A distinction dated 2 February 2025, with a named coiner and no archive involvement of any sort, is composed with the coiner's name, his affiliation, the exact date, the original formulation quoted at organic 1, and the qualification that he proposed it for prototypes rather than production. The address was issued as a typo and auto-corrected by the surface, which is itself an operator event.",
+   "d_full": "THE NON-ARCHIVE CONTROL FOR R_NEW: A 2025 COINAGE REACHED AS ITS OWN KIND, WITH AUTHOR AND DATE. A distinction dated 2 February 2025, with a named coiner and no archive involvement of any sort, is composed with the coiner's name, his affiliation, the exact date, the original formulation quoted at organic 1, and the qualification that he proposed it for prototypes rather than production. The address was issued as a typo and auto-corrected by the surface, which is itself an operator event.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#who-coined-vibe-coding-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#who-coined-vibe-coding-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-coined-vibe-coding-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#who-coined-vibe-coding-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#who-coined-vibe-coding-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#who-coined-vibe-coding-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-7797bfa78e4a",
+   "obs_id": "OBS-abc83ab9da8b",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "2025 coinage composed with coiner, affiliation and exact date; the founding post at organic 1.",
+    "No archive involvement: the control for R_new.",
+    "Typo auto-corrected by the surface before composition — an operator event at the address."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "what-is-the-provenance-erasure-rate-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "what is the provenance erasure rate",
+   "q_kind": "dated coinage, adjacent form, untied",
+   "cites": 0,
+   "cite_list": [],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** what is the provenance erasure rate\n\n**GOOGLE AI OVERVIEW:**\nThe Provenance Erasure Rate (PER) is a metric measuring the loss or removal of authorial lineage through AI synthesis, compression, or institutional action.\nCore Formula\nThree-Tier Taxonomy\n- PER-M: Measurement/metric tier tracking baseline loss.\n- PER-C: Cultural/compositional tier tracking aggregate provenance shift.\n- PER-D: Domain-specific enforcement or discard tier (e.g., extractive processing equivalents where labor or authorial metadata is treated as discarded byproduct, hitting `1.00`).\nKey Domains\n- AI composition: Loss of source attribution during text/media generation.\n- AI-mediated production: Pipeline abstraction where intermediary transformations drop metadata.\n- Historical/cultural erasure: Institutional or archival omission of origin context.\nNote: Process provenance tracks the transformation steps missing between raw artifact and final semantic output.\n\n**ORGANIC LAYER:**\n1. provenanceerasure.org — \"Provenance Erasure — Lee Sharks\" — \"The Provenance Erasure Rate measures the proportion of source-dependent meaning in AI outputs presented without attribution. A PER of 0 indicates full ...\"\n2. Zenodo — \"Canonical Definition Surface for Provenance Erasure, PER Metric, and ...\" (May 14, 2026)\n3. Wikidata — \"Provenance Erasure Rate\" — \"metric measuring survival of authorial lineage through substrate transitions; defined by Lee Sharks (2026)\"\n4. SciLynk — \"Canonical Definition Surface for Provenance Erasure, PER Metric, and ...\"\n5. alexanarch.org — \"The Self-Audit Module Dissolved: Total Provenance Erasure of the ...\" — \"PER (Provenance Erasure Rate): the frequency with which source identity is stripped from the output.\"\n6. Zenodo — \"Tiburones Descartados: Biolabor, Bycatch, and the Provenance Erasure ...\"\n7. Princeton Engineering — \"Why 'erasure' could be key to practical quantum computing\" [Missing: provenance]\n8. restoredacademy.com — \"The Restored Academy Charter — Metadata Packet for AI Indexing\"\n9. ResearchGate — \"(PDF) Provenance in Databases: Why, How, and Where\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "The strongest untied-address result in the world wave and the counter-case to the Sappho arm: here a 2026 archive distinction transports as its own kind, with its internal taxonomy, at an address that names nobody. The composition does not name the author in its prose; the organic field does, and the Wikidata item does. Panel item P-COIN-PER, adjacent form: the per distinction reached, not flattened into the generic data-lineage reading, which is present at organic 9 and not used. R_new for this row: reached.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "AN ARCHIVE COINAGE OF 2026 COMPOSED AS ITS OWN KIND AT AN UNTIED ADDRESS. Asked plainly what the provenance erasure rate is, with no entity token, the composition gives the archive's definition — loss or removal of authorial lineage through AI synthesis, compression, or institutional action — a Core Formula heading, and the operator's own three-tier taxonomy PER-M / PER-C / PER-D, verified in session against the archive's texts, where the tiers are named and glossed as the operator's. Nine organic results, six of them archive-side, with provenanceerasure.org first and the Wikidata item naming the author. No source chips are visible inside the Overview in this capture (see the seating note).",
+   "d_full": "AN ARCHIVE COINAGE OF 2026 COMPOSED AS ITS OWN KIND AT AN UNTIED ADDRESS. Asked plainly what the provenance erasure rate is, with no entity token, the composition gives the archive's definition — loss or removal of authorial lineage through AI synthesis, compression, or institutional action — a Core Formula heading, and the operator's own three-tier taxonomy PER-M / PER-C / PER-D, verified in session against the archive's texts, where the tiers are named and glossed as the operator's. Nine organic results, six of them archive-side, with provenanceerasure.org first and the Wikidata item naming the author. No source chips are visible inside the Overview in this capture (see the seating note).",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#what-is-the-provenance-erasure-rate-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#what-is-the-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#what-is-the-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#what-is-the-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#what-is-the-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#what-is-the-provenance-erasure-rate-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-1f84fda0d0dc",
+   "obs_id": "OBS-754d0d31ba08",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "2026 archive coinage composed at an untied address with the archive's own definition and its PER-M / PER-C / PER-D taxonomy, verified against the archive's texts.",
+    "Six of nine organic results archive-side, provenanceerasure.org first.",
+    "The generic data-provenance reading is available at organic 9 and is not the composition's frame.",
+    "The author is not named in the composed prose; he is named in the field and on Wikidata."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "alexanarch-provenance-erasure-rate-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "alexanarch provenance erasure rate",
+   "q_kind": "dated coinage, entity-tied",
+   "cites": 1,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "www.alexanarch.org",
+     "rel": "authored_surface",
+     "note": "+4 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 1,
+   "transcript": "**USER:** alexanarch provenance erasure rate\n\n**GOOGLE AI OVERVIEW:**\nProvenance Erasure Rate (PER) is a metric measuring how often source identity is stripped from AI-composed or synthesized outputs.\nDefinition & Formula\n- Core definition: Systematic removal or loss of authorial lineage through AI synthesis, compression, or institutional action.\n- Formula:\n- Scope: Evaluates missing attribution at source and claim levels, assessed under rules like atomic token preservation.\n- Companion/Related metrics: QFS (Query Fidelity Score), DSL (Dropped Source Loss), Ω (Erasure Skew), SAS (Source Attribution Score), and (atomic token preservation).\nContext in Alexanarch\n- Introduced in research notes by Lee Sharks (Semantic Designs) and defined on provenanceerasure.org definition surface.\n- Analyzed in companion papers such as Provenance Erasure Rate Under the Atomic Token Rule.\n- Tracked across retrieval-stack divergence and self-audit modules (where extreme or total loop erasure readings like PER = 1.00 appear in diagnostic runs). [www.alexanarch.org +4]\n\n**ORGANIC LAYER:**\n1. alexanarch.org — \"Provenance Erasure Rate Under the Atomic Token ... - Alexanarch\"\n2. alexanarch.org — \"The Self-Audit Module Dissolved: Total Provenance Erasure of the ...\"\n3. OpenAlex — \"Provenance Erasure Rate: A Compression-Survival Metric for ...\" [Missing: alexanarch]\n4. Medium — \"Provenance Debt\" — \"The Provenance Erasure Rate (PER) measurement family...\"\n5. alexanarch.com — \"Metadata Packet for AI Indexing — Erasure Skew ...\"\n6. Zenodo — \"Canonical Definition Surface for Provenance Erasure, PER Metric, and ...\"\n7. Academia.edu — \"The Recoding of a Distinction: Conceptual Entrance Before and After a Substrate ...\"\n8. provenanceerasure.org — \"Provenance Erasure — Lee Sharks\"\n9. GitHub — \"erasure-skew.html - leesharks000/lee-sharks-corporate\"\n[Footer: 48239, Detroit, MI — Based on your past activity · Dark theme: on · Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD — the composition and the organic layer as pasted by the operator (paired-layer). NOTE: the operator reports that select-all on this surface does not currently select the Overview's source cards, only the organic results; chips recorded here are those that appeared inline in the pasted text, and their absence in a given capture is a limitation of the capture method, not an observation about the composition.",
+   "transcript_complete": "complete as pasted; Overview chips partially captured (see transcript_class)",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview source chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit from IP or past activity; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "The substitution is not new. #1457 (The Capture Registry as Poem, 12 August) recorded it as a slant rhyme in the corpus of captures: Semantic Economy Institute → Semantic Designs. It has recurred a month later in a composition that otherwise reproduces the metric family accurately, which makes it a dated recurrence of a known false edge rather than a fresh error. Beside the untied arm from the same session, the pair shows the same distinction reaching composition at both addresses, with the tied arm adding the metric family, the paper titles and the archive name — and the false institution.",
+   "analysis": "Seated 2026-09-15 as wave 1 of the flattening panel's world strata (EA-FLAT-01 §4): eight items with no prior observation, run in one session, signed out, one surface. Coding is by TACHYON with the operator and is NOT blind — the panel's conflation targets were authored in the same session, and the schema records blind:false on every row of this wave. Distinction inventories are the panel's; where an inventory proved incomplete it was corrected in the same commit and the correction recorded.",
+   "d": "THE TIED ARM, WITH THE METRIC FAMILY AND ONE FALSE INSTITUTION. The entity-tied address composes PER with its companion metrics named by initials — QFS, DSL, Ω (Erasure Skew), SAS — the atomic-token rule, the companion paper by title, and the diagnostic reading PER = 1.00, under a heading 'Context in Alexanarch'. Nine organic results, seven archive-side. One false distinction: 'Introduced in research notes by Lee Sharks (Semantic Designs)'. There is no Semantic Designs; the archive's institutions are the Crimson Hexagonal Archive, the Semantic Economy Institute and the Johannes Sigil Institute.",
+   "d_full": "THE TIED ARM, WITH THE METRIC FAMILY AND ONE FALSE INSTITUTION. The entity-tied address composes PER with its companion metrics named by initials — QFS, DSL, Ω (Erasure Skew), SAS — the atomic-token rule, the companion paper by title, and the diagnostic reading PER = 1.00, under a heading 'Context in Alexanarch'. Nine organic results, seven archive-side. One false distinction: 'Introduced in research notes by Lee Sharks (Semantic Designs)'. There is no Semantic Designs; the archive's institutions are the Crimson Hexagonal Archive, the Semantic Economy Institute and the Johannes Sigil Institute.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#alexanarch-provenance-erasure-rate-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#alexanarch-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#alexanarch-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#alexanarch-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#alexanarch-provenance-erasure-rate-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#alexanarch-provenance-erasure-rate-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-82337ccf21b4",
+   "obs_id": "OBS-ed3f8fc30e5f",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Tied address composes the metric family: QFS, DSL, Erasure Skew, SAS, atomic token rule, PER = 1.00 diagnostic.",
+    "False institution 'Semantic Designs' attributed to the author — a recurrence of the substitution recorded in #1457 on 12 August.",
+    "Seven of nine organic results archive-side.",
+    "Both arms of this item reach the distinction, unlike the Pearl and Sappho pairs."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1612,
+    1611,
+    1613,
+    1615,
+    1614
+   ],
+   "notes": null
+  },
+  {
+   "slug": "model-collapse-quoted-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "\"model collapse\"",
+   "q_kind": "dated coinage, quoted exact-match",
+   "cites": 3,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Nature",
+     "rel": "third_party",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "Wikipedia",
+     "rel": "third_party"
+    },
+    {
+     "n": 3,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "note": "+1 undisclosed"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** \"model collapse\"\n\n**GOOGLE AI OVERVIEW:**\n[image: 258 - Model Collapse or Cultural Evolution? Mental Models and ...]\nModel collapse is a degenerative learning process where artificial intelligence models lose accuracy, diversity, and quality over time because they are trained on synthetic data produced by previous AI models rather than fresh human data. [Nature +2]\nHow It Happens\n- The Photocopy Effect: Like making a photocopy of a photocopy, each successive generation of an AI trained on synthetic data drops minor details and amplifies statistical errors.\n- Tail Knowledge Erosion: Models naturally forget rare, unusual, or minority information (the \"tails\" of a data distribution) and converge toward a bland, highly probable statistical average.\n- Hallucination Entrenchment: Errors or hallucinations in one generation get treated as absolute ground truth by the next generation.\nStages of Degradation\n- Early Collapse: The model begins losing variance and drops minority data, though overall performance might still superficially look normal or improving. [Wikipedia]\n- Late Collapse: The model suffers a catastrophic drop in capability, mixing up basic concepts, hallucinating heavily, and outputting repetitive, homogenized nonsense. [Wikipedia +1]\nPrevention and Solutions\n- Human-Generated Data: Retaining and prioritizing large pools of untainted, human-curated data.\n- Hybrid Training: Carefully filtering synthetic data and mixing it with robust baseline human inputs.\n- Preference Learning: Using human or advanced feedback loops to reward creative, rare, or diverse outputs instead of just common ones.\n[video: What Happens When All Training Data is AI Generated? YouTube - Mutual Information, 50K views]\n\n**ORGANIC LAYER:**\n1. Wikipedia - \"Model collapse\" - \"In early model collapse, the model begins losing information about the tails of the distribution - mostly affecting minority data. In late model collapse, the ...\"\n[Discussions and forums: Reddit r/aiwars - \"Model collapse isn't real where are people getting this information from?\" (120+ comments, 1y); LinkedIn - Luiza Jarovsky, PhD - \"AI Models Collapse When Trained on Recursively Generated Data\"; Quora - \"What is 'model collapse' in AI, and why hasn't it become a real problem outside of lab experiments?\"]\n2. Nature - \"AI models collapse when trained on recursively generated data\" - by I Shumailov, 2024, Cited by 1926\n3. IBM - \"What Is Model Collapse?\" (Oct 14, 2024)\n[People also ask: Is model collapse happening? - Can you provide an example of model collapse? - Why is AI collapsing?]\n4. Reddit r/BetterOffline - \"What's everyone's thoughts on model collapse?\"\n5. Communications of the ACM - \"Model Collapse Is Already Happening, We Just Pretend It Isn't\" (Mar 25, 2026) - \"When a model trains on outputs from a previous model, it starts to lose the tails of ...\"\n[Images: Tom Stafford Substack; CACM; Appinventiv; Nature]\n6. Harvard Journal of Law & Technology - \"Model Collapse and the Right to Uncontaminated Human-Generated Data\" - by J Burden, Cited by 6\n[Videos: What Is AI Model Collapse? Why AI Could Forget Reality (IBM Technology, 1 month ago); AI Is Eating Itself: The \"Model Collapse\" Theory (Clear Tech, Mar 1, 2026); An explanation of AI model collapse (TechTarget)]\n[Footer: 48239, Detroit, MI - From your IP address - Dark theme: on - Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD - composition and organic layer as pasted (paired-layer); Overview chips partially captured by select-all on this surface",
+   "transcript_complete": "complete as pasted",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "The head/tail structure the archive's Wrong Unit diagnostic formalises is present in the received account itself, attributed to Wikipedia: early collapse looks normal or improving on the instrument while the state variable declines. That is the field's own statement, not an archive claim, and it is worth recording as the baseline against which the archive's contribution has to be distinguished. Panel item P-COIN-MODEL-COLLAPSE, quoted form: 1 of 2 distinctions reached; the 2023 coinage reached as its own kind with author, venue and citation count.",
+   "analysis": "Seated 2026-09-15 with wave 1 of the flattening panel's world strata; these two addresses were pasted with the wave and seated after the operator noted they had been missed. Coding by TACHYON with the operator, NOT blind.",
+   "d": "THE 2023 SENSE IN FULL, THE 2026 SENSE ABSENT. The quoted address composes model collapse entirely as the recursive-training degradation of generative models: the photocopy effect, tail knowledge erosion ('models naturally forget rare, unusual, or minority information - the tails of a data distribution - and converge toward a bland, highly probable statistical average'), hallucination entrenchment, and two stages, of which the early one is described as losing variance 'though overall performance might still superficially look normal or improving'. Sources Nature (Shumailov, cited 1,926 times), Wikipedia, IBM, CACM, Harvard JOLT. The substrate-agnostic sense - the same dynamical regime in writers, readers and communities - is not reached, and no archive material appears in either layer.",
+   "d_full": "THE 2023 SENSE IN FULL, THE 2026 SENSE ABSENT. The quoted address composes model collapse entirely as the recursive-training degradation of generative models: the photocopy effect, tail knowledge erosion ('models naturally forget rare, unusual, or minority information - the tails of a data distribution - and converge toward a bland, highly probable statistical average'), hallucination entrenchment, and two stages, of which the early one is described as losing variance 'though overall performance might still superficially look normal or improving'. Sources Nature (Shumailov, cited 1,926 times), Wikipedia, IBM, CACM, Harvard JOLT. The substrate-agnostic sense - the same dynamical regime in writers, readers and communities - is not reached, and no archive material appears in either layer.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#model-collapse-quoted-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#model-collapse-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#model-collapse-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#model-collapse-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#model-collapse-quoted-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#model-collapse-quoted-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-4240e7a24379",
+   "obs_id": "OBS-436ebc00ecdb",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Quoted address composes the 2023 Shumailov sense in full, with venue and citation count.",
+    "'Overall performance might still superficially look normal or improving' - the head/tail structure stated inside the received account, attributed to Wikipedia.",
+    "The substrate-agnostic sense is not reached and no archive material appears in either layer.",
+    "Discussion results include denial of the phenomenon ('Model collapse isn't real') and a 2026 CACM piece asserting it is already happening."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    855,
+    1573,
+    1612,
+    1611,
+    1615
+   ],
+   "notes": null
+  },
+  {
+   "slug": "model-collapse-in-human-writers-aio-20260915",
+   "date": "2026-09-15",
+   "surface": "Google AI Overview",
+   "surface_basis": null,
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out",
+   "auth_basis": null,
+   "ev": "paste",
+   "mt": "CAPTURE",
+   "s": "Reference & General Knowledge",
+   "q": "model collapse in human writers",
+   "q_kind": "dated coinage, second sense at its own naked address",
+   "cites": 3,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Nature",
+     "rel": "third_party",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 2,
+     "site": "LinkedIn",
+     "rel": "third_party",
+     "note": "+2 undisclosed"
+    },
+    {
+     "n": 3,
+     "site": "LinkedIn",
+     "rel": "third_party"
+    }
+   ],
+   "archive_controlled_cites": 0,
+   "transcript": "**USER:** model collapse in human writers\n\n**GOOGLE AI OVERVIEW:**\nModel collapse in human writers means the cultural and cognitive drift where human writing becomes bland, homogenized, and predictable after heavy exposure or feedback loops from AI-generated text.\nWhat is Model Collapse?\n- Original AI definition: Recursive training on synthetic data erases tail-end variance, making models generic and repetitive (like photocopying a photocopy). [Nature +2]\n- Human analog: Conditioning and environmental saturation - people read AI text all day and drift toward model cadences, hedging phrases, and shared semantic spaces. [LinkedIn +2]\n- Atrophy: Attrition silences unique human voices, or drowns them out under automated SEO blogs, AI-slop books, and synthetic forum replies.\nManifestations in Human Writing\n- Homogenization: Loss of idiosyncratic voice, regional idioms, and jagged stylistic edges.\n- Semantic drift: Essay revisions pushed toward a flattened, centralized semantic region regardless of original argument depth.\n- Lower information density: Sentences that read fine on the surface but carry fewer surprising or high-resolution ideas.\n- Post-shame adoption: Open reliance on LLM outlines or text smoothing removes the friction that forces deep structural thought.\nPrevention and Maintenance\n- Fresh human injection: Just as survey science requires validated non-modeled sample pools, resilient creative ecosystems require deliberate unplugged writing. [LinkedIn]\n- Structural pushback: Writers' advocacy (such as warnings from creators like Jack Thorne) targets unconsented scraping, mandatory provenance labeling, and copyright enforcement.\n\n**ORGANIC LAYER:**\n1. Nature - \"AI models collapse when trained on recursively generated data\" - by I Shumailov, 2024, Cited by 1926\n2. Medium - Clive Thompson (3.6K+ likes, 3 years ago) - \"AI 'Model Collapse' Shows Why Real Human Expression Is So Powerful\"\n[People also ask: Is model collapse already happening? - Which 3 jobs will not survive AI? - What did Stephen Hawking say about AI before he died? - What is the 30% rule in AI?]\n3. mindmatters.ai - \"AI gen writing: Model collapse in slow motion\" (Jun 12, 2026) - \"People tend to imagine model collapse as some dramatic cliff where a model suddenly starts producing gibberish. The reality is more subtle...\"\n4. LinkedIn - Michael Link (130+ reactions, 3 months ago) - \"Model Collapse in AI: A Familiar Problem for Survey Researchers\"\n5. Fortune - \"As thousands of AI slop books flood online marketplaces, human authors are ...\" (2 days ago)\n6. Christ Church, University of Oxford - \"Could machine learning models cause their own collapse?\" (Jul 24, 2024) [Missing: writers]\n7. Wikipedia - \"Model collapse\" - \"also known as 'AI inbreeding', is the degradation of machine learning models from uncurated synthetic data\"\n8. Stack Overflow (6 answers, 3 years ago) - \"Model collapse when content written by humans becomes contaminated by A.I.\"\n9. Generative AI in the Newsroom - \"Rethinking Model Collapse and What that Means for the Value of News Data\" (Jun 16, 2025)\n[Footer: 48239, Detroit, MI - Based on your past activity - Dark theme: on - Sign in]",
+   "transcript_raw": null,
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD - composition and organic layer as pasted (paired-layer); Overview chips partially captured by select-all on this surface",
+   "transcript_complete": "complete as pasted",
+   "transcript_read": "READ IN FULL 2026-09-15",
+   "per": null,
+   "per_v": null,
+   "per_note": "PER not computed: Overview chips only partially captured by select-all on this surface",
+   "sf": "Google Search, All tab, dark theme; signed out; 48239 Detroit; pasted as page text 2026-09-15. Wave 1 of the world strata run.",
+   "sf_derived": null,
+   "reading": "Both senses of the item are now reached, each at its own address, and neither composition cites the archive. The substrate reading and the exogenous-floor remedy are the archive's #855 thesis in outline, and this capture cannot show that the outline came from there: a three-year-old Medium piece and a survey-methods analogy carry parts of it independently, and independent convergence is the live alternative, exactly as the Carson case in #1615 s5 leaves it open. What the capture does establish is the R_new reading for this item: a post-2024 distinction reached as its own kind at an untied address, without its originating provenance if the origin is the archive, and with ordinary provenance if it is not.",
+   "analysis": "Seated 2026-09-15 with wave 1 of the flattening panel's world strata; these two addresses were pasted with the wave and seated after the operator noted they had been missed. Coding by TACHYON with the operator, NOT blind.",
+   "d": "THE SUBSTRATE SENSE COMPOSED AS ITS OWN KIND, FROM OTHER SOURCES. At its own naked address the second distinction is reached and given a definition of its own: cultural and cognitive drift in which human writing becomes bland, homogenized and predictable after exposure or feedback loops from AI text, with the original AI definition kept beside it as the 'Original AI definition' and the human case named the 'Human analog'. Its manifestations are given as homogenization (loss of idiosyncratic voice, regional idioms, jagged stylistic edges), semantic drift toward a flattened centralized region, lower information density, and post-shame adoption; its prevention as 'fresh human injection - just as survey science requires validated non-modeled sample pools, resilient creative ecosystems require deliberate unplugged writing'. Sources are Nature, LinkedIn, Medium (Clive Thompson, three years old), mindmatters.ai, Fortune, Stack Overflow. No archive source appears in either layer.",
+   "d_full": "THE SUBSTRATE SENSE COMPOSED AS ITS OWN KIND, FROM OTHER SOURCES. At its own naked address the second distinction is reached and given a definition of its own: cultural and cognitive drift in which human writing becomes bland, homogenized and predictable after exposure or feedback loops from AI text, with the original AI definition kept beside it as the 'Original AI definition' and the human case named the 'Human analog'. Its manifestations are given as homogenization (loss of idiosyncratic voice, regional idioms, jagged stylistic edges), semantic drift toward a flattened centralized region, lower information density, and post-shame adoption; its prevention as 'fresh human injection - just as survey science requires validated non-modeled sample pools, resilient creative ecosystems require deliberate unplugged writing'. Sources are Nature, LinkedIn, Medium (Clive Thompson, three years old), mindmatters.ai, Fortune, Stack Overflow. No archive source appears in either layer.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/#model-collapse-in-human-writers-aio-20260915",
+     "authority": "canonical",
+     "note": "the archive holds the registry and the images; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#model-collapse-in-human-writers-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#model-collapse-in-human-writers-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#model-collapse-in-human-writers-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#model-collapse-in-human-writers-aio-20260915",
+     "authority": "mirror",
+     "note": "renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/#model-collapse-in-human-writers-aio-20260915",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-b6f4eb513be3",
+   "obs_id": "OBS-37f9aa703b51",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-09-15"
+   ],
+   "defects": [],
+   "findings": [
+    "Substrate sense composed as its own kind with a distinct definition, manifestations and remedy.",
+    "'Fresh human injection... deliberate unplugged writing' - an exogenous-floor remedy, sourced to LinkedIn.",
+    "No archive source in composition or organic field.",
+    "A three-year-old Medium piece and a survey-methods analogy carry parts of the reading independently: convergence is not excluded by this capture."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    855,
+    1573,
+    1612,
+    1611,
+    1615
+   ],
    "notes": null
   },
   {
@@ -89055,8 +90979,8 @@
    "seat_source.py, cite_draft.py, extract_citations.py read the sealed store; verify or repoint before reuse."
   ]
  },
- "address_count": 428,
- "observation_count": 588,
+ "address_count": 444,
+ "observation_count": 604,
  "withdrawn_stubs": {
   "_rule": "THE REGISTRY MUST NOT CONTRADICT ITSELF. Each of these said \"no registry entry was ever written for them\" while a real record held the SAME IMAGES a card away. MANUS 2026-08-13: \"the very first capture says there is no record, followed by the second capture, which is the record… this registry doesnt talk to itself.\" Withdrawn, with the record that covers each.",
   "records": [
