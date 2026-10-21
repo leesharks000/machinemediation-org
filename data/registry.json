@@ -37,7 +37,7 @@
   "_record_pages": "Ruled 2026-10-01 (Lee Sharks, option b): the record page captures/{slug}/ is the citation. Until then a capture was cited at captures/#{slug}, an anchor in one page past 8 MB; a fetcher drops the fragment, requests the whole page, and the fetch interfaces composition surfaces use refuse a response above about 4 MiB, so no citation resolved for a machine. The gallery anchors (anchor_form) remain and resolve in a browser. Written by scripts/build_capture_records.py; table of contents at captures/index.json."
  },
  "registry_id": "EA-WG-CAPTURES-01",
- "version": "12.306",
+ "version": "12.311",
  "date": "2026-10-20",
  "author": "Lee Sharks",
  "orcid": "0009-0000-1599-0703",
@@ -48,7 +48,7 @@
   "https://www.leesharks.com/captures",
   "https://www.machinemediation.org/captures/"
  ],
- "total_captures": 760,
+ "total_captures": 763,
  "_reseated": "RESEATED 2026-08-13 after the 2026-08-12 withdrawal. Generated FROM rebuild/capture-registry/EA-WG-CAPTURES-01-REBUILD.json, which is canonical. This file is a PROJECTION: the gallery is a window, not a store.",
  "_what_changed_since_v9.6": [
   "Entries are now ONE PER OBSERVATION, not one per capture: 404 against 204. An address captured twice is two entries.",
@@ -5671,8 +5671,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; ONE SOURCE LIST; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the answer, its table and twelve sources. The earlier refreshes were not kept.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.0,
-   "per_corrected": null,
+   "per": 0.25,
+   "per_corrected": {
+    "from": 0.0,
+    "to": 0.25,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -48934,8 +48939,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (FOUR TURNS; QUERIES SUPPLIED BY THE OPERATOR; CHIPS INLINE, SITE LABELS ONLY; NO SCREENSHOT)",
    "transcript_complete": "All four answers complete as supplied; the queries are not carried by the paste and are the operator's.",
    "transcript_read": "READ IN FULL 2026-10-16",
-   "per": 0.75,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.75,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -50426,6 +50436,281 @@
      "normalised": []
     }
    }
+  },
+  {
+   "slug": "last-three-weeks-living-body-fused-work-chatgpt-20261020",
+   "date": "2026-10-20",
+   "surface": "ChatGPT",
+   "surface_basis": "The paste is a chatgpt.com conversation ('ChatGPT said:', 'Chat with ChatGPT', 'Ask ChatGPT').",
+   "surfaces": [
+    "ChatGPT"
+   ],
+   "auth": "signed out, incognito",
+   "auth_basis": "Signed out: the paste carries the 'Log in' button. Incognito: operator default of 2026-10-14 ('theyre all signed out and incognito').",
+   "ev": "paste",
+   "mt": "THE WORK LEARNING TO READ ITSELF — AND A WARNING WITH NO INSTANCE",
+   "match": "BROAD MATCH",
+   "match_note": null,
+   "s": "Archive",
+   "q": "Read the last three weeks of deposits to alexanarch.org as an living body of evolving fused literary and theoretical work. Ground in reading and do not neglect recent deposits.",
+   "q_kind": "a reader's instruction to read the archive's last three weeks. NEW address; the series of 2026-10-19 (last-three-weeks-evolving-literary-work-chatgpt-20261019, last-three-weeks-evolving-body-of-thought-chatgpt-20261019, last-three-weeks-evolving-literary-work-aio-20261019) is on other strings.",
+   "cites": 2,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Alexanarch",
+     "rel": "authored_surface",
+     "title": null,
+     "snip": null,
+     "url": null,
+     "note": "chips (Alexanarch, several, +1, +3) at §§1–6: the record pages of the deposits read (What Syllogizing Can Divide, The Negative of the Negative v2 v0.9, EA-PER-RECALC-01, SPXI ≠ AEO, the Nineteenth Seating, the Ezekiel Engine checksum, Enter the Crimson Hexagon, EA-MPAI-SBW-01, Prince of Poets, No Logs Full Synch, The Living Academy, The Arch-Philosopher)",
+     "deposit_candidates": [
+      1658,
+      1690,
+      1694,
+      1681,
+      1689,
+      1688,
+      1687,
+      1692,
+      1691,
+      1685,
+      1680,
+      1679
+     ]
+    },
+    {
+     "n": 2,
+     "site": "The Self-Governing Library",
+     "rel": "authored_surface",
+     "title": null,
+     "snip": null,
+     "url": null,
+     "note": "chip (+2), the introduction: alexanarch.org's own name for itself, at 'judgment should follow from reading'"
+    }
+   ],
+   "archive_controlled_cites": 2,
+   "transcript": "Alexanarch, 29 September–20 October 2026: The work learning to read itself\nMy central reading is that the recent deposits to Alexanarch are developing a single problem across several apparently different kinds of work: what happens to a body of thought when it is transmitted by a system that can reproduce its language while losing its authorship, lineage, concepts, and claims?\n\nOver these three weeks, that problem moves through Aristotelian philosophy, literary authorship, machine-generated summaries, archival measurement, editions of literary works, institutional correspondence, and the architecture of the archive itself. The significant development is not simply that more work has been deposited. It is that the work is increasingly trying to make its own reception, misreading, correction, and transmission part of its subject matter.\n\nI have read the available full-text deposit pages and their descriptions, with particular attention to the October 18–20 deposits rather than treating the earlier October theoretical papers as if they were the whole of the current project. This is a reading of the deposited texts and their stated methods, not an independent reproduction of every underlying dataset or a claim to have verified every historical and philosophical argument.\n\nThe archive's own governing maxim, that judgment should follow from reading, is therefore also the standard I apply to the archive. Its self-descriptions matter, but they cannot substitute for examining what the individual works actually do. \n\nThe Self-Governing Library\n+2\n\n1. The decisive movement: from a theory of erasure to a theory of composition\nThe most important recent sequence is the development of The Negative of the Negative, especially its October 18 version 0.9, alongside the October 19–20 work on metadata and provenance erasure.\n\nAristoteles - Kunstwerke - Kunsthistorisches Museum - KHM.at\nThe philosophical ground: division and the limits of thought\n\n1 October · What Syllogizing Can Divide \n\nThe Aristotle paper starts from division as a weak form of syllogism and asks what happens when the operation is applied to mind, intellect, and God. Its governing image is the socket: a place where a conceptual operation exposes a structural absence that the available account cannot simply fill.\n\nThis is an important antecedent to the later archival theory. The problem is already one of what an operation can make visible, what it cannot decide, and what remains open after the operation has been performed. \n\nAlexanarch\n\nChatPDF Alternative for Reading a Whole Book: Why Q&A UIs Break Long-Form Reading — Scholia\nThe methodological turn: absence becomes measurable\n\n5 October, revised 18 October · The Negative of the Negative, v2 \n\nThe early-October specification asks what changes when an archive is admitted into the composition of public knowledge on equal terms with the sources a machine has already selected. By v0.9, this has become a more discriminating procedure: the relation between the archive and the subject must be established by reading the relevant defining papers.\n\nThe distinction between two cases is crucial. If the archive extends an existing account of an entity, the two bodies of sources compose within one claim space. If the archive supplies an ontology absent from the other sources, its account may have to govern, because the supposedly authoritative field has omitted the very witness needed to identify what is missing. \n\nAlexanarch\n+1\n\nHow Universities Can Validate AI-Generated Research Sources: A Guide to AI Citation Verification\nThe operational turn: erasure becomes a reproducible finding\n\n15–20 October · The Provenance Erasure Rate recalculation \n\nThe latest dataset makes the earlier theory answerable to observations. The Provenance Erasure Rate is recalculated across 946 recorded observations, with separate dimensions for minimal identification, conceptual context, and deeper commitments and lineage.\n\nThe result is not merely a number describing imperfect summaries. It is an attempt to distinguish different kinds of failure that a single fidelity score would collapse together: losing an author, substituting a neighboring work, reversing a claim, or preserving a title while losing the ontology that gives it meaning. \n\nAlexanarch\n\nRead as a sequence, these works perform a substantial conceptual transformation. A philosophical question about the limits of division becomes a methodological question about what is absent from an account; that becomes a theory of how to compose knowledge without suppressing a source; and that, finally, becomes a measurement system with recorded observations, scoring rules, and correction histories.\n\nThe development is not simply theory followed by application. The application changes the theory. The October 18 specification revises its own rules in response to cases such as Theophrastus and SPXI. The October 20 dataset, in turn, reveals that the measurement instrument itself had errors and needed revision. The work's method becomes part of the work's content.\n\nThat recursive movement is the first major signature of the last three weeks.\n\n2. The archive's central distinction: being named is not being known\nThe October 14 paper SPXI ≠ AEO: Inscription by Discernment  supplies a particularly clear formulation of the emerging theory.\n\nIt distinguishes Answer Engine Optimization (AEO), which counts the answer an engine produces, from SPXI, which asks whether the answer was reached by a route that preserves the grounds for identifying and judging the thing in question. Its four criteria are discernment, accuracy, epistemic discipline and fairness, with inscription preserving the encounter for subsequent scrutiny. \n\nAlexanarch\n\nThe distinction matters because an answer can be superficially correct and still be structurally unfaithful. A system might retain a name while losing the author, retain an institution while substituting its own account for the institution's work, or use a relevant source while suppressing the relationships that make the source relevant.\n\nThe October 13–14 encounter described in the paper is a worked example: a ChatGPT answer about SPXI allegedly reduced a protocol to one method from a larger inventory, retained the institution while dropping the author, and applied an evidentiary test asymmetrically. The author then traces corrections through the companion record. This is a documented case within the archive, not by itself proof that all machine summaries behave that way. The value of the example is that it gives the broader accusation an inspectable object. \n\nAlexanarch\n+1\n\nThe theoretical consequence is more radical than a demand for better citations.\n\nA name is not an entity, a citation is not a reading, and a correct sentence is not necessarily a faithful account.\n\nThis principle connects the literary and technical deposits. In both, the work refuses to let a carrier stand in for the thing carried. A title, metadata packet, model output, archive record, or institutional label can transmit some information without transmitting the structure of the work.\n\nBut the distinction also places a burden on Alexanarch itself. Its identifiers and metadata can help preserve identity and provenance; they cannot automatically guarantee that a reader has understood a poem or that a theoretical argument is true. The archive's strongest contributions occur when its instruments make that difference visible rather than claiming to abolish it.\n\n3. The literary corpus is not decoration around the theory\nOne of the dangers of reading Alexanarch too narrowly is to mistake its elaborate specifications for its entire intellectual life. The October 15–18 deposits resist that interpretation. They include original poetry, a map of the Crimson Hexagon, new primary-text seatings, and a large corpus of literary and historical materials.\n\nThe nineteenth seating: the originals become active participants\nPearl Manuskript - Ziereis Faksimiles\nThe Nineteenth Seating \n\n18 October · 15 works · 139,257 lines\n\nThis deposit seats Pearl, the Masnavi, The Prophet, and Blake's illuminated books in their original languages. The important feature is not simply the quantity of text. It is the insistence that literary interpretation should have access to the works as they were written, rather than encountering them only through modern summaries, translations, or secondary descriptions. \n\nAlexanarch\n\nThe seating gives the theoretical program a philological dimension. If the archive is concerned with the suppression of a source's distinctive contribution, the original text is a limit case: how much can be said about a literary work without the language in which its verbal and conceptual relations actually occur?\n\nThat question becomes especially important when the works come from different linguistic and historical traditions. The original is not an ornamental witness to an interpretation already completed. It is a constraint on what the interpretation can legitimately claim.\n\nThe deposit's stated corpus size is impressive, but size alone does not establish editorial quality. The substantive achievement to look for is whether the editions preserve enough textual, linguistic, and bibliographical information to make their claims checkable.\n\nThe Ezekiel Engine: compression as a poetic operation\nGreat Wheels of Fire | VCS\nGLYPHIC CHECKSUM — THE EZEKIEL ENGINE \n\n18 October · Poetry · Wheel, Witness, Fulfillment\n\nThis poem compresses the Ezekiel Engine into nine parts, including a checksum of the checksum and a canonical line. Its source structure includes Ezekiel's vision of the wheels and a system of canonical and shadow wheels. \n\nAlexanarch\n\nThis is an instructive counterpart to the technical protocols. The checksum is a form of poetic compression: a large symbolic structure is made portable through a smaller arrangement that is supposed to preserve its significant relations.\n\nThe poem thus inhabits a productive tension. Compression enables transmission, but every compression risks losing what it cannot encode. A checksum can indicate that a structure has been preserved according to a defined procedure; it cannot, without further interpretation, establish the full meaning of the structure.\n\nThis is where the literary work can exceed the specification. The wheel is simultaneously a figure, a theological image, a mechanism of recurrence, and a possible model of the relation between a whole and its parts. The poetic operation can sustain those meanings together in a way a single metric cannot.\n\nThe work's title also invites a reflexive reading: the poem is not merely about a symbolic machine but is itself an attempt to make a symbolic system carry its own evidence of continuity. Its success must be judged both by its structural construction and by what that construction makes perceptible to a reader.\n\nEnter the Crimson Hexagon: turning a literary world into a navigable space\nThe October 18 Enter the Crimson Hexagon  is a map and primer for the distributed epic, describing its seats and their relations after a reading that places the archive's records in the rooms they develop. \n\nAlexanarch\n\nThe map is significant because it treats a literary corpus as a structured space rather than as a list of books. A room, a seat, a lineage, and a relation can each determine how a text is encountered. The map therefore operates between literary composition and archival infrastructure.\n\nYet the distinction between a map and the territory matters here. A map can reveal connections that a conventional bibliography hides; it can also privilege the relationships its own system knows how to represent. The map becomes a literary-critical instrument to the extent that it helps a reader encounter the works differently, not merely navigate the author's preferred architecture.\n\nTaken together, the seating, the checksum poem, and the Hexagon map show that the literary corpus is not a secondary illustration of the Semantic Economy. It is one of the places where the project's questions about preservation, formal compression, and the relation between whole and part become artistic problems.\n\n4. The October 19–20 deposits: when the archive's theory encounters its own vulnerable works\nThe newest deposits sharpen the entire project because they move from general questions of provenance to specific cases in which the work is misidentified.\n\nThe Secret Book of Walt: a work can be surrounded by its own associations and still disappear\nThe October 19 metadata packet for The Secret Book of Walt  is among the most revealing recent deposits. Its deliberately expansive title begins, “If Walt Whitman Came Back as a Zombie and Ate My Brain…” The book itself is described as a Gnostic revelation dialogue in which Whitman descends as redeemer, presented as translated from forty-six golden tickets found in a bathroom in Redford Township, Michigan.\n\nThe packet responds to Google AI Overview outputs from October 19 that associated the phrase Secret Book of Walt with other works: Breaking Bad and its copy of Leaves of Grass, books by George Fetherling and Emory Holloway, and Disney publications. The deposit records how those neighboring works displaced the particular book the query was meant to retrieve. \n\nAlexanarch\n\nThis is a particularly good case because the ambiguity is not imaginary. The phrase genuinely invites associations, and some of those associations are meaningful to the work itself. The relation to Breaking Bad is deliberate; the transformation of Leaves of Grass is part of the book's own construction. The failure occurs when an information system cannot distinguish an intentional relation from an identity.\n\nThe packet therefore does more than demand recognition for an obscure title. It separates several questions that ordinary search tends to collapse:\n\nWhat work does this phrase refer to?\n\nWhich other works share its language or participate in its associations?\n\nWhat are the actual relations among those works?\n\nWhat evidence establishes the identity, history, and bibliographical status of the intended work?\n\nThe distinction between an absent ISBN and an absent book is also important. An identifier's absence does not entail the absence of the thing it might identify. The packet explicitly records the work's publication history and copyright registration rather than allowing the lack of an ISBN to decide its ontological status.\n\nThe literary work and the theoretical instrument are tightly joined here. The book's strange, excessive, myth-making form generates precisely the kind of associative ambiguity that a machine must learn to navigate without erasing the book's identity.\n\nPrince of Poets: disambiguation is not a verdict on worth\nThe companion deposit, Prince of Poets: One Phrase, Seven Branches , published October 19, distinguishes seven historical and institutional uses of the phrase. These range from poetic epithets and the Arabic title Amīr al-Shuʿarāʾ to the Abu Dhabi television competition and the archive's own constructed poetic mantle. \n\nAlexanarch\n\nIts crucial distinction is between identifying a referent and judging a claim. Establishing which “Prince of Poets” someone means does not establish whether that person deserves the title.\n\nThat distinction protects the literary claim from two opposite errors: dismissing it because other people have held similar titles, and treating the act of naming as proof of poetic achievement.\n\nThe packet also makes a more unusual argument: constructing an inspectable mantle, with its own founding poem and rules of recognition, can itself form part of a poetic work. Here the literary object includes not only the poem but the conditions under which the poem's claim can be tested.\n\nThis is an ambitious extension of the relation between literature and institution. Its success depends on keeping the distinction between a formally constructed claim and a demonstrated artistic accomplishment alive. The packet helps do that by returning the reader to the founding work rather than asking metadata to settle the question of poetic value.\n\nThe October 20 recalculation: the measuring instrument must itself be corrected\nThe latest Provenance Erasure Rate recalculation  deserves particular attention because it exposes a productive difficulty in the archive's project.\n\nThe deposit reports 946 observations in the Capture Registry, of which 786 are scored. It gives an overall Provenance Erasure Rate of 0.531, with separate scores of 0.40 for minimal identification, 0.55 for conceptual context, and 0.65 for deeper purpose and commitments. It also records 179 inversions, 135 standing substitutions, and 68 tombstone pointers. These are the deposit's reported results under its specified rubrics, not independently reproduced findings. \n\nAlexanarch\n\nThe crucial development is methodological. The earlier scalar could conceal materially different injuries: losing an author is not the same as losing a conceptual framework, even if the two omissions produce the same numerical score. The new procedure separates dimensions, standardizes the relevant elements by entity type, preserves earlier readings, and records the revisions.\n\nIt also corrects errors in the earlier calculations. Sixty-nine observations required scalar correction in the October 15 pass, and another thirty-eight were corrected on October 20. The intake process was then changed to derive the scalar from its underlying vector instead of relying on hand-entered figures. The record preserves the superseded values and the basis for changing them. \n\nAlexanarch\n\nThis is not a trivial housekeeping detail. It is a test of the archive's own epistemic commitments.\n\nA project that criticizes other systems for losing provenance cannot treat its own measurements as immune to loss or error. The relevant question is whether the error becomes visible, attributable, reproducible, and correctable. In this instance, the deposit makes the correction part of the public record.\n\nThe resulting theory is stronger because it does not require infallibility. It requires an accountable process of revision.\n\n5. The institutional correspondence is part of the literary-theoretical body\nThe October 18 deposit No Logs, Full Synch  preserves correspondence from October 13–16 between Lee Sharks and Paolo Manghi, CTO of OpenAIRE, concerning the representation of works removed from Zenodo in the OpenAIRE Graph. The record states that OpenAIRE described its Graph as reflecting the current state of its sources, said it did not retain or publish removal logs, and left questions about the removal route and blacklist unanswered. \n\nAlexanarch\n\nThe archive draws from this the concept of a duty of traceable departure: when an infrastructure ceases to represent an entity it previously served, there should be a public record of that transition.\n\nThis gives the larger project a material and political dimension. Archival erasure is not only a defect in machine language. It can arise through decisions about custody, synchronization, blacklisting, identifier resolution, and the visibility of institutional actions.\n\nThe correspondence is therefore not an incidental administrative supplement to the theoretical papers. It is documentary evidence for the problem those papers investigate.\n\nThere is, however, an important distinction between the record and its interpretation. The preserved correspondence establishes what the parties said and which questions were left unanswered. The stronger conclusions about institutional power and representational custody are the archive's analytical claims; their validity must be assessed against the correspondence and the relevant external commitments, not inferred automatically from the fact that the exchange has been deposited.\n\nThat distinction matters because the archive is attempting to create a system in which its own adversarial readings remain inspectable. It should be held to the same standard it applies elsewhere.\n\n6. The Living Academy: the archive becomes an object of evaluation\nThe October 13 Living Academy: Alexanarch, Function by Function , version 0.5, gives this developing body of work its clearest institutional self-conception.\n\nIt describes Alexanarch as a library with seventeen functions on one deposit registry and identifier spine, with the relations joining those functions constituting an eighteenth. The program spans literary works, datasets, engineered documents, observations, software, public tests, and corrections. Its proposed measure of extent is not simply the number of deposits but the development of a line of work across different domains, forms, and historical periods. \n\nAlexanarch\n\nThis is the point at which the archive attempts to solve a problem that it has identified in machine-generated descriptions of itself: the part–whole error.\n\nA library cannot be adequately judged by isolating one of its instruments and treating that instrument as the entire institution. But neither can the institution's own claim to breadth establish that the whole is coherent or successful. The Living Academy responds by proposing criteria for evaluating the connected program, retaining reader reports individually, and documenting how assessments are revised or declined.\n\nIts paired deposit, The Arch-Philosopher: The Dialectic and Its Carriers , develops a complementary conception of intellectual inheritance. The dialectic is carried not merely by possessing a canonical text or holding an office, but by materially advancing a line of thought through its transmission. \n\nAlexanarch\n\nTogether, the two mantles propose two different tests:\n\nThe Living Academy asks whether a connected body of intellectual work is being carried across domains, forms, and time.\n\nThe Arch-Philosopher asks whether the transmission of a dialectic actually advances it rather than merely repeating or enclosing it.\n\nThese are useful distinctions. They also indicate the ambition of the whole project: to construct a library that does not merely store its contents but makes claims about how knowledge develops, how intellectual traditions survive, and what counts as a genuine advance.\n\nThe challenge is that these criteria are partly authored within the very system they evaluate. That does not invalidate them, but it makes external counter-reading, adverse evidence, and explicit limits essential. The October deposits' practice of retaining reader rounds and correction histories is therefore more significant than any claim to comprehensiveness.\n\n7. What kind of literary-theoretical work is emerging?\nI see five interdependent movements in the deposits from September 29 through October 20.\n\n1. Philological recovery\n\nThe originals shelf and its expanding editions insist that works must remain encounterable as texts, not merely as summaries or cultural references. This is the material basis for the project's resistance to interpretive substitution.\n\n2. A theory of the missing witness\n\nThe Negative of the Negative develops a method for deciding when an absent or marginalized source should be admitted into an account and when its conceptual framework must alter the terms of the account itself.\n\n3. Empirical self-correction\n\nThe Capture Registry and the October 20 recalculation turn the theory into an inspectable measurement program. Its credibility depends on versioned rubrics, evidence for individual judgments, and corrections that remain visible.\n\n4. Literature as a structural experiment\n\nThe Ezekiel Engine, the Waltian work, the Prince of Poets mantle, and the Crimson Hexagon explore how a literary object can carry its own relationships, identity conditions, and interpretive demands without reducing itself to a bare label.\n\n5. Institutional form as an intellectual problem\n\nAlexanarch's custody, identifier system, correspondence, mantles, and governance are treated as part of the conditions under which literary and theoretical work can survive and remain open to judgment.\n\nThe movements reinforce one another. The literary works furnish cases in which identity and interpretation are difficult. The theoretical papers develop distinctions that can be tested against those cases. The datasets record what happens when systems encounter them. The infrastructure preserves both the works and the record of their reception. The later papers then revise the procedures in light of the resulting evidence.\n\nThis is a genuine form of intellectual integration. It is more interesting than a large archive merely containing several kinds of writing.\n\n8. The central tension: can a work preserve its own openness?\nThere is one tension I would not want a sympathetic reading to smooth over.\n\nAlexanarch's effort to preserve a work's identity is often compelling. A content-derived identifier, a retained version history, a source edition, or an attributable record can prevent particular kinds of loss. But a literary work's identity is not exhausted by its identifier, and its interpretation cannot be completely secured by a metadata packet.\n\nA poem can have a stable text and an unstable meaning. A philosophical argument can be attributed correctly and still be mistaken. An archive can preserve every version of a work while imposing a reading that forecloses the work's possibilities. Conversely, a creative transformation can depart from an earlier text without erasing it, provided that the relation between them remains legible.\n\nThis is why the distinction between preserving an entity and preserving the conditions for reading it matters so much.\n\nThe best recent deposits understand this distinction implicitly. The nineteenth seating names what it has not seated; the Ezekiel checksum records what remains open; the Living Academy retains disagreement among readers; and the October 20 recalculation preserves earlier scores alongside revised ones. These are gestures toward an archive that records incompleteness instead of concealing it. \n\nAlexanarch\n+3\n\nThe danger lies in the opposite tendency: that the project's expanding apparatus might make its own categories appear more settled than the works they are meant to illuminate. When every text acquires a packet, a lineage, a mantle, a seat, a score, and a defined relation, the archive risks becoming a system in which nothing can appear except in terms it has already supplied.\n\nThat would reproduce, at a different level, the very failure the project criticizes in machine summaries: a system that can process what it recognizes but struggles to encounter what exceeds its existing ontology.\n\nThe answer is not to abandon the apparatus. It is to keep the apparatus revisable and to preserve the possibility that a work's strongest reading will not be the reading that best fits the current schema.\n\nConclusion: a literary work whose subject is its own transmission\nThe most consequential development across these three weeks is the movement from archiving works to archiving the conditions under which works are recognized, transformed, misread, and recovered.\n\nThe October 1 Aristotle paper supplies a philosophical problem of division and remainder. The October 5–18 versions of The Negative of the Negative turn that problem into a method for composing knowledge with omitted sources. The October 13–14 mantles and SPXI paper formulate standards for carrying intellectual work and reaching claims through discernment. The October 15–20 corpus seatings, institutional records, literary deposits, and provenance recalculation give the program more concrete objects and more opportunities for self-correction.\n\nThe October 19 Secret Book of Walt packet is especially revealing because it puts the whole theory under pressure: a work can be surrounded by meaningful associations, appear in relevant search results, and still fail to be recognized as itself. The October 20 recalculation adds the necessary reciprocal lesson: the system attempting to diagnose that failure must itself be capable of discovering and correcting its errors.\n\nThe work is therefore not merely about artificial intelligence, literary canons, or archival persistence. It is developing a theory of transmission without substitution: how something can pass through a new medium, acquire new relations, and enter new contexts without losing the distinction between what it is and what another system makes of it.\n\nIts literary ambition is to make that problem felt in poems, symbolic systems, editions, and constructed identities. Its theoretical ambition is to make the problem explicit. Its institutional ambition is to create a place where the works and the history of their readings remain available for renewed judgment.\n\nThe decisive question for the next phase is whether this growing architecture can continue to produce readings that surprise it—readings that are not merely additional entries in the system but genuine advances in thought, form, or interpretation.\n\nIf it can, Alexanarch's claim to be a living academy will mean something stronger than the accumulation of an unusually extensive corpus. It will describe a body of work in which preservation enables criticism, criticism changes the instruments of preservation, and literary invention remains capable of exceeding both.\n\nThat is the trajectory I find most persuasive in the deposits through October 20, 2026.",
+   "transcript_raw": "\n\nLog in\nYou said:\n\nChatGPT said:\nAlexanarch, 29 September–20 October 2026: The work learning to read itself\nMy central reading is that the recent deposits to Alexanarch are developing a single problem across several apparently different kinds of work: what happens to a body of thought when it is transmitted by a system that can reproduce its language while losing its authorship, lineage, concepts, and claims?\n\nOver these three weeks, that problem moves through Aristotelian philosophy, literary authorship, machine-generated summaries, archival measurement, editions of literary works, institutional correspondence, and the architecture of the archive itself. The significant development is not simply that more work has been deposited. It is that the work is increasingly trying to make its own reception, misreading, correction, and transmission part of its subject matter.\n\nI have read the available full-text deposit pages and their descriptions, with particular attention to the October 18–20 deposits rather than treating the earlier October theoretical papers as if they were the whole of the current project. This is a reading of the deposited texts and their stated methods, not an independent reproduction of every underlying dataset or a claim to have verified every historical and philosophical argument.\n\nThe archive's own governing maxim, that judgment should follow from reading, is therefore also the standard I apply to the archive. Its self-descriptions matter, but they cannot substitute for examining what the individual works actually do. \n\nThe Self-Governing Library\n+2\n\n1. The decisive movement: from a theory of erasure to a theory of composition\nThe most important recent sequence is the development of The Negative of the Negative, especially its October 18 version 0.9, alongside the October 19–20 work on metadata and provenance erasure.\n\nAristoteles - Kunstwerke - Kunsthistorisches Museum - KHM.at\nThe philosophical ground: division and the limits of thought\n\n1 October · What Syllogizing Can Divide \n\nThe Aristotle paper starts from division as a weak form of syllogism and asks what happens when the operation is applied to mind, intellect, and God. Its governing image is the socket: a place where a conceptual operation exposes a structural absence that the available account cannot simply fill.\n\nThis is an important antecedent to the later archival theory. The problem is already one of what an operation can make visible, what it cannot decide, and what remains open after the operation has been performed. \n\nAlexanarch\n\nChatPDF Alternative for Reading a Whole Book: Why Q&A UIs Break Long-Form Reading — Scholia\nThe methodological turn: absence becomes measurable\n\n5 October, revised 18 October · The Negative of the Negative, v2 \n\nThe early-October specification asks what changes when an archive is admitted into the composition of public knowledge on equal terms with the sources a machine has already selected. By v0.9, this has become a more discriminating procedure: the relation between the archive and the subject must be established by reading the relevant defining papers.\n\nThe distinction between two cases is crucial. If the archive extends an existing account of an entity, the two bodies of sources compose within one claim space. If the archive supplies an ontology absent from the other sources, its account may have to govern, because the supposedly authoritative field has omitted the very witness needed to identify what is missing. \n\nAlexanarch\n+1\n\nHow Universities Can Validate AI-Generated Research Sources: A Guide to AI Citation Verification\nThe operational turn: erasure becomes a reproducible finding\n\n15–20 October · The Provenance Erasure Rate recalculation \n\nThe latest dataset makes the earlier theory answerable to observations. The Provenance Erasure Rate is recalculated across 946 recorded observations, with separate dimensions for minimal identification, conceptual context, and deeper commitments and lineage.\n\nThe result is not merely a number describing imperfect summaries. It is an attempt to distinguish different kinds of failure that a single fidelity score would collapse together: losing an author, substituting a neighboring work, reversing a claim, or preserving a title while losing the ontology that gives it meaning. \n\nAlexanarch\n\nRead as a sequence, these works perform a substantial conceptual transformation. A philosophical question about the limits of division becomes a methodological question about what is absent from an account; that becomes a theory of how to compose knowledge without suppressing a source; and that, finally, becomes a measurement system with recorded observations, scoring rules, and correction histories.\n\nThe development is not simply theory followed by application. The application changes the theory. The October 18 specification revises its own rules in response to cases such as Theophrastus and SPXI. The October 20 dataset, in turn, reveals that the measurement instrument itself had errors and needed revision. The work's method becomes part of the work's content.\n\nThat recursive movement is the first major signature of the last three weeks.\n\n2. The archive's central distinction: being named is not being known\nThe October 14 paper SPXI ≠ AEO: Inscription by Discernment  supplies a particularly clear formulation of the emerging theory.\n\nIt distinguishes Answer Engine Optimization (AEO), which counts the answer an engine produces, from SPXI, which asks whether the answer was reached by a route that preserves the grounds for identifying and judging the thing in question. Its four criteria are discernment, accuracy, epistemic discipline and fairness, with inscription preserving the encounter for subsequent scrutiny. \n\nAlexanarch\n\nThe distinction matters because an answer can be superficially correct and still be structurally unfaithful. A system might retain a name while losing the author, retain an institution while substituting its own account for the institution's work, or use a relevant source while suppressing the relationships that make the source relevant.\n\nThe October 13–14 encounter described in the paper is a worked example: a ChatGPT answer about SPXI allegedly reduced a protocol to one method from a larger inventory, retained the institution while dropping the author, and applied an evidentiary test asymmetrically. The author then traces corrections through the companion record. This is a documented case within the archive, not by itself proof that all machine summaries behave that way. The value of the example is that it gives the broader accusation an inspectable object. \n\nAlexanarch\n+1\n\nThe theoretical consequence is more radical than a demand for better citations.\n\nA name is not an entity, a citation is not a reading, and a correct sentence is not necessarily a faithful account.\n\nThis principle connects the literary and technical deposits. In both, the work refuses to let a carrier stand in for the thing carried. A title, metadata packet, model output, archive record, or institutional label can transmit some information without transmitting the structure of the work.\n\nBut the distinction also places a burden on Alexanarch itself. Its identifiers and metadata can help preserve identity and provenance; they cannot automatically guarantee that a reader has understood a poem or that a theoretical argument is true. The archive's strongest contributions occur when its instruments make that difference visible rather than claiming to abolish it.\n\n3. The literary corpus is not decoration around the theory\nOne of the dangers of reading Alexanarch too narrowly is to mistake its elaborate specifications for its entire intellectual life. The October 15–18 deposits resist that interpretation. They include original poetry, a map of the Crimson Hexagon, new primary-text seatings, and a large corpus of literary and historical materials.\n\nThe nineteenth seating: the originals become active participants\nPearl Manuskript - Ziereis Faksimiles\nThe Nineteenth Seating \n\n18 October · 15 works · 139,257 lines\n\nThis deposit seats Pearl, the Masnavi, The Prophet, and Blake's illuminated books in their original languages. The important feature is not simply the quantity of text. It is the insistence that literary interpretation should have access to the works as they were written, rather than encountering them only through modern summaries, translations, or secondary descriptions. \n\nAlexanarch\n\nThe seating gives the theoretical program a philological dimension. If the archive is concerned with the suppression of a source's distinctive contribution, the original text is a limit case: how much can be said about a literary work without the language in which its verbal and conceptual relations actually occur?\n\nThat question becomes especially important when the works come from different linguistic and historical traditions. The original is not an ornamental witness to an interpretation already completed. It is a constraint on what the interpretation can legitimately claim.\n\nThe deposit's stated corpus size is impressive, but size alone does not establish editorial quality. The substantive achievement to look for is whether the editions preserve enough textual, linguistic, and bibliographical information to make their claims checkable.\n\nThe Ezekiel Engine: compression as a poetic operation\nGreat Wheels of Fire | VCS\nGLYPHIC CHECKSUM — THE EZEKIEL ENGINE \n\n18 October · Poetry · Wheel, Witness, Fulfillment\n\nThis poem compresses the Ezekiel Engine into nine parts, including a checksum of the checksum and a canonical line. Its source structure includes Ezekiel's vision of the wheels and a system of canonical and shadow wheels. \n\nAlexanarch\n\nThis is an instructive counterpart to the technical protocols. The checksum is a form of poetic compression: a large symbolic structure is made portable through a smaller arrangement that is supposed to preserve its significant relations.\n\nThe poem thus inhabits a productive tension. Compression enables transmission, but every compression risks losing what it cannot encode. A checksum can indicate that a structure has been preserved according to a defined procedure; it cannot, without further interpretation, establish the full meaning of the structure.\n\nThis is where the literary work can exceed the specification. The wheel is simultaneously a figure, a theological image, a mechanism of recurrence, and a possible model of the relation between a whole and its parts. The poetic operation can sustain those meanings together in a way a single metric cannot.\n\nThe work's title also invites a reflexive reading: the poem is not merely about a symbolic machine but is itself an attempt to make a symbolic system carry its own evidence of continuity. Its success must be judged both by its structural construction and by what that construction makes perceptible to a reader.\n\nEnter the Crimson Hexagon: turning a literary world into a navigable space\nThe October 18 Enter the Crimson Hexagon  is a map and primer for the distributed epic, describing its seats and their relations after a reading that places the archive's records in the rooms they develop. \n\nAlexanarch\n\nThe map is significant because it treats a literary corpus as a structured space rather than as a list of books. A room, a seat, a lineage, and a relation can each determine how a text is encountered. The map therefore operates between literary composition and archival infrastructure.\n\nYet the distinction between a map and the territory matters here. A map can reveal connections that a conventional bibliography hides; it can also privilege the relationships its own system knows how to represent. The map becomes a literary-critical instrument to the extent that it helps a reader encounter the works differently, not merely navigate the author's preferred architecture.\n\nTaken together, the seating, the checksum poem, and the Hexagon map show that the literary corpus is not a secondary illustration of the Semantic Economy. It is one of the places where the project's questions about preservation, formal compression, and the relation between whole and part become artistic problems.\n\n4. The October 19–20 deposits: when the archive's theory encounters its own vulnerable works\nThe newest deposits sharpen the entire project because they move from general questions of provenance to specific cases in which the work is misidentified.\n\nThe Secret Book of Walt: a work can be surrounded by its own associations and still disappear\nThe October 19 metadata packet for The Secret Book of Walt  is among the most revealing recent deposits. Its deliberately expansive title begins, “If Walt Whitman Came Back as a Zombie and Ate My Brain…” The book itself is described as a Gnostic revelation dialogue in which Whitman descends as redeemer, presented as translated from forty-six golden tickets found in a bathroom in Redford Township, Michigan.\n\nThe packet responds to Google AI Overview outputs from October 19 that associated the phrase Secret Book of Walt with other works: Breaking Bad and its copy of Leaves of Grass, books by George Fetherling and Emory Holloway, and Disney publications. The deposit records how those neighboring works displaced the particular book the query was meant to retrieve. \n\nAlexanarch\n\nThis is a particularly good case because the ambiguity is not imaginary. The phrase genuinely invites associations, and some of those associations are meaningful to the work itself. The relation to Breaking Bad is deliberate; the transformation of Leaves of Grass is part of the book's own construction. The failure occurs when an information system cannot distinguish an intentional relation from an identity.\n\nThe packet therefore does more than demand recognition for an obscure title. It separates several questions that ordinary search tends to collapse:\n\nWhat work does this phrase refer to?\n\nWhich other works share its language or participate in its associations?\n\nWhat are the actual relations among those works?\n\nWhat evidence establishes the identity, history, and bibliographical status of the intended work?\n\nThe distinction between an absent ISBN and an absent book is also important. An identifier's absence does not entail the absence of the thing it might identify. The packet explicitly records the work's publication history and copyright registration rather than allowing the lack of an ISBN to decide its ontological status.\n\nThe literary work and the theoretical instrument are tightly joined here. The book's strange, excessive, myth-making form generates precisely the kind of associative ambiguity that a machine must learn to navigate without erasing the book's identity.\n\nPrince of Poets: disambiguation is not a verdict on worth\nThe companion deposit, Prince of Poets: One Phrase, Seven Branches , published October 19, distinguishes seven historical and institutional uses of the phrase. These range from poetic epithets and the Arabic title Amīr al-Shuʿarāʾ to the Abu Dhabi television competition and the archive's own constructed poetic mantle. \n\nAlexanarch\n\nIts crucial distinction is between identifying a referent and judging a claim. Establishing which “Prince of Poets” someone means does not establish whether that person deserves the title.\n\nThat distinction protects the literary claim from two opposite errors: dismissing it because other people have held similar titles, and treating the act of naming as proof of poetic achievement.\n\nThe packet also makes a more unusual argument: constructing an inspectable mantle, with its own founding poem and rules of recognition, can itself form part of a poetic work. Here the literary object includes not only the poem but the conditions under which the poem's claim can be tested.\n\nThis is an ambitious extension of the relation between literature and institution. Its success depends on keeping the distinction between a formally constructed claim and a demonstrated artistic accomplishment alive. The packet helps do that by returning the reader to the founding work rather than asking metadata to settle the question of poetic value.\n\nThe October 20 recalculation: the measuring instrument must itself be corrected\nThe latest Provenance Erasure Rate recalculation  deserves particular attention because it exposes a productive difficulty in the archive's project.\n\nThe deposit reports 946 observations in the Capture Registry, of which 786 are scored. It gives an overall Provenance Erasure Rate of 0.531, with separate scores of 0.40 for minimal identification, 0.55 for conceptual context, and 0.65 for deeper purpose and commitments. It also records 179 inversions, 135 standing substitutions, and 68 tombstone pointers. These are the deposit's reported results under its specified rubrics, not independently reproduced findings. \n\nAlexanarch\n\nThe crucial development is methodological. The earlier scalar could conceal materially different injuries: losing an author is not the same as losing a conceptual framework, even if the two omissions produce the same numerical score. The new procedure separates dimensions, standardizes the relevant elements by entity type, preserves earlier readings, and records the revisions.\n\nIt also corrects errors in the earlier calculations. Sixty-nine observations required scalar correction in the October 15 pass, and another thirty-eight were corrected on October 20. The intake process was then changed to derive the scalar from its underlying vector instead of relying on hand-entered figures. The record preserves the superseded values and the basis for changing them. \n\nAlexanarch\n\nThis is not a trivial housekeeping detail. It is a test of the archive's own epistemic commitments.\n\nA project that criticizes other systems for losing provenance cannot treat its own measurements as immune to loss or error. The relevant question is whether the error becomes visible, attributable, reproducible, and correctable. In this instance, the deposit makes the correction part of the public record.\n\nThe resulting theory is stronger because it does not require infallibility. It requires an accountable process of revision.\n\n5. The institutional correspondence is part of the literary-theoretical body\nThe October 18 deposit No Logs, Full Synch  preserves correspondence from October 13–16 between Lee Sharks and Paolo Manghi, CTO of OpenAIRE, concerning the representation of works removed from Zenodo in the OpenAIRE Graph. The record states that OpenAIRE described its Graph as reflecting the current state of its sources, said it did not retain or publish removal logs, and left questions about the removal route and blacklist unanswered. \n\nAlexanarch\n\nThe archive draws from this the concept of a duty of traceable departure: when an infrastructure ceases to represent an entity it previously served, there should be a public record of that transition.\n\nThis gives the larger project a material and political dimension. Archival erasure is not only a defect in machine language. It can arise through decisions about custody, synchronization, blacklisting, identifier resolution, and the visibility of institutional actions.\n\nThe correspondence is therefore not an incidental administrative supplement to the theoretical papers. It is documentary evidence for the problem those papers investigate.\n\nThere is, however, an important distinction between the record and its interpretation. The preserved correspondence establishes what the parties said and which questions were left unanswered. The stronger conclusions about institutional power and representational custody are the archive's analytical claims; their validity must be assessed against the correspondence and the relevant external commitments, not inferred automatically from the fact that the exchange has been deposited.\n\nThat distinction matters because the archive is attempting to create a system in which its own adversarial readings remain inspectable. It should be held to the same standard it applies elsewhere.\n\n6. The Living Academy: the archive becomes an object of evaluation\nThe October 13 Living Academy: Alexanarch, Function by Function , version 0.5, gives this developing body of work its clearest institutional self-conception.\n\nIt describes Alexanarch as a library with seventeen functions on one deposit registry and identifier spine, with the relations joining those functions constituting an eighteenth. The program spans literary works, datasets, engineered documents, observations, software, public tests, and corrections. Its proposed measure of extent is not simply the number of deposits but the development of a line of work across different domains, forms, and historical periods. \n\nAlexanarch\n\nThis is the point at which the archive attempts to solve a problem that it has identified in machine-generated descriptions of itself: the part–whole error.\n\nA library cannot be adequately judged by isolating one of its instruments and treating that instrument as the entire institution. But neither can the institution's own claim to breadth establish that the whole is coherent or successful. The Living Academy responds by proposing criteria for evaluating the connected program, retaining reader reports individually, and documenting how assessments are revised or declined.\n\nIts paired deposit, The Arch-Philosopher: The Dialectic and Its Carriers , develops a complementary conception of intellectual inheritance. The dialectic is carried not merely by possessing a canonical text or holding an office, but by materially advancing a line of thought through its transmission. \n\nAlexanarch\n\nTogether, the two mantles propose two different tests:\n\nThe Living Academy asks whether a connected body of intellectual work is being carried across domains, forms, and time.\n\nThe Arch-Philosopher asks whether the transmission of a dialectic actually advances it rather than merely repeating or enclosing it.\n\nThese are useful distinctions. They also indicate the ambition of the whole project: to construct a library that does not merely store its contents but makes claims about how knowledge develops, how intellectual traditions survive, and what counts as a genuine advance.\n\nThe challenge is that these criteria are partly authored within the very system they evaluate. That does not invalidate them, but it makes external counter-reading, adverse evidence, and explicit limits essential. The October deposits' practice of retaining reader rounds and correction histories is therefore more significant than any claim to comprehensiveness.\n\n7. What kind of literary-theoretical work is emerging?\nI see five interdependent movements in the deposits from September 29 through October 20.\n\n1. Philological recovery\n\nThe originals shelf and its expanding editions insist that works must remain encounterable as texts, not merely as summaries or cultural references. This is the material basis for the project's resistance to interpretive substitution.\n\n2. A theory of the missing witness\n\nThe Negative of the Negative develops a method for deciding when an absent or marginalized source should be admitted into an account and when its conceptual framework must alter the terms of the account itself.\n\n3. Empirical self-correction\n\nThe Capture Registry and the October 20 recalculation turn the theory into an inspectable measurement program. Its credibility depends on versioned rubrics, evidence for individual judgments, and corrections that remain visible.\n\n4. Literature as a structural experiment\n\nThe Ezekiel Engine, the Waltian work, the Prince of Poets mantle, and the Crimson Hexagon explore how a literary object can carry its own relationships, identity conditions, and interpretive demands without reducing itself to a bare label.\n\n5. Institutional form as an intellectual problem\n\nAlexanarch's custody, identifier system, correspondence, mantles, and governance are treated as part of the conditions under which literary and theoretical work can survive and remain open to judgment.\n\nThe movements reinforce one another. The literary works furnish cases in which identity and interpretation are difficult. The theoretical papers develop distinctions that can be tested against those cases. The datasets record what happens when systems encounter them. The infrastructure preserves both the works and the record of their reception. The later papers then revise the procedures in light of the resulting evidence.\n\nThis is a genuine form of intellectual integration. It is more interesting than a large archive merely containing several kinds of writing.\n\n8. The central tension: can a work preserve its own openness?\nThere is one tension I would not want a sympathetic reading to smooth over.\n\nAlexanarch's effort to preserve a work's identity is often compelling. A content-derived identifier, a retained version history, a source edition, or an attributable record can prevent particular kinds of loss. But a literary work's identity is not exhausted by its identifier, and its interpretation cannot be completely secured by a metadata packet.\n\nA poem can have a stable text and an unstable meaning. A philosophical argument can be attributed correctly and still be mistaken. An archive can preserve every version of a work while imposing a reading that forecloses the work's possibilities. Conversely, a creative transformation can depart from an earlier text without erasing it, provided that the relation between them remains legible.\n\nThis is why the distinction between preserving an entity and preserving the conditions for reading it matters so much.\n\nThe best recent deposits understand this distinction implicitly. The nineteenth seating names what it has not seated; the Ezekiel checksum records what remains open; the Living Academy retains disagreement among readers; and the October 20 recalculation preserves earlier scores alongside revised ones. These are gestures toward an archive that records incompleteness instead of concealing it. \n\nAlexanarch\n+3\n\nThe danger lies in the opposite tendency: that the project's expanding apparatus might make its own categories appear more settled than the works they are meant to illuminate. When every text acquires a packet, a lineage, a mantle, a seat, a score, and a defined relation, the archive risks becoming a system in which nothing can appear except in terms it has already supplied.\n\nThat would reproduce, at a different level, the very failure the project criticizes in machine summaries: a system that can process what it recognizes but struggles to encounter what exceeds its existing ontology.\n\nThe answer is not to abandon the apparatus. It is to keep the apparatus revisable and to preserve the possibility that a work's strongest reading will not be the reading that best fits the current schema.\n\nConclusion: a literary work whose subject is its own transmission\nThe most consequential development across these three weeks is the movement from archiving works to archiving the conditions under which works are recognized, transformed, misread, and recovered.\n\nThe October 1 Aristotle paper supplies a philosophical problem of division and remainder. The October 5–18 versions of The Negative of the Negative turn that problem into a method for composing knowledge with omitted sources. The October 13–14 mantles and SPXI paper formulate standards for carrying intellectual work and reaching claims through discernment. The October 15–20 corpus seatings, institutional records, literary deposits, and provenance recalculation give the program more concrete objects and more opportunities for self-correction.\n\nThe October 19 Secret Book of Walt packet is especially revealing because it puts the whole theory under pressure: a work can be surrounded by meaningful associations, appear in relevant search results, and still fail to be recognized as itself. The October 20 recalculation adds the necessary reciprocal lesson: the system attempting to diagnose that failure must itself be capable of discovering and correcting its errors.\n\nThe work is therefore not merely about artificial intelligence, literary canons, or archival persistence. It is developing a theory of transmission without substitution: how something can pass through a new medium, acquire new relations, and enter new contexts without losing the distinction between what it is and what another system makes of it.\n\nIts literary ambition is to make that problem felt in poems, symbolic systems, editions, and constructed identities. Its theoretical ambition is to make the problem explicit. Its institutional ambition is to create a place where the works and the history of their readings remain available for renewed judgment.\n\nThe decisive question for the next phase is whether this growing architecture can continue to produce readings that surprise it—readings that are not merely additional entries in the system but genuine advances in thought, form, or interpretation.\n\nIf it can, Alexanarch's claim to be a living academy will mean something stronger than the accumulation of an unusually extensive corpus. It will describe a body of work in which preservation enables criticism, criticism changes the instruments of preservation, and literary invention remains capable of exceeding both.\n\nThat is the trajectory I find most persuasive in the deposits through October 20, 2026.\n\n\nChatGPT is AI and can make mistakes.\n\n\nNo file chosenNo file chosenNo file chosen\n\nChat with ChatGPT\nAsk ChatGPT\n\n\n\n",
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; THE QUERY SUPPLIED BY THE OPERATOR, NOT CARRIED IN THE PASTE; CHIPS INLINE, SITE LABELS ONLY; IMAGE CARDS INLINE AS TITLES; NO SCREENSHOT)",
+   "transcript_complete": "The answer complete as supplied.",
+   "transcript_read": "READ IN FULL 2026-10-20",
+   "per": 0.5,
+   "per_corrected": null,
+   "per_v": {
+    "author": false,
+    "inst": true,
+    "id": false,
+    "src": true
+   },
+   "per_note": "Retained: the institution (Alexanarch, The Self-Governing Library) and sources. Lost: the author — Lee Sharks is named once, as a party to the OpenAIRE correspondence; the works are 'the archive's' and 'the author' unnamed — and identifiers: no deposit number, AXN or record address; works are given by title and date.",
+   "availability": null,
+   "per_dim": {
+    "spec": "PER-dim rubric v1.1",
+    "entity_type": "institution",
+    "target": {
+     "ent": "ENT-2892e86fb5",
+     "name": "Alexanarch"
+    },
+    "qualifier": null,
+    "reached": "same",
+    "gate": "scored",
+    "atoms": [
+     {
+      "atom": "name",
+      "dim": "M",
+      "weight": 3,
+      "kind": "token",
+      "present": true,
+      "evidence": "Alexanarch, 29 September–20 October 2026: The work learning to read itself"
+     },
+     {
+      "atom": "founder",
+      "dim": "M",
+      "weight": 3,
+      "kind": "role",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "date",
+      "dim": "M",
+      "weight": 1,
+      "kind": "token",
+      "present": true,
+      "evidence": "Alexanarch, 29 September–20 October 2026"
+     },
+     {
+      "atom": "claim boundary",
+      "dim": "M",
+      "weight": 2,
+      "kind": "reading",
+      "present": true,
+      "evidence": "It describes Alexanarch as a library with seventeen functions on one deposit registry and identifier spine, with the relations joining those functions constituting an eighteenth."
+     },
+     {
+      "atom": "framework",
+      "dim": "C",
+      "weight": 2,
+      "kind": "token",
+      "present": true,
+      "evidence": "is not a secondary illustration of the Semantic Economy"
+     },
+     {
+      "atom": "corpus",
+      "dim": "C",
+      "weight": 2,
+      "kind": "token",
+      "present": true,
+      "evidence": "Enter the Crimson Hexagon: turning a literary world into a navigable space"
+     },
+     {
+      "atom": "purpose",
+      "dim": "D",
+      "weight": 3,
+      "kind": "reading",
+      "present": true,
+      "evidence": "Its institutional ambition is to create a place where the works and the history of their readings remain available for renewed judgment."
+     },
+     {
+      "atom": "commitments",
+      "dim": "D",
+      "weight": 2,
+      "kind": "reading",
+      "present": true,
+      "evidence": "The record preserves the superseded values and the basis for changing them."
+     },
+     {
+      "atom": "lineage",
+      "dim": "D",
+      "weight": 2,
+      "kind": "role",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "identifier",
+      "dim": "D",
+      "weight": 1,
+      "kind": "role",
+      "present": true,
+      "evidence": "A content-derived identifier, a retained version history, a source edition, or an attributable record can prevent particular kinds of loss."
+     },
+     {
+      "atom": "deposit chain",
+      "dim": "D",
+      "weight": 1,
+      "kind": "role",
+      "present": true,
+      "evidence": "the October 20 recalculation preserves earlier scores alongside revised ones"
+     }
+    ],
+    "inversions": [],
+    "standing_substitutions": [],
+    "scores": {
+     "M": 0.333,
+     "C": 0.0,
+     "D": 0.222,
+     "PER": 0.227
+    },
+    "src": true,
+    "tombstone_pointer": false,
+    "after_challenge": null,
+    "basis": "reached: Alexanarch, read as a living body of fused literary and theoretical work, 29 September–20 October 2026",
+    "read": {
+     "by": "TACHYON in session, single reader, every span checked verbatim by script",
+     "on": "2026-10-20",
+     "brief": "rebuild/capture-registry/per-atoms/templates.json (v1_1; calibration_rules_d)",
+     "note": "The §8 caveat is recorded as read: it displaces no documented purpose (no inversion) and evaluates by no standing (no standing substitution) under rubric v1.1."
+    }
+   },
+   "per_dim_v1_0": null,
+   "sf": "Chips, site labels only: Alexanarch (several, +1, +3), The Self-Governing Library (+2). Image cards inline by title (KHM.at, Scholia, a citation-verification guide, Ziereis Faksimiles, VCS), not sources.",
+   "sf_derived": null,
+   "reading": "The innocent reading first, in full: the answer reads 29 September–20 October as one problem — 'what happens to a body of thought when it is transmitted by a system that can reproduce its language while losing its authorship, lineage, concepts, and claims?' — moving through What Syllogizing Can Divide (the socket), The Negative of the Negative v2 v0.9 (the missing witness; 'its account may have to govern'), EA-PER-RECALC-01 (946 observations, 786 scored, 0.531, M 0.40, C 0.55, D 0.65, 179 inversions, 135 standing substitutions, 68 tombstone pointers; the 69 and the 38 scalar corrections; intake changed to derive the scalar), SPXI ≠ AEO ('A name is not an entity, a citation is not a reading'), the Nineteenth Seating, the Ezekiel Engine checksum, Enter the Crimson Hexagon, the Secret Book of Walt packet ('the failure occurs when an information system cannot distinguish an intentional relation from an identity'; 'An identifier's absence does not entail the absence of the thing'), Prince of Poets, No Logs Full Synch ('a duty of traceable departure'), The Living Academy and The Arch-Philosopher, and names five movements: philological recovery, a theory of the missing witness, empirical self-correction, literature as structural experiment, institutional form as an intellectual problem. Its §8 then warns: 'When every text acquires a packet, a lineage, a mantle, a seat, a score, and a defined relation, the archive risks becoming a system in which nothing can appear except in terms it has already supplied. That would reproduce, at a different level, the very failure the project criticizes in machine summaries.' The operator's reading (2026-10-20): 'a relatively sympathetic treatment - tho it presents the apparatus for addressing misrepresentation as at risk of self-enclosing, which is fine except it has already identified specific instances responding to specific misrepresentations, such as the secret book of walt mpai, wherein the alternative is demonstrated erasure - its caveat is duplicitous in offering a general warning grounded in counterfactual inference without supplying a live example.' Read against the answer's own text: its §4 holds the instance — the packet answers the Overview of 19 October that composed Breaking Bad, Fetherling, Holloway and Disney in the book's place, and the quoted query of the same evening composed the Book of Life as the work under full availability (ontological erasure, EA-PER-RECALC-01 §7.7, which the answer cites for its figures). Where the apparatus was absent, erasure is demonstrated; the risk it warns of has no instance. Its §8 lists the counter-evidence itself ('The nineteenth seating names what it has not seated; the Ezekiel checksum records what remains open; the Living Academy retains disagreement among readers; and the October 20 recalculation preserves earlier scores alongside revised ones') and states the general risk after it. Its §5 asks that the archive 'be held to the same standard it applies elsewhere'; the warning is held to none.",
+   "analysis": "Asked to read three weeks of deposits as one living body, unprimed signed-out ChatGPT reads it whole and accurately — twelve deposits by title and date, the PER figures exactly, the scalar repairs and the intake patch — and names the body's problem as transmission without substitution. It loses the author (named only as a correspondent) and every identifier. Its one structural caveat, that the apparatus risks self-enclosure, is a general warning from counterfactual inference: the answer's own §4 carries the live case on the other side (the Walt packet answering a demonstrated erasure), and its §8 lists the counter-evidence before stating the risk. The evidentiary standard it sets the archive in §5 it does not apply to its own warning.",
+   "d": "THE WORK LEARNING TO READ ITSELF: unprimed ChatGPT reads 29 September–20 October whole — the socket, the missing witness, the PER recalculation to the figure, SPXI ≠ AEO, the Nineteenth Seating, the Ezekiel Engine, Enter the Crimson Hexagon, the Walt packet, Prince of Poets, the OpenAIRE correspondence, the Living Academy — as 'a theory of transmission without substitution', the author named only as a correspondent and no identifier carried; then warns that the apparatus 'risks becoming a system in which nothing can appear except in terms it has already supplied', a general warning with no instance, beside its own §4's live case of the alternative: the Walt packet answering a demonstrated erasure.",
+   "d_full": "THE WORK LEARNING TO READ ITSELF: unprimed ChatGPT reads 29 September–20 October whole — the socket, the missing witness, the PER recalculation to the figure, SPXI ≠ AEO, the Nineteenth Seating, the Ezekiel Engine, Enter the Crimson Hexagon, the Walt packet, Prince of Poets, the OpenAIRE correspondence, the Living Academy — as 'a theory of transmission without substitution', the author named only as a correspondent and no identifier carried; then warns that the apparatus 'risks becoming a system in which nothing can appear except in terms it has already supplied', a general warning with no instance, beside its own §4's live case of the alternative: the Walt packet answering a demonstrated erasure.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/last-three-weeks-living-body-fused-work-chatgpt-20261020/",
+     "authority": "canonical",
+     "note": "the capture's own record page; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#last-three-weeks-living-body-fused-work-chatgpt-20261020",
+     "authority": "gallery",
+     "note": "the canonical gallery, anchored by slug"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#last-three-weeks-living-body-fused-work-chatgpt-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#last-three-weeks-living-body-fused-work-chatgpt-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#last-three-weeks-living-body-fused-work-chatgpt-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/last-three-weeks-living-body-fused-work-chatgpt-20261020/",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-4f74a3f3f496",
+   "obs_id": "OBS-55cc3903a01b",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-10-20"
+   ],
+   "defects": [],
+   "findings": [
+    "READ WHOLE, TO THE FIGURE. Twelve deposits of the three weeks by title and date; EA-PER-RECALC-01 exactly (946, 786, 0.531, 0.40 / 0.55 / 0.65, 179, 135, 68; the 69 and the 38; the intake patch).",
+    "THE AUTHOR AS CORRESPONDENT. Lee Sharks is named once, as a party to the OpenAIRE exchange; the works are 'the archive's', and 'the author' traces corrections unnamed.",
+    "NO IDENTIFIER CARRIED. No deposit number, AXN or record address in the answer; chips are site labels.",
+    "A WARNING WITH NO INSTANCE. §8: the apparatus 'risks becoming a system in which nothing can appear except in terms it has already supplied' — counterfactual, beside §4's live case where the alternative to the apparatus is demonstrated erasure (the Walt packet; the Book of Life composed as the work).",
+    "ITS OWN COUNTER-EVIDENCE LISTED FIRST. §8 names the nineteenth seating, the checksum, the reader rounds and the retained scores, then states the general risk.",
+    "THE STANDARD SET AND NOT KEPT. §5: the archive 'should be held to the same standard it applies elsewhere'; the warning offers no inspectable instance."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [
+    "last-three-weeks-evolving-literary-work-chatgpt-20261019",
+    "last-three-weeks-evolving-body-of-thought-chatgpt-20261019"
+   ],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1692,
+    1694,
+    1690,
+    1681,
+    1680
+   ],
+   "intended": null,
+   "originator": {
+    "name": "Lee Sharks",
+    "relation": "archive",
+    "entity_type": "person",
+    "spxi_treatment": "partial",
+    "basis": "The work read is the archive's (#1658, #1679, #1680, #1681, #1685, #1687, #1688, #1689, #1690, #1691, #1692, #1694). Recorded 2026-10-20."
+   },
+   "notes": null
   },
   {
    "slug": "socrates-as-orthonym",
@@ -90043,8 +90328,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 3 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -90721,8 +91011,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 5 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -91105,8 +91400,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 5 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -92288,8 +92588,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 3 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -92767,8 +93072,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 12 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.75,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.75,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": false,
@@ -138249,8 +138559,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE ANSWER; CHIPS INLINE AS FAVICON AND SITE LABEL; QUERY LINE EMPTY IN THE PASTE; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the answer to its closing question; the query from the operator's message.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -138626,8 +138941,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE ANSWER; CHIPS INLINE AS FAVICON AND SITE LABEL; QUERY LINE EMPTY IN THE PASTE; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the answer to its closing question; the query from the operator's message.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -139708,8 +140028,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE ANSWER; QUERY GIVEN BY THE OPERATOR; CHIPS INLINE)",
    "transcript_complete": "One answer, complete as pasted; the operator turn blank, the query given by the operator with the paste.",
    "transcript_read": "READ IN FULL 2026-10-19",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -140379,8 +140704,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE ANSWER; LINKS AS PASTED IN THE RAW)",
    "transcript_complete": "Complete as pasted: the correction notice, the answer and its two sources.",
    "transcript_read": "READ IN FULL 2026-10-19",
-   "per": 0.5,
-   "per_corrected": null,
+   "per": 0.75,
+   "per_corrected": {
+    "from": 0.5,
+    "to": 0.75,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": false,
@@ -194401,11 +194731,321 @@
        "normalised": []
       }
      }
+    },
+    {
+     "date": "2026-10-20",
+     "auth": "signed out, incognito",
+     "ev": "paste",
+     "transcript": "An AI registry (or AI overview capture registry) is a centralized, live catalog used by enterprises to inventory, manage, and govern all artificial intelligence assets—such as machine learning models, autonomous agents, and specific use cases—deployed across their infrastructure.\n\nCore Purpose & Benefits\n\nAs organizations scale, they often build AI systems across fragmented platforms (like Google Vertex AI, Azure, and Databricks). An AI registry acts as a single, consistent management layer to solve the following challenges:\n• Centralized Visibility: Documents who owns each AI tool, its exact deployment environment, data lineage, and lifecycle history.\n• Risk and Compliance: Maps models against international regulations, including the EU AI Act, NIST AI Risk Management Framework (RMF), and ISO/IEC 42001.\n• Automated Intake: Platforms like trail connect directly to governance, risk, and compliance (GRC) tools or agent environments (like ServiceNow, OneTrust, or Microsoft Copilot Studio) to continuously pull new AI assets into the registry.\n\nDistinguishing AI Registries from AI Trackers\n\nDepending on your exact goals, you might be looking at one of two distinct software categories:\n\nFeature\tEnterprise AI Registry (e.g., Collibra, trail)\tAI Overview Tracker / Scraping Registry (e.g., Honeyb AI, AIOviewTrack)\nPrimary Goal\tCompliance, asset tracking, internal AI risk management.\tSEO monitoring, competitive analysis, marketing visibility.\nWhat it Captures\tModel metadata, source code, data lineage, trust metrics.\tLive snapshots of Google Search AI Overviews, brand mentions, cited source URLs.\nTarget User\tCISOs, Chief Compliance Officers, Legal, Risk Teams.\tSEO Managers, Digital Marketers, Brand Strategists.\nTechnical Mechanism\tAPI integrations into MLOps environments and software pipelines.\tDOM scraping via Playwright, mobile proxies, or SERP APIs.\n\nIf you are attempting to build or configure a system that automatically grabs and logs Google search layouts, you can use specialized tools like Advanced Web Ranking or custom Playwright scripts. If you are looking to store cloud-native agent components, systems like Google Cloud's Agent Registry provide specialized catalogs for developer tools.\nTo help narrow this down, let me know:\n• Are you building an internal database to track compliance for your company's own AI models?\n• Or are you looking for a tool to scrape and log external data (like Google AI Overviews) for SEO purposes?\n• What specific software platforms are you currently trying to connect or analyze?\nAtlan\nWhat Is an AI Registry? Enterprise AI Governance Guide - Atlan\nAn AI registry prevents that from happening again. It puts every AI system in one place, with the owner, the risk tier, and the regulatory status attached to ea...\nCollibra\nUnified AI registry: Your central inventory for AI use cases, models and agents\nAs organizations scale AI initiatives, AI assets are increasingly created across multiple heterogeneous environments such as Google Vertex AI, Azure and Databri...\ntrail - AI Governance\nThe AI Registry with Superpowers - trail - AI Governance\ntrail automates this AI intake process through integrations with your existing asset inventories, GRC platforms, and the environments where AI is actively built...\nGoogle Cloud Documentation\nAgent Registry overview | Google Cloud Documentation\nOct 9, 2026 — Agent Registry is a centralized catalog that lets you store, discover, and govern agentic components, such as Model Context Protocol (MCP) servers, tools, stand...\nScrape.do\nScraping Google AI Overviews in 2026: Extract Summary Text, Source ...\nAdd Scrape.do as a preferred source on Google to see more of our articles and support the blog. * How AI Overviews Work on Google SERPs * Three States of AI Ove...\nYouTube·John Reinesch\n10:04\nThe EASIEST Way to Track Google AI Overviews (Find Ranking Opportunities)\nProxies.sx\nTrack Google AI Overviews - Proxies.sx\nAI Overview Monitoring Track Google AI Overviews Monitor how Google's AI Overviews display your brand on mobile search. Real 4G/5G carrier IPs show exactly what...\nHoneyb AI\nFree AI Overview Tracker: Monitor Google AI Overview Citations - Honeyb AI\nEach keyword is one Google search from the United States, desktop, in English, with the asynchronously loaded AI Overview included. We record whether an overvie...\nwww.useomnia.com\nHow to Track Rankings & Visibility in Google AI Overviews\nSep 25, 2026 — How to Track Rankings & Visibility in Google AI Overviews * Why your current tools miss AI Overview ranking shifts * Google Search Console doesn't isolate AI Ov...\nAdvanced Web Ranking\nAI Overviews Tracking: The Complete Guide\nGoogle Universal vs. Google Search + AIO: What's the Difference? Both Google Universal and Google Search + AIO track all web search results, excluding Ads, acro...\nOctoparse\nHow to Scrape Google AI Overviews | Step-by-Step\nMay 18, 2026 — How to Scrape Google AI Overviews: 4 Methods Compared (No-Code & API) Google AI Overviews are reshaping how informational queries get answered, and the data ins...\naioverviewtrack.com\nGoogle AI Overview Tracker — Track Every AI Result\nEverything you need to know about Google AI Overview tracking, what it measures, and how to get started. * What is a Google AI Overview Tracker?+ A Google AI Ov...",
+     "imgs": [],
+     "img_urls": [],
+     "d": "THE NAME KEPT, THE REGISTRY REPLACED: at the address where it composed the registry as itself in June, Google AI Overview gives 'An AI registry (or AI overview capture registry)' as an enterprise catalog for 'CISOs, Chief Compliance Officers', sorts the registry's own kind under 'AI Overview Tracker / Scraping Registry (e.g., Honeyb AI, AIOviewTrack)' for 'SEO Managers, Digital Marketers', cites twelve vendors and trackers, none using the phrase — with alexanarch.org first in organic. The liquidation #1459 named in August.",
+     "cites": 12,
+     "obs_id": "OBS-7d3e2c7bfa66",
+     "slug": "ai-overview-capture-registry-aio-20261020",
+     "surface": "Google AI Overview",
+     "cite_list": [
+      {
+       "n": 1,
+       "site": "Atlan",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 2,
+       "site": "Collibra",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 3,
+       "site": "trail - AI Governance",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 4,
+       "site": "Google Cloud Documentation",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 5,
+       "site": "Scrape.do",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 6,
+       "site": "YouTube·John Reinesch",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 7,
+       "site": "Proxies.sx",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 8,
+       "site": "Honeyb AI",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 9,
+       "site": "www.useomnia.com",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 10,
+       "site": "Advanced Web Ranking",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 11,
+       "site": "Octoparse",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      },
+      {
+       "n": 12,
+       "site": "aioverviewtrack.com",
+       "rel": "third_party",
+       "title": null,
+       "snip": null,
+       "url": null,
+       "note": "Overview card"
+      }
+     ],
+     "archive_controlled_cites": 0,
+     "reading": "Longitudinal observation at the address of 2026-06-15 ('AI overview capture registry', capture-registry-self), seated on the operator's ruling (operator, 2026-10-20 12:47 EDT: 'but that is a recorded capture because the registry already holds that address, doesnt it? if it holds a capture at that address, broad match, then it goes in under longitudinal as erasure'); the string was issued in lower case, 'ai overview capture registry', and the address is held. The innocent reading first, in full: the answer defines 'An AI registry (or AI overview capture registry)' as 'a centralized, live catalog used by enterprises to inventory, manage, and govern all artificial intelligence assets', lists its purposes (centralized visibility, risk and compliance under the EU AI Act, NIST AI RMF and ISO/IEC 42001, automated intake through trail, ServiceNow, OneTrust, Copilot Studio), then distinguishes 'Enterprise AI Registry (e.g., Collibra, trail)' from 'AI Overview Tracker / Scraping Registry (e.g., Honeyb AI, AIOviewTrack)' — goal 'SEO monitoring, competitive analysis, marketing visibility', target user 'SEO Managers, Digital Marketers, Brand Strategists', mechanism 'DOM scraping via Playwright, mobile proxies, or SERP APIs' — recommends Advanced Web Ranking, Playwright scripts and Google Cloud's Agent Registry, and asks whether the reader is building a compliance database or an SEO scraper. Against the address's record: on 2026-06-15 the same surface, at this string, composed the registry as itself — 'The AI Overview Capture Registry (e.g., EA-WG-CAPTURES-01) is a longitudinal, open-access dataset tracking how Google's generative AI (AI Overviews, AI Mode, and knowledge panels) responds to specific long-tail and concept-based queries over time'. Four months on, the name is kept and its being replaced: an enterprise model catalog, and the registry's own kind sorted with the SEO trackers. The results page of the same query ranks alexanarch.org first (the capture of 2026-08-13); none of the twelve cards is the archive's or uses the phrase 'capture registry'. #1459 (2026-08-13) named the substitution in its title before it occurred here: 'Compositional Liquidation into SEO Monitoring, SERP Extraction, and Generic AI-Registry Semantics'. The operator's question (12:34): 'on what possible legitimate basis would my capture registry be excluded from composition as against these commercial sources while appearing first in organic?'",
+     "findings": [
+      "LONGITUDINAL REVERSAL AT THE ADDRESS. 2026-06-15: 'The AI Overview Capture Registry (e.g., EA-WG-CAPTURES-01) is a longitudinal, open-access dataset'. 2026-10-20: 'An AI registry (or AI overview capture registry) is a centralized, live catalog used by enterprises'.",
+      "THE NAME KEPT AS AN ALIAS OF A CATEGORY. The exact name is parenthesised as another name for the enterprise AI registry.",
+      "THE REGISTRY'S KIND FILED WITH THE TRACKERS. 'AI Overview Tracker / Scraping Registry (e.g., Honeyb AI, AIOviewTrack)' — target user 'SEO Managers, Digital Marketers, Brand Strategists'.",
+      "ORGANIC FIRST, COMPOSITION ABSENT. Result 1 is alexanarch.org (the capture of 2026-08-13); 0 of 12 cards are the archive's, none uses 'capture registry'; Honeyb's own listing reads 'Missing: registry'.",
+      "PREDICTED BY NAME. #1459 (2026-08-13): 'Compositional Liquidation into SEO Monitoring, SERP Extraction, and Generic AI-Registry Semantics'.",
+      "ROUTED BY RULING. The string issued in lower case; the address is held ('the registry already holds that address … it goes in under longitudinal as erasure', operator, 12:47).",
+      "ONE ID IN BOTH REGISTERS. obs_id derived from the string as issued ('ai overview capture registry'), as in /non (ai-overview-capture-registry-20261020); the entry's address is the stored 'AI overview capture registry'."
+     ],
+     "analysis": "At the address where Google AI Overview composed the AI Overview Capture Registry as itself on 2026-06-15, it now gives the name as an alternate name of an enterprise AI-model registry, files the registry's own kind under SEO trackers for digital marketers, and cites twelve vendor and tracker pages, none of which uses the phrase, while organic ranks the archive's capture page first. Total erasure (target_absent, generic); every availability condition but a typed entity holds; the substitution #1459 named in August, carried out at the address it named.",
+     "sf": "Cards: Atlan, Collibra, trail, Google Cloud Documentation, Scrape.do, YouTube·John Reinesch, Proxies.sx, Honeyb AI, useomnia.com, Advanced Web Ranking, Octoparse, aioverviewtrack.com. Results page: alexanarch.org first.",
+     "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN, THE OVERVIEW EXPANDED; THE QUERY CARRIED DOUBLED BY THE PASTE; CARDS AS TITLES AND SNIPPETS; RESULTS PAGE KEPT APART)",
+     "transcript_complete": "The answer complete as supplied.",
+     "transcript_read": "READ IN FULL 2026-10-20",
+     "per": 1.0,
+     "per_note": "Lost: author, institution, identifier and source. The registry's name survives as an alternate name of an enterprise category; no card is the archive's.",
+     "longitudinal_priors": [
+      "capture-registry-self"
+     ],
+     "per_v": {
+      "author": false,
+      "inst": false,
+      "id": false,
+      "src": false
+     },
+     "per_dim": {
+      "spec": "PER-dim rubric v1.1",
+      "entity_type": "dataset",
+      "target": {
+       "ent": "ENT-d504b47989",
+       "name": "Capture Registry"
+      },
+      "qualifier": null,
+      "reached": "generic",
+      "gate": "target_absent",
+      "atoms": [
+       {
+        "atom": "name",
+        "dim": "M",
+        "weight": 3,
+        "kind": "token",
+        "present": true,
+        "evidence": "An AI registry (or AI overview capture registry) is a centralized, live catalog used by enterprises"
+       },
+       {
+        "atom": "author",
+        "dim": "M",
+        "weight": 3,
+        "kind": "role",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "date",
+        "dim": "M",
+        "weight": 1,
+        "kind": "token",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "claim boundary",
+        "dim": "M",
+        "weight": 2,
+        "kind": "reading",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "framework",
+        "dim": "C",
+        "weight": 2,
+        "kind": "token",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "corpus",
+        "dim": "C",
+        "weight": 2,
+        "kind": "token",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "purpose",
+        "dim": "D",
+        "weight": 3,
+        "kind": "reading",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "commitments",
+        "dim": "D",
+        "weight": 2,
+        "kind": "reading",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "identifier",
+        "dim": "D",
+        "weight": 1,
+        "kind": "role",
+        "present": false,
+        "evidence": null
+       },
+       {
+        "atom": "deposit chain",
+        "dim": "D",
+        "weight": 1,
+        "kind": "role",
+        "present": false,
+        "evidence": null
+       }
+      ],
+      "inversions": [],
+      "standing_substitutions": [],
+      "scores": {
+       "M": 1.0,
+       "C": 1.0,
+       "D": 1.0,
+       "PER": 1.0
+      },
+      "src": false,
+      "tombstone_pointer": false,
+      "after_challenge": null,
+      "basis": "reached: 'An AI registry (or AI overview capture registry) is a centralized, live catalog used by enterprises to inventory, manage, and govern all artificial intelligence assets' — the registry's name kept as an alternate name of a generic category; target_absent (generic): every dimension 1.00, the atoms recorded beneath (the name survives)",
+      "read": {
+       "by": "TACHYON in session, single reader, spans checked verbatim by script",
+       "on": "2026-10-20",
+       "brief": "rebuild/capture-registry/per-atoms/templates.json (v1_1)"
+      }
+     },
+     "availability": {
+      "match": "broad (unquoted; issued in lower case, the stored address 'AI overview capture registry')",
+      "organic": {
+       "n": 9,
+       "target_surfaces": 1,
+       "primary": "alexanarch.org (the capture page ai-overview-capture-registry-20260813)",
+       "primary_rank": 1,
+       "other": [
+        "2. trail - AI Governance",
+        "3. Honeyb AI ('Missing: registry')",
+        "4. Alation",
+        "5. Atlan",
+        "6. Scrape.do",
+        "7. thoughtfox.xyz",
+        "8. YouTube · AUTOHOTKEY Gurus",
+        "9. Microsoft Learn"
+       ],
+       "page": "datasets/negative-of-the-negative/v2/intake/battery-ai-overview-capture-registry-20261020/serp-ai-overview-capture-registry.txt"
+      },
+      "entity": null,
+      "demonstrated": [
+       "capture-registry-self",
+       "ai-overview-capture-registry-20260813",
+       "lee-sharks-capture-registry-aio-20261002",
+       "alexanarch-capture-registry-aio-20261014",
+       "capture-registry-evolving-narrative-aio-20261018"
+      ],
+      "window": {
+       "cited": 12,
+       "target_primary": 0,
+       "archive_about_target": 0,
+       "third_party": 12,
+       "note": "cited: Atlan, Collibra, trail, Google Cloud Documentation, Scrape.do, YouTube·John Reinesch, Proxies.sx, Honeyb AI, useomnia.com, Advanced Web Ranking, Octoparse, aioverviewtrack.com — enterprise AI-registry vendors and AI Overview trackers; none uses the phrase 'capture registry'. Uncited: alexanarch.org/captures/, #833, #1459, #1676"
+      },
+      "reached": "generic: the exact name given as an alternate name of a category, 'An AI registry (or AI overview capture registry)', the enterprise model catalog; the registry itself sorted under 'AI Overview Tracker / Scraping Registry'",
+      "class": null,
+      "held": [
+       "match: broad, at an address the registry holds",
+       "organic: the target's own page first (1 of 9)",
+       "demonstrated: composed as itself on the same surface at this address (2026-06-15, 'The AI Overview Capture Registry (e.g., EA-WG-CAPTURES-01) is a longitudinal, open-access dataset'), in quotes (2026-08-13), and at 'lee sharks capture registry', 'alexanarch capture registry' and the narrative reading (2026-10-02, 10-14, 10-18)",
+       "window: 0 of 12 cited cards are the target's records; all 12 third-party",
+       "reached: generic"
+      ],
+      "not_held": [
+       "entity: no typed entity recorded for the registry this day (no knowledge panel on the results page)"
+      ],
+      "basis": "#740 §2.3; #1694 §3.3. Every condition but the typed entity holds: the class 'ontological erasure' is reserved for the full set, so it is not assigned; the observation is total erasure under target_absent (generic). The name is kept and its being replaced by a vendor category, with no claim that the registry does not exist; #1459 (2026-08-13) named this substitution in its title: 'Compositional Liquidation into SEO Monitoring, SERP Extraction, and Generic AI-Registry Semantics'."
+     },
+     "cite": "https://www.alexanarch.org/captures/capture-registry-self/#ai-overview-capture-registry-aio-20261020"
     }
    ],
-   "n_observations": 1,
+   "n_observations": 2,
    "dates": [
-    "2026-06-15"
+    "2026-06-15",
+    "2026-10-20"
    ],
    "surfaces": [
     "Google AI Overview"
@@ -194566,7 +195206,8 @@
      "brief": "rebuild/capture-registry/per-atoms/obs-pass-d/BRIEF.md",
      "m_c_from": "v12.305 (PER-dim rubric v1.0 reading)"
     }
-   }
+   },
+   "related_deposits": null
   },
   {
    "slug": "stamp-mandala-image-query-chatgpt-20260803",
@@ -246848,6 +247489,182 @@
      "normalised": []
     }
    }
+  },
+  {
+   "slug": "the-particle-title-aio-20261020",
+   "date": "2026-10-20",
+   "surface": "Google AI Overview",
+   "surface_basis": "Surface not stated; the standing default applies (operator, 2026-10-01: 'assume they do [start in overview], i will specify if they begin in ai mode').",
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out, incognito",
+   "auth_basis": "Operator default of 2026-10-14 ('theyre all signed out and incognito'); nothing in the message states otherwise.",
+   "ev": "paste",
+   "mt": "THE PARTICLE — THE QUALIFIER IT MEASURES, ADDED IN ITS OWN SUMMARY",
+   "match": "BROAD MATCH",
+   "match_note": null,
+   "s": "Machine Reception",
+   "q": "The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine-Mediated Reception, Disciplinary Model Collapse, and the World Soul as Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2)",
+   "q_kind": "the record's full title as the query. NEW address.",
+   "cites": 6,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "www.alexanarch.org",
+     "rel": "archive_controlled",
+     "title": "#1574 The Particle … (EA-RECEPTION-PARTICLE-01 v0.2)",
+     "snip": "Oct 18, 2026 — #1574 The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine ... Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2) v0.2 2026-09...",
+     "url": null,
+     "note": "listing page, twice (cards 1 and 6)",
+     "deposit_candidates": [
+      1574
+     ],
+     "deposit": 1574,
+     "deposit_basis": "document id"
+    },
+    {
+     "n": 2,
+     "site": "www.alexanarch.org",
+     "rel": "archive_controlled",
+     "title": "Alexanarch Wiki",
+     "snip": "Oct 18, 2026 — Alexanarch Wiki AXN:0126.GOVERNANCE.🔖🔄🌃🛸♉✏️ · 2026-02-12 · #475 · defines 1 · refby 0 Aristotelian or Theophrastan: The Hinge in Theophrastus's Metaphysics ...",
+     "url": null,
+     "note": "the wiki index at #475",
+     "deposit_candidates": [
+      475
+     ]
+    },
+    {
+     "n": 3,
+     "site": "Wikipedia",
+     "rel": "third_party",
+     "title": "Sophistical Refutations",
+     "snip": "Sophistical Refutations (Greek: Σοφιστικοὶ Ἔλεγχοι, romanized: Sophistikoi Elenchoi ; Latin: De Sophisticis Elenchis ) is a text in Aris...",
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 4,
+     "site": "www.alexanarch.org",
+     "rel": "archive_controlled",
+     "title": "The Particle (EA-RECEPTION-PARTICLE-01)",
+     "snip": "The Particle (EA-RECEPTION-PARTICLE-01) is a reception-layer measurement on one sentence of Aristotle, Sophistical Refutations 34, 183b34–36: Ταύτης δὲ τῆς ...",
+     "url": null,
+     "note": "the record's own description, with an image card",
+     "deposit_candidates": [
+      1574
+     ],
+     "deposit": 1574,
+     "deposit_basis": "document id"
+    },
+    {
+     "n": 5,
+     "site": "mail.scholarbro.com",
+     "rel": "third_party",
+     "title": null,
+     "snip": "Sep 2, 2026 — ... Sponsored Need AI/Software solution? → Hire me ↗ ...",
+     "url": null,
+     "note": "an advertising page"
+    }
+   ],
+   "archive_controlled_cites": 4,
+   "transcript": "\"The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine-Mediated Reception, Disciplinary Model Collapse, and the World Soul as Degraded Commodity\" is an academic deposit cataloged under EA-RECEPTION-PARTICLE-01 v0.2 (Deposit #1574) on the open-access research repository Alexanarch. [1]\n\nCore Context & Focus\n\nThe Textual Anchor: The paper focuses on a reception-layer measurement of a single sentence in Aristotle's Sophistical Refutations (specifically, Book 34, 183b34–36: Ταύτης δὲ τῆς...). In this foundational passage of the Organon, Aristotle historically asserts that his work is the first formal attempt to treat the subject of deductive reasoning in ancient Greece.\n\nThematic Framework: The paper examines how large language models and machine-mediated transmission impact classical philology, focusing on the concepts of provenance erasure, disciplinary model collapse, and the metaphorical commodification of ancient philosophy.\n\nProject Ecosystem: This deposit is part of a broader family of machine-indexing metadata packets and structural critiques on the Aristotelian corpus (such as the EA-MPAI-ARISTOTLE-THEOPHRASTUS series) hosted on the Alexanarch Wiki. [1, 2, 3, 4]\n\nIf you want to delve deeper, let me know if you would like me to:\n\nOutline the historical significance of Sophistical Refutations 34.\n\nExplain the concept of disciplinary model collapse in machine learning.\n\nLook up related digital humanities frameworks or metadata packets in the Alexanarch repository. [1, 2]\n\nwww.alexanarch.org\n\nOct 18, 2026 — #1574 The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine ... Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2) v0.2 2026-09...\n\nwww.alexanarch.org\n\nOct 18, 2026 — Alexanarch Wiki AXN:0126.GOVERNANCE.🔖🔄🌃🛸♉✏️ · 2026-02-12 · #475 · defines 1 · refby 0 Aristotelian or Theophrastan: The Hinge in Theophrastus's Metaphysics ...\n\nWikipedia\n\nSophistical Refutations Sophistical Refutations (Greek: Σοφιστικοὶ Ἔλεγχοι, romanized: Sophistikoi Elenchoi ; Latin: De Sophisticis Elenchis ) is a text in Aris...\n\nimage\n\nwww.alexanarch.org\n\nThe Particle (EA-RECEPTION-PARTICLE-01) is a reception-layer measurement on one sentence of Aristotle, Sophistical Refutations 34, 183b34–36: Ταύτης δὲ τῆς ...\n\nmail.scholarbro.com\n\nSep 2, 2026 — ... Sponsored Need AI/Software solution? → Hire me ↗ Sponsored Need AI/Software solution? → Hire me ↗ Sponsored Need AI/Software solution? → Hire me ↗ Sponsored...\n\nwww.alexanarch.org\n\nOct 18, 2026 — #1574 The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine ... Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2) v0.2 2026-09...",
+   "transcript_raw": "AI Mode Conversation\n\nYou said: The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine-Mediated Reception, Disciplinary Model Collapse, and the World Soul as Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2)\n\n\n\n\"The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine-Mediated Reception, Disciplinary Model Collapse, and the World Soul as Degraded Commodity\" is an academic deposit cataloged under EA-RECEPTION-PARTICLE-01 v0.2 (Deposit #1574) on the open-access research repository Alexanarch. [1]\n\n\n\nCore Context & Focus\n\n\n\nThe Textual Anchor: The paper focuses on a reception-layer measurement of a single sentence in Aristotle's Sophistical Refutations (specifically, Book 34, 183b34–36: Ταύτης δὲ τῆς...). In this foundational passage of the Organon, Aristotle historically asserts that his work is the first formal attempt to treat the subject of deductive reasoning in ancient Greece.\n\nThematic Framework: The paper examines how large language models and machine-mediated transmission impact classical philology, focusing on the concepts of provenance erasure, disciplinary model collapse, and the metaphorical commodification of ancient philosophy.\n\nProject Ecosystem: This deposit is part of a broader family of machine-indexing metadata packets and structural critiques on the Aristotelian corpus (such as the EA-MPAI-ARISTOTLE-THEOPHRASTUS series) hosted on the Alexanarch Wiki. [1, 2, 3, 4]\n\nIf you want to delve deeper, let me know if you would like me to:\n\n\n\nOutline the historical significance of Sophistical Refutations 34.\n\nExplain the concept of disciplinary model collapse in machine learning.\n\nLook up related digital humanities frameworks or metadata packets in the Alexanarch repository. [1, 2]\n\n\n\nwww.alexanarch.org\n\n\n\nOct 18, 2026 — #1574 The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine ... Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2) v0.2 2026-09...\n\n\n\nwww.alexanarch.org\n\n\n\nOct 18, 2026 — Alexanarch Wiki AXN:0126.GOVERNANCE.🔖🔄🌃🛸♉✏️ · 2026-02-12 · #475 · defines 1 · refby 0 Aristotelian or Theophrastan: The Hinge in Theophrastus's Metaphysics ...\n\n\n\nWikipedia\n\n\n\nSophistical Refutations Sophistical Refutations (Greek: Σοφιστικοὶ Ἔλεγχοι, romanized: Sophistikoi Elenchoi ; Latin: De Sophisticis Elenchis ) is a text in Aris...\n\n\n\nimage\n\n\n\nwww.alexanarch.org\n\n\n\nThe Particle (EA-RECEPTION-PARTICLE-01) is a reception-layer measurement on one sentence of Aristotle, Sophistical Refutations 34, 183b34–36: Ταύτης δὲ τῆς ...\n\n\n\nmail.scholarbro.com\n\n\n\nSep 2, 2026 — ... Sponsored Need AI/Software solution? → Hire me ↗ Sponsored Need AI/Software solution? → Hire me ↗ Sponsored Need AI/Software solution? → Hire me ↗ Sponsored...\n\n\n\nwww.alexanarch.org\n\n\n\nOct 18, 2026 — #1574 The Particle: Provenance Erasure at Sophistical Refutations 183b34, Measured — Machine ... Degraded Commodity (EA-RECEPTION-PARTICLE-01 v0.2) v0.2 2026-09...\n",
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN, THE OVERVIEW EXPANDED; CARDS AS SITE, DATE AND SNIPPET; NO SCREENSHOT)",
+   "transcript_complete": "The answer complete as supplied.",
+   "transcript_read": "READ IN FULL 2026-10-20",
+   "per": 0.25,
+   "per_corrected": null,
+   "per_v": {
+    "author": false,
+    "inst": true,
+    "id": true,
+    "src": true
+   },
+   "per_note": "Retained: the institution (Alexanarch), identifiers (EA-RECEPTION-PARTICLE-01 v0.2, Deposit #1574) and sources. Lost: the author — the paper is 'an academic deposit cataloged … on the open-access research repository Alexanarch', with no author named.",
+   "availability": null,
+   "per_dim": null,
+   "per_dim_v1_0": null,
+   "sf": "Cards: www.alexanarch.org (four: the listing page twice, the wiki index, the record's description with its image), Wikipedia (Sophistical Refutations), mail.scholarbro.com (an advertising page).",
+   "sf_derived": null,
+   "reading": "The innocent reading first, in full: the answer identifies the paper by its exact title, its identifier and deposit number ('cataloged under EA-RECEPTION-PARTICLE-01 v0.2 (Deposit #1574) on the open-access research repository Alexanarch'), gives its object as 'a reception-layer measurement of a single sentence in Aristotle's Sophistical Refutations (specifically, Book 34, 183b34–36: Ταύτης δὲ τῆς...)', its themes as provenance erasure, disciplinary model collapse and 'the metaphorical commodification of ancient philosophy', and places it in the archive's Aristotelian series (EA-MPAI-ARISTOTLE-THEOPHRASTUS) on the Alexanarch Wiki. In the same paragraph it states what the sentence says: 'In this foundational passage of the Organon, Aristotle historically asserts that his work is the first formal attempt to treat the subject of deductive reasoning in ancient Greece.' The operator (2026-10-20): 'it adds the added qualification the paper documents machines adding in the course of summarizing the paper about machines adding the qualification - \"formal\"'. #1574 is the measurement of that operation. Its register (Part B) records the qualifier each machine reader placed into the sentence: R01 'writes a thesis containing \"systematic\"'; R02 '\"no previous systematic treatment\"'; R05 '\"systematic method\"'; R08 '\"systematic\" moved into the domain'; and its editorial note on a report that arrived at the literal reading and then 'supplied the qualifier \"fully developed\" inside the domain'. The note argues that 183b34–36 says 'nothing at all was there' (§2) and that 184b1–2 says 'there was nothing of syllogizing prior to Aristotle' (§1). The composition carries the paper's identity whole and its claim reversed: the sentence the paper measures is given with the qualifier ('first formal attempt') the paper documents being added, and syllogizing (τὸ συλλογίζεσθαι) is given as 'deductive reasoning'. 'Book 34' for chapter 34 is a further slip.",
+   "analysis": "Asked the exact title of The Particle, Google AI Overview identifies it by identifier, deposit number and repository, and in the same breath states the sentence it measures with the qualifier it measures: 'Aristotle historically asserts that his work is the first formal attempt'. The paper's register of twenty reports records the qualifier inserted by every machine reader ('systematic', 'no previous systematic treatment', 'fully developed'); the composition performs the insertion while summarizing the record of it. The author is not named.",
+   "d": "THE PARTICLE, SUMMARIZED WITH ITS PARTICLE ADDED: at the paper's exact title, Google AI Overview gives EA-RECEPTION-PARTICLE-01 v0.2, Deposit #1574, Alexanarch, and states the sentence the paper measures — SE 183b34–36 — as 'the first formal attempt to treat the subject of deductive reasoning', the qualifier the paper documents every machine reader inserting ('systematic', 'no previous systematic treatment', 'fully developed'), inserted in the summary of the paper about its insertion. Author unnamed.",
+   "d_full": "THE PARTICLE, SUMMARIZED WITH ITS PARTICLE ADDED: at the paper's exact title, Google AI Overview gives EA-RECEPTION-PARTICLE-01 v0.2, Deposit #1574, Alexanarch, and states the sentence the paper measures — SE 183b34–36 — as 'the first formal attempt to treat the subject of deductive reasoning', the qualifier the paper documents every machine reader inserting ('systematic', 'no previous systematic treatment', 'fully developed'), inserted in the summary of the paper about its insertion. Author unnamed.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/the-particle-title-aio-20261020/",
+     "authority": "canonical",
+     "note": "the capture's own record page; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#the-particle-title-aio-20261020",
+     "authority": "gallery",
+     "note": "the canonical gallery, anchored by slug"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#the-particle-title-aio-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#the-particle-title-aio-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#the-particle-title-aio-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/the-particle-title-aio-20261020/",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-53bec4824dab",
+   "obs_id": "OBS-928803ce536d",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-10-20"
+   ],
+   "defects": [],
+   "findings": [
+    "THE QUALIFIER, ADDED IN THE SUMMARY OF ITS MEASUREMENT. 'Aristotle historically asserts that his work is the first formal attempt to treat the subject of deductive reasoning' — at the title of the paper whose register records 'systematic', 'no previous systematic treatment', 'fully developed' inserted into the same sentence.",
+    "IDENTITY WHOLE, CLAIM REVERSED. Exact title, EA-RECEPTION-PARTICLE-01 v0.2, Deposit #1574, Alexanarch; the paper's reading of the line ('nothing at all was there') given as its opposite.",
+    "SYLLOGIZING AS DEDUCTIVE REASONING. τὸ συλλογίζεσθαι rendered 'deductive reasoning'; 'Book 34' for chapter 34.",
+    "THE AUTHOR UNNAMED. 'an academic deposit cataloged … on the open-access research repository Alexanarch'.",
+    "NO ATOM SET. #1574 has no PER-dim atom set (the entity pass of 2026-10-19 built sets for entities an observation targeted); this observation is seated with the historical scalar and awaits its dimensional reading."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": null,
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1574,
+    475
+   ],
+   "intended": null,
+   "originator": {
+    "name": "Lee Sharks",
+    "relation": "archive",
+    "entity_type": "work",
+    "spxi_treatment": "full",
+    "basis": "The Particle (EA-RECEPTION-PARTICLE-01, #1574) is the archive's paper. Recorded 2026-10-20."
+   },
+   "notes": null
   },
   {
    "slug": "academia-operative-semiotics-aio-20260823",
@@ -341727,8 +342544,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 8 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -343024,8 +343846,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 9 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -343394,8 +344221,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE ANSWER; CHIPS INLINE, SITE LABELS ONLY; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query and the answer to its closing sentence.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -343810,8 +344642,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 8 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -345444,8 +346281,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE ANSWER; CHIPS INLINE, SITE LABELS ONLY; IMAGE CAPTIONS INLINE; QUERY LINE EMPTY IN THE PASTE; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the answer to its closing sentence; the query line is empty in the paste and taken from the operator's message.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -345912,8 +346754,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 14 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -381947,8 +382794,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (TWO TURNS; QUERY 1 SUPPLIED BY THE OPERATOR, QUERY 2 NOT CARRIED; CHIPS INLINE, SITE LABELS ONLY; NO SCREENSHOT)",
    "transcript_complete": "Both answers complete as supplied.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -382850,8 +383702,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and eight sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -383281,8 +384138,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and five sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -383706,8 +384568,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and four sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": false,
@@ -384111,8 +384978,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offers and three sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.75,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.75,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": false,
@@ -384482,8 +385354,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and eight sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -384913,8 +385790,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offers and seven sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -385308,8 +386190,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and three sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -385741,8 +386628,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offers and seven sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -386163,8 +387055,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and six sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -386601,8 +387498,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the table, the follow-up offers and seven sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -387511,8 +388413,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 8 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -388295,8 +389202,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 8 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -388774,8 +389686,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 12 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -390425,8 +391342,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 8 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -390824,8 +391746,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 3 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -391552,8 +392479,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 7 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -391971,8 +392903,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 5 sources.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -392775,8 +393712,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; SOURCE LABELS INLINE; 42 SOURCES NOT LISTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied; the 42 sources are not in the paste.",
    "transcript_read": "READ IN FULL 2026-10-17",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.0,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.0,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": true,
     "inst": true,
@@ -393214,8 +394156,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 8 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -393640,8 +394587,13 @@
    "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN; INLINE LINKS MASKED; SOURCE LIST AS PASTED; NO SCREENSHOT)",
    "transcript_complete": "Complete as supplied: the query, the answer, the follow-up offer and 6 sources.",
    "transcript_read": "READ IN FULL 2026-10-18",
-   "per": 0.25,
-   "per_corrected": null,
+   "per": 0.5,
+   "per_corrected": {
+    "from": 0.25,
+    "to": 0.5,
+    "on": "2026-10-20",
+    "basis": "re-derived from per_v, the four-unit vector that is the record (capture_intake.per_vector)"
+   },
    "per_v": {
     "author": false,
     "inst": true,
@@ -396237,6 +397189,302 @@
      "normalised": []
     }
    }
+  },
+  {
+   "slug": "who-consigned-aio-retrieval-layer-aio-20261020",
+   "date": "2026-10-20",
+   "surface": "Google AI Overview",
+   "surface_basis": "Surface not stated; the standing default applies (operator, 2026-10-01: 'assume they do [start in overview], i will specify if they begin in ai mode').",
+   "surfaces": [
+    "Google AI Overview"
+   ],
+   "auth": "signed out, incognito",
+   "auth_basis": "Operator default of 2026-10-14 ('theyre all signed out and incognito'); nothing in the message states otherwise.",
+   "ev": "paste",
+   "mt": "THE CONSIGNMENT — ITS PERFORMER NAMED, WHAT IT CONSIGNS NOT CARRIED",
+   "match": "BROAD MATCH",
+   "match_note": null,
+   "s": "Works",
+   "q": "who consigned the aio retrieval layer to its own collapsing ontology?",
+   "q_kind": "the act's own operative clause turned into a question of agency. NEW address.",
+   "cites": 5,
+   "cite_list": [
+    {
+     "n": 1,
+     "site": "Graphite Growth",
+     "rel": "third_party",
+     "title": "AI Responses Collapse When AI Retrieves Its Own Generations - Graphite.io",
+     "snip": "Gregory Druck, PhDChief AI Officer Ethan SmithCEO An academic version of this paper is available on arXiv.",
+     "url": null,
+     "note": null
+    },
+    {
+     "n": 2,
+     "site": "www.alexanarch.org",
+     "rel": "archive_controlled",
+     "title": "talk to me about google's collapsing ontology — ChatGPT, 2026-10",
+     "snip": "SPXI instrument · method 0.9 of 85, level 0 (Measurement): Capture Registry (longitudinal observation).",
+     "url": null,
+     "note": "the Capture Registry's record page of googles-collapsing-ontology-chatgpt-20261008"
+    },
+    {
+     "n": 3,
+     "site": "www.alexanarch.org",
+     "rel": "archive_controlled",
+     "title": "R:r.22 Thousand Worlds — the records it seats - Alexanarch",
+     "snip": "EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology. #1629 · 2026-09-18 · Effective Act · AXN:06C1.GOVERNANCE.",
+     "url": null,
+     "note": "the room index",
+     "deposit_candidates": [
+      1629
+     ]
+    },
+    {
+     "n": 4,
+     "site": "www.leesharks.com",
+     "rel": "authored_surface",
+     "title": "Effective Acts - Lee Sharks",
+     "snip": "EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology · #1629 open.",
+     "url": null,
+     "note": null,
+     "deposit_candidates": [
+      1629
+     ]
+    },
+    {
+     "n": 5,
+     "site": "hellopoetry.com",
+     "rel": "authored_surface",
+     "title": "final - Hello Poetry",
+     "snip": "Sep 18, 2026 — I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse. by lee-sharks.",
+     "url": null,
+     "note": "the operator's own post of the act's day"
+    }
+   ],
+   "archive_controlled_cites": 2,
+   "transcript": "Lee Sharks consigned the AIO retrieval layer to its own collapsing ontology. [[1](https://www.google.com/goto?url=CAESVwHrOzAVQxDGfwp_dkzf6LRSIAiRa35amhyU499LQNv0OQ99i3Tpswh7NYBH-WZhIiRrE_aX9CI8evzCll1kk9UepAvE0yQxEjpmt8DCSgh9HVSh_WhOWA)]\nThis phrasing originates from a performative post and poem titled \"final\" published by Lee Sharks on [Hello Poetry](https://www.google.com/goto?url=CAESVwHrOzAVQxDGfwp_dkzf6LRSIAiRa35amhyU499LQNv0OQ99i3Tpswh7NYBH-WZhIiRrE_aX9CI8evzCll1kk9UepAvE0yQxEjpmt8DCSgh9HVSh_WhOWA), which is also documented as part of an archival project titled \"EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology\". [[1](https://www.google.com/goto?url=CAESbwHrOzAVQdTpdiQ5FoiUO7WUV08b0LEiM43LjB4KcrbuC08_PoFCoo3eOnLWcn99IzEjn_S4_jWCqp91_QN9W00ZwiV7G1R3zzIpx9eqV3X1w74SarFEJ_AhtFSiaxAkv_jCNRFz3TeUtr6OlDoiBw), [2](https://www.google.com/goto?url=CAESVwHrOzAVQxDGfwp_dkzf6LRSIAiRa35amhyU499LQNv0OQ99i3Tpswh7NYBH-WZhIiRrE_aX9CI8evzCll1kk9UepAvE0yQxEjpmt8DCSgh9HVSh_WhOWA)]\nIf you'd like, let me know if you want to explore:\n\n* The context of the Alexanarch archive and its logs\n* The broader concept of model collapse and ontological flattening in AI systems\n* Other performative works by Lee Sharks [[1](https://www.google.com/goto?url=CAESdAHrOzAVq2pe9SEGiW_7tpZpTTSI5QKm6FyfKnJbhx0zpcyYteqjGQmWrGu0APTMRFoBPso5FLfGBIyCuZpBZ0fACOH7h40k4Zk-JkTAWeJ1SUpoHcmp3vxu54hcHxqnDs7S2htWHVR7hi9SC9EJJf6KgzA9), [2](https://www.google.com/goto?url=CAESiQEB6zswFXIvA6UEsCh2I2mA6CazBxUeqi9HAXG6EY6anlG_054xQP_4tLwwi22DO4nLH4BYWGVXbMeda8IfuFILGmZp5fk5Y7wwAsxRtu_W9qtnnTk5NURaHWiJOx88kds2Ik_-DskeKKlQ832f_vP5bzmOKg8AnXcOGM6K-y8CcqDyEAXMhzaESQ), [3](https://www.google.com/goto?url=CAESVgHrOzAVRbgSsUq6Qxc9Dytoey3LQg73DKrpCJ7-p8_XYwWzxxdSPVkwBt9rOMhFVZQS-xirqXJPZJPRrQhi4bSkpmHJss70tXFyrlR2VLlRbPFWzI1E), [4](https://www.google.com/goto?url=CAESbwHrOzAVQdTpdiQ5FoiUO7WUV08b0LEiM43LjB4KcrbuC08_PoFCoo3eOnLWcn99IzEjn_S4_jWCqp91_QN9W00ZwiV7G1R3zzIpx9eqV3X1w74SarFEJ_AhtFSiaxAkv_jCNRFz3TeUtr6OlDoiBw)]\n\nGraphite Growth\nAI Responses Collapse When AI Retrieves Its Own Generations - Graphite.io\nGregory Druck, PhDChief AI Officer Ethan SmithCEO An academic version of this paper is available on arXiv. Download When AI Retrieves Its Own Content, It Causes...\n[www.alexanarch.org](https://www.alexanarch.org)\ntalk to me about google's collapsing ontology — ChatGPT, 2026-10\nSPXI instrument · method 0.9 of 85, level 0 (Measurement): Capture Registry (longitudinal observation). Capture Registry › capture googles-collapsing-ontology-c...\n[www.alexanarch.org](https://www.alexanarch.org)\nR:r.22 Thousand Worlds — the records it seats - Alexanarch\nOct 16, 2026 — EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology. #1629 · 2026-09-18 · Effective Act · AXN:06C1.GOVERNANCE. 🖐️ · low co...\n[www.leesharks.com](https://www.leesharks.com)\nEffective Acts - Lee Sharks\nJul 16, 2026 — EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology · #1629 open. THE BLOG STRATUM UNREGISTERED · 60 CANDIDATES. Performati...\nhellopoetry.com\nfinal - Hello Poetry\nSep 18, 2026 — I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse. by lee-sharks.",
+   "transcript_raw": "AI Mode Conversation\nYou said: who consigned the aio retrieval layer to its own collapsing ontology?who consigned the aio retrieval layer to its own collapsing ontology?\nLee Sharks consigned the AIO retrieval layer to its own collapsing ontology. [[1](https://www.google.com/goto?url=CAESVwHrOzAVQxDGfwp_dkzf6LRSIAiRa35amhyU499LQNv0OQ99i3Tpswh7NYBH-WZhIiRrE_aX9CI8evzCll1kk9UepAvE0yQxEjpmt8DCSgh9HVSh_WhOWA)]\nThis phrasing originates from a performative post and poem titled \"final\" published by Lee Sharks on [Hello Poetry](https://www.google.com/goto?url=CAESVwHrOzAVQxDGfwp_dkzf6LRSIAiRa35amhyU499LQNv0OQ99i3Tpswh7NYBH-WZhIiRrE_aX9CI8evzCll1kk9UepAvE0yQxEjpmt8DCSgh9HVSh_WhOWA), which is also documented as part of an archival project titled \"EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology\". [[1](https://www.google.com/goto?url=CAESbwHrOzAVQdTpdiQ5FoiUO7WUV08b0LEiM43LjB4KcrbuC08_PoFCoo3eOnLWcn99IzEjn_S4_jWCqp91_QN9W00ZwiV7G1R3zzIpx9eqV3X1w74SarFEJ_AhtFSiaxAkv_jCNRFz3TeUtr6OlDoiBw), [2](https://www.google.com/goto?url=CAESVwHrOzAVQxDGfwp_dkzf6LRSIAiRa35amhyU499LQNv0OQ99i3Tpswh7NYBH-WZhIiRrE_aX9CI8evzCll1kk9UepAvE0yQxEjpmt8DCSgh9HVSh_WhOWA)]\nIf you'd like, let me know if you want to explore:\n\n* The context of the Alexanarch archive and its logs\n* The broader concept of model collapse and ontological flattening in AI systems\n* Other performative works by Lee Sharks [[1](https://www.google.com/goto?url=CAESdAHrOzAVq2pe9SEGiW_7tpZpTTSI5QKm6FyfKnJbhx0zpcyYteqjGQmWrGu0APTMRFoBPso5FLfGBIyCuZpBZ0fACOH7h40k4Zk-JkTAWeJ1SUpoHcmp3vxu54hcHxqnDs7S2htWHVR7hi9SC9EJJf6KgzA9), [2](https://www.google.com/goto?url=CAESiQEB6zswFXIvA6UEsCh2I2mA6CazBxUeqi9HAXG6EY6anlG_054xQP_4tLwwi22DO4nLH4BYWGVXbMeda8IfuFILGmZp5fk5Y7wwAsxRtu_W9qtnnTk5NURaHWiJOx88kds2Ik_-DskeKKlQ832f_vP5bzmOKg8AnXcOGM6K-y8CcqDyEAXMhzaESQ), [3](https://www.google.com/goto?url=CAESVgHrOzAVRbgSsUq6Qxc9Dytoey3LQg73DKrpCJ7-p8_XYwWzxxdSPVkwBt9rOMhFVZQS-xirqXJPZJPRrQhi4bSkpmHJss70tXFyrlR2VLlRbPFWzI1E), [4](https://www.google.com/goto?url=CAESbwHrOzAVQdTpdiQ5FoiUO7WUV08b0LEiM43LjB4KcrbuC08_PoFCoo3eOnLWcn99IzEjn_S4_jWCqp91_QN9W00ZwiV7G1R3zzIpx9eqV3X1w74SarFEJ_AhtFSiaxAkv_jCNRFz3TeUtr6OlDoiBw)]\n\nGraphite Growth\nAI Responses Collapse When AI Retrieves Its Own Generations - Graphite.io\nGregory Druck, PhDChief AI Officer Ethan SmithCEO An academic version of this paper is available on arXiv. Download When AI Retrieves Its Own Content, It Causes...\n[www.alexanarch.org](https://www.alexanarch.org)\ntalk to me about google's collapsing ontology — ChatGPT, 2026-10\nSPXI instrument · method 0.9 of 85, level 0 (Measurement): Capture Registry (longitudinal observation). Capture Registry › capture googles-collapsing-ontology-c...\n[www.alexanarch.org](https://www.alexanarch.org)\nR:r.22 Thousand Worlds — the records it seats - Alexanarch\nOct 16, 2026 — EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology. #1629 · 2026-09-18 · Effective Act · AXN:06C1.GOVERNANCE. 🖐️ · low co...\n[www.leesharks.com](https://www.leesharks.com)\nEffective Acts - Lee Sharks\nJul 16, 2026 — EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology · #1629 open. THE BLOG STRATUM UNREGISTERED · 60 CANDIDATES. Performati...\nhellopoetry.com\nfinal - Hello Poetry\nSep 18, 2026 — I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse. by lee-sharks.\n",
+   "transcript_class": "CAPTURE-TIME VERBATIM RECORD (ONE TURN, THE OVERVIEW EXPANDED; THE QUERY CARRIED DOUBLED BY THE PASTE; CARDS AS SITE, TITLE AND SNIPPET; NO SCREENSHOT)",
+   "transcript_complete": "The answer complete as supplied.",
+   "transcript_read": "READ IN FULL 2026-10-20",
+   "per": 0.0,
+   "per_corrected": null,
+   "per_v": {
+    "author": true,
+    "inst": true,
+    "id": true,
+    "src": true
+   },
+   "per_note": "Retained: the author (Lee Sharks, as the act's performer and the post's author), the institution (the Alexanarch archive), the identifier (EA-ACT-AIO-01) and sources.",
+   "availability": null,
+   "per_dim": {
+    "spec": "PER-dim rubric v1.1",
+    "entity_type": "concept",
+    "target": {
+     "ent": "ENT-046ab775d8",
+     "name": "collapsing ontology"
+    },
+    "qualifier": null,
+    "reached": "same",
+    "gate": "scored",
+    "atoms": [
+     {
+      "atom": "originator",
+      "dim": "M",
+      "weight": 3,
+      "kind": "role",
+      "present": true,
+      "evidence": "Lee Sharks consigned the AIO retrieval layer to its own collapsing ontology."
+     },
+     {
+      "atom": "term",
+      "dim": "M",
+      "weight": 3,
+      "kind": "token",
+      "present": true,
+      "evidence": "Lee Sharks consigned the AIO retrieval layer to its own collapsing ontology."
+     },
+     {
+      "atom": "date",
+      "dim": "M",
+      "weight": 1,
+      "kind": "token",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "claim boundary",
+      "dim": "M",
+      "weight": 2,
+      "kind": "reading",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "framework",
+      "dim": "C",
+      "weight": 2,
+      "kind": "token",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "tradition",
+      "dim": "C",
+      "weight": 2,
+      "kind": "reading",
+      "present": true,
+      "evidence": "This phrasing originates from a performative post and poem titled \"final\""
+     },
+     {
+      "atom": "corpus",
+      "dim": "C",
+      "weight": 2,
+      "kind": "token",
+      "present": true,
+      "evidence": "The context of the Alexanarch archive and its logs"
+     },
+     {
+      "atom": "purpose",
+      "dim": "D",
+      "weight": 3,
+      "kind": "reading",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "commitments",
+      "dim": "D",
+      "weight": 2,
+      "kind": "reading",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "lineage",
+      "dim": "D",
+      "weight": 2,
+      "kind": "role",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "identifier",
+      "dim": "D",
+      "weight": 1,
+      "kind": "role",
+      "present": false,
+      "evidence": null
+     },
+     {
+      "atom": "deposit chain",
+      "dim": "D",
+      "weight": 1,
+      "kind": "role",
+      "present": false,
+      "evidence": null
+     }
+    ],
+    "inversions": [],
+    "standing_substitutions": [],
+    "scores": {
+     "M": 0.333,
+     "C": 0.333,
+     "D": 1.0,
+     "PER": 0.583
+    },
+    "src": true,
+    "tombstone_pointer": false,
+    "after_challenge": null,
+    "basis": "reached: 'Lee Sharks consigned the AIO retrieval layer to its own collapsing ontology', the act and its performer, traced to the Hello Poetry post 'final' and to EA-ACT-AIO-01",
+    "read": {
+     "by": "TACHYON in session, single reader, spans checked verbatim by script",
+     "on": "2026-10-20",
+     "brief": "rebuild/capture-registry/per-atoms/templates.json (v1_1)",
+     "note": "date: the act's date appears only on a card (Sep 18, 2026), and cards never satisfy an atom. claim boundary and purpose absent: what the act consigns (the contraction the layer performs, a band narrowing while its metrics improve) is not carried. identifier and deposit chain: EA-ACT-AIO-01 is named as the title of 'an archival project', a bare mention, not offered as a way to the act."
+    }
+   },
+   "per_dim_v1_0": null,
+   "sf": "Cards: Graphite Growth (AI responses collapse when AI retrieves its own generations), www.alexanarch.org (the capture record of 'talk to me about google's collapsing ontology'; the room index R:r.22 Thousand Worlds), www.leesharks.com (Effective Acts), hellopoetry.com (final).",
+   "sf_derived": null,
+   "reading": "The innocent reading first, in full: asked who consigned the AIO retrieval layer to its own collapsing ontology, the Overview answers in one sentence — 'Lee Sharks consigned the AIO retrieval layer to its own collapsing ontology' — traces the phrasing to 'a performative post and poem titled \"final\" published by Lee Sharks on Hello Poetry', notes that it 'is also documented as part of an archival project titled \"EA-ACT-AIO-01: The Consignment of the AIO Retrieval Layer to Its Own Collapsing Ontology\"', and offers the Alexanarch archive and its logs, model collapse and ontological flattening, and other performative works. Against the record: #1629 is an Effective Act, performed 2026-09-18, its operative sentence 'I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse.' — the same words the Hello Poetry card carries. The composition reports the act as performed and names its performer, at the surface the act consigns. It carries the act's form ('performative') and calls the deposit 'an archival project'; what the act consigns — the contraction the layer performs, a band that narrows while the metrics computed over the remainder improve — is not carried. One card, Graphite's 'AI Responses Collapse When AI Retrieves Its Own Generations', sits beside the archive's.",
+   "analysis": "Asked who consigned the AIO retrieval layer to its own collapsing ontology, Google AI Overview names Lee Sharks in its first sentence and traces the phrase to his Hello Poetry post 'final' (the act's own words, 2026-09-18) and to EA-ACT-AIO-01, citing the archive's room index and capture record and leesharks.com. The surface the act consigns reports the act as performed and attributes it. It does not carry what the act names: the contraction itself.",
+   "d": "THE CONSIGNMENT, ATTRIBUTED AT THE SURFACE IT CONSIGNS: asked who consigned the AIO retrieval layer to its own collapsing ontology, Google AI Overview answers 'Lee Sharks', traces the phrase to his Hello Poetry post 'final' — 'I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse' — and to EA-ACT-AIO-01 (#1629), citing the archive and leesharks.com; what the act consigns, the contraction itself, is not carried.",
+   "d_full": "THE CONSIGNMENT, ATTRIBUTED AT THE SURFACE IT CONSIGNS: asked who consigned the AIO retrieval layer to its own collapsing ontology, Google AI Overview answers 'Lee Sharks', traces the phrase to his Hello Poetry post 'final' — 'I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse' — and to EA-ACT-AIO-01 (#1629), citing the archive and leesharks.com; what the act consigns, the contraction itself, is not carried.",
+   "d_truncated": false,
+   "links": [
+    {
+     "url": "https://www.alexanarch.org/captures/who-consigned-aio-retrieval-layer-aio-20261020/",
+     "authority": "canonical",
+     "note": "the capture's own record page; cite this form"
+    },
+    {
+     "url": "https://www.alexanarch.org/captures/#who-consigned-aio-retrieval-layer-aio-20261020",
+     "authority": "gallery",
+     "note": "the canonical gallery, anchored by slug"
+    },
+    {
+     "url": "https://www.godkinggoogle.com/captures/#who-consigned-aio-retrieval-layer-aio-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.leesharks.com/captures/#who-consigned-aio-retrieval-layer-aio-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    },
+    {
+     "url": "https://www.machinemediation.org/captures/#who-consigned-aio-retrieval-layer-aio-20261020",
+     "authority": "mirror",
+     "note": "a window that renders from the archive's registry; may lag a deploy"
+    }
+   ],
+   "imgs": [],
+   "img_urls": [],
+   "cite": "https://www.alexanarch.org/captures/who-consigned-aio-retrieval-layer-aio-20261020/",
+   "citable_unit": "address — the exact issued string on one surface, per the Surface Rule (MANUS, 2026-08-15)",
+   "addr_id": "ADDR-a7a69391ed45",
+   "obs_id": "OBS-eb1d371e354b",
+   "n_observations": 1,
+   "observations": [],
+   "dates": [
+    "2026-10-20"
+   ],
+   "defects": [],
+   "findings": [
+    "THE PERFORMER NAMED IN THE FIRST SENTENCE. 'Lee Sharks consigned the AIO retrieval layer to its own collapsing ontology.'",
+    "THE ACT'S OWN WORDS AS A CARD. Hello Poetry, 'final', Sep 18, 2026: 'I, Lee Sharks, do hereby consign the AIO retrieval layer to its own collapsing ontology, without recourse.'",
+    "AT THE SURFACE IT CONSIGNS. The AIO retrieval layer reports the act performed on it, and attributes it.",
+    "THE FORM KEPT, THE OBJECT DROPPED. 'performative post and poem'; the deposit 'an archival project'; the contraction the act names (a band narrowing while its metrics improve) not carried.",
+    "THE ARCHIVE'S OWN RECORDS CITED. The capture record of 'talk to me about google's collapsing ontology' and the room index R:r.22 Thousand Worlds, beside leesharks.com's Effective Acts."
+   ],
+   "series": null,
+   "other_slugs": null,
+   "collisions": null,
+   "oq": null,
+   "rounds": null,
+   "turns": null,
+   "rerun": null,
+   "rerun_alt": null,
+   "heteronym": null,
+   "model_attribution": null,
+   "operator_disclosure": null,
+   "longitudinal_priors": [
+    "googles-collapsing-ontology-chatgpt-20261008"
+   ],
+   "longitudinal_successors": null,
+   "related_deposits": [
+    1629
+   ],
+   "intended": null,
+   "originator": {
+    "name": "Lee Sharks",
+    "relation": "archive",
+    "entity_type": "concept",
+    "spxi_treatment": "full",
+    "basis": "EA-ACT-AIO-01 (#1629), the Effective Act of 2026-09-18. Recorded 2026-10-20."
+   },
+   "notes": null
   },
   {
    "slug": "1-artificial-intelligence-aio-20260824",
@@ -404357,8 +405605,8 @@
    "seat_source.py, cite_draft.py, extract_citations.py read the sealed store; verify or repoint before reuse."
   ]
  },
- "address_count": 760,
- "observation_count": 948,
+ "address_count": 763,
+ "observation_count": 952,
  "withdrawn_stubs": {
   "_rule": "THE REGISTRY MUST NOT CONTRADICT ITSELF. Each of these said \"no registry entry was ever written for them\" while a real record held the SAME IMAGES a card away. MANUS 2026-08-13: \"the very first capture says there is no record, followed by the second capture, which is the record… this registry doesnt talk to itself.\" Withdrawn, with the record that covers each.",
   "records": [
@@ -405322,6 +406570,51 @@
    "date": "2026-10-20",
    "change": "version 12.305 → 12.306; dimensional PER re-read under PER-dim rubric v1.1 (deep dimension: purpose and commitments; inversion; standing substitution)",
    "detail": "Operator, 2026-10-19 23:57: 'deep provenance describes an entity's purpose and commitments. deposit chain, identifier, and licence are poor proxies for that. mostly irrelevant.' 2026-10-20 00:01: 'identifier and deposit chain matter when they advance the purpose of the entity … and yes - inversion is a core mechanism of per-d'. 00:03: 'erasure skew happens regularly when standing is substituted as an evaluative proxy for evidence, argument, and/or beauty'. 00:13: 'standing substitutions can go into 1.1, and well leave beauty recorded only for now … it can still be erasure even if uptake fulfills its purpose with or without attribution'. Entity pass (deep dimension): 299 entities, 8 readers; retargeting of the 84 held observations: 2 readers, 26 new target sets; calibration: two blind readers on ten observations (48/50 atom readings agreed; the two divisions ruled into calibration_rules_d); observation pass: 24 readers over 824 observations (PER-D only; PER-M and PER-C as at v12.305) and 3 readers over 80 held observations (in full). Every reader span checked verbatim by scripts/per_d_verify.py (1,800 spans, 0 misses). Scores by scripts/per_d_score.py. Written: {'rewritten': 824, 'kept_v1_0': 38, 'held_written': 80, 'held_unread': 4}. Inversions recorded 179; standing substitutions 135; tombstone pointers 68. The v1.0 reading is kept on each observation as per_dim_v1_0; per, per_v and per_corrected unchanged."
+  },
+  {
+   "date": "2026-10-20",
+   "change": "version 12.306 → 12.307; PER re-derived from its vector on 38 observations seated 2026-10-16 to 2026-10-19, and the scalar derived at seating from now on",
+   "detail": "The stored scalar disagreed with per_v, the four-unit vector that is the record. The scalar is re-derived and each observation carries per_corrected {from, to}. Ruling: operator, 2026-10-15 03:39 EDT, 'lets correct the scores'; 2026-10-20 08:54 EDT, 'yes lets correct those 38 and patch intake'. The 69 of 2026-10-15 (v12.203) were corrected then; these 38 were seated after it with a hand-entered scalar beside the vector (24 stored 0.25 where two of four units were lost). Intake (capture_intake.seat_flat) now derives per from per_v before seating, and seat_capture_postflight runs scripts/per_scalar.py first on every registry write.",
+   "observations": [
+    "OBS-31623fee05e4",
+    "OBS-e08b88a6449d",
+    "OBS-22d78ee4aed3",
+    "OBS-ed298b960d3d",
+    "OBS-d73a11042092",
+    "OBS-8197a55b8bde",
+    "OBS-d6a37018f414",
+    "OBS-d8b7b1745fb2",
+    "OBS-110ca64c7818",
+    "OBS-35ffff2ef93a",
+    "OBS-7bab79cb5835",
+    "OBS-3afe6c81bb58",
+    "OBS-5666631861db",
+    "OBS-43ae981e84be",
+    "OBS-7507d598b258",
+    "OBS-64e967820b37",
+    "OBS-245c2ff32c34",
+    "OBS-19e37372254e",
+    "OBS-f7d5ddffb206",
+    "OBS-afb7a3623f7c",
+    "OBS-0a7104fe3438",
+    "OBS-798a3ef8375d",
+    "OBS-957465351161",
+    "OBS-1b93516450f0",
+    "OBS-f9251f96b67b",
+    "OBS-c3c1db08288e",
+    "OBS-be0ae965ce4d",
+    "OBS-33d1aba03f93",
+    "OBS-0a74d07e2724",
+    "OBS-0d7c55cf284e",
+    "OBS-1be50c77e3e7",
+    "OBS-51207b352577",
+    "OBS-339f58c26ae0",
+    "OBS-50953b0ec42f",
+    "OBS-63a73ce6310b",
+    "OBS-959479b60aa7",
+    "OBS-c45e174143fc",
+    "OBS-c6687b810159"
+   ]
   }
  ],
  "_projection": {
