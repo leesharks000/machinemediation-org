@@ -23,4 +23,24 @@
   <url><loc>https://www.machinemediation.org/who/surface/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.machinemediation.org/who/tachyon/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.machinemediation.org/who/techne/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/ai-incident-database/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/papers-with-code/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/oecd-ai-incidents-monitor/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/aiaaic-repository/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/mit-ai-risk-repository/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/ai-hallucination-cases/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/academ-ai/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/problematic-paper-screener/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/newsguard-ai-tracking-center/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/newsguard-ai-false-claim-monitor/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/presenc-geo-papers/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/awesome-geo-davidhuji/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/aeovision-geo-papers/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/codesota/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/data-provenance-explorer/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/cms-ai-copyright-tracker/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/search-arena/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/capture-registry/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.machinemediation.org/aggregators/mit-ai-incident-tracker/</loc><lastmod>2026-10-28</lastmod><priority>0.7</priority></url>
 </urlset>

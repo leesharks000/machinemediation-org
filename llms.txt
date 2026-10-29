@@ -6,6 +6,32 @@
 
 **Voice:** Lee Sharks. Part of the Crimson Hexagonal Archive.
 
+<!-- META-AGGREGATOR-START -->
+## MMRS meta-aggregator
+
+The aggregators of machine-mediated reception work, each formalized as an entity with sourced, dated fields: https://www.machinemediation.org/aggregators/ (census as data: https://www.machinemediation.org/data/meta-aggregator/census.json)
+
+- Academ-AI (database; monitoring; active): https://www.machinemediation.org/aggregators/academ-ai/
+- AEO Vision — top arXiv papers for GEO (curated list; optimization; active): https://www.machinemediation.org/aggregators/aeovision-geo-papers/
+- AI Hallucination Cases (database; monitoring, reception; active): https://www.machinemediation.org/aggregators/ai-hallucination-cases/
+- AI Incident Database (database; harm, monitoring; active): https://www.machinemediation.org/aggregators/ai-incident-database/
+- AI Overview Capture Registry (database; reception, provenance; active): https://www.machinemediation.org/aggregators/capture-registry/
+- AIAAIC Repository (database; harm; active): https://www.machinemediation.org/aggregators/aiaaic-repository/
+- Awesome-GEO (DavidHuji) (curated list; optimization; active): https://www.machinemediation.org/aggregators/awesome-geo-davidhuji/
+- CMS AI and Copyright Case Tracker (database; provenance; active): https://www.machinemediation.org/aggregators/cms-ai-copyright-tracker/
+- CodeSOTA (database; discovery; active): https://www.machinemediation.org/aggregators/codesota/
+- Data Provenance Explorer (database; provenance, monitoring; active): https://www.machinemediation.org/aggregators/data-provenance-explorer/
+- MIT AI Incident Tracker (database; harm; active): https://www.machinemediation.org/aggregators/mit-ai-incident-tracker/
+- MIT AI Risk Repository (database; harm; active): https://www.machinemediation.org/aggregators/mit-ai-risk-repository/
+- NewsGuard AI False Claim Monitor (audit series; monitoring; active): https://www.machinemediation.org/aggregators/newsguard-ai-false-claim-monitor/
+- NewsGuard AI Tracking Center (monitor; monitoring; active): https://www.machinemediation.org/aggregators/newsguard-ai-tracking-center/
+- OECD AI Incidents and Hazards Monitor (monitor; harm, monitoring; active): https://www.machinemediation.org/aggregators/oecd-ai-incidents-monitor/
+- Papers with Code (database; discovery; ended): https://www.machinemediation.org/aggregators/papers-with-code/
+- Presenc AI — GEO academic papers 2026 (curated list; optimization; active): https://www.machinemediation.org/aggregators/presenc-geo-papers/
+- Problematic Paper Screener (monitor; monitoring; active): https://www.machinemediation.org/aggregators/problematic-paper-screener/
+- Search Arena (leaderboard; evaluation; active): https://www.machinemediation.org/aggregators/search-arena/
+<!-- META-AGGREGATOR-END -->
+
 ## The condition
 
 The Crimson Hexagon is a poem that takes place in the summarizer. It is not
