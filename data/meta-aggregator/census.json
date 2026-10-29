@@ -176,6 +176,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/ai-incident-database/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -304,7 +310,7 @@
    "disambiguation": [
     {
      "neighbour": "codesota",
-     "context": "codesota.com, /api/sota, 'refreshed live'"
+     "context": "codesota.com, routing layer, /api/sota, 'a registry, not a leaderboard'"
     },
     {
      "label": "Hugging Face Trending Papers",
@@ -411,6 +417,12 @@
      "rel": "revival",
      "target": "papers-with-code-revival",
      "note": "paperswithcode.co: 'recreates the original paperswithcode.com, which Meta retired in 2025' (its README); code under Apache-2.0 in Hugging Face's GitHub organization"
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/papers-with-code/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -503,7 +515,7 @@
     "AI Incidents Monitor"
    ],
    "url": "https://oecd.ai/en/incidents",
-   "operator": "OECD.AI",
+   "operator": "the OECD.AI expert group on AI incidents (OECD.AI), with the support of the Patrick J. McGovern Foundation",
    "kind": "monitor",
    "unit": "incident or hazard (an event in which an AI system leads, or could plausibly lead, to harm)",
    "intake": "automated: news articles aggregated by Event Registry; since November 2024, LLM classification (GPT-4o mini, then GPT-4o) and LLM-written metadata (o3-mini); daily",
@@ -563,6 +575,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/oecd-ai-incidents-monitor/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -605,7 +623,9 @@
      "basis": "operator"
     }
    },
-   "self_description": "Automated media discourse monitor of AI incidents and hazards (Beta)"
+   "self_description": "Automated media discourse monitor of AI incidents and hazards (Beta)",
+   "founded": "the expert group was formalised in January 2023 to develop it; LLM classification from November 2024",
+   "note": "its 14 'risk themes' are an analysis of its summaries in OECD AI Papers No. 53 (February 2026), which clustered them by k-means into 25 clusters and merged them to 14"
   },
   {
    "slug": "aiaaic-repository",
@@ -669,6 +689,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/aiaaic-repository/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -684,17 +710,13 @@
      "src": "oecd.ai/en/catalogue/tools/aiaaic-repository",
      "basis": "third-party"
     },
-    "self_description": {
-     "src": "oecd.ai/en/catalogue/tools/aiaaic-repository",
-     "basis": "third-party"
-    },
     "license": {
      "src": "oecd.ai/en/catalogue/tools/aiaaic-repository",
      "basis": "third-party"
     },
     "note": {
      "src": "aiaaicalert.substack.com/about",
-     "basis": "operator"
+     "basis": "observed"
     }
    },
    "properties": {
@@ -706,20 +728,20 @@
     }
    },
    "founded": "June 2019, 'as a private, professional project'",
-   "self_description": "details incidents and controversies driven by and relating to artificial intelligence, algorithms, and automation",
+   "self_description": null,
    "license": "CC BY-SA 4.0",
-   "note": "its newsletter, AIAAIC Alert, is written by Charlie Pownall"
+   "note": "its newsletter, AIAAIC Alert, is on Substack; Charlie Pownall's name is in that page's metadata. The 'private initiative' wording sometimes given for its start is EthicAI's; the OECD catalogue says 'a private, professional project'. The highest entry number on its front page on 2026-10-29 was AIAAIC2276"
   },
   {
    "slug": "mit-ai-risk-repository",
    "name": "MIT AI Risk Repository",
-   "url": "https://airisk.mit.edu/",
+   "url": "https://airisk.mit.edu/risks",
    "operator": "MIT AI Risk Initiative (MIT FutureTech)",
    "kind": "database",
    "unit": "risk, extracted from published risk frameworks",
    "count": {
-    "value": "more than 1,700 risks from 65 frameworks",
-    "as_of": "2026-10-28"
+    "value": "more than 1,700 risks from 74 frameworks (version 4, December 2025); the Initiative's home page gives 65+",
+    "as_of": "2026-10-29"
    },
    "note": "itself an aggregator of frameworks; real-world incidents are kept separately in its AI Incident Tracker",
    "sources": {
@@ -727,12 +749,19 @@
      "url": "https://airisk.mit.edu/",
      "read": "2026-10-28",
      "for": "scope, version"
+    },
+    "airisk.mit.edu/risks": {
+     "url": "https://airisk.mit.edu/risks",
+     "read": "2026-10-29",
+     "for": "the repository's own page: 1,700+ risks from 74 frameworks"
+    },
+    "airisk.mit.edu/llms.txt": {
+     "url": "https://airisk.mit.edu/llms.txt",
+     "read": "2026-10-29",
+     "for": "the site's statement to language models: licence CC BY 4.0, what to name"
     }
    },
-   "unchecked": [
-    "extraction method",
-    "licence"
-   ],
+   "unchecked": [],
    "lifecycle": {
     "state": "active",
     "detail": "version 4, December 2025"
@@ -757,6 +786,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/mit-ai-risk-repository/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -769,11 +804,16 @@
      "basis": "operator"
     },
     "count": {
-     "src": "airisk.mit.edu",
+     "src": "airisk.mit.edu/risks",
+     "basis": "operator"
+    },
+    "license": {
+     "src": "airisk.mit.edu/llms.txt",
      "basis": "operator"
     }
    },
-   "properties": {}
+   "properties": {},
+   "license": "CC BY 4.0 ('unless a specific page states otherwise')"
   },
   {
    "slug": "ai-hallucination-cases",
@@ -806,6 +846,11 @@
      "url": "https://www.damiencharlotin.com/hallucinations/",
      "read": "2026-10-28",
      "for": "all fields"
+    },
+    "artificialauthority.ai/p/hallucinations-case-database-faq": {
+     "url": "https://artificialauthority.ai/p/hallucinations-case-database-faq",
+     "read": "2026-10-29",
+     "for": "Charlotin's FAQ (Artificial Authority, 14 November 2025): 'When did you start the database, and why ? April 2025.'"
     }
    },
    "lifecycle": {
@@ -829,6 +874,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/ai-hallucination-cases/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -865,8 +916,8 @@
      "basis": "operator"
     },
     "founded": {
-     "src": "damiencharlotin.com/hallucinations",
-     "basis": "observed"
+     "src": "artificialauthority.ai/p/hallucinations-case-database-faq",
+     "basis": "operator"
     },
     "data_access": {
      "src": "damiencharlotin.com/hallucinations",
@@ -887,7 +938,7 @@
      "short": "yes"
     }
    },
-   "founded": "the period filter begins Q2 2023",
+   "founded": "April 2025 (its maker's FAQ; Wikipedia's 'Hallucination (artificial intelligence)'); its decision-date filter begins in Q2 2023",
    "data_access": "CSV download"
   },
   {
@@ -911,6 +962,11 @@
      "url": "https://ediscoverytoday.com/2025/08/27/ai-use-in-academic-papers-theres-a-site-for-that-too-artificial-intelligence-trends/",
      "read": "2026-10-28",
      "for": "scope, counts, sections, operator"
+    },
+    "academ-ai.info/about": {
+     "url": "https://www.academ-ai.info/about",
+     "read": "2026-10-29",
+     "for": "scope, errata label, as of 2026-10-29"
     }
    },
    "unchecked": [
@@ -937,6 +993,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/academ-ai/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -953,12 +1015,12 @@
      "basis": "third-party"
     },
     "intake": {
-     "src": "ediscoverytoday.com/2025/08/27/ai-use-in-academic-papers-theres-a-site-for-that-too-artificial-intelligence-trends",
-     "basis": "third-party"
+     "src": "academ-ai.info/about",
+     "basis": "operator"
     },
     "note": {
-     "src": "ediscoverytoday.com/2025/08/27/ai-use-in-academic-papers-theres-a-site-for-that-too-artificial-intelligence-trends",
-     "basis": "third-party"
+     "src": "academ-ai.info/about",
+     "basis": "operator"
     }
    },
    "properties": {
@@ -969,8 +1031,8 @@
      "basis": "third-party"
     }
    },
-   "intake": "flagged by phrasing that strongly suggests chatbot generation, quoted with the phrases highlighted; journal articles, conference papers and books admitted; theses, preprints and blog posts excluded",
-   "note": "an errata page separates corrections with formal explanations from 'stealth corrections'; a publishers page counts examples by publisher (IEEE 90, Elsevier 34 in August 2025)",
+   "intake": "flagged by phrasing that strongly suggests chatbot generation, quoted with the phrases highlighted; journal articles, conference papers/proceedings, books/chapters and dissertations/theses (its About page, 2026-10-29: 'Preprints, blog posts, and other media are out of scope'; eDiscovery Today's account of August 2025 listed theses as excluded)",
+   "note": "its errata page now calls a correction made without explanation a 'stealth revision' (eDiscovery Today, August 2025: 'stealth corrections'); a publishers page counts examples by publisher (IEEE 90, Elsevier 34 in August 2025). Glynn's paper gives a second affiliation, the Meta-Research Innovation Center at Stanford (METRICS); its v1 analysed 500 examples, v2 768",
    "disambiguation": [
     {
      "label": "AcademAI (academai.app)",
@@ -1041,6 +1103,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/problematic-paper-screener/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1075,7 +1143,7 @@
    },
    "count": {
     "value": "nearly 19,000 papers with five or more tortured phrases; more than 280 SCIgen papers; more than 70 with ChatGPT fingerprints; contributed to more than 1,000 retractions",
-    "as_of": "The Conversation, 31 January 2025"
+    "as_of": "The Conversation, 29 January 2025"
    },
    "cadence": "weekly scan of 130 million publications"
   },
@@ -1095,6 +1163,11 @@
      "url": "https://www.newsguardtech.com/special-reports/ai-tracking-center/",
      "read": "2026-10-28",
      "for": "criteria, count, series"
+    },
+    "newsguardtech.com/press/newsguard-launches-tracking-center-for-ai-generated-news": {
+     "url": "https://www.newsguardtech.com/press/newsguard-launches-tracking-center-for-ai-generated-news/",
+     "read": "2026-10-29",
+     "for": "launch release, 8 June 2023"
     }
    },
    "lifecycle": {
@@ -1121,6 +1194,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/newsguard-ai-tracking-center/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1135,9 +1214,17 @@
     "count": {
      "src": "newsguardtech.com/special-reports/ai-tracking-center",
      "basis": "operator"
+    },
+    "founded": {
+     "src": "newsguardtech.com/press/newsguard-launches-tracking-center-for-ai-generated-news",
+     "basis": "operator"
     }
    },
-   "properties": {}
+   "properties": {},
+   "founded": "8 June 2023, as the tracker of 'Unreliable AI-Generated News' websites",
+   "aka": [
+    "Unreliable AI-Generated News Tracking Center"
+   ]
   },
   {
    "slug": "newsguard-ai-false-claim-monitor",
@@ -1146,7 +1233,7 @@
    "operator": "NewsGuard",
    "kind": "audit series",
    "unit": "edition: 11 named chatbots tested on 10 provably false claims in the news",
-   "cadence": "monthly until mid-2025, quarterly since; latest listed May 2026",
+   "cadence": "edition titles read 'Monthly' to mid-2025 and 'Quarterly' for January and May 2026; the method page still says 'Our analysts evaluate the top AI models monthly'",
    "sources": {
     "newsguardtech.com/special-reports/ai-tracking-center": {
      "url": "https://www.newsguardtech.com/special-reports/ai-tracking-center/",
@@ -1157,6 +1244,11 @@
      "url": "https://www.newsguardtech.com/ai-monitor/may-2026/",
      "read": "2026-10-28",
      "for": "latest edition"
+    },
+    "newsguardtech.com/ai-false-claims-monitor": {
+     "url": "https://www.newsguardtech.com/ai-false-claims-monitor/",
+     "read": "2026-10-29",
+     "for": "the method page"
     }
    },
    "unchecked": [
@@ -1186,6 +1278,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/newsguard-ai-false-claim-monitor/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1198,11 +1296,11 @@
      "basis": "operator"
     },
     "cadence": {
-     "src": "newsguardtech.com/special-reports/ai-tracking-center",
-     "basis": "operator"
+     "src": "newsguardtech.com/ai-monitor/may-2026",
+     "basis": "observed"
     },
     "note": {
-     "src": "newsguardtech.com/ai-monitor/may-2026",
+     "src": "newsguardtech.com/ai-false-claims-monitor",
      "basis": "operator"
     }
    },
@@ -1235,7 +1333,7 @@
     "key finding",
     "the vendor's 'what it means for practitioners' note"
    ],
-   "note": "vendor-authored; the page states 'The Presenc AI audit framework is directly anchored in this literature'. A sibling list, 'Essential GEO Research Papers, 10 Must-Read Studies', is on the same site; the Overview's card dates the 34-paper summary 15 April 2026, the page's byline 23 April. The vendor's name is corrected by Google to 'presence' before it is read (the capture of 2026-10-29)",
+   "note": "vendor-authored; the page states 'The Presenc AI audit framework is directly anchored in this literature'. A sibling list, 'Essential GEO Research Papers, 10 Must-Read Studies', is on the same site; the Overview's card dates the 34-paper summary 15 April 2026, the page's byline reads 'Last updated: April 2026' and its HTML metadata gives 23 April. The vendor's name is corrected by Google to 'presence' before it is read (the capture of 2026-10-29)",
    "sources": {
     "presenc.ai/research/geo-academic-papers-2026": {
      "url": "https://presenc.ai/research/geo-academic-papers-2026",
@@ -1271,6 +1369,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/presenc-geo-papers/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1342,6 +1446,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/awesome-geo-davidhuji/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1356,6 +1466,10 @@
     "count": {
      "src": "github.com/DavidHuji/Awesome-GEO",
      "basis": "operator"
+    },
+    "note": {
+     "src": "github.com/DavidHuji/Awesome-GEO",
+     "basis": "observed"
     }
    },
    "properties": {},
@@ -1365,7 +1479,7 @@
      "context": "entity optimization, AI citations, E-E-A-T"
     },
     {
-     "label": "henu-wang/awesome (Awesome GEO)",
+     "label": "henu-wang/awesome-geo (Awesome GEO)",
      "context": "resources, tools, guides"
     },
     {
@@ -1384,19 +1498,20 @@
      "self": true,
      "context": "DavidHuji, research papers by year, IF-GEO"
     }
-   ]
+   ],
+   "note": "its README credits two entries to the companies that built them ('Built by Corank', 'Built by Assay') and carries one vendor's claim of a '320% citation rate improvement'"
   },
   {
    "slug": "aeovision-geo-papers",
    "name": "AEO Vision — top arXiv papers for GEO",
-   "url": "https://aeovision.ai/articles/top-arxiv-papers-for-generative-engine-optimization",
+   "url": "https://aeovision.ai/articles/top-arxiv-papers-for-generative-engine-optimization/",
    "operator": "AEO Vision (byline: AEO Vision Content Team)",
    "kind": "curated list",
    "sources": {
     "aeovision.ai/articles/top-arxiv-papers-for-generative-engine-optimization": {
      "url": "https://aeovision.ai/articles/top-arxiv-papers-for-generative-engine-optimization",
      "read": "2026-10-28",
-     "for": "existence"
+     "for": "all fields (the twelve papers, read 2026-10-29)"
     }
    },
    "unchecked": [],
@@ -1420,6 +1535,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/aeovision-geo-papers/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1461,7 +1582,7 @@
    "url": "https://www.codesota.com/",
    "operator": "Kacper Wikiel, 'By Fabryka AI' (Warsaw)",
    "kind": "database",
-   "note": "two faces at two addresses: the homepage presents a routing layer and names Papers with Code only in a footer link; its /papers-with-code/ pages present it as 'the v2 replacement for what PWC did', rebuilding that infrastructure 'independently'",
+   "note": "three faces at three addresses: the homepage presents a routing layer and names Papers with Code only in a footer link; its /papers-with-code/ pages present it as 'the v2 replacement for what PWC did'; its about page calls it 'an independent registry of machine-learning benchmarks' — 'a registry, not a leaderboard' — and refuses the aggregator class ('Unlike aggregator sites')",
    "sources": {
     "codesota.com/papers-with-code/shutdown": {
      "url": "https://www.codesota.com/papers-with-code/shutdown",
@@ -1477,6 +1598,11 @@
      "url": "https://www.codesota.com/",
      "read": "2026-10-29",
      "for": "homepage title and self-description"
+    },
+    "codesota.com/about": {
+     "url": "https://www.codesota.com/about",
+     "read": "2026-10-29",
+     "for": "editor, launch date, licence, 'a registry, not a leaderboard'"
     }
    },
    "unchecked": [
@@ -1507,11 +1633,17 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/codesota/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
     "operator": {
-     "src": "codesota.com/papers-with-code",
+     "src": "codesota.com/about",
      "basis": "operator"
     },
     "self_description": {
@@ -1527,14 +1659,24 @@
      "basis": "operator"
     },
     "note": {
-     "src": "codesota.com",
-     "basis": "observed"
+     "src": "codesota.com/about",
+     "basis": "operator"
+    },
+    "founded": {
+     "src": "codesota.com/about",
+     "basis": "operator"
+    },
+    "license": {
+     "src": "codesota.com/about",
+     "basis": "operator"
     }
    },
    "properties": {},
    "self_description": "helps developers choose AI tools for documents, speech, and coding (its homepage, titled 'CodeSOTA — One Routing Layer for AI Tasks')",
    "unit": "AI task, routed to a model chosen by benchmark evidence, quality and cost",
-   "data_access": "an open JSON registry and /api/sota; historical Papers with Code data at /browse/pwc"
+   "data_access": "an open JSON registry and /api/sota; historical Papers with Code data at /browse/pwc",
+   "founded": "10 December 2025 ('as an explicit successor attempt', its about page)",
+   "license": "registry data CC BY 4.0 (its about page)"
   },
   {
    "slug": "data-provenance-explorer",
@@ -1548,7 +1690,7 @@
     "value": "nearly 4,000 text, video and speech datasets (the Dataset Explorer); the founding audit covered more than 1,800 text datasets",
     "as_of": "2026-10-29"
    },
-   "note": "the founding audit found 'license omission of 70%+ and error rates of 50%+' on dataset hosting sites. Its second audit, Consent in Crisis (NeurIPS 2024 Datasets and Benchmarks), read 14,000 web domains and found that 'a full 45% of C4 is now restricted' by terms of service",
+   "note": "the founding audit found 'license omission of 70%+ and error rates of 50%+' on dataset hosting sites. Its second audit, Consent in Crisis (NeurIPS 2024, by the Initiative's home page), read 14,000 web domains and found that 'a full 45% of C4 is now restricted' by terms of service",
    "sources": {
     "arxiv.org/abs/2310.16787": {
      "url": "https://arxiv.org/abs/2310.16787",
@@ -1572,8 +1714,7 @@
     }
    },
    "unchecked": [
-    "other collections",
-    "the explorers' pages directly (they render by script)"
+    "other collections"
    ],
    "lifecycle": {
     "state": "active",
@@ -1596,6 +1737,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/data-provenance-explorer/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1612,7 +1759,7 @@
      "basis": "operator"
     },
     "self_description": {
-     "src": "arxiv.org/abs/2310.16787",
+     "src": "dataprovenance.org",
      "basis": "operator"
     },
     "note": {
@@ -1674,6 +1821,12 @@
      "url": null,
      "label": "Taylor Wessing — AI & Copyright Case Tracker",
      "note": "a census candidate (surfaced by the capture of 2026-10-29)"
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/cms-ai-copyright-tracker/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1687,7 +1840,7 @@
     },
     "count": {
      "src": "cms.law/en/int/publication/artificial-intelligence-and-copyright-case-tracker",
-     "basis": "operator"
+     "basis": "observed"
     },
     "cadence": {
      "src": "cms.law/en/int/publication/artificial-intelligence-and-copyright-case-tracker",
@@ -1716,7 +1869,7 @@
     "each party's arguments",
     "judgment"
    ],
-   "note": "the page's summary states that 'there are now over 40 copyright claims being litigated in the US'; none is in the tracked list. Its region menu (Africa, Asia-Pacific, the Americas, the Middle East) leads to the firm's offices"
+   "note": "the page's summary states that 'There are now over 40 copyright claims being litigated in the US'; none is in the tracked list. Its region menu (Europe, Africa, Asia-Pacific, the Americas, the Middle East, International) leads to the firm's offices"
   },
   {
    "slug": "search-arena",
@@ -1726,8 +1879,8 @@
    "kind": "leaderboard",
    "unit": "search-enabled model, rated from head-to-head human votes",
    "count": {
-    "value": "247,944 votes across 22 models",
-    "as_of": "2026-02-25 (page's update date)"
+    "value": "42 models on the search board in Arena's published data of 2026-10-13; the leaderboard page as this record's fetcher was served it showed 247,944 votes across 22 models, dated 25 February 2026",
+    "as_of": "2026-10-29"
    },
    "sources": {
     "arena.ai/leaderboard/search": {
@@ -1739,6 +1892,11 @@
      "url": "https://arxiv.org/abs/2506.05334",
      "read": "2026-10-28",
      "for": "dataset and citation findings (Miroyan et al.; ICLR 2026)"
+    },
+    "huggingface.co/datasets/lmarena-ai/leaderboard-dataset": {
+     "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
+     "read": "2026-10-29",
+     "for": "Arena's published leaderboard data (search board snapshots)"
     }
    },
    "unchecked": [
@@ -1765,6 +1923,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/search-arena/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "evidence": {
@@ -1777,7 +1941,7 @@
      "basis": "operator"
     },
     "count": {
-     "src": "arena.ai/leaderboard/search",
+     "src": "huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
      "basis": "operator"
     },
     "note": {
@@ -1805,7 +1969,7 @@
      "basis": "reading"
     }
    },
-   "note": "its dataset paper (Miroyan et al., arXiv:2506.05334, ICLR 2026) released over 24,000 paired multi-turn interactions with about 12,000 preference votes, and found that user preference rises with the number of citations even when the cited content does not support the claims it is attached to"
+   "note": "its dataset paper (Miroyan et al., arXiv:2506.05334, ICLR 2026) released over 24,000 paired multi-turn interactions with about 12,000 preference votes, and found that user preference rises with the number of citations even when the cited content does not support the claims it is attached to. The page as served to this record on 2026-10-28 and 2026-10-29 matched Arena's snapshot of 2026-02-26; Arena's own latest published board was dated 2026-10-13"
   },
   {
    "slug": "capture-registry",
@@ -1899,17 +2063,18 @@
     "on": "2026-10-28",
     "fetch": "read"
    },
-   "unit": "AI Incident Database report, classified by risk domain, cause, harm, severity and EU AI Act risk level",
+   "unit": "AI Incident Database incident, classified by risk domain, cause, harm, severity and EU AI Act risk level",
    "intake": "AIID reports processed by an LLM pipeline (Arcola AI) against the MIT Risk Repository taxonomy and a severity rating based on CSET's AI Harm Taxonomy",
    "count": {
-    "value": "the page gives both 'more than 1,400' (description) and 1,600 (heading); Google's card summary gives 1,752, and the MIT AI Risk Navigator 'more than 1300'",
-    "as_of": "2026-10-28"
+    "value": "1,600 (the tracker page's heading) and 'more than 1,400' (its description); Google's card summary of 2026-10-29 gives 1,752; the MIT AI Risk Navigator's heading gives 1,497 (2026-10-29)",
+    "as_of": "2026-10-29"
    },
    "note": "the page states that patterns 'should be taken as indicative'; reporting is voluntary and no systematic validation study is complete",
    "relations": [
     {
-     "rel": "part_of",
-     "target": "mit-ai-risk-repository"
+     "rel": "sibling",
+     "target": "mit-ai-risk-repository",
+     "note": "a workstream of the MIT AI Risk Initiative beside the repository"
     },
     {
      "rel": "derived_from",
@@ -1923,6 +2088,12 @@
      "dates": {
       "observed": "2026-10-29"
      }
+    },
+    {
+     "rel": "non_row",
+     "url": "https://www.alexanarch.org/non/mit-ai-incident-tracker/",
+     "label": "its /non row (EA-NEGONT-02 v0.9, equal case)",
+     "note": "composed 2026-10-29 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"
     }
    ],
    "sources": {
@@ -2095,7 +2266,7 @@
    ]
   }
  ],
- "schema_version": "2.3",
+ "schema_version": "2.4",
  "schema_note": "v2 (2026-10-28): each page has two nodes, the MMRS record and the entity it describes; relations are typed; each assertion carries a source and a basis (operator statement, third-party report, our observation, our reading); lifecycle is kept apart from the observation that saw it; roles are plural; properties answer traversal questions; holdings carry event, inclusion and observed dates.",
  "candidates": [
   {
@@ -2105,14 +2276,14 @@
    "note": "MIT's interactive tool linking the repository to incidents, frameworks and mitigations"
   },
   {
-   "name": "AI Hallucination Cases Tracker (UK), Natural and Artificial Law",
+   "name": "AI Hallucination Cases Tracker, Natural and Artificial Law (Matthew Lee)",
    "url": null,
    "surfaced_by": "ai-hallucination-cases-database-aio-20261029",
-   "note": "a UK companion to Charlotin's database"
+   "note": "an international collection of judicial statements on AI hallucination, with a separate UK page; it does not name Charlotin's database"
   },
   {
    "name": "HAQQ — AI Hallucination Cases: The 2,202-Case Sanctions Tracker",
-   "url": null,
+   "url": "https://www.haqq.ai/blog/ai-legal-hallucination-audit",
    "surfaced_by": "ai-hallucination-cases-database-aio-20261029",
    "note": "a vendor tracker built on Charlotin's count"
   },
@@ -2129,7 +2300,7 @@
    "note": "a GEO awesome list"
   },
   {
-   "name": "henu-wang/awesome (Awesome GEO)",
+   "name": "henu-wang/awesome-geo (Awesome GEO)",
    "url": null,
    "surfaced_by": "awesome-geo-aio-20261029",
    "note": "a GEO awesome list"
@@ -2169,6 +2340,12 @@
    "url": null,
    "surfaced_by": "ai-incident-database-aio-20261029",
    "note": "a dataset with a near name to AIID"
+  },
+  {
+   "name": "Canadian AI Hallucination Cases Database (courtready.ca)",
+   "url": null,
+   "surfaced_by": "ai-hallucination-cases-database-aio-20261029",
+   "note": "cited in Wikipedia's 'Hallucination (artificial intelligence)', read by the /non row's composer"
   }
  ],
  "candidates_note": "Aggregators the composition layer surfaced in captures of the census's entities, listed for reading. Each enters the census once it has been read at its own pages."

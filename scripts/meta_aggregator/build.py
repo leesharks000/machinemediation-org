@@ -10,7 +10,7 @@ OUT = ROOT / "aggregators"; BASE = "https://www.machinemediation.org/aggregators
 e = lambda s: html.escape(str(s), quote=True)
 BASIS = {"operator": ("op", "operator statement"), "third-party": ("3p", "third-party report"), "observed": ("obs", "our observation"), "reading": ("rd", "our reading")}
 REL = {"part_of": "Part of", "has_part": "Has part", "holding": "Holdings in scope", "merge_example": "Merge on record", "data_dump": "Data dump",
-       "replacement_by_operator": "Replacement named at the sunset", "claimed_successor": "Claimed successor", "revival": "Revival", "neighbour": "Neighbours in the basin", "used_by": "Used by", "derived_from": "Derived from", "claims_succession_to": "Claims succession to", "capture": "Captures: the composition layer's account", "revives": "Revives"}
+       "replacement_by_operator": "Replacement named at the sunset", "claimed_successor": "Claimed successor", "revival": "Revival", "neighbour": "Neighbours in the basin", "used_by": "Used by", "derived_from": "Derived from", "claims_succession_to": "Claims succession to", "capture": "Captures: the composition layer's account", "revives": "Revives", "non_row": "The /non row", "sibling": "Sibling"}
 PROPS = [("admission_requires_harm", "Admission requires harm?"), ("preserves_original_outputs", "Preserves original outputs?"), ("version_history", "Version history?"), ("records_attribution", "Records attribution?")]
 CSS = open(HERE / "style.css").read()
 def kernel(r):
