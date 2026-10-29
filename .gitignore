@@ -1,3 +1,4 @@
 .msp_state.json
 *.orig
 index.html.orig
+node_modules/

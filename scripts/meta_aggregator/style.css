@@ -85,3 +85,18 @@ td,li,.d,.art p,.kernel,h1,.foot,.cite p{overflow-wrap:anywhere}
 
 @media (max-width:860px){.nav-top{display:none}.srch{min-width:0;flex:1}.top .sp{display:none}}
 @media (max-width:600px){td{padding:10px 12px}td:first-child{width:34%}.kernel{font-size:1.16em}.btn{padding:7px 13px}.wrap{padding-top:28px}}
+
+/* email signup (2026-10-29) */
+.signup{border:1px solid var(--border);background:var(--surface);border-radius:14px;padding:18px 20px;margin:0 0 34px;max-width:46em}
+.signup h4{font-family:var(--serif);font-size:1.15em;font-weight:600;margin-bottom:4px}
+.signup p{font-size:.92em;color:var(--dim);margin-bottom:12px}
+.signup .fr{display:flex;flex-wrap:wrap;gap:8px}
+.signup input[type=email]{flex:1;min-width:200px;border:1px solid var(--border);background:var(--bg);color:var(--fg);border-radius:999px;padding:9px 16px;font:inherit;font-size:.95em}
+.signup input[type=email]:focus{outline:none;border-color:var(--fg)}
+.signup label.ok{display:flex;gap:8px;align-items:flex-start;font-size:.84em;color:var(--dim);margin-top:10px;line-height:1.45}
+.signup label.ok input{margin-top:3px;accent-color:var(--fg)}
+.signup .trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.signup .msg{font-size:.9em;margin:8px 0 0;min-height:1.2em}.signup .msg:empty{display:none}
+#follow{scroll-margin-top:80px}
+.signup .msg.good{color:var(--teal)}.signup .msg.bad{color:var(--red)}
+.prose{max-width:44em}.prose p{font-family:var(--serif);font-size:1.08em;line-height:1.7;margin-bottom:14px}.prose h2{margin-top:30px}

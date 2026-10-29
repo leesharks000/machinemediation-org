@@ -32,8 +32,35 @@ def actions(r):
     if "non_row" in rel: a.append(f'<a class="btn ghost" href="{e(rel["non_row"]["url"])}">The /non row</a>')
     caps = [x for x in r["relations"] if x["rel"] == "capture" and x.get("url")]
     if caps: a.append(f'<a class="btn ghost" href="{e(caps[0]["url"])}">{"Capture" if len(caps) == 1 else f"{len(caps)} captures"}</a>')
+    a.append('<a class="btn ghost" href="#follow">Follow</a>')
     a.append('<button class="btn ghost" type="button" data-copy="cite">Copy citation</button>')
     return '<div class="act">' + "".join(a) + "</div>"
+def signup(follow=None, name=None):
+    """An email box. Posts to /api/subscribe, which stores the address privately (see /privacy/)."""
+    if follow:
+        h, t = f"Follow {e(name)}", f"An email when this record changes: the aggregator ends, comes back, changes hands, or gets a new capture."
+    else:
+        h, t = "The MMRS digest", "New aggregator records, lifecycle changes and captures, by email, now and then."
+    return (f'<form class="signup"{' id="follow"' if follow else ''} action="/api/subscribe/" method="post">'
+            f'<h4>{h}</h4><p>{t}</p><div class="fr"><input type="email" name="email" required placeholder="you@example.org" autocomplete="email" aria-label="Email address">'
+            f'<button class="btn" type="submit">{"Follow" if follow else "Subscribe"}</button></div>'
+            + (f'<input type="hidden" name="follow" value="{e(follow)}">' if follow else "")
+            + '<input type="hidden" name="page" value=""><span class="trap" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>'
+            '<label class="ok"><input type="checkbox" name="consent" value="yes" required><span>Email me from MMRS about this. My address is stored privately and never published; '
+            'every email carries a one-click unsubscribe. <a href="/privacy/">Privacy</a></span></label><p class="msg" role="status"></p></form>')
+SIGNUP_JS = ("<script>document.querySelectorAll('form.signup').forEach(f=>{f.page.value=location.pathname;f.onsubmit=async ev=>{ev.preventDefault();const m=f.querySelector('.msg'),b=f.querySelector('button');"
+             "b.disabled=true;m.className='msg';m.textContent='Saving…';try{const r=await fetch(f.action,{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f))});"
+             "const j=await r.json().catch(()=>({}));if(r.ok){m.className='msg good';m.textContent='You are on the list. Thank you.';f.email.value=''}else{m.className='msg bad';m.textContent=j.error||'That did not work. Please try again.'}}"
+             "catch(_){m.className='msg bad';m.textContent='That did not work. Please try again.'}b.disabled=false}})</script>")
+def simple_page(path, title, body):
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} — MMRS</title>'
+            f'<link rel="canonical" href="https://www.machinemediation.org{path}">{HEAD}</head><body>{topbar()}<div class="wrap"><div class="crumb"><a href="/">Machine-Mediated Reception Studies</a> / {e(title.lower())}</div>'
+            f'<h1>{e(title)}</h1><div class="prose">{body}</div><div class="foot">Machine-Mediated Reception Studies · machinemediation.org · editor Lee Sharks</div></div></body></html>')
+PRIVACY = ("<p>MMRS asks for one thing: an email address, typed in by the person who owns it, with a box ticked to agree to the emails.</p>"
+           "<h2>What is stored</h2><p>The address, which list it joined (the digest, or a follow of one aggregator, and which), the date, and the page the form was on. Nothing else: no name, no IP address, no tracking.</p>"
+           "<h2>Where</h2><p>In a private store of the site's host, Vercel. Private means no web address serves the records; only the site's own signup code and its operator can read them. Addresses are never published, sold or shared.</p>"
+           "<h2>What it is used for</h2><p>The emails the person asked for: the digest, or notice that a followed aggregator's record changed. Every email carries a one-click unsubscribe, and an unsubscribe removes the address from that list.</p>"
+           "<h2>Removal</h2><p>Anyone can ask for their address to be deleted entirely, from any email, and it is.</p>")
 COPY_JS = ("<script>document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{const t=document.getElementById(b.dataset.copy).innerText;"
            "(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{const o=b.textContent;b.textContent='Copied';setTimeout(()=>b.textContent=o,1600)})"
            ".catch(()=>{const s=getSelection(),g=document.createRange();g.selectNodeContents(document.getElementById(b.dataset.copy));s.removeAllRanges();s.addRange(g)})})</script>")
@@ -110,8 +137,8 @@ def page(r):
 <div class="art">{body}</div>{f'<h2>For a research question</h2><table>{props}</table>' if props else ''}
 <h2>Relations</h2>{relhtml or '<p class="pend">None recorded yet.</p>'}
 {f'<h2>Disambiguation</h2><table>{dis}</table>' if dis else ''}{f'<h2>Negative tags</h2><ul>{neg}</ul>' if neg else ''}{bath}
-<h2>Provenance</h2><ul>{src}</ul><h2>Cite this record</h2><div class="cite"><p id="cite">{e(cite_text(r))}</p><p class="d">Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity</p></div>{f'<h2>Not yet checked</h2><ul>{unc}</ul>' if unc else ''}
-<div class="foot">Editor: Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>). This page is the MMRS record of the entity above: its reading, fields and relations are MMRS's, and each field carries its source and basis. Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity · compiled {D["compiled"]}</div></div>{COPY_JS}</body></html>"""
+{signup(r["slug"], r["name"])}<h2>Provenance</h2><ul>{src}</ul><h2>Cite this record</h2><div class="cite"><p id="cite">{e(cite_text(r))}</p><p class="d">Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity</p></div>{f'<h2>Not yet checked</h2><ul>{unc}</ul>' if unc else ''}
+<div class="foot">Editor: Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>). This page is the MMRS record of the entity above: its reading, fields and relations are MMRS's, and each field carries its source and basis. Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity · compiled {D["compiled"]}</div></div>{COPY_JS}{SIGNUP_JS}</body></html>"""
 def cand_html():
     C = D.get("candidates") or []
     if not C: return ""
@@ -129,17 +156,17 @@ def index():
     cand = cand_html()
     trav = "".join(f'<tr><td><a href="{r["slug"]}/">{e(r["name"])}</a></td>' + "".join(f"<td>{cell(r, k)}</td>" for k, _ in PROPS) + "</tr>" for r in sorted(ROWS, key=lambda r: r["name"].lower()))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MMRS meta-aggregator</title><meta name="description" content="The aggregators of machine-mediated reception work, each formalized as an entity with sourced, dated fields."><link rel="canonical" href="{BASE}">{HEAD}</head><body>{topbar("Aggregators")}<div class="wrap">\n<div class="crumb"><a href="/">Machine-Mediated Reception Studies</a> / aggregators</div><h1>MMRS meta-aggregator</h1><div class="kernel">The aggregators of machine-mediated reception work, each formalized as an entity: what it is in its own words, who runs it, what it admits and in what unit, what it leaves out, and where its record goes when it ends. {len(ROWS)} aggregators, compiled {D["compiled"]}.</div>
-<div class="f"><button class="on" data-all="1">all</button>{btn("role", roles)}</div><div class="f">{btn("kind", kinds)}</div><div id="L" class="grid">{rows}</div><p class="none" id="none">No aggregator matches.</p>
+<div class="f"><button class="on" data-all="1">all</button>{btn("role", roles)}</div><div class="f">{btn("kind", kinds)}</div><div id="L" class="grid">{rows}</div><p class="none" id="none">No aggregator matches.</p><div style="margin-top:34px">{signup()}</div>
 {cand}<h2>Traverse by question</h2><div class="tw"><table class="tv"><tr><td></td>{"".join(f"<td>{q}</td>" for _, q in PROPS)}</tr>{trav}</table></div><p class="legend">· not yet read</p>
 <div class="foot">Machine-Mediated Reception Studies · machinemediation.org · editor Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>)</div></div>
-<script>let fs={{}};const q0=new URLSearchParams(location.search).get('q')||'';const qi=document.querySelector('.srch input');qi.value=q0;const qf=document.querySelector('.srch');qf.onsubmit=ev=>{{ev.preventDefault();apply()}};qi.oninput=()=>apply();function apply(){{const q=qi.value.trim().toLowerCase();let n=0;document.querySelectorAll('.f button').forEach(x=>{{const k=x.dataset.role?'role':x.dataset.kind?'kind':'all';x.classList.toggle('on',k==='all'?!fs.role&&!fs.kind:fs[k]===x.dataset[k])}});document.querySelectorAll('#L .row').forEach(r=>{{const ok=(!fs.role||r.dataset.roles.split(' ').includes(fs.role))&&(!fs.kind||r.dataset.kind===fs.kind)&&(!q||q.split(' ').filter(Boolean).every(w=>r.dataset.text.includes(w)));r.style.display=ok?'':'none';n+=ok}});document.getElementById('none').style.display=n?'none':'block'}}document.querySelectorAll('.f button').forEach(b=>b.onclick=()=>{{if(b.dataset.all){{fs={{}}}}else{{const k=b.dataset.role?'role':'kind',v=b.dataset[k];fs[k]=fs[k]===v?undefined:v}}apply()}});apply()</script></body></html>"""
+<script>let fs={{}};const q0=new URLSearchParams(location.search).get('q')||'';const qi=document.querySelector('.srch input');qi.value=q0;const qf=document.querySelector('.srch');qf.onsubmit=ev=>{{ev.preventDefault();apply()}};qi.oninput=()=>apply();function apply(){{const q=qi.value.trim().toLowerCase();let n=0;document.querySelectorAll('.f button').forEach(x=>{{const k=x.dataset.role?'role':x.dataset.kind?'kind':'all';x.classList.toggle('on',k==='all'?!fs.role&&!fs.kind:fs[k]===x.dataset[k])}});document.querySelectorAll('#L .row').forEach(r=>{{const ok=(!fs.role||r.dataset.roles.split(' ').includes(fs.role))&&(!fs.kind||r.dataset.kind===fs.kind)&&(!q||q.split(' ').filter(Boolean).every(w=>r.dataset.text.includes(w)));r.style.display=ok?'':'none';n+=ok}});document.getElementById('none').style.display=n?'none':'block'}}document.querySelectorAll('.f button').forEach(b=>b.onclick=()=>{{if(b.dataset.all){{fs={{}}}}else{{const k=b.dataset.role?'role':'kind',v=b.dataset[k];fs[k]=fs[k]===v?undefined:v}}apply()}});apply()</script>{SIGNUP_JS}</body></html>"""
 def front_block():
     top = [r for r in sorted(ROWS, key=lambda r: r["name"].lower()) if not any(x["rel"] == "part_of" for x in r["relations"])]
     li = "".join(f'<a class="mini" href="/aggregators/{r["slug"]}/"><b>{e(r["name"])}</b><span>{e(r["kind"])} · {e(", ".join(r["roles"]))}{" · ended" if r["lifecycle"]["state"] == "ended" else ""}</span></a>' for r in top)
     return ("<!-- META-AGGREGATOR-START (generated by scripts/meta_aggregator/build.py from data/meta-aggregator/census.json) -->\n"
             '<div class="section"><div class="section-title">MMRS meta-aggregator</div>'
             f'<p class="plain">The aggregators of machine-mediated reception work, each formalized as an entity: what it is in its own words, who runs it, what it admits and in what unit, what it leaves out, and where its record goes when it ends. {len(ROWS)} aggregators, every field sourced and dated; compiled {D["compiled"]}.</p>'
-            f'<div class="minis">{li}</div><p class="plain" style="margin-top:14px"><a href="/aggregators/">All {len(ROWS)}, with the traversal table by research question</a> · <a href="/data/meta-aggregator/census.json">the census as data</a></p></div>\n'
+            f'<div class="minis">{li}</div><p class="plain" style="margin-top:14px"><a href="/aggregators/">All {len(ROWS)}, with the traversal table by research question</a> · <a href="/data/meta-aggregator/census.json">the census as data</a></p>' + signup() + SIGNUP_JS + '</div>\n'
             '<div class="section-title" style="margin:34px 0 14px">Machine-Mediated Reception Studies — the journal</div>\n<!-- META-AGGREGATOR-END -->')
 def splice(path, start, end, block, anchor):
     t = path.read_text(encoding="utf-8")
@@ -147,6 +174,8 @@ def splice(path, start, end, block, anchor):
     else:
         assert anchor in t, anchor; t = t.replace(anchor, block + "\n" + anchor, 1)
     path.write_text(t, encoding="utf-8")
+for _p, _t, _b in [("/privacy/", "Privacy", PRIVACY), ("/subscribed/", "Subscribed", "<p>You are on the list. Thank you.</p><p><a href=\"/aggregators/\">Back to the aggregators</a></p>")]:
+    (ROOT / _p.strip("/")).mkdir(exist_ok=True); (ROOT / _p.strip("/") / "index.html").write_text(simple_page(_p, _t, _b), encoding="utf-8")
 (ROOT / "assets").mkdir(exist_ok=True); (ROOT / "assets/mmrs.css").write_text(CSS, encoding="utf-8")
 OUT.mkdir(exist_ok=True); (OUT / "index.html").write_text(index())
 for r in ROWS:
