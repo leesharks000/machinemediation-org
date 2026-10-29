@@ -13,7 +13,7 @@
    "founded": "2020 (described in arXiv:2011.08512, submitted 17 November 2020)",
    "kind": "database",
    "self_description": "dedicated to indexing the collective history of harms or near harms realized in the real world",
-   "unit": "incident (an alleged harm or near-harm event in which an AI system is implicated), with the reports that document it attached",
+   "unit": "incident (an alleged harm or near harm event in which an AI system is implicated), with the reports that document it attached",
    "intake": "open submission; incident editors resolve submissions and maintain records",
    "item_fields": [
     "incident id and citation page (/cite/N)",
@@ -98,6 +98,11 @@
      "url": "https://incidentdatabase.ai/cite/637/",
      "read": "2026-10-28",
      "for": "child"
+    },
+    "en.wikipedia.org/wiki/Partnership_on_AI": {
+     "url": "https://en.wikipedia.org/wiki/Partnership_on_AI",
+     "read": "2026-10-29",
+     "for": "the redirect target and its account of the database"
     }
    },
    "unchecked": [
@@ -180,7 +185,7 @@
     },
     "founded": {
      "src": "arxiv.org/abs/2011.08512",
-     "basis": "third-party"
+     "basis": "operator"
     },
     "self_description": {
      "src": "incidentdatabase.ai",
@@ -212,7 +217,11 @@
     },
     "cadence": {
      "src": "incidentdatabase.ai",
-     "basis": "operator"
+     "basis": "reading"
+    },
+    "note": {
+     "src": "en.wikipedia.org/wiki/Partnership_on_AI",
+     "basis": "third-party"
     }
    },
    "properties": {
@@ -253,7 +262,8 @@
      "not merged with the OECD monitor or AIAAIC",
      "citation page /cite/N given"
     ]
-   }
+   },
+   "note": "Wikipedia has no article: 'AI Incident Database' redirects to 'Partnership on AI' (its founding sponsor), which says the database 'shifted to a new special-purpose independent non-profit in 2022' and does not name the Responsible AI Collaborative"
   },
   {
    "slug": "papers-with-code",
@@ -438,7 +448,7 @@
     },
     "unit": {
      "src": "techcrunch.com/2020/02/10/facebook-quietly-acquired-atlast-ml/amp",
-     "basis": "operator"
+     "basis": "third-party"
     },
     "count": {
      "src": "codesota.com/papers-with-code",
@@ -1966,7 +1976,7 @@
     "the PapersWithCode revival"
    ],
    "url": "https://paperswithcode.co/",
-   "operator": "Niels Rogge, of Hugging Face's open-source team; code in the huggingface GitHub organization",
+   "operator": "Niels Rogge, of Hugging Face's open-source team (his own statement: 'Niels here from the open-source team at Hugging Face… since I launched paperswithcode.co'); code in the huggingface GitHub organization",
    "founded": "2026 (the r/MachineLearning announcement card is dated 18 May 2026)",
    "kind": "database",
    "roles": [
@@ -1984,7 +1994,7 @@
    "intake": "automated imports from Hugging Face, arXiv, GitHub and public leaderboards (its README)",
    "license": "code Apache-2.0",
    "data_access": "code at github.com/huggingface/paperswithcode",
-   "note": "the README states that it 'recreates the original paperswithcode.com, which Meta retired in 2025'. Whether it is an official Hugging Face product is described differently: Google's Overview says Hugging Face 'officially stepped in'; AI Weekly called it an individual effort",
+   "note": "the README states that it 'recreates the original paperswithcode.com, which Meta retired in 2025'. The relaunch is a Community Article in its author's namespace on Hugging Face. Its standing is described differently elsewhere: Google's Overview says Hugging Face 'officially stepped in'; AI Weekly called it an individual effort. On 2026-10-29 paperswithcode.com redirects to Hugging Face Trending Papers",
    "relations": [
     {
      "rel": "revives",
@@ -2015,12 +2025,17 @@
      "url": "https://www.alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029/",
      "read": "2026-10-29",
      "for": "the announcement date (card), the operator"
+    },
+    "huggingface.co/blog/nielsr/paperswithcode-launch": {
+     "url": "https://huggingface.co/blog/nielsr/paperswithcode-launch",
+     "read": "2026-10-29",
+     "for": "the builder's own statement: a Community Article, 24 May 2026"
     }
    },
    "evidence": {
     "operator": {
-     "src": "alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029",
-     "basis": "third-party"
+     "src": "huggingface.co/blog/nielsr/paperswithcode-launch",
+     "basis": "operator"
     },
     "founded": {
      "src": "alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029",
@@ -2076,12 +2091,11 @@
     "NOT CodeSOTA"
    ],
    "unchecked": [
-    "its item counts",
-    "its own statement of who runs it"
+    "its item counts"
    ]
   }
  ],
- "schema_version": "2.2",
+ "schema_version": "2.3",
  "schema_note": "v2 (2026-10-28): each page has two nodes, the MMRS record and the entity it describes; relations are typed; each assertion carries a source and a basis (operator statement, third-party report, our observation, our reading); lifecycle is kept apart from the observation that saw it; roles are plural; properties answer traversal questions; holdings carry event, inclusion and observed dates.",
  "candidates": [
   {
