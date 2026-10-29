@@ -27,6 +27,7 @@ The aggregators of machine-mediated reception work, each formalized as an entity
 - NewsGuard AI Tracking Center (monitor; monitoring; active): https://www.machinemediation.org/aggregators/newsguard-ai-tracking-center/
 - OECD AI Incidents and Hazards Monitor (monitor; harm, monitoring; active): https://www.machinemediation.org/aggregators/oecd-ai-incidents-monitor/
 - Papers with Code (database; discovery; ended): https://www.machinemediation.org/aggregators/papers-with-code/
+- Papers with Code (paperswithcode.co) (database; discovery; active): https://www.machinemediation.org/aggregators/papers-with-code-revival/
 - Presenc AI — GEO academic papers 2026 (curated list; optimization; active): https://www.machinemediation.org/aggregators/presenc-geo-papers/
 - Problematic Paper Screener (monitor; monitoring; active): https://www.machinemediation.org/aggregators/problematic-paper-screener/
 - Search Arena (leaderboard; evaluation; active): https://www.machinemediation.org/aggregators/search-arena/

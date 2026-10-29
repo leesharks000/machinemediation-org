@@ -10,7 +10,7 @@ OUT = ROOT / "aggregators"; BASE = "https://www.machinemediation.org/aggregators
 e = lambda s: html.escape(str(s), quote=True)
 BASIS = {"operator": ("op", "operator statement"), "third-party": ("3p", "third-party report"), "observed": ("obs", "our observation"), "reading": ("rd", "our reading")}
 REL = {"part_of": "Part of", "has_part": "Has part", "holding": "Holdings in scope", "merge_example": "Merge on record", "data_dump": "Data dump",
-       "replacement_by_operator": "Replacement named at the sunset", "claimed_successor": "Claimed successor", "revival": "Revival", "neighbour": "Neighbours in the basin", "used_by": "Used by", "derived_from": "Derived from", "claims_succession_to": "Claims succession to"}
+       "replacement_by_operator": "Replacement named at the sunset", "claimed_successor": "Claimed successor", "revival": "Revival", "neighbour": "Neighbours in the basin", "used_by": "Used by", "derived_from": "Derived from", "claims_succession_to": "Claims succession to", "capture": "Captures: the composition layer's account", "revives": "Revives"}
 PROPS = [("admission_requires_harm", "Admission requires harm?"), ("preserves_original_outputs", "Preserves original outputs?"), ("version_history", "Version history?"), ("records_attribution", "Records attribution?")]
 CSS = open(HERE / "style.css").read()
 def kernel(r):
@@ -88,16 +88,25 @@ def page(r):
 {f'<h2>Disambiguation</h2><table>{dis}</table>' if dis else ''}{f'<h2>Negative tags</h2><ul>{neg}</ul>' if neg else ''}{bath}
 <h2>Provenance</h2><ul>{src}</ul>{f'<h2>Not yet checked</h2><ul>{unc}</ul>' if unc else ''}
 <div class="foot">Editor: Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>). This page is the MMRS record of the entity above: its reading, fields and relations are MMRS's, and each field carries its source and basis. Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity · compiled {D["compiled"]}</div></div></body></html>"""
+def cand_html():
+    C = D.get("candidates") or []
+    if not C: return ""
+    li = ""
+    for c in C:
+        nm = f'<a href="{e(c["url"])}">{e(c["name"])}</a>' if c.get("url") else e(c["name"])
+        li += f'<li>{nm}<div class="d">{e(c["note"])} · surfaced by <a href="https://www.alexanarch.org/captures/{e(c["surfaced_by"])}/">{e(c["surfaced_by"])}</a></div></li>'
+    return f'<h2>Candidates</h2><p class="d" style="font-size:.74em;margin-bottom:8px">{e(D.get("candidates_note", ""))}</p><ul>{li}</ul>'
 def index():
     roles = sorted({x for r in ROWS for x in r["roles"]}); kinds = sorted({r["kind"] for r in ROWS})
     top = [r for r in sorted(ROWS, key=lambda r: r["name"].lower()) if not any(x["rel"] == "part_of" for x in r["relations"])]
     rows = "".join(f'<div class="row" data-roles="{e(" ".join(r["roles"]))}" data-kind="{e(r["kind"])}"><div class="n"><a href="{r["slug"]}/">{e(r["name"])}</a></div>{chips(r)}<div class="k">{e(kernel(r))}</div></div>' for r in top)
     btn = lambda key, vals: "".join(f'<button data-{key}="{e(v)}">{e(v)}</button>' for v in vals)
     cell = lambda r, k: f'<span title="{e(r["properties"][k]["value"])}">{e(r["properties"][k]["short"])}</span>' if k in r.get("properties", {}) else '<span class="d">·</span>'
+    cand = cand_html()
     trav = "".join(f'<tr><td><a href="{r["slug"]}/">{e(r["name"])}</a></td>' + "".join(f"<td>{cell(r, k)}</td>" for k, _ in PROPS) + "</tr>" for r in sorted(ROWS, key=lambda r: r["name"].lower()))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MMRS meta-aggregator</title><link rel="canonical" href="{BASE}"><style>{CSS}</style></head><body><div class="wrap">\n<div class="crumb"><a href="/">Machine-Mediated Reception Studies</a> / aggregators</div><h1>MMRS meta-aggregator</h1><div class="kernel">The aggregators of machine-mediated reception work, each formalized as an entity: what it is in its own words, who runs it, what it admits and in what unit, what it leaves out, and where its record goes when it ends. {len(ROWS)} aggregators, compiled {D["compiled"]}.</div>
 <div class="f"><button class="on" data-all="1">all</button>{btn("role", roles)}</div><div class="f">{btn("kind", kinds)}</div><div id="L">{rows}</div>
-<h2>Traverse by question</h2><div class="tw"><table class="tv"><tr><td></td>{"".join(f"<td>{q}</td>" for _, q in PROPS)}</tr>{trav}</table></div><p class="d" style="font-size:.66em;margin-top:6px">· not yet read</p>
+{cand}<h2>Traverse by question</h2><div class="tw"><table class="tv"><tr><td></td>{"".join(f"<td>{q}</td>" for _, q in PROPS)}</tr>{trav}</table></div><p class="d" style="font-size:.66em;margin-top:6px">· not yet read</p>
 <div class="foot">Machine-Mediated Reception Studies · machinemediation.org · editor Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>)</div></div>
 <script>let fs={{}};document.querySelectorAll('.f button').forEach(b=>b.onclick=()=>{{if(b.dataset.all){{fs={{}}}}else{{const k=b.dataset.role?'role':'kind',v=b.dataset[k];fs[k]=fs[k]===v?undefined:v}}document.querySelectorAll('.f button').forEach(x=>{{const k=x.dataset.role?'role':x.dataset.kind?'kind':'all';x.classList.toggle('on',k==='all'?!fs.role&&!fs.kind:fs[k]===x.dataset[k])}});document.querySelectorAll('#L .row').forEach(r=>r.style.display=(!fs.role||r.dataset.roles.split(' ').includes(fs.role))&&(!fs.kind||r.dataset.kind===fs.kind)?'':'none')}})</script></body></html>"""
 def front_block():

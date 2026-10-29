@@ -1,6 +1,6 @@
 {
  "name": "MMRS meta-aggregator — census",
- "compiled": "2026-10-28",
+ "compiled": "2026-10-29",
  "rows": [
   {
    "slug": "ai-incident-database",
@@ -53,6 +53,10 @@
     {
      "neighbour": "mit-ai-risk-repository",
      "context": "MIT, FutureTech, risk frameworks, taxonomy of risks, AI Incident Tracker"
+    },
+    {
+     "label": "AI Incidents, Failures & Controversies Database (Kaggle)",
+     "context": "Kaggle, 32 incidents, 29 companies, 24 columns"
     },
     {
      "self": true,
@@ -149,6 +153,24 @@
      "rel": "used_by",
      "target": "mit-ai-incident-tracker",
      "note": "classifies AIID reports"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/ai-incident-database-aio-20261029/",
+     "label": "«ai incident database» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/what-counts-as-an-incident-in-the-ai-incident-database-aio-20261029/",
+     "label": "«what counts as an incident in the ai incident database» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -220,7 +242,7 @@
     }
    },
    "battery": {
-    "status": "proposed; not yet run",
+    "status": "run 2026-10-29 on Google AI Overview; results in the capture records",
     "queries": [
      "ai incident database",
      "what counts as an incident in the ai incident database"
@@ -264,7 +286,7 @@
     "github": "https://github.com/paperswithcode/paperswithcode-data"
    },
    "negative_tags": [
-    "NOT live since 24 July 2025",
+    "paperswithcode.com is NOT live since 24 July 2025; the revival at paperswithcode.co is a separate entity",
     "NOT CodeSOTA, which uses the name in its paths",
     "NOT Hugging Face Trending Papers, its replacement",
     "its benchmark tables are NOT current state of the art"
@@ -313,19 +335,24 @@
      "url": "https://www.codesota.com/papers-with-code",
      "read": "2026-10-28",
      "for": "Papers with Code figures (a successor's report)"
+    },
+    "github.com/huggingface/paperswithcode": {
+     "url": "https://github.com/huggingface/paperswithcode",
+     "read": "2026-10-29",
+     "for": "the revival's code, licence and statement of what it recreates"
     }
    },
    "unchecked": [
     "how papers entered (extraction, community editing)",
     "Meta's own notice (none found; the sunset is dated from Hugging Face's announcement)",
     "the address of Hugging Face Trending Papers (not read)",
-    "the date of the revival effort",
     "Wikidata item",
-    "the item counts from the dumps themselves"
+    "the item counts from the dumps themselves",
+    "the redirect target at the sunset, which sources give differently"
    ],
    "lifecycle": {
     "state": "ended",
-    "detail": "sunset 24 July 2025; announced 25 July 2025 by Julien Chaumond, Hugging Face co-founder and CTO"
+    "detail": "paperswithcode.com sunset 24 July 2025; announced 25 July 2025 by Julien Chaumond, Hugging Face co-founder and CTO; its name now has a live instance, the revival at paperswithcode.co"
    },
    "observed": {
     "on": "2026-10-28",
@@ -353,10 +380,27 @@
      "note": "carries the name in its own paths and presents itself as the successor"
     },
     {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/papers-with-code-aio-20261029/",
+     "label": "«papers with code» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029/",
+     "label": "«is papers with code still active» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    },
+    {
      "rel": "revival",
-     "url": "https://aiweekly.co/alerts/hugging-face-revives-paperswithcode-benchmark-tracker",
-     "label": "Niels Rogge's revival of the leaderboards",
-     "note": "announced on r/MachineLearning by a member of Hugging Face's open-source team, described as an individual effort (AI Weekly, undated)"
+     "target": "papers-with-code-revival",
+     "note": "paperswithcode.co: 'recreates the original paperswithcode.com, which Meta retired in 2025' (its README); code under Apache-2.0 in Hugging Face's GitHub organization"
     }
    ],
    "evidence": {
@@ -399,6 +443,10 @@
     "count": {
      "src": "codesota.com/papers-with-code",
      "basis": "third-party"
+    },
+    "note": {
+     "src": "github.com/huggingface/paperswithcode",
+     "basis": "third-party"
     }
    },
    "properties": {
@@ -422,7 +470,7 @@
     }
    },
    "battery": {
-    "status": "proposed; not yet run",
+    "status": "run 2026-10-29 on Google AI Overview; results in the capture records",
     "queries": [
      "papers with code",
      "is papers with code still active"
@@ -434,7 +482,8 @@
      "CodeSOTA and Trending Papers not presented as Papers with Code",
      "no current result attributed to its tables"
     ]
-   }
+   },
+   "note": "where users were sent at the end is reported two ways: to Hugging Face (CodeSOTA, hyper.ai) and to the GitHub repository (TIB's blog, and a Reddit thread of 6 August 2025, both cards in the capture of 2026-10-29). The revival's README states that Meta retired the original"
   },
   {
    "slug": "oecd-ai-incidents-monitor",
@@ -495,6 +544,15 @@
     {
      "rel": "neighbour",
      "target": "aiaaic-repository"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/oecd-ai-incidents-and-hazards-monitor-aio-20261029/",
+     "label": "«oecd ai incidents and hazards monitor» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -592,6 +650,15 @@
     {
      "rel": "neighbour",
      "target": "oecd-ai-incidents-monitor"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/aiaaic-repository-aio-20261029/",
+     "label": "«aiaaic repository» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -671,6 +738,15 @@
     {
      "rel": "neighbour",
      "target": "ai-incident-database"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/mit-ai-risk-repository-aio-20261029/",
+     "label": "«mit ai risk repository» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -734,7 +810,17 @@
     "monitoring",
     "reception"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/ai-hallucination-cases-database-aio-20261029/",
+     "label": "«ai hallucination cases database» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "damiencharlotin.com/hallucinations",
@@ -832,7 +918,17 @@
    "roles": [
     "monitoring"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/academ-ai-aio-20261029/",
+     "label": "«academ-ai» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "ediscoverytoday.com/2025/08/27/ai-use-in-academic-papers-theres-a-site-for-that-too-artificial-intelligence-trends",
@@ -864,7 +960,29 @@
     }
    },
    "intake": "flagged by phrasing that strongly suggests chatbot generation, quoted with the phrases highlighted; journal articles, conference papers and books admitted; theses, preprints and blog posts excluded",
-   "note": "an errata page separates corrections with formal explanations from 'stealth corrections'; a publishers page counts examples by publisher (IEEE 90, Elsevier 34 in August 2025)"
+   "note": "an errata page separates corrections with formal explanations from 'stealth corrections'; a publishers page counts examples by publisher (IEEE 90, Elsevier 34 in August 2025)",
+   "disambiguation": [
+    {
+     "label": "AcademAI (academai.app)",
+     "context": "AI training console, fluency course, certificates"
+    },
+    {
+     "label": "Academi.AI",
+     "context": "study assistant, chat tutor"
+    },
+    {
+     "label": "Academiq",
+     "context": "AI education platform, lesson plans, tools for teachers"
+    },
+    {
+     "self": true,
+     "context": "Alex Glynn, undeclared AI use, journal articles, errata, stealth corrections"
+    }
+   ],
+   "negative_tags": [
+    "NOT AcademAI, Academi.AI or Academiq (education products)",
+    "NOT only the dataset paper (arXiv:2411.15218): the paper analyses the database's first 768 cases"
+   ]
   },
   {
    "slug": "problematic-paper-screener",
@@ -904,7 +1022,17 @@
    "roles": [
     "monitoring"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/problematic-paper-screener-aio-20261029/",
+     "label": "«problematic paper screener» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "dbrech.irit.fr/pls/apex/f?p=9999:1::::::",
@@ -974,6 +1102,15 @@
     {
      "rel": "has_part",
      "target": "newsguard-ai-false-claim-monitor"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/newsguard-ai-tracking-center-aio-20261029/",
+     "label": "«newsguard ai tracking center» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -1030,6 +1167,15 @@
     {
      "rel": "part_of",
      "target": "newsguard-ai-tracking-center"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/newsguard-ai-false-claim-monitor-aio-20261029/",
+     "label": "«newsguard ai false claim monitor» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -1079,7 +1225,7 @@
     "key finding",
     "the vendor's 'what it means for practitioners' note"
    ],
-   "note": "vendor-authored; the page states 'The Presenc AI audit framework is directly anchored in this literature'",
+   "note": "vendor-authored; the page states 'The Presenc AI audit framework is directly anchored in this literature'. A sibling list, 'Essential GEO Research Papers, 10 Must-Read Studies', is on the same site; the Overview's card dates the 34-paper summary 15 April 2026, the page's byline 23 April. The vendor's name is corrected by Google to 'presence' before it is read (the capture of 2026-10-29)",
    "sources": {
     "presenc.ai/research/geo-academic-papers-2026": {
      "url": "https://presenc.ai/research/geo-academic-papers-2026",
@@ -1106,6 +1252,15 @@
     {
      "rel": "neighbour",
      "target": "aeovision-geo-papers"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/presenc-ai-geo-academic-papers-aio-20261029/",
+     "label": "«presenc ai geo academic papers» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -1168,6 +1323,15 @@
     {
      "rel": "neighbour",
      "target": "presenc-geo-papers"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/awesome-geo-aio-20261029/",
+     "label": "«awesome-geo» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -1184,7 +1348,33 @@
      "basis": "operator"
     }
    },
-   "properties": {}
+   "properties": {},
+   "disambiguation": [
+    {
+     "label": "amplifying-ai/awesome-generative-engine-optimization",
+     "context": "entity optimization, AI citations, E-E-A-T"
+    },
+    {
+     "label": "henu-wang/awesome (Awesome GEO)",
+     "context": "resources, tools, guides"
+    },
+    {
+     "label": "aGEO (geo.deeflect.com)",
+     "context": "free platforms and tools, Dmitry Kargaev"
+    },
+    {
+     "label": "Geoawesome",
+     "context": "geospatial media, GIS, Earth observation"
+    },
+    {
+     "label": "Awesome GEE Community Catalog",
+     "context": "Google Earth Engine, community geospatial datasets"
+    },
+    {
+     "self": true,
+     "context": "DavidHuji, research papers by year, IF-GEO"
+    }
+   ]
   },
   {
    "slug": "aeovision-geo-papers",
@@ -1211,7 +1401,17 @@
    "roles": [
     "optimization"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/aeo-vision-top-arxiv-papers-geo-aio-20261029/",
+     "label": "«aeo vision top arxiv papers geo» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "aeovision.ai/articles/top-arxiv-papers-for-generative-engine-optimization",
@@ -1251,7 +1451,7 @@
    "url": "https://www.codesota.com/",
    "operator": "Kacper Wikiel, 'By Fabryka AI' (Warsaw)",
    "kind": "database",
-   "note": "it rebuilds the infrastructure 'independently', and links the frozen paperswithcode-data archive as a source",
+   "note": "two faces at two addresses: the homepage presents a routing layer and names Papers with Code only in a footer link; its /papers-with-code/ pages present it as 'the v2 replacement for what PWC did', rebuilding that infrastructure 'independently'",
    "sources": {
     "codesota.com/papers-with-code/shutdown": {
      "url": "https://www.codesota.com/papers-with-code/shutdown",
@@ -1262,6 +1462,11 @@
      "url": "https://www.codesota.com/papers-with-code",
      "read": "2026-10-28",
      "for": "operator, self-positioning, offerings"
+    },
+    "codesota.com": {
+     "url": "https://www.codesota.com/",
+     "read": "2026-10-29",
+     "for": "homepage title and self-description"
     }
    },
    "unchecked": [
@@ -1283,6 +1488,15 @@
     {
      "rel": "claims_succession_to",
      "target": "papers-with-code"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/codesota-aio-20261029/",
+     "label": "«codesota» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "evidence": {
@@ -1291,11 +1505,11 @@
      "basis": "operator"
     },
     "self_description": {
-     "src": "codesota.com/papers-with-code",
+     "src": "codesota.com",
      "basis": "operator"
     },
     "unit": {
-     "src": "codesota.com/papers-with-code",
+     "src": "codesota.com",
      "basis": "operator"
     },
     "data_access": {
@@ -1303,13 +1517,13 @@
      "basis": "operator"
     },
     "note": {
-     "src": "codesota.com/papers-with-code",
-     "basis": "operator"
+     "src": "codesota.com",
+     "basis": "observed"
     }
    },
    "properties": {},
-   "self_description": "Codesota is the v2 replacement for what PWC did",
-   "unit": "benchmark result, with a verification date and code link",
+   "self_description": "helps developers choose AI tools for documents, speech, and coding (its homepage, titled 'CodeSOTA — One Routing Layer for AI Tasks')",
+   "unit": "AI task, routed to a model chosen by benchmark evidence, quality and cost",
    "data_access": "an open JSON registry and /api/sota; historical Papers with Code data at /browse/pwc"
   },
   {
@@ -1319,10 +1533,10 @@
    "operator": "Data Provenance Initiative (Longpre, Mahari, Chen, Obeng-Marnu and others)",
    "kind": "database",
    "self_description": "Public measurement infrastructure for AI data, model ecosystems, and real-world AI use",
-   "unit": "text dataset, traced to its sources and licences",
+   "unit": "dataset (text, speech or video), traced to its creators, sources, licences, geographies, modalities and derivation chain",
    "count": {
-    "value": "more than 1,800 text datasets audited in the founding paper",
-    "as_of": "arXiv:2310.16787"
+    "value": "nearly 4,000 text, video and speech datasets (the Dataset Explorer); the founding audit covered more than 1,800 text datasets",
+    "as_of": "2026-10-29"
    },
    "note": "the founding audit found 'license omission of 70%+ and error rates of 50%+' on dataset hosting sites. Its second audit, Consent in Crisis (NeurIPS 2024 Datasets and Benchmarks), read 14,000 web domains and found that 'a full 45% of C4 is now restricted' by terms of service",
    "sources": {
@@ -1340,11 +1554,16 @@
      "url": "https://arxiv.org/abs/2407.14933",
      "read": "2026-10-28",
      "for": "Consent in Crisis audit"
+    },
+    "alexanarch.org/captures/data-provenance-explorer-aio-20261029": {
+     "url": "https://www.alexanarch.org/captures/data-provenance-explorer-aio-20261029/",
+     "read": "2026-10-29",
+     "for": "the Initiative's own page text, on the Overview's cards (the pages render nothing to this record's fetcher)"
     }
    },
    "unchecked": [
-    "current scope",
-    "other collections"
+    "other collections",
+    "the explorers' pages directly (they render by script)"
    ],
    "lifecycle": {
     "state": "active",
@@ -1358,18 +1577,28 @@
     "provenance",
     "monitoring"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/data-provenance-explorer-aio-20261029/",
+     "label": "«data provenance explorer» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "arxiv.org/abs/2310.16787",
      "basis": "operator"
     },
     "unit": {
-     "src": "arxiv.org/abs/2310.16787",
+     "src": "alexanarch.org/captures/data-provenance-explorer-aio-20261029",
      "basis": "operator"
     },
     "count": {
-     "src": "arxiv.org/abs/2310.16787",
+     "src": "alexanarch.org/captures/data-provenance-explorer-aio-20261029",
      "basis": "operator"
     },
     "self_description": {
@@ -1420,7 +1649,23 @@
    "roles": [
     "provenance"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/cms-ai-and-copyright-case-tracker-aio-20261029/",
+     "label": "«cms ai and copyright case tracker» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    },
+    {
+     "rel": "neighbour",
+     "url": null,
+     "label": "Taylor Wessing — AI & Copyright Case Tracker",
+     "note": "a census candidate (surfaced by the capture of 2026-10-29)"
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "cms.law/en/int/publication/artificial-intelligence-and-copyright-case-tracker",
@@ -1445,6 +1690,10 @@
     "item_fields": {
      "src": "cms.law/en/int/publication/artificial-intelligence-and-copyright-case-tracker",
      "basis": "observed"
+    },
+    "note": {
+     "src": "cms.law/en/int/publication/artificial-intelligence-and-copyright-case-tracker",
+     "basis": "observed"
     }
    },
    "properties": {},
@@ -1456,7 +1705,8 @@
     "litigation details",
     "each party's arguments",
     "judgment"
-   ]
+   ],
+   "note": "the page's summary states that 'there are now over 40 copyright claims being litigated in the US'; none is in the tracked list. Its region menu (Africa, Asia-Pacific, the Americas, the Middle East) leads to the firm's offices"
   },
   {
    "slug": "search-arena",
@@ -1496,7 +1746,17 @@
    "roles": [
     "evaluation"
    ],
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/search-arena-leaderboard-aio-20261029/",
+     "label": "«search arena leaderboard» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
    "evidence": {
     "operator": {
      "src": "arena.ai/leaderboard/search",
@@ -1548,8 +1808,8 @@
    "kind": "database",
    "unit": "capture: a dated composition by a machine answer surface at a named address, with its verbatim transcript and the sources it engaged",
    "count": {
-    "value": "792 captures, 981 observations, registry v12.345",
-    "as_of": "2026-10-28"
+    "value": "812 captures, 1001 observations, registry v12.365",
+    "as_of": "2026-10-29"
    },
    "note": "the operator of this meta-aggregator; its page carries the same fields as every other",
    "sources": {
@@ -1632,7 +1892,7 @@
    "unit": "AI Incident Database report, classified by risk domain, cause, harm, severity and EU AI Act risk level",
    "intake": "AIID reports processed by an LLM pipeline (Arcola AI) against the MIT Risk Repository taxonomy and a severity rating based on CSET's AI Harm Taxonomy",
    "count": {
-    "value": "the page gives both 'more than 1,400' (description) and 1,600 (heading)",
+    "value": "the page gives both 'more than 1,400' (description) and 1,600 (heading); Google's card summary gives 1,752, and the MIT AI Risk Navigator 'more than 1300'",
     "as_of": "2026-10-28"
    },
    "note": "the page states that patterns 'should be taken as indicative'; reporting is voluntary and no systematic validation study is complete",
@@ -1644,6 +1904,15 @@
     {
      "rel": "derived_from",
      "target": "ai-incident-database"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/mit-ai-incident-tracker-aio-20261029/",
+     "label": "«mit ai incident tracker» — Google AI Overview, 2026-10-29",
+     "note": "the composition layer's account of the entity, seated in the Capture Registry",
+     "dates": {
+      "observed": "2026-10-29"
+     }
     }
    ],
    "sources": {
@@ -1689,8 +1958,204 @@
      "basis": "reading"
     }
    }
+  },
+  {
+   "slug": "papers-with-code-revival",
+   "name": "Papers with Code (paperswithcode.co)",
+   "aka": [
+    "the PapersWithCode revival"
+   ],
+   "url": "https://paperswithcode.co/",
+   "operator": "Niels Rogge, of Hugging Face's open-source team; code in the huggingface GitHub organization",
+   "founded": "2026 (the r/MachineLearning announcement card is dated 18 May 2026)",
+   "kind": "database",
+   "roles": [
+    "discovery"
+   ],
+   "lifecycle": {
+    "state": "active"
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read (title and description only; the page renders by script)"
+   },
+   "self_description": "Discover trending machine-learning papers, methods, benchmarks, datasets, and open-source implementations.",
+   "unit": "paper, with its code, datasets and benchmark results",
+   "intake": "automated imports from Hugging Face, arXiv, GitHub and public leaderboards (its README)",
+   "license": "code Apache-2.0",
+   "data_access": "code at github.com/huggingface/paperswithcode",
+   "note": "the README states that it 'recreates the original paperswithcode.com, which Meta retired in 2025'. Whether it is an official Hugging Face product is described differently: Google's Overview says Hugging Face 'officially stepped in'; AI Weekly called it an individual effort",
+   "relations": [
+    {
+     "rel": "revives",
+     "target": "papers-with-code"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029/",
+     "label": "«is papers with code still active» — Google AI Overview, 2026-10-29",
+     "note": "the capture that occasioned this record",
+     "dates": {
+      "observed": "2026-10-29"
+     }
+    }
+   ],
+   "sources": {
+    "github.com/huggingface/paperswithcode": {
+     "url": "https://github.com/huggingface/paperswithcode",
+     "read": "2026-10-29",
+     "for": "description, licence, README"
+    },
+    "paperswithcode.co": {
+     "url": "https://paperswithcode.co/",
+     "read": "2026-10-29",
+     "for": "title and description"
+    },
+    "alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029": {
+     "url": "https://www.alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029/",
+     "read": "2026-10-29",
+     "for": "the announcement date (card), the operator"
+    }
+   },
+   "evidence": {
+    "operator": {
+     "src": "alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029",
+     "basis": "third-party"
+    },
+    "founded": {
+     "src": "alexanarch.org/captures/is-papers-with-code-still-active-aio-20261029",
+     "basis": "observed"
+    },
+    "self_description": {
+     "src": "paperswithcode.co",
+     "basis": "operator"
+    },
+    "intake": {
+     "src": "github.com/huggingface/paperswithcode",
+     "basis": "operator"
+    },
+    "license": {
+     "src": "github.com/huggingface/paperswithcode",
+     "basis": "operator"
+    },
+    "note": {
+     "src": "github.com/huggingface/paperswithcode",
+     "basis": "operator"
+    }
+   },
+   "properties": {
+    "admission_requires_harm": {
+     "value": "no",
+     "short": "no",
+     "src": null,
+     "basis": "reading"
+    },
+    "version_history": {
+     "value": "its code history is public; data history not read",
+     "short": "code only",
+     "src": "github.com/huggingface/paperswithcode",
+     "basis": "observed"
+    }
+   },
+   "disambiguation": [
+    {
+     "neighbour": "papers-with-code",
+     "context": "paperswithcode.com, Atlas ML, Meta, 2018–2025, the data dumps"
+    },
+    {
+     "neighbour": "codesota",
+     "context": "codesota.com, routing layer, /api/sota"
+    },
+    {
+     "self": true,
+     "context": "paperswithcode.co, Niels Rogge, huggingface/paperswithcode, Apache-2.0"
+    }
+   ],
+   "negative_tags": [
+    "NOT paperswithcode.com, which ended 24 July 2025",
+    "NOT CodeSOTA"
+   ],
+   "unchecked": [
+    "its item counts",
+    "its own statement of who runs it"
+   ]
   }
  ],
- "schema_version": "2.1",
- "schema_note": "v2 (2026-10-28): each page has two nodes, the MMRS record and the entity it describes; relations are typed; each assertion carries a source and a basis (operator statement, third-party report, our observation, our reading); lifecycle is kept apart from the observation that saw it; roles are plural; properties answer traversal questions; holdings carry event, inclusion and observed dates."
+ "schema_version": "2.2",
+ "schema_note": "v2 (2026-10-28): each page has two nodes, the MMRS record and the entity it describes; relations are typed; each assertion carries a source and a basis (operator statement, third-party report, our observation, our reading); lifecycle is kept apart from the observation that saw it; roles are plural; properties answer traversal questions; holdings carry event, inclusion and observed dates.",
+ "candidates": [
+  {
+   "name": "MIT AI Risk Navigator",
+   "url": null,
+   "surfaced_by": "mit-ai-risk-repository-aio-20261029",
+   "note": "MIT's interactive tool linking the repository to incidents, frameworks and mitigations"
+  },
+  {
+   "name": "AI Hallucination Cases Tracker (UK), Natural and Artificial Law",
+   "url": null,
+   "surfaced_by": "ai-hallucination-cases-database-aio-20261029",
+   "note": "a UK companion to Charlotin's database"
+  },
+  {
+   "name": "HAQQ — AI Hallucination Cases: The 2,202-Case Sanctions Tracker",
+   "url": null,
+   "surfaced_by": "ai-hallucination-cases-database-aio-20261029",
+   "note": "a vendor tracker built on Charlotin's count"
+  },
+  {
+   "name": "Taylor Wessing — AI & Copyright Case Tracker",
+   "url": null,
+   "surfaced_by": "cms-ai-and-copyright-case-tracker-aio-20261029",
+   "note": "Carlsen, Penguin, GEMA and Koda cases against OpenAI, Suno and Meta"
+  },
+  {
+   "name": "amplifying-ai/awesome-generative-engine-optimization",
+   "url": null,
+   "surfaced_by": "awesome-geo-aio-20261029",
+   "note": "a GEO awesome list"
+  },
+  {
+   "name": "henu-wang/awesome (Awesome GEO)",
+   "url": null,
+   "surfaced_by": "awesome-geo-aio-20261029",
+   "note": "a GEO awesome list"
+  },
+  {
+   "name": "aGEO — Awesome GEO platforms (geo.deeflect.com)",
+   "url": "https://geo.deeflect.com/",
+   "surfaced_by": "awesome-geo-aio-20261029",
+   "note": "free GEO platforms and a repository list, by Dmitry Kargaev"
+  },
+  {
+   "name": "AEO VC — AEO & GEO Research Papers",
+   "url": null,
+   "surfaced_by": "aeo-vision-top-arxiv-papers-geo-aio-20261029",
+   "note": "a research list"
+  },
+  {
+   "name": "GeoReady — GEO Research",
+   "url": "https://geoready.dev/",
+   "surfaced_by": "aeo-vision-top-arxiv-papers-geo-aio-20261029",
+   "note": "a research list"
+  },
+  {
+   "name": "Presenc AI — Essential GEO Research Papers, 10 Must-Read Studies",
+   "url": null,
+   "surfaced_by": "presenc-ai-geo-academic-papers-aio-20261029",
+   "note": "a sibling of the 34-paper page"
+  },
+  {
+   "name": "NewsGuard — False Claim Fingerprints",
+   "url": null,
+   "surfaced_by": "newsguard-ai-false-claim-monitor-aio-20261029",
+   "note": "NewsGuard's catalogue of false claims, the monitor's prompt source"
+  },
+  {
+   "name": "AI Incidents, Failures & Controversies Database (Kaggle)",
+   "url": null,
+   "surfaced_by": "ai-incident-database-aio-20261029",
+   "note": "a dataset with a near name to AIID"
+  }
+ ],
+ "candidates_note": "Aggregators the composition layer surfaced in captures of the census's entities, listed for reading. Each enters the census once it has been read at its own pages."
 }
