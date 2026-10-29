@@ -24,6 +24,34 @@ def topbar(on=""):
     return (f'<header class="top"><div class="in"><a class="wm" href="/"><i></i>MMRS</a><nav class="nav-top">{nav}</nav><div class="sp"></div>'
             f'<form class="srch" action="/aggregators/" method="get" role="search"><input name="q" type="search" placeholder="Search {len(ROWS)} aggregators" aria-label="Search the aggregators"></form>'
             '</div></header>')
+def fold(title, inner, n=None, desc="", open_=False):
+    """A collapsed section: the title stays visible, the depth opens on a tap; the content is in the page either way."""
+    if not inner: return ""
+    return (f'<details class="sec"{" open" if open_ else ""}><summary><span class="st">{title}</span><span class="sd">{desc}</span>'
+            + (f'<span class="sn">{n}</span>' if n else "") + f'</summary><div class="body">{inner}</div></details>')
+SVG = lambda d: f'<svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{d}</svg>'
+FLOW = [  # the five questions of the meta-aggregator's own sentence, each with the fields that answer it
+    ("words", "In its own words", "what it is", '<path d="M7 8h18v12H14l-5 4v-4H7z"/><path d="M11 13h10M11 16.5h6"/>',
+     "What it is <b>in its own words</b>: its self-description, quoted from its own pages, with the source and the date read. MMRS's reading of it is written apart, as the article."),
+    ("runs", "Who runs it", "the operator", '<circle cx="16" cy="11" r="4.5"/><path d="M7 26c1.5-5 5-7.5 9-7.5s7.5 2.5 9 7.5"/>',
+     "<b>Who runs it</b>: the operator, as the entity names itself, with the founding date where its pages give one."),
+    ("admits", "What it admits", "and in what unit", '<rect x="6" y="6" width="20" height="20" rx="2"/><path d="M6 13h20M13 13v13"/>',
+     "<b>What it admits and in what unit</b>: its intake, its unit, what it records per item, its count with the date of the count, its cadence, its data access and licence."),
+    ("leaves", "What it leaves out", "the negative tags", '<circle cx="16" cy="16" r="10"/><path d="M9 23 23 9" stroke="var(--accent)"/>',
+     "<b>What it leaves out</b>: the negative tags, each a thing the entity is not, and the names it can be confused with."),
+    ("ends", "Where its record goes", "when it ends", '<path d="M6 16h14"/><path d="M16 11l5 5-5 5"/><path d="M24 7v18"/>',
+     "<b>Where its record goes when it ends</b>: the lifecycle, kept apart from the observation, and the relations a sunset leaves: the replacement named, the claimed successors, the revivals, the data dump."),
+]
+def flow_html():
+    steps = '<span class="arrow" aria-hidden="true"></span>'.join(
+        f'<button type="button" class="step" aria-expanded="false" aria-controls="x-{k}">{SVG(d)}<b>{t}</b><span>{u}</span></button>' for k, t, u, d, _ in FLOW)
+    xs = "".join(f'<p id="x-{k}" class="x" hidden>{x}</p>' for k, _, _, _, x in FLOW)
+    return (f'<div class="flow" role="group" aria-label="What each record answers">{steps}</div><div class="flow-x">{xs}</div>'
+            '<noscript><style>.flow-x .x{display:block!important}</style></noscript>'
+            '<p class="fig-cap">Each record answers five questions, every field with its source and its basis. Tap a step for the fields.</p>')
+FLOW_JS = ("<script>document.querySelectorAll('.flow .step').forEach(b=>b.onclick=()=>{const on=b.getAttribute('aria-expanded')!=='true';"
+           "document.querySelectorAll('.flow .step').forEach(x=>{x.setAttribute('aria-expanded','false');document.getElementById(x.getAttribute('aria-controls')).hidden=true});"
+           "if(on){b.setAttribute('aria-expanded','true');document.getElementById(b.getAttribute('aria-controls')).hidden=false}})</script>")
 def cite_text(r):
     return f'Lee Sharks, ed. "{r["name"]}." MMRS meta-aggregator, Machine-Mediated Reception Studies, compiled {D["compiled"]}. {BASE}{r["slug"]}/'
 def actions(r):
@@ -126,7 +154,7 @@ def page(r):
     dis = "".join(f'<tr><td>{"this entity" if n.get("self") else (link(n["neighbour"]) if n.get("neighbour") else e(n["label"]))}</td><td>{e(n["context"])}</td></tr>' for n in r.get("disambiguation", []))
     neg = "".join(f"<li>{e(t)}</li>" for t in r.get("negative_tags", []))
     bat = r.get("battery")
-    bath = f'<h2>Reception battery</h2><p class="d">{e(bat["status"])}</p><h3>Queries</h3><ul>{"".join(f"<li>{e(q)}</li>" for q in bat["queries"])}</ul><h3>Checks</h3><ul>{"".join(f"<li>{e(c)}</li>" for c in bat["checks"])}</ul>' if bat else ""
+    bath = f'<p class="d">{e(bat["status"])}</p><h3>Queries</h3><ul>{"".join(f"<li>{e(q)}</li>" for q in bat["queries"])}</ul><h3>Checks</h3><ul>{"".join(f"<li>{e(c)}</li>" for c in bat["checks"])}</ul>' if bat else ""
     src = "".join(f'<li><a href="{e(s["url"])}">{e(s["url"])}</a><div class="d">read {e(s["read"])} · {e(s["for"])}</div></li>' for s in r["sources"].values())
     unc = "".join(f"<li>{e(u)}</li>" for u in r.get("unchecked", []))
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -136,8 +164,8 @@ def page(r):
 <h2>Entity</h2><table>{tbl}</table><p class="legend">op operator statement · 3p third-party report · obs our observation · rd our reading</p>
 <div class="art">{body}</div>{f'<h2>For a research question</h2><table>{props}</table>' if props else ''}
 <h2>Relations</h2>{relhtml or '<p class="pend">None recorded yet.</p>'}
-{f'<h2>Disambiguation</h2><table>{dis}</table>' if dis else ''}{f'<h2>Negative tags</h2><ul>{neg}</ul>' if neg else ''}{bath}
-{signup(r["slug"], r["name"])}<h2>Provenance</h2><ul>{src}</ul><h2>Cite this record</h2><div class="cite"><p id="cite">{e(cite_text(r))}</p><p class="d">Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity</p></div>{f'<h2>Not yet checked</h2><ul>{unc}</ul>' if unc else ''}
+<div style="margin-top:34px">{fold("Disambiguation", f'<table>{dis}</table>' if dis else '', len(r.get("disambiguation", [])), "the names it can be confused with")}{fold("Negative tags", f'<ul>{neg}</ul>' if neg else '', len(r.get("negative_tags", [])), "what it is not")}{fold("Reception battery", bath, len(bat["queries"]) if bat else None, "the queries and checks for its machine reception")}{fold("Provenance", f'<ul>{src}</ul>', len(r["sources"]), "every source read, with its date")}{fold("Not yet checked", f'<ul>{unc}</ul>' if unc else '', len(r.get("unchecked", [])), "what remains to read")}</div>
+<div style="margin-top:34px">{signup(r["slug"], r["name"])}</div><h2>Cite this record</h2><div class="cite"><p id="cite">{e(cite_text(r))}</p><p class="d">Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity</p></div>
 <div class="foot">Editor: Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>). This page is the MMRS record of the entity above: its reading, fields and relations are MMRS's, and each field carries its source and basis. Record {BASE}{r["slug"]}/ · entity {BASE}{r["slug"]}/#entity · compiled {D["compiled"]}</div></div>{COPY_JS}{SIGNUP_JS}</body></html>"""
 def cand_html():
     C = D.get("candidates") or []
@@ -155,11 +183,11 @@ def index():
     cell = lambda r, k: f'<span title="{e(r["properties"][k]["value"])}">{e(r["properties"][k]["short"])}</span>' if k in r.get("properties", {}) else '<span class="d">·</span>'
     cand = cand_html()
     trav = "".join(f'<tr><td><a href="{r["slug"]}/">{e(r["name"])}</a></td>' + "".join(f"<td>{cell(r, k)}</td>" for k, _ in PROPS) + "</tr>" for r in sorted(ROWS, key=lambda r: r["name"].lower()))
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MMRS meta-aggregator</title><meta name="description" content="The aggregators of machine-mediated reception work, each formalized as an entity with sourced, dated fields."><link rel="canonical" href="{BASE}">{HEAD}</head><body>{topbar("Aggregators")}<div class="wrap">\n<div class="crumb"><a href="/">Machine-Mediated Reception Studies</a> / aggregators</div><h1>MMRS meta-aggregator</h1><div class="kernel">The aggregators of machine-mediated reception work, each formalized as an entity: what it is in its own words, who runs it, what it admits and in what unit, what it leaves out, and where its record goes when it ends. {len(ROWS)} aggregators, compiled {D["compiled"]}.</div>
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MMRS meta-aggregator</title><meta name="description" content="The aggregators of machine-mediated reception work, each formalized as an entity with sourced, dated fields."><link rel="canonical" href="{BASE}">{HEAD}</head><body>{topbar("Aggregators")}<div class="wrap">\n<div class="crumb"><a href="/">Machine-Mediated Reception Studies</a> / aggregators</div><h1>MMRS meta-aggregator</h1><div class="kernel">The aggregators of machine-mediated reception work, each formalized as an entity: what it is in its own words, who runs it, what it admits and in what unit, what it leaves out, and where its record goes when it ends. {len(ROWS)} aggregators, compiled {D["compiled"]}.</div>{flow_html()}
 <div class="f"><button class="on" data-all="1">all</button>{btn("role", roles)}</div><div class="f">{btn("kind", kinds)}</div><div id="L" class="grid">{rows}</div><p class="none" id="none">No aggregator matches.</p><div style="margin-top:34px">{signup()}</div>
 {cand}<h2>Traverse by question</h2><div class="tw"><table class="tv"><tr><td></td>{"".join(f"<td>{q}</td>" for _, q in PROPS)}</tr>{trav}</table></div><p class="legend">· not yet read</p>
 <div class="foot">Machine-Mediated Reception Studies · machinemediation.org · editor Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>)</div></div>
-<script>let fs={{}};const q0=new URLSearchParams(location.search).get('q')||'';const qi=document.querySelector('.srch input');qi.value=q0;const qf=document.querySelector('.srch');qf.onsubmit=ev=>{{ev.preventDefault();apply()}};qi.oninput=()=>apply();function apply(){{const q=qi.value.trim().toLowerCase();let n=0;document.querySelectorAll('.f button').forEach(x=>{{const k=x.dataset.role?'role':x.dataset.kind?'kind':'all';x.classList.toggle('on',k==='all'?!fs.role&&!fs.kind:fs[k]===x.dataset[k])}});document.querySelectorAll('#L .row').forEach(r=>{{const ok=(!fs.role||r.dataset.roles.split(' ').includes(fs.role))&&(!fs.kind||r.dataset.kind===fs.kind)&&(!q||q.split(' ').filter(Boolean).every(w=>r.dataset.text.includes(w)));r.style.display=ok?'':'none';n+=ok}});document.getElementById('none').style.display=n?'none':'block'}}document.querySelectorAll('.f button').forEach(b=>b.onclick=()=>{{if(b.dataset.all){{fs={{}}}}else{{const k=b.dataset.role?'role':'kind',v=b.dataset[k];fs[k]=fs[k]===v?undefined:v}}apply()}});apply()</script>{SIGNUP_JS}</body></html>"""
+<script>let fs={{}};const q0=new URLSearchParams(location.search).get('q')||'';const qi=document.querySelector('.srch input');qi.value=q0;const qf=document.querySelector('.srch');qf.onsubmit=ev=>{{ev.preventDefault();apply()}};qi.oninput=()=>apply();function apply(){{const q=qi.value.trim().toLowerCase();let n=0;document.querySelectorAll('.f button').forEach(x=>{{const k=x.dataset.role?'role':x.dataset.kind?'kind':'all';x.classList.toggle('on',k==='all'?!fs.role&&!fs.kind:fs[k]===x.dataset[k])}});document.querySelectorAll('#L .row').forEach(r=>{{const ok=(!fs.role||r.dataset.roles.split(' ').includes(fs.role))&&(!fs.kind||r.dataset.kind===fs.kind)&&(!q||q.split(' ').filter(Boolean).every(w=>r.dataset.text.includes(w)));r.style.display=ok?'':'none';n+=ok}});document.getElementById('none').style.display=n?'none':'block'}}document.querySelectorAll('.f button').forEach(b=>b.onclick=()=>{{if(b.dataset.all){{fs={{}}}}else{{const k=b.dataset.role?'role':'kind',v=b.dataset[k];fs[k]=fs[k]===v?undefined:v}}apply()}});apply()</script>{SIGNUP_JS}{FLOW_JS}</body></html>"""
 def front_block():
     top = [r for r in sorted(ROWS, key=lambda r: r["name"].lower()) if not any(x["rel"] == "part_of" for x in r["relations"])]
     li = "".join(f'<a class="mini" href="/aggregators/{r["slug"]}/"><b>{e(r["name"])}</b><span>{e(r["kind"])} · {e(", ".join(r["roles"]))}{" · ended" if r["lifecycle"]["state"] == "ended" else ""}</span></a>' for r in top)
