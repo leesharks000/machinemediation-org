@@ -1,9 +1,8 @@
 /* MMRS design system (2026-10-29). Source: scripts/meta_aggregator/style.css; build.py writes it to /assets/mmrs.css,
-   which the meta-aggregator pages and the landing page link. Light by default, dark by the reader's setting. */
-:root{--bg:#fbfaf7;--fg:#17160f;--accent:#b3261e;--dim:#6b6a63;--teal:#0f7b5f;--red:#b3261e;--border:#e7e4dc;--surface:#ffffff;--soft:#f3f1ec;
+   which the meta-aggregator pages and the landing page link. Light always (2026-10-30: the operator chose the white-ground options; the automatic dark scheme is removed). */
+:root{color-scheme:light;--bg:#fbfaf7;--fg:#17160f;--accent:#b3261e;--dim:#6b6a63;--teal:#0f7b5f;--red:#b3261e;--border:#e7e4dc;--surface:#ffffff;--soft:#f3f1ec;
 --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',monospace;--serif:'Source Serif 4',Georgia,serif;
 --accent2:var(--accent)}
-@media (prefers-color-scheme:dark){:root{--bg:#0f0f0e;--fg:#ecebe6;--dim:#a09f97;--border:#2a2923;--surface:#161613;--soft:#1c1b18;--accent:#ef6a55;--teal:#3fcf9f;--red:#ef6a55}}
 *{margin:0;padding:0;box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
