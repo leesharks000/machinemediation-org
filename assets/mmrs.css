@@ -82,7 +82,7 @@ a.bl{border:none}
 .foot{margin-top:56px;border-top:1px solid var(--border);padding-top:16px;font-size:.84em;color:var(--dim);line-height:1.8}
 td,li,.d,.art p,.kernel,h1,.foot,.cite p{overflow-wrap:anywhere}
 
-@media (max-width:860px){.nav-top{display:none}.srch{min-width:0;flex:1}.top .sp{display:none}}
+@media (max-width:860px){.top .in{flex-wrap:wrap}.nav-top{order:3;width:100%;flex-wrap:wrap}.srch{min-width:0;flex:1}.top .sp{display:none}.more-nav .mn{left:auto;right:0}}
 @media (max-width:600px){td{padding:10px 12px}td:first-child{width:34%}.kernel{font-size:1.16em}.btn{padding:7px 13px}.wrap{padding-top:28px}}
 
 /* email signup (2026-10-29) */
@@ -136,3 +136,6 @@ details.more[open]>summary{margin-bottom:8px}
 .pipe .lbl{font-size:.72em;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);margin:0 0 8px}
 @media (max-width:600px){.flow .arrow{display:none}.flow .step{flex:1 1 40%}.pipe .prow{gap:4px}.pipe .arrow{width:10px}.pipe .node{padding:10px 4px}}
 @media (max-width:600px){details.sec>summary{flex-wrap:wrap}details.sec>summary .sd{display:none}}
+
+/* 2026-11-15: the top bar carries five links and a More menu (the landing page's second nav row merged in) */
+.nav-top{align-items:center}.more-nav{position:relative}.more-nav>summary{list-style:none;cursor:pointer;padding:6px 11px;border-radius:999px;color:var(--dim)}.more-nav>summary::-webkit-details-marker{display:none}.more-nav>summary:after{content:" \25BE"}.more-nav[open]>summary,.more-nav>summary:hover{color:var(--fg);background:var(--soft)}.more-nav .mn{position:absolute;top:100%;left:0;z-index:20;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:160px;box-shadow:0 8px 24px rgba(0,0,0,.08)}.more-nav .mn a{padding:6px 10px;border-radius:8px}

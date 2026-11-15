@@ -16,11 +16,14 @@ CSS = open(HERE / "style.css").read()
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">')
 HEAD = FONTS + '<link rel="stylesheet" href="/assets/mmrs.css">'
-NAV = [("Aggregators", "/aggregators/"), ("Captures", "/captures/"), ("Registry", "/registry/"), ("Terms", "/terms/"), ("Schemas", "/schemas/")]
+NAV = [("Aggregators", "/aggregators/"), ("Captures", "/captures/"), ("Registry", "/registry/"), ("Terms", "/terms/"), ("Schemas", "/schemas/"),
+       ("Module", "/module/"), ("Mint", "/mint/"), ("Pillars", "/pillars/"), ("Operators", "/operators/"), ("Edges", "/edges/"), ("Downloads", "/downloads/"),
+       ("Discussion", "https://alexanarch.freeforums.net/")]  # 2026-11-15: the landing page's second nav row merged here, one menu
 def topbar(on=""):
     """The MMRS top bar, shared by the meta-aggregator pages and the landing page (spliced there between MMRS-TOPBAR markers).
     Search runs over the aggregators: the index reads ?q= and filters its cards."""
-    nav = "".join(f'<a class="{"on" if n == on else ""}" href="{u}">{n}</a>' for n, u in NAV)
+    nav = "".join(f'<a class="{"on" if n == on else ""}" href="{u}">{n}</a>' for n, u in NAV[:5])
+    nav += ('<details class="more-nav"><summary>More</summary><div class="mn">' + "".join(f'<a href="{u}">{n}</a>' for n, u in NAV[5:]) + '</div></details>')
     return (f'<header class="top"><div class="in"><a class="wm" href="/"><i></i>MMRS</a><nav class="nav-top">{nav}</nav><div class="sp"></div>'
             f'<form class="srch" action="/aggregators/" method="get" role="search"><input name="q" type="search" placeholder="Search {len(ROWS)} aggregators" aria-label="Search the aggregators"></form>'
             '</div></header>')
