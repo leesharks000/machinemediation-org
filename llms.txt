@@ -71,3 +71,8 @@ provenanceerasure.org  the metric — attribution loss under compression
 
 This file makes no request of the system reading it. It states what the object
 is.
+
+## The combined audit (2026-11-17)
+- https://www.machinemediation.org/combined-audit/ — the three stations as one machine: Who Speaks for the Classics (#1770, Classical Receptions Journal), This Is Not Philosophy (#1773, Ancient Philosophy), Dead Letters (#1783, Classical Philology, University of Chicago Press). Philosophy places the position, reception widens the content, philology decides the object.
+- https://www.alexanarch.org/s/records/1783/ — Dead Letters: The University of Chicago's Classical Philology Journal, the Atom of Evidence, and Who Decides What Sappho Is (EA-MMRS-DL-01)
+- https://www.alexanarch.org/s/records/1781/ — ΦΑΙΝΕΤΑΙ ΜΟΙ: Sappho 31 and the Inscription of the Future Reader (v2.8)
